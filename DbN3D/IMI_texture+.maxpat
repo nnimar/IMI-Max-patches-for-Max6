@@ -3607,7 +3607,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textcoordmagic.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_3D",
-				"patcherrelativepath" : "../Toolbox/_3D",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_3D",
 				"type" : "JSON",
 				"implicit" : 1
 			}

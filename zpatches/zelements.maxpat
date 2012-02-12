@@ -31,12 +31,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.0, 183.0, 108.0, 34.0 ],
-					"presentation_rect" : [ 552.0, 183.0, 0.0, 0.0 ],
+					"patching_rect" : [ 552.0, 183.0, 128.0, 20.0 ],
 					"text" : "Max 6 \"menu bar\" bug"
 				}
 
@@ -51,7 +49,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 488.0, 158.0, 162.0, 18.0 ],
-					"presentation_rect" : [ 72.0, 191.0, 0.0, 0.0 ],
 					"text" : "send jit.window fsmenubar 0"
 				}
 
@@ -65,7 +62,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 488.0, 184.0, 59.0, 20.0 ],
-					"presentation_rect" : [ 72.0, 217.0, 0.0, 0.0 ],
 					"text" : "universal"
 				}
 
@@ -2473,7 +2469,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -209,7 +209,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.0, 111.0, 72.0, 20.0 ],
-									"text" : "loadmess 0"
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -1655,7 +1655,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 88.0, 195.0, 83.0, 18.0 ],
-									"text" : "285 117 24"
+									"text" : "139 48 180"
 								}
 
 							}
@@ -1744,7 +1744,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.0, 195.0, 87.0, 18.0 ],
-									"text" : "285 117 24"
+									"text" : "140 51 184"
 								}
 
 							}

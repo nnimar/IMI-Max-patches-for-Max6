@@ -594,7 +594,7 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 16.0, 265.0, 102.0, 20.0 ],
+					"patching_rect" : [ 15.0, 265.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"tags" : "",
@@ -1409,7 +1409,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textcoordmagic.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_3D",
-				"patcherrelativepath" : "../Toolbox/_3D",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_3D",
 				"type" : "JSON",
 				"implicit" : 1
 			}
