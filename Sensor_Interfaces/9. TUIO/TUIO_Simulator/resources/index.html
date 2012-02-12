@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+reacTIVision documentation
+</title>
+<style type="text/css">
+body { font-family:sans-serif; }
+A:link { color:red; }
+</style>
+</head>
+
+<body>
+<h1>object handling</h1>
+
+<ul>
+<li>simple mouse-dragging moves the selected object ON the table
+<li>right mouse-dragging rotates the selected object ON the table
+<p>
+<li>SHIFT mouse-dragging moves the selected object OVER the table surface
+<li>moving the object out of the (round) table area, deactivates it
+<li>active objects have a black rotation mark, inactive objects are grayed out
+<p>
+<li>SHIFT right-mouse-dragging changes the face of an object with multiple faces 
+<p>
+<li>moving the mouse over an object holding the CTRL-key displays the object's type 
+</ul>
+
+<h1>cursor handling</h1>
+
+<ul>
+<li>simple mouse-dragging on the table creates cursor events
+<li>press SHIFT while dragging to create a sticky cursor
+<li>continue to manipulate any sticky cursor by moving its gray area
+<li>remove sticky cursors by SHIFT clicking in its gray area
+<li>press CTRL while dragging to add a cursor to a group
+<li>moving any cursor of a group will move the other group members
+<li>remove cursors from a group by CTRL clicking in its dark gray area
+</ul>
+
+<h1>configuration</h1>
+
+<ul>
+<li>the general configuration can be edited in XML format in the file resources/config.xml
+<li>you can edit generic object classes and configure specifc object instances
+<li>you can create volumetric objects by assigning various fiducial IDs to an instance
+<li>it is possible to freely assign any ID in any particular order
+<li>fiducial IDs can appear various times in the same setup 
+</ul>
+
+</body>
+</html>

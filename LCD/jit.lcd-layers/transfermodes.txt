@@ -1,0 +1,1 @@
+copy, 0;or, 1;xor, 2;bic, 3;notcopy, 4;notor, 5;notxor, 6;notbic, 7;blend, 32;addpin, 33;addover, 34;subpin, 35;transparent, 36;addmax, 37;subover, 38;addmin, 39;

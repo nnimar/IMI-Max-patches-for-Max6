@@ -1,0 +1,6 @@
+This library is experimental !!
+
+Sending all inputs all the times means you can't do other stuff like
+Servos, LEDs, motors, etc.
+
+If inputs are all you need, then this will work. :)

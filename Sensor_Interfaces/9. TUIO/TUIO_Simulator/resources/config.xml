@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+
+<!-- 
+
+shapes:
+circle, square, roundsquare, triangle, star
+octagon, ellipse, cross, pentagon, hexagon
+
+colors:
+RGB in HEX format
+white=FFFFFF, black=000000, red=FF0000, etc.
+
+-->
+
+<tuio>
+
+<!-- 
+the definition of the various object classes 
+you can define the shape, color and name of each object
+-->
+
+<class name="blue cube" shape="square" color="174EAA" description="blue cube"/>
+<class name="red cube" shape="square" color="DC1F2C" description="red cube"/>
+<class name="green cube" shape="square" color="0EA44A" description="green cube"/>
+<class name="yellow cube" shape="square" color="E4D81F" description="yellow cube"/>
+
+<class name="blue square" shape="square" color="174EAA" description="blue square"/>
+<class name="red square" shape="square" color="DC1F2C" description="red square"/>
+<class name="green square" shape="square" color="0EA44A" description="green square"/>
+<class name="yellow square" shape="square" color="E4D81F" description="yellow square"/>
+
+<class name="blue disk" shape="circle" color="174EAA" description="blue disk"/>
+<class name="red disk" shape="circle" color="DC1F2C" description="red disk"/>
+<class name="green disk" shape="circle" color="0EA44A" description="green disk"/>
+<class name="yellow disk" shape="circle" color="E4D81F" description="yellow disk"/>
+
+<class name="blue pentagon" shape="pentagon" color="174EAA" description="blue pentagon"/>
+<class name="red pentagon" shape="pentagon" color="DC1F2C" description="red pentagon"/>
+<class name="green pentagon" shape="pentagon" color="0EA44A" description="green pentagon"/>
+<class name="yellow pentagon" shape="pentagon" color="E4D81F" description="yellow pentagon"/>
+
+<class name="blue round" shape="roundsquare" color="174EAA" description="blue round"/>
+<class name="red round" shape="roundsquare" color="DC1F2C" description="red round"/>
+<class name="green round" shape="roundsquare" color="0EA44A" description="green round"/>
+<class name="yellow round" shape="roundsquare" color="E4D81F" description="yellow round"/>
+
+<class name="blue star" shape="star" color="174EAA" description="blue star"/>
+<class name="red star" shape="star" color="DC1F2C" description="red star"/>
+<class name="green star" shape="star" color="0EA44A" description="green star"/>
+<class name="yellow star" shape="star" color="E4D81F" description="yellow star"/>
+
+<!-- 
+the definition of the actual object instances 
+you can define the type, IDs and position  each object
+-->
+
+
+<!-- 
+first we create four squares with the according fiducial IDs from 0-3
+-->
+
+<object class="blue square" fiducials="0" active="false" xpos="120" ypos="30" angle="0"/>
+<object class="red square" fiducials="1" active="false" xpos="180" ypos="30" angle="0"/>
+<object class="yellow square" fiducials="2" active="false" xpos="240" ypos="30" angle="0"/>
+<object class="green square" fiducials="3" active="false" xpos="300" ypos="30" angle="0"/>
+
+<!-- 
+here we create four disks with the IDs from 4-7
+-->
+
+<object class="blue disk" fiducials="4" active="false" xpos="500" ypos="30" angle="0"/>
+<object class="red disk" fiducials="5" active="false" xpos="560" ypos="30" angle="0"/>
+<object class="yellow disk" fiducials="6" active="false" xpos="620" ypos="30" angle="0"/>
+<object class="green disk" fiducials="7" active="false" xpos="680" ypos="30" angle="0"/>
+
+<!-- 
+here we create 2x four rounded squares, please note that you can actually repeat fiducial IDs
+-->
+
+<object class="blue round" fiducials="8" active="false" xpos="50" ypos="100" angle="0"/>
+<object class="blue round" fiducials="8" active="false" xpos="50" ypos="160" angle="0"/>
+<object class="red round" fiducials="9" active="false" xpos="50" ypos="220" angle="0"/>
+<object class="red round" fiducials="9" active="false" xpos="50" ypos="280" angle="0"/>
+
+<object class="yellow round" fiducials="10" active="false" xpos="50" ypos="340" angle="0"/>
+<object class="yellow round" fiducials="10" active="false" xpos="50" ypos="400" angle="0"/>
+<object class="green round" fiducials="11" active="false" xpos="50" ypos="460" angle="0"/>
+<object class="green round" fiducials="11" active="false" xpos="50" ypos="520" angle="0"/>
+
+<!-- 
+these are four cubes, please note that we use four sides with different IDs
+-->
+
+<object class="blue cube" fiducials="12,13,14,15" active="false" xpos="750" ypos="100" angle="0"/>
+<object class="red cube" fiducials="16,17,18,19" active="false" xpos="750" ypos="160" angle="0"/>
+<object class="yellow cube" fiducials="20,21,22,23" active="false" xpos="750" ypos="220" angle="0"/>
+<object class="green cube" fiducials="24,25,26,27" active="false" xpos="750" ypos="280" angle="0"/>
+
+<!-- 
+here we create four pentagon shaped objects
+-->
+
+<object class="blue pentagon" fiducials="28" active="false" xpos="120" ypos="570" angle="0"/>
+<object class="red pentagon" fiducials="29" active="false" xpos="180" ypos="570" angle="0"/>
+<object class="yellow pentagon" fiducials="30" active="false" xpos="240" ypos="570" angle="0"/>
+<object class="green pentagon" fiducials="31" active="false" xpos="300" ypos="570" angle="0"/>
+
+<!-- 
+and finally four star shaped objects
+-->
+
+<object class="blue star" fiducials="32" active="false" xpos="500" ypos="570" angle="0"/>
+<object class="red star" fiducials="33" active="false" xpos="560" ypos="570" angle="0"/>
+<object class="yellow star" fiducials="34" active="false" xpos="620" ypos="570" angle="0"/>
+<object class="green star" fiducials="35" active="false" xpos="685" ypos="570" angle="0"/>
+
+</tuio>
