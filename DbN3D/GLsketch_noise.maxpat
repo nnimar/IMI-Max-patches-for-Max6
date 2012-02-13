@@ -597,15 +597,15 @@
 					"patching_rect" : [ 496.0, 236.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1176,15 +1176,15 @@
 													"patching_rect" : [ 100.0, 122.0, 95.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"tags" : "",
+														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
-														"default_fontsize" : 14.0,
 														"fontname" : "Arial",
+														"default_fontsize" : 14.0,
 														"description" : "",
-														"globalpatchername" : "",
 														"fontface" : 0,
-														"fontsize" : 14.0
+														"fontsize" : 14.0,
+														"tags" : ""
 													}
 ,
 													"text" : "p cellblock_size"
@@ -1347,15 +1347,15 @@
 									"patching_rect" : [ 147.0, 142.0, 112.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"tags" : "",
+										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"default_fontsize" : 14.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"fontsize" : 14.0,
+										"tags" : ""
 									}
 ,
 									"text" : "p cells2numbers"
@@ -1512,15 +1512,15 @@
 					"patching_rect" : [ 399.0, 376.0, 75.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p example"
@@ -2192,15 +2192,15 @@
 					"patching_rect" : [ 481.0, 376.0, 130.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p sketch_examples"
@@ -2223,28 +2223,33 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 230.0, 251.0, 39.0 ],
+					"patching_rect" : [ 59.0, 230.0, 249.0, 38.0 ],
 					"text" : "take every number plane by plane and apply them to the $1, $2, ...."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 191.0, 106.0, 23.0 ],
-					"text" : "see the matrix :"
+					"patching_rect" : [ 33.0, 191.0, 106.0, 24.0 ],
+					"text" : "see the matrix"
 				}
 
 			}
@@ -2835,15 +2840,15 @@
 									"patching_rect" : [ 102.0, 116.0, 95.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"tags" : "",
+										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"default_fontsize" : 14.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"fontsize" : 14.0,
+										"tags" : ""
 									}
 ,
 									"text" : "p cellblock_size"
@@ -2995,15 +3000,15 @@
 					"patching_rect" : [ 140.0, 191.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p cells2numbers"
@@ -3093,13 +3098,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 101.0, 137.0, 23.0 ],
+					"patching_rect" : [ 152.0, 101.0, 139.0, 24.0 ],
 					"text" : "3 planes / 1 number"
 				}
 
@@ -3246,6 +3253,56 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 55.0, 128.147247, 238.0 ],
 					"rounded" : 30
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-19",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 44.5, 64.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-52",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 522.5, 65.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton"
 				}
 
 			}
@@ -3401,7 +3458,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.for.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

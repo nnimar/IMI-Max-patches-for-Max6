@@ -28,6 +28,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 206.0, 92.0, 127.0, 24.0 ],
+					"presentation_rect" : [ 206.0, 91.0, 0.0, 0.0 ],
+					"text" : "open the camera"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -357,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.0, 95.0, 51.0, 18.0 ],
+					"patching_rect" : [ 150.0, 95.0, 51.0, 18.0 ],
 					"text" : "settings"
 				}
 
@@ -448,14 +464,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 211.0, 325.0, 20.0 ],
-					"text" : "background averaging coefficient (larger values smoother)"
+					"patching_rect" : [ 241.0, 208.0, 218.0, 24.0 ],
+					"text" : "background averaging coefficient"
 				}
 
 			}
@@ -553,7 +571,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.0, 95.0, 35.0, 18.0 ],
+					"patching_rect" : [ 68.0, 95.0, 35.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -620,19 +638,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 324.0, 68.0, 20.0 ],
 					"text" : "difference"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-39",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 174.0, 431.0, 20.0 ],
-					"text" : "using named matrix charlie to efficiently merge alpha channel in jit.pack below"
 				}
 
 			}
@@ -760,7 +765,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 158.5, 121.0, 21.5, 121.0 ],
+					"midpoints" : [ 159.5, 121.0, 21.5, 121.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -892,7 +897,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 80.5, 121.0, 21.5, 121.0 ],
+					"midpoints" : [ 77.5, 121.0, 21.5, 121.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 

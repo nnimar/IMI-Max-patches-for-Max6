@@ -597,11 +597,11 @@
 					"patching_rect" : [ 10.0, 274.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -622,7 +622,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 527.0, 174.0, 70.0, 20.0 ],
+					"patching_rect" : [ 537.0, 202.0, 70.0, 20.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -739,7 +739,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 504.0, 174.0, 20.0, 20.0 ]
+					"patching_rect" : [ 514.0, 202.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -752,7 +752,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 203.0, 95.0, 18.0 ],
+					"patching_rect" : [ 514.0, 228.0, 95.0, 18.0 ],
 					"text" : "auto_material $1"
 				}
 
@@ -1111,7 +1111,7 @@
 					"destination" : [ "obj-73", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 513.5, 277.5, 183.5, 277.5 ],
+					"midpoints" : [ 523.5, 277.5, 183.5, 277.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

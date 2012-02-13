@@ -539,12 +539,12 @@
 					"patching_rect" : [ 476.0, 208.662506, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : ""
@@ -802,12 +802,12 @@
 					"patching_rect" : [ 14.0, 299.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : ""
@@ -1167,8 +1167,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 394.0, 168.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
 						"storage_rect" : [ 583, 69, 1034, 197 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0
 					}
 ,
@@ -1494,7 +1494,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "news.json",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/z",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/z",
 				"type" : "JSON",
 				"implicit" : 1
 			}

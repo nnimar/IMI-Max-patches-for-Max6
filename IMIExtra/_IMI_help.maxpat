@@ -187,7 +187,7 @@
 					"patching_rect" : [ 490.0, 50.0, 257.0, 21.0 ],
 					"spacing_x" : 1.0,
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "Max101", "Max102", "Max103" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"valign" : 2,
@@ -555,16 +555,16 @@
 ,
 					"patching_rect" : [ 528.0, 503.0, 20.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -575,9 +575,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
@@ -587,7 +587,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.0, 325.0, 230.0, 25.0 ],
+					"patching_rect" : [ 525.0, 325.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[6]"
 				}
@@ -634,7 +634,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "IMI_max5", "IMI_toolbox", "list_toolbox", "Jitter_overview", "MSP_overview" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
@@ -969,16 +969,16 @@
 ,
 					"patching_rect" : [ 277.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -989,9 +989,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
@@ -1001,7 +1001,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.0, 325.0, 230.0, 25.0 ],
+					"patching_rect" : [ 273.0, 325.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[5]"
 				}
@@ -1048,7 +1048,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "IMI_text_basics", "IMI_text_alpha", "IMI_type_text", "IMI_text_compare", "IMI_coll2text2d", "IMI_text_passingtime" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
@@ -1383,16 +1383,16 @@
 ,
 					"patching_rect" : [ 24.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -1403,9 +1403,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
@@ -1415,7 +1415,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.0, 325.0, 230.0, 25.0 ],
+					"patching_rect" : [ 20.0, 325.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[4]"
 				}
@@ -1462,7 +1462,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "IMI_jit_lcd", "IMI_jit_lcd+", "IMI_lcd_drawing", "IMI_lcd_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
@@ -1797,16 +1797,16 @@
 ,
 					"patching_rect" : [ 530.0, 274.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -1817,9 +1817,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
@@ -1829,7 +1829,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 524.0, 92.0, 230.0, 25.0 ],
+					"patching_rect" : [ 524.0, 92.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[3]"
 				}
@@ -1878,7 +1878,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
@@ -2213,16 +2213,16 @@
 ,
 					"patching_rect" : [ 279.0, 276.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -2233,9 +2233,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
@@ -2245,7 +2245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 272.0, 92.0, 230.0, 25.0 ],
+					"patching_rect" : [ 272.0, 92.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[2]"
 				}
@@ -2261,7 +2261,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "help for jit.qt.movie", ",", "a bit more help for jit.qt.movie", ",", "sound to animation", ",", "advanced quicktime play" ],
+					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "advanced quicktime play" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2292,8 +2292,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
-					"tabs" : [ "IMI_quicktime", "IMI_quicktime+", "IMI_sound_to_animation", "quicktime_smooth" ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "quicktime_smooth" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2627,16 +2627,16 @@
 ,
 					"patching_rect" : [ 21.0, 278.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -2647,9 +2647,9 @@
 				"box" : 				{
 					"align" : 1,
 					"arrow" : 0,
-					"bgcolor" : [ 0.235294, 0.235294, 0.235294, 1.0 ],
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 16.233263,
+					"fontsize" : 18.0,
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
@@ -2659,7 +2659,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 20.0, 92.0, 230.0, 25.0 ],
+					"patching_rect" : [ 20.0, 92.0, 230.0, 27.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "title[1]"
 				}
@@ -2706,7 +2706,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.235294, 0.235294, 0.235294, 0.478431 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
 					"tabs" : [ "IMI_introduction", "IMI_Max_sandpit", "Max_patching_rules", "IMI_credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
@@ -2739,7 +2739,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 32.0, 26.0, 17.0 ],
+					"patching_rect" : [ 649.0, 31.0, 26.0, 17.0 ],
 					"text" : "r bg"
 				}
 
@@ -2851,7 +2851,7 @@
 							"revision" : 3
 						}
 ,
-						"rect" : [ 1416.0, 647.0, 914.0, 674.0 ],
+						"rect" : [ 383.0, 44.0, 914.0, 674.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -4230,16 +4230,16 @@
 ,
 					"patching_rect" : [ 436.0, 54.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"tags" : "",
-						"description" : "",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p Content"
@@ -4265,7 +4265,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-27",
@@ -4282,7 +4282,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-22",
@@ -4299,7 +4299,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-17",
@@ -4316,7 +4316,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-12",
@@ -4333,7 +4333,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-40",
@@ -4350,7 +4350,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-2",
@@ -4367,7 +4367,7 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 0.745098, 0.745098, 0.745098, 1.0 ],
+					"bgcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
 					"grad1" : [ 0.8, 0.8, 0.803922, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-34",
@@ -4898,21 +4898,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "IMIMax101.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../examples/IMIpatches/z",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax102.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../examples/IMIpatches/z",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax103.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../examples/IMIpatches/z",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

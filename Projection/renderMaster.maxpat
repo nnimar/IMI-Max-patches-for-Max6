@@ -261,11 +261,11 @@
 					"patching_rect" : [ 58.0, 153.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -626,11 +626,11 @@
 					"patching_rect" : [ 9.0, 215.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -1225,11 +1225,11 @@
 					"patching_rect" : [ 8.0, 298.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -1310,9 +1310,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 555.852783, 115.0, 151.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 766, 44, 1220, 302 ],
 						"parameter_enable" : 0,
-						"client_rect" : [ 4, 44, 358, 172 ],
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"client_rect" : [ 4, 44, 358, 172 ]
 					}
 ,
 					"text" : "pattrstorage render_master",
@@ -1331,7 +1331,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 555.852783, 88.0, 74.0, 20.0 ],
 					"restore" : 					{
-						"flonum" : [ 0.262 ],
+						"flonum" : [ 0.45 ],
 						"flonum[10]" : [ 0.79 ],
 						"flonum[1]" : [ 0.12 ],
 						"flonum[2]" : [ 0.1 ],
@@ -1372,7 +1372,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 471.852783, 199.0, 60.0, 20.0 ],
+					"patching_rect" : [ 471.852783, 219.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1989,11 +1989,11 @@
 					"patching_rect" : [ 146.0, 307.348267, 237.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Helvetica",
-						"default_fontsize" : 12.0,
 						"fontname" : "Helvetica",
+						"tags" : "",
+						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,

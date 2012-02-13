@@ -34,7 +34,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 142.0, 45.0, 20.0 ],
+					"patching_rect" : [ 59.0, 142.0, 45.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -610,15 +610,15 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 261.662506, 102.0, 20.0 ],
+					"patching_rect" : [ 8.0, 261.662506, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : ""
@@ -637,7 +637,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.574097, 285.638458, 83.0, 20.0 ],
+					"patching_rect" : [ 7.574097, 285.638458, 83.0, 20.0 ],
 					"text" : "jit.window foo"
 				}
 
@@ -770,12 +770,12 @@
 					"patching_rect" : [ 7.0, 428.0, 65.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : ""
@@ -794,7 +794,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 204.0, 80.0, 35.0 ]
+					"patching_rect" : [ 10.0, 204.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 178.0, 68.0, 20.0 ],
+					"patching_rect" : [ 10.0, 178.0, 68.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -1003,12 +1003,12 @@
 					"patching_rect" : [ 552.0, 290.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"tags" : ""
@@ -1402,7 +1402,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 12.0, 116.0, 116.0, 20.0 ],
+					"patching_rect" : [ 10.0, 116.0, 116.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1416,7 +1416,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 87.0, 63.0, 20.0 ],
+					"patching_rect" : [ 10.0, 88.0, 63.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -1429,7 +1429,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 59.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 59.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1471,7 +1471,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 53.0, 132.147247, 260.0 ],
+					"patching_rect" : [ 3.0, 53.0, 128.147247, 261.0 ],
 					"rounded" : 30
 				}
 
@@ -1656,7 +1656,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 118.5, 167.0, 21.5, 167.0 ],
+					"midpoints" : [ 116.5, 167.0, 19.5, 167.0 ],
 					"source" : [ "obj-3", 2 ]
 				}
 

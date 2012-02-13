@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 464.0, 225.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -653,7 +653,7 @@
 , 			{
 				"box" : 				{
 					"coldef" : [ [ 0, 132, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 35,
+					"cols" : 5,
 					"colwidth" : 84,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -688,13 +688,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 288.0, 68.0, 20.0 ],
+					"patching_rect" : [ 150.0, 288.0, 83.0, 24.0 ],
 					"text" : "the matrix"
 				}
 
@@ -846,16 +847,16 @@
 ,
 					"patching_rect" : [ 463.0, 293.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p gl_primitives"
@@ -891,13 +892,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 135.0, 176.0, 20.0 ],
+					"patching_rect" : [ 142.0, 135.0, 189.0, 24.0 ],
 					"text" : "3 planes / 5 dimension (0. 1.)"
 				}
 
@@ -951,13 +953,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 174.0, 202.0, 20.0 ],
+					"patching_rect" : [ 188.0, 174.0, 215.0, 24.0 ],
 					"text" : "map input range to output range "
 				}
 
@@ -1068,7 +1071,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 355.164703, 406.0, 39.0 ],
+					"patching_rect" : [ 9.0, 355.164703, 274.0, 39.0 ],
 					"text" : "jit.gl.mesh mesh @draw_mode tri_strip @lighting_enable 1 @auto_normals 1"
 				}
 
@@ -1321,7 +1324,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

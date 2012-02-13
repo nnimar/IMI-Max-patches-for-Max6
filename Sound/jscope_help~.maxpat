@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 3
+		}
+,
 		"rect" : [ 596.0, 44.0, 543.0, 420.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 596.0, 44.0, 543.0, 420.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
@@ -12,12 +16,16 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-5",
@@ -79,6 +87,7 @@
 					"border" : 2,
 					"bordercolor" : [ 0.392157, 0.792157, 0.117647, 1.0 ],
 					"id" : "obj-2",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -181,6 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 444.0, 196.0, 50.0, 20.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 23.0 ],
 					"triscale" : 0.9
@@ -197,6 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 274.0, 177.0, 50.0, 20.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 23.0 ],
 					"triscale" : 0.9
@@ -213,6 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 200.0, 98.0, 50.0, 20.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 23.0 ],
 					"triscale" : 0.9
@@ -353,6 +365,7 @@
 					"grad1" : [ 0.88, 0.98, 0.78, 1.0 ],
 					"grad2" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"id" : "obj-32",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -366,6 +379,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 377.5, 235.5, 153.5, 235.5 ],
 					"source" : [ "obj-19", 0 ]
@@ -375,6 +389,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 362.5, 235.5, 153.5, 235.5 ],
 					"source" : [ "obj-20", 0 ]
@@ -384,8 +399,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -393,8 +408,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -402,8 +417,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -411,8 +426,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 2 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -420,6 +435,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 453.5, 225.5, 495.5, 225.5 ],
 					"source" : [ "obj-25", 0 ]
@@ -429,6 +445,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 283.5, 218.5, 153.5, 218.5 ],
 					"source" : [ "obj-26", 0 ]
@@ -438,8 +455,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -447,8 +464,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -456,6 +473,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 67.5, 173.0, 181.5, 173.0 ],
 					"source" : [ "obj-30", 0 ]
@@ -465,11 +483,19 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-31", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jscope~.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Sound",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Sound",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

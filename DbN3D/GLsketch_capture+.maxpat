@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 3.0, 44.0, 699.0, 475.0 ],
+		"rect" : [ 3.0, 44.0, 699.0, 437.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 11.0, 245.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -667,7 +667,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 29.0, 587.0, 36.0 ],
-					"text" : "You can render multiple GL objects to a single texture by using a jit.gl.sketch object with \"drawobject\" messages and setting the @capture of the jit.gl.sketch object (Andrew Benson)",
+					"text" : "you can render multiple GL objects to a single texture by using a jit.gl.sketch object with \"drawobject\" messages and setting the @capture of the jit.gl.sketch object (Andrew Benson)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

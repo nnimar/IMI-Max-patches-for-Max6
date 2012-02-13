@@ -124,6 +124,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
@@ -131,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 144.0, 143.0, 38.0 ],
+					"patching_rect" : [ 243.0, 144.0, 155.0, 38.0 ],
 					"text" : "capture the mouse position in the window"
 				}
 
@@ -339,16 +340,16 @@
 ,
 					"patching_rect" : [ 673.0, 27.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p texture"
@@ -1120,16 +1121,16 @@
 ,
 					"patching_rect" : [ 99.0, 247.0, 141.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p viewing_transforms"
@@ -1773,18 +1774,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 152.5, 70.0, 118.0, 23.0 ],
+					"patching_rect" : [ 151.5, 70.0, 118.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -2200,7 +2201,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textcoordmagic.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_3D",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_3D",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_3D",
 				"type" : "JSON",
 				"implicit" : 1
 			}
