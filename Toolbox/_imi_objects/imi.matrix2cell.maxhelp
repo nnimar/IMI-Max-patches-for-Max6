@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 2.0, 44.0, 497.0, 307.0 ],
+		"rect" : [ 100.0, 100.0, 497.0, 307.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -150,8 +150,8 @@
 				"box" : 				{
 					"bblend" : 100,
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
-					"cols" : 2,
-					"colwidth" : 28,
+					"cols" : 4,
+					"colwidth" : 76,
 					"fblend" : 100,
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -168,7 +168,7 @@
 					"patching_rect" : [ 13.0, 202.0, 344.0, 98.0 ],
 					"precision" : 0,
 					"rowheight" : 20,
-					"rows" : 2,
+					"rows" : 4,
 					"savemode" : 1,
 					"selsync" : 0,
 					"vscroll" : 0,
@@ -185,8 +185,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 127.0, 132.0, 23.0 ],
-					"text" : "jit.noise 1 char 2 2"
+					"patching_rect" : [ 13.0, 127.0, 141.0, 23.0 ],
+					"text" : "jit.noise 1 char 2 4"
 				}
 
 			}

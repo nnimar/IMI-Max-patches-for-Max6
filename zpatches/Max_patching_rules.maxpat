@@ -214,7 +214,7 @@
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 691.0, 33.0, 55.0, 18.0 ],
-					"text" : "rev 005",
+					"text" : "rev 006",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -283,7 +283,7 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -4139.0, 0.0 ],
+					"offset" : [ -1188.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.274536, 52.0, 583.0, 370.0 ]
@@ -292,6 +292,7 @@
 			}
 , 			{
 				"box" : 				{
+					"clicktabcolor" : [ 0.0, 0.321569, 0.545098, 1.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 18.0,

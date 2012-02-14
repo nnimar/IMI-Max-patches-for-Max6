@@ -12,7 +12,7 @@
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Arial Bold",
 		"gridonopen" : 0,
 		"gridsize" : [ 50.0, 50.0 ],
 		"gridsnaponopen" : 0,
@@ -27,6 +27,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 317.0, 234.0, 78.0, 24.0 ],
+					"text" : "the matrix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 52.0, 59.0, 174.0, 24.0 ],
+					"text" : "change matrix dimension"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -653,7 +681,7 @@
 , 			{
 				"box" : 				{
 					"coldef" : [ [ 0, 132, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 5,
+					"cols" : 62,
 					"colwidth" : 84,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -681,7 +709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.832947, 287.0, 100.0, 23.0 ],
+					"patching_rect" : [ 48.832947, 285.0, 100.0, 23.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -689,14 +717,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 288.0, 83.0, 24.0 ],
-					"text" : "the matrix"
+					"patching_rect" : [ 150.0, 286.0, 136.0, 24.0 ],
+					"text" : "the matrix (numbers)"
 				}
 
 			}
@@ -872,7 +900,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 87.847061, 50.0, 23.0 ],
+					"patching_rect" : [ 70.0, 93.847061, 50.0, 23.0 ],
 					"text" : "r draw"
 				}
 
@@ -893,13 +921,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 135.0, 189.0, 24.0 ],
+					"patching_rect" : [ 142.0, 141.0, 181.0, 24.0 ],
 					"text" : "3 planes / 5 dimension (0. 1.)"
 				}
 
@@ -954,13 +982,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 174.0, 215.0, 24.0 ],
+					"patching_rect" : [ 188.0, 180.0, 201.0, 24.0 ],
 					"text" : "map input range to output range "
 				}
 
@@ -972,7 +1000,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.832947, 221.411774, 265.167053, 32.588234 ]
+					"patching_rect" : [ 48.832947, 230.411774, 265.167053, 32.588234 ]
 				}
 
 			}
@@ -1002,7 +1030,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 89.847061, 52.0, 21.0 ],
+					"patching_rect" : [ 9.0, 95.847061, 52.0, 21.0 ],
 					"text" : "dim $1"
 				}
 
@@ -1016,7 +1044,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 172.082367, 175.0, 23.0 ],
+					"patching_rect" : [ 9.0, 178.082367, 175.0, 23.0 ],
 					"text" : "jit.map @map 0 1 -0.5 0.5"
 				}
 
@@ -1071,7 +1099,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 355.164703, 274.0, 39.0 ],
+					"patching_rect" : [ 9.0, 361.164703, 404.0, 39.0 ],
 					"text" : "jit.gl.mesh mesh @draw_mode tri_strip @lighting_enable 1 @auto_normals 1"
 				}
 
@@ -1099,7 +1127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 133.670563, 129.0, 23.0 ],
+					"patching_rect" : [ 9.0, 139.670563, 129.0, 23.0 ],
 					"text" : "jit.noise 3 float32 5"
 				}
 
@@ -1150,7 +1178,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 79.5, 123.835281, 18.5, 123.835281 ],
+					"midpoints" : [ 79.5, 129.835281, 18.5, 129.835281 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1250,7 +1278,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 213.117645, 58.332947, 213.117645 ],
+					"midpoints" : [ 18.5, 219.117645, 58.332947, 219.117645 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1269,7 +1297,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 276.541199, 58.332947, 276.541199 ],
+					"midpoints" : [ 18.5, 275.541199, 58.332947, 275.541199 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
