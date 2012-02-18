@@ -529,14 +529,14 @@
 ,
 					"patching_rect" : [ 469.0, 546.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : ""
 					}
@@ -964,14 +964,14 @@
 ,
 					"patching_rect" : [ 495.0, 574.0, 84.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 18.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 18.0,
 						"description" : ""
 					}
@@ -1241,14 +1241,14 @@
 ,
 					"patching_rect" : [ 78.0, 547.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : ""
 					}
@@ -1336,26 +1336,29 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 11.595184,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 572.0, 106.0, 20.0 ],
+					"patching_rect" : [ 185.0, 571.0, 123.0, 24.0 ],
 					"text" : "absolute position"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
 					"fontname" : "Arial Bold",
 					"fontsize" : 11.595184,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 267.0, 97.0, 20.0 ],
+					"patching_rect" : [ 433.0, 247.0, 102.0, 39.0 ],
 					"text" : "relative position"
 				}
 

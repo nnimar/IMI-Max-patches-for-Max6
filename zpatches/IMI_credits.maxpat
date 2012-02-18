@@ -2,15 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 3
 		}
 ,
-		"rect" : [ 2.0, 44.0, 648.0, 498.0 ],
+		"rect" : [ 2.0, 44.0, 648.0, 497.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 648.0, 498.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
 		"default_fontface" : 0,
@@ -18,26 +16,17 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 462.849884, 437.0, 27.0 ],
-					"text" : "Special thanks to : Nicolas Collins"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -48,15 +37,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 3
 						}
 ,
 						"rect" : [ 678.0, 44.0, 634.0, 167.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 678.0, 44.0, 634.0, 167.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -64,12 +51,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -85,18 +76,22 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 502.0, 465.849884, 141.0, 27.0 ],
+					"patching_rect" : [ 498.0, 464.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p plugins credits"
@@ -112,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 313.0, 151.0, 226.0, 19.0 ],
+					"patching_rect" : [ 312.0, 150.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -129,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 144.0, 207.0, 26.0 ],
+					"patching_rect" : [ 312.0, 143.0, 207.0, 26.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -143,7 +138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 396.849884, 635.0, 48.0 ],
+					"patching_rect" : [ 4.0, 395.849884, 635.0, 48.0 ],
 					"text" : "Video and picture : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, iMal Belgium."
 				}
 
@@ -157,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 127.0, 634.0, 89.0 ],
+					"patching_rect" : [ 4.0, 126.0, 634.0, 89.0 ],
 					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/\nor simplified help files from the original Max application. Also, quite a few patches are taken from Andrew Benson's excellent Jitter tutorials."
 				}
 
@@ -171,7 +166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 234.0, 635.0, 151.0 ],
+					"patching_rect" : [ 4.0, 233.0, 635.0, 152.0 ],
 					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim (2012)"
 				}
 
@@ -185,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 43.0, 638.0, 69.0 ],
+					"patching_rect" : [ 4.0, 42.0, 638.0, 69.0 ],
 					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image  at the London College of Communication (United Kingdom)."
 				}
 
@@ -200,7 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 6.0, 102.0, 31.0 ],
+					"patching_rect" : [ 3.0, 5.0, 102.0, 31.0 ],
 					"text" : "Credits",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -214,11 +209,12 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-20",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 641.0, 33.399673 ],
+					"patching_rect" : [ 3.0, 3.0, 641.0, 33.399673 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -227,13 +223,14 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-6", 1 ]
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 4
+		}
+,
 		"rect" : [ 2.0, 44.0, 468.0, 476.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 44.0, 468.0, 476.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
 		"default_fontface" : 0,
@@ -12,12 +16,16 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -28,10 +36,14 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 4
+						}
+,
 						"rect" : [ 476.0, 44.0, 157.0, 152.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 476.0, 44.0, 157.0, 152.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -39,12 +51,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -55,24 +71,29 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 5.0, 5.0, 147.0, 141.0 ],
 									"text" : "// Example 1-2: noFill\n\nsize(200,200);\nsmooth();\nbackground(255);\nnoFill();\nstroke(0);\nellipseMode(CENTER);\nellipse(60,60,100,100);"
 								}
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 235.0, 449.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p processing_code"
@@ -81,13 +102,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 144.0, 289.0, 20.0 ],
+					"patching_rect" : [ 136.0, 141.0, 279.0, 24.0 ],
 					"text" : "ellipseMode(center) ; choose 'center' or 'corner'"
 				}
 
@@ -101,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 111.0, 163.0, 21.0 ],
+					"patching_rect" : [ 29.0, 108.0, 163.0, 21.0 ],
 					"text" : "frameoval 60 60 100 100"
 				}
 
@@ -122,15 +144,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
-					"fontsize" : 11.595184,
+					"fontsize" : 11.0,
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.0, 63.367401, 169.0, 33.0 ],
-					"text" : "initialize : white background, stroke 1, \"do it\""
+					"patching_rect" : [ 288.0, 60.367401, 171.0, 23.0 ],
+					"text" : "white bckg, stroke 1, \"do it\""
 				}
 
 			}
@@ -152,27 +174,30 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 11.595184,
+					"bubble" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 113.0, 141.0, 20.0 ],
-					"text" : "ellipse(60,60,100,100);"
+					"patching_rect" : [ 193.0, 106.0, 151.0, 24.0 ],
+					"text" : "ellipse(60,60,100,100)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 198.0, 92.0, 20.0 ],
-					"text" : "size(200,200);"
+					"patching_rect" : [ 217.0, 197.0, 99.0, 24.0 ],
+					"text" : "size(200,200)"
 				}
 
 			}
@@ -256,6 +281,7 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -269,6 +295,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 17.5, 180.183701, 38.5, 180.183701 ],
 					"source" : [ "obj-10", 0 ]
@@ -278,8 +305,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-132", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-107", 0 ]
 				}
 
@@ -287,8 +314,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-132", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -296,8 +323,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-107", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -305,11 +332,19 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "imi.draw.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

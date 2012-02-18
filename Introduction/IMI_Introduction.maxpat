@@ -28,6 +28,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 377.0, 194.0, 90.0, 23.0 ],
+					"presentation_rect" : [ 80.0, 438.0, 0.0, 0.0 ],
+					"text" : "Max objects"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
@@ -36,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 309.0, 243.0, 89.0, 24.0 ],
-					"presentation_rect" : [ 310.0, 243.0, 0.0, 0.0 ],
 					"text" : "click here !"
 				}
 
@@ -380,16 +393,16 @@
 ,
 					"patching_rect" : [ 327.0, 470.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"description" : ""
 					}
 ,
 					"text" : "p messages"
@@ -748,16 +761,16 @@
 ,
 					"patching_rect" : [ 417.0, 471.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"description" : ""
 					}
 ,
 					"text" : "p logic"

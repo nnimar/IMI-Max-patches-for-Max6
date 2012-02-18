@@ -13,11 +13,10 @@
 16, matrix_feedback "matrix feedback";
 20, -----------------------;
 21, <category> 3 Grab;
-22, IMI_videograb_(1cam) "simple video grab";
+22, IMI_videograb "simple video grab";
 23, IMI_videograb_(4cam) "video grab for 2 to 4 cameras";
 24, IMI_timelapse "timelapse";
-25, grab_slide "grab to slide";
-26, grab_hotspot "grab movements";
+25, grab_hotspot "grab movements";
 30, -----------------------;
 31, <category> 4 Effect;
 32, IMI_compositing_modes "methods for compositing";

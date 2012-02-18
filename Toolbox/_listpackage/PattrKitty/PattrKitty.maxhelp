@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 2.0, 44.0, 538.0, 415.0 ],
+		"rect" : [ 100.0, 100.0, 538.0, 415.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,13 +28,27 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.249197,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 290.699249, 334.212189, 212.0, 23.0 ],
+					"presentation_rect" : [ 281.699249, 258.212189, 0.0, 0.0 ],
+					"text" : "Give a scripting name : hello"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.074553, 59.880463, 78.0, 27.0 ],
+					"patching_rect" : [ 8.074553, 59.880463, 63.0, 23.0 ],
 					"text" : "Presets"
 				}
 
@@ -48,24 +62,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 107.699249, 132.007385, 77.0, 20.0 ],
+					"patching_rect" : [ 107.699249, 133.212158, 77.0, 20.0 ],
 					"restore" : 					{
 						"MyGsw" : [ 1 ],
-						"MyGsw2" : [ 1 ],
-						"MyMenu" : [ 3 ],
+						"MyGsw2" : [ 0 ],
+						"MyMenu" : [ 9 ],
 						"autohelp_see_menu" : [ 0 ],
-						"checkbox[10]" : [ 0 ],
-						"checkbox[1]" : [ 0 ],
+						"checkbox[10]" : [ 1 ],
+						"checkbox[1]" : [ 1 ],
 						"checkbox[2]" : [ 0 ],
-						"checkbox[3]" : [ 0 ],
+						"checkbox[3]" : [ 1 ],
 						"checkbox[4]" : [ 1 ],
 						"checkbox[5]" : [ 0 ],
 						"checkbox[6]" : [ 0 ],
 						"checkbox[7]" : [ 0 ],
-						"checkbox[8]" : [ 0 ],
+						"checkbox[8]" : [ 1 ],
 						"checkbox[9]" : [ 0 ],
-						"myDial" : [ 39 ],
-						"mySlider" : [ 43 ]
+						"myDial" : [ 6 ],
+						"mySlider" : [ 0 ]
 					}
 ,
 					"text" : "autopattr top",
@@ -115,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.510895, 350.332642, 99.0, 21.0 ],
+					"patching_rect" : [ 15.510895, 343.332642, 99.0, 21.0 ],
 					"text" : "varname hello"
 				}
 
@@ -129,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.510895, 362.332642, 63.0, 20.0 ],
+					"patching_rect" : [ 421.510895, 366.332642, 63.0, 20.0 ],
 					"text" : "See Also:",
 					"varname" : "autohelp_see_title"
 				}
@@ -146,7 +160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 400.510895, 382.332642, 100.0, 20.0 ],
+					"patching_rect" : [ 423.510895, 386.332642, 100.0, 20.0 ],
 					"varname" : "autohelp_see_menu"
 				}
 
@@ -161,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.510895, 362.332642, 64.0, 17.0 ],
+					"patching_rect" : [ 464.510895, 366.332642, 64.0, 17.0 ],
 					"text" : "prepend help"
 				}
 
@@ -176,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.510895, 362.332642, 45.0, 17.0 ],
+					"patching_rect" : [ 487.510895, 366.332642, 45.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -221,7 +235,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.236385, 378.690002, 144.0, 18.0 ]
+					"patching_rect" : [ 16.236385, 371.690002, 144.0, 18.0 ]
 				}
 
 			}
@@ -230,12 +244,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.249197,
 					"id" : "obj-12",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.699249, 191.212189, 205.0, 39.0 ],
-					"text" : "These objects all have names, which lets autopattr see them"
+					"patching_rect" : [ 290.699249, 191.212189, 212.0, 72.0 ],
+					"text" : "These objects all have names, which lets autopattr see them\n(cmd-i for the inspector, search\nfor scripting name)"
 				}
 
 			}
@@ -259,7 +273,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -695,9 +708,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.699247, 157.212158, 201.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 200, 200, 800, 500 ],
 						"parameter_enable" : 0,
-						"client_rect" : [ 748, 70, 1148, 570 ],
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"client_rect" : [ 748, 70, 1148, 570 ]
 					}
 ,
 					"text" : "pattrstorage myData @savemode 2",
@@ -741,7 +754,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.699247, 335.212189, 278.0, 72.0 ],
+					"patching_rect" : [ 7.699247, 335.212189, 279.0, 76.0 ],
 					"rounded" : 21
 				}
 
@@ -772,7 +785,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 393.510895, 358.332642, 140.0, 50.0 ],
+					"patching_rect" : [ 416.510895, 362.332642, 117.0, 49.0 ],
 					"varname" : "autohelp_see_panel"
 				}
 
@@ -1007,7 +1020,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "myData.xml",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_listpackage/PattrKitty",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_listpackage/PattrKitty",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 1.0, 44.0, 471.0, 536.0 ],
@@ -39,7 +39,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 477.0, 44.0, 194.0, 254.0 ],
@@ -84,16 +84,16 @@
 ,
 					"patching_rect" : [ 240.0, 507.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
-						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p processing_code"
@@ -242,14 +242,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 11.595184,
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 64.367401, 242.0, 20.0 ],
-					"text" : "initialize : clear, white background, \"do it\""
+					"patching_rect" : [ 206.0, 61.367401, 200.0, 24.0 ],
+					"text" : "clear, white background, \"do it\""
 				}
 
 			}
@@ -285,14 +286,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 11.595184,
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 257.0, 88.0, 20.0 ],
-					"text" : "size(200,200);"
+					"patching_rect" : [ 222.0, 255.0, 100.0, 24.0 ],
+					"text" : "size(200,200)"
 				}
 
 			}
@@ -319,8 +321,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.0, 160.0, 135.0, 34.0 ],
-					"text" : "1. choose colour (bang)\n2. draw (list)"
+					"patching_rect" : [ 332.0, 160.0, 90.0, 34.0 ],
+					"text" : "1. colour (bang)\n2. draw (list)"
 				}
 
 			}
@@ -587,7 +589,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.draw.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

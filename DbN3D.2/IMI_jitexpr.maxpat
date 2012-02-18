@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 2.0, 44.0, 567.0, 521.0 ],
@@ -29,14 +29,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 488.0, 168.0, 24.0 ],
+					"patching_rect" : [ 230.0, 488.0, 160.0, 24.0 ],
 					"text" : "1 plane, 5 x 5 dimension"
 				}
 

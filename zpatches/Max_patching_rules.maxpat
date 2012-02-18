@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 2.0, 44.0, 739.0, 441.0 ],
@@ -283,7 +283,7 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1188.0, 0.0 ],
+					"offset" : [ -4139.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.274536, 52.0, 583.0, 370.0 ]
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 56.0, 120.0, 373.0 ],
+					"presentation_rect" : [ 10.0, 56.0, 124.0, 373.0 ],
 					"tabs" : [ "object", "experiment", "hack", "simulation", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
 				}
 

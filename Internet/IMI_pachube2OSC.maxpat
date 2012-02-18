@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 645.0, 400.0 ],
@@ -27,6 +27,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 381.0, 53.0, 186.0, 39.0 ],
+					"text" : "enter your pachube API"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -143,19 +159,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 58.0, 186.0, 23.0 ],
-					"text" : "enter your Pachube API :"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 1.0, 0.741176, 0.611765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -169,7 +172,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 665.0, 44.0, 505.0, 682.0 ],
@@ -908,16 +911,16 @@
 ,
 					"patching_rect" : [ 9.0, 148.0, 77.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p xml2coll"
@@ -939,7 +942,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 665.0, 44.0, 1022.0, 446.0 ],
@@ -1285,7 +1288,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 413.0, 346.0, 190.0, 21.0 ],
-									"text" : "/data0/current_value"
+									"text" : "/data0/current_value 0."
 								}
 
 							}
@@ -1997,16 +2000,16 @@
 ,
 					"patching_rect" : [ 9.0, 197.0, 182.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p read_the_colls"
@@ -2059,13 +2062,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 90.0, 27.0, 20.0 ],
+					"patching_rect" : [ 109.0, 88.0, 41.0, 24.0 ],
 					"text" : "go"
 				}
 
@@ -2161,7 +2165,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 298.0, 273.0, 56.0, 21.0 ]
+					"patching_rect" : [ 260.0, 273.0, 94.0, 21.0 ],
+					"text" : "Unauthorized"
 				}
 
 			}
@@ -2227,7 +2232,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 660.0, 44.0, 509.0, 540.0 ],
@@ -2901,16 +2906,16 @@
 ,
 					"patching_rect" : [ 91.0, 148.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : ""
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p csv2coll"
@@ -2919,14 +2924,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 58.0, 119.0, 23.0 ],
-					"text" : "enter your feed :"
+					"patching_rect" : [ 9.0, 53.0, 98.0, 39.0 ],
+					"text" : "enter your feed"
 				}
 
 			}
@@ -2957,7 +2965,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 314.0, 134.0, 21.0 ]
+					"patching_rect" : [ 258.0, 314.0, 134.0, 21.0 ],
+					"text" : "Unauthorized"
 				}
 
 			}

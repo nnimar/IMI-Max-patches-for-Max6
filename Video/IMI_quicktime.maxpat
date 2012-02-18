@@ -67,14 +67,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.0, 81.0, 166.0, 24.0 ],
+									"patching_rect" : [ 187.0, 81.0, 153.0, 24.0 ],
 									"text" : "load movies into targets"
 								}
 
@@ -110,14 +109,13 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 227.0, 209.5, 132.0, 24.0 ],
+									"patching_rect" : [ 227.0, 209.5, 123.0, 24.0 ],
 									"text" : "choose your video"
 								}
 
@@ -636,16 +634,16 @@
 ,
 									"patching_rect" : [ 423.0, 153.0, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial",
 										"tags" : "",
+										"description" : "",
 										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"fontname" : "Arial",
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p folder2poly"
@@ -969,16 +967,16 @@
 ,
 					"patching_rect" : [ 11.0, 204.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 13.0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p poly",
@@ -1032,6 +1030,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 191.0, 194.0, 134.0, 23.0 ],
+									"presentation_rect" : [ 191.0, 193.0, 0.0, 0.0 ],
 									"text" : "see loopnotify below"
 								}
 
@@ -2143,16 +2142,16 @@
 ,
 					"patching_rect" : [ 11.0, 142.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 13.0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p plus",
@@ -3212,16 +3211,16 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 13.0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 13.0
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p basic",
@@ -3249,14 +3248,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly_movie.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Video",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Video",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -2,15 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 4
 		}
 ,
 		"rect" : [ 556.0, 44.0, 429.0, 230.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 556.0, 44.0, 429.0, 230.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
@@ -18,12 +16,16 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
@@ -37,7 +39,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 221.0, 202.5, 101.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 221.0, 201.5, 101.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 240.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -56,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 201.5, 71.0, 16.0 ],
+					"patching_rect" : [ 226.0, 200.5, 71.0, 16.0 ],
 					"text" : "load 303Loop"
 				}
 
@@ -74,7 +77,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 327.0, 202.5, 98.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 327.0, 201.5, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 196.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -91,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 156.5, 261.0, 23.0 ],
+					"patching_rect" : [ 114.0, 155.5, 261.0, 23.0 ],
 					"text" : "Publish an OSC device on the network"
 				}
 
@@ -104,7 +108,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 124.5, 229.0, 23.0 ],
+					"patching_rect" : [ 114.0, 123.5, 229.0, 23.0 ],
 					"text" : "sends OSC messages"
 				}
 
@@ -122,7 +126,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 6.0, 156.5, 85.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6.0, 155.5, 85.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 318.0, 199.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -144,7 +149,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 6.0, 124.5, 71.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6.0, 123.5, 71.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 156.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -163,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 201.5, 91.0, 16.0 ],
+					"patching_rect" : [ 226.0, 200.5, 91.0, 16.0 ],
 					"text" : "load SendingOSC"
 				}
 
@@ -226,7 +232,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 6.0, 92.5, 89.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6.0, 91.5, 89.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -248,6 +255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 6.0, 59.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
@@ -296,7 +304,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 92.5, 229.0, 23.0 ],
+					"patching_rect" : [ 114.0, 91.5, 229.0, 23.0 ],
 					"text" : "receives OSC messages"
 				}
 
@@ -309,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 59.5, 263.0, 23.0 ],
+					"patching_rect" : [ 114.0, 58.5, 263.0, 23.0 ],
 					"text" : "search for OSC devices on the network"
 				}
 
@@ -353,6 +361,7 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -366,8 +375,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -375,8 +384,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -384,8 +393,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -393,8 +402,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -402,8 +411,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -411,8 +420,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -420,8 +429,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -429,8 +438,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -438,8 +447,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -447,8 +456,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -456,8 +465,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -465,13 +474,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

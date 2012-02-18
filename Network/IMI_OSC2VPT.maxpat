@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 753.0, 44.0, 471.0, 228.0 ],
@@ -68,9 +68,9 @@
 									"fontsize" : 14.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 3,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 22.0, 78.0, 105.0, 23.0 ],
 									"text" : "dot.for 101 105"
 								}
@@ -149,9 +149,9 @@
 									"fontsize" : 14.0,
 									"id" : "obj-41",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 3,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 233.0, 44.0, 105.0, 23.0 ],
 									"text" : "dot.for 101 105"
 								}
@@ -256,18 +256,24 @@
 
 							}
  ],
-						"dependency_cache" : [  ]
+						"dependency_cache" : [ 							{
+								"name" : "dot.for.maxpat",
+								"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 241.0, 199.0, 52.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : ""
@@ -332,7 +338,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 754.0, 44.0, 528.0, 460.0 ],
@@ -376,12 +382,12 @@
 					"patching_rect" : [ 643.829346, 278.557251, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : ""
@@ -483,7 +489,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 752.0, 44.0, 316.0, 228.0 ],
@@ -566,8 +572,8 @@
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 71.0, 143.885498, 139.0, 27.0 ],
 									"text" : "osc-route /clipnr"
 								}
@@ -594,8 +600,8 @@
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 71.0, 108.0, 229.0, 27.0 ],
 									"text" : "osc-route /moviesource101"
 								}
@@ -639,18 +645,22 @@
 
 							}
  ],
-						"dependency_cache" : [  ]
+						"dependency_cache" : [ 							{
+								"name" : "OSC-route.mxo",
+								"type" : "iLaX"
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 598.829346, 400.557251, 134.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : ""
@@ -983,8 +993,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "OSCTimeTag" ],
 					"patching_rect" : [ 15.0, 361.0, 154.0, 27.0 ],
 					"text" : "opensoundcontrol"
 				}
@@ -1044,7 +1054,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 29.0, 638.0, 21.0 ],
-					"text" : "send intructions to  hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
+					"text" : "send intructions to hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1338,7 +1348,22 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "dot.for.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OpenSoundControl.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

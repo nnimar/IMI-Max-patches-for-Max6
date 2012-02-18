@@ -28,6 +28,39 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 256.0, 397.0, 98.0, 39.0 ],
+					"presentation_rect" : [ 234.0, 397.0, 0.0, 0.0 ],
+					"text" : "alias + file name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 49.0, 61.0, 89.0, 24.0 ],
+					"presentation_rect" : [ 7.0, 65.0, 0.0, 0.0 ],
+					"text" : "press \"e\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-7",
@@ -36,10 +69,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 432.5, 100.0, 20.0 ],
+					"patching_rect" : [ 22.0, 432.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 170.0, 100.0, 20.0 ],
-					"text" : "Audio source"
+					"text" : "Audio driver"
 				}
 
 			}
@@ -53,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 436.5, 35.0, 16.0 ],
+					"patching_rect" : [ 23.0, 436.5, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -68,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 433.5, 48.0, 18.0 ],
+					"patching_rect" : [ 24.0, 433.5, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -430,18 +463,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 431.5, 51.0, 18.0 ],
+					"patching_rect" : [ 23.0, 431.5, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p drivers"
@@ -490,61 +523,53 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 194.0, 434.0, 177.0, 20.0 ],
-					"text" : "buffer~ aSoundFile sho0630.aif"
+					"patching_rect" : [ 207.0, 434.0, 167.0, 20.0 ],
+					"text" : "buffer~ soundzzz sho0630.aif"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-34",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 202.0, 121.0, 48.0 ],
-					"text" : "'stop' is not strictly necessary, since amplitude will be at 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 370.0, 102.0, 20.0 ],
+					"patching_rect" : [ 23.0, 376.0, 117.0, 24.0 ],
 					"text" : "control amplitude"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 250.0, 116.0, 20.0 ],
-					"text" : "play buffered sound"
+					"patching_rect" : [ 51.0, 257.0, 89.0, 24.0 ],
+					"text" : "play sound"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 114.0, 89.0, 20.0 ],
-					"text" : "keyboard input"
+					"patching_rect" : [ 33.0, 112.0, 106.0, 24.0 ],
+					"text" : "keyboard ascii"
 				}
 
 			}
@@ -557,8 +582,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 130.0, 258.0, 104.0, 20.0 ],
-					"text" : "play~ aSoundFile"
+					"patching_rect" : [ 143.0, 258.0, 94.0, 20.0 ],
+					"text" : "play~ soundzzz"
 				}
 
 			}
@@ -571,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 130.0, 234.0, 36.0, 20.0 ],
+					"patching_rect" : [ 143.0, 234.0, 36.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -585,7 +610,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.0, 202.0, 33.0, 18.0 ],
+					"patching_rect" : [ 271.0, 202.0, 33.0, 18.0 ],
 					"text" : "stop"
 				}
 
@@ -599,21 +624,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 258.0, 178.0, 63.0, 20.0 ],
+					"patching_rect" : [ 271.0, 178.0, 63.0, 20.0 ],
 					"text" : "delay 500"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 114.0, 19.0, 20.0 ],
-					"text" : "e"
 				}
 
 			}
@@ -626,7 +638,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 258.0, 114.0, 65.0, 20.0 ],
+					"patching_rect" : [ 271.0, 114.0, 65.0, 20.0 ],
 					"text" : "select 101"
 				}
 
@@ -641,7 +653,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 258.0, 90.0, 50.0, 20.0 ]
+					"patching_rect" : [ 271.0, 90.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -654,7 +666,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 258.0, 66.0, 59.5, 20.0 ],
+					"patching_rect" : [ 271.0, 63.0, 59.5, 20.0 ],
 					"text" : "keyup"
 				}
 
@@ -668,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 322.0, 322.0, 44.0, 18.0 ],
+					"patching_rect" : [ 336.0, 322.0, 44.0, 18.0 ],
 					"text" : "0. 500"
 				}
 
@@ -682,7 +694,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 322.0, 37.0, 18.0 ],
+					"patching_rect" : [ 245.0, 322.0, 37.0, 18.0 ],
 					"text" : "1. 30"
 				}
 
@@ -696,7 +708,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 146.0, 354.0, 50.0, 20.0 ],
+					"patching_rect" : [ 159.0, 354.0, 50.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -710,7 +722,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 130.0, 378.0, 34.5, 20.0 ],
+					"patching_rect" : [ 143.0, 378.0, 34.5, 20.0 ],
 					"text" : "*~"
 				}
 
@@ -721,7 +733,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 410.0, 45.0, 45.0 ]
+					"patching_rect" : [ 143.0, 410.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -734,21 +746,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 202.0, 94.0, 18.0 ],
+					"patching_rect" : [ 143.0, 202.0, 94.0, 18.0 ],
 					"text" : "0, 20000 20000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 114.0, 19.0, 20.0 ],
-					"text" : "e"
 				}
 
 			}
@@ -761,7 +760,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 130.0, 114.0, 65.0, 20.0 ],
+					"patching_rect" : [ 143.0, 114.0, 65.0, 20.0 ],
 					"text" : "select 101"
 				}
 
@@ -776,7 +775,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 90.0, 50.0, 20.0 ]
+					"patching_rect" : [ 143.0, 90.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -789,7 +788,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 130.0, 66.0, 59.5, 20.0 ],
+					"patching_rect" : [ 143.0, 63.0, 59.5, 20.0 ],
 					"text" : "key"
 				}
 
@@ -826,7 +825,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 403.5, 165.5, 403.5 ],
+					"midpoints" : [ 152.5, 403.5, 178.5, 403.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -863,7 +862,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 235.5, 346.0, 155.5, 346.0 ],
+					"midpoints" : [ 254.5, 346.0, 168.5, 346.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -882,7 +881,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 331.5, 346.5, 155.5, 346.5 ],
+					"midpoints" : [ 345.5, 346.5, 168.5, 346.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -892,7 +891,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 267.5, 138.0, 331.5, 138.0 ],
+					"midpoints" : [ 280.5, 160.0, 345.5, 160.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -938,7 +937,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 267.5, 226.0, 139.5, 226.0 ],
+					"midpoints" : [ 280.5, 226.0, 152.5, 226.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -975,7 +974,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 138.0, 235.5, 138.0 ],
+					"midpoints" : [ 152.5, 159.0, 254.5, 159.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
