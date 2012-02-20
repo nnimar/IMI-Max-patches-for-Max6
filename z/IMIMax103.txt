@@ -1,9 +1,9 @@
 1, <category> 1 Projection;
 2, IMI_simple_video_player "simple GL video player";
 3, IMI_screenworld "interact with a 3D object";
-4, GLsmooth "optimised GL video player";
-5, renderMaster "render effects on GL scene";
-6, keystonev23 "keystone + crop tool";
+4, GLcornerpin+ "keystone for GL objects";
+5, GLsmooth "optimised GL video player";
+6, renderMaster "render effects on GL scene"; 
 
 10, -----------------------;
 11, <category> 2 Exhibition;

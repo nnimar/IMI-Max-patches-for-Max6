@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1.0, 44.0, 463.0, 625.0 ],
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 4
+		}
+,
+		"rect" : [ 2.0, 44.0, 475.0, 408.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1.0, 44.0, 463.0, 625.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
@@ -12,22 +16,132 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-33",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 347.0, 380.0, 122.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.0, 358.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Syphon Recorder",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-21",
-					"maxclass" : "comment",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 215.0, 74.0, 50.0, 23.0 ],
+					"text" : "r bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 78.0, 46.0, 23.0 ],
-					"text" : "start"
+					"patching_rect" : [ 76.0, 163.0, 53.0, 23.0 ],
+					"text" : "s bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 215.0, 283.0, 179.0, 39.0 ],
+					"text" : "jit.gl.syphonserver @servername JitterOutput"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 235.0, 233.0, 125.0, 39.0 ],
+					"text" : "jit.gl.videoplane @blend_enable 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 263.0, 153.0, 80.0, 60.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 215.0, 116.0, 132.0, 23.0 ],
+					"text" : "jit.qt.movie 320 240"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 279.0, 74.0, 114.0, 21.0 ],
+					"text" : "read sophie.mov"
 				}
 
 			}
@@ -41,10 +155,14 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 4
+						}
+,
 						"rect" : [ 470.0, 44.0, 634.0, 456.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 470.0, 44.0, 634.0, 456.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -52,12 +170,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -86,37 +208,25 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 5.0, 594.0, 98.0, 23.0 ],
+					"patching_rect" : [ 9.0, 354.0, 98.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"tags" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p syphon help"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-22",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 568.0, 264.0, 39.0 ],
-					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
 			}
@@ -133,7 +243,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 344.0, 569.0, 103.0, 20.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 349.0, 355.5, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 393.0, 597.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -155,27 +266,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 232.0, 596.0, 106.0, 20.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 219.0, 380.0, 106.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 358.0, 566.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "Syphon Server",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-1",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 570.5, 113.0, 16.0 ],
-					"text" : "help jit.gl.syphonserver"
 				}
 
 			}
@@ -192,42 +289,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 232.0, 569.0, 103.0, 20.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 219.0, 355.5, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "Syphon Client",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-26",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 570.5, 108.0, 16.0 ],
-					"text" : "help jit.gl.syphonclient"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 590.5, 52.0, 20.0 ],
-					"text" : "pcontrol"
 				}
 
 			}
@@ -241,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 5.0, 179.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 					"text" : "Jitter2Syphon",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -257,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 447.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 447.0, 21.0 ],
 					"text" : "basic patch to use Syphon (open Syphon Client or Syphon Quartz to test)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -273,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 502.0, 80.0, 35.0 ]
+					"patching_rect" : [ 18.0, 235.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -282,12 +350,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 194.0, 467.0, 228.0, 23.0 ],
-					"text" : "jit.window servercontext @visible 0"
+					"patching_rect" : [ 16.0, 282.0, 129.0, 39.0 ],
+					"text" : "jit.window syphon @visible 0"
 				}
 
 			}
@@ -300,8 +369,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 18.0, 467.0, 168.0, 23.0 ],
-					"text" : "jit.gl.render servercontext"
+					"patching_rect" : [ 18.0, 200.0, 80.0, 23.0 ],
+					"text" : "jit.gl.render"
 				}
 
 			}
@@ -312,49 +381,10 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "erase", "bang" ],
-					"patching_rect" : [ 18.0, 431.0, 65.0, 23.0 ],
-					"text" : "t erase b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 391.0, 380.0, 23.0 ],
-					"text" : "jit.gl.syphonserver servercontext @servername JitterOutput"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 57.0, 355.0, 309.0, 23.0 ],
-					"text" : "jit.gl.videoplane servercontext @blend_enable 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 85.0, 275.0, 80.0, 60.0 ]
+					"numoutlets" : 3,
+					"outlettype" : [ "erase", "bang", "bang" ],
+					"patching_rect" : [ 18.0, 127.0, 77.0, 23.0 ],
+					"text" : "t erase b b"
 				}
 
 			}
@@ -367,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 153.0, 74.0, 23.0 ],
+					"patching_rect" : [ 18.0, 91.0, 74.0, 23.0 ],
 					"text" : "qmetro 16"
 				}
 
@@ -379,60 +409,99 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 18.0, 125.0, 20.0, 20.0 ]
+					"parameter_enable" : 0,
+					"patching_rect" : [ 18.0, 63.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-17",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 18.0, 187.0, 38.0, 23.0 ],
-					"text" : "t b b"
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.0, 58.0, 192.147247, 273.0 ],
+					"rounded" : 30
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 37.0, 238.0, 132.0, 23.0 ],
-					"text" : "jit.qt.movie 320 240"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-4",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-22",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 153.0, 114.0, 21.0 ],
-					"text" : "read sophie.mov"
+					"patching_rect" : [ 191.0, 354.0, 264.0, 39.0 ],
+					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "button",
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 226.0, 355.5, 113.0, 16.0 ],
+					"text" : "help jit.gl.syphonserver"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.0, 355.5, 108.0, 16.0 ],
+					"text" : "help jit.gl.syphonclient"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 66.0, 36.0, 36.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 225.0, 380.0, 52.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-42",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.0, 354.5, 231.0, 51.0 ],
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_tools/Syphon/Syphon%20Recorder.app\\\""
 				}
 
 			}
@@ -443,11 +512,12 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-130",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 457.0, 51.0 ],
+					"patching_rect" : [ 3.0, 2.0, 469.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -456,8 +526,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -465,8 +535,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 56.5, 174.5, 27.5, 174.5 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -474,17 +545,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"source" : [ "obj-13", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -492,35 +572,26 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 27.5, 115.0, 110.5, 115.0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 27.5, 117.5, 27.5, 117.5 ],
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -528,8 +599,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -537,17 +608,27 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 110.5, 225.5, 46.5, 225.5 ],
+					"midpoints" : [ 288.5, 107.5, 224.5, 107.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -555,8 +636,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 267.5, 94.5, 267.5 ],
+					"midpoints" : [ 224.5, 145.5, 272.5, 145.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -564,8 +646,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 338.0, 66.5, 338.0 ],
+					"midpoints" : [ 224.5, 216.0, 244.5, 216.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -573,47 +656,34 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-6", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jit.gl.syphonserver.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
