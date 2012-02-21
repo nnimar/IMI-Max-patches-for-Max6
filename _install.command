@@ -104,7 +104,7 @@ if [ -e "/Applications/Max6" ]; then
 fi
 
 if [[ $whichVersion == 0 ]]; then
-	echo "Max 5 is not installed in the Applications folder. The automatic installation is not possible.";
+	echo "Max 6 is not installed in the Applications folder. The automatic installation is not possible.";
 	exit 1;
 fi
 
