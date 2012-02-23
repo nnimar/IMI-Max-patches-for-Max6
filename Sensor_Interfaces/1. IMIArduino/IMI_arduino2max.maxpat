@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 615.0, 414.0 ],
+		"rect" : [ 0.0, 44.0, 614.0, 665.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,10 +36,156 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 418.0, 153.0, 129.0, 20.0 ],
+					"patching_rect" : [ 422.0, 138.0, 129.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 119.0, 322.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 134.0, 337.0, 100.0, 20.0 ],
 					"text" : "Arduino programs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 494.0, 638.0, 110.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 96.0, 244.0, 100.0, 20.0 ],
+					"text" : "arduino2max 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 479.0, 641.0, 121.0, 16.0 ],
+					"text" : "load IMI_arduino2max12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 494.0, 638.0, 52.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 422.0, 137.0, 55.0, 19.0 ],
+					"text" : "tosymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"hidden" : 1,
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 308.0, 137.0, 298.0, 30.0 ],
+					"text" : "arch -i386 osascript /Applications/Max6/examples/IMIpatches/z/SSensorsA.scpt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 466.0, 138.0, 33.0, 19.0 ],
+					"text" : "shell"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-11",
+					"linecount" : 11,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 376.0, 79.0, 234.0, 171.0 ],
+					"text" : "1. Close this patch\n\n2. Install the program on the Arduino :\n\n\n\n3. Check the arduino serial monitor.\n\n4. Quit the arduino application\n\n5. Open this patch again"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+					"id" : "obj-12",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.0, 72.0, 238.0, 183.0 ],
+					"rounded" : 29
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.85098, 0.85098, 0.85098, 1.0 ],
+					"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
+					"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
+					"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
+					"candicane5" : [ 0.584314, 0.827451, 0.431373, 1.0 ],
+					"candicane6" : [ 0.733333, 0.035294, 0.788235, 1.0 ],
+					"candicane7" : [ 0.878431, 0.243137, 0.145098, 1.0 ],
+					"candicane8" : [ 0.027451, 0.447059, 0.501961, 1.0 ],
+					"contdata" : 1,
+					"id" : "obj-9",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 416.0, 404.0, 238.317078 ],
+					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
+					"setminmax" : [ 0.0, 1023.0 ],
+					"setstyle" : 3,
+					"settype" : 0,
+					"slidercolor" : [ 0.341176, 0.341176, 0.341176, 1.0 ]
 				}
 
 			}
@@ -54,7 +200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 218.0, 129.0, 34.0 ],
+					"patching_rect" : [ 175.0, 216.0, 129.0, 34.0 ],
 					"text" : "Arduino starts with usbserial-Axxxxsss"
 				}
 
@@ -70,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 266.0, 138.0, 34.0 ],
+					"patching_rect" : [ 136.0, 266.0, 140.0, 34.0 ],
 					"text" : "serial communication\n at 9600 bauds"
 				}
 
@@ -85,25 +231,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 268.0, 227.0, 67.0, 20.0 ],
+					"patching_rect" : [ 217.0, 225.0, 67.0, 20.0 ],
 					"text" : "closebang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-8",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 490.0, 385.0, 110.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 81.0, 229.0, 100.0, 20.0 ],
-					"text" : "arduino2max 12"
 				}
 
 			}
@@ -117,7 +246,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 182.0, 105.0, 24.0 ],
+					"patching_rect" : [ 216.0, 181.0, 105.0, 24.0 ],
 					"text" : "choose a port"
 				}
 
@@ -139,82 +268,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 385.0, 121.0, 16.0 ],
-					"text" : "load IMI_arduino2max12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 385.0, 52.0, 20.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"hidden" : 1,
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0, 152.0, 55.0, 19.0 ],
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"hidden" : 1,
-					"id" : "obj-36",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 152.0, 298.0, 30.0 ],
-					"text" : "arch -i386 osascript /Applications/Max6/examples/IMIpatches/z/SSensorsA.scpt"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"hidden" : 1,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 462.0, 153.0, 33.0, 19.0 ],
-					"text" : "shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"frgb" : [ 0.868223, 0.868086, 0.868238, 1.0 ],
 					"id" : "obj-5",
@@ -222,8 +275,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 29.0, 519.0, 37.0 ],
-					"text" : "monitor one analog input on the Arduino (install analog2max.pde on the Arduino),\nfor a button, use button2max.pde",
+					"patching_rect" : [ 5.0, 29.0, 600.0, 37.0 ],
+					"text" : "monitor one analog or digital input on the Arduino. Install analog2max.pde (analog) on the Arduino\nor button2max.pde (digital)",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
 
@@ -432,16 +485,16 @@
 ,
 					"patching_rect" : [ 15.0, 351.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p serial_read"
@@ -460,7 +513,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 381.0, 67.0, 23.0 ],
+					"patching_rect" : [ 15.0, 379.0, 67.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -475,7 +528,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 218.0, 188.0, 38.5, 20.0 ],
+					"patching_rect" : [ 218.0, 183.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -766,16 +819,16 @@
 ,
 									"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
+										"tags" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"description" : ""
 									}
 ,
 									"text" : "p devices"
@@ -914,16 +967,16 @@
 ,
 					"patching_rect" : [ 33.0, 147.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p serial_select"
@@ -935,7 +988,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1004,20 +1057,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-11",
-					"linecount" : 11,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 94.0, 234.0, 171.0 ],
-					"text" : "1. Close this patch\n\n2. Install the program on the Arduino :\n\n\n\n3. Check the arduino serial monitor.\n\n4. Quit the arduino application\n\n5. Open this patch again"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
@@ -1035,19 +1074,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-					"id" : "obj-12",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 367.0, 87.0, 238.0, 183.0 ],
-					"rounded" : 29
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1060,6 +1086,23 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 609.0, 62.0 ],
 					"varname" : "autohelp_top_panel[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 180.0,
+					"background" : 1,
+					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"id" : "obj-10",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.0, 411.0, 412.0, 248.0 ],
+					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1127,6 +1170,15 @@
 					"hidden" : 1,
 					"midpoints" : [ 227.5, 250.5, 24.5, 250.5 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}

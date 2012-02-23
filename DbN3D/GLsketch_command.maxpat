@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 1.0, 44.0, 700.0, 423.0 ],
@@ -27,6 +27,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 112.0, 60.0, 116.0, 24.0 ],
+					"presentation_rect" : [ 112.0, 60.0, 0.0, 0.0 ],
+					"text" : "vertex position"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -68,7 +83,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 709.0, 358.0, 411.0, 282.0 ],
@@ -624,16 +639,16 @@
 ,
 					"patching_rect" : [ 554.0, 286.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -762,7 +777,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 709.0, 44.0, 612.0, 490.0 ],
@@ -819,16 +834,16 @@
 ,
 					"patching_rect" : [ 466.0, 390.0, 117.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p shape_drawing"
@@ -848,7 +863,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 708.0, 362.0, 357.0, 116.0 ],
@@ -908,16 +923,16 @@
 ,
 					"patching_rect" : [ 387.0, 390.0, 73.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
+						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p openGL"

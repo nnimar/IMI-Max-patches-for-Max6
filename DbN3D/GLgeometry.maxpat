@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 1.0, 44.0, 741.0, 394.0 ],
+		"rect" : [ 1.0, 44.0, 741.0, 397.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -47,7 +47,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 752.0, 366.0, 411.0, 282.0 ],
@@ -605,16 +605,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen",
@@ -729,10 +729,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 335.0, 273.0, 53.0 ],
+					"patching_rect" : [ 524.0, 334.138428, 198.0, 53.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : ";\rmax launchbrowser http://www.cycling74.com/docs/max5/tutorials/jit-tut/jitterchapter37.html",
+					"text" : ";\rmax launchbrowser http://cycling74.com/docs/max6/dynamic/c74_docs.html#jitterchapter37",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -996,7 +996,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 756.0, 44.0, 424.0, 570.0 ],
@@ -1524,16 +1524,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p geometry_gridshape",
@@ -1561,7 +1561,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 750.0, 362.0, 214.0, 318.0 ],
@@ -1989,16 +1989,16 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p gridshape_param",
@@ -2377,10 +2377,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 244.0, 122.0, 33.0 ],
+					"patching_rect" : [ 10.0, 244.0, 117.574097, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.handle geometry @inherit_transform 1",
+					"text" : "jit.gl.handle @inherit_transform 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2898,7 +2898,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 123.0, 49.0, 20.0 ],
+					"patching_rect" : [ 65.0, 123.0, 49.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "r render",
@@ -2921,7 +2921,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 123.0, 54.0, 20.0 ],
+					"patching_rect" : [ 8.0, 123.0, 54.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b erase",
@@ -2944,10 +2944,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 175.0, 187.0, 300.0, 23.0 ],
+					"patching_rect" : [ 175.0, 187.0, 233.0, 23.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.gridshape geometry @scale 0.7 0.7 0.7",
+					"text" : "jit.gl.gridshape @scale 0.7 0.7 0.7",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2967,7 +2967,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 95.0, 61.0, 20.0 ],
+					"patching_rect" : [ 8.0, 95.0, 61.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "qmetro 40",
@@ -2989,7 +2989,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 66.0, 20.0, 20.0 ],
+					"patching_rect" : [ 8.0, 66.0, 20.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ]
 				}
@@ -3011,10 +3011,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 163.0, 132.0, 33.0 ],
+					"patching_rect" : [ 8.0, 163.0, 138.147247, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.gl.render geometry @erase_color 0. 0. 0. 1.",
+					"text" : "jit.gl.render @erase_color 0. 0. 0. 1.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -3439,7 +3439,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 77.5, 153.0, 20.5, 153.0 ],
+					"midpoints" : [ 74.5, 153.0, 17.5, 153.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -3480,7 +3480,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 55.5, 153.0, 20.5, 153.0 ],
+					"midpoints" : [ 52.5, 153.0, 17.5, 153.0 ],
 					"source" : [ "obj-47", 1 ]
 				}
 
@@ -3639,7 +3639,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.slide.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

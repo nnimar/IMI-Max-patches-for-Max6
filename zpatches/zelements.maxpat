@@ -45,7 +45,8 @@
 					"presentation_rect" : [ 776.0, 328.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "launch faceOSC",
-					"texton" : "Stop"
+					"texton" : "Stop",
+					"varname" : "textbutton[6]"
 				}
 
 			}
@@ -183,9 +184,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 312.0, 151.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
 						"storage_rect" : [ 1175, 460, 1626, 880 ],
-						"client_rect" : [ 1134, 574, 1627, 980 ]
+						"client_rect" : [ 1134, 574, 1627, 980 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage render_master",
@@ -210,6 +211,7 @@
 						"textbutton[3]" : [ -1 ],
 						"textbutton[4]" : [ -1 ],
 						"textbutton[5]" : [ -1 ],
+						"textbutton[6]" : [ -1 ],
 						"toggle" : [ 0 ]
 					}
 ,
@@ -828,16 +830,16 @@
 ,
 					"patching_rect" : [ 477.0, 244.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1238,16 +1240,16 @@
 ,
 									"patching_rect" : [ 12.0, 127.0, 189.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 14.0,
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"description" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial"
+										"digest" : "",
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"description" : ""
 									}
 ,
 									"text" : "p width-column-cols-rows"
@@ -1403,16 +1405,16 @@
 ,
 					"patching_rect" : [ 478.0, 77.0, 106.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p cellblock help"
@@ -1613,16 +1615,16 @@
 ,
 					"patching_rect" : [ 478.0, 43.0, 89.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p matrix2cell"
@@ -1815,16 +1817,16 @@
 ,
 					"patching_rect" : [ 8.0, 122.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p load&hide"
@@ -2054,16 +2056,16 @@
 ,
 									"patching_rect" : [ 9.0, 6.5, 36.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
-										"default_fontsize" : 14.0,
 										"fontface" : 0,
 										"fontsize" : 14.0,
-										"description" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"default_fontface" : 0,
-										"fontname" : "Arial"
+										"digest" : "",
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"description" : ""
 									}
 ,
 									"text" : "p file"
@@ -2121,16 +2123,16 @@
 ,
 					"patching_rect" : [ 8.0, 152.0, 82.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p local-html"
@@ -2321,16 +2323,16 @@
 ,
 					"patching_rect" : [ 8.0, 180.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p safari"

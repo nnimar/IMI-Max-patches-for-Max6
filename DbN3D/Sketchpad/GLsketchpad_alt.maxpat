@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 3.0, 44.0, 733.0, 396.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 745.0, 374.0, 411.0, 282.0 ],
@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 10.0, 271.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -764,7 +764,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 57.0, 139.147247, 268.0 ],
+					"patching_rect" : [ 8.0, 59.0, 139.147247, 268.0 ],
 					"rounded" : 30
 				}
 
@@ -992,7 +992,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 1.0, 44.0, 1086.0, 397.0 ],
@@ -1054,7 +1054,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 4
 										}
 ,
 										"rect" : [ 0.0, 44.0, 630.0, 359.0 ],
@@ -1139,7 +1139,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.0, 206.0, 144.0, 25.0 ],
-													"text" : "7. -0.8 -0.433333 -0.04 0.08 0.006667 0. 0. 0."
+													"text" : "7. -3.2 -0.233333 -0.16 0.32 0.026667 0. 0. 0."
 												}
 
 											}
@@ -1405,16 +1405,16 @@
 ,
 									"patching_rect" : [ 11.0, 43.0, 75.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 10.0,
+										"tags" : "",
+										"description" : "",
 										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontsize" : 10.0,
-										"description" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p textmassage"
@@ -2309,16 +2309,16 @@
 ,
 					"patching_rect" : [ 412.0, 319.0, 287.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p sketch"
@@ -2338,7 +2338,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 215.0, 44.0, 518.0, 335.0 ],
@@ -3007,16 +3007,16 @@
 ,
 					"patching_rect" : [ 13.0, 364.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"tags" : "",
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p movement"
@@ -3365,6 +3365,31 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 555.0, 117.0, 100.0, 20.0 ],
 					"text" : "Smooth Shading"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-15",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 35.0, 337.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton[1]"
 				}
 
 			}
