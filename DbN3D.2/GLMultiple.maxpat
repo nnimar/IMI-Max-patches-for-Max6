@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 763.0, 572.0 ],
@@ -53,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 768.0, 372.0, 411.0, 282.0 ],
@@ -609,16 +609,16 @@
 ,
 					"patching_rect" : [ 634.0, 189.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -638,10 +638,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 775.0, 373.0, 440.0, 231.0 ],
+						"rect" : [ 771.0, 365.0, 440.0, 231.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -679,7 +679,7 @@
 									"bblend" : 100,
 									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 									"cols" : 5,
-									"colwidth" : 84,
+									"colwidth" : 99,
 									"fblend" : 100,
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
@@ -748,16 +748,16 @@
 ,
 					"patching_rect" : [ 659.0, 479.0, 89.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p matrix2cell"
@@ -772,7 +772,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.0, 504.0, 52.0, 20.0 ],
+					"patching_rect" : [ 39.0, 509.0, 52.0, 20.0 ],
 					"text" : "s matrix"
 				}
 
@@ -807,13 +807,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 502.0, 209.0, 23.0 ],
+					"patching_rect" : [ 96.0, 507.0, 183.0, 24.0 ],
 					"text" : "result matrix (see matrix2cell)"
 				}
 
@@ -832,7 +833,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 770.0, 360.0, 185.0, 183.0 ],
@@ -1000,16 +1001,16 @@
 ,
 					"patching_rect" : [ 695.0, 124.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p camera"
@@ -1082,10 +1083,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 774.0, 371.0, 472.0, 170.0 ],
+						"rect" : [ 772.0, 364.0, 472.0, 170.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1332,16 +1333,16 @@
 ,
 					"patching_rect" : [ 659.0, 509.0, 101.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p multiple_text"
@@ -1363,27 +1364,29 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 430.0, 351.0, 39.0 ],
+					"patching_rect" : [ 250.0, 430.0, 314.0, 39.0 ],
 					"text" : " [0], [1] and [2] are the three dimensions (x,y,z) \nsnorm is a signed normalized coordinate accross dim."
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 394.0, 370.0, 23.0 ],
+					"patching_rect" : [ 139.0, 394.0, 336.0, 24.0 ],
 					"text" : "source matrix for jit.expr : 3 planes (x,y,z), float32 (0. to 1.)"
 				}
 
@@ -2330,7 +2333,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.0, 211.0, 69.0, 39.0 ],
-					"presentation_rect" : [ 334.0, 164.0, 0.0, 0.0 ],
 					"text" : "space bar"
 				}
 
@@ -55,7 +54,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 476.0, 281.0, 101.0, 24.0 ],
-					"presentation_rect" : [ 396.0, 114.0, 0.0, 0.0 ],
 					"text" : "read a movie"
 				}
 
@@ -720,7 +718,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 460.5, 210.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 460.5, 210.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -745,8 +742,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 606.5, 282.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 256.5, 515.0, 0.0, 0.0 ],
+					"patching_rect" : [ 606.5, 281.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

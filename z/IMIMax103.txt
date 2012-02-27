@@ -12,7 +12,6 @@
 15, IMI_space_mapping "space mapping for multi screens";
 16, IMI_iCinema "iCinema";
 17, IMI_OSControl "control VPT/Resolume from Max";
-18, VPT_start "Video Projection Tool";
 
 20, -----------------------;
 21, <category> 3 Internet;

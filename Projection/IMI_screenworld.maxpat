@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 736.0, 649.0 ],
@@ -88,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 361.0, 76.0, 24.0 ],
+					"patching_rect" : [ 172.0, 361.0, 72.0, 24.0 ],
 					"text" : "dest dim"
 				}
 
@@ -110,13 +110,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.0, 409.0, 168.0, 24.0 ],
+					"patching_rect" : [ 319.0, 409.0, 157.0, 24.0 ],
 					"text" : "gridshape position (x, y)"
 				}
 
@@ -124,7 +124,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
@@ -132,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 144.0, 155.0, 38.0 ],
+					"patching_rect" : [ 243.0, 144.0, 146.0, 38.0 ],
 					"text" : "capture the mouse position in the window"
 				}
 
@@ -183,7 +182,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 751.0, 371.0, 286.0, 271.0 ],
@@ -205,6 +204,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -340,16 +340,16 @@
 ,
 					"patching_rect" : [ 673.0, 27.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p texture"
@@ -370,7 +370,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 743.0, 377.0, 426.0, 406.0 ],
@@ -1121,16 +1121,16 @@
 ,
 					"patching_rect" : [ 99.0, 247.0, 141.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p viewing_transforms"
@@ -1200,7 +1200,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 522.0, 144.0, 23.0 ],
+					"patching_rect" : [ 200.0, 524.0, 144.0, 23.0 ],
 					"text" : "textcoordmagic 1. 0.4"
 				}
 
@@ -1278,7 +1278,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 749.0, 374.0, 454.0, 351.0 ],
@@ -1776,16 +1776,16 @@
 ,
 					"patching_rect" : [ 151.5, 70.0, 118.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -2080,7 +2080,7 @@
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 553.5, 194.5, 553.5 ],
+					"midpoints" : [ 209.5, 555.5, 194.5, 555.5 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -2201,7 +2201,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textcoordmagic.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_3D",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_3D",
+				"patcherrelativepath" : "../Toolbox/_3D",
 				"type" : "JSON",
 				"implicit" : 1
 			}

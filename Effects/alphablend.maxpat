@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 643.0, 751.0 ],
@@ -63,7 +63,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 549.0, 175.0, 48.0 ],
+					"patching_rect" : [ 57.0, 549.0, 176.0, 48.0 ],
 					"text" : "Use the alpha channel (matrix)\nof one image to blend two images together",
 					"varname" : "autohelp_top_digest"
 				}
@@ -134,13 +134,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 157.0, 100.0, 20.0 ],
+					"patching_rect" : [ 63.0, 156.0, 118.0, 24.0 ],
 					"text" : "mask feathering"
 				}
 
@@ -165,14 +167,13 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 286.0, 180.0, 24.0 ],
+					"patching_rect" : [ 199.0, 286.0, 166.0, 24.0 ],
 					"text" : "sending matrix with trigger"
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 837.0, 442.0 ],
@@ -99,10 +99,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 258.0, 443.0, 445.0, 85.0 ],
+						"rect" : [ 396.0, 44.0, 445.0, 85.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -121,6 +121,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -443,14 +444,14 @@
 ,
 					"patching_rect" : [ 712.0, 410.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : ""
 					}
@@ -532,7 +533,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 67.0, 186.0, 55.0 ],
+					"patching_rect" : [ 33.0, 67.0, 190.0, 55.0 ],
 					"text" : "sflist is a cue list, put your sounds in the cue position (preload 2, 3, 4)"
 				}
 
@@ -705,7 +706,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 846.0, 44.0, 412.0, 382.0 ],
@@ -1317,14 +1318,14 @@
 ,
 					"patching_rect" : [ 192.0, 410.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 18.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 18.0,
 						"description" : ""
 					}
@@ -1616,7 +1617,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.0, 411.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 466.5, 356.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

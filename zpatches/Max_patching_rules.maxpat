@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 739.0, 441.0 ],
+		"rect" : [ 2.0, 44.0, 739.0, 439.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -65,7 +65,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 29.0, 317.0, 21.0 ],
+					"presentation_rect" : [ 4.0, 30.0, 317.0, 21.0 ],
 					"text" : "11 rules to help you patching with Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -196,7 +196,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 3.0, 221.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 3.0, 221.0, 31.0 ],
+					"presentation_rect" : [ 4.0, 4.0, 221.0, 31.0 ],
 					"text" : "Max's patching rules\n",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
@@ -213,7 +213,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 691.0, 33.0, 55.0, 18.0 ],
+					"presentation_rect" : [ 688.0, 32.0, 43.0, 18.0 ],
 					"text" : "rev 006",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -283,10 +283,10 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -4139.0, 0.0 ],
+					"offset" : [ -8.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.274536, 52.0, 583.0, 370.0 ]
+					"presentation_rect" : [ 155.274536, 53.0, 583.0, 370.0 ]
 				}
 
 			}
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 56.0, 124.0, 373.0 ],
+					"presentation_rect" : [ 10.0, 57.0, 124.0, 373.0 ],
 					"tabs" : [ "object", "experiment", "hack", "simulation", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
 				}
 
@@ -323,7 +323,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 2.0, 591.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 2.0, 730.0, 48.0 ],
+					"presentation_rect" : [ 4.0, 3.0, 730.0, 48.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 

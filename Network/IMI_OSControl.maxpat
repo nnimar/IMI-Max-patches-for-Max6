@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 2.0, 44.0, 430.0, 194.0 ],
@@ -139,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 101.5, 229.0, 23.0 ],
+					"patching_rect" : [ 140.0, 101.5, 193.0, 23.0 ],
 					"text" : "control Resolume using OSC"
 				}
 
@@ -152,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 63.5, 214.0, 23.0 ],
+					"patching_rect" : [ 140.0, 63.5, 160.0, 23.0 ],
 					"text" : "control VPT using OSC"
 				}
 

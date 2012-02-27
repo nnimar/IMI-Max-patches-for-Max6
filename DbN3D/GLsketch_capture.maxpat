@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 10.0, 219.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -916,16 +916,16 @@
 ,
 					"patching_rect" : [ 187.0, 222.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p parameters"
@@ -1108,7 +1108,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-104",
@@ -1306,16 +1305,16 @@
 ,
 					"patching_rect" : [ 164.0, 59.0, 56.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p stripes"
@@ -1811,16 +1810,16 @@
 ,
 					"patching_rect" : [ 696.0, 307.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p non-gl version"

@@ -297,10 +297,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 207.0, 125.0, 21.0 ],
+					"patching_rect" : [ 15.0, 207.0, 162.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
-					"text" : "2. arduino2max 12"
+					"text" : "2. arduino2max multiple"
 				}
 
 			}
@@ -353,8 +353,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 207.0, 260.0, 23.0 ],
-					"text" : "Arduino (capsense) >> Max (12 input)"
+					"patching_rect" : [ 256.0, 207.0, 216.0, 23.0 ],
+					"text" : "Arduino >> Max (5 or 12 input)"
 				}
 
 			}
@@ -394,8 +394,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 207.0, 179.0, 18.0 ],
-					"text" : "load IMI_arduino2max12.maxpat"
+					"patching_rect" : [ 15.0, 208.0, 197.0, 18.0 ],
+					"text" : "load IMI_arduino2max_multi.maxpat"
 				}
 
 			}
@@ -555,7 +555,7 @@
 					"patching_rect" : [ 15.0, 283.0, 112.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
-					"text" : "3. Maxuino 011"
+					"text" : "3. Maxuino 012"
 				}
 
 			}
@@ -647,8 +647,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 71.0, 291.0, 30.0 ],
-					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensors.scpt"
+					"patching_rect" : [ 18.0, 71.0, 292.0, 30.0 ],
+					"text" : "arch -i386 osascript /Applications/Max6/examples/IMIpatches/z/SSensors.scpt"
 				}
 
 			}

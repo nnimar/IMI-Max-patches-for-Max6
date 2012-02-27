@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 0.0, 44.0, 563.0, 458.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 572.0, 359.0, 411.0, 282.0 ],
@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 448.0, 201.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
 						"globalpatchername" : "",
-						"digest" : ""
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -625,10 +625,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 638.0, 375.0, 454.0, 226.0 ],
+						"rect" : [ 571.0, 359.0, 454.0, 226.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -664,7 +664,7 @@
 									"bblend" : 100,
 									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 									"cols" : 5,
-									"colwidth" : 84,
+									"colwidth" : 99,
 									"fblend" : 100,
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
@@ -785,16 +785,16 @@
 ,
 					"patching_rect" : [ 285.0, 291.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"tags" : "",
 						"default_fontface" : 0,
+						"digest" : "",
 						"globalpatchername" : "",
-						"digest" : ""
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p normalised"
@@ -917,7 +917,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 133.0, 122.0, 24.0 ],
+					"patching_rect" : [ 114.0, 132.0, 122.0, 24.0 ],
 					"text" : "number of slides"
 				}
 
@@ -938,26 +938,28 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 205.838776, 115.0, 20.0 ],
+					"patching_rect" : [ 162.0, 203.838776, 133.0, 24.0 ],
 					"text" : "3 planes / 5 x 5 dim"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 248.484711, 131.0, 20.0 ],
+					"patching_rect" : [ 175.0, 247.484711, 142.0, 24.0 ],
 					"text" : "invert (flop the image)"
 				}
 
@@ -1036,6 +1038,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
@@ -1043,8 +1046,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 329.0, 291.0, 35.0 ],
-					"text" : "Copies the matrix to a  control point matrix. \nWorks with a matrix of 3-4 planes (float32 or float64)."
+					"patching_rect" : [ 119.0, 325.0, 309.0, 39.0 ],
+					"text" : "copies the matrix to a  control point matrix. \nworks with a matrix of 3-4 planes (float32 or float64)."
 				}
 
 			}
@@ -1167,7 +1170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.850922, 330.579712, 104.229813, 20.0 ],
+					"patching_rect" : [ 9.850922, 333.579712, 104.229813, 20.0 ],
 					"text" : "prepend ctlmatrix"
 				}
 
