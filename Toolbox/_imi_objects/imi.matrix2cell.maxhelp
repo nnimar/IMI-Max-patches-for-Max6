@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 497.0, 307.0 ],
+		"rect" : [ 100.0, 100.0, 497.0, 307.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -257,7 +257,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 493.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 493.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

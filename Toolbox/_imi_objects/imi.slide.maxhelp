@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 426.0, 459.0 ],
+		"rect" : [ 100.0, 100.0, 426.0, 459.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,21 +29,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 204.0, 67.0, 18.0 ],
-					"text" : "loadmess 10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "number",
@@ -51,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 100.0, 203.0, 53.0, 20.0 ]
+					"patching_rect" : [ 100.0, 215.0, 42.0, 20.0 ]
 				}
 
 			}
@@ -110,13 +95,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontface" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 229.0, 116.0, 23.0 ],
+					"patching_rect" : [ 146.0, 212.0, 128.0, 27.0 ],
 					"text" : "slide for matrix"
 				}
 
@@ -146,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 11.0, 228.0, 108.0, 27.0 ],
+					"patching_rect" : [ 11.0, 241.0, 108.0, 27.0 ],
 					"text" : "imi.slide 10"
 				}
 
@@ -170,14 +157,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-83",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 152.0, 175.0, 39.0 ],
+					"patching_rect" : [ 150.0, 149.0, 176.0, 43.0 ],
 					"text" : "random matrix\n2 planes / 5 dimensions"
 				}
 
@@ -261,6 +249,21 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 11.0, 159.0, 135.0, 23.0 ],
 					"text" : "jit.noise 2 float32 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 217.0, 67.0, 18.0 ],
+					"text" : "loadmess 10"
 				}
 
 			}

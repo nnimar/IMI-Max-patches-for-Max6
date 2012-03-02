@@ -28,6 +28,19 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-60",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 744.0, 170.450012, 53.0, 33.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -36,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.0, 315.0, 66.0, 24.0 ],
-					"presentation_rect" : [ 96.0, 315.0, 0.0, 0.0 ],
 					"text" : "magic !"
 				}
 
@@ -609,18 +621,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 969.0, 124.0, 102.0, 20.0 ],
+					"patching_rect" : [ 831.0, 124.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1578,16 +1590,16 @@
 ,
 					"patching_rect" : [ 16.0, 379.0, 201.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p hsflow2bang"
@@ -1778,16 +1790,16 @@
 ,
 					"patching_rect" : [ 1032.0, 29.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -1802,7 +1814,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.0, 145.0, 41.0, 18.0 ],
+					"patching_rect" : [ 699.0, 145.0, 41.0, 18.0 ],
 					"text" : "s bang"
 				}
 
@@ -1816,7 +1828,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 969.0, 102.0, 59.0, 18.0 ],
+					"patching_rect" : [ 831.0, 102.0, 59.0, 18.0 ],
 					"text" : "r fullscreen"
 				}
 
@@ -1830,8 +1842,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 969.0, 148.638428, 96.0, 23.0 ],
-					"text" : "jit.window imi"
+					"patching_rect" : [ 831.0, 148.638428, 104.0, 23.0 ],
+					"text" : "jit.window iC03"
 				}
 
 			}
@@ -1860,19 +1872,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 676.0, 63.0, 41.0, 20.0 ],
 					"text" : "r start"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-60",
-					"maxclass" : "jit.fpsgui",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 777.0, 145.450012, 53.0, 33.0 ]
 				}
 
 			}
@@ -1909,10 +1908,10 @@
 					"id" : "obj-169",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "erase", "bang", "bang" ],
-					"patching_rect" : [ 651.0, 118.0, 145.0, 20.0 ],
-					"text" : "t b erase b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "erase", "bang" ],
+					"patching_rect" : [ 651.0, 118.0, 67.0, 20.0 ],
+					"text" : "t b erase b"
 				}
 
 			}
@@ -1925,8 +1924,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 651.0, 182.787476, 275.0, 23.0 ],
-					"text" : "jit.gl.render @erase_color 0. 0. 0. 1."
+					"patching_rect" : [ 651.0, 165.787476, 87.0, 23.0 ],
+					"text" : "jit.gl.render"
 				}
 
 			}
@@ -2858,16 +2857,16 @@
 ,
 					"patching_rect" : [ 16.0, 422.0, 159.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p filtering"
@@ -3143,8 +3142,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.42688, 121.182281, 74.0, 20.0 ],
-					"text" : "r frameconv"
+					"patching_rect" : [ 468.42688, 121.182281, 100.0, 20.0 ],
+					"text" : "r imi.looptheloop"
 				}
 
 			}
@@ -3635,19 +3634,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-169", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 702.5, 155.0, 660.5, 155.0 ],
+					"midpoints" : [ 684.5, 155.0, 660.5, 155.0 ],
 					"source" : [ "obj-169", 1 ]
 				}
 
@@ -3967,6 +3957,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4097,14 +4096,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.smooth.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

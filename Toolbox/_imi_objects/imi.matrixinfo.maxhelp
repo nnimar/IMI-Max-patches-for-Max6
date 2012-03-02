@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 0.0, 44.0, 344.0, 286.0 ],
+		"rect" : [ 100.0, 100.0, 343.0, 268.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -33,7 +33,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 54.0, 126.0, 80.0, 60.0 ]
+					"patching_rect" : [ 41.0, 121.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 24.0, 66.0, 20.0, 20.0 ]
+					"patching_rect" : [ 11.0, 61.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 24.0, 93.0, 135.0, 23.0 ],
+					"patching_rect" : [ 11.0, 88.0, 135.0, 23.0 ],
 					"text" : "jit.noise 4 float32 50"
 				}
 
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 24.0, 206.0, 174.0, 23.0 ],
+					"patching_rect" : [ 11.0, 201.0, 174.0, 23.0 ],
 					"text" : "imi.matrixinfo"
 				}
 
@@ -118,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 238.0, 36.0, 18.0 ],
+					"patching_rect" : [ 149.0, 233.0, 36.0, 18.0 ],
 					"text" : "dim"
 				}
 
@@ -132,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 238.0, 53.0, 18.0 ],
+					"patching_rect" : [ 89.0, 233.0, 53.0, 18.0 ],
 					"text" : "type"
 				}
 
@@ -146,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 238.0, 66.0, 18.0 ],
+					"patching_rect" : [ 11.0, 233.0, 66.0, 18.0 ],
 					"text" : "planecount"
 				}
 
@@ -183,7 +183,7 @@
 					"destination" : [ "obj-30", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 111.0, 233.0, 145.5, 233.0 ],
+					"midpoints" : [ 98.0, 228.0, 132.5, 228.0 ],
 					"source" : [ "obj-21", 1 ]
 				}
 
@@ -193,7 +193,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 33.5, 233.0, 80.5, 233.0 ],
+					"midpoints" : [ 20.5, 228.0, 67.5, 228.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 

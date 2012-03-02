@@ -1,3 +1,4 @@
+IMI_simple_triggers, "simple triggering options";
 IMI_filtering_change, "change to filter out repetitions";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 dot.autoscale, "Rescales numbers according to auto-detected maximum and minimum values.";

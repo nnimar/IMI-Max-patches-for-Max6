@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 1.0, 44.0, 803.0, 637.0 ],
@@ -29,6 +29,19 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-16",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 472.0, 570.450012, 53.0, 33.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -40,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 810.0, 362.0, 411.0, 282.0 ],
@@ -594,18 +607,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 694.0, 480.0, 102.0, 20.0 ],
+					"patching_rect" : [ 686.0, 480.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"tags" : "",
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -640,7 +653,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 814.0, 44.0, 242.0, 485.0 ],
@@ -676,7 +689,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 4
 										}
 ,
 										"rect" : [ 6.0, 46.0, 416.0, 265.0 ],
@@ -866,16 +879,16 @@
 ,
 									"patching_rect" : [ 18.0, 276.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"tags" : "",
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_read"
@@ -988,7 +1001,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
@@ -1049,7 +1062,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 3
+															"revision" : 4
 														}
 ,
 														"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -1234,16 +1247,16 @@
 ,
 													"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"default_fontface" : 0,
-														"digest" : "",
-														"default_fontname" : "Arial",
-														"tags" : "",
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"tags" : "",
+														"fontsize" : 12.0,
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p devices"
@@ -1382,16 +1395,16 @@
 ,
 									"patching_rect" : [ 64.0, 93.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"tags" : "",
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_select"
@@ -1403,7 +1416,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
+									"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1697,16 +1710,16 @@
 ,
 					"patching_rect" : [ 390.0, 102.0, 112.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"tags" : "",
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p sensor"
@@ -1803,7 +1816,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 729.0, 411.0, 62.0, 23.0 ],
+					"patching_rect" : [ 732.0, 412.0, 62.0, 23.0 ],
 					"text" : "SCRIPT"
 				}
 
@@ -1901,7 +1914,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 443.0, 537.0, 41.0, 18.0 ],
+					"patching_rect" : [ 435.0, 538.0, 41.0, 18.0 ],
 					"text" : "s bang"
 				}
 
@@ -1954,8 +1967,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 96.0, 75.0, 20.0 ],
-					"text" : "r frameconv"
+					"patching_rect" : [ 242.0, 96.0, 99.0, 20.0 ],
+					"text" : "r imi.looptheloop"
 				}
 
 			}
@@ -1986,7 +1999,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 690.0, 44.0, 110.0, 124.0 ],
@@ -2053,16 +2066,16 @@
 ,
 					"patching_rect" : [ 757.0, 29.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"tags" : "",
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -2099,14 +2112,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 285.0, 124.0, 18.0 ],
-					"text" : "send video to a GL layer"
+					"patching_rect" : [ 50.0, 245.0, 137.0, 37.0 ],
+					"text" : "send the video to a GL layer"
 				}
 
 			}
@@ -2126,13 +2141,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 129.0, 139.0, 18.0 ],
+					"patching_rect" : [ 504.0, 126.0, 143.0, 22.0 ],
 					"text" : "receiving data from sensor"
 				}
 
@@ -2232,7 +2248,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.0, 459.0, 59.0, 18.0 ],
+					"patching_rect" : [ 686.0, 459.0, 59.0, 18.0 ],
 					"text" : "r fullscreen"
 				}
 
@@ -2246,8 +2262,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 694.0, 505.638428, 96.0, 23.0 ],
-					"text" : "jit.window imi"
+					"patching_rect" : [ 686.0, 505.638428, 105.0, 23.0 ],
+					"text" : "jit.window iC01"
 				}
 
 			}
@@ -2260,7 +2276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 296.0, 68.0, 23.0 ],
+					"patching_rect" : [ 722.0, 296.0, 68.0, 23.0 ],
 					"text" : "SENSOR"
 				}
 
@@ -2274,7 +2290,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 691.0, 586.0, 100.0, 23.0 ],
+					"patching_rect" : [ 689.0, 585.0, 100.0, 23.0 ],
 					"text" : "PROJECTION"
 				}
 
@@ -2382,19 +2398,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-16",
-					"maxclass" : "jit.fpsgui",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 490.0, 537.450012, 53.0, 33.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-167",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -2426,10 +2429,10 @@
 					"id" : "obj-169",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "erase", "bang", "bang" ],
-					"patching_rect" : [ 387.0, 510.0, 122.0, 20.0 ],
-					"text" : "t b erase b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "erase", "bang" ],
+					"patching_rect" : [ 387.0, 510.0, 67.0, 20.0 ],
+					"text" : "t b erase b"
 				}
 
 			}
@@ -2442,8 +2445,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 387.0, 579.787476, 255.0, 23.0 ],
-					"text" : "jit.gl.render imi @erase_color 0. 0. 0. 1."
+					"patching_rect" : [ 387.0, 565.787476, 80.0, 23.0 ],
+					"text" : "jit.gl.render"
 				}
 
 			}
@@ -2456,8 +2459,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 32.743591, 260.142578, 263.0, 23.0 ],
-					"text" : "jit.gl.videoplane imi @scale 1.333 1. 1."
+					"patching_rect" : [ 32.743591, 276.142578, 239.0, 23.0 ],
+					"text" : "jit.gl.videoplane @scale 1.333 1. 1."
 				}
 
 			}
@@ -2617,6 +2620,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2731,7 +2743,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 430.833344, 548.0, 396.5, 548.0 ],
+					"midpoints" : [ 420.5, 548.0, 396.5, 548.0 ],
 					"source" : [ "obj-169", 1 ]
 				}
 
@@ -2742,15 +2754,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-169", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-169", 3 ]
 				}
 
 			}
@@ -2949,21 +2952,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.smooth.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 100.0, 100.0, 608.0, 534.0 ],
+		"rect" : [ 592.0, 44.0, 608.0, 534.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 958.0, 147.0, 640.0, 480.0 ],
@@ -350,16 +350,16 @@
 ,
 					"patching_rect" : [ 111.0, 93.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p local_ip"
@@ -668,8 +668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 125.0, 122.0, 21.0 ],
-					"text" : "192.168.1.113"
+					"patching_rect" : [ 8.0, 125.0, 122.0, 21.0 ]
 				}
 
 			}
@@ -816,7 +815,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 613.0, 44.0, 385.0, 514.0 ],
@@ -1347,16 +1346,16 @@
 ,
 					"patching_rect" : [ 8.0, 227.0, 57.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p nmap"

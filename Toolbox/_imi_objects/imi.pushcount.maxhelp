@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 0.0, 44.0, 416.0, 219.0 ],
+		"rect" : [ 100.0, 100.0, 416.0, 219.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -62,7 +62,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 392.0, 36.0 ],
+					"patching_rect" : [ 4.0, 28.0, 392.0, 36.0 ],
 					"text" : "when a number hits the threshold (120), send a bang after a delay (2000 ms or 2 seconds in the example below)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"

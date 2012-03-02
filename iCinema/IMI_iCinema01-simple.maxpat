@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 3.0, 44.0, 802.0, 621.0 ],
@@ -80,7 +80,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 6.0, 44.0, 264.0, 156.0 ],
@@ -235,16 +235,16 @@
 ,
 					"patching_rect" : [ 685.0, 596.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p load&hide"
@@ -355,8 +355,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 132.0, 75.0, 20.0 ],
-					"text" : "r frameconv"
+					"patching_rect" : [ 242.0, 132.0, 100.0, 20.0 ],
+					"text" : "r imi.looptheloop"
 				}
 
 			}
@@ -387,7 +387,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 812.0, 44.0, 111.0, 102.0 ],
@@ -454,16 +454,16 @@
 ,
 					"patching_rect" : [ 757.0, 29.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -584,7 +584,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 814.0, 44.0, 242.0, 485.0 ],
@@ -620,7 +620,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 4
 										}
 ,
 										"rect" : [ 6.0, 46.0, 416.0, 265.0 ],
@@ -810,16 +810,16 @@
 ,
 									"patching_rect" : [ 18.0, 276.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
+										"tags" : "",
 										"fontsize" : 14.0,
-										"tags" : ""
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_read"
@@ -932,7 +932,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 3
+											"revision" : 4
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
@@ -993,7 +993,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 3
+															"revision" : 4
 														}
 ,
 														"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -1178,16 +1178,16 @@
 ,
 													"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"globalpatchername" : "",
-														"digest" : "",
-														"default_fontname" : "Arial",
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
+														"tags" : "",
 														"fontsize" : 12.0,
-														"tags" : ""
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p devices"
@@ -1326,16 +1326,16 @@
 ,
 									"patching_rect" : [ 31.0, 93.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
+										"tags" : "",
 										"fontsize" : 14.0,
-										"tags" : ""
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_select"
@@ -1347,7 +1347,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP", ",", "Bluetooth-PDA-Sync" ],
+									"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1642,16 +1642,16 @@
 ,
 					"patching_rect" : [ 390.0, 104.0, 112.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 14.0,
-						"tags" : ""
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p sensor"
@@ -1761,7 +1761,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 715.0, 297.0, 68.0, 23.0 ],
+					"patching_rect" : [ 721.0, 295.0, 68.0, 23.0 ],
 					"text" : "SENSOR"
 				}
 
