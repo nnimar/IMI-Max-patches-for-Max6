@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 0.0, 44.0, 910.0, 740.0 ],
+		"rect" : [ 4.0, 44.0, 910.0, 740.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -43,7 +43,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 915.0, 359.0, 411.0, 282.0 ],
+						"rect" : [ 926.0, 363.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -279,7 +279,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.0, 111.0, 65.0, 17.0 ],
-									"text" : "pos 510 45"
+									"text" : "pos 924 45"
 								}
 
 							}
@@ -597,11 +597,11 @@
 					"patching_rect" : [ 793.0, 598.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -735,11 +735,11 @@
 					"patching_rect" : [ 862.0, 25.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -1037,11 +1037,11 @@
 									"patching_rect" : [ 15.0, 245.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 14.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"tags" : "",
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
@@ -1352,11 +1352,11 @@
 													"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
-														"tags" : "",
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
@@ -1500,11 +1500,11 @@
 									"patching_rect" : [ 28.0, 78.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 14.0,
 										"description" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"tags" : "",
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
@@ -1520,7 +1520,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+									"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1762,11 +1762,11 @@
 					"patching_rect" : [ 597.0, 91.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -3307,14 +3307,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
