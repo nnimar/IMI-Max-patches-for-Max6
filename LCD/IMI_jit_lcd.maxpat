@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 1.0, 44.0, 590.0, 604.0 ],
@@ -39,7 +39,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 596.0, 44.0, 352.0, 153.0 ],
@@ -356,6 +356,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 180.0,
+									"background" : 1,
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
@@ -529,16 +530,16 @@
 ,
 					"patching_rect" : [ 469.0, 546.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p bkg-fg-colours"
@@ -586,10 +587,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 595.0, 270.0, 246.0, 268.0 ],
+						"rect" : [ 595.0, 269.0, 246.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
@@ -659,7 +660,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 208.0, 227.0, 18.0 ],
+									"patching_rect" : [ 8.0, 208.0, 227.0, 18.0 ],
 									"text" : "textface bold italic outline underline extend"
 								}
 
@@ -673,7 +674,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 181.0, 95.0, 20.0 ],
+									"patching_rect" : [ 8.0, 181.0, 95.0, 20.0 ],
 									"text" : "prepend textface"
 								}
 
@@ -689,7 +690,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 157.0, 90.0, 20.0 ]
+									"patching_rect" : [ 8.0, 157.0, 90.0, 20.0 ]
 								}
 
 							}
@@ -703,7 +704,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 99.0, 100.0, 50.0, 20.0 ],
+									"patching_rect" : [ 98.0, 100.0, 50.0, 20.0 ],
 									"triscale" : 0.9
 								}
 
@@ -717,7 +718,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 9.0, 100.0, 57.0, 20.0 ],
+									"patching_rect" : [ 8.0, 100.0, 57.0, 20.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -731,7 +732,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 9.0, 127.0, 109.0, 20.0 ],
+									"patching_rect" : [ 8.0, 127.0, 109.0, 20.0 ],
 									"text" : "pak font geneva 14"
 								}
 
@@ -747,7 +748,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 74.0, 126.0, 20.0 ]
+									"patching_rect" : [ 8.0, 74.0, 126.0, 20.0 ]
 								}
 
 							}
@@ -761,7 +762,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 64.0, 10.0, 50.0, 20.0 ],
+									"patching_rect" : [ 73.0, 10.0, 50.0, 20.0 ],
 									"triscale" : 0.9
 								}
 
@@ -775,7 +776,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 33.0, 55.0, 18.0 ],
+									"patching_rect" : [ 73.0, 33.0, 55.0, 18.0 ],
 									"text" : "font $1 9"
 								}
 
@@ -816,7 +817,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 58.0, 163.0, 20.0 ],
+									"patching_rect" : [ 8.0, 58.0, 163.0, 20.0 ],
 									"text" : "specify font by name"
 								}
 
@@ -824,6 +825,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 180.0,
+									"background" : 1,
 									"bgcolor" : [ 0.901961, 0.901961, 0.901961, 1.0 ],
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
@@ -879,7 +881,7 @@
 									"destination" : [ "obj-51", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 51.0, 179.0, 15.5, 179.0 ],
+									"midpoints" : [ 53.0, 179.0, 17.5, 179.0 ],
 									"source" : [ "obj-52", 1 ]
 								}
 
@@ -898,7 +900,7 @@
 									"destination" : [ "obj-62", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 18.5, 122.0, 63.5, 122.0 ],
+									"midpoints" : [ 17.5, 122.0, 62.5, 122.0 ],
 									"source" : [ "obj-61", 0 ]
 								}
 
@@ -917,7 +919,7 @@
 									"destination" : [ "obj-61", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 73.0, 97.0, 18.5, 97.0 ],
+									"midpoints" : [ 71.0, 97.0, 17.5, 97.0 ],
 									"source" : [ "obj-63", 1 ]
 								}
 
@@ -964,16 +966,16 @@
 ,
 					"patching_rect" : [ 495.0, 574.0, 84.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 18.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 18.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 18.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p more_text"
@@ -1066,7 +1068,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 322.0, 258.0 ],
@@ -1241,16 +1243,16 @@
 ,
 					"patching_rect" : [ 78.0, 547.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p slider_to_lcd"
