@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 1.0, 44.0, 505.0, 382.0 ],
@@ -34,7 +34,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 149.0, 45.0, 20.0 ],
+					"patching_rect" : [ 56.0, 152.0, 45.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -74,9 +74,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 10.0, 123.0, 116.0, 20.0 ],
-					"text" : "t b b erase"
+					"outlettype" : [ "bang", "erase", "bang" ],
+					"patching_rect" : [ 10.0, 123.0, 65.0, 20.0 ],
+					"text" : "t b erase b"
 				}
 
 			}
@@ -120,7 +120,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 511.0, 359.0, 411.0, 282.0 ],
@@ -677,15 +677,15 @@
 					"patching_rect" : [ 6.0, 271.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -723,7 +723,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 6.0, 44.0, 264.0, 156.0 ],
@@ -879,15 +879,15 @@
 					"patching_rect" : [ 247.0, 354.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p load&hide"
@@ -1178,7 +1178,7 @@
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 2 ]
 				}
 
 			}
@@ -1187,8 +1187,8 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.5, 174.0, 19.5, 174.0 ],
-					"source" : [ "obj-1", 2 ]
+					"midpoints" : [ 42.5, 174.0, 19.5, 174.0 ],
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
