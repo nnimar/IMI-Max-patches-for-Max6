@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 2.0, 44.0, 674.0, 478.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 679.0, 358.0, 411.0, 282.0 ],
@@ -594,7 +594,7 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 18.0, 414.0, 102.0, 20.0 ],
+					"patching_rect" : [ 15.0, 414.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"digest" : "",
@@ -751,8 +751,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 18.0, 439.638428, 96.0, 20.0 ],
-					"text" : "jit.window mesh"
+					"patching_rect" : [ 15.0, 439.638428, 115.0, 20.0 ],
+					"text" : "jit.window vid-mesh"
 				}
 
 			}
@@ -989,7 +989,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 18.0, 341.0, 57.0, 20.0 ],
+					"patching_rect" : [ 15.0, 341.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1003,8 +1003,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 315.0, 63.0, 20.0 ],
-					"text" : "qmetro 30"
+					"patching_rect" : [ 15.0, 315.0, 65.0, 20.0 ],
+					"text" : "qmetro 40"
 				}
 
 			}
@@ -1016,7 +1016,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 290.0, 20.0, 20.0 ]
+					"patching_rect" : [ 15.0, 290.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1058,7 +1058,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 18.0, 367.0, 70.0, 20.0 ],
+					"patching_rect" : [ 15.0, 371.0, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -1181,7 +1181,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 281.0, 123.147247, 188.0 ],
+					"patching_rect" : [ 8.0, 281.0, 129.147247, 189.0 ],
 					"rounded" : 30
 				}
 
@@ -1303,7 +1303,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 65.5, 364.5, 27.5, 364.5 ],
+					"midpoints" : [ 62.5, 364.5, 24.5, 364.5 ],
 					"source" : [ "obj-26", 1 ]
 				}
 
