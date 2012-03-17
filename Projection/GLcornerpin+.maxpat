@@ -142,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 304.0, 153.0, 21.0 ],
+					"patching_rect" : [ 177.0, 280.0, 153.0, 21.0 ],
 					"text_width" : 120.0
 				}
 
@@ -297,16 +297,16 @@
 ,
 									"patching_rect" : [ 141.0, 61.25, 54.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p cursor"
@@ -911,16 +911,16 @@
 ,
 					"patching_rect" : [ 9.0, 273.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen+"
@@ -970,7 +970,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 252.0, 198.0, 39.0 ],
+					"patching_rect" : [ 414.0, 228.0, 198.0, 39.0 ],
 					"text" : "node uses \"scene\" as a texture\nand sends it to GL cornerpin"
 				}
 
@@ -1162,7 +1162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 159.0, 333.0, 129.0, 20.0 ],
+					"patching_rect" : [ 159.0, 309.0, 129.0, 20.0 ],
 					"text" : "jit.gl.cornerpin corners"
 				}
 
@@ -1176,7 +1176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 159.0, 261.0, 252.0, 20.0 ],
+					"patching_rect" : [ 159.0, 237.0, 252.0, 20.0 ],
 					"text" : "jit.gl.node corners @capture 1 @name scene"
 				}
 
@@ -1233,7 +1233,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 304.0, 80.0, 20.0 ],
+					"patching_rect" : [ 178.0, 280.0, 80.0, 20.0 ],
 					"text" : "r showcorner"
 				}
 

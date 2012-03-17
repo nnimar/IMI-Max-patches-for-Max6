@@ -28,6 +28,50 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 395.0, 614.0, 113.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"client_rect" : [ 1189, 44, 1572, 406 ],
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage multi-layer",
+					"varname" : "multi-layer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 396.0, 587.0, 116.0, 18.0 ],
+					"restore" : 					{
+						"flonum[12]" : [ 0.0 ],
+						"flonum[1]" : [ 0.8 ],
+						"flonum[21]" : [ 0.0 ],
+						"flonum[5]" : [ 0.0 ],
+						"toggle" : [ 1 ]
+					}
+,
+					"text" : "autopattr @autoname 1",
+					"varname" : "u463003115"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -1012,16 +1056,16 @@
 ,
 					"patching_rect" : [ 913.0, 30.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p init"
@@ -1540,16 +1584,16 @@
 ,
 					"patching_rect" : [ 10.0, 709.662476, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
