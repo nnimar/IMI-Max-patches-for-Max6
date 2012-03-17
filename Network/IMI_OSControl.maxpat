@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 430.0, 194.0 ],
+		"rect" : [ 2.0, 44.0, 430.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,12 +29,63 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 140.0, 143.5, 193.0, 23.0 ],
+					"text" : "control Millumin using OSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-1",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 143.5, 100.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 101.0, 152.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "OSC2Millumin",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 148.5, 118.0, 16.0 ],
+					"text" : "load IIMI_OSC2Millumin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 167.0, 417.0, 20.0 ],
+					"patching_rect" : [ 5.0, 207.0, 417.0, 20.0 ],
 					"text" : "OSC is a content format for messaging between applications and computers "
 				}
 
@@ -53,7 +104,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 101.5, 113.0, 21.0 ],
+					"patching_rect" : [ 7.0, 105.5, 113.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -72,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 101.5, 124.0, 16.0 ],
+					"patching_rect" : [ 7.0, 105.5, 124.0, 16.0 ],
 					"text" : "load IMI_OSC2Resolume"
 				}
 
@@ -91,7 +142,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 63.5, 84.0, 21.0 ],
+					"patching_rect" : [ 7.0, 67.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -110,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 63.5, 97.0, 16.0 ],
+					"patching_rect" : [ 7.0, 67.5, 97.0, 16.0 ],
 					"text" : "load IMI_OSC2VPT"
 				}
 
@@ -125,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 28.0, 327.0, 21.0 ],
-					"text" : "control VPT or Resolume from Max",
+					"text" : "control VPT,  Resolume or Millumin from Max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -139,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 101.5, 193.0, 23.0 ],
+					"patching_rect" : [ 140.0, 105.5, 193.0, 23.0 ],
 					"text" : "control Resolume using OSC"
 				}
 
@@ -152,7 +203,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 63.5, 160.0, 23.0 ],
+					"patching_rect" : [ 140.0, 67.5, 160.0, 23.0 ],
 					"text" : "control VPT using OSC"
 				}
 
@@ -167,7 +218,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 133.5, 52.0, 20.0 ],
+					"patching_rect" : [ 7.0, 171.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -208,6 +259,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,

@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 756.0, 418.0 ],
+		"rect" : [ 100.0, 100.0, 756.0, 418.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -681,16 +681,16 @@
 ,
 					"patching_rect" : [ 9.0, 304.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -878,16 +878,16 @@
 ,
 					"patching_rect" : [ 251.0, 115.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p draw-noise"
@@ -1068,16 +1068,16 @@
 ,
 					"patching_rect" : [ 183.0, 188.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p dims*2"
@@ -1482,13 +1482,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-37",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 274.0, 277.0, 32.0 ],
-									"text" : "exportimage /Users/hubbles/Desktop/image00 jpeg"
+									"patching_rect" : [ 8.0, 274.0, 277.0, 18.0 ],
+									"text" : "exportimage /Users/nnimar/Desktop/image00 jpeg"
 								}
 
 							}
@@ -1511,13 +1510,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-46",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 569.0, 300.0, 221.0, 46.0 ],
-									"text" : "write /Users/hubbles/Desktop/video.mov 25. dvpal max 600"
+									"patching_rect" : [ 569.0, 300.0, 221.0, 32.0 ],
+									"text" : "write /Users/nnimar/Desktop/video.mov 25. dvpal max 600"
 								}
 
 							}
@@ -1585,8 +1584,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 389.0, 181.0, 178.0, 34.0 ],
-									"text" : "jit.gl.asyncread cm_ @layer 10 @mode interleave"
+									"patching_rect" : [ 389.0, 181.0, 151.0, 34.0 ],
+									"text" : "jit.gl.asyncread @layer 10 @mode interleave"
 								}
 
 							}
@@ -1964,16 +1963,16 @@
 ,
 					"patching_rect" : [ 168.0, 356.0, 173.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial"
+						"digest" : ""
 					}
 ,
 					"text" : "p asyncread_export"
@@ -2046,7 +2045,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 213.0, 238.0, 24.0 ],
+					"patching_rect" : [ 432.0, 213.0, 238.0, 24.0 ],
 					"text" : "use the image \"bigscene\" from GLmesh"
 				}
 
@@ -2060,7 +2059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 281.0, 65.0, 24.0 ],
+					"patching_rect" : [ 427.0, 281.0, 65.0, 24.0 ],
 					"text" : "display"
 				}
 
@@ -2074,7 +2073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 542.0, 246.0, 199.0, 24.0 ],
+					"patching_rect" : [ 518.0, 246.0, 199.0, 24.0 ],
 					"text" : "scale down with simple blur filter"
 				}
 
@@ -2088,8 +2087,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 169.0, 282.0, 280.0, 20.0 ],
-					"text" : "jit.gl.videoplane cm_ @transform_reset 2 @layer 1"
+					"patching_rect" : [ 169.0, 282.0, 254.0, 20.0 ],
+					"text" : "jit.gl.videoplane @transform_reset 2 @layer 1"
 				}
 
 			}
@@ -2102,8 +2101,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 169.0, 248.0, 371.0, 20.0 ],
-					"text" : "jit.gl.slab cm_ @file cf.blur.jxs @dimscale 0.5 0.5 @param width 0.5"
+					"patching_rect" : [ 169.0, 248.0, 345.0, 20.0 ],
+					"text" : "jit.gl.slab @file cf.blur.jxs @dimscale 0.5 0.5 @param width 0.5"
 				}
 
 			}
@@ -2116,8 +2115,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 169.0, 215.0, 283.0, 20.0 ],
-					"text" : "jit.gl.texture cm_ @name bigscene @dim 1280 960"
+					"patching_rect" : [ 169.0, 215.0, 257.0, 20.0 ],
+					"text" : "jit.gl.texture @name bigscene @dim 1280 960"
 				}
 
 			}
@@ -2146,7 +2145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 251.0, 146.0, 280.0, 34.0 ],
-					"text" : "jit.gl.mesh cm_ @draw_mode line_strip @line_width 5. @color 1 1 1 1 @capture bigscene"
+					"text" : "jit.gl.mesh @draw_mode line_strip @line_width 5. @color 1 1 1 1 @capture bigscene"
 				}
 
 			}
@@ -2187,8 +2186,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 330.0, 89.0, 20.0 ],
-					"text" : "jit.window cm_"
+					"patching_rect" : [ 9.0, 330.0, 128.0, 20.0 ],
+					"text" : "jit.window asynchread"
 				}
 
 			}
@@ -2244,8 +2243,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 201.799988, 126.0, 34.0 ],
-					"text" : "jit.gl.render cm_ @erase_color 0 0 0 1"
+					"patching_rect" : [ 12.0, 201.799988, 131.0, 34.0 ],
+					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
 
 			}
