@@ -29,14 +29,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 138.0, 180.0, 24.0 ],
+					"patching_rect" : [ 150.0, 138.0, 167.0, 24.0 ],
 					"text" : "choose 'center' or 'corner'"
 				}
 

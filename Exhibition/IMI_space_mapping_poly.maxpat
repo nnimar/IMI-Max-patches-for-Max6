@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.0, 302.0, 113.0, 39.0 ],
+					"patching_rect" : [ 304.0, 305.0, 113.0, 39.0 ],
 					"text" : "number of videos"
 				}
 
@@ -1040,16 +1040,16 @@
 ,
 									"patching_rect" : [ 16.0, 90.0, 109.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"digest" : ""
+										"tags" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : ""
 									}
 ,
 									"text" : "p reset"
@@ -1152,16 +1152,16 @@
 ,
 					"patching_rect" : [ 300.0, 369.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p voice"
@@ -1178,19 +1178,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 342.5, 58.0, 19.0 ],
-					"text" : "voices 3"
+					"text" : "voices 5"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 314.0, 62.0, 20.0 ],
+					"patching_rect" : [ 520.0, 303.0, 80.0, 24.0 ],
 					"text" : "all enable"
 				}
 
@@ -1204,33 +1205,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 314.0, 65.0, 18.0 ],
+					"patching_rect" : [ 452.0, 307.0, 65.0, 18.0 ],
 					"text" : "target 0, 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 338.0, 55.0, 20.0 ],
+					"patching_rect" : [ 520.0, 334.0, 73.0, 24.0 ],
 					"text" : "1 enable"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 520.0, 363.0, 67.0, 20.0 ],
+					"patching_rect" : [ 520.0, 366.0, 79.0, 24.0 ],
 					"text" : "all disable"
 				}
 
@@ -1258,7 +1261,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 70.0, 41.0, 20.0 ],
+					"patching_rect" : [ 176.0, 60.0, 41.0, 20.0 ],
 					"text" : "r load"
 				}
 
@@ -1272,7 +1275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.0, 362.0, 65.0, 18.0 ],
+					"patching_rect" : [ 452.0, 369.0, 65.0, 18.0 ],
 					"text" : "target 0, 0"
 				}
 
@@ -1286,7 +1289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 176.0, 147.0, 18.0 ],
+					"patching_rect" : [ 236.0, 166.0, 147.0, 18.0 ],
 					"text" : "target 4, read sophie.mov"
 				}
 
@@ -1300,7 +1303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.0, 204.0, 170.0, 18.0 ],
+					"patching_rect" : [ 248.0, 194.0, 170.0, 18.0 ],
 					"text" : "target 5, read hapticanna.mov"
 				}
 
@@ -1314,7 +1317,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 274.0, 85.0, 18.0 ],
+					"patching_rect" : [ 279.0, 260.0, 85.0, 18.0 ],
 					"text" : "target 0, start"
 				}
 
@@ -1745,18 +1748,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 487.0, 142.0, 79.0, 20.0 ],
+					"patching_rect" : [ 487.0, 133.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p folder2poly"
@@ -1771,7 +1774,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 87.0, 109.0, 20.0 ],
+					"patching_rect" : [ 519.0, 78.0, 109.0, 20.0 ],
 					"text" : "drop a folder here"
 				}
 
@@ -1785,7 +1788,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 487.0, 71.0, 173.0, 52.0 ],
+					"patching_rect" : [ 487.0, 62.0, 173.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 90.0, 172.0, 291.0 ]
 				}
@@ -1800,7 +1803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 148.0, 170.0, 18.0 ],
+					"patching_rect" : [ 221.0, 138.0, 170.0, 18.0 ],
 					"text" : "target 3, read hapticanna.mov"
 				}
 
@@ -1814,7 +1817,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 249.0, 81.0, 18.0 ],
+					"patching_rect" : [ 279.0, 235.0, 81.0, 18.0 ],
 					"text" : "target 0, stop"
 				}
 
@@ -1828,7 +1831,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 122.0, 170.0, 18.0 ],
+					"patching_rect" : [ 201.0, 112.0, 170.0, 18.0 ],
 					"text" : "target 2, read hapticanna.mov"
 				}
 
@@ -1842,7 +1845,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 95.0, 148.0, 18.0 ],
+					"patching_rect" : [ 179.0, 85.0, 148.0, 18.0 ],
 					"text" : "target 1, read sophie.mov"
 				}
 
@@ -2015,18 +2018,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 541.0, 30.0, 36.0, 20.0 ],
+					"patching_rect" : [ 625.0, 29.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p init"
@@ -2377,16 +2380,16 @@
 ,
 					"patching_rect" : [ 11.666138, 257.5, 129.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p control"
@@ -2403,8 +2406,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.0, 31.0, 70.0, 18.0 ],
-					"text" : "rev 010 beta",
+					"patching_rect" : [ 579.0, 30.0, 49.0, 18.0 ],
+					"text" : "rev 010 ",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
 
@@ -2698,16 +2701,16 @@
 ,
 									"patching_rect" : [ 141.0, 61.25, 54.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"digest" : ""
+										"tags" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : ""
 									}
 ,
 									"text" : "p cursor"
@@ -3312,16 +3315,16 @@
 ,
 					"patching_rect" : [ 8.5, 507.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen+"
@@ -3467,9 +3470,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.666138, 215.0, 135.0, 34.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 766, 44, 1220, 302 ],
 						"parameter_enable" : 0,
-						"client_rect" : [ 48, 48, 522, 654 ],
-						"storage_rect" : [ 766, 44, 1220, 302 ]
+						"client_rect" : [ 48, 48, 522, 654 ]
 					}
 ,
 					"text" : "pattrstorage cornerpoly @savemode 2",
@@ -3729,6 +3732,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 253.5, 398.0, 188.0, 398.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -3900,14 +3904,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "cornerpoly.json",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Exhibition",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cornerpin.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Exhibition",
 				"type" : "JSON",
 				"implicit" : 1
 			}

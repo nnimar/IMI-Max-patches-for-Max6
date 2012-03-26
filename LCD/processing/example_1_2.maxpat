@@ -84,16 +84,16 @@
 ,
 					"patching_rect" : [ 235.0, 449.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"digest" : "",
 						"tags" : "",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p processing_code"
@@ -182,8 +182,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 106.0, 151.0, 24.0 ],
-					"text" : "ellipse(60,60,100,100)"
+					"patching_rect" : [ 193.0, 106.0, 256.0, 24.0 ],
+					"text" : "ellipse(60,60,100,100); x, y, size x, size y"
 				}
 
 			}
@@ -342,7 +342,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.draw.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

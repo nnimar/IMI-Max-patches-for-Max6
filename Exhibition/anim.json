@@ -5,9 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"presets" : [ 1 ],
 					"videoplane_position" : [ 0.8, -0.5, 0.0 ],
-					"videoplane_rotatexyz" : [ 0.0, 0.0, 0.0 ],
+					"anim_time" : [  ],
 					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
 				}
 
@@ -16,9 +15,28 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"presets" : [ 2 ],
 					"videoplane_position" : [ -0.9, -0.5, 0.0 ],
-					"videoplane_rotatexyz" : [ 0.0, 0.0, 0.0 ],
+					"anim_time" : [  ],
+					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"videoplane_position" : [ 0.0, 0.2, 0.0 ],
+					"anim_time" : [ 778 ],
+					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"videoplane_position" : [ 0.0, 0.58, 0.0 ],
+					"anim_time" : [ 876 ],
 					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
 				}
 

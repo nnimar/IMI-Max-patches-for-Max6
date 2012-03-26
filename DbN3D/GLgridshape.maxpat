@@ -28,6 +28,67 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-29",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 597.0, 374.0, 55.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 562.0, 332.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "syphon",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 115.0, 375.0, 64.0, 16.0 ],
+					"text" : "load GLlight"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-9",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 550.0, 375.0, 42.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 534.0, 331.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "light",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-24",
@@ -847,16 +908,16 @@
 ,
 					"patching_rect" : [ 9.0, 240.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1001,7 +1062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 373.0, 52.0, 20.0 ],
+					"patching_rect" : [ 72.0, 374.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1020,7 +1081,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 600.0, 374.0, 55.0, 17.0 ],
+					"patching_rect" : [ 490.0, 375.0, 55.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 481.0, 408.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1039,7 +1100,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 374.0, 82.0, 16.0 ],
+					"patching_rect" : [ 77.0, 375.0, 82.0, 16.0 ],
 					"text" : "load IMI_texture"
 				}
 
@@ -1058,7 +1119,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 421.0, 374.0, 88.0, 18.0 ],
+					"patching_rect" : [ 313.0, 375.0, 88.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 197.0, 305.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1077,7 +1138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 374.0, 128.0, 16.0 ],
+					"patching_rect" : [ 77.0, 375.0, 128.0, 16.0 ],
 					"text" : "load GLgridshape_rotation"
 				}
 
@@ -1092,7 +1153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 374.0, 127.0, 16.0 ],
+					"patching_rect" : [ 72.0, 375.0, 127.0, 16.0 ],
 					"text" : "load GLgridshape_shades"
 				}
 
@@ -1107,7 +1168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 374.0, 84.0, 16.0 ],
+					"patching_rect" : [ 86.0, 375.0, 84.0, 16.0 ],
 					"text" : "load anchorpoint"
 				}
 
@@ -1126,7 +1187,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 364.0, 374.0, 54.0, 18.0 ],
+					"patching_rect" : [ 256.0, 375.0, 54.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.0, 370.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1145,7 +1206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 374.0, 123.0, 16.0 ],
+					"patching_rect" : [ 78.0, 375.0, 123.0, 16.0 ],
 					"text" : "load GLsketch_assemble"
 				}
 
@@ -1164,7 +1225,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 513.0, 374.0, 82.0, 18.0 ],
+					"patching_rect" : [ 405.0, 375.0, 82.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 372.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1187,7 +1248,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 374.0, 53.0, 18.0 ],
+					"patching_rect" : [ 200.0, 375.0, 53.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 611.0, 163.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1206,7 +1267,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 374.0, 122.0, 16.0 ],
+					"patching_rect" : [ 77.0, 375.0, 122.0, 16.0 ],
 					"text" : "load GLgridshape_layers"
 				}
 
@@ -1222,6 +1283,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 270.0, 287.0, 40.0, 18.0 ],
 					"text" : "$1 $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 375.0, 144.0, 18.0 ],
+					"text" : "load GLgridshape2syphon"
 				}
 
 			}
@@ -1349,6 +1425,15 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -1383,6 +1468,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1396,6 +1490,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1517,6 +1620,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 174.5, 237.0, 154.5, 237.0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

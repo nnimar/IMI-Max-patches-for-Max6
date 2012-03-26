@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 443.0, 477.0 ],
+		"rect" : [ 602.0, 44.0, 443.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 45.0, 74.0, 24.0 ],
-					"presentation_rect" : [ 80.0, 148.0, 0.0, 0.0 ],
+					"patching_rect" : [ 221.0, 46.0, 74.0, 24.0 ],
 					"text" : "navigate"
 				}
 
@@ -56,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 456.0, 44.0, 285.0, 291.0 ],
@@ -253,18 +252,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 317.0, 316.0, 76.0, 20.0 ],
+					"patching_rect" : [ 317.0, 315.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"tags" : "",
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p showcolor"
@@ -281,7 +280,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 262.0, 443.0, 33.0, 20.0 ]
+					"patching_rect" : [ 262.0, 397.0, 33.0, 20.0 ]
 				}
 
 			}
@@ -295,7 +294,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 443.0, 33.0, 20.0 ]
+					"patching_rect" : [ 225.0, 397.0, 33.0, 20.0 ]
 				}
 
 			}
@@ -308,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 225.0, 401.0, 56.0, 23.0 ],
+					"patching_rect" : [ 225.0, 355.0, 56.0, 23.0 ],
 					"text" : "unpack"
 				}
 
@@ -316,13 +315,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 225.0, 362.0, 67.0, 23.0 ],
+					"patching_rect" : [ 225.0, 315.0, 59.0, 20.0 ],
 					"text" : "route cell"
 				}
 
@@ -467,7 +466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 45.0, 157.0, 39.0 ],
+					"patching_rect" : [ 7.0, 45.0, 165.0, 39.0 ],
 					"text" : "a matrix can be used as \na lookup table of data"
 				}
 
@@ -498,7 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 317.0, 355.0, 101.0, 98.0 ]
+					"patching_rect" : [ 317.0, 352.0, 101.0, 98.0 ]
 				}
 
 			}
