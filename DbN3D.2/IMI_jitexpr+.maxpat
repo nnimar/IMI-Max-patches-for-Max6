@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 878.0, 608.0 ],
+		"rect" : [ 0.0, 44.0, 878.0, 608.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -29,14 +29,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 573.0, 155.0, 24.0 ],
+					"patching_rect" : [ 338.0, 573.0, 146.0, 24.0 ],
 					"text" : "see matrix in numbers"
 				}
 
@@ -142,7 +141,7 @@
 															"revision" : 4
 														}
 ,
-														"rect" : [ 385.0, 44.0, 182.0, 267.0 ],
+														"rect" : [ 888.0, 44.0, 182.0, 267.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 14.0,
@@ -338,16 +337,16 @@
 ,
 													"patching_rect" : [ 6.0, 69.0, 89.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontsize" : 14.0,
-														"tags" : "",
 														"description" : "",
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 14.0,
 														"default_fontface" : 0,
 														"digest" : "",
+														"tags" : "",
 														"default_fontname" : "Arial",
-														"fontname" : "Arial"
+														"fontname" : "Arial",
+														"globalpatchername" : "",
+														"default_fontsize" : 14.0
 													}
 ,
 													"text" : "p matrix-adapt"
@@ -593,16 +592,16 @@
 ,
 									"patching_rect" : [ 38.0, 247.0, 281.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 14.0,
-										"tags" : "",
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
+										"tags" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"fontname" : "Arial",
+										"globalpatchername" : "",
+										"default_fontsize" : 14.0
 									}
 ,
 									"text" : "p video_feather"
@@ -633,7 +632,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 12.5, 328.0, 187.0, 140.25 ]
+									"patching_rect" : [ 11.5, 328.0, 187.0, 140.25 ]
 								}
 
 							}
@@ -882,18 +881,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 553.0, 536.0, 127.0, 23.0 ],
+					"patching_rect" : [ 553.0, 477.0, 127.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 07_video-feather"
@@ -981,18 +980,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 382.0, 449.0, 88.0, 23.0 ],
+					"patching_rect" : [ 382.0, 390.0, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 00_tutorial"
@@ -1196,16 +1195,16 @@
 ,
 					"patching_rect" : [ 478.0, 340.0, 54.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p more"
@@ -1228,7 +1227,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 892.0, 359.0, 515.0, 420.0 ],
+						"rect" : [ 887.0, 373.0, 515.0, 420.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1428,16 +1427,16 @@
 ,
 					"patching_rect" : [ 220.0, 574.0, 112.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p cells2numbers"
@@ -1458,11 +1457,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 772.0, 581.0, 98.0, 20.0 ],
+					"patching_rect" : [ 764.0, 581.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "jit.expression",
+					"text" : "gencoord + gen",
 					"texton" : "Stop"
 				}
 
@@ -1481,7 +1480,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 659.0, 581.0, 108.0, 20.0 ],
+					"patching_rect" : [ 652.0, 581.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 732.0, 460.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1500,7 +1499,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 759.0, 581.0, 74.0, 16.0 ],
+					"patching_rect" : [ 752.0, 581.0, 74.0, 16.0 ],
 					"text" : "load glmultiple"
 				}
 
@@ -1605,7 +1604,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 886.0, 440.0, 203.0, 210.0 ],
+						"rect" : [ 887.0, 44.0, 203.0, 210.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1735,18 +1734,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 553.0, 449.0, 109.0, 23.0 ],
+					"patching_rect" : [ 553.0, 390.0, 109.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 04_interactive"
@@ -1879,7 +1878,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 892.0, 44.0, 479.0, 421.0 ],
+						"rect" : [ 887.0, 44.0, 479.0, 421.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2137,18 +2136,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 382.0, 508.0, 106.0, 23.0 ],
+					"patching_rect" : [ 382.0, 449.0, 106.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 02_advanced"
@@ -2171,7 +2170,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 892.0, 44.0, 438.0, 538.0 ],
+						"rect" : [ 887.0, 44.0, 438.0, 538.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2424,18 +2423,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 382.0, 479.0, 81.0, 23.0 ],
+					"patching_rect" : [ 382.0, 420.0, 81.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 01_in/cell"
@@ -2452,8 +2451,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 758.0, 581.0, 113.0, 16.0 ],
-					"text" : "load IMI_jitexpr.maxpat"
+					"patching_rect" : [ 663.0, 583.0, 156.0, 16.0 ],
+					"text" : "load gencoord_expr_gen.maxpat"
 				}
 
 			}
@@ -2467,7 +2466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 581.0, 52.0, 20.0 ],
+					"patching_rect" : [ 765.0, 581.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2488,7 +2487,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 891.0, 361.0, 587.0, 397.0 ],
+						"rect" : [ 887.0, 372.0, 533.0, 325.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2537,7 +2536,7 @@
 											"revision" : 4
 										}
 ,
-										"rect" : [ 890.0, 361.0, 411.0, 282.0 ],
+										"rect" : [ 886.0, 374.0, 411.0, 282.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3090,16 +3089,16 @@
 ,
 									"patching_rect" : [ 16.0, 233.0, 102.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"tags" : "",
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
+										"tags" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"fontname" : "Arial",
+										"globalpatchername" : "",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p ESC-fullscreen"
@@ -3116,7 +3115,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 254.0, 9.0, 68.0, 23.0 ],
+									"patching_rect" : [ 198.0, 15.0, 68.0, 23.0 ],
 									"text" : "loadbang"
 								}
 
@@ -3137,26 +3136,14 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
-									"fontsize" : 14.0,
-									"id" : "obj-1",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 331.0, 178.0, 23.0 ],
-									"text" : "2. replace t by norm[0]*5"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-7",
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 360.0, 561.0, 23.0 ],
+									"patching_rect" : [ 172.0, 260.0, 274.0, 55.0 ],
 									"text" : "jit.expr @expr (norm[0]*5)*cos(6*(norm[0]*5)) (norm[0]*5)*sin(6*(norm[0]*5)) (norm[0]*5)"
 								}
 
@@ -3169,7 +3156,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 241.0, 302.0, 218.0, 23.0 ],
+									"patching_rect" : [ 172.0, 230.0, 218.0, 23.0 ],
 									"text" : "x= t * cos(6* t) y= t* sin(6 * t) z= t"
 								}
 
@@ -3182,8 +3169,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 302.0, 223.0, 23.0 ],
-									"text" : "1. find the formulae for a spiral :"
+									"patching_rect" : [ 172.0, 202.0, 356.0, 23.0 ],
+									"text" : "Find the formulae for a spiral replace t by norm[0]*5"
 								}
 
 							}
@@ -3212,7 +3199,7 @@
 									"numinlets" : 9,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 228.0, 135.0, 290.0, 39.0 ],
+									"patching_rect" : [ 172.0, 141.0, 290.0, 39.0 ],
 									"text" : "jit.gl.mesh @draw_mode line_strip @line_width 2. @color 1 0 0 1 @antialias 1"
 								}
 
@@ -3224,7 +3211,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 228.0, 11.0, 20.0, 20.0 ]
+									"patching_rect" : [ 172.0, 17.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -3237,7 +3224,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 228.0, 47.0, 153.0, 23.0 ],
+									"patching_rect" : [ 172.0, 53.0, 153.0, 23.0 ],
 									"text" : "jit.matrix 3 float32 200"
 								}
 
@@ -3252,7 +3239,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 228.0, 82.0, 294.0, 39.0 ],
+									"patching_rect" : [ 172.0, 88.0, 294.0, 39.0 ],
 									"text" : "jit.expr @expr (norm[0]*5)*cos(6*(norm[0]*5)) (norm[0]*5)*sin(6*(norm[0]*5)) (norm[0]*5)"
 								}
 
@@ -3430,18 +3417,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 553.0, 508.0, 117.0, 23.0 ],
+					"patching_rect" : [ 553.0, 449.0, 117.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p 06_mesh/spiral"
@@ -3721,18 +3708,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 553.0, 479.0, 84.0, 23.0 ],
+					"patching_rect" : [ 553.0, 420.0, 84.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 18.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 18.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 18.0
 					}
 ,
 					"text" : "p 05_matrix"
@@ -3955,18 +3942,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 382.0, 536.0, 165.0, 23.0 ],
+					"patching_rect" : [ 382.0, 477.0, 165.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p 03_functors_jit_objects"
@@ -3983,7 +3970,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 559.0, 202.0, 315.0, 55.0 ],
-					"text" : "snorm[0] is the signed norm. coord. across dim \nranges from -1 to 1 (change from char to float32)\nuse this one in GL world (see GL.multiple)"
+					"text" : "snorm[0] is the signed norm. coord. across dim \nranges from -1 to 1 (change from char to float32)\nuse this one in the GL world (see GL.multiple)"
 				}
 
 			}

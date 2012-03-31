@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 6.0, 44.0, 742.0, 591.0 ],
@@ -339,22 +339,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 533.0, 515.0, 130.0, 36.0 ],
+					"patching_rect" : [ 533.0, 514.0, 130.0, 36.0 ],
 					"text" : ";\rmax launchbrowser http://www.autofasurer.net/wp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"hidden" : 1,
-					"id" : "obj-59",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 0,
-					"patching_rect" : [ 533.0, 532.0, 106.0, 17.0 ],
-					"text" : "bgcolor 180 180 200"
 				}
 
 			}
@@ -590,9 +576,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 57.0, 561.0, 127.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"storage_rect" : [ 1175, 460, 1626, 880 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ],
-						"client_rect" : [ 4, 44, 358, 172 ]
+						"client_rect" : [ 1134, 574, 1627, 980 ]
 					}
 ,
 					"text" : "pattrstorage 3dSpirograph",
@@ -824,7 +810,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 196.0, 387.0, 191.0, 170.0 ],
@@ -1085,16 +1071,16 @@
 ,
 					"patching_rect" : [ 1.0, 249.0, 53.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p spread"
@@ -1337,7 +1323,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
 						"rect" : [ 25.0, 69.0, 204.0, 226.0 ],
@@ -1617,16 +1603,16 @@
 ,
 					"patching_rect" : [ 688.0, 317.0, 27.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p fs"
@@ -1704,6 +1690,7 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"id" : "obj-95",
 					"ignoreclick" : 1,

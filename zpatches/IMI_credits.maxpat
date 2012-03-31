@@ -42,7 +42,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 678.0, 44.0, 634.0, 167.0 ],
+						"rect" : [ 658.0, 44.0, 634.0, 167.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -61,6 +61,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -82,16 +83,16 @@
 ,
 					"patching_rect" : [ 498.0, 464.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p plugins credits"

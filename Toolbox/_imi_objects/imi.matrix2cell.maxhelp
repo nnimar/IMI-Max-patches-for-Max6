@@ -29,6 +29,23 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 451.0, 29.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 260.0, 150.0, 0.0, 0.0 ],
+					"text" : "rel 002",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "autohelp_top_digest[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-21",
 					"items" : [ "char", ",", "long", ",", "float32", ",", "float64" ],
@@ -123,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 302.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 302.0, 30.0 ],
 					"text" : "IMI matrix2cell",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -139,8 +156,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 420.0, 21.0 ],
-					"text" : "copies a matrix to a cellblock",
+					"patching_rect" : [ 2.0, 28.0, 398.0, 21.0 ],
+					"text" : "copies a matrix to a cellblock (you can now use multiple instances)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
