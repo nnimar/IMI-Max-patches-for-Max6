@@ -5,10 +5,10 @@
 
 #include <Button.h>
 
-int button_pin = 2;                    
+int buttonPin = 2;                    
 int ledPin = 13;
 
-Button button = Button(button_pin,PULLUP);
+Button button = Button(buttonPin,BUTTON_PULLUP_INTERNAL);
 
 void setup() 
 { 

@@ -50,7 +50,7 @@ void setup()
 					byte resp[16];
 					int rc = BlinkM_receiveBytes(addr, resp, recvlen);
 					for( int i=0; i<recvlen; i++) 
-					Serial.print(resp[i],BYTE);
+					Serial.write(resp[i]);
 				}
 			}
 			else {

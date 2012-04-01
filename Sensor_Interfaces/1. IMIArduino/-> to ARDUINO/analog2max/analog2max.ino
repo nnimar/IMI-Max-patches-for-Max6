@@ -8,6 +8,7 @@ speed : 9600
 void setup() {
 	Serial.begin(9600);
 	digitalWrite (13, LOW);
+	delay (1000);
 }
 
 void loop() {

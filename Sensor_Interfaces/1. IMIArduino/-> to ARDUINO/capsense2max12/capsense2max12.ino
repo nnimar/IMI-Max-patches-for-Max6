@@ -1,17 +1,18 @@
 #include <CapSense.h>
 
 /*
- * CapitiveSense Library
+ * CapSense Library
  * Paul Badger 2008
  * IMI version for 12 sensors and send to Max/MSP (use regexp to decode)
  */
 
 /*
-Use a 1 M resistor for absolute touch to activate.
+Use a 1 M resistor for an absolute touch to activate.
 With a 10 M resistor for 4-6 inches away.
-With a 40 M resistor for 12-24 inches away (dependent on the foil size).
+With a 40 M resistor for 12-24 inches away.
+
 Also experiment with small capacitors (100pf - .01uf) to ground, on the sense pin. 
-They improve stability of the sensor.
+They will improve stability of the sensor.
 */
 
 CapSense   cs_4_3 = CapSense(4,3); // 10M resistor between pins 4 & 3, pin 3 is sensor pin       

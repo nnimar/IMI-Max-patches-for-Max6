@@ -5,7 +5,12 @@ extern "C" {
   #include <stdlib.h>
 }
 
+#if ARDUINO >= 100
+#include "Arduino.h"
+#else
 #include "WProgram.h"
+#endif
+
 #include "Messenger.h"
 
 

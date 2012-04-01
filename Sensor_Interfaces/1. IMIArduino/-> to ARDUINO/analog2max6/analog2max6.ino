@@ -1,19 +1,18 @@
-// Arduino2max5 (analog)
-// Connect 5 analog sensors on pins 0,1,2,3,4
-// And send them to Max/MSP (use regexp to decode)
+// Arduino2max6 (analog)
+// Connect 6 analog sensors on pins 0,1,2,3,4,5
+// and send them to Max/MSP (use regexp to decode)
 // nm, imi, 9.2010
-
-int ledPin = 13;                
-
+              
 void setup() 
 { 
 	Serial.begin(57600); 
-	digitalWrite (ledPin, LOW);
+	digitalWrite (13, LOW);
+	delay (1000);
 } 
 
 void loop() { 
 
-	digitalWrite (ledPin, HIGH);  
+	digitalWrite (13, HIGH);  
 
 	while (1){
 
@@ -27,7 +26,8 @@ void loop() {
 		Serial.print(analogRead(3));
 		Serial.print("e");  
 		Serial.print(analogRead(4));
-
+		Serial.print("f");  
+		Serial.print(analogRead(5));
 		Serial.println("");
 
 		delay(10);
