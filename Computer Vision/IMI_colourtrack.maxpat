@@ -43,7 +43,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 868.0, 187.0, 135.0, 316.0 ],
+						"rect" : [ 480.0, 44.0, 135.0, 316.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -266,16 +266,16 @@
 ,
 					"patching_rect" : [ 11.0, 526.0, 54.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"tags" : ""
 					}
 ,
 					"text" : "p center"
@@ -833,16 +833,16 @@
 ,
 					"patching_rect" : [ 11.0, 499.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"tags" : ""
 					}
 ,
 					"text" : "p colourbox"
