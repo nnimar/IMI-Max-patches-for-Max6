@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 15.0, 414.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"tags" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
+						"description" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -626,7 +626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 584.0, 449.5, 79.0, 19.0 ],
+					"patching_rect" : [ 584.0, 451.5, 79.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -645,7 +645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 549.0, 450.0, 52.0, 20.0 ],
+					"patching_rect" : [ 549.0, 451.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -675,7 +675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 550.0, 453.0, 117.0, 16.0 ],
+					"patching_rect" : [ 550.0, 454.0, 117.0, 16.0 ],
 					"text" : "load 3Dextrude.maxpat"
 				}
 

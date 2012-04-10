@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 2.0, 44.0, 648.0, 497.0 ],
+		"rect" : [ 2.0, 44.0, 648.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -61,7 +61,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -83,11 +82,11 @@
 ,
 					"patching_rect" : [ 498.0, 464.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
@@ -140,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 395.849884, 635.0, 48.0 ],
-					"text" : "Video and picture : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, iMal Belgium."
+					"text" : "Medias : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, iMal Belgium."
 				}
 
 			}
@@ -153,8 +152,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 126.0, 634.0, 89.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/\nor simplified help files from the original Max application. Also, quite a few patches are taken from Andrew Benson's excellent Jitter tutorials."
+					"patching_rect" : [ 4.0, 126.0, 639.0, 89.0 ],
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/,\nimproved help files from Max. Many patches were taken from Max's evangelist \nAndrew Benson and Robert Ramirez, thanks for their great tutorials !"
 				}
 
 			}

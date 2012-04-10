@@ -66,7 +66,7 @@
 					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 30.0, 317.0, 21.0 ],
-					"text" : "11 rules to help you patching with Max",
+					"text" : "11 ideas to help you patching with Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
 				}
@@ -283,7 +283,7 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -8.0, 0.0 ],
+					"offset" : [ -6504.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.274536, 53.0, 583.0, 370.0 ]

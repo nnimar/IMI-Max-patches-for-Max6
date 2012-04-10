@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 1.0, 44.0, 609.0, 559.0 ],
+		"rect" : [ 1.0, 44.0, 609.0, 557.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -29,6 +29,22 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubblepoint" : 0.09,
+					"bubbleside" : 2,
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 387.0, 476.0, 125.0, 39.0 ],
+					"text" : "turn on the speaker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
@@ -48,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"patching_rect" : [ 377.0, 510.0, 35.0, 35.0 ]
+					"patching_rect" : [ 381.0, 506.0, 35.0, 35.0 ]
 				}
 
 			}
@@ -79,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.0, 522.0, 35.0, 16.0 ],
+					"patching_rect" : [ 427.0, 522.0, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -114,10 +130,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 1709.0, 782.0, 382.0, 110.0 ],
+						"rect" : [ 618.0, 44.0, 382.0, 110.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -157,7 +173,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
 									"id" : "obj-36",
-									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)" ],
+									"items" : [ "Built-in Line Input", ",", "Built-in Digital Input", ",", "M-Audio Fast Track Pro USB", ",", "Soundflower (2ch)", ",", "Soundflower (16ch)" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -578,32 +594,19 @@
 ,
 					"patching_rect" : [ 475.0, 521.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
+						"description" : ""
 					}
 ,
 					"text" : "p drivers"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 485.0, 155.0, 20.0 ],
-					"text" : "turn on the speaker :"
 				}
 
 			}
@@ -625,27 +628,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 87.0, 87.0, 49.0, 20.0 ],
-					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 145.0, 39.0, 18.0 ],
+					"patching_rect" : [ 73.0, 145.0, 39.0, 18.0 ],
 					"text" : "close"
 				}
 
@@ -659,7 +647,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 559.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 559.0, 21.0 ],
 					"text" : "jit.poke writes an audio signal into a matrix / jit.rrepos reposition pixels",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -676,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 462.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 462.0, 30.0 ],
 					"text" : "BadTV : using sound to manipulate an image",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -842,7 +830,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 306.0, 320.0, 240.0 ],
+					"patching_rect" : [ 13.0, 303.0, 320.0, 240.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ]
 				}
 
@@ -926,7 +914,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 145.0, 37.0, 18.0 ],
+					"patching_rect" : [ 29.0, 145.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -956,6 +944,82 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 13.0, 267.0, 242.0, 23.0 ],
 					"text" : "jit.repos @mode 1 @boundmode 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-32",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 117.0, 144.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 126.0, 63.0, 0.0, 0.0 ],
+					"rounded" : 60.0,
+					"text" : "3",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-28",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 519.0, 478.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-52",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 39.0, 57.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton"
 				}
 
 			}
@@ -992,15 +1056,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1109,26 +1164,8 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 90.5, 167.5, 22.5, 167.5 ],
+					"midpoints" : [ 82.5, 167.5, 22.5, 167.5 ],
 					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-27", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1164,7 +1201,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 167.5, 22.5, 167.5 ],
+					"midpoints" : [ 38.5, 167.5, 22.5, 167.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
