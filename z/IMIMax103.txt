@@ -43,7 +43,8 @@
 51, <category> 6 DbN3D.2;
 52, IMI_jitexpr "basic jit.expr";
 53, GLnurbs "matrix to GL Nurbs";
-56, GLmultiple "control multiple gridshape";
-57, GLmisc "an overview of the GL in Max";
+54, GLmultiple "control multiple gridshape";
+55, GLisosurf "create an isosurf";
+56, GLmisc "an overview of the GL in Max";
 60, -----------------------;
 

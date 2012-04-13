@@ -208,18 +208,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 26.0, 387.0, 91.0, 20.0 ],
+					"patching_rect" : [ 26.0, 392.0, 91.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 14.0,
-						"description" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontsize" : 14.0
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p width_screen"
@@ -738,16 +738,16 @@
 ,
 					"patching_rect" : [ 370.0, 192.662506, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
+						"tags" : "",
 						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"digest" : "",
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -864,7 +864,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.0, 412.0, 191.0, 24.0 ],
+					"patching_rect" : [ 268.0, 417.0, 191.0, 24.0 ],
 					"text" : "convert to 3d vertices for mesh"
 				}
 
@@ -878,7 +878,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 414.0, 254.0, 20.0 ],
+					"patching_rect" : [ 11.0, 419.0, 254.0, 20.0 ],
 					"text" : "jit.expr 3 float32 16384 @expr norm[0] in[0] 0."
 				}
 
@@ -893,7 +893,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 463.0, 472.0, 39.0 ],
+					"patching_rect" : [ 11.0, 463.0, 469.0, 39.0 ],
 					"text" : "jit.gl.mesh @draw_mode line_strip @color 1 1 1 0.5 @blend_enable 1 @transform_reset 2 @scale 2 1 1 @position -1 0 0"
 				}
 
@@ -907,7 +907,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 319.0, 79.0, 18.0 ],
+					"patching_rect" : [ 68.0, 315.0, 79.0, 18.0 ],
 					"text" : "outputlast $1"
 				}
 
@@ -921,7 +921,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 11.0, 286.0, 32.5, 20.0 ],
+					"patching_rect" : [ 11.0, 286.0, 75.5, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -935,7 +935,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 319.0, 44.0, 18.0 ],
+					"patching_rect" : [ 11.0, 315.0, 44.0, 18.0 ],
 					"text" : "output"
 				}
 
@@ -949,7 +949,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 244.0, 131.0, 24.0 ],
+					"patching_rect" : [ 115.0, 249.0, 131.0, 24.0 ],
 					"text" : "number of samples"
 				}
 
@@ -964,7 +964,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 246.0, 102.0, 20.0 ]
+					"patching_rect" : [ 11.0, 251.0, 102.0, 20.0 ]
 				}
 
 			}
@@ -1207,6 +1207,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 77.5, 344.0, 20.5, 344.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
-		"rect" : [ 0.0, 44.0, 669.0, 713.0 ],
+		"rect" : [ 603.0, 44.0, 669.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,6 +27,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 381.0, 89.0, 118.0, 21.0 ],
+					"presentation_rect" : [ 381.0, 89.0, 0.0, 0.0 ],
+					"text" : "read monkey.png"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "jit.pwindow",
@@ -652,6 +667,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 90.5, 121.0, 19.5, 121.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 390.5, 130.0, 19.5, 130.0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

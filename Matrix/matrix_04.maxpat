@@ -114,7 +114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.0, 254.0, 106.0, 21.0 ],
-					"text" : "cell 1 3 val 0"
+					"text" : "cell 0 0 val 0"
 				}
 
 			}
@@ -778,6 +778,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}

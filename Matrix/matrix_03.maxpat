@@ -51,7 +51,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 143.0, 118.0, 23.0 ],
-					"presentation_rect" : [ 262.0, 53.0, 0.0, 0.0 ],
 					"text_width" : 90.0
 				}
 
@@ -67,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 117.0, 118.0, 23.0 ],
-					"presentation_rect" : [ 197.0, 162.0, 0.0, 0.0 ],
 					"text_width" : 50.0
 				}
 
@@ -106,7 +104,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 600.0, 335.0, 86.0, 64.0 ],
+					"patching_rect" : [ 600.0, 335.0, 84.0, 60.0 ],
 					"precision" : 0,
 					"rowheight" : 20,
 					"rows" : 3,
@@ -310,16 +308,18 @@
 					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
 					"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
+					"hscroll" : 0,
 					"id" : "obj-15",
 					"maxclass" : "jit.cellblock",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 293.0, 305.0, 287.0, 194.0 ],
+					"patching_rect" : [ 293.0, 305.0, 268.0, 174.0 ],
 					"precision" : 4,
 					"rowhead" : 1,
 					"rowheight" : 58,
-					"rows" : 3
+					"rows" : 3,
+					"vscroll" : 0
 				}
 
 			}
@@ -627,7 +627,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

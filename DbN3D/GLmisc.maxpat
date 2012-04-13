@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 192.0, 126.0, 18.0 ],
-					"presentation_rect" : [ 350.0, 235.0, 0.0, 0.0 ],
 					"text" : "load GLmodel_texture"
 				}
 
@@ -48,6 +47,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-2",
@@ -56,9 +56,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 334.5, 122.0, 18.0 ],
+					"patching_rect" : [ 270.0, 334.5, 123.438194, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 304.0, 334.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 304.0, 334.5, 123.438194, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLmodel2texture",
 					"texton" : "Stop"
@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 357.0, 182.0, 18.0 ],
+					"patching_rect" : [ 168.0, 360.0, 182.0, 18.0 ],
 					"text" : "read and draw Wavefront .obj models"
 				}
 
@@ -101,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 291.0, 100.0, 18.0 ],
+					"patching_rect" : [ 168.0, 294.0, 100.0, 18.0 ],
 					"text" : "data visualisation"
 				}
 
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 89.0, 81.0, 18.0 ],
+					"patching_rect" : [ 326.0, 91.0, 81.0, 18.0 ],
 					"text" : "NURBS surface"
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 89.0, 90.0, 18.0 ],
+					"patching_rect" : [ 228.0, 91.0, 90.0, 18.0 ],
 					"text" : "platonic solids"
 				}
 
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 89.0, 77.0, 18.0 ],
+					"patching_rect" : [ 122.0, 91.0, 77.0, 18.0 ],
 					"text" : "simple shapes"
 				}
 
@@ -196,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 291.0, 100.0, 18.0 ],
+					"patching_rect" : [ 270.0, 294.0, 100.0, 18.0 ],
 					"text" : "volume visualisation"
 				}
 
@@ -238,7 +238,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 212.0, 102.0, 30.0 ],
+					"patching_rect" : [ 217.0, 222.0, 100.0, 30.0 ],
 					"text" : "replicate a 3D shape \nin space"
 				}
 
@@ -264,6 +264,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-34",
@@ -272,9 +273,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 217.0, 191.5, 97.0, 19.0 ],
+					"patching_rect" : [ 217.0, 198.5, 82.945412, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.0, 328.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 257.0, 328.5, 82.945412, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLmultiple",
 					"texton" : "Stop"
@@ -362,6 +363,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-25",
@@ -370,9 +372,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 271.5, 97.0, 19.0 ],
+					"patching_rect" : [ 270.0, 271.5, 79.83374, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.0, 236.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 243.0, 236.5, 79.83374, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLvolume",
 					"texton" : "Stop"
@@ -385,6 +387,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-24",
@@ -393,9 +396,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 271.5, 97.0, 19.0 ],
+					"patching_rect" : [ 168.0, 271.5, 70.505562, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 234.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 125.0, 234.5, 70.505562, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLgraph",
 					"texton" : "Stop"
@@ -408,6 +411,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-20",
@@ -416,9 +420,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 335.5, 97.0, 19.0 ],
+					"patching_rect" : [ 168.0, 335.5, 72.830772, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 87.0, 367.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 87.0, 367.5, 72.830772, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLmodel",
 					"texton" : "Stop"
@@ -446,7 +450,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 136.5, 67.0, 23.0 ],
+					"patching_rect" : [ 6.0, 132.5, 67.0, 23.0 ],
 					"text" : "Interface"
 				}
 
@@ -457,6 +461,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-11",
@@ -465,9 +470,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 135.5, 95.0, 20.0 ],
+					"patching_rect" : [ 270.0, 131.5, 68.932632, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 411.0, 158.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 411.0, 158.5, 68.932632, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLmesh",
 					"texton" : "Stop"
@@ -480,6 +485,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-12",
@@ -488,9 +494,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 135.5, 97.0, 19.0 ],
+					"patching_rect" : [ 168.0, 131.5, 75.162811, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 312.0, 158.5, 79.0, 17.0 ],
+					"presentation_rect" : [ 312.0, 158.5, 75.162811, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLsketch",
 					"texton" : "Stop"
@@ -503,6 +509,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-23",
@@ -511,9 +518,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.0, 67.5, 94.0, 20.0 ],
+					"patching_rect" : [ 124.0, 67.5, 96.199089, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 67.0, 79.0, 17.0 ],
+					"presentation_rect" : [ 345.0, 67.0, 96.199089, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLgridshape",
 					"texton" : "Stop"
@@ -526,6 +533,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-32",
@@ -534,9 +542,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 328.0, 67.5, 95.0, 20.0 ],
+					"patching_rect" : [ 328.0, 67.5, 69.719101, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 401.0, 277.0, 79.0, 17.0 ],
+					"presentation_rect" : [ 401.0, 277.0, 69.719101, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLnurbs",
 					"texton" : "Stop"
@@ -549,6 +557,7 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-28",
@@ -557,9 +566,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 224.0, 67.5, 97.0, 19.0 ],
+					"patching_rect" : [ 229.0, 67.5, 65.055008, 24.098633 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 395.0, 365.0, 79.0, 17.0 ],
+					"presentation_rect" : [ 395.0, 365.0, 65.055008, 24.098633 ],
 					"rounded" : 20.0,
 					"text" : "GLplato",
 					"texton" : "Stop"
@@ -603,7 +612,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 434.0, 20.0 ],
+					"patching_rect" : [ 4.0, 28.0, 434.0, 20.0 ],
 					"text" : "the GL objects in Max are a great gateway to your graphic card's ability to draw",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}

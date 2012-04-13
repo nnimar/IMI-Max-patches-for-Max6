@@ -2,15 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 4
 		}
 ,
 		"rect" : [ 605.0, 44.0, 710.0, 660.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 605.0, 44.0, 710.0, 660.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
@@ -18,12 +16,16 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
@@ -37,6 +39,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 586.0, 628.5, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
@@ -87,15 +90,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 4
 						}
 ,
 						"rect" : [ 749.0, 357.0, 572.0, 347.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 749.0, 357.0, 572.0, 347.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
 						"default_fontface" : 0,
@@ -103,12 +104,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -132,7 +137,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 387.0, 155.5, 180.0, 48.0 ],
+									"patching_rect" : [ 387.0, 155.5, 180.0, 49.0 ],
 									"text" : "4 planes (ARGB)\n320 x 240 dimension"
 								}
 
@@ -200,6 +205,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 24.0, 17.0, 23.0, 23.0 ]
 								}
 
@@ -274,6 +280,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 268.5, 81.5, 33.5, 81.5 ],
 									"source" : [ "obj-19", 0 ]
@@ -283,6 +290,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 227.5, 81.5, 33.5, 81.5 ],
 									"source" : [ "obj-20", 0 ]
@@ -292,8 +300,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -301,6 +309,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 115.5, 81.5, 33.5, 81.5 ],
 									"source" : [ "obj-39", 0 ]
@@ -310,8 +319,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-41", 0 ]
 								}
 
@@ -319,6 +328,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 33.5, 86.5, 33.5, 86.5 ],
 									"source" : [ "obj-42", 0 ]
@@ -328,6 +338,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 33.5, 133.5, 223.5, 133.5 ],
 									"source" : [ "obj-43", 0 ]
@@ -337,8 +348,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -346,8 +357,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [  ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -355,27 +366,31 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [  ],
 									"source" : [ "obj-6", 0 ]
 								}
 
 							}
- ]
+ ],
+						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 626.5, 99.0, 27.0 ],
+					"patching_rect" : [ 9.0, 626.5, 188.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 18.0,
+						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"fontname" : "Arial"
+						"description" : ""
 					}
 ,
-					"text" : "p example"
+					"text" : "p movie_is_a_matrix"
 				}
 
 			}
@@ -433,15 +448,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 4
 						}
 ,
 						"rect" : [ 1028.0, 333.0, 287.0, 188.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 1028.0, 333.0, 287.0, 188.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
 						"default_fontface" : 0,
@@ -449,12 +462,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Geneva",
@@ -508,18 +525,22 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"dependency_cache" : [  ]
 					}
 ,
 					"patching_rect" : [ 490.0, 269.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
+						"tags" : "",
 						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"fontname" : "Arial"
+						"description" : ""
 					}
 ,
 					"text" : "p image-size"
@@ -563,7 +584,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 121.0, 393.0, 55.0 ],
+					"patching_rect" : [ 9.0, 121.0, 398.0, 55.0 ],
 					"text" : "A digital video is \"moving\" images. In jitter, \nit's a collection of changing matrices."
 				}
 
@@ -590,7 +611,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 597.0, 194.0, 19.0 ],
+					"patching_rect" : [ 9.0, 589.0, 194.0, 19.0 ],
 					"text" : "Pictures from Cycling ´74´s Jitter manual."
 				}
 
@@ -666,6 +687,7 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-20",
+					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -679,8 +701,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -688,13 +710,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-24", 0 ]
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "color",
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-1",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.5, 404.5, 181.0, 21.0 ],
+					"presentation_rect" : [ 183.5, 380.5, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -164,16 +179,16 @@
 ,
 					"patching_rect" : [ 4.0, 261.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p matrix-coordinates"
@@ -780,16 +795,16 @@
 ,
 					"patching_rect" : [ 7.0, 191.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1019,7 +1034,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.5, 381.5, 181.0, 21.0 ]
+					"patching_rect" : [ 160.5, 386.5, 181.0, 21.0 ]
 				}
 
 			}
@@ -1034,7 +1049,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.5, 400.0, 181.5, 21.0 ],
+					"patching_rect" : [ 160.5, 423.0, 181.5, 21.0 ],
 					"text_width" : 85.0
 				}
 
@@ -1123,22 +1138,6 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "color_mode",
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.5, 419.0, 181.5, 21.0 ],
-					"text_width" : 83.0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-18",
@@ -1184,6 +1183,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -1311,6 +1319,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1359,7 +1376,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
