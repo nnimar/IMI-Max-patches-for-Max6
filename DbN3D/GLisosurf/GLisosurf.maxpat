@@ -30,11 +30,62 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 189.0, 232.0, 229.0, 23.0 ],
+					"text" : "psychedelic shapes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 13.0, 232.0, 107.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 13.0, 247.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "25.RagingSwirl",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 232.0, 99.0, 16.0 ],
+					"text" : "load 25.RagingSwirl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 238.0, 213.0, 23.0 ],
+					"patching_rect" : [ 13.0, 131.0, 213.0, 23.0 ],
 					"text" : "Andrew Benson's Jitter recipes"
 				}
 
@@ -47,8 +98,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 304.0, 229.0, 23.0 ],
-					"text" : "make nurb images based on sound"
+					"patching_rect" : [ 189.0, 200.0, 109.0, 23.0 ],
+					"text" : "visual blobs"
 				}
 
 			}
@@ -62,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 334.0, 43.0, 17.0 ],
+					"patching_rect" : [ 12.0, 261.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,8 +126,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 273.0, 212.0, 23.0 ],
-					"text" : "apply effects on nurbs image"
+					"patching_rect" : [ 189.0, 169.0, 212.0, 23.0 ],
+					"text" : "a fortress made of moving image"
 				}
 
 			}
@@ -94,11 +145,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 304.0, 107.0, 20.0 ],
+					"patching_rect" : [ 13.0, 200.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "22.CatchNurbs",
+					"text" : "08.VideoBlobs",
 					"texton" : "Stop"
 				}
 
@@ -113,8 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 304.0, 99.0, 16.0 ],
-					"text" : "load 22.CatchNurbs"
+					"patching_rect" : [ 13.0, 200.0, 97.0, 16.0 ],
+					"text" : "load 08.VideoBlobs"
 				}
 
 			}
@@ -132,11 +183,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 273.0, 124.0, 20.0 ],
+					"patching_rect" : [ 13.0, 169.0, 159.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "21.SceneProcess",
+					"text" : "03.CrumblingFortresses",
 					"texton" : "Stop"
 				}
 
@@ -151,123 +202,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 273.0, 111.0, 16.0 ],
-					"text" : "load 21.SceneProcess"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 184.0, 212.0, 23.0 ],
-					"text" : "extrude a gridshape object"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 154.0, 212.0, 23.0 ],
-					"text" : "use sound as a source for nurbs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 124.0, 220.0, 23.0 ],
-					"text" : "use a video as a source for nurbs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-12",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 94.0, 146.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 43.0, 283.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "GLnurbs_manipulator",
-					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 94.0, 133.0, 16.0 ],
-					"text" : "load GLnurbs_manipulator"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-5",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 184.0, 120.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 149.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "GLNurbs_extrude",
-					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 184.0, 109.0, 16.0 ],
-					"text" : "load GLnurbs_extrude"
+					"patching_rect" : [ 13.0, 169.0, 139.0, 16.0 ],
+					"text" : "load 03.CrumblingFortresses"
 				}
 
 			}
@@ -285,11 +221,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 64.0, 124.0, 20.0 ],
+					"patching_rect" : [ 13.0, 74.0, 106.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 362.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLnurbs_ctlmatrix",
+					"text" : "GLisosurf_pos",
 					"texton" : "Stop"
 				}
 
@@ -304,54 +240,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 64.0, 113.0, 16.0 ],
-					"text" : "load GLnurbs_ctlmatrix"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-20",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 154.0, 113.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 458.0, 385.078186, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "GLNurbs_sound",
-					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-13",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 124.0, 113.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "GLNurbs_video",
-					"texton" : "Stop"
+					"patching_rect" : [ 13.0, 74.0, 97.0, 16.0 ],
+					"text" : "load GLisosurf_pos"
 				}
 
 			}
@@ -365,51 +255,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 209.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 97.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 124.0, 100.0, 16.0 ],
-					"text" : "load GLnurbs_video"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-18",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 154.0, 103.0, 16.0 ],
-					"text" : "load GLnurbs_sound"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 94.0, 212.0, 23.0 ],
-					"text" : "create your own control matrix"
 				}
 
 			}
@@ -421,8 +268,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 64.0, 236.0, 23.0 ],
-					"text" : "use a simple matrix to make a line"
+					"patching_rect" : [ 192.0, 74.0, 236.0, 23.0 ],
+					"text" : "isosurf to track position"
 				}
 
 			}
@@ -436,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 29.0, 425.0, 21.0 ],
-					"text" : "renders a Non-Uniform Rational B-Spline (NURBS)",
+					"text" : "creates a geometrix surface from a volumetric density field",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -453,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 272.0, 30.0 ],
-					"text" : "GLnurbs",
+					"text" : "GLisosurf",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -471,7 +318,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 227.0, 428.0, 4.0 ],
+					"patching_rect" : [ 7.0, 117.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -496,33 +343,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -532,28 +352,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -595,28 +397,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

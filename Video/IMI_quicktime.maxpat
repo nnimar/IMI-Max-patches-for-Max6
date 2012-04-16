@@ -222,7 +222,7 @@
 											"revision" : 4
 										}
 ,
-										"rect" : [ 638.0, 44.0, 383.0, 408.0 ],
+										"rect" : [ 589.0, 44.0, 383.0, 408.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -634,16 +634,16 @@
 ,
 									"patching_rect" : [ 395.0, 151.0, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"fontname" : "Arial",
 										"default_fontface" : 0,
+										"fontname" : "Arial",
 										"digest" : "",
-										"globalpatchername" : "",
+										"tags" : "",
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"globalpatchername" : "",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"fontface" : 0,
+										"description" : "",
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p folder2poly"
@@ -967,16 +967,16 @@
 ,
 					"patching_rect" : [ 11.0, 204.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"digest" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"fontface" : 0,
+						"description" : "",
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p poly",
@@ -2071,16 +2071,16 @@
 ,
 					"patching_rect" : [ 11.0, 142.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"digest" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"fontface" : 0,
+						"description" : "",
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p plus",
@@ -3022,16 +3022,16 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"digest" : "",
-						"globalpatchername" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"fontface" : 0,
+						"description" : "",
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p basic",

@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 0.0, 44.0, 457.0, 383.0 ],
+		"rect" : [ 1.0, 44.0, 457.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 91.0, 81.0, 18.0 ],
+					"patching_rect" : [ 301.0, 91.0, 81.0, 18.0 ],
 					"text" : "NURBS surface"
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 91.0, 90.0, 18.0 ],
+					"patching_rect" : [ 228.0, 91.0, 71.0, 18.0 ],
 					"text" : "platonic solids"
 				}
 
@@ -220,12 +220,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 155.0, 106.0, 30.0 ],
-					"text" : "draws and assemble\nshapes"
+					"patching_rect" : [ 168.0, 155.0, 71.0, 18.0 ],
+					"text" : "draws shapes"
 				}
 
 			}
@@ -238,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 222.0, 100.0, 30.0 ],
+					"patching_rect" : [ 217.0, 222.0, 106.0, 30.0 ],
 					"text" : "replicate a 3D shape \nin space"
 				}
 
@@ -542,7 +541,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 328.0, 67.5, 69.719101, 24.098633 ],
+					"patching_rect" : [ 303.0, 67.5, 69.719101, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 277.0, 69.719101, 24.098633 ],
 					"rounded" : 20.0,
