@@ -180,7 +180,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 804.0, 372.0, 411.0, 282.0 ],
+						"rect" : [ 778.0, 362.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -416,7 +416,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.0, 111.0, 65.0, 17.0 ],
-									"text" : "pos 804 45"
+									"text" : "pos 778 45"
 								}
 
 							}
@@ -733,16 +733,16 @@
 ,
 					"patching_rect" : [ 12.0, 394.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -765,7 +765,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 806.0, 356.0, 525.0, 180.0 ],
+						"rect" : [ 780.0, 356.0, 525.0, 180.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -844,16 +844,16 @@
 ,
 					"patching_rect" : [ 725.0, 27.638458, 38.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p tips"
@@ -1435,7 +1435,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 400.5, 400.53125, 278.516571, 400.53125 ],
+					"midpoints" : [ 400.5, 399.53125, 278.516571, 399.53125 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

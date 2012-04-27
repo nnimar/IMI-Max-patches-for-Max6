@@ -53,7 +53,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 232.0, 107.0, 20.0 ],
+					"patching_rect" : [ 14.0, 230.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 247.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -72,7 +72,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 232.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 233.0, 99.0, 16.0 ],
 					"text" : "load 25.RagingSwirl"
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 261.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 261.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -401,6 +401,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

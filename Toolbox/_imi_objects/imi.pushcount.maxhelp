@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 155.0, 48.0, 23.0 ],
+					"patching_rect" : [ 238.0, 155.0, 48.0, 23.0 ],
 					"text" : "shoot"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 141.0, 155.0, 25.0, 25.0 ]
+					"patching_rect" : [ 211.0, 155.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.0, 87.0, 34.0, 21.0 ],
+					"patching_rect" : [ 117.0, 87.0, 34.0, 21.0 ],
 					"text" : "120"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 87.0, 41.0, 21.0 ],
+					"patching_rect" : [ 211.0, 87.0, 41.0, 21.0 ],
 					"text" : "2000"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 22.0, 120.0, 138.0, 23.0 ],
+					"patching_rect" : [ 22.0, 120.0, 208.0, 23.0 ],
 					"text" : "imi.pushcount"
 				}
 
@@ -231,7 +231,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.pushcount.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

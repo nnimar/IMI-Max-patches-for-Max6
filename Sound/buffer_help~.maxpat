@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 4
 		}
 ,
 		"rect" : [ 2.0, 44.0, 421.0, 467.0 ],
@@ -28,6 +28,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 143.0, 173.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"fontname" : "Arial",
@@ -37,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.0, 397.0, 98.0, 39.0 ],
-					"presentation_rect" : [ 234.0, 397.0, 0.0, 0.0 ],
 					"text" : "alias + file name"
 				}
 
@@ -54,7 +64,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.0, 61.0, 89.0, 24.0 ],
-					"presentation_rect" : [ 7.0, 65.0, 0.0, 0.0 ],
 					"text" : "press \"e\""
 				}
 
@@ -121,10 +130,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 4
 						}
 ,
-						"rect" : [ 710.0, 348.0, 445.0, 85.0 ],
+						"rect" : [ 428.0, 44.0, 445.0, 85.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -465,16 +474,16 @@
 ,
 					"patching_rect" : [ 23.0, 431.5, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p drivers"
@@ -624,7 +633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 271.0, 178.0, 63.0, 20.0 ],
+					"patching_rect" : [ 271.0, 176.0, 63.0, 20.0 ],
 					"text" : "delay 500"
 				}
 
@@ -934,6 +943,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -981,7 +999,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]

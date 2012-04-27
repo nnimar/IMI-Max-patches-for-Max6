@@ -313,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 252.0, 70.0, 16.0 ],
+					"patching_rect" : [ 195.0, 250.0, 70.0, 16.0 ],
 					"text" : "load IMI_iter"
 				}
 
@@ -341,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 251.0, 69.0, 16.0 ],
+					"patching_rect" : [ 197.0, 251.0, 69.0, 16.0 ],
 					"text" : "load IMI_spill"
 				}
 
@@ -371,8 +371,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 251.0, 61.0, 16.0 ],
-					"text" : "load IMI_fill"
+					"patching_rect" : [ 191.0, 251.0, 76.0, 16.0 ],
+					"text" : "load matrix_05"
 				}
 
 			}
@@ -386,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 254.0, 250.0, 46.0, 18.0 ],
+					"patching_rect" : [ 263.0, 250.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -636,7 +636,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imimatrix.jpg",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Global/image",
-				"patcherrelativepath" : "../Global/image",
+				"patcherrelativepath" : "../../../../Applications/Max6/examples/IMIpatches/Global/image",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

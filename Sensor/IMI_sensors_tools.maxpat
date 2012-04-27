@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 4.0, 44.0, 582.0, 533.0 ],
+		"rect" : [ 4.0, 44.0, 582.0, 553.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -234,16 +234,16 @@
 ,
 					"patching_rect" : [ 206.0, 39.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p info"
@@ -373,7 +373,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 25,
+						"count" : 27,
 						"data" : [ 							{
 								"key" : "IMI_simple_triggers",
 								"value" : [ "simple triggering options" ]
@@ -388,43 +388,51 @@
 							}
 , 							{
 								"key" : "dot.autoscale",
-								"value" : [ "Rescales numbers according to auto-detected maximum and minimum values." ]
+								"value" : [ "rescales numbers according to auto-detected maximum and minimum values." ]
 							}
 , 							{
 								"key" : "dot.clip",
-								"value" : [ "Clips a stream of numbers to a minimum, maximum, or both." ]
+								"value" : [ "clips a stream of numbers to a minimum, maximum, or both." ]
 							}
 , 							{
 								"key" : "dot.debounce",
-								"value" : [ "Filters multiple messages" ]
+								"value" : [ "filters multiple messages" ]
+							}
+, 							{
+								"key" : "dot.distance",
+								"value" : [ "find distance between a scalar ans a list" ]
+							}
+, 							{
+								"key" : "dot.ema",
+								"value" : [ "exponential moving average" ]
 							}
 , 							{
 								"key" : "dot.extrema",
-								"value" : [ "Outputs maxima and minima" ]
+								"value" : [ "outputs maxima and minima" ]
 							}
 , 							{
 								"key" : "dot.median",
-								"value" : [ "Outputs median value (cancel noise)" ]
+								"value" : [ "outputs median value (cancel noise)" ]
 							}
 , 							{
 								"key" : "dot.slope",
-								"value" : [ "Output the slope between each successive point." ]
+								"value" : [ "output the slope between each successive point." ]
 							}
 , 							{
 								"key" : "dot.smooth",
-								"value" : [ "Simple sample-averaging filter" ]
+								"value" : [ "simple sample-averaging filter" ]
 							}
 , 							{
 								"key" : "dot.squeuedlim",
-								"value" : [ "Limits the speed of messages passing through (a speedlim queued like zl queue)" ]
+								"value" : [ "limits the speed of messages passing through (a speedlim queued like zl queue)" ]
 							}
 , 							{
 								"key" : "dot.threshtrig",
-								"value" : [ "Output a value only once after passing the threshold in the pos or negative" ]
+								"value" : [ "output a value only once after passing the threshold in the pos or negative" ]
 							}
 , 							{
 								"key" : "dot.urn",
-								"value" : [ "Just like urn, but you can put numbers back in the pot" ]
+								"value" : [ "just like urn, but you can put numbers back in the pot" ]
 							}
 , 							{
 								"key" : "dot.wait",
@@ -464,7 +472,7 @@
 							}
 , 							{
 								"key" : "z.grid",
-								"value" : [ "z.grid quantises the incoming x/y pixel coordinates into new x/y grids of variable size" ]
+								"value" : [ "z.grid quantises the incoming x/y pixel coordinates into new x/y grids" ]
 							}
 , 							{
 								"key" : "z.scale",
@@ -509,9 +517,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 59.0, 572.0, 449.0 ],
+					"patching_rect" : [ 5.0, 59.0, 571.0, 489.0 ],
 					"rowhead" : 1,
-					"rows" : 25,
+					"rows" : 27,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -682,7 +690,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "sensors.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

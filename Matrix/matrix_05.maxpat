@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 1.0, 44.0, 397.0, 619.0 ],
+		"rect" : [ 599.0, 44.0, 397.0, 619.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -237,16 +237,16 @@
 ,
 									"patching_rect" : [ 81.0, 561.0, 81.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"tags" : "",
-										"fontsize" : 14.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
-										"description" : ""
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 14.0
 									}
 ,
 									"text" : "p matrix-viz"
@@ -610,16 +610,16 @@
 ,
 					"patching_rect" : [ 15.0, 269.0, 38.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"tags" : "",
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p uzi",
@@ -643,7 +643,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 1.0, 70.0, 397.0, 593.0 ],
+						"rect" : [ 0.0, 26.0, 397.0, 593.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -858,16 +858,16 @@
 ,
 									"patching_rect" : [ 117.0, 319.609985, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"tags" : "",
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p dim-change"
@@ -1304,16 +1304,16 @@
 ,
 					"patching_rect" : [ 11.0, 204.0, 50.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"tags" : "",
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p pak+",
@@ -1337,7 +1337,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 0.0, 26.0, 397.0, 593.0 ],
+						"rect" : [ 599.0, 70.0, 397.0, 593.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1603,7 +1603,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.820007, 122.890015, 255.0, 18.0 ],
+									"patching_rect" : [ 7.820007, 121.890015, 255.0, 18.0 ],
 									"text" : "$1 $1 $1 $2 $2 $2 $3 $3 $3 $4 $4 $4 $5 $5 $5"
 								}
 
@@ -1729,16 +1729,16 @@
 ,
 					"patching_rect" : [ 11.0, 142.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"tags" : "",
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p pak",
@@ -2005,7 +2005,7 @@
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 15.5, 164.0, 126.5, 164.0 ],
+									"midpoints" : [ 15.5, 171.0, 126.5, 171.0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -2043,16 +2043,16 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"tags" : "",
-						"fontsize" : 13.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"description" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p basic",
@@ -2080,14 +2080,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
