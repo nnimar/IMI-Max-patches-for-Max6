@@ -35,7 +35,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.0, 280.5, 264.0, 23.0 ],
-					"presentation_rect" : [ 125.0, 280.5, 0.0, 0.0 ],
 					"text" : "use collision to drag balls with the mouse"
 				}
 
@@ -74,7 +73,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 285.5, 92.0, 16.0 ],
-					"presentation_rect" : [ 13.0, 284.5, 0.0, 0.0 ],
 					"text" : "load example_1_8"
 				}
 
@@ -338,8 +336,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -2.0, 29.0, 485.0, 21.0 ],
-					"text" : " drawings example (some inspired by Learning Processing by Daniel Shiffman)",
+					"patching_rect" : [ -2.0, 30.0, 485.0, 21.0 ],
+					"text" : " drawings example, comparing Max and Processing ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}

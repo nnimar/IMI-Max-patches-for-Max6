@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 369.0, 56.360592, 22.098633 ],
+					"patching_rect" : [ 31.0, 369.0, 56.360592, 22.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 325.0, 53.360592, 24.098633 ],
 					"rounded" : 20.0,
@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 281.0, 137.0, 21.0 ],
-					"presentation_rect" : [ 439.0, 193.0, 0.0, 0.0 ],
 					"text_width" : 114.0
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 256.0, 137.0, 21.0 ],
-					"presentation_rect" : [ 441.0, 169.0, 0.0, 0.0 ],
 					"text_width" : 114.0
 				}
 
@@ -953,16 +951,16 @@
 ,
 					"patching_rect" : [ 9.0, 240.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
 						"description" : "",
-						"fontsize" : 12.0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1107,7 +1105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 373.0, 52.0, 20.0 ],
+					"patching_rect" : [ 37.0, 371.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1371,9 +1369,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 374.0, 79.0, 16.0 ],
-					"presentation_rect" : [ 71.0, 331.0, 0.0, 0.0 ],
-					"text" : "load GLcamera"
+					"patching_rect" : [ 92.0, 376.0, 128.0, 16.0 ],
+					"text" : "load GLgridshape_camera"
 				}
 
 			}

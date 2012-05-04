@@ -295,16 +295,16 @@
 ,
 					"patching_rect" : [ 294.0, 305.0, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p drawlines"
@@ -434,7 +434,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 541.0, 44.0, 399.0, 451.0 ],
+						"rect" : [ 460.0, 44.0, 399.0, 451.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -967,16 +967,16 @@
 ,
 					"patching_rect" : [ 15.0, 293.0, 135.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p drawagent"
