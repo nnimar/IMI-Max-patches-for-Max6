@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 430.0, 232.0 ],
@@ -72,8 +72,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 148.5, 118.0, 16.0 ],
-					"text" : "load IIMI_OSC2Millumin"
+					"patching_rect" : [ 6.0, 146.5, 118.0, 16.0 ],
+					"text" : "load IMI_OSC2Millumin"
 				}
 
 			}

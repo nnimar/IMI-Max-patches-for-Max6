@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 1.0, 44.0, 450.0, 357.0 ],
+		"rect" : [ 1.0, 44.0, 449.0, 339.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 456.0, 357.0, 411.0, 282.0 ],
@@ -673,16 +673,16 @@
 ,
 					"patching_rect" : [ 10.0, 224.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontsize" : 12.0
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -782,8 +782,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 176.0, 297.0, 261.0, 34.0 ],
-					"text" : "jit.gl.videoplane alpha @scale 1.33 1. 1. @blend_enable 1 @depth_enable 1 @layer 0"
+					"patching_rect" : [ 176.0, 297.0, 223.0, 34.0 ],
+					"text" : "jit.gl.videoplane alpha @scale 1.33 1. 1. @blend_enable 1 @layer 0"
 				}
 
 			}
@@ -797,8 +797,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 175.0, 178.0, 225.0, 34.0 ],
-					"text" : "jit.gl.videoplane alpha @blend_enable 1 @depth_enable 1 @layer 1"
+					"patching_rect" : [ 175.0, 178.0, 158.0, 34.0 ],
+					"text" : "jit.gl.videoplane alpha @blend_enable 1 @layer 1"
 				}
 
 			}

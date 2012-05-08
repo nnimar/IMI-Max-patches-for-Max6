@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 666.0, 565.0 ],
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 10.0, 44.0, 202.0, 195.0 ],
@@ -159,10 +159,10 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
-										"rect" : [ 770.0, 303.0, 551.0, 584.0 ],
+										"rect" : [ 682.0, 44.0, 551.0, 584.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1040,16 +1040,16 @@
 ,
 									"patching_rect" : [ 16.0, 90.0, 109.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p reset"
@@ -1152,16 +1152,16 @@
 ,
 					"patching_rect" : [ 300.0, 369.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p voice"
@@ -1335,7 +1335,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 638.0, 44.0, 383.0, 408.0 ],
@@ -1750,16 +1750,16 @@
 ,
 					"patching_rect" : [ 487.0, 133.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p folder2poly"
@@ -1890,7 +1890,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 684.0, 372.0, 409.0, 160.0 ],
@@ -2020,16 +2020,16 @@
 ,
 					"patching_rect" : [ 625.0, 29.0, 36.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p init"
@@ -2063,10 +2063,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 609.0, 44.0, 391.0, 295.0 ],
+						"rect" : [ 674.0, 44.0, 391.0, 295.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2380,16 +2380,16 @@
 ,
 					"patching_rect" : [ 11.666138, 257.5, 129.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p control"
@@ -2541,7 +2541,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 671.0, 370.0, 411.0, 282.0 ],
@@ -2576,7 +2576,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 1008.0, 372.0, 244.0, 184.0 ],
@@ -2701,16 +2701,16 @@
 ,
 									"patching_rect" : [ 141.0, 61.25, 54.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
-										"tags" : "",
 										"digest" : "",
-										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"globalpatchername" : "",
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p cursor"
@@ -3315,16 +3315,16 @@
 ,
 					"patching_rect" : [ 8.5, 507.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen+"
@@ -3470,8 +3470,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.666138, 215.0, 135.0, 34.0 ],
 					"saved_object_attributes" : 					{
-						"storage_rect" : [ 766, 44, 1220, 302 ],
 						"parameter_enable" : 0,
+						"storage_rect" : [ 766, 44, 1220, 302 ],
 						"client_rect" : [ 48, 48, 522, 654 ]
 					}
 ,
@@ -3904,14 +3904,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "cornerpoly.json",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Exhibition",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cornerpin.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Exhibition",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
