@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 602.0, 44.0, 574.0, 553.0 ],
+		"rect" : [ 602.0, 44.0, 575.0, 540.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 514.0, 165.0, 27.0 ],
+					"patching_rect" : [ 5.0, 506.0, 165.0, 27.0 ],
 					"text" : "cell position and value"
 				}
 
@@ -50,8 +50,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 515.0, 72.0, 25.0 ],
-					"text" : "0 1 10"
+					"patching_rect" : [ 174.0, 507.0, 72.0, 25.0 ],
+					"text" : "1 0 161"
 				}
 
 			}
@@ -68,7 +68,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 602.0, 44.0, 558.0, 272.0 ],
@@ -273,18 +273,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 349.0, 514.0, 114.0, 27.0 ],
+					"patching_rect" : [ 404.0, 506.0, 114.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p processing"
@@ -304,7 +304,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 602.0, 44.0, 362.0, 331.0 ],
@@ -487,21 +487,21 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 470.0, 514.0, 94.0, 27.0 ],
+					"patching_rect" : [ 525.0, 506.0, 43.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"tags" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 18.0,
-						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 18.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"default_fontsize" : 18.0,
+						"description" : ""
 					}
 ,
-					"text" : "p example"
+					"text" : "p fill"
 				}
 
 			}
@@ -532,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 87.0, 104.0, 61.0, 20.0 ],
+					"patching_rect" : [ 79.0, 164.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -547,7 +547,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 87.0, 126.0, 112.0, 20.0 ],
+					"patching_rect" : [ 79.0, 186.0, 112.0, 20.0 ],
 					"text" : "jit.noise 1 char 9 9"
 				}
 
@@ -558,7 +558,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"cols" : 9,
 					"colwidth" : 40,
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
@@ -569,7 +569,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 359.0, 361.0, 121.0 ],
+					"patching_rect" : [ 5.0, 341.0, 361.0, 121.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -584,7 +584,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"cols" : 9,
 					"colwidth" : 40,
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
@@ -595,7 +595,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 167.0, 182.0, 81.0, 81.0 ],
+					"patching_rect" : [ 159.0, 164.0, 81.0, 81.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -610,7 +610,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"cols" : 9,
 					"colwidth" : 40,
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
@@ -621,7 +621,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 320.0, 182.0, 121.0, 121.0 ],
+					"patching_rect" : [ 326.0, 164.0, 121.0, 121.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -636,7 +636,7 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"cols" : 9,
 					"colwidth" : 40,
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
@@ -647,7 +647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 34.0, 182.0, 41.0, 41.0 ],
+					"patching_rect" : [ 8.0, 164.0, 41.0, 41.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -658,81 +658,81 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-9",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 46.0, 560.0, 79.0 ],
+					"patching_rect" : [ 3.0, 40.0, 560.0, 69.0 ],
 					"text" : "A matrix is a collection of items, ordered in columns and rows. Every item in the matrix has a specific address, given by its horizontal and vertical position."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 331.0, 104.0, 31.0 ],
+					"patching_rect" : [ 2.0, 313.0, 104.0, 27.0 ],
 					"text" : "9x3 matrix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 147.0, 115.0, 31.0 ],
+					"patching_rect" : [ 5.0, 137.0, 115.0, 27.0 ],
 					"text" : "1x1 matrix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 147.0, 115.0, 31.0 ],
+					"patching_rect" : [ 155.0, 137.0, 115.0, 27.0 ],
 					"text" : "2x2 matrix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 147.0, 115.0, 31.0 ],
+					"patching_rect" : [ 322.0, 137.0, 115.0, 27.0 ],
 					"text" : "3x3 matrix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 18.0,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-15",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 355.0, 202.0, 103.0 ],
-					"text" : "A cell is referred to by its position in the matrix (column, row), for example (7, 2)"
+					"patching_rect" : [ 371.0, 341.0, 165.0, 55.0 ],
+					"text" : "A cell is referred to by its position in the matrix (column, row). "
 				}
 
 			}

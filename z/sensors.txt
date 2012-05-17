@@ -1,5 +1,6 @@
 IMI_simple_triggers, "simple triggering options";
 IMI_filtering_change, "change to filter out repetitions";
+smoother_derivitive, "smooth, get speed and acceleration";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 dot.autoscale, "rescales numbers according to auto-detected maximum and minimum values.";
 dot.clip, "clips a stream of numbers to a minimum, maximum, or both.";
