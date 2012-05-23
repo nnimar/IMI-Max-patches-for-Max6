@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 439.0, 582.0 ],
@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 227.0, 141.0, 18.0 ],
-					"presentation_rect" : [ 58.0, 234.0, 0.0, 0.0 ],
 					"text" : "load GLmesh_bfg-texture"
 				}
 
@@ -74,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 191.0, 227.0, 190.0, 23.0 ],
-					"presentation_rect" : [ 236.0, 234.0, 0.0, 0.0 ],
 					"text" : "textures and GLmesh"
 				}
 
@@ -494,7 +492,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 451.0, 44.0, 612.0, 542.0 ],
@@ -551,16 +549,16 @@
 ,
 					"patching_rect" : [ 122.0, 556.0, 90.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"digest" : "",
+						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p gl_meshes"
@@ -707,7 +705,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 453.0, 44.0, 614.0, 438.0 ],
@@ -750,16 +748,16 @@
 ,
 					"patching_rect" : [ 15.0, 556.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"digest" : "",
+						"fontsize" : 14.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"tags" : "",
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p gl_primitives"
@@ -788,7 +786,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 354.0, 227.0, 23.0 ],
-					"text" : "use gridshape to make a video grid"
+					"text" : "transform a video into a 3D grid"
 				}
 
 			}
