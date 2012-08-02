@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 841.0, 413.0 ],
@@ -36,8 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 219.0, 236.0, 20.0 ],
-					"presentation_rect" : [ 301.0, 176.0, 0.0, 0.0 ]
+					"patching_rect" : [ 293.0, 224.0, 236.0, 20.0 ]
 				}
 
 			}
@@ -51,8 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 200.0, 236.0, 20.0 ],
-					"presentation_rect" : [ 324.0, 65.0, 0.0, 0.0 ]
+					"patching_rect" : [ 293.0, 205.0, 236.0, 20.0 ]
 				}
 
 			}
@@ -66,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 181.0, 150.0, 20.0 ]
+					"patching_rect" : [ 293.0, 181.0, 130.0, 20.0 ]
 				}
 
 			}
@@ -107,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 348.0, 293.0, 93.0, 24.0 ],
+					"patching_rect" : [ 425.0, 179.0, 93.0, 24.0 ],
 					"text" : "enable light"
 				}
 
@@ -126,7 +124,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 852.0, 373.0, 411.0, 282.0 ],
@@ -682,16 +680,16 @@
 ,
 					"patching_rect" : [ 9.0, 229.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"

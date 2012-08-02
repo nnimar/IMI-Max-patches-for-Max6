@@ -26,4 +26,5 @@ msg.surround, "surround object";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 jscope_help~, "signal-oscilloscope using jitter";
 buffer_help~, "the buffer~ object";
-GLbuffer~, "show buffer~ data in OpenGL";
+GLbuffer~, "show buffer~ data in GL";
+GLgraph_catch~, "capture waveform and use it in GL";

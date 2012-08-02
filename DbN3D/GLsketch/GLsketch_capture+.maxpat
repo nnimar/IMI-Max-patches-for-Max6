@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 5
 		}
 ,
 		"rect" : [ 3.0, 44.0, 699.0, 437.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 5
 						}
 ,
 						"rect" : [ 707.0, 358.0, 411.0, 282.0 ],
@@ -594,18 +594,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 245.0, 102.0, 20.0 ],
+					"patching_rect" : [ 8.0, 245.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"tags" : ""
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -667,7 +667,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 29.0, 587.0, 36.0 ],
-					"text" : "you can render multiple GL objects to a single texture by using a jit.gl.sketch object with \"drawobject\" messages and setting the @capture of the jit.gl.sketch object (Andrew Benson)",
+					"text" : "you can render multiple GL objects to a single texture by using a jit.gl.sketch object with \"drawobject\" messages and setting the @capture of the jit.gl.sketch object (Andrew Benson) ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -724,8 +724,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.0, 221.0, 411.0, 20.0 ],
-					"text" : "jit.gl.videoplane foo @automatic 0 @transform_reset 2 @texture thetexture"
+					"patching_rect" : [ 178.0, 221.0, 389.0, 20.0 ],
+					"text" : "jit.gl.videoplane @automatic 0 @transform_reset 2 @texture thetexture"
 				}
 
 			}
@@ -752,8 +752,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 254.0, 191.0, 283.0, 20.0 ],
-					"text" : "jit.gl.texture foo @name thetexture @dim 1280 720"
+					"patching_rect" : [ 254.0, 191.0, 262.0, 20.0 ],
+					"text" : "jit.gl.texture @name thetexture @dim 1280 720"
 				}
 
 			}
@@ -795,8 +795,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 254.0, 160.0, 282.0, 20.0 ],
-					"text" : "jit.gl.sketch foo @capture thetexture @automatic 0"
+					"patching_rect" : [ 254.0, 160.0, 260.0, 20.0 ],
+					"text" : "jit.gl.sketch @capture thetexture @automatic 0"
 				}
 
 			}
@@ -809,8 +809,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.0, 402.0, 519.0, 20.0 ],
-					"text" : "jit.gl.videoplane foo @automatic 0 @name plane4 @scale 0.25 0.25 0.25 @position -0.5 -0.5 0."
+					"patching_rect" : [ 140.0, 402.0, 498.0, 20.0 ],
+					"text" : "jit.gl.videoplane @automatic 0 @name plane4 @scale 0.25 0.25 0.25 @position -0.5 -0.5 0."
 				}
 
 			}
@@ -823,8 +823,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 159.0, 376.0, 515.0, 20.0 ],
-					"text" : "jit.gl.videoplane foo @automatic 0 @name plane3 @scale 0.25 0.25 0.25 @position 0.5 -0.5 0."
+					"patching_rect" : [ 159.0, 376.0, 494.0, 20.0 ],
+					"text" : "jit.gl.videoplane @automatic 0 @name plane3 @scale 0.25 0.25 0.25 @position 0.5 -0.5 0."
 				}
 
 			}
@@ -837,8 +837,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 349.0, 511.0, 20.0 ],
-					"text" : "jit.gl.videoplane foo @automatic 0 @name plane2 @scale 0.25 0.25 0.25 @position 0.5 0.5 0."
+					"patching_rect" : [ 170.0, 349.0, 490.0, 20.0 ],
+					"text" : "jit.gl.videoplane @automatic 0 @name plane2 @scale 0.25 0.25 0.25 @position 0.5 0.5 0."
 				}
 
 			}
@@ -851,8 +851,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 175.0, 321.0, 515.0, 20.0 ],
-					"text" : "jit.gl.videoplane foo @automatic 0 @name plane1 @scale 0.25 0.25 0.25 @position -0.5 0.5 0."
+					"patching_rect" : [ 175.0, 321.0, 494.0, 20.0 ],
+					"text" : "jit.gl.videoplane @automatic 0 @name plane1 @scale 0.25 0.25 0.25 @position -0.5 0.5 0."
 				}
 
 			}
@@ -865,8 +865,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 271.0, 85.0, 20.0 ],
-					"text" : "jit.window foo"
+					"patching_rect" : [ 8.0, 271.0, 113.0, 20.0 ],
+					"text" : "jit.window capture+"
 				}
 
 			}
@@ -919,8 +919,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 197.0, 92.0, 20.0 ],
-					"text" : "jit.gl.render foo"
+					"patching_rect" : [ 11.0, 197.0, 70.0, 20.0 ],
+					"text" : "jit.gl.render"
 				}
 
 			}

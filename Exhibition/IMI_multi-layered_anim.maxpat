@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 3.0, 44.0, 861.0, 497.0 ],
@@ -224,7 +224,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 869.0, 373.0, 192.0, 151.0 ],
@@ -377,16 +377,16 @@
 ,
 					"patching_rect" : [ 284.0, 470.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p keyframes"
@@ -407,7 +407,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 873.0, 371.0, 332.0, 189.0 ],
@@ -655,16 +655,16 @@
 ,
 					"patching_rect" : [ 305.0, 418.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p param"
@@ -790,7 +790,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 201.0, 215.0 ],
@@ -944,16 +944,16 @@
 ,
 					"patching_rect" : [ 228.0, 185.120483, 56.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p a-ratio"
@@ -989,7 +989,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 871.0, 44.0, 339.0, 739.0 ],
@@ -1423,7 +1423,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 874.0, 44.0, 427.0, 425.0 ],
@@ -1701,16 +1701,16 @@
 ,
 									"patching_rect" : [ 16.0, 243.5, 229.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 14.0,
-										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 14.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"tags" : "",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontsize" : 14.0
+										"default_fontsize" : 14.0,
+										"description" : ""
 									}
 ,
 									"text" : "p tween"
@@ -2133,16 +2133,16 @@
 ,
 					"patching_rect" : [ 284.0, 297.5, 162.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p anim2pattrstorage"
@@ -2276,7 +2276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 589.0, 465.0, 204.0, 20.0 ],
-					"restore" : [ 1000 ],
+					"restore" : [ 500 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2296,7 +2296,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 589.0, 413.0, 260.0, 20.0 ],
-					"restore" : [ -0.9, -0.6, 0.0 ],
+					"restore" : [ -0.98, -0.6, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2350,7 +2350,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 872.0, 370.0, 411.0, 275.0 ],
@@ -2929,16 +2929,16 @@
 ,
 					"patching_rect" : [ 109.0, 271.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -2965,9 +2965,9 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"client_rect" : [ 880, 373, 1323, 502 ],
+						"storage_rect" : [ 583, 69, 1034, 197 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage anim @savemode 2",
@@ -2988,7 +2988,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 873.0, 371.0, 360.0, 210.0 ],
@@ -3014,11 +3014,25 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 14.0, 36.0, 69.0, 20.0 ],
+									"text" : "delay 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 158.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 187.0, 192.0, 20.0 ],
 									"text" : "go to fullscreen (default 0)"
 								}
 
@@ -3031,7 +3045,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 129.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 158.0, 192.0, 20.0 ],
 									"text" : "start rendering"
 								}
 
@@ -3044,7 +3058,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 111.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 140.0, 192.0, 20.0 ],
 									"text" : "open movie1 and movie 2"
 								}
 
@@ -3057,7 +3071,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 93.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 122.0, 192.0, 20.0 ],
 									"text" : "go to preset 1"
 								}
 
@@ -3070,7 +3084,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 74.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 103.0, 192.0, 20.0 ],
 									"text" : "init bang"
 								}
 
@@ -3083,7 +3097,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 56.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 85.0, 192.0, 20.0 ],
 									"text" : "open anim2pattrstorage gate"
 								}
 
@@ -3096,7 +3110,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.0, 38.0, 192.0, 20.0 ],
+									"patching_rect" : [ 105.0, 67.0, 192.0, 20.0 ],
 									"text" : "value for initialisation delays (1s)"
 								}
 
@@ -3111,7 +3125,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 35.0, 86.0, 143.0 ],
+									"patching_rect" : [ 14.0, 64.0, 86.0, 143.0 ],
 									"text" : ";\rdelays 1000;\rinit_gate 1;\rinit bang;\rpreset 1;\rmovie1 bang;\rmovie2 bang;\rrender 1;\rbackg 0.;\rfullscreen 0;\r"
 								}
 
@@ -3136,6 +3150,15 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
 								}
 
@@ -3146,16 +3169,16 @@
 ,
 					"patching_rect" : [ 818.0, 29.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p init"
@@ -3615,7 +3638,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 201.0, 215.0 ],
@@ -3769,16 +3792,16 @@
 ,
 					"patching_rect" : [ 659.0, 185.120483, 56.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p a-ratio"
@@ -4462,14 +4485,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "anim.json",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Exhibition",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tween.js",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_tween",
-				"patcherrelativepath" : "../Toolbox/_tween",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_tween",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

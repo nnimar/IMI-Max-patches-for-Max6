@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 5
 		}
 ,
 		"rect" : [ 765.0, 44.0, 784.0, 419.0 ],
@@ -67,7 +67,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2153.0, 117.0, 128.0, 24.0 ],
-					"presentation_rect" : [ 1967.0, 214.0, 0.0, 0.0 ],
 					"text" : "choose a number"
 				}
 
@@ -131,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6521.0, 87.0, 473.0, 157.0 ],
+					"patching_rect" : [ 6521.0, 87.0, 477.0, 157.0 ],
 					"text" : "- alpha versions (work in progress, not all features ) : v001\n\n- beta versions (all features but buggy) : v100 \n\n- release candidates (public testing) : RC1, RC2, ... \n\n- golden master (release) : GM or ƒ (alt-f)."
 				}
 
@@ -156,21 +155,6 @@
 					"rounded" : 20.0,
 					"text" : "IMI_quicktime",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-158",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 226.0, 157.0, 18.0 ],
-					"text" : "load IMI_videograb_(1cam)"
 				}
 
 			}
@@ -828,7 +812,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1014,16 +998,16 @@
 ,
 					"patching_rect" : [ 4878.0, 145.5, 123.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p counter_modulo"
@@ -1600,7 +1584,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2373.0, 47.0, 577.0, 50.0 ],
+					"patching_rect" : [ 2373.0, 47.0, 577.0, 49.0 ],
 					"text" : "Everything in max is a bang, it's means 'do it'. \nHow do you get a bang (process) ? When do you get a bang (timing) ? "
 				}
 
@@ -1701,7 +1685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 47.0, 534.0, 50.0 ],
+					"patching_rect" : [ 13.0, 47.0, 534.0, 49.0 ],
 					"text" : "Always start with an object... \nwhat do you want to do = what is your object ? "
 				}
 
@@ -1956,8 +1940,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3689.0, 218.0, 73.0, 21.0 ],
-					"text" : "1 2 5 68 5"
+					"patching_rect" : [ 3689.0, 218.0, 73.0, 21.0 ]
 				}
 
 			}
@@ -2171,11 +2154,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 870.0, 191.0, 152.0, 21.0 ],
+					"patching_rect" : [ 870.0, 191.0, 102.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "IMI_videograb_(1cam)",
+					"text" : "IMI_videograb",
 					"texton" : "Stop"
 				}
 
@@ -2190,7 +2173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 191.0, 153.0, 18.0 ],
+					"patching_rect" : [ 870.0, 160.0, 153.0, 18.0 ],
 					"text" : "load IMI_quicktime.maxpat"
 				}
 
@@ -2389,6 +2372,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4155.0, 191.0, 66.0, 37.0 ],
 					"text" : ";\rval 0.15;\r"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-158",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 872.0, 191.0, 113.0, 18.0 ],
+					"text" : "load IMI_videograb"
 				}
 
 			}
@@ -3379,7 +3377,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

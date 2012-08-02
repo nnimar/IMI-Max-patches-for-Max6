@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 1.0, 44.0, 444.0, 451.0 ],
+		"rect" : [ 643.0, 44.0, 444.0, 451.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -41,10 +41,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 1.0, 70.0, 444.0, 425.0 ],
+						"rect" : [ 0.0, 26.0, 444.0, 425.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -73,8 +73,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 157.0, 103.0, 133.0, 25.0 ],
-									"text" : "1 plane, size of 10"
+									"patching_rect" : [ 157.0, 103.0, 170.0, 25.0 ],
+									"text" : "1 plane, dimension of 10"
 								}
 
 							}
@@ -165,7 +165,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.588235, 0.980392, 0.588235, 1.0 ],
+									"bgcolor" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 									"candicane2" : [ 0.145098, 0.203922, 0.356863, 1.0 ],
 									"candicane3" : [ 0.290196, 0.411765, 0.713726, 1.0 ],
 									"candicane4" : [ 0.439216, 0.619608, 0.070588, 1.0 ],
@@ -187,7 +187,7 @@
 									"setstyle" : 1,
 									"settype" : 6,
 									"size" : 320,
-									"slidercolor" : [ 0.196078, 0.588235, 0.196078, 1.0 ]
+									"slidercolor" : [ 0.368627, 0.360784, 0.501961, 1.0 ]
 								}
 
 							}
@@ -245,8 +245,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 204.0, 21.0 ],
-									"text" : "iterate a matrix as a list",
+									"patching_rect" : [ 4.0, 29.0, 406.0, 21.0 ],
+									"text" : "iterate a matrix as a list, using a multislider to iterate the dimension",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -406,14 +406,14 @@
 ,
 					"patching_rect" : [ 11.0, 204.0, 80.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0
 					}
@@ -436,7 +436,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 26.0, 444.0, 425.0 ],
@@ -496,8 +496,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 164.0, 165.0, 133.0, 25.0 ],
-									"text" : "4 planes = ARGB"
+									"patching_rect" : [ 164.0, 165.0, 150.0, 25.0 ],
+									"text" : "1 plane with 4 values"
 								}
 
 							}
@@ -527,8 +527,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 204.0, 21.0 ],
-									"text" : "iterate a matrix as a list",
+									"patching_rect" : [ 4.0, 29.0, 380.0, 21.0 ],
+									"text" : "iterate a matrix as a list : iterate 1 plane as 1 number .",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -586,8 +586,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 148.0, 98.0, 129.0, 25.0 ],
-									"text" : "1 plane, size of 4"
+									"patching_rect" : [ 148.0, 98.0, 162.0, 25.0 ],
+									"text" : "1 plane, dimension of 4"
 								}
 
 							}
@@ -601,7 +601,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 7.0, 302.0, 101.0, 25.0 ],
-									"text" : "0.797979"
+									"text" : "0.279292"
 								}
 
 							}
@@ -733,14 +733,14 @@
 ,
 					"patching_rect" : [ 11.0, 142.0, 60.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0
 					}
@@ -763,10 +763,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 26.0, 444.0, 425.0 ],
+						"rect" : [ 643.0, 70.0, 444.0, 425.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -797,7 +797,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 101.0, 321.0, 136.0, 40.0 ],
-									"presentation_rect" : [ 91.0, 359.0, 0.0, 0.0 ],
 									"text" : "4 planes = 4 numbers"
 								}
 
@@ -812,7 +811,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 164.0, 213.0, 133.0, 25.0 ],
-									"presentation_rect" : [ 166.0, 206.0, 0.0, 0.0 ],
 									"text" : "result = color mix"
 								}
 
@@ -826,8 +824,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 166.0, 168.0, 133.0, 25.0 ],
-									"presentation_rect" : [ 166.0, 166.0, 0.0, 0.0 ],
+									"patching_rect" : [ 198.0, 169.0, 133.0, 25.0 ],
 									"text" : "4 planes = ARGB"
 								}
 
@@ -858,8 +855,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 204.0, 21.0 ],
-									"text" : "iterate a matrix as a list",
+									"patching_rect" : [ 4.0, 29.0, 392.0, 21.0 ],
+									"text" : "iterate a matrix as a list - iter works well with PLANES.",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -877,7 +874,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 25.0, 172.0, 132.0, 20.0 ],
+									"patching_rect" : [ 25.0, 172.0, 170.0, 20.0 ],
 									"rows" : 1,
 									"vscroll" : 0
 								}
@@ -906,8 +903,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.0, 99.0, 133.0, 25.0 ],
-									"text" : "4 planes, size of 1"
+									"patching_rect" : [ 145.0, 99.0, 172.0, 25.0 ],
+									"text" : "4 planes, dimension of 1"
 								}
 
 							}
@@ -932,7 +929,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 6.0, 301.0, 337.0, 25.0 ],
-									"text" : "0.645605 0.873134 0.46486 0.491102"
+									"text" : "0.203156 0.304699 0.67829 0.949582"
 								}
 
 							}
@@ -1064,14 +1061,14 @@
 ,
 					"patching_rect" : [ 10.0, 85.0, 67.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0
 					}
@@ -1101,14 +1098,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

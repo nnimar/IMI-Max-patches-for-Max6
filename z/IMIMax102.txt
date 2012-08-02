@@ -17,13 +17,14 @@
 22, IMI_videograb "simple video grab";
 23, IMI_videograb_(4cam) "video grab for 2 to 4 cameras";
 24, IMI_timelapse "timelapse";
+25, grab2syphon "use webcam, netcam and dslr";
 25, grab_hotspot "grab movements";
 30, -----------------------;
 31, <category> 4 Effect;
 32, IMI_compositing_modes "methods for compositing";
 33, IMI_video_delay "video delay";
-34, transfer_modes "photoshop transfer modes";
-35, shader_overview_v001 "easy to use shaders";
+34, GLslab_collection "easy to use shaders";
+35, transfer_modes "photoshop transfer modes";
 36, BadTV "badTV effect";
 37, h.lines "generate a mesh of lines from a movie";
 40, -----------------------;

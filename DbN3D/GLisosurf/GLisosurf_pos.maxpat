@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ -1.0, 44.0, 632.0, 339.0 ],
+		"rect" : [ 0.0, 44.0, 632.0, 339.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 509.0, 112.0, 110.0, 34.0 ],
+					"text" : "select a preset\n(position and size)"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -77,7 +91,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 197.244202, 199.0, 45.0, 20.0 ],
-					"presentation_rect" : [ 530.244202, 259.0, 0.0, 0.0 ],
 					"text" : "r bang"
 				}
 
@@ -95,10 +108,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 642.0, 44.0, 456.0, 539.0 ],
+						"rect" : [ 1008.0, 44.0, 456.0, 539.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -801,16 +814,16 @@
 ,
 					"patching_rect" : [ 510.0, 88.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : ""
 					}
 ,
 					"text" : "p noise generator"
@@ -912,7 +925,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 640.0, 362.0, 411.0, 282.0 ],
@@ -1468,16 +1481,16 @@
 ,
 					"patching_rect" : [ 10.0, 270.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"digest" : "",
+						"tags" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1493,7 +1506,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 297.348022, 90.251862, 38.0, 18.0 ],
+					"patching_rect" : [ 317.348022, 90.251862, 38.0, 18.0 ],
 					"text" : "read"
 				}
 
@@ -1539,7 +1552,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 31.0, 399.0, 21.0 ],
-					"text" : "Play a video using the the graphic card (the graphic processing unit)",
+					"text" : "Isosurf creares a gemetric surface from a volumetric density field",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1568,8 +1581,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.347992, 90.251862, 100.0, 18.0 ],
-					"text" : "read sophie.mov"
+					"patching_rect" : [ 194.347992, 90.251862, 116.0, 18.0 ],
+					"text" : "read cityroom2.mov"
 				}
 
 			}
@@ -1582,8 +1595,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.244202, 124.054932, 195.0, 20.0 ],
-					"text" : "jit.qt.movie @autostart 1 @loop 1"
+					"patching_rect" : [ 178.244202, 124.054932, 123.0, 20.0 ],
+					"text" : "jit.qt.movie @adapt 1"
 				}
 
 			}
@@ -1685,7 +1698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.244202, 296.0, 447.0, 34.0 ],
+					"patching_rect" : [ 178.244202, 296.0, 450.0, 34.0 ],
 					"text" : "jit.gl.isosurf @lighting_enable 1 @color 1 1 1 0.5 @isolevel 0.41 @blend_enable 1 @depth_enable 1 @smooth_shading 1 @scale 1.7 1.5 1. @cull_face 1. 1."
 				}
 
@@ -1814,7 +1827,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 306.848022, 116.153397, 187.744202, 116.153397 ],
+					"midpoints" : [ 326.848022, 116.153397, 187.744202, 116.153397 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

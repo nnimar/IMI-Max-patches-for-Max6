@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 577.0, 156.0, 72.0, 38.0 ],
-					"presentation_rect" : [ 580.0, 164.0, 0.0, 0.0 ],
 					"text" : "multiply and add"
 				}
 
@@ -52,8 +51,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 480.0, 141.0, 54.0, 21.0 ],
-					"presentation_rect" : [ 480.0, 156.0, 0.0, 0.0 ]
+					"patching_rect" : [ 480.0, 141.0, 54.0, 21.0 ]
 				}
 
 			}
@@ -67,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 480.0, 167.0, 93.0, 19.0 ],
-					"presentation_rect" : [ 480.0, 182.0, 0.0, 0.0 ],
 					"text" : "param bias $1"
 				}
 
@@ -670,16 +667,16 @@
 ,
 					"patching_rect" : [ 8.0, 237.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -770,7 +767,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 364.0, 88.0, 124.0, 18.0 ],
-					"text" : "read binary-man.mov"
+					"text" : "read binaryman.mov"
 				}
 
 			}

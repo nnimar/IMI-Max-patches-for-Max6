@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 1047.0, 701.0 ],
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 4.0, 46.0, 473.0, 265.0 ],
@@ -230,16 +230,16 @@
 ,
 					"patching_rect" : [ 19.0, 164.789703, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p conversion"
@@ -395,7 +395,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 1059.0, 44.0, 584.0, 411.0 ],
@@ -451,7 +451,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 267.0, 324.0, 35.0 ],
+									"patching_rect" : [ 31.0, 267.0, 324.0, 34.0 ],
 									"text" : "Get the amount of movement \nfor a single zone. (Continuous output, one zone at a time.)"
 								}
 
@@ -550,7 +550,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 381.0, 18.0, 171.0, 35.0 ],
+									"patching_rect" : [ 381.0, 18.0, 171.0, 34.0 ],
 									"text" : "Get the amount of movement \nfor a single zone."
 								}
 
@@ -821,16 +821,16 @@
 ,
 					"patching_rect" : [ 315.0, 605.0, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p more_methods"
@@ -846,8 +846,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 966.0, 31.0, 80.0, 20.0 ],
-					"text" : "revision 003",
+					"patching_rect" : [ 996.0, 31.0, 52.0, 20.0 ],
+					"text" : "rev 003",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
 
@@ -906,7 +906,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 1057.0, 44.0, 373.0, 301.0 ],
@@ -1063,7 +1063,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 1057.0, 397.0, 328.0, 399.0 ],
@@ -1576,16 +1576,16 @@
 ,
 									"patching_rect" : [ 15.0, 146.0, 198.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 9.0,
-										"description" : "",
+										"default_fontface" : 0,
+										"digest" : "",
+										"tags" : "",
+										"default_fontname" : "Arial",
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"tags" : "",
-										"default_fontface" : 0
+										"default_fontsize" : 9.0,
+										"description" : ""
 									}
 ,
 									"text" : "p draw_zones"
@@ -1802,16 +1802,16 @@
 ,
 					"patching_rect" : [ 848.0, 658.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
+						"default_fontface" : 0,
+						"digest" : "",
+						"tags" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p process"

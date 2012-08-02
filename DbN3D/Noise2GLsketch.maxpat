@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 486.0, 670.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 491.0, 472.0, 411.0, 282.0 ],
@@ -594,18 +594,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 352.0, 275.0, 102.0, 20.0 ],
+					"patching_rect" : [ 352.0, 258.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"digest" : "",
+						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"default_fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -622,7 +622,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 636.0, 52.0, 20.0 ],
+					"patching_rect" : [ 359.0, 645.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -637,7 +637,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 636.0, 100.0, 18.0 ],
+					"patching_rect" : [ 359.0, 645.0, 100.0, 18.0 ],
 					"text" : "load Random_list"
 				}
 
@@ -656,7 +656,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.0, 632.5, 99.0, 22.0 ],
+					"patching_rect" : [ 359.0, 641.5, 99.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 156.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -679,7 +679,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.0, 605.5, 86.0, 21.0 ],
+					"patching_rect" : [ 359.0, 613.5, 86.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 434.0, 771.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -702,7 +702,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 359.0, 575.5, 122.0, 22.0 ],
+					"patching_rect" : [ 359.0, 584.5, 122.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -721,7 +721,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 635.0, 130.0, 18.0 ],
+					"patching_rect" : [ 328.0, 644.0, 130.0, 18.0 ],
 					"text" : "load Random_list_slide"
 				}
 
@@ -736,7 +736,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 636.0, 125.0, 18.0 ],
+					"patching_rect" : [ 332.0, 645.0, 125.0, 18.0 ],
 					"text" : "load Random_number"
 				}
 
@@ -768,7 +768,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 491.0, 471.0, 304.0, 128.0 ],
@@ -799,7 +799,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 19.0, 249.0, 88.0 ],
+									"patching_rect" : [ 11.0, 19.0, 249.0, 87.0 ],
 									"text" : "1. reset (clear image)\n2. send the numbers (trigger list > t l)\n3. moveto number 1 and 2 (x,y)\n4. size with number 3\n5. draw blue then white circle"
 								}
 
@@ -811,16 +811,16 @@
 ,
 					"patching_rect" : [ 419.0, 29.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"digest" : "",
+						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"default_fontface" : 0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p tutorial"
@@ -897,8 +897,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 160.0, 89.0, 24.0 ],
-					"text" : "size (1 dim)"
+					"patching_rect" : [ 177.0, 160.0, 105.0, 24.0 ],
+					"text" : "size (1 plane)"
 				}
 
 			}
@@ -911,8 +911,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 160.0, 112.0, 24.0 ],
-					"text" : "position (2 dim)"
+					"patching_rect" : [ 21.0, 160.0, 128.0, 24.0 ],
+					"text" : "position (2 planes)"
 				}
 
 			}
@@ -925,7 +925,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 351.574097, 302.638428, 94.0, 20.0 ],
+					"patching_rect" : [ 351.574097, 285.638428, 94.0, 20.0 ],
 					"text" : "jit.window noisy"
 				}
 
@@ -1190,7 +1190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 352.0, 226.0, 65.0, 36.0 ]
+					"patching_rect" : [ 352.0, 212.0, 65.0, 36.0 ]
 				}
 
 			}
@@ -1384,7 +1384,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 55.0, 141.147247, 281.0 ],
+					"patching_rect" : [ 340.0, 55.0, 140.147247, 262.0 ],
 					"rounded" : 30
 				}
 

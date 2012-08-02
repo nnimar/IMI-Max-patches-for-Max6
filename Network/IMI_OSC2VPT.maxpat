@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 614.0, 411.0, 77.0, 16.0 ],
-					"presentation_rect" : [ 568.0, 337.0, 0.0, 0.0 ],
 					"text" : "load VPT_start"
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 614.0, 408.0, 52.0, 20.0 ],
-					"presentation_rect" : [ 567.0, 336.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -95,7 +93,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 753.0, 44.0, 471.0, 228.0 ],
@@ -322,16 +320,16 @@
 ,
 					"patching_rect" : [ 241.0, 199.0, 52.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 14.0,
 						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p multi"
@@ -393,7 +391,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 754.0, 44.0, 528.0, 460.0 ],
@@ -424,7 +422,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 4.0, 515.0, 442.0 ],
+									"patching_rect" : [ 5.0, 4.0, 515.0, 441.0 ],
 									"text" : "OSC parameters to the moviesources:\n/clipnr /rate /trig /scrub /in /out /loop /loopreset /loopreport /unique /unirefr /argb /start /stop /dim /vol /pan /clipnr /random\n\nOSC parameters to the layers:\n/fade /red /green /blue /rgb /pos_x /pos_y /scale_x /scale_y /x1 /y1 /x2 /y2 /x3 /y3 /x4 /y4 /rotx /roty /rotz /txrot/rot /txrot/zoomx /txrot/zoomy \n\n/avig/radius /avig/fade /avig/x avig/y \n\n/edge/edge1 /edge/edge1 /edge/edge2 /edge/edge3 /edge/edge4 /edge/inv /sourcenr /solotrig\n\nOSC parameters to the lfos:\n/on /phase /speed /wave /wnormal /val /range /lfomix\n\nOSC to VPT (/vpt)\n/preset /cue /blackout /fullscreen\n\n/vpt/store\n/vpt/storenr $number\n/vpt/storename $name\n/vpt/storetype $number (0 store, 1 storenext, 2 storeinsert)\n\nnext/previous cue in cuelist\n/vpt/cuenext\n/vpt/cueprev"
 								}
 
@@ -436,16 +434,16 @@
 ,
 					"patching_rect" : [ 643.829346, 278.557251, 88.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 14.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 14.0,
 						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p OSC2VPT"
@@ -528,200 +526,6 @@
 					"rounded" : 20.0,
 					"text" : "Test UDP receiver",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
-						}
-,
-						"rect" : [ 752.0, 44.0, 316.0, 228.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 14.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 110.0, 55.0, 23.0 ],
-									"text" : "receive"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-2",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 16.0, 42.0, 23.0 ],
-									"text" : "send"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-15",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 71.170654, 13.0, 57.0, 27.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-16",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 71.0, 182.648804, 57.0, 27.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 71.0, 143.885498, 139.0, 27.0 ],
-									"text" : "osc-route /clipnr"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.593473,
-									"id" : "obj-5",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 71.170654, 48.442749, 228.0, 26.0 ],
-									"text" : "/moviesource101/clipnr $1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 71.0, 108.0, 229.0, 27.0 ],
-									"text" : "osc-route /moviesource101"
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
- ]
-					}
-,
-					"patching_rect" : [ 614.829346, 310.557251, 128.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : ""
-					}
-,
-					"text" : "p OSCroute_tutorial"
 				}
 
 			}
@@ -1431,10 +1235,6 @@
 			}
 , 			{
 				"name" : "OpenSoundControl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]

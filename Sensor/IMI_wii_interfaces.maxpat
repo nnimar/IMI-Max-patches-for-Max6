@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 537.0, 561.0 ],
@@ -641,14 +641,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
-					"id" : "obj-12",
-					"linecount" : 3,
+					"id" : "obj-6",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 50.0, 206.0, 36.0 ],
-					"text" : ";\rmax launchbrowser \\\"file://///Applications/OSCulator/OSCulator.app\\\""
+					"patching_rect" : [ 16.0, 49.0, 205.0, 46.0 ],
+					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/osculator.oscd\\\"\""
 				}
 
 			}
@@ -776,7 +776,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]

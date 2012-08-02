@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 546.0, 589.0 ],
@@ -50,7 +50,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 531.0, 94.0, 19.0 ],
+					"patching_rect" : [ 10.0, 531.0, 94.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
 					"text" : "OSCTestApp"
@@ -298,7 +298,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 558.0, 136.0, 21.0 ],
+					"patching_rect" : [ 10.0, 558.0, 141.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -316,10 +316,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 423.0, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 423.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
-					"text" : "OSC2VPT"
+					"text" : "OSControl"
 				}
 
 			}
@@ -467,7 +467,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 504.0, 76.0, 20.0 ],
+					"patching_rect" : [ 10.0, 504.0, 76.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSC tools"
@@ -527,8 +527,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 423.0, 225.0, 23.0 ],
-					"text" : "osc-to-VPT (video projection tool)"
+					"patching_rect" : [ 226.0, 423.0, 246.0, 23.0 ],
+					"text" : "control other applications using OSC"
 				}
 
 			}
@@ -542,8 +542,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 423.0, 98.0, 16.0 ],
-					"text" : "load IMI_OSC2VPT"
+					"patching_rect" : [ 12.0, 425.0, 98.0, 16.0 ],
+					"text" : "load IMI_OSControl"
 				}
 
 			}
@@ -775,7 +775,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 275.0, 143.0, 21.0 ],
+					"patching_rect" : [ 12.0, 278.0, 143.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 404.0, 100.0, 20.0 ],
 					"text" : "netSend / netReceive"
@@ -792,8 +792,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 276.0, 101.0, 18.0 ],
-					"text" : "load IMI_netSend"
+					"patching_rect" : [ 11.0, 280.0, 101.0, 18.0 ],
+					"text" : "help IMI_netSend"
 				}
 
 			}
@@ -962,7 +962,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 523.0, 473.0, 26.0 ],
+					"patching_rect" : [ 12.0, 523.0, 473.0, 25.0 ],
 					"text" : ";\rmax launchbrowser \\\"file://////Applications/Max6/examples/IMIpatches/Plugins_communication/OSCTestApp.app\\\""
 				}
 

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 605.0, 44.0, 709.0, 631.0 ],
+		"rect" : [ 633.0, 44.0, 709.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 467.0, 497.0, 187.0, 23.0 ],
-					"presentation_rect" : [ 410.0, 478.0, 0.0, 0.0 ],
 					"text" : "planes(4)  dimension(10 10)"
 				}
 
@@ -51,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.0, 551.0, 177.0, 23.0 ],
-					"presentation_rect" : [ 188.0, 557.0, 0.0, 0.0 ],
 					"text" : "name(video) type(char)"
 				}
 
@@ -137,16 +135,16 @@
 ,
 					"patching_rect" : [ 148.0, 607.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p source"
@@ -519,16 +517,16 @@
 ,
 					"patching_rect" : [ 5.0, 603.5, 140.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 18.0
 					}
 ,
 					"text" : "p movie_is_a_matrix"

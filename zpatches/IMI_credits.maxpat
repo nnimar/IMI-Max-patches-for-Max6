@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 648.0, 496.0 ],
@@ -39,7 +39,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 658.0, 44.0, 634.0, 167.0 ],
@@ -83,15 +83,15 @@
 					"patching_rect" : [ 498.0, 464.849884, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
-						"fontsize" : 14.0,
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
 						"digest" : "",
+						"fontsize" : 14.0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p plugins credits"
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 312.0, 150.0, 226.0, 19.0 ],
+					"patching_rect" : [ 308.0, 150.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -124,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 143.0, 207.0, 26.0 ],
+					"patching_rect" : [ 307.0, 143.0, 207.0, 26.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -152,8 +152,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 126.0, 639.0, 89.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great examples found on http://cycling74.com/forums/,\nimproved help files from Max. Many patches were taken from Max's evangelist \nAndrew Benson and Robert Ramirez, thanks for their great tutorials !"
+					"patching_rect" : [ 4.0, 126.0, 643.0, 89.0 ],
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on http://cycling74.com/forums/,\nimproved help files from Max. Many patches were taken from Max's evangelist \nAndrew Benson and Robert Ramirez, thanks for their great tutorials !"
 				}
 
 			}
@@ -166,8 +166,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 233.0, 635.0, 152.0 ],
-					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Romain Meunier, Camille Leproust (2012)"
+					"patching_rect" : [ 4.0, 233.0, 635.0, 151.0 ],
+					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012)"
 				}
 
 			}
