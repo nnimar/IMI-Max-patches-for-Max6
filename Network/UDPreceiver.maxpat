@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 873.0, 44.0, 427.0, 305.0 ],
+		"rect" : [ 820.0, 44.0, 426.0, 381.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -29,7 +29,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -42,7 +42,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 869.0, 44.0, 316.0, 228.0 ],
+						"rect" : [ 931.0, 44.0, 317.0, 197.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -69,7 +69,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 110.0, 55.0, 23.0 ],
+									"patching_rect" : [ 11.0, 86.0, 55.0, 23.0 ],
 									"text" : "receive"
 								}
 
@@ -111,7 +111,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 71.0, 182.648804, 57.0, 27.0 ]
+									"patching_rect" : [ 71.0, 158.648804, 57.0, 27.0 ]
 								}
 
 							}
@@ -124,7 +124,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 71.0, 143.885498, 139.0, 27.0 ],
+									"patching_rect" : [ 71.0, 119.885498, 139.0, 27.0 ],
 									"text" : "osc-route /clipnr"
 								}
 
@@ -152,7 +152,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 71.0, 108.0, 229.0, 27.0 ],
+									"patching_rect" : [ 71.0, 84.0, 229.0, 27.0 ],
 									"text" : "osc-route /moviesource101"
 								}
 
@@ -202,18 +202,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 305.0, 275.0, 113.0, 20.0 ],
+					"patching_rect" : [ 287.0, 351.0, 131.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontsize" : 14.0,
-						"fontface" : 0,
-						"description" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p osc-route_tutorial"
@@ -222,13 +222,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.07,
+					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 237.0, 118.0, 23.0 ],
+					"patching_rect" : [ 25.0, 299.0, 118.0, 42.0 ],
 					"text" : "then route /clipnr"
 				}
 
@@ -249,6 +252,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.04,
+					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-12",
@@ -256,20 +262,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 191.0, 189.0, 39.0 ],
+					"patching_rect" : [ 25.0, 209.0, 183.0, 58.0 ],
 					"text" : "route the messages coming \nfrom /moviesource101/"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 152.0, 108.0, 23.0 ],
+					"patching_rect" : [ 206.0, 146.0, 122.0, 27.0 ],
 					"text" : "see the content"
 				}
 
@@ -316,7 +323,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 153.0, 175.0, 21.0 ],
+					"patching_rect" : [ 26.0, 150.0, 175.0, 21.0 ],
 					"text" : "/moviesource101/clipnr 17"
 				}
 
@@ -359,7 +366,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 274.0, 50.0, 23.0 ]
+					"patching_rect" : [ 9.0, 351.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -372,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 237.0, 110.0, 23.0 ],
+					"patching_rect" : [ 9.0, 276.0, 110.0, 23.0 ],
 					"text" : "osc-route /clipnr"
 				}
 
@@ -386,7 +393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 191.0, 179.0, 23.0 ],
+					"patching_rect" : [ 9.0, 185.0, 179.0, 23.0 ],
 					"text" : "osc-route /moviesource101"
 				}
 
@@ -423,7 +430,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 70.0, 141.0, 18.5, 141.0 ],
+					"midpoints" : [ 70.0, 127.0, 18.5, 127.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -433,6 +440,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 70.0, 140.0, 191.5, 140.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 

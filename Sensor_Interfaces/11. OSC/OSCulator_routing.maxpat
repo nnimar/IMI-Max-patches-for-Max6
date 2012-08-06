@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 375.0, 44.0, 431.0, 455.0 ],
+		"rect" : [ 380.0, 44.0, 431.0, 455.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,29 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 216.0, 365.5, 128.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 209.0, 264.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "OSCulator",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -57,12 +80,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 366.0, 143.0, 20.0 ],
+					"patching_rect" : [ 14.0, 366.0, 160.0, 23.0 ],
 					"text" : "then test with osculator :"
 				}
 
@@ -70,30 +93,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 335.0, 177.0, 20.0 ],
+					"patching_rect" : [ 13.0, 335.0, 199.0, 23.0 ],
 					"text" : "test with the UDPreceive first :"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-7",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 186.0, 365.0, 81.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 834.0, 555.0, 100.0, 20.0 ],
-					"text" : "OSC patch"
 				}
 
 			}
@@ -108,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 364.0, 135.0, 56.0 ],
+					"patching_rect" : [ 216.0, 364.0, 135.0, 56.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/routing.oscd\\\"\""
 				}
 
@@ -160,7 +166,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 186.0, 335.5, 127.0, 20.0 ],
+					"patching_rect" : [ 216.0, 335.5, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -179,7 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.0, 336.5, 122.0, 16.0 ],
+					"patching_rect" : [ 216.0, 336.5, 122.0, 16.0 ],
 					"text" : "load UDPreceiver.maxpat"
 				}
 
@@ -194,7 +200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 335.5, 52.0, 20.0 ],
+					"patching_rect" : [ 215.0, 335.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -209,7 +215,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 132.0, 133.0, 18.0 ],
-					"text" : "/layer1/pos_x 0.630435"
+					"text" : "/layer1/pos_x 0.423913"
 				}
 
 			}
@@ -251,7 +257,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 66.0, 102.0, 21.0 ],
+					"patching_rect" : [ 11.0, 63.0, 102.0, 21.0 ],
 					"size" : 1.0
 				}
 
@@ -293,7 +299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 12.0, 269.0, 106.0, 20.0 ],
+					"patching_rect" : [ 12.0, 265.0, 106.0, 20.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -306,7 +312,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.383881, 300.206085, 137.0, 20.0 ],
+					"patching_rect" : [ 12.383881, 290.206085, 137.0, 20.0 ],
 					"text" : "udpsend localhost 6666"
 				}
 
@@ -355,6 +361,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 20.670593, 122.778625, 148.5, 122.778625 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -418,15 +433,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

@@ -621,18 +621,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 213.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 213.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"default_fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -648,7 +648,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.574097, 238.638458, 106.0, 20.0 ],
+					"patching_rect" : [ 8.574097, 238.638458, 106.0, 20.0 ],
 					"text" : "jit.window matrix+"
 				}
 
@@ -793,7 +793,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 300.0, 64.0, 24.0 ],
+					"patching_rect" : [ 231.0, 300.0, 56.0, 24.0 ],
 					"text" : "plato"
 				}
 
@@ -808,7 +808,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 273.0, 64.0, 24.0 ],
+					"patching_rect" : [ 231.0, 273.0, 56.0, 24.0 ],
 					"text" : "nurbs"
 				}
 
@@ -1050,8 +1050,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 194.0, 450.0, 294.0, 34.0 ],
-					"text" : "jit.gl.mesh @draw_mode triangles @position 0. 0. -2. @lighting_enable 1 @auto_normals 1"
+					"patching_rect" : [ 194.0, 450.0, 391.0, 34.0 ],
+					"text" : "jit.gl.mesh @draw_mode tri_grid @position 0. 0. -2. @lighting_enable 1 @auto_normals 1"
 				}
 
 			}
@@ -1146,7 +1146,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 299.5, 438.5, 203.5, 438.5 ],
+					"midpoints" : [ 299.5, 442.5, 203.5, 442.5 ],
 					"source" : [ "obj-12", 0 ]
 				}
 

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 1.0, 44.0, 584.0, 594.0 ],
+		"rect" : [ 1.0, 44.0, 584.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,100 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "lighting_enable",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 512.0, 129.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "auto_normals",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 491.0, 129.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 485.0, 176.0, 71.0, 20.0 ],
+					"text" : "jit.gl.handle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-43",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 450.0, 542.0, 124.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.0, 249.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLmesh_texture+",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 456.0, 543.0, 46.0, 18.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 434.0, 542.0, 141.0, 18.0 ],
+					"text" : "load GLmesh_bfg-texture"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"attr" : "draw_mode",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -36,22 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 502.0, 247.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 502.0, 77.0, 18.0 ],
-					"text" : "loadmess lines"
+					"patching_rect" : [ 28.0, 474.0, 247.0, 20.0 ]
 				}
 
 			}
@@ -64,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 414.0, 288.0, 169.0, 20.0 ],
+					"patching_rect" : [ 412.0, 295.0, 169.0, 20.0 ],
 					"text" : "jit.gl.light @ambient 1. 1. 1. 1."
 				}
 
@@ -97,7 +176,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 594.0, 360.0, 411.0, 282.0 ],
@@ -651,18 +730,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 470.0, 222.0, 102.0, 20.0 ],
+					"patching_rect" : [ 470.0, 235.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"tags" : "",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -677,7 +756,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 518.0, 155.0, 45.0, 20.0 ],
+					"patching_rect" : [ 518.0, 148.0, 45.0, 20.0 ],
 					"text" : "s draw"
 				}
 
@@ -691,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 470.0, 247.670532, 102.0, 20.0 ],
+					"patching_rect" : [ 470.0, 260.670532, 102.0, 20.0 ],
 					"text" : "jit.window mesh4"
 				}
 
@@ -704,7 +783,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.10907, 63.058838, 20.531322, 20.531322 ]
+					"patching_rect" : [ 470.10907, 64.058838, 20.531322, 20.531322 ]
 				}
 
 			}
@@ -717,7 +796,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "erase", "bang" ],
-					"patching_rect" : [ 470.10907, 127.341187, 67.0, 20.0 ],
+					"patching_rect" : [ 470.10907, 120.341187, 67.0, 20.0 ],
 					"text" : "t b erase b"
 				}
 
@@ -731,8 +810,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 470.10907, 95.305878, 65.0, 20.0 ],
-					"text" : "qmetro 40"
+					"patching_rect" : [ 470.10907, 93.305878, 58.0, 20.0 ],
+					"text" : "qmetro 2"
 				}
 
 			}
@@ -745,7 +824,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 470.10907, 189.670532, 70.0, 20.0 ],
+					"patching_rect" : [ 470.10907, 200.670532, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -759,7 +838,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 55.0, 119.147247, 224.0 ],
+					"patching_rect" : [ 461.0, 55.0, 119.147247, 232.0 ],
 					"rounded" : 30
 				}
 
@@ -777,20 +856,6 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 298.0, 145.0, 124.0, 20.0 ],
 					"pattrmode" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 47.0, 530.0, 139.0, 20.0 ],
-					"text" : "jit.gl.handle @radius 0.5"
 				}
 
 			}
@@ -1024,8 +1089,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 221.0, 31.0 ],
-					"text" : "GL Mesh - bfg",
+					"patching_rect" : [ 3.0, 3.0, 221.0, 31.0 ],
+					"text" : "GLmesh - bfg",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -1040,8 +1105,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 26.0, 313.0, 21.0 ],
-					"text" : "generates GL geometry from procedural data (jit.bfg)",
+					"patching_rect" : [ 4.0, 29.0, 467.0, 21.0 ],
+					"text" : "generates GL geometry from procedural data (jit.bfg), a smooth random function.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1049,15 +1114,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 560.164673, 436.0, 23.0 ],
-					"text" : "jit.gl.mesh @draw_mode lines @lighting_enable 1 @auto_normals 1"
+					"patching_rect" : [ 11.0, 541.164673, 343.0, 23.0 ],
+					"text" : "jit.gl.mesh @draw_mode lines @lighting_enable 1"
 				}
 
 			}
@@ -1073,13 +1138,31 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 579.0, 46.0 ],
+					"patching_rect" : [ 2.0, 3.0, 579.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
@@ -1117,7 +1200,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -1155,19 +1238,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-3", 0 ]
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
+					"hidden" : 1,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -1296,7 +1388,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 503.60907, 166.905884, 479.60907, 166.905884 ],
+					"midpoints" : [ 503.60907, 159.905884, 479.60907, 159.905884 ],
 					"source" : [ "obj-8", 1 ]
 				}
 
@@ -1332,7 +1424,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

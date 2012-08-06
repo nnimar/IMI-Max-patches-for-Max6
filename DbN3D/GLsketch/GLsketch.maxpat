@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 437.0, 442.0 ],
@@ -128,7 +128,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 453.0, 44.0, 614.0, 438.0 ],
@@ -171,6 +171,7 @@
 ,
 					"patching_rect" : [ 9.0, 410.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"fontname" : "Arial",
 						"description" : "",
@@ -178,7 +179,6 @@
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
 						"globalpatchername" : ""
 					}
@@ -427,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 230.5, 169.0, 39.0 ],
-					"text" : "Capture an image in texture then use it."
+					"text" : "Capture an image as \na texture then use it."
 				}
 
 			}
@@ -528,7 +528,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 409.0, 130.0, 23.0 ],
+					"patching_rect" : [ 213.0, 411.0, 130.0, 23.0 ],
 					"text" : "OpenGL primitives"
 				}
 

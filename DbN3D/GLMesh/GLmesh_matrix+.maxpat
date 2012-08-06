@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 3.0, 44.0, 675.0, 866.0 ],
+		"rect" : [ 1.0, 44.0, 675.0, 866.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -90,21 +90,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 489.0, 95.0, 20.0 ],
-					"text" : "loadmess plane"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -115,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 683.0, 359.0, 411.0, 282.0 ],
@@ -671,16 +656,16 @@
 ,
 					"patching_rect" : [ 9.0, 274.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"tags" : "",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -788,7 +773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 162.0, 50.0, 18.0 ],
+					"patching_rect" : [ 27.0, 159.0, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -803,7 +788,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.0, 183.0, 131.0, 34.0 ],
+					"patching_rect" : [ 27.0, 183.0, 124.0, 34.0 ],
 					"text" : "jit.gl.handle @inherit_transform 1"
 				}
 
@@ -818,7 +803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 563.0, 172.0, 66.0, 38.0 ],
+					"patching_rect" : [ 563.0, 166.0, 66.0, 38.0 ],
 					"text" : "z-coord (depth)"
 				}
 
@@ -832,7 +817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 172.0, 67.0, 24.0 ],
+					"patching_rect" : [ 405.0, 173.0, 67.0, 24.0 ],
 					"text" : "y-coord"
 				}
 
@@ -861,8 +846,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 595.0, 193.0, 52.0 ],
-					"text" : "your matrix. if the size is different from the matrixoutput, it is interpolated"
+					"patching_rect" : [ 405.0, 595.0, 182.0, 52.0 ],
+					"text" : "the bar matrix (above) is\nadded to the gridshape plane\n(@matrixoutput 1) "
 				}
 
 			}
@@ -1105,7 +1090,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 224.0, 129.0, 34.0 ],
+					"patching_rect" : [ 9.0, 224.0, 126.0, 34.0 ],
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
 
@@ -1238,6 +1223,21 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 204.0, 489.0, 95.0, 20.0 ],
+					"text" : "loadmess plane"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1349,7 +1349,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 507.5, 200.0, 193.5, 200.0 ],
+					"midpoints" : [ 507.5, 207.0, 193.5, 207.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1460,7 +1460,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 350.5, 200.0, 193.5, 200.0 ],
+					"midpoints" : [ 350.5, 207.0, 193.5, 207.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 

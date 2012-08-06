@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 576.0, 417.0 ],
@@ -109,7 +109,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 589.0, 364.0, 411.0, 282.0 ],
@@ -663,18 +663,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 464.0, 225.0, 102.0, 20.0 ],
+					"patching_rect" : [ 463.0, 225.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"digest" : ""
+						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -768,7 +768,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 464.0, 250.670563, 102.0, 20.0 ],
+					"patching_rect" : [ 463.0, 250.670563, 102.0, 20.0 ],
 					"text" : "jit.window mesh3"
 				}
 

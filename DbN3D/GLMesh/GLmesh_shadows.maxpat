@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 856.0, 687.0 ],
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 298.0, 61.0, 42.0 ],
-					"presentation_rect" : [ 204.0, 133.0, 0.0, 0.0 ],
 					"text" : "PASS 2"
 				}
 
@@ -122,7 +121,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 5
 						}
 ,
 						"rect" : [ 863.0, 374.0, 262.0, 287.0 ],
@@ -317,16 +316,16 @@
 ,
 					"patching_rect" : [ 597.0, 483.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"fontname" : "Arial",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p shadow-texture"
@@ -362,7 +361,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 3
+							"revision" : 5
 						}
 ,
 						"rect" : [ 865.0, 372.0, 465.0, 325.0 ],
@@ -906,16 +905,16 @@
 ,
 					"patching_rect" : [ 596.0, 519.662476, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1106,7 +1105,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 314.0, 66.0, 20.0 ],
+					"patching_rect" : [ 294.0, 306.0, 66.0, 20.0 ],
 					"text" : "s torender"
 				}
 
@@ -1119,7 +1118,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 227.0, 67.0, 20.0 ],
+					"patching_rect" : [ 72.0, 219.0, 67.0, 20.0 ],
 					"text" : "s texbang"
 				}
 
@@ -1133,7 +1132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "erase" ],
-					"patching_rect" : [ 72.0, 184.0, 315.0, 20.0 ],
+					"patching_rect" : [ 72.0, 176.0, 315.0, 20.0 ],
 					"text" : "t b b b b erase"
 				}
 
@@ -1147,7 +1146,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.0, 227.0, 121.0, 24.0 ],
+					"patching_rect" : [ 334.0, 219.0, 121.0, 24.0 ],
 					"text" : "shadow position"
 				}
 
@@ -1304,7 +1303,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 294.0, 227.0, 40.0, 20.0 ]
+					"patching_rect" : [ 294.0, 219.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -1390,7 +1389,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 172.0, 552.0, 150.0, 131.0 ],
+					"patching_rect" : [ 172.0, 552.0, 154.0, 131.0 ],
 					"text" : "jit.gl.gridshape shadow @shape plane @position 0 0 0.005 @depth_enable 1 @scale 1. 1. 1. @color 1 1 1 1 @blend_enable 1 @rotate 180 0 0 1 @automatic 0 @blend_mode 10 5 @texture shadowblur"
 				}
 
@@ -1406,7 +1405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 351.0, 552.0, 133.0, 89.0 ],
+					"patching_rect" : [ 351.0, 552.0, 134.0, 89.0 ],
 					"text" : "jit.gl.gridshape shadow @shape plane @depth_enable 1 @color 0.5 0.5 0.5 1. @automatic 0 @scale 5. 5. 5."
 				}
 
@@ -1504,7 +1503,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 227.0, 65.0, 32.0 ],
+					"patching_rect" : [ 146.0, 219.0, 65.0, 32.0 ],
 					"text" : "to_texture shadow1"
 				}
 
@@ -1548,7 +1547,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.0, 254.0, 92.0, 46.0 ],
+					"patching_rect" : [ 294.0, 246.0, 92.0, 46.0 ],
 					"text" : "lookat 0 0 0, camera 1 0 $1, up 0 -1 0"
 				}
 
@@ -1575,7 +1574,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 227.0, 52.0, 20.0 ],
+					"patching_rect" : [ 220.0, 219.0, 52.0, 20.0 ],
 					"text" : "s pass1"
 				}
 
@@ -1700,7 +1699,7 @@
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 377.5, 218.0, 440.0, 218.0, 440.0, 306.0, 303.5, 306.0 ],
+					"midpoints" : [ 377.5, 204.0, 440.0, 204.0, 440.0, 298.0, 303.5, 298.0 ],
 					"source" : [ "obj-100", 4 ]
 				}
 
@@ -1869,7 +1868,7 @@
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 440.5, 218.5, 303.5, 218.5 ],
+					"midpoints" : [ 440.5, 211.5, 303.5, 211.5 ],
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -1942,7 +1941,7 @@
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 303.5, 306.0, 303.5, 306.0 ],
+					"midpoints" : [ 303.5, 298.0, 303.5, 298.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1971,7 +1970,7 @@
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 155.5, 306.0, 303.5, 306.0 ],
+					"midpoints" : [ 155.5, 298.0, 303.5, 298.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -2215,7 +2214,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}

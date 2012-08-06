@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 3.0, 44.0, 543.0, 516.0 ],
+		"rect" : [ 3.0, 44.0, 543.0, 505.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -82,7 +82,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 552.0, 372.0, 411.0, 282.0 ],
@@ -638,16 +638,16 @@
 ,
 					"patching_rect" : [ 274.0, 215.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"tags" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"description" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial"
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -794,7 +794,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 400.0, 489.0, 53.0 ],
+					"patching_rect" : [ 19.0, 402.0, 489.0, 53.0 ],
 					"text" : "reset, glenable texture, glbindtexture mot1, glbegin quads, glnormal 0 -1, gltexcoord 0 1, glvertex $1 $2, gltexcoord 1 1, glvertex $3 $4, gltexcoord 1 0, glvertex $5 $6, gltexcoord 0 0, glvertex $7 $8, glend, gldisable texture"
 				}
 
@@ -871,14 +871,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 484.0, 293.0, 23.0 ],
+					"patching_rect" : [ 19.0, 472.0, 311.0, 23.0 ],
 					"text" : "jit.gl.sketch @texture movie @color 1. 1. 1. 1."
 				}
 
@@ -959,7 +959,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 20.0, 190.0, 70.0, 20.0 ],
+					"patching_rect" : [ 20.0, 193.0, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
