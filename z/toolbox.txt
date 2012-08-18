@@ -14,6 +14,7 @@ imi.slide, "the slide object to connect two matrixes";
 imi.splitscale, "a mix of the split object and the scale object";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 trignonometry, "triangle, circle, degree, radian, É";
+vector, "get started with vectors";
 polar_cartesian, "2d poltocar, 3d cartopol";
 tweening, "simple tweening";
 LFO-fader, "generate numbers using low frequency oscillation";

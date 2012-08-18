@@ -24,7 +24,6 @@
 32, IMI_compositing_modes "methods for compositing";
 33, IMI_video_delay "video delay";
 34, GLslab_collection "easy to use shaders";
-35, transfer_modes "photoshop transfer modes";
 36, BadTV "badTV effect";
 37, h.lines "generate a mesh of lines from a movie";
 40, -----------------------;

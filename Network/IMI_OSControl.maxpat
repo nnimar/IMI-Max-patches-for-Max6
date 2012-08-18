@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 44.0, 372.0, 310.0 ],
+		"rect" : [ 0.0, 44.0, 445.0, 306.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,13 +28,51 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-18",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 124.0, 99.5, 101.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 353.0, 137.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "sequencer 1.1",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 123.0, 99.5, 96.0, 16.0 ],
+					"text" : "load sequencer 1.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 275.5, 193.0, 23.0 ],
+					"patching_rect" : [ 237.0, 269.5, 160.0, 23.0 ],
 					"text" : "alternatives to osc-route"
 				}
 
@@ -53,7 +91,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 275.5, 101.0, 22.0 ],
+					"patching_rect" : [ 7.0, 269.5, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 278.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -72,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 277.5, 96.0, 16.0 ],
+					"patching_rect" : [ 7.0, 271.5, 96.0, 16.0 ],
 					"text" : "load OSC-route_alt"
 				}
 
@@ -86,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 223.5, 156.0, 39.0 ],
+					"patching_rect" : [ 237.0, 223.5, 156.0, 39.0 ],
 					"text" : "how to use OSCulator \nto route messages"
 				}
 
@@ -137,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 135.5, 177.0, 23.0 ],
+					"patching_rect" : [ 237.0, 135.5, 177.0, 23.0 ],
 					"text" : "control Modul8 using OSC"
 				}
 
@@ -188,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 173.5, 177.0, 23.0 ],
+					"patching_rect" : [ 237.0, 173.5, 177.0, 23.0 ],
 					"text" : "control Millumin using OSC"
 				}
 
@@ -207,7 +245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 173.5, 100.0, 21.0 ],
+					"patching_rect" : [ 6.0, 173.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.0, 152.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -226,7 +264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 176.5, 118.0, 16.0 ],
+					"patching_rect" : [ 6.0, 176.5, 118.0, 16.0 ],
 					"text" : "load IMI_OSC2Millumin"
 				}
 
@@ -331,7 +369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 99.5, 193.0, 23.0 ],
+					"patching_rect" : [ 237.0, 99.5, 193.0, 23.0 ],
 					"text" : "control Resolume using OSC"
 				}
 
@@ -344,7 +382,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 61.5, 160.0, 23.0 ],
+					"patching_rect" : [ 237.0, 61.5, 160.0, 23.0 ],
 					"text" : "control VPT using OSC"
 				}
 
@@ -359,7 +397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 173.5, 52.0, 20.0 ],
+					"patching_rect" : [ 7.0, 182.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -391,7 +429,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 277.5, 52.0, 20.0 ],
+					"patching_rect" : [ 7.0, 271.5, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -408,7 +446,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 211.0, 351.0, 4.0 ],
+					"patching_rect" : [ 6.0, 209.0, 433.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -425,7 +463,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 369.0, 49.0 ],
+					"patching_rect" : [ 1.0, 1.0, 443.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -464,6 +502,25 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"midpoints" : [ 132.5, 117.5, 16.5, 117.5 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}

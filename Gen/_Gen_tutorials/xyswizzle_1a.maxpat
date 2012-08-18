@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 364.0, 44.0, 256.0, 339.0 ],
+		"rect" : [ 590.0, 44.0, 256.0, 339.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -152,7 +152,6 @@
 ,
 					"patching_rect" : [ 60.5, 215.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
@@ -161,7 +160,8 @@
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -182,12 +182,12 @@
 					"patching_rect" : [ 135.5, 118.0, 50.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "flonum",
+							"parameter_longname" : "flonum[1]",
 							"parameter_initial" : [ 0.5 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "flonum",
-							"parameter_longname" : "flonum[1]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -567,12 +567,12 @@
 					"patching_rect" : [ 60.5, 118.0, 50.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "flonum",
+							"parameter_longname" : "flonum",
 							"parameter_initial" : [ 0.5 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "flonum",
-							"parameter_longname" : "flonum"
+							"parameter_invisible" : 1
 						}
 
 					}

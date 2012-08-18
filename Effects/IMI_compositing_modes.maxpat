@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 44.0, 518.0, 431.0 ],
+		"rect" : [ 0.0, 44.0, 517.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,12 +30,62 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 193.0, 305.5, 204.0, 23.0 ],
+					"text" : "using a video as a mask (Gen)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4.0, 391.0, 106.0, 16.0 ],
+					"text" : "load Gen_alphablend"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-29",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 307.5, 115.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 285.0, 372.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Gen_video mask",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 193.0, 60.5, 270.0, 23.0 ],
-					"presentation_rect" : [ 193.0, 88.5, 0.0, 0.0 ],
 					"text" : "using a video as a mask (jit.alphablend)"
 				}
 
@@ -48,9 +98,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 273.5, 270.0, 23.0 ],
-					"presentation_rect" : [ 193.0, 344.5, 0.0, 0.0 ],
-					"text" : "using a video as a mask (GL)"
+					"patching_rect" : [ 193.0, 273.5, 288.0, 23.0 ],
+					"text" : "using a video as a mask (GLslab : scalebias)"
 				}
 
 			}
@@ -64,8 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 379.0, 118.0, 16.0 ],
-					"presentation_rect" : [ 325.0, 459.0, 0.0, 0.0 ],
+					"patching_rect" : [ 11.0, 391.0, 118.0, 16.0 ],
 					"text" : "load video_mask_layers"
 				}
 
@@ -84,7 +132,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 273.5, 150.0, 22.0 ],
+					"patching_rect" : [ 7.0, 273.5, 142.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 88.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -126,8 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 379.0, 140.0, 16.0 ],
-					"presentation_rect" : [ 319.0, 436.0, 0.0, 0.0 ],
+					"patching_rect" : [ 5.0, 391.0, 140.0, 16.0 ],
 					"text" : "load video_mask_alphablend"
 				}
 
@@ -142,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 379.0, 83.0, 16.0 ],
+					"patching_rect" : [ 6.0, 391.0, 83.0, 16.0 ],
 					"text" : "load GLblending"
 				}
 
@@ -155,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 239.5, 270.0, 23.0 ],
+					"patching_rect" : [ 193.0, 239.5, 147.0, 23.0 ],
 					"text" : "simple blending (GL)"
 				}
 
@@ -191,7 +238,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 406.0, 484.0, 20.0 ],
+					"patching_rect" : [ 8.0, 419.0, 484.0, 20.0 ],
 					"text" : "use the GL objects (GL.slabs and GL.imagunit) if you have a GL pipeline (see Max 103)"
 				}
 
@@ -206,7 +253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 379.0, 145.0, 16.0 ],
+					"patching_rect" : [ 7.0, 391.0, 145.0, 16.0 ],
 					"text" : "load IMI_lcd2video_composite"
 				}
 
@@ -238,7 +285,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 152.5, 134.0, 20.0 ],
+					"patching_rect" : [ 7.0, 152.5, 134.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 90.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -255,7 +302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 341.5, 313.0, 23.0 ],
+					"patching_rect" : [ 193.0, 375.5, 313.0, 23.0 ],
 					"text" : "advanced compositing with apple imageunit (GL)"
 				}
 
@@ -287,11 +334,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 93.5, 139.0, 22.0 ],
+					"patching_rect" : [ 7.0, 93.5, 131.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 318.0, 325.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "jit.alphablend object",
+					"text" : "matrix (alphablend)",
 					"texton" : "Stop"
 				}
 
@@ -304,7 +351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 124.0, 312.0, 23.0 ],
+					"patching_rect" : [ 193.0, 123.0, 312.0, 23.0 ],
 					"text" : "math operation between movies with jitter (jit.op)"
 				}
 
@@ -330,8 +377,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 307.5, 270.0, 23.0 ],
-					"text" : "transfer modes a la photoshop (GL)"
+					"patching_rect" : [ 193.0, 341.5, 303.0, 23.0 ],
+					"text" : "transfer modes a la photoshop (GLslab : co...)"
 				}
 
 			}
@@ -349,7 +396,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 341.5, 93.0, 23.0 ],
+					"patching_rect" : [ 7.0, 375.5, 93.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 197.0, 613.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -372,7 +419,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 124.0, 87.0, 21.0 ],
+					"patching_rect" : [ 7.0, 123.0, 87.0, 22.0 ],
 					"rounded" : 20.0,
 					"text" : "jit.op object",
 					"texton" : "Stop"
@@ -393,7 +440,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 307.5, 100.0, 22.0 ],
+					"patching_rect" : [ 7.0, 341.5, 97.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -450,7 +497,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.134918, 379.0, 110.0, 18.0 ],
+					"patching_rect" : [ 6.134918, 391.0, 110.0, 18.0 ],
 					"text" : "help jit.gl.imageunit"
 				}
 
@@ -465,7 +512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.134918, 379.0, 92.0, 18.0 ],
+					"patching_rect" : [ 8.134918, 391.0, 92.0, 18.0 ],
 					"text" : "load alphablend"
 				}
 
@@ -480,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.134918, 379.0, 116.0, 18.0 ],
+					"patching_rect" : [ 7.134918, 391.0, 116.0, 18.0 ],
 					"text" : "load transfer_modes"
 				}
 
@@ -495,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.134918, 379.0, 86.0, 18.0 ],
+					"patching_rect" : [ 6.134918, 391.0, 86.0, 18.0 ],
 					"text" : "load IMI_jit_op"
 				}
 
@@ -510,7 +557,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.0, 378.0, 52.0, 20.0 ],
+					"patching_rect" : [ 158.0, 391.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -525,7 +572,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.134926, 379.0, 147.0, 18.0 ],
+					"patching_rect" : [ 7.134926, 391.0, 147.0, 18.0 ],
 					"text" : "load IMI_jit_lcd_composite"
 				}
 
@@ -560,7 +607,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 220.0, 511.0, 4.0 ],
-					"presentation_rect" : [ 21.0, 210.0, 0.0, 0.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -670,6 +716,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}

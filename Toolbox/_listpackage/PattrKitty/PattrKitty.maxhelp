@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 100.0, 100.0, 538.0, 415.0 ],
@@ -36,8 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.0, 350.0, 150.0, 18.0 ],
-					"presentation_rect" : [ 126.0, 351.0, 0.0, 0.0 ]
+					"patching_rect" : [ 125.0, 350.0, 150.0, 18.0 ]
 				}
 
 			}
@@ -50,9 +49,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.699249, 158.332672, 77.0, 24.0 ],
-					"presentation_rect" : [ 222.699249, 156.332672, 0.0, 0.0 ],
-					"text" : "click here"
+					"patching_rect" : [ 219.699249, 158.332672, 119.0, 24.0 ],
+					"text" : "double click here"
 				}
 
 			}

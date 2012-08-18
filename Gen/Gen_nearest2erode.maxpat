@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 558.0, 511.5, 96.978722, 24.098633 ],
+					"patching_rect" : [ 559.0, 513.5, 96.978722, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 549.0, 234.5, 96.978722, 24.098633 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 561.0, 514.0, 52.0, 20.0 ],
+					"patching_rect" : [ 562.0, 516.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 558.0, 515.5, 92.0, 16.0 ],
+					"patching_rect" : [ 559.0, 517.5, 92.0, 16.0 ],
 					"text" : "load Gen_nearest"
 				}
 
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 197.0, 185.0, 24.0 ],
+					"patching_rect" : [ 384.0, 196.0, 185.0, 24.0 ],
 					"text" : "the gen version of cv.jit.erode"
 				}
 
@@ -104,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 343.0, 31.0 ],
+					"patching_rect" : [ 2.0, 0.0, 343.0, 31.0 ],
 					"text" : "Gen_nearest to erode ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -120,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 499.0, 20.0 ],
+					"patching_rect" : [ 3.0, 27.0, 499.0, 20.0 ],
 					"text" : "Use gen (nearest, min) to erode an image",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -135,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 477.0, 514.0, 62.0 ],
+					"patching_rect" : [ 8.0, 476.0, 514.0, 62.0 ],
 					"text" : "Binary erosion consists in marking a pixel ON only if all of its neighbours are also ON.\nGreyscale erosion consists in giving each pixel the minimum value of the pixels around it \n\n(from the cv.jit.erode help)"
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 124.0, 39.0, 18.0 ],
+					"patching_rect" : [ 67.0, 123.0, 39.0, 18.0 ],
 					"text" : "close"
 				}
 
@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 229.0, 320.0, 240.0 ],
+					"patching_rect" : [ 9.0, 228.0, 320.0, 240.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ]
 				}
 
@@ -175,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 199.0, 68.0, 20.0 ],
+					"patching_rect" : [ 9.0, 198.0, 68.0, 20.0 ],
 					"text" : "cv.jit.erode"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 124.0, 37.0, 18.0 ],
+					"patching_rect" : [ 28.0, 123.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -202,7 +202,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 61.0, 20.0, 20.0 ]
+					"patching_rect" : [ 9.0, 60.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -215,7 +215,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 89.0, 65.0, 20.0 ],
+					"patching_rect" : [ 9.0, 88.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -227,7 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 336.5, 229.0, 320.0, 240.0 ],
+					"patching_rect" : [ 337.5, 228.0, 320.0, 240.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ]
 				}
 
@@ -241,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 154.0, 60.0, 20.0 ],
+					"patching_rect" : [ 9.0, 153.0, 60.0, 20.0 ],
 					"text" : "jit.qt.grab"
 				}
 
@@ -697,7 +697,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 337.0, 199.0, 43.0, 20.0 ],
+					"patching_rect" : [ 338.0, 198.0, 43.0, 20.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -714,7 +714,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 662.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 662.0, 47.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -761,7 +761,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 17.5, 185.0, 346.5, 185.0 ],
+					"midpoints" : [ 18.5, 184.0, 347.5, 184.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

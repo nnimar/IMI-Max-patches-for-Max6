@@ -673,16 +673,16 @@
 ,
 					"patching_rect" : [ 10.0, 217.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -753,8 +753,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 213.0, 134.0, 18.0 ],
-					"text" : "read dishes.mov, bang"
+					"patching_rect" : [ 191.0, 213.0, 100.0, 18.0 ],
+					"text" : "read dishes.mov"
 				}
 
 			}
@@ -1063,7 +1063,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 218.5, 241.5, 152.5, 241.5 ],
+					"midpoints" : [ 200.5, 241.5, 152.5, 241.5 ],
 					"source" : [ "obj-55", 0 ]
 				}
 

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 593.0, 44.0, 449.0, 328.0 ],
+		"rect" : [ 100.0, 100.0, 449.0, 328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 187.0, 150.0, 39.0 ],
-					"presentation_rect" : [ 138.0, 193.0, 0.0, 0.0 ],
+					"patching_rect" : [ 129.0, 187.0, 150.0, 38.0 ],
 					"text" : "1, 2, 3, 4, 5 into\na, b, c, d, e (with delay)"
 				}
 
@@ -167,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 29.0, 402.0, 21.0 ],
-					"text" : "in a patch you should only use one loadbang or loadmess",
+					"text" : "in a patch you should only use one loadbang or loadmess.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -183,7 +182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 205.0, 264.0, 63.0, 20.0 ],
-					"text" : "pipe 2000"
+					"text" : "pipe 4000"
 				}
 
 			}

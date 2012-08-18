@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 577.0, 716.0 ],
@@ -53,7 +53,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 110.0, 680.0, 73.0, 21.0 ],
+					"patching_rect" : [ 110.0, 689.0, 73.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 572.0, 100.0, 20.0 ],
 					"text" : "cv.jit.ravg"
@@ -70,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 680.5, 85.0, 18.0 ],
+					"patching_rect" : [ 110.0, 689.0, 85.0, 18.0 ],
 					"text" : "help cv.jit.ravg"
 				}
 
@@ -89,7 +89,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 586.0, 44.0, 472.0, 335.0 ],
@@ -155,7 +155,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 224.0, 153.0, 242.0, 54.0 ],
+									"patching_rect" : [ 224.0, 153.0, 242.0, 53.0 ],
 									"text" : "matrixcount : number of matrices in the set \n(will reset everytime you change it)"
 								}
 
@@ -465,16 +465,16 @@
 ,
 					"patching_rect" : [ 30.0, 261.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontsize" : 14.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p to_matrixset"
@@ -491,7 +491,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 681.0, 86.0, 21.0 ],
+					"patching_rect" : [ 13.0, 689.0, 86.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 251.0, 559.0, 100.0, 20.0 ],
 					"text" : "tap.jit.delay"
@@ -508,7 +508,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 681.0, 94.0, 18.0 ],
+					"patching_rect" : [ 14.0, 689.0, 94.0, 18.0 ],
 					"text" : "help tap.jit.delay"
 				}
 
@@ -523,7 +523,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 683.0, 52.0, 20.0 ],
+					"patching_rect" : [ 14.0, 689.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 

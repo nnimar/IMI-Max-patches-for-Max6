@@ -29,20 +29,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 248.0, 79.0, 18.0 ],
-					"text" : "size 320 240"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-11",
 					"maxclass" : "message",
@@ -487,16 +473,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 153.5, 223.5, 19.5, 223.5 ],
 					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 265.5, 268.5, 19.5, 268.5 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}

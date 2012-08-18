@@ -18,7 +18,7 @@
 22, anim_node "animate different elements";
 23, anim_drive_tunnel "animate a tunnel";
 24, anim_drive_camera "mouse drags to pan around";
-25, anim_node2camera "manipulate the camera using nodes";
+25, anim_drive2camera "distance between a camera and an object";
 
 30, -----------------------;
 31, <category> 4 Node;
@@ -32,18 +32,19 @@
 40, -----------------------;
 41, <category> 5 Physics;
 42, phys_basic "basic phys engine";
-43, phys_collision "basic collision";
-44, phys_collisions "physics world and body collisions";
-45, Grab2Phys2d "realworld and 3D collisions";
+43, phys_multiple "use multiple phys";
+44, phys_collision "basic collision";
+45, phys_collisions "physics world and body collisions";
+46, Grab2Phys2d "realworld and 3D collisions";
 
 50, -----------------------;
 51, <category> 6 Gen;
-52, Gen_examples "get started with Gen";
-53, Gen_tutorials "C74's tutorials";
-54, Gen_vs_Expr "gen vs jit.expr";
+52, Gen_vs_Expr "gen vs jit.expr";
+53, Gen_examples "some examples";
+54, Gen_code_index "get started with Gen";
 55, Gen_gamma "change gamma";
-56, Gen_nearest2erode "erode an image with nearest";
-57, Gen_bulge "uses cell, clip and sample";
+56, Gen_bulge "uses cell, clip and sample";
+57, Gen_nearest2erode "erode an image with nearest";
 
 60, -----------------------;
 

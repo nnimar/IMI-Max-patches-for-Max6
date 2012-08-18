@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 643.0, 44.0, 617.0, 578.0 ],
+		"rect" : [ 644.0, 44.0, 617.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 515.0, 550.0, 92.0, 21.0 ],
+					"patching_rect" : [ 515.0, 550.0, 92.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.0, 237.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -63,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 439.0, 550.0, 71.0, 21.0 ],
+					"patching_rect" : [ 439.0, 550.0, 71.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 420.0, 550.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -167,7 +167,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 254.0, 106.0, 21.0 ],
-					"text" : "cell 0 0 val 186"
+					"text" : "cell 4 0 val 198"
 				}
 
 			}
@@ -223,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 94.0, 150.0, 130.0, 39.0 ],
+					"patching_rect" : [ 94.0, 150.0, 130.0, 38.0 ],
 					"text" : "trigger the list (l) \nbang (b) the matrix"
 				}
 

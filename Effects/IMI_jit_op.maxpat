@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 3.0, 44.0, 939.0, 682.0 ],
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 62.0, 399.0, 281.0 ],
+					"patching_rect" : [ 539.0, 62.0, 399.0, 280.0 ],
 					"text" : "A few interesting jit.op :\n\npass : original image\n\nmultiply (*) : The product of two numbers that are less than 1.0 is smaller than either (need process)\n\ndivide (/) : Dividing usually gives black unless the B image is very dim. To get this, multiply  the bars by 0.01.\n\nplus (+) : Addition gives a mix. This works as well as keying if your images contain a lot of black\n\nmin : minimum lets the lesser values through and max works \nthe other way\n\naverage : the average of pixel values is a washed out mix"
 				}
 
@@ -139,7 +139,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 480.0, 44.0, 463.0, 608.0 ],
@@ -170,7 +170,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 283.0, 195.0, 87.0 ],
+									"patching_rect" : [ 250.0, 283.0, 195.0, 86.0 ],
 									"text" : ">p: greater than(pass);\r<p: less than(pass);\r>=p: greater than or equal to(pass);\r<=p: less than or equal to(pass);\r==p: equal(pass);\r!=p not equal(pass)"
 								}
 
@@ -253,7 +253,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 160.0, 164.0, 127.0 ],
+									"patching_rect" : [ 250.0, 160.0, 164.0, 126.0 ],
 									"text" : "&&: logical and;\r||: logical or;\r!: logical not(unary);\r>: greater than;\r<: less than;\r>=: greater than or equal to;\r<=: less than or equal to;\r==: equal;\r!=: not equal"
 								}
 
@@ -281,7 +281,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 417.0, 175.0, 167.0 ],
+									"patching_rect" : [ 250.0, 417.0, 175.0, 166.0 ],
 									"text" : "exp: e to the x;\rexp2: 2 to the x;\rln: log base e;\rlog2: log base 2;\rlog10: log base 10;\rhypot: hypotenuse(binary);\rpow: x to the y(binary);\rsqrt: square root;\rceil: integer ceiling;\rfloor: integer floor;\rround: round to nearest integer;\rtrunc: truncate to integer"
 								}
 
@@ -309,7 +309,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 57.0, 163.0, 87.0 ],
+									"patching_rect" : [ 250.0, 57.0, 163.0, 86.0 ],
 									"text" : "&: bitwise and;\r|: bitwise or;\r^: bitwise xor;\r~: bitwise compliment(unary);\r>>: right shift;\r<<: left shift"
 								}
 
@@ -323,7 +323,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 45.0, 236.0, 274.0 ],
+									"patching_rect" : [ 17.0, 45.0, 236.0, 273.0 ],
 									"text" : "pass: pass left input, no operator;\r*: multiplication;\r/: division;\r+: addition;\r-: subtraction;\r+m: addition modulo(char only);\r-m: subtraction modulo(char only);\r%: modulo;\rmin: minimum;\rmax: maximum;\rabs: absolute value(unary);\ravg: average;\rabsdiff: absolute value of difference;\r!pass: pass right input, no operator;\r!/: right input/left input(filpped);\r!-: right input-left input(filpped);\r!%:right input/left input(filpped);\rignore: leave previous output value;\rfold: mirrored modulo (float32/float64 only);\rwrap: positive modulo (float32/float64 only);\r"
 								}
 
@@ -366,10 +366,10 @@
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0
@@ -567,7 +567,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 934.0, 54.0 ],
+					"patching_rect" : [ 2.0, 2.0, 933.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

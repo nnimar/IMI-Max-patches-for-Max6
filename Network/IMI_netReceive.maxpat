@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 731.0, 44.0, 635.0, 432.0 ],
+		"rect" : [ 827.0, 97.0, 635.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.0, 188.0, 177.0, 67.0 ],
-					"presentation_rect" : [ 427.0, 236.0, 0.0, 0.0 ],
 					"text" : "select en0 to see the IP of this computer, then use it in the\nIMI netSend patch."
 				}
 
@@ -64,7 +63,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
-					"items" : [ "vnic1", ",", "vnic0", ",", "en0", ",", "lo0" ],
+					"items" : [ "vnic1", ",", "vnic0", ",", "en1", ",", "lo0" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -175,7 +174,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 1029.0, 44.0, 345.0, 189.0 ],
@@ -377,16 +376,16 @@
 ,
 					"patching_rect" : [ 521.0, 321.0, 109.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"digest" : ""
+						"fontface" : 0,
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p receive_audio"
@@ -421,7 +420,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 938.0, 44.0, 440.0, 281.0 ],
@@ -457,7 +456,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -520,16 +519,16 @@
 ,
 									"patching_rect" : [ 11.0, 13.0, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"description" : "",
-										"fontface" : 0,
-										"tags" : "",
-										"fontsize" : 14.0,
 										"default_fontface" : 0,
+										"tags" : "",
+										"digest" : "",
+										"default_fontname" : "Arial",
 										"globalpatchername" : "",
-										"digest" : ""
+										"fontface" : 0,
+										"default_fontsize" : 14.0,
+										"fontsize" : 14.0,
+										"description" : ""
 									}
 ,
 									"text" : "p more"
@@ -897,16 +896,16 @@
 ,
 					"patching_rect" : [ 500.0, 356.0, 132.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"digest" : ""
+						"fontface" : 0,
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p receive_message"

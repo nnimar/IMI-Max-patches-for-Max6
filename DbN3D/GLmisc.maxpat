@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 457.0, 383.0 ],
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 192.0, 126.0, 18.0 ],
+					"patching_rect" : [ 5.0, 192.0, 126.0, 18.0 ],
 					"text" : "load GLmodel_texture"
 				}
 
@@ -56,7 +56,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 334.5, 123.438194, 24.098633 ],
+					"patching_rect" : [ 269.0, 334.5, 123.438194, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 304.0, 334.5, 123.438194, 24.098633 ],
 					"rounded" : 20.0,
@@ -73,7 +73,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 360.0, 182.0, 18.0 ],
+					"patching_rect" : [ 167.0, 360.0, 182.0, 18.0 ],
 					"text" : "read and draw Wavefront .obj models"
 				}
 
@@ -88,7 +88,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 192.0, 91.0, 18.0 ],
+					"patching_rect" : [ 4.0, 192.0, 91.0, 18.0 ],
 					"text" : "help jit.gl.model"
 				}
 
@@ -101,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 294.0, 100.0, 18.0 ],
+					"patching_rect" : [ 167.0, 294.0, 100.0, 18.0 ],
 					"text" : "data visualisation"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 336.5, 95.0, 23.0 ],
+					"patching_rect" : [ 5.0, 336.5, 95.0, 23.0 ],
 					"text" : "Model"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 193.0, 81.0, 18.0 ],
+					"patching_rect" : [ 4.0, 193.0, 81.0, 18.0 ],
 					"text" : "load GLgraph"
 				}
 
@@ -144,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 191.0, 97.0, 18.0 ],
+					"patching_rect" : [ 3.0, 191.0, 97.0, 18.0 ],
 					"text" : "help jit.gl.volume"
 				}
 
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 91.0, 81.0, 18.0 ],
+					"patching_rect" : [ 300.0, 91.0, 81.0, 18.0 ],
 					"text" : "NURBS surface"
 				}
 
@@ -170,7 +170,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 91.0, 71.0, 18.0 ],
+					"patching_rect" : [ 227.0, 91.0, 71.0, 18.0 ],
 					"text" : "platonic solids"
 				}
 
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 91.0, 77.0, 18.0 ],
+					"patching_rect" : [ 121.0, 91.0, 77.0, 18.0 ],
 					"text" : "simple shapes"
 				}
 
@@ -196,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 294.0, 100.0, 18.0 ],
+					"patching_rect" : [ 269.0, 294.0, 100.0, 18.0 ],
 					"text" : "volume visualisation"
 				}
 
@@ -210,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 155.0, 100.0, 29.0 ],
+					"patching_rect" : [ 269.0, 155.0, 100.0, 29.0 ],
 					"text" : "generates geometry from existing data"
 				}
 
@@ -223,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 155.0, 71.0, 18.0 ],
+					"patching_rect" : [ 167.0, 155.0, 71.0, 18.0 ],
 					"text" : "draws shapes"
 				}
 
@@ -237,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 222.0, 106.0, 30.0 ],
+					"patching_rect" : [ 216.0, 222.0, 106.0, 29.0 ],
 					"text" : "replicate a 3D shape \nin space"
 				}
 
@@ -252,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 190.0, 91.0, 18.0 ],
+					"patching_rect" : [ 3.0, 190.0, 91.0, 18.0 ],
 					"text" : "load GLmultiple"
 				}
 
@@ -272,7 +272,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 217.0, 198.5, 82.945412, 24.098633 ],
+					"patching_rect" : [ 216.0, 198.5, 82.945412, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 257.0, 328.5, 82.945412, 24.098633 ],
 					"rounded" : 20.0,
@@ -291,7 +291,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 192.0, 79.0, 18.0 ],
+					"patching_rect" : [ 3.0, 192.0, 79.0, 18.0 ],
 					"text" : "load GLmesh"
 				}
 
@@ -306,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 190.0, 85.0, 18.0 ],
+					"patching_rect" : [ 3.0, 190.0, 85.0, 18.0 ],
 					"text" : "load GLsketch"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 193.0, 80.0, 18.0 ],
+					"patching_rect" : [ 3.0, 193.0, 80.0, 18.0 ],
 					"text" : "load GLnurbs"
 				}
 
@@ -336,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 194.0, 85.0, 18.0 ],
+					"patching_rect" : [ 3.0, 194.0, 85.0, 18.0 ],
 					"text" : "help jit.gl.plato"
 				}
 
@@ -351,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 194.0, 102.0, 18.0 ],
+					"patching_rect" : [ 3.0, 194.0, 102.0, 18.0 ],
 					"text" : "load GLgridshape"
 				}
 
@@ -371,7 +371,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 271.5, 79.83374, 24.098633 ],
+					"patching_rect" : [ 269.0, 271.5, 79.83374, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 243.0, 236.5, 79.83374, 24.098633 ],
 					"rounded" : 20.0,
@@ -395,7 +395,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 271.5, 70.505562, 24.098633 ],
+					"patching_rect" : [ 167.0, 271.5, 70.505562, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 234.5, 70.505562, 24.098633 ],
 					"rounded" : 20.0,
@@ -419,7 +419,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 335.5, 72.830772, 24.098633 ],
+					"patching_rect" : [ 167.0, 335.5, 72.830772, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.0, 367.5, 72.830772, 24.098633 ],
 					"rounded" : 20.0,
@@ -436,7 +436,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 271.5, 95.0, 23.0 ],
+					"patching_rect" : [ 5.0, 271.5, 95.0, 23.0 ],
 					"text" : "Visualisation"
 				}
 
@@ -449,7 +449,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 132.5, 67.0, 23.0 ],
+					"patching_rect" : [ 5.0, 132.5, 67.0, 23.0 ],
 					"text" : "Interface"
 				}
 
@@ -469,7 +469,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 131.5, 68.932632, 24.098633 ],
+					"patching_rect" : [ 269.0, 131.5, 68.932632, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 411.0, 158.5, 68.932632, 24.098633 ],
 					"rounded" : 20.0,
@@ -493,7 +493,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 168.0, 131.5, 75.162811, 24.098633 ],
+					"patching_rect" : [ 167.0, 131.5, 75.162811, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.0, 158.5, 75.162811, 24.098633 ],
 					"rounded" : 20.0,
@@ -517,7 +517,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.0, 67.5, 96.199089, 24.098633 ],
+					"patching_rect" : [ 123.0, 67.5, 96.199089, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 67.0, 96.199089, 24.098633 ],
 					"rounded" : 20.0,
@@ -541,7 +541,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 67.5, 69.719101, 24.098633 ],
+					"patching_rect" : [ 302.0, 67.5, 69.719101, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 277.0, 69.719101, 24.098633 ],
 					"rounded" : 20.0,
@@ -565,7 +565,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 229.0, 67.5, 65.055008, 24.098633 ],
+					"patching_rect" : [ 228.0, 67.5, 65.055008, 24.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 395.0, 365.0, 65.055008, 24.098633 ],
 					"rounded" : 20.0,
@@ -584,7 +584,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 217.0, 52.0, 20.0 ],
+					"patching_rect" : [ 3.0, 217.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -597,7 +597,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 67.5, 67.0, 23.0 ],
+					"patching_rect" : [ 5.0, 67.5, 67.0, 23.0 ],
 					"text" : "Shapes "
 				}
 
@@ -611,7 +611,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 434.0, 20.0 ],
+					"patching_rect" : [ 3.0, 28.0, 434.0, 20.0 ],
 					"text" : "the GL objects in Max are a great gateway to your graphic card's ability to draw",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -627,7 +627,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 99.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 99.0, 30.0 ],
 					"text" : "GLmisc",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -646,7 +646,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 452.0, 47.0 ],
+					"patching_rect" : [ 2.0, 3.0, 452.0, 47.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

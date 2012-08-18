@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 100.0, 100.0, 426.0, 459.0 ],
@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 100.0, 215.0, 42.0, 20.0 ]
+					"patching_rect" : [ 100.0, 212.0, 42.0, 20.0 ]
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 212.0, 128.0, 27.0 ],
+					"patching_rect" : [ 146.0, 209.0, 128.0, 27.0 ],
 					"text" : "slide for matrix"
 				}
 
@@ -133,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 11.0, 241.0, 108.0, 27.0 ],
+					"patching_rect" : [ 11.0, 238.0, 108.0, 27.0 ],
 					"text" : "imi.slide 10"
 				}
 
@@ -262,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 217.0, 67.0, 18.0 ],
+					"patching_rect" : [ 155.0, 214.0, 67.0, 18.0 ],
 					"text" : "loadmess 10"
 				}
 

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 365.0, 44.0, 469.0, 342.0 ],
+		"rect" : [ 587.0, 44.0, 469.0, 342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,12 @@
 					"patching_rect" : [ 393.5, 130.0, 49.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "flonum[1]",
+							"parameter_longname" : "flonum[8]",
 							"parameter_initial" : [ 3.14159 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "flonum[1]",
-							"parameter_longname" : "flonum[8]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -66,12 +66,12 @@
 					"patching_rect" : [ 329.833313, 130.0, 50.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "flonum[1]",
+							"parameter_longname" : "flonum[7]",
 							"parameter_initial" : [ 3.14159 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "flonum[1]",
-							"parameter_longname" : "flonum[7]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -93,12 +93,12 @@
 					"patching_rect" : [ 266.166687, 130.0, 50.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "flonum",
+							"parameter_longname" : "flonum[6]",
 							"parameter_initial" : [ 3.14159 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "flonum",
-							"parameter_longname" : "flonum[6]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -138,12 +138,12 @@
 					"patching_rect" : [ 393.5, 29.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "umenu[2]",
+							"parameter_longname" : "umenu[3]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "umenu[2]",
-							"parameter_longname" : "umenu[3]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -169,12 +169,12 @@
 					"patching_rect" : [ 330.166687, 29.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "umenu[1]",
+							"parameter_longname" : "umenu[4]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "umenu[1]",
-							"parameter_longname" : "umenu[4]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -200,12 +200,12 @@
 					"patching_rect" : [ 265.833313, 29.0, 53.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "umenu",
+							"parameter_longname" : "umenu[6]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "umenu",
-							"parameter_longname" : "umenu[6]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -225,12 +225,12 @@
 					"patching_rect" : [ 393.5, 82.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "toggle[2]",
+							"parameter_longname" : "toggle[6]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "toggle[2]",
-							"parameter_longname" : "toggle[6]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -250,12 +250,12 @@
 					"patching_rect" : [ 329.833313, 82.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "toggle[1]",
+							"parameter_longname" : "toggle[7]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "toggle[1]",
-							"parameter_longname" : "toggle[7]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -275,12 +275,12 @@
 					"patching_rect" : [ 266.166687, 82.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "toggle",
+							"parameter_longname" : "toggle[8]",
 							"parameter_initial" : [ 0 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_shortname" : "toggle",
-							"parameter_longname" : "toggle[8]"
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -443,7 +443,6 @@
 ,
 					"patching_rect" : [ 34.5, 223.0, 42.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
@@ -452,7 +451,8 @@
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p esc"
@@ -1305,15 +1305,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-58" : [ "umenu[6]", "umenu", 0 ],
-			"obj-51" : [ "toggle[7]", "toggle[1]", 0 ],
-			"obj-62" : [ "flonum[7]", "flonum[1]", 0 ],
-			"obj-56" : [ "umenu[4]", "umenu[1]", 0 ],
-			"obj-50" : [ "toggle[6]", "toggle[2]", 0 ],
-			"obj-61" : [ "flonum[6]", "flonum", 0 ],
-			"obj-54" : [ "umenu[3]", "umenu[2]", 0 ],
 			"obj-63" : [ "flonum[8]", "flonum[1]", 0 ],
-			"obj-52" : [ "toggle[8]", "toggle", 0 ]
+			"obj-54" : [ "umenu[3]", "umenu[2]", 0 ],
+			"obj-56" : [ "umenu[4]", "umenu[1]", 0 ],
+			"obj-58" : [ "umenu[6]", "umenu", 0 ],
+			"obj-62" : [ "flonum[7]", "flonum[1]", 0 ],
+			"obj-61" : [ "flonum[6]", "flonum", 0 ],
+			"obj-52" : [ "toggle[8]", "toggle", 0 ],
+			"obj-51" : [ "toggle[7]", "toggle[1]", 0 ],
+			"obj-50" : [ "toggle[6]", "toggle[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

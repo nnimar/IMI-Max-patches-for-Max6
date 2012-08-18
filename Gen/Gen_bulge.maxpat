@@ -608,16 +608,16 @@
 ,
 					"patching_rect" : [ 8.0, 243.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -650,7 +650,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
 					"text" : "uses cell, clip and sample",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1265,7 +1265,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 497.0, 51.0 ],
+					"patching_rect" : [ 2.0, 3.0, 497.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1346,9 +1346,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-4::obj-4::obj-21" : [ "number", "number", 0 ],
-			"obj-4::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
+			"obj-4::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

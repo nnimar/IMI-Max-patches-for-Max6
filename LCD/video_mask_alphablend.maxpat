@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 277.0, 156.0, 24.0 ],
+					"patching_rect" : [ 155.0, 287.0, 156.0, 24.0 ],
 					"text" : "foreground / background"
 				}
 
@@ -84,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.5, 279.0, 125.0, 21.0 ]
+					"patching_rect" : [ 27.5, 289.0, 125.0, 21.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 116.0, 94.0, 18.0 ],
+					"patching_rect" : [ 161.0, 121.0, 94.0, 18.0 ],
 					"text" : "read dozer.mov"
 				}
 
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 116.0, 120.0, 18.0 ],
+					"patching_rect" : [ 32.0, 121.0, 120.0, 18.0 ],
 					"text" : "read binaryman.mov"
 				}
 

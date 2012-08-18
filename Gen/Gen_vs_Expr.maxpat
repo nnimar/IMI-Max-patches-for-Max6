@@ -67,6 +67,20 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-16",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 308.0, 60.0, 159.0, 81.0 ],
+									"text" : "in jit.pix, the color format is RGBA just like in jit.gl.pix, which is different than the usual jitter matrix format of ARGB"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-15",
 									"linecount" : 3,
@@ -718,16 +732,16 @@
 ,
 					"patching_rect" : [ 14.0, 152.0, 92.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 13.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p matrix_input",
@@ -1128,7 +1142,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 353.0, 472.5, 101.0, 20.0 ],
+									"patching_rect" : [ 364.0, 473.5, 101.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 									"rounded" : 20.0,
@@ -1147,7 +1161,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 354.0, 475.0, 113.0, 16.0 ],
+									"patching_rect" : [ 354.0, 476.0, 113.0, 16.0 ],
 									"text" : "load IMI_jitexpr.maxpat"
 								}
 
@@ -1162,7 +1176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 354.0, 472.0, 52.0, 20.0 ],
+									"patching_rect" : [ 365.0, 473.0, 52.0, 20.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -1296,16 +1310,16 @@
 ,
 					"patching_rect" : [ 14.0, 125.0, 125.0, 21.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 13.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 13.0,
-						"default_fontsize" : 13.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p matrix_calculation",

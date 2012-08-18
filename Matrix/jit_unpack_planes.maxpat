@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 603.0, 44.0, 669.0, 713.0 ],
+		"rect" : [ 647.0, 44.0, 669.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 381.0, 89.0, 118.0, 21.0 ],
-					"presentation_rect" : [ 381.0, 89.0, 0.0, 0.0 ],
 					"text" : "read monkey.png"
 				}
 

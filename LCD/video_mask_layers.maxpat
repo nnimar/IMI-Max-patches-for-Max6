@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 167.0, 93.0, 19.0 ],
+					"patching_rect" : [ 480.0, 168.0, 93.0, 19.0 ],
 					"text" : "param bias $1"
 				}
 
@@ -667,16 +667,16 @@
 ,
 					"patching_rect" : [ 8.0, 237.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -710,7 +710,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 30.0, 399.0, 21.0 ],
-					"text" : "Play a video using the the graphic card (the graphic processing unit)",
+					"text" : "use GLslab to mix to images",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

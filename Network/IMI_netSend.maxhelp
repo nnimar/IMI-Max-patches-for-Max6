@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 3.0, 44.0, 723.0, 481.0 ],
+		"rect" : [ 100.0, 100.0, 721.0, 465.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 379.0, 86.0, 24.0 ],
+					"patching_rect" : [ 511.0, 370.0, 86.0, 24.0 ],
 					"text" : "send audio"
 				}
 
@@ -99,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 313.0, 44.0, 418.0, 274.0 ],
@@ -471,18 +471,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 595.0, 380.0, 95.0, 23.0 ],
+					"patching_rect" : [ 600.0, 371.0, 95.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"tags" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p send_audio"
@@ -499,7 +499,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 410.0, 110.0, 24.0 ],
+					"patching_rect" : [ 487.0, 401.0, 110.0, 24.0 ],
 					"text" : "send messages"
 				}
 
@@ -517,7 +517,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 388.0, 44.0, 344.0, 285.0 ],
@@ -553,7 +553,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -639,16 +639,16 @@
 ,
 									"patching_rect" : [ 277.0, 181.0, 48.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 14.0,
-										"description" : "",
-										"tags" : "",
 										"fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 14.0
+										"default_fontsize" : 14.0,
+										"fontsize" : 14.0,
+										"description" : ""
 									}
 ,
 									"text" : "p more"
@@ -824,18 +824,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 595.0, 410.0, 117.0, 23.0 ],
+					"patching_rect" : [ 600.0, 401.0, 117.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"tags" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"default_fontsize" : 14.0,
+						"fontsize" : 14.0,
+						"description" : ""
 					}
 ,
 					"text" : "p send_message"
@@ -856,7 +856,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 597.0, 449.0, 112.0, 20.0 ],
+					"patching_rect" : [ 602.0, 440.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -875,7 +875,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 597.0, 450.0, 102.0, 16.0 ],
+					"patching_rect" : [ 602.0, 441.0, 102.0, 16.0 ],
 					"text" : "load IMI_netReceive"
 				}
 
@@ -890,7 +890,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 450.0, 52.0, 20.0 ],
+					"patching_rect" : [ 605.0, 441.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1024,7 +1024,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 233.0, 231.0, 155.0, 189.0 ],
@@ -1186,16 +1186,16 @@
 ,
 					"patching_rect" : [ 169.0, 120.0, 52.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"tags" : "",
 						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontsize" : 10.0,
+						"description" : ""
 					}
 ,
 					"text" : "p stripes"

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 44.0, 466.0, 401.0 ],
+		"rect" : [ 590.0, 196.0, 466.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -412,7 +412,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 245.0, 312.0, 113.0, 20.0 ],
+					"patching_rect" : [ 253.0, 375.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 362.0, 325.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -431,7 +431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 312.0, 37.0, 18.0 ],
+					"patching_rect" : [ 254.0, 375.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -446,7 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 312.0, 53.0, 20.0 ],
+					"patching_rect" : [ 254.0, 375.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -647,18 +647,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 245.0, 312.0, 57.0, 20.0 ],
+					"patching_rect" : [ 253.0, 375.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p safari"
@@ -1184,7 +1184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 28.0, 296.0, 21.0 ],
+					"patching_rect" : [ 5.0, 28.0, 296.0, 21.0 ],
 					"text" : "Cycling'74's  tutorials about Gen",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1237,7 +1237,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 131.0, 376.0, 113.0, 20.0 ],
+					"patching_rect" : [ 131.0, 375.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 94.0, 226.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1260,7 +1260,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 376.0, 113.0, 20.0 ],
+					"patching_rect" : [ 8.0, 375.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 267.0, 322.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1279,7 +1279,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 376.0, 37.0, 18.0 ],
+					"patching_rect" : [ 131.0, 375.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -1294,7 +1294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 376.0, 53.0, 20.0 ],
+					"patching_rect" : [ 130.0, 375.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1495,18 +1495,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 129.0, 376.0, 57.0, 20.0 ],
+					"patching_rect" : [ 129.0, 375.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p safari"
@@ -1523,7 +1523,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 374.0, 37.0, 18.0 ],
+					"patching_rect" : [ 7.0, 375.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -1538,7 +1538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 372.0, 53.0, 20.0 ],
+					"patching_rect" : [ 8.0, 375.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1739,18 +1739,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 373.0, 57.0, 20.0 ],
+					"patching_rect" : [ 4.0, 375.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 14.0,
+						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0,
-						"description" : ""
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p safari"

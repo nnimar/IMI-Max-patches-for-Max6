@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 631.0, 44.0, 575.0, 540.0 ],
+		"rect" : [ 644.0, 44.0, 575.0, 540.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 507.0, 72.0, 25.0 ],
-					"text" : "0 0 133"
+					"text" : "0 0 207"
 				}
 
 			}
@@ -151,7 +151,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 323.0, 50.0, 228.0, 90.0 ],
+									"patching_rect" : [ 323.0, 50.0, 228.0, 89.0 ],
 									"text" : "int[ ] numbers = new int[3];\nnumbers[0] = 90;\nnumbers[1] = 150;\nnumbers[2] = 30;"
 								}
 
@@ -273,18 +273,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 404.0, 506.0, 114.0, 27.0 ],
+					"patching_rect" : [ 401.0, 506.0, 114.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p processing"
@@ -307,7 +307,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 602.0, 44.0, 362.0, 331.0 ],
+						"rect" : [ 848.0, 272.0, 360.0, 311.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
@@ -336,7 +336,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 249.0, 147.0, 140.0, 20.0 ],
+									"patching_rect" : [ 21.0, 139.0, 140.0, 20.0 ],
 									"text" : "loadmess rowheight 54"
 								}
 
@@ -351,7 +351,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 249.0, 170.0, 129.0, 20.0 ],
+									"patching_rect" : [ 21.0, 162.0, 129.0, 20.0 ],
 									"text" : "loadmess colwidth 54"
 								}
 
@@ -364,7 +364,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 249.0, 104.0, 107.0, 27.0 ],
+									"patching_rect" : [ 249.0, 96.0, 107.0, 27.0 ],
 									"text" : "4 x 3 matrix"
 								}
 
@@ -373,7 +373,7 @@
 								"box" : 								{
 									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"cols" : 4,
+									"cols" : 1,
 									"colwidth" : 54,
 									"fontname" : "Geneva",
 									"fontsize" : 14.0,
@@ -386,10 +386,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 21.0, 146.0, 217.0, 160.0 ],
+									"patching_rect" : [ 21.0, 138.0, 217.0, 160.0 ],
 									"precision" : 4,
 									"rowheight" : 54,
-									"rows" : 3,
+									"rows" : 1,
 									"savemode" : 1,
 									"vscroll" : 0
 								}
@@ -404,7 +404,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 21.0, 104.0, 214.0, 27.0 ],
+									"patching_rect" : [ 21.0, 96.0, 214.0, 27.0 ],
 									"text" : "jit.matrix here 1 char 4 3"
 								}
 
@@ -418,7 +418,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 21.0, 67.0, 98.0, 27.0 ],
+									"patching_rect" : [ 21.0, 59.0, 98.0, 27.0 ],
 									"text" : "jit.fill here"
 								}
 
@@ -432,7 +432,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 29.0, 216.0, 25.0 ],
+									"patching_rect" : [ 21.0, 21.0, 216.0, 25.0 ],
 									"text" : "1 2 3 4 5 6 7 8 9 10 11 12"
 								}
 
@@ -487,18 +487,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 525.0, 506.0, 43.0, 27.0 ],
+					"patching_rect" : [ 522.0, 506.0, 43.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 18.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 18.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p fill"

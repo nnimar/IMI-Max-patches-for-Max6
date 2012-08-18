@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 642.0, 44.0, 756.0, 532.0 ],
+		"rect" : [ 642.0, 44.0, 708.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -104,7 +104,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 600.0, 335.0, 84.0, 60.0 ],
+					"patching_rect" : [ 588.0, 335.0, 84.0, 60.0 ],
 					"precision" : 0,
 					"rowheight" : 20,
 					"rows" : 3,
@@ -124,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 600.0, 306.0, 99.0, 23.0 ],
+					"patching_rect" : [ 588.0, 306.0, 99.0, 23.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -381,7 +381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 57.0, 332.0, 27.0 ],
+					"patching_rect" : [ 343.0, 47.0, 332.0, 27.0 ],
 					"text" : "A matrix is simply organized information."
 				}
 
@@ -395,7 +395,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 98.0, 358.0, 89.0 ],
+					"patching_rect" : [ 343.0, 88.0, 358.0, 89.0 ],
 					"text" : "Jitter supports matrices of data type can be 8-bit integer (\"char\"), 32-bit integer (\"long\"), 32-bit floating point (\"float32\"), or 64-bit floating point (\"float64\")."
 				}
 
@@ -408,7 +408,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 53.0, 363.0, 138.0 ]
+					"patching_rect" : [ 341.0, 43.0, 363.0, 138.0 ]
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 751.0, 34.0 ],
+					"patching_rect" : [ 2.0, 2.0, 704.0, 34.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -496,7 +496,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 291.0, 609.5, 291.0 ],
+					"midpoints" : [ 19.5, 291.0, 597.5, 291.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
