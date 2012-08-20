@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 374.0, 44.0, 403.0, 304.0 ],
+		"rect" : [ 510.0, 44.0, 403.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -35,8 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.0, 271.0, 136.0, 21.0 ],
-					"text" : "45 33 6"
+					"patching_rect" : [ 227.0, 271.0, 136.0, 21.0 ]
 				}
 
 			}
@@ -318,8 +317,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 271.0, 100.0, 21.0 ],
-					"text" : "1 2 3 4 5 6 7 8"
+					"patching_rect" : [ 40.0, 271.0, 100.0, 21.0 ]
 				}
 
 			}

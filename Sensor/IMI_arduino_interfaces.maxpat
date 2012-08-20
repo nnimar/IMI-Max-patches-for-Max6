@@ -54,7 +54,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 95.0, 269.0, 142.0, 18.0 ],
-					"presentation_rect" : [ 142.0, 351.0, 0.0, 0.0 ],
 					"text" : "load maxuino-noGUI.help"
 				}
 
@@ -619,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 164.0, 166.0, 18.0 ],
+					"patching_rect" : [ 16.0, 164.0, 166.0, 18.0 ],
 					"text" : "load IMI_arduino2max.maxpat"
 				}
 
@@ -662,13 +661,12 @@
 					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-36",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 71.0, 292.0, 30.0 ],
-					"text" : "arch -i386 osascript /Applications/Max6/examples/IMIpatches/z/SSensors.scpt"
+					"patching_rect" : [ 18.0, 74.0, 340.0, 17.0 ],
+					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSensors.scpt"
 				}
 
 			}
@@ -933,7 +931,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 24.5, 165.0, 24.5, 165.0 ],
+					"midpoints" : [ 25.5, 165.0, 24.5, 165.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

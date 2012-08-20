@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 415.0, 356.0, 84.0, 21.0 ],
+					"patching_rect" : [ 415.0, 356.0, 84.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 386.0, 308.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -63,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.0, 356.0, 84.0, 21.0 ],
+					"patching_rect" : [ 327.0, 356.0, 84.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 222.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -737,16 +737,16 @@
 ,
 					"patching_rect" : [ 6.0, 262.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
 						"tags" : "",
+						"digest" : "",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -767,9 +767,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 194.0, 356.0, 128.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
+					"patching_rect" : [ 194.0, 356.0, 128.0, 22.0 ],
 					"rounded" : 20.0,
 					"text" : "IMI_video_player+",
 					"texton" : "Stop"

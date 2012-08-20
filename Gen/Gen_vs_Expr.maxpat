@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 2.0, 44.0, 471.0, 526.0 ],
+		"rect" : [ 1.0, 44.0, 471.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -44,7 +44,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 2.0, 70.0, 471.0, 500.0 ],
+						"rect" : [ 0.0, 26.0, 471.0, 500.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -73,7 +73,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 308.0, 60.0, 159.0, 81.0 ],
+									"patching_rect" : [ 308.0, 60.0, 161.0, 81.0 ],
 									"text" : "in jit.pix, the color format is RGBA just like in jit.gl.pix, which is different than the usual jitter matrix format of ARGB"
 								}
 
@@ -732,16 +732,16 @@
 ,
 					"patching_rect" : [ 14.0, 152.0, 92.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0,
-						"default_fontface" : 0
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p matrix_input",
@@ -765,7 +765,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 26.0, 471.0, 500.0 ],
+						"rect" : [ 1.0, 70.0, 471.0, 500.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1310,16 +1310,16 @@
 ,
 					"patching_rect" : [ 14.0, 125.0, 125.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 13.0,
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0,
-						"default_fontface" : 0
+						"fontsize" : 13.0
 					}
 ,
 					"text" : "p matrix_calculation",

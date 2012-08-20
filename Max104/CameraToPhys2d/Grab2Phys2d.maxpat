@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 2.0, 44.0, 556.0, 526.0 ],
+		"rect" : [ 2.0, 44.0, 548.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -610,16 +610,16 @@
 ,
 					"patching_rect" : [ 5.0, 335.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"description" : "",
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"digest" : "",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontname" : "Arial"
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -656,20 +656,6 @@
 					"text" : "real and virtual interaction using the phys.body objects and qt.grab",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.5, 103.0, 89.0, 20.0 ],
-					"text" : "loadmess 0.66"
 				}
 
 			}
@@ -739,34 +725,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.5, 147.0, 43.0, 20.0 ],
 					"text" : "s bing"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-68",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1411.0, 690.0, 114.0, 19.0 ],
-					"text" : "shape concave"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-69",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1411.0, 665.0, 114.0, 19.0 ],
-					"text" : "shape convexhull"
 				}
 
 			}
@@ -860,7 +818,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 290.0, 131.5, 92.0, 20.0 ],
+					"patching_rect" : [ 290.0, 131.5, 71.0, 20.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -918,7 +876,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 108.75, 148.0, 156.0, 75.0 ],
+					"patching_rect" : [ 108.75, 148.0, 159.0, 75.0 ],
 					"text" : "jit.phys.world phys2d_world @worldbox 0 @remove_plane 3 @fixedtimestep 90 @maxsubsteps 4"
 				}
 
@@ -1045,7 +1003,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 290.0, 100.0, 60.0, 20.0 ],
+					"patching_rect" : [ 290.0, 101.0, 60.0, 20.0 ],
 					"text" : "jit.qt.grab"
 				}
 
@@ -1060,7 +1018,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.75, 102.0, 130.0, 20.0 ]
+					"patching_rect" : [ 108.75, 103.0, 130.0, 20.0 ]
 				}
 
 			}
@@ -1089,6 +1047,21 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 59.0, 266.147247, 336.0 ],
 					"rounded" : 30
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 403.5, 128.0, 89.0, 20.0 ],
+					"text" : "loadmess 0.66"
 				}
 
 			}
@@ -1307,7 +1280,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 

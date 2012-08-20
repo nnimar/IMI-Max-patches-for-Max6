@@ -287,21 +287,21 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 542.0, 28.0, 43.0, 19.0 ],
+					"patching_rect" : [ 533.0, 28.0, 53.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"digest" : "",
+						"default_fontface" : 0,
 						"fontsize" : 14.0,
+						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontname" : "Arial"
 					}
 ,
-					"text" : "p more"
+					"text" : "p tutorial"
 				}
 
 			}

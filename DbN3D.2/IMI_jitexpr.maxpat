@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 567.0, 521.0 ],
@@ -35,7 +35,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 488.0, 160.0, 24.0 ],
+					"patching_rect" : [ 230.0, 489.0, 160.0, 24.0 ],
 					"text" : "1 plane, 5 x 5 dimension"
 				}
 
@@ -71,7 +71,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
@@ -79,7 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 245.0, 138.0, 39.0 ],
+					"patching_rect" : [ 423.0, 245.0, 129.0, 38.0 ],
 					"text" : "same + add 1 to \nthe column number"
 				}
 
@@ -152,7 +151,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.0, 492.0, 101.0, 20.0 ],
+					"patching_rect" : [ 459.0, 490.0, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -186,7 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.0, 493.5, 120.0, 16.0 ],
+					"patching_rect" : [ 429.0, 491.0, 120.0, 16.0 ],
 					"text" : "load IMI_jitexpr+.maxpat"
 				}
 
@@ -201,7 +200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.0, 490.5, 52.0, 20.0 ],
+					"patching_rect" : [ 442.0, 490.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -279,14 +278,13 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 136.0, 161.0, 24.0 ],
+					"patching_rect" : [ 362.0, 136.0, 151.0, 24.0 ],
 					"text" : "multiply every row by 2"
 				}
 

@@ -54,7 +54,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 293.0, 91.0, 18.0 ],
-					"presentation_rect" : [ 144.0, 312.0, 0.0, 0.0 ],
 					"text" : "help Xbee4Max"
 				}
 
@@ -70,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 292.0, 52.0, 20.0 ],
-					"presentation_rect" : [ 144.0, 292.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -471,8 +469,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 85.0, 158.0, 42.0 ],
-					"text" : "arch -i386 osascript /Applications/Max5/examples/IMIpatches/z/SSensorsA2.scpt"
+					"patching_rect" : [ 16.0, 90.0, 215.0, 42.0 ],
+					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSensorsA2.scpt"
 				}
 
 			}

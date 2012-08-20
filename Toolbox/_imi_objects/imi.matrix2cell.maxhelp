@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 100.0, 100.0, 497.0, 307.0 ],
@@ -29,15 +29,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 29.0, 42.0, 18.0 ],
-					"presentation_rect" : [ 260.0, 150.0, 0.0, 0.0 ],
-					"text" : "rel 002",
+					"patching_rect" : [ 446.0, 29.0, 50.0, 20.0 ],
+					"text" : "rev 002",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}

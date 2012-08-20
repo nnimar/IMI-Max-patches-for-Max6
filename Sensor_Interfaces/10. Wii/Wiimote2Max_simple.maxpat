@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 4.0, 44.0, 947.0, 473.0 ],
+		"rect" : [ 0.0, 44.0, 947.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 294.0, 44.0, 692.0, 622.0 ],
@@ -118,16 +118,16 @@
 ,
 					"patching_rect" : [ 648.0, 328.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p documentation"
@@ -142,8 +142,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 646.0, 303.0, 191.0, 20.0 ],
-					"text" : "source : osculator documentation"
+					"patching_rect" : [ 646.0, 303.0, 252.0, 20.0 ],
+					"text" : "source : osculator's documentation"
 				}
 
 			}
@@ -315,7 +315,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -495,7 +495,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 472.0, 44.0, 263.0, 266.0 ],
@@ -603,16 +603,16 @@
 ,
 									"patching_rect" : [ 50.0, 167.0, 72.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"tags" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : "",
-										"default_fontface" : 0
+										"description" : ""
 									}
 ,
 									"text" : "p acceldata"
@@ -752,16 +752,16 @@
 ,
 					"patching_rect" : [ 230.0, 159.0, 54.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p wii-2"
@@ -780,7 +780,7 @@
 					"patching_rect" : [ 141.0, 157.0, 58.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 266.0, 72.0, 39.0, 66.0 ],
+					"presentation_rect" : [ 266.0, 72.0, 36.0, 66.0 ],
 					"text" : "wii (1)"
 				}
 
@@ -813,7 +813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 437.0, 514.0, 26.0 ],
+					"patching_rect" : [ 407.0, 437.0, 514.0, 25.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/10. Wii/Wiimote2Max_simple.oscd\\\"\""
 				}
 
@@ -986,7 +986,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 4.0, 125.0, 640.0, 407.0 ],
@@ -1094,16 +1094,16 @@
 ,
 					"patching_rect" : [ 36.0, 236.0, 72.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"description" : ""
 					}
 ,
 					"text" : "p acceldata"

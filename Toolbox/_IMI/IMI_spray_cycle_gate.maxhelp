@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 100.0, 100.0, 558.0, 561.0 ],
@@ -121,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.609009, 55.0, 27.5, 19.0 ],
+					"patching_rect" : [ 374.609009, 55.0, 27.5, 19.0 ],
 					"text" : "2 0"
 				}
 
@@ -135,7 +135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.25, 55.0, 27.5, 19.0 ],
+					"patching_rect" : [ 339.25, 55.0, 27.5, 19.0 ],
 					"text" : "2 1"
 				}
 
@@ -556,7 +556,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 580.0, 44.0, 289.0, 254.0 ],
@@ -847,16 +847,16 @@
 ,
 					"patching_rect" : [ 445.0, 531.0, 106.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
+						"fontsize" : 14.0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p bucket2mean"
@@ -1445,7 +1445,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 360.109009, 84.0, 253.5, 84.0 ],
+					"midpoints" : [ 384.109009, 84.0, 253.5, 84.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1455,7 +1455,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 324.75, 84.0, 253.5, 84.0 ],
+					"midpoints" : [ 348.75, 84.0, 253.5, 84.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

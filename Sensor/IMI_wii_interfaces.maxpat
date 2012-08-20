@@ -647,7 +647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 49.0, 205.0, 46.0 ],
+					"patching_rect" : [ 15.0, 52.0, 213.0, 46.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/osculator.oscd\\\"\""
 				}
 

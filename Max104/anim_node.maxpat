@@ -32,7 +32,6 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
@@ -43,7 +42,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 497.0, 500.5, 143.688004, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 486.0, 498.5, 143.688004, 24.098633 ],
+					"presentation_rect" : [ 486.0, 498.5, 143.688004, 22.0 ],
 					"rounded" : 20.0,
 					"text" : "anim.node_animturn",
 					"texton" : "Stop"
@@ -71,7 +70,6 @@
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontlink" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-18",
@@ -82,7 +80,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 647.0, 500.5, 87.63002, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.0, 219.5, 87.63002, 24.098633 ],
+					"presentation_rect" : [ 486.0, 498.5, 143.688004, 22.0 ],
 					"rounded" : 20.0,
 					"text" : "anim_video",
 					"texton" : "Stop"
@@ -703,16 +701,16 @@
 ,
 					"patching_rect" : [ 7.0, 237.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
