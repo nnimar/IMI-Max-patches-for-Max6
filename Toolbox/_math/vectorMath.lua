@@ -60,11 +60,11 @@ local p3 = {p3x, p3y, p3z}
 	outlet(0,res[1], res[2], res[3])
 end
 
-function intersect_line_sphere(p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z, p4x, p4y, p4z)
+function intersect_line_sphere(p1x, p1y, p1z, p2x, p2y, p2z, p3x, p3y, p3z, p4)
 local linepos1 = {p1x, p1y, p1z}
 local linepos2 = {p2x, p2y, p2z}
 local sphere_center = {p3x, p3y, p3z}
-local sphere_radius = 0.
+local sphere_radius = p4
 	
 	res = vec3.intersect_line_sphere(linepos1, linepos2, sphere_center, sphere_radius)
 	outlet(0,res)
