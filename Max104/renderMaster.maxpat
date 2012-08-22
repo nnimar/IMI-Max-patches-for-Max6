@@ -260,16 +260,16 @@
 ,
 					"patching_rect" : [ 58.0, 153.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p camera"
@@ -625,16 +625,16 @@
 ,
 					"patching_rect" : [ 9.0, 215.0, 95.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p CalcGLHeight"
@@ -671,7 +671,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 768.0, 372.0, 411.0, 282.0 ],
+						"rect" : [ 772.0, 373.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -837,7 +837,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.0, 111.0, 72.0, 20.0 ],
-									"text" : "loadmess 0"
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -942,13 +942,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -957,13 +957,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 114.0, 32.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -1224,16 +1224,16 @@
 ,
 					"patching_rect" : [ 8.0, 298.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
+						"fontname" : "Arial",
 						"tags" : "",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1311,8 +1311,8 @@
 					"patching_rect" : [ 555.852783, 115.0, 151.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"storage_rect" : [ 766, 44, 1220, 302 ],
-						"parameter_enable" : 0,
-						"client_rect" : [ 4, 44, 358, 172 ]
+						"client_rect" : [ 4, 44, 358, 172 ],
+						"parameter_enable" : 0
 					}
 ,
 					"text" : "pattrstorage render_master",
@@ -1333,7 +1333,7 @@
 					"restore" : 					{
 						"flonum" : [ 0.45 ],
 						"flonum[10]" : [ 0.79 ],
-						"flonum[1]" : [ 0.12 ],
+						"flonum[1]" : [ 0.43 ],
 						"flonum[2]" : [ 0.1 ],
 						"flonum[3]" : [ -1.3 ],
 						"flonum[4]" : [ 0.0 ],
@@ -1609,7 +1609,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 325.0, 6.5, 132.0, 35.0 ],
+									"patching_rect" : [ 325.0, 6.5, 132.0, 34.0 ],
 									"text" : "from Andrew Benson's\nRender Master"
 								}
 
@@ -1988,16 +1988,16 @@
 ,
 					"patching_rect" : [ 146.0, 307.348267, 237.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
+						"fontname" : "Helvetica",
 						"tags" : "",
+						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
-						"default_fontname" : "Helvetica"
+						"fontface" : 0,
+						"default_fontname" : "Helvetica",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p post-process"
@@ -2739,7 +2739,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}

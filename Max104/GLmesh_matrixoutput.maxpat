@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 447.0, 254.0, 104.0, 20.0 ],
-					"presentation_rect" : [ 447.0, 254.0, 0.0, 0.0 ],
 					"text" : "5 planes / 60 dim"
 				}
 
@@ -63,7 +62,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 397.0, 168.0, 135.0, 20.0 ],
-					"presentation_rect" : [ 397.0, 168.0, 0.0, 0.0 ],
 					"text" : "12 planes / 20 x 20 dim"
 				}
 
@@ -424,13 +422,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -439,13 +437,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 32.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -706,16 +704,16 @@
 ,
 					"patching_rect" : [ 9.0, 244.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"

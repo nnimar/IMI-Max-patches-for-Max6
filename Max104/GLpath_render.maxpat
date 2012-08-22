@@ -272,16 +272,16 @@
 ,
 					"patching_rect" : [ 16.0, 288.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"description" : "",
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p get_points"
@@ -699,16 +699,16 @@
 ,
 					"patching_rect" : [ 351.0, 579.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"description" : "",
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p edit_points"
@@ -1017,13 +1017,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -1032,13 +1032,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 114.0, 32.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -1299,16 +1299,16 @@
 ,
 					"patching_rect" : [ 57.0, 61.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"description" : "",
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1949,16 +1949,16 @@
 ,
 					"patching_rect" : [ 318.0, 294.0, 106.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"description" : "",
-						"default_fontface" : 0,
 						"fontname" : "Arial",
-						"digest" : "",
 						"tags" : "",
-						"default_fontname" : "Arial"
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p mood_machine"

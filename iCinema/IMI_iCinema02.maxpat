@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 910.0, 740.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 915.0, 359.0, 411.0, 282.0 ],
@@ -314,13 +314,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -329,13 +329,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 32.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -596,16 +596,16 @@
 ,
 					"patching_rect" : [ 793.0, 598.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -667,7 +667,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 915.0, 44.0, 146.0, 152.0 ],
@@ -699,7 +699,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 38.0, 106.0, 88.0 ],
+									"patching_rect" : [ 8.0, 38.0, 106.0, 87.0 ],
 									"text" : ";\rinit 1;\rmovie 1;\rmini_loop1 bang;\rrender 1;\rfullscreen 0;\r"
 								}
 
@@ -734,16 +734,16 @@
 ,
 					"patching_rect" : [ 862.0, 25.0, 37.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"globalpatchername" : "",
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -787,7 +787,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 918.0, 375.0, 231.0, 346.0 ],
@@ -846,7 +846,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 6.0, 46.0, 416.0, 265.0 ],
@@ -1036,16 +1036,16 @@
 ,
 									"patching_rect" : [ 15.0, 245.0, 81.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"description" : "",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_read"
@@ -1105,7 +1105,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
@@ -1166,7 +1166,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -1351,16 +1351,16 @@
 ,
 													"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"tags" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
-														"default_fontname" : "Arial",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
-														"description" : ""
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p devices"
@@ -1499,16 +1499,16 @@
 ,
 									"patching_rect" : [ 28.0, 78.0, 87.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 14.0,
+										"description" : "",
+										"tags" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontsize" : 14.0,
-										"globalpatchername" : "",
-										"description" : ""
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p serial_select"
@@ -1520,7 +1520,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
+									"items" : [ "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP", ",", "Bluetooth-PDA-Sync" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1761,16 +1761,16 @@
 ,
 					"patching_rect" : [ 597.0, 91.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p sensor"
@@ -3307,14 +3307,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

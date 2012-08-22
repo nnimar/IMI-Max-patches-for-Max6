@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 1.0, 44.0, 803.0, 637.0 ],
@@ -53,7 +53,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 810.0, 362.0, 411.0, 282.0 ],
@@ -327,13 +327,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -342,13 +342,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 32.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -612,9 +612,9 @@
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -653,7 +653,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 814.0, 44.0, 242.0, 485.0 ],
@@ -689,7 +689,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 6.0, 46.0, 416.0, 265.0 ],
@@ -882,9 +882,9 @@
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"tags" : "",
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
@@ -1001,7 +1001,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
@@ -1062,7 +1062,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 10.0, 59.0, 381.0, 284.0 ],
@@ -1250,9 +1250,9 @@
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"tags" : "",
 														"globalpatchername" : "",
 														"fontface" : 0,
-														"tags" : "",
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
@@ -1398,9 +1398,9 @@
 										"fontname" : "Arial",
 										"default_fontsize" : 14.0,
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"tags" : "",
 										"fontsize" : 14.0,
 										"default_fontface" : 0,
 										"digest" : "",
@@ -1416,7 +1416,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+									"items" : [ "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP", ",", "Bluetooth-PDA-Sync" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1713,9 +1713,9 @@
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -1999,7 +1999,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 690.0, 44.0, 110.0, 124.0 ],
@@ -2031,7 +2031,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 38.0, 79.0, 74.0 ],
+									"patching_rect" : [ 8.0, 38.0, 79.0, 73.0 ],
 									"text" : ";\rmovie 1;\rinit bang;\rrender 1;\rfullscreen 0;\r"
 								}
 
@@ -2069,9 +2069,9 @@
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"tags" : "",
 						"fontsize" : 14.0,
 						"default_fontface" : 0,
 						"digest" : "",
@@ -2091,7 +2091,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.0, 163.0, 79.0, 37.0 ],
+					"patching_rect" : [ 487.0, 163.0, 79.0, 36.0 ],
 					"text" : "no one\nin the area"
 				}
 
@@ -2105,7 +2105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 671.0, 163.0, 79.0, 37.0 ],
+					"patching_rect" : [ 671.0, 163.0, 79.0, 36.0 ],
 					"text" : "spectator\nin the area"
 				}
 

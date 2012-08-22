@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 3.0, 44.0, 928.0, 464.0 ],
+		"rect" : [ 0.0, 44.0, 928.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.0, 367.0, 82.0, 20.0 ],
-					"presentation_rect" : [ 743.0, 393.0, 0.0, 0.0 ],
 					"text" : "sync checker"
 				}
 
@@ -74,8 +73,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 699.0, 366.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 699.0, 366.0, 0.0, 0.0 ]
+					"patching_rect" : [ 699.0, 366.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -176,7 +174,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 166.0, 213.0, 43.0, 20.0 ],
-									"presentation_rect" : [ 81.0, 213.0, 0.0, 0.0 ],
 									"text" : "r sync"
 								}
 
@@ -191,7 +188,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 166.0, 242.0, 34.0, 20.0 ],
-									"presentation_rect" : [ 81.0, 242.0, 0.0, 0.0 ],
 									"text" : "gate"
 								}
 
@@ -206,7 +202,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 209.0, 43.0, 20.0 ],
-									"presentation_rect" : [ 96.0, 196.0, 0.0, 0.0 ],
 									"text" : "r sync"
 								}
 
@@ -221,7 +216,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 238.0, 34.0, 20.0 ],
-									"presentation_rect" : [ 70.0, 211.0, 0.0, 0.0 ],
 									"text" : "gate"
 								}
 
@@ -236,7 +230,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 107.0, 34.0, 20.0 ],
-									"presentation_rect" : [ 102.0, 117.0, 0.0, 0.0 ],
 									"text" : "gate"
 								}
 
@@ -290,8 +283,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 192.0, 132.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 194.0, 103.0, 0.0, 0.0 ]
+									"patching_rect" : [ 192.0, 132.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -795,16 +787,16 @@
 ,
 					"patching_rect" : [ 563.0, 366.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p sync-tester"
@@ -1098,16 +1090,16 @@
 ,
 					"patching_rect" : [ 366.0, 57.0, 46.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p cmd"
@@ -1167,18 +1159,18 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.0, 84.0, 74.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"noloadbangdefeating" : 0,
+						"usesearchpath" : 0,
 						"overdrive" : 0,
+						"preffilename" : "Video Sync Preferences",
+						"allwindowsactive" : 0,
+						"cantclosetoplevelpatchers" : 1,
 						"audiosupport" : 1,
-						"statusvisible" : 0,
 						"extensions" : 0,
 						"database" : 0,
+						"statusvisible" : 0,
+						"noloadbangdefeating" : 0,
 						"midisupport" : 0,
-						"searchformissingfiles" : 1,
-						"usesearchpath" : 0,
-						"allwindowsactive" : 0,
-						"preffilename" : "Video Sync Preferences",
-						"cantclosetoplevelpatchers" : 1
+						"searchformissingfiles" : 1
 					}
 ,
 					"text" : "standalone"
@@ -2192,16 +2184,16 @@
 ,
 					"patching_rect" : [ 364.0, 379.0, 144.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p scale"
@@ -2568,16 +2560,16 @@
 ,
 									"patching_rect" : [ 491.0, 354.0, 57.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : "",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"tags" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p debug"
@@ -3742,16 +3734,16 @@
 ,
 									"patching_rect" : [ 9.0, 325.0, 167.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : "",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : ""
+										"description" : "",
+										"tags" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p _prefs_saver"
@@ -4012,16 +4004,16 @@
 ,
 					"patching_rect" : [ 875.0, 57.0, 47.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -4624,16 +4616,16 @@
 ,
 					"patching_rect" : [ 17.0, 370.662476, 86.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -5518,16 +5510,16 @@
 ,
 					"patching_rect" : [ 151.0, 370.662476, 99.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : "",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p SPACE-fullscreen"
@@ -6537,7 +6529,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "_screenprefs.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "../IMIpatches/Exhibition",
+				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

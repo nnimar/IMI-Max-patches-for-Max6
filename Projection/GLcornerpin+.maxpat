@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.0, 346.0, 53.0, 20.0 ],
-					"presentation_rect" : [ 409.0, 299.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 372.0, 347.5, 128.0, 16.0 ],
-					"presentation_rect" : [ 409.0, 299.5, 0.0, 0.0 ],
 					"text" : "load GLCorner_edgeblend"
 				}
 
@@ -181,7 +179,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 681.0, 66.0, 411.0, 282.0 ],
+						"rect" : [ 684.0, 361.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -314,16 +312,16 @@
 ,
 									"patching_rect" : [ 141.0, 61.25, 54.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"tags" : "",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"tags" : "",
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p cursor"
@@ -449,8 +447,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 353.0, 5.0, 51.0, 20.0 ],
-									"text" : "rev. 006"
+									"patching_rect" : [ 350.0, 5.0, 58.0, 20.0 ],
+									"text" : "rev. 005b"
 								}
 
 							}
@@ -610,13 +608,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 60.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\rshowcorner 1;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 46.0 ],
+									"text" : ";\rmax showcursor;\rshowcorner 1;\r"
 								}
 
 							}
@@ -625,13 +623,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 60.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\rshowcorner 0;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 46.0 ],
+									"text" : ";\rmax hidecursor;\rshowcorner 0;\r"
 								}
 
 							}
@@ -928,16 +926,16 @@
 ,
 					"patching_rect" : [ 9.0, 273.0, 109.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"tags" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p ESC-fullscreen+"
@@ -970,8 +968,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 622.0, 21.0 ],
-					"text" : "To render GL object to GL cornerpin, you need to capture the texture via a node",
+					"patching_rect" : [ 3.0, 29.0, 662.0, 21.0 ],
+					"text" : "To render GL object to GL cornerpin, you need to capture the texture via a node (shift-esc to fullscreen with corners)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -987,7 +985,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 228.0, 198.0, 39.0 ],
+					"patching_rect" : [ 414.0, 228.0, 198.0, 38.0 ],
 					"text" : "node uses \"scene\" as a texture\nand sends it to GL cornerpin"
 				}
 
@@ -1014,7 +1012,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 148.0, 45.0, 20.0 ],
+					"patching_rect" : [ 30.0, 148.0, 45.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -1055,7 +1053,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 11.0, 122.0, 116.0, 20.0 ],
+					"patching_rect" : [ 11.0, 122.0, 110.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1069,7 +1067,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 94.0, 63.0, 20.0 ],
+					"patching_rect" : [ 11.0, 95.0, 63.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -1236,7 +1234,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 58.0, 129.147247, 306.0 ],
+					"patching_rect" : [ 5.0, 58.0, 120.147247, 301.0 ],
 					"rounded" : 30
 				}
 
@@ -1370,7 +1368,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 117.5, 173.0, 20.5, 173.0 ],
+					"midpoints" : [ 111.5, 173.0, 20.5, 173.0 ],
 					"source" : [ "obj-21", 2 ]
 				}
 

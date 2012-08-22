@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 670.0, 429.0 ],
@@ -211,10 +211,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 684.0, 358.0, 481.0, 372.0 ],
+						"rect" : [ 684.0, 358.0, 480.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -241,7 +241,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 416.0, 346.0, 51.0, 20.0 ],
+									"patching_rect" : [ 416.0, 258.0, 51.0, 20.0 ],
 									"text" : "rev. 002"
 								}
 
@@ -296,8 +296,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 366.0, 134.0, 72.0, 20.0 ],
-									"text" : "loadmess 0"
+									"patching_rect" : [ 364.0, 134.0, 72.0, 20.0 ],
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -393,7 +393,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 279.0, 85.0, 46.0 ],
+									"patching_rect" : [ 165.0, 226.0, 85.0, 46.0 ],
 									"text" : ";\rmax showcursor"
 								}
 
@@ -408,7 +408,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 285.0, 280.0, 80.0, 46.0 ],
+									"patching_rect" : [ 285.0, 227.0, 80.0, 46.0 ],
 									"text" : ";\rmax hidecursor"
 								}
 
@@ -424,36 +424,6 @@
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 165.0, 197.25, 259.0, 20.0 ],
 									"text" : "sel 0 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-159",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 226.0, 102.0, 46.0 ],
-									"text" : ";\rmax showmenubar"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-160",
-									"linecount" : 3,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 284.0, 227.0, 99.0, 46.0 ],
-									"text" : ";\rmax hidemenubar"
 								}
 
 							}
@@ -620,24 +590,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-159", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-158", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-160", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-158", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -709,16 +661,16 @@
 ,
 					"patching_rect" : [ 19.0, 205.662506, 99.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"fontname" : "Arial",
 						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
 						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -820,7 +772,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 162.0, 379.0, 411.0, 39.0 ],
+					"patching_rect" : [ 162.0, 379.0, 413.0, 39.0 ],
 					"text" : "jit.gl.gridshape foo @automatic 0 @name leds @blend_enable 1 @blend_mode 6 1"
 				}
 

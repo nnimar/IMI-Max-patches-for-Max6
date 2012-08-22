@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 2.0, 44.0, 581.0, 559.0 ],
@@ -309,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 29.0, 464.0, 21.0 ],
-					"text" : "the painter's algorithm vs the z-depth rednering method",
+					"text" : "the painter's algorithm vs the z-depth rendering method",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
