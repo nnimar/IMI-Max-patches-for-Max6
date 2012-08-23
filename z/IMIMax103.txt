@@ -35,8 +35,8 @@
 42, jittervsGL "welcome to 3d world";
 43, GLgridshape "shapes in 3D";
 44, GLgeometry "gridshape geometry advanced";
-45, GLsketch "GLSketch and OpenGL";
-46, Noise2GLsketch "noise to GLSketch tutorial";
+45, GLtexture "apply a texture to a 3D shape";
+46, GLsketch "GLSketch and OpenGL";
 47, GLmesh "intro to GLmesh";
 
 50, -----------------------;

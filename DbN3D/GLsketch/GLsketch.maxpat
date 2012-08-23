@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 2.0, 44.0, 437.0, 442.0 ],
+		"rect" : [ 2.0, 44.0, 438.0, 498.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,6 +27,43 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-34",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 10.0, 415.5, 122.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 36.0, 426.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Noise2GLsketch",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-36",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.0, 413.5, 184.0, 23.0 ],
+					"presentation_rect" : [ 240.0, 426.5, 0.0, 0.0 ],
+					"text" : "a practical example"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -72,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 415.0, 127.0, 18.0 ],
+					"patching_rect" : [ 11.0, 473.0, 127.0, 18.0 ],
 					"text" : "load texture2GLsketch"
 				}
 
@@ -110,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 123.0, 18.0 ],
+					"patching_rect" : [ 9.0, 472.0, 123.0, 18.0 ],
 					"text" : "load GLsketchpad_alt"
 				}
 
@@ -169,18 +206,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 410.0, 100.0, 23.0 ],
+					"patching_rect" : [ 9.0, 468.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"description" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 14.0,
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : ""
 					}
 ,
 					"text" : "p gl_primitives"
@@ -220,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 137.0, 18.0 ],
+					"patching_rect" : [ 9.0, 472.0, 137.0, 18.0 ],
 					"text" : "load GLsketch_capture+"
 				}
 
@@ -235,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 119.0, 18.0 ],
+					"patching_rect" : [ 9.0, 472.0, 119.0, 18.0 ],
 					"text" : "load GLsketch_noise"
 				}
 
@@ -299,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 415.0, 136.0, 18.0 ],
+					"patching_rect" : [ 9.0, 473.0, 136.0, 18.0 ],
 					"text" : "load GLsketch_twineball"
 				}
 
@@ -337,7 +374,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 415.0, 104.0, 18.0 ],
+					"patching_rect" : [ 9.0, 473.0, 104.0, 18.0 ],
 					"text" : "load GLsketchpad"
 				}
 
@@ -389,7 +426,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 130.0, 18.0 ],
+					"patching_rect" : [ 9.0, 472.0, 130.0, 18.0 ],
 					"text" : "load GLsketch_capture"
 				}
 
@@ -487,7 +524,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 416.0, 141.0, 18.0 ],
+					"patching_rect" : [ 9.0, 474.0, 141.0, 18.0 ],
 					"text" : "load GLsketch_assemble"
 				}
 
@@ -502,7 +539,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 416.0, 144.0, 18.0 ],
+					"patching_rect" : [ 9.0, 474.0, 144.0, 18.0 ],
 					"text" : "load GLSketch_command"
 				}
 
@@ -528,7 +565,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 411.0, 130.0, 23.0 ],
+					"patching_rect" : [ 213.0, 469.0, 130.0, 23.0 ],
 					"text" : "OpenGL primitives"
 				}
 
@@ -608,7 +645,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 416.0, 119.0, 18.0 ],
+					"patching_rect" : [ 9.0, 474.0, 119.0, 18.0 ],
 					"text" : "load GLSketch_turtle"
 				}
 
@@ -623,7 +660,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 389.0, 52.0, 20.0 ],
+					"patching_rect" : [ 12.0, 445.0, 52.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -642,6 +679,40 @@
 					"text" : "GL.sketch",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 417.0, 119.0, 18.0 ],
+					"presentation_rect" : [ 92.0, 446.0, 0.0, 0.0 ],
+					"text" : "load noise2GLsketch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 180.0,
+					"background" : 1,
+					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"id" : "obj-33",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.0, 399.0, 428.0, 4.0 ],
+					"presentation_rect" : [ 2.0, 399.0, 0.0, 0.0 ],
+					"varname" : "autohelp_top_panel[3]"
 				}
 
 			}
@@ -812,6 +883,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-37", 0 ]
 				}
 
 			}
