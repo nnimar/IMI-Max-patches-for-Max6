@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 0.0, 44.0, 492.0, 750.0 ],
+		"rect" : [ 0.0, 44.0, 493.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -76,7 +76,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 506.0, 472.0, 411.0, 282.0 ],
+						"rect" : [ 499.0, 469.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -312,7 +312,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.0, 111.0, 65.0, 17.0 ],
-									"text" : "pos 507 45"
+									"text" : "pos 499 45"
 								}
 
 							}
@@ -629,16 +629,16 @@
 ,
 					"patching_rect" : [ 361.0, 99.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -762,8 +762,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 53.0, 562.0, 380.0, 48.0 ],
-					"text" : "jit.gl.mesh sample @lighting_enable 0 @smooth_shading 1 @blend_enable 1 @fog 1 @blend_mode 3 1 @draw_mode line_loop @poly_mode 0 1 @rotatexyz 75.5 -25. 0. @texture tex"
+					"patching_rect" : [ 53.0, 562.0, 383.0, 48.0 ],
+					"text" : "jit.gl.mesh @lighting_enable 0 @smooth_shading 1 @blend_enable 1 @fog 1 @blend_mode 3 1 @draw_mode line_loop @poly_mode 0 1 @rotatexyz 75.5 -25. 0. @texture tex"
 				}
 
 			}
@@ -778,7 +778,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 30.0, 619.0, 383.0, 48.0 ],
-					"text" : "jit.gl.mesh sample @lighting_enable 0 @smooth_shading 1 @blend_enable 1 @fog 1 @blend_mode 3 1 @draw_mode points @poly_mode 1 0 @point_size 3 @rotatexyz 75.5 -25. 0. @texture tex"
+					"text" : "jit.gl.mesh @lighting_enable 0 @smooth_shading 1 @blend_enable 1 @fog 1 @blend_mode 3 1 @draw_mode points @poly_mode 1 0 @point_size 3 @rotatexyz 75.5 -25. 0. @texture tex"
 				}
 
 			}
@@ -868,7 +868,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 508.0, 376.0, 399.0, 163.0 ],
+						"rect" : [ 511.0, 471.0, 336.0, 254.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -888,6 +888,17 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "jit.pwindow",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 32.0, 125.0, 117.0, 87.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -910,7 +921,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 9.0, 126.0, 142.0, 20.0 ],
+									"patching_rect" : [ 9.0, 225.0, 136.0, 20.0 ],
 									"text" : "jit.gl.texture @name tex"
 								}
 
@@ -939,21 +950,22 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 9.0, 51.0, 264.0, 34.0 ],
+									"patching_rect" : [ 9.0, 51.0, 255.0, 34.0 ],
 									"text" : "jit.gradient 4 char 240 240 @start 0. 0.062745 0.188235 1. @end 0. 0.666667 1. 0.964706"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 76.0, 17.0, 171.0, 20.0 ],
-									"text" : "gradiant and texture stuff"
+									"patching_rect" : [ 73.0, 15.0, 125.0, 24.0 ],
+									"text" : "gradient to texture"
 								}
 
 							}
@@ -978,6 +990,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -991,16 +1012,16 @@
 ,
 					"patching_rect" : [ 382.0, 173.0, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p gradient_texture"
@@ -1205,7 +1226,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
+					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
@@ -1294,8 +1315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 675.0, 336.0, 20.0 ],
-					"text" : "jit.gl.render sample @erase_color 0. 0. 0. 1. @lens_angle 90"
+					"patching_rect" : [ 8.0, 675.0, 292.0, 20.0 ],
+					"text" : "jit.gl.render @erase_color 0. 0. 0. 1. @lens_angle 90"
 				}
 
 			}
@@ -1365,8 +1386,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 73.0, 705.0, 377.0, 34.0 ],
-					"text" : "jit.gl.gridshape sample @shape cube @scale 5 @color 0.1 0.1 0.1 @poly_mode 1 1 @line_width 1 @rotatexyz 75.5 -25. 0."
+					"patching_rect" : [ 73.0, 705.0, 322.0, 34.0 ],
+					"text" : "jit.gl.gridshape @shape cube @scale 5 @color 0.1 0.1 0.1 @poly_mode 1 1 @line_width 1 @rotatexyz 75.5 -25. 0."
 				}
 
 			}

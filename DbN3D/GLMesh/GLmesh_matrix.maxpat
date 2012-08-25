@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 2.0, 44.0, 734.0, 430.0 ],
+		"rect" : [ 1.0, 44.0, 734.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -197,16 +197,16 @@
 ,
 					"patching_rect" : [ 504.28833, 182.298218, 197.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p fill_matrix"
@@ -607,16 +607,16 @@
 ,
 					"patching_rect" : [ 503.5, 152.598145, 197.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p kinect"
@@ -804,16 +804,16 @@
 ,
 					"patching_rect" : [ 4.0, 261.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p matrix-coordinates"
@@ -1405,16 +1405,16 @@
 ,
 					"patching_rect" : [ 7.0, 191.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"

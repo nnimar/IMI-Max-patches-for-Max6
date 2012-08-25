@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 234.0, 105.0, 24.0 ],
-					"presentation_rect" : [ 114.0, 227.0, 0.0, 0.0 ],
 					"text" : "see the values"
 				}
 
@@ -696,16 +695,16 @@
 ,
 					"patching_rect" : [ 455.0, 196.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -885,16 +884,16 @@
 ,
 					"patching_rect" : [ 28.0, 236.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p normalised"

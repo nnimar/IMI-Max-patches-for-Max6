@@ -1021,16 +1021,16 @@
 ,
 					"patching_rect" : [ 4.0, 82.0, 138.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p slab-comparison-CPU"
@@ -1585,16 +1585,16 @@
 ,
 					"patching_rect" : [ 4.0, 107.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontsize" : 12.0,
+						"description" : "",
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p slab-comparison-GPU"
@@ -1920,7 +1920,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 432.0, 197.0, 20.0 ],
+					"patching_rect" : [ 123.0, 433.0, 135.0, 20.0 ],
 					"text" : "play video on the GPU"
 				}
 
@@ -1933,8 +1933,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 407.0, 197.0, 20.0 ],
-					"text" : "composite modes : starts with co."
+					"patching_rect" : [ 123.0, 407.0, 189.0, 20.0 ],
+					"text" : "composite modes (starts with co.)"
 				}
 
 			}

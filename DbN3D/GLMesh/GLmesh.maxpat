@@ -753,16 +753,16 @@
 ,
 					"patching_rect" : [ 119.0, 572.0, 90.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p gl_meshes"
@@ -952,16 +952,16 @@
 ,
 					"patching_rect" : [ 12.0, 572.0, 100.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 14.0,
 						"digest" : "",
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 14.0,
 						"description" : "",
 						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"default_fontface" : 0
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p gl_primitives"
@@ -1113,8 +1113,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 272.0, 30.0 ],
-					"text" : "GL.mesh",
+					"patching_rect" : [ 2.0, 2.0, 272.0, 30.0 ],
+					"text" : "GLmesh",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

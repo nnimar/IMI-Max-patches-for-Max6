@@ -432,16 +432,16 @@
 ,
 					"patching_rect" : [ 24.0, 429.790527, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p textcoordmagic"
@@ -1088,16 +1088,16 @@
 ,
 					"patching_rect" : [ 470.0, 239.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"tags" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1477,7 +1477,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 579.0, 46.0 ],
+					"patching_rect" : [ 2.0, 2.0, 579.0, 47.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
