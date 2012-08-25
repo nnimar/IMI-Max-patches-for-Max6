@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 0.0, 44.0, 351.0, 47.0 ],
@@ -84,7 +84,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 61.0, 424.0, 18.0 ],
-					"text" : "arch -i386 osascript /Applications/Max6/examples/IMIpatches/z/SToolbox.scpt"
+					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SToolbox.scpt"
 				}
 
 			}

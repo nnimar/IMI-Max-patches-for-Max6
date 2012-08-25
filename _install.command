@@ -3,7 +3,7 @@
 # Based on the eijes installer, thanks !
 
 #####################################
-# IMI Max patches Installation v1.21
+# IMI Max patches Installation v2.25
 # Nicolas Marechal
 # n.marechal@lcc.arts.ac.uk
 #####################################
@@ -59,6 +59,7 @@ function doInstallation {
 
 		if [ -e "$IMIextra/_IMI_help.maxpat" ] ; then
 			rm "$IMIextra/_IMI_help.maxpat";
+			rm "$IMIextra/_IMI_help_advanced.maxpat";
 			rm -r -f "$IMIextra/_IMI";
 			echo ""
 		fi
