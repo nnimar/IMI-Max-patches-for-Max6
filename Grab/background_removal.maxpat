@@ -29,6 +29,37 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 161.0, 134.0, 38.0 ],
+					"presentation_rect" : [ 456.0, 118.0, 0.0, 0.0 ],
+					"text" : "capture the webcam input for later use"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 426.0, 348.0, 137.0, 48.0 ],
+					"presentation_rect" : [ 474.0, 235.0, 0.0, 0.0 ],
+					"text" : "output the mask as an alpha (ARGB) and mix with the webcam (RGB)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"bubbleside" : 0,
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -266,7 +297,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 411.0, 401.0, 189.0, 20.0 ],
+					"patching_rect" : [ 411.0, 432.0, 189.0, 20.0 ],
 					"text" : "jit.alphablend"
 				}
 
@@ -278,7 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 411.0, 430.0, 320.0, 240.0 ]
+					"patching_rect" : [ 411.0, 461.0, 320.0, 240.0 ]
 				}
 
 			}
@@ -291,8 +322,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 411.0, 370.0, 155.0, 20.0 ],
-					"text" : "jit.pack @out_name charlie"
+					"patching_rect" : [ 411.0, 401.0, 165.0, 20.0 ],
+					"text" : "jit.pack @out_name webcam"
 				}
 
 			}
@@ -305,8 +336,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 179.0, 174.0, 98.0, 20.0 ],
-					"text" : "jit.matrix charlie"
+					"patching_rect" : [ 179.0, 170.0, 103.0, 20.0 ],
+					"text" : "jit.matrix webcam"
 				}
 
 			}
@@ -332,8 +363,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 479.0, 343.0, 20.0 ],
-					"text" : "average color components and work with greyscale difference"
+					"patching_rect" : [ 27.0, 479.0, 307.0, 20.0 ],
+					"text" : "transform to greyscale using average color components "
 				}
 
 			}

@@ -111,7 +111,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 562.0, 360.0, 384.0, 92.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -133,14 +133,14 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 14.0,
 									"id" : "obj-48",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 295.0, 48.0 ],
-									"text" : "node will overwrite jit.gl. attributes (useful for setting every object in the node's context at once).  Note that camera overrides while node overwrites"
+									"patching_rect" : [ 5.0, 10.0, 349.0, 71.0 ],
+									"text" : "Node will overwrite jit.gl. attributes (useful for setting every object in the node's context at once). \n\nCamera overrides while node overwrites"
 								}
 
 							}
@@ -151,16 +151,16 @@
 ,
 					"patching_rect" : [ 11.0, 247.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p tutorial"
@@ -737,16 +737,16 @@
 ,
 					"patching_rect" : [ 12.0, 184.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"description" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontface" : 0,
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
 						"fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p ESC-fullscreen"
