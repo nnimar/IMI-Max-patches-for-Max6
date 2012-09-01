@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 2.0, 44.0, 471.0, 664.0 ],
+		"rect" : [ 2.0, 44.0, 469.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,45 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-38",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 381.0, 622.0, 79.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 385.0, 598.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "findbounds",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 379.0, 621.0, 55.0, 20.0 ],
+					"presentation_rect" : [ 268.0, 598.0, 0.0, 0.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-37",
@@ -40,7 +79,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 480.0, 44.0, 135.0, 316.0 ],
@@ -266,16 +305,16 @@
 ,
 					"patching_rect" : [ 11.0, 526.0, 54.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"tags" : "",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p center"
@@ -296,7 +335,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 267.0, 636.0, 111.0, 20.0 ],
+					"patching_rect" : [ 183.0, 622.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 233.0, 665.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -315,7 +354,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 637.0, 122.0, 18.0 ],
+					"patching_rect" : [ 183.0, 623.0, 122.0, 18.0 ],
 					"text" : "help tap.jit.colortrack"
 				}
 
@@ -334,7 +373,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 384.0, 636.0, 75.0, 19.0 ],
+					"patching_rect" : [ 300.0, 622.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -353,7 +392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 638.0, 133.0, 18.0 ],
+					"patching_rect" : [ 184.0, 624.0, 133.0, 18.0 ],
 					"text" : "load colortrack.maxpat"
 				}
 
@@ -368,7 +407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 636.0, 55.0, 20.0 ],
+					"patching_rect" : [ 183.0, 622.0, 55.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -399,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 403.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 403.0, 21.0 ],
 					"text" : "stop the movie (rate 0), select the colour by clicking on it then play.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -459,7 +498,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 481.0, 44.0, 415.0, 381.0 ],
@@ -833,16 +872,16 @@
 ,
 					"patching_rect" : [ 11.0, 499.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"description" : "",
 						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0,
+						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 14.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
-						"tags" : ""
+						"tags" : "",
+						"default_fontsize" : 14.0
 					}
 ,
 					"text" : "p colourbox"
@@ -1068,6 +1107,21 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 378.0, 624.0, 81.0, 16.0 ],
+					"text" : "load findbounds"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.74902 ],
 					"border" : 7,
@@ -1252,6 +1306,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1266,6 +1329,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 368.5, 205.0, 89.5, 205.0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}

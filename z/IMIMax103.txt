@@ -4,7 +4,6 @@
 4, GLslab_video_mask "mask over a video";
 5, GLcamera_render "using GLrender and GLcamera";
 5, GLcornerpin+ "keystone for GL objects";
-
 10, -----------------------;
 11, <category> 2 Exhibition;
 12, IMI_video_twoscreens "video player for multi screens";
@@ -12,16 +11,13 @@
 15, IMI_space_mapping "space mapping for multi screens";
 16, IMI_iCinema "iCinema";
 17, IMI_OSControl "control VPT/Resolume from Max";
-
 20, -----------------------;
-21, <category> 3 Internet;
-22, IMI_xml "using XML in Max";
-23, IMI_weather_report "an example with detox";
-24, IMI_pachube2OSC "read a Pachube feed";
-25, BBCnews "read the BBCnews";
-26, twitter_read "read and parse XML/twitter"; 
-27, regexp_tutorial "regular expression";
-
+21, <category> 3 Effect;
+22, IMI_compositing_modes "methods for compositing";
+23, IMI_video_delay "video delay";
+24, GLslab_collection "easy to use shaders";
+25, BadTV "badTV effect";
+26, h.lines "generate a mesh of lines from a movie";
 30, -----------------------;
 31, <category> 4 DbN2D;
 32, IMI_lcd_space "using the LCD space";
@@ -29,7 +25,6 @@
 34, IMI_lcd_oscillation "oscillation using sin/cos";
 35, IMI_noise2lcd "noise to jit.sketch position";
 36, Drawagent "drawagent";
-
 40, -----------------------;
 41, <category> 5 DbN3D;
 42, jittervsGL "welcome to 3d world";
@@ -38,7 +33,6 @@
 45, GLtexture "apply a texture to a 3D shape";
 46, GLsketch "GLSketch and OpenGL";
 47, GLmesh "intro to GLmesh";
-
 50, -----------------------;
 51, <category> 6 DbN3D.2;
 52, IMI_jitexpr "basic jit.expr";
