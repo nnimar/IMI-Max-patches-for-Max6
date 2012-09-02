@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 100.0, 100.0, 403.0, 309.0 ],
+		"rect" : [ 84.0, 103.0, 462.0, 370.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,224 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"linecount" : 2,
+					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 249.0, 223.0, 34.0 ],
-					"text" : "check the intersection between a line and a sphere"
+					"patching_rect" : [ 124.0, 280.5, 261.0, 20.0 ],
+					"presentation_rect" : [ 127.0, 287.5, 0.0, 0.0 ],
+					"text" : "find the intersection between two lines (lua)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 124.0, 252.5, 166.0, 20.0 ],
+					"presentation_rect" : [ 127.0, 261.5, 0.0, 0.0 ],
+					"text" : "center of four points  (lua)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-28",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 279.5, 103.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 278.0, 341.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "intersect_lines",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 279.5, 113.0, 18.0 ],
+					"presentation_rect" : [ 245.0, 378.5, 0.0, 0.0 ],
+					"text" : "load intersect_lines"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 250.5, 103.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 202.0, 270.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "centroid4",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 250.5, 86.0, 18.0 ],
+					"presentation_rect" : [ 169.0, 307.5, 0.0, 0.0 ],
+					"text" : "load centroid4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 124.0, 224.5, 166.0, 20.0 ],
+					"presentation_rect" : [ 230.0, 267.5, 0.0, 0.0 ],
+					"text" : "center of three points (lua)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-23",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 222.5, 103.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 110.0, 267.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "centroid3",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-24",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 222.5, 86.0, 18.0 ],
+					"presentation_rect" : [ 110.0, 267.5, 0.0, 0.0 ],
+					"text" : "load centroid3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 124.0, 194.5, 243.0, 20.0 ],
+					"presentation_rect" : [ 148.0, 255.0, 0.0, 0.0 ],
+					"text" : "distance between two points (lua)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-20",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 194.5, 103.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 48.0, 254.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "point_distance",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 194.5, 114.0, 18.0 ],
+					"presentation_rect" : [ 48.0, 258.5, 0.0, 0.0 ],
+					"text" : "load point_distance"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 309.5, 267.0, 20.0 ],
+					"text" : "intersection between a line and a sphere  (lua)"
 				}
 
 			}
@@ -54,7 +265,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 249.5, 144.0, 23.0 ],
+					"patching_rect" : [ 7.0, 307.5, 144.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 246.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -73,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 252.5, 151.0, 18.0 ],
+					"patching_rect" : [ 7.0, 307.5, 151.0, 18.0 ],
 					"text" : "load intersect_line_sphere"
 				}
 
@@ -83,11 +294,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 197.0, 275.0, 34.0 ],
+					"patching_rect" : [ 107.0, 143.0, 336.0, 20.0 ],
 					"text" : "yields a vector that is perpendicular to the original two vectors"
 				}
 
@@ -100,7 +310,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 149.0, 230.0, 20.0 ],
+					"patching_rect" : [ 107.0, 114.5, 230.0, 20.0 ],
 					"text" : "get the angle between two vectors"
 				}
 
@@ -113,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 111.0, 246.0, 20.0 ],
+					"patching_rect" : [ 107.0, 87.5, 246.0, 20.0 ],
 					"text" : "gives you the direction between two vectors"
 				}
 
@@ -123,11 +333,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 65.0, 244.0, 34.0 ],
+					"patching_rect" : [ 107.0, 57.0, 337.0, 20.0 ],
 					"text" : "helps you to  move things around (position, direction, velocity)"
 				}
 
@@ -146,7 +355,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 196.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 142.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 294.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -165,7 +374,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 200.5, 107.0, 18.0 ],
+					"patching_rect" : [ 7.0, 146.5, 107.0, 18.0 ],
 					"text" : "load crossProduct"
 				}
 
@@ -184,7 +393,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 107.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 87.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.0, 198.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -203,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 112.5, 95.0, 18.0 ],
+					"patching_rect" : [ 7.0, 87.5, 95.0, 18.0 ],
 					"text" : "load vector_sub"
 				}
 
@@ -222,7 +431,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 66.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 58.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 149.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -241,7 +450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 70.5, 96.0, 18.0 ],
+					"patching_rect" : [ 7.0, 62.5, 96.0, 18.0 ],
 					"text" : "load vector_add"
 				}
 
@@ -260,7 +469,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 151.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 114.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 518.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -279,7 +488,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 154.5, 95.0, 18.0 ],
+					"patching_rect" : [ 7.0, 114.5, 95.0, 18.0 ],
 					"text" : "load dotProduct"
 				}
 
@@ -294,7 +503,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 293.5, 53.0, 20.0 ],
+					"patching_rect" : [ 7.0, 337.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -309,7 +518,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 381.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 381.0, 30.0 ],
 					"text" : "vectors in practice",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -325,7 +534,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 391.0, 21.0 ],
+					"patching_rect" : [ 3.0, 29.0, 391.0, 21.0 ],
 					"text" : "a few examples to get started with vectors in Max.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -344,7 +553,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 400.0, 51.0 ],
+					"patching_rect" : [ 1.0, 2.0, 460.0, 48.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -397,10 +606,82 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}

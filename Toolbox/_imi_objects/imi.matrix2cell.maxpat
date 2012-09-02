@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 221.0, 699.0, 691.0, 537.0 ],
+		"rect" : [ 199.0, 44.0, 691.0, 537.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -512,13 +512,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-59",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 269.0, 80.0, 32.0 ],
-					"text" : "jit_matrix noname807"
+					"patching_rect" : [ 34.0, 269.0, 80.0, 18.0 ],
+					"text" : "jit_matrix #1"
 				}
 
 			}

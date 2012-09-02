@@ -345,7 +345,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 331.0, 126.0, 22.0 ],
+					"patching_rect" : [ 5.0, 330.0, 126.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 477.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -454,7 +454,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 331.0, 159.0, 20.0 ],
+					"patching_rect" : [ 132.0, 330.0, 159.0, 20.0 ],
 					"text" : "kaleidoscope (texdisplace)"
 				}
 
@@ -1021,16 +1021,16 @@
 ,
 					"patching_rect" : [ 4.0, 82.0, 138.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p slab-comparison-CPU"
@@ -1585,16 +1585,16 @@
 ,
 					"patching_rect" : [ 4.0, 107.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p slab-comparison-GPU"
@@ -2075,7 +2075,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 343.0, 31.0 ],
 					"text" : "GLslab collection",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
