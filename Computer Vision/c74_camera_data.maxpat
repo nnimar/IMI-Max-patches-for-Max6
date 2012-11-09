@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 3
+			"revision" : 7
 		}
 ,
-		"rect" : [ 2.0, 44.0, 511.0, 232.0 ],
+		"rect" : [ 0.0, 44.0, 511.0, 232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -109,7 +109,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 299.0, 202.0, 76.0, 19.0 ],
+					"patching_rect" : [ 299.0, 202.0, 76.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -168,11 +168,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 200.0, 320.0, 23.0 ],
+					"patching_rect" : [ 12.0, 200.0, 320.0, 22.0 ],
 					"text" : "Read the article on the Cycling74 web page :"
 				}
 
@@ -181,11 +182,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 99.5, 306.0, 23.0 ],
+					"patching_rect" : [ 153.0, 99.5, 306.0, 22.0 ],
 					"text" : "make a silhouette in front of a white background"
 				}
 
@@ -194,11 +196,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 55.5, 206.0, 23.0 ],
+					"patching_rect" : [ 152.0, 55.5, 206.0, 22.0 ],
 					"text" : "the simplest, frame differencing"
 				}
 
@@ -207,11 +210,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 153.0, 143.5, 250.0, 23.0 ],
+					"patching_rect" : [ 153.0, 143.5, 250.0, 22.0 ],
 					"text" : "background removal, any background"
 				}
 
@@ -226,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 166.0, 107.0, 18.0 ],
+					"patching_rect" : [ 12.0, 166.0, 107.0, 17.0 ],
 					"text" : "silhouettes.maxpat"
 				}
 
@@ -241,7 +245,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 202.0, 137.0, 18.0 ],
+					"patching_rect" : [ 12.0, 202.0, 137.0, 17.0 ],
 					"text" : "median-motion.maxpat"
 				}
 
@@ -256,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 200.0, 52.0, 20.0 ],
+					"patching_rect" : [ 157.0, 200.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -271,7 +275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 182.0, 138.0, 18.0 ],
+					"patching_rect" : [ 12.0, 182.0, 138.0, 17.0 ],
 					"text" : "framedifferences.maxpat"
 				}
 
@@ -281,7 +285,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -300,7 +304,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

@@ -188,16 +188,16 @@
 ,
 					"patching_rect" : [ 189.0, 198.0, 93.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p layer_show"
@@ -341,16 +341,16 @@
 ,
 					"patching_rect" : [ 189.0, 133.0, 109.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p layer_activate"
@@ -367,7 +367,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.0, 100.0, 50.0, 23.0 ]
+					"patching_rect" : [ 332.0, 100.0, 50.0, 23.0 ]
 				}
 
 			}
@@ -480,7 +480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.0, 166.0, 47.0, 23.0 ]
+					"patching_rect" : [ 332.0, 166.0, 47.0, 23.0 ]
 				}
 
 			}
@@ -492,7 +492,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 365.0, 166.0, 99.0, 23.0 ],
+					"patching_rect" : [ 380.0, 166.0, 99.0, 23.0 ],
 					"text" : "opacity (0.-1.)"
 				}
 
@@ -618,18 +618,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 317.0, 198.0, 95.0, 23.0 ],
+					"patching_rect" : [ 332.0, 198.0, 95.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p layer_alpha"
@@ -644,7 +644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 100.0, 91.0, 23.0 ],
+					"patching_rect" : [ 388.0, 100.0, 91.0, 23.0 ],
 					"text" : "scale (0-1.)"
 				}
 
@@ -770,18 +770,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 317.0, 133.0, 110.0, 23.0 ],
+					"patching_rect" : [ 332.0, 133.0, 110.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p layer_scale"
@@ -911,16 +911,16 @@
 ,
 					"patching_rect" : [ 11.0, 139.0, 96.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 14.0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"description" : ""
+						"description" : "",
+						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 14.0
 					}
 ,
 					"text" : "p choose_clip"
