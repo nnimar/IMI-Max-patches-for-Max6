@@ -1,6 +1,8 @@
 ajm.overview, "Music composition (AJM tools)";
 ajm.midi.programs, "Midi programs for the AJM tools";
+scope, "visualise sound in Max";
 analyzer~help, "FFT-Based Perceptual Analysis (Pitch, Loudness, Brightness, Noisiness)";
+fiddle~help, "pitch estimator and sinusoidal peak finder";
 forbidden~planet, "White, pink noise + filters";
 threshold_help~, "outputs bangs when the signal exceeds a specified value";
 spectral_transformation, "J-F Charles' tutorials";

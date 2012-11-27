@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 84.0, 103.0, 462.0, 370.0 ],
@@ -30,12 +30,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 280.5, 261.0, 20.0 ],
-					"presentation_rect" : [ 127.0, 287.5, 0.0, 0.0 ],
 					"text" : "find the intersection between two lines (lua)"
 				}
 
@@ -44,12 +44,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 252.5, 166.0, 20.0 ],
-					"presentation_rect" : [ 127.0, 261.5, 0.0, 0.0 ],
 					"text" : "center of four points  (lua)"
 				}
 
@@ -88,7 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 279.5, 113.0, 18.0 ],
-					"presentation_rect" : [ 245.0, 378.5, 0.0, 0.0 ],
 					"text" : "load intersect_lines"
 				}
 
@@ -127,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 250.5, 86.0, 18.0 ],
-					"presentation_rect" : [ 169.0, 307.5, 0.0, 0.0 ],
 					"text" : "load centroid4"
 				}
 
@@ -136,12 +134,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 224.5, 166.0, 20.0 ],
-					"presentation_rect" : [ 230.0, 267.5, 0.0, 0.0 ],
 					"text" : "center of three points (lua)"
 				}
 
@@ -180,7 +178,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 222.5, 86.0, 18.0 ],
-					"presentation_rect" : [ 110.0, 267.5, 0.0, 0.0 ],
 					"text" : "load centroid3"
 				}
 
@@ -189,12 +186,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 194.5, 243.0, 20.0 ],
-					"presentation_rect" : [ 148.0, 255.0, 0.0, 0.0 ],
 					"text" : "distance between two points (lua)"
 				}
 
@@ -233,7 +230,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 194.5, 114.0, 18.0 ],
-					"presentation_rect" : [ 48.0, 258.5, 0.0, 0.0 ],
 					"text" : "load point_distance"
 				}
 
@@ -242,6 +238,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -293,6 +290,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -306,6 +304,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -319,6 +318,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -332,11 +332,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 57.0, 337.0, 20.0 ],
+					"patching_rect" : [ 107.0, 61.0, 337.0, 20.0 ],
 					"text" : "helps you to  move things around (position, direction, velocity)"
 				}
 
@@ -513,7 +514,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -529,7 +530,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -548,7 +549,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

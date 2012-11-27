@@ -30,8 +30,8 @@
 40, -----------------------;
 41, <category> 5 Computer_Vision;
 42, IMI_colourtrack "track a colour with jit.findbounds";
-43, background_removal "background removal";
-44, c74_camera_data "frame differencing and silhouette";
+43, c74_camera_data "frame differencing and silhouette";
+44, background_removal "background removal";
 45, v.regions "softVNS v.region object";
 46, faceOSC "an interface to faceOSC";
 47, openTSPS "an interface to TSPS";
