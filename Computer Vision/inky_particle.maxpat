@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 733.0, 875.0 ],
+		"rect" : [ 0.0, 44.0, 733.0, 875.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
-					"text" : "play a video using the the graphic card (the graphic processing unit)",
+					"text" : "use the camera values to create ink like particles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -5431,7 +5431,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../Applications/Max6/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}

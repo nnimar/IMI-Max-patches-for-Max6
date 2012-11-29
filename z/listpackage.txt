@@ -3,7 +3,6 @@ imi_zl, "graphic overview of the ZL object";
 zlhelp, "list overview of the ZL object";
 imi_sprintf, "format a message of words and numbers";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
-coll, "store and edit a collection of different messages";
 coll_tools, "the iter object vs the group object";
 FungibleData, "what you can do with lists";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";

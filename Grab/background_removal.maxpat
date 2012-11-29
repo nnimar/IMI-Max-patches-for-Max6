@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 766.0, 759.0 ],
@@ -28,31 +28,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 161.0, 134.0, 38.0 ],
-					"presentation_rect" : [ 456.0, 118.0, 0.0, 0.0 ],
-					"text" : "capture the webcam input for later use"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 348.0, 137.0, 48.0 ],
-					"presentation_rect" : [ 474.0, 235.0, 0.0, 0.0 ],
+					"patching_rect" : [ 426.0, 348.0, 137.0, 47.0 ],
 					"text" : "output the mask as an alpha (ARGB) and mix with the webcam (RGB)"
 				}
 
@@ -64,6 +48,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -80,6 +65,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -95,11 +81,12 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 92.0, 122.0, 24.0 ],
+					"patching_rect" : [ 206.0, 89.0, 122.0, 24.0 ],
 					"text" : "open the camera"
 				}
 
@@ -178,12 +165,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 285.0, 31.0 ],
+					"patching_rect" : [ 3.0, 3.0, 285.0, 30.0 ],
 					"text" : "Background removal ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -194,13 +181,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 628.0, 21.0 ],
-					"text" : "Press the space bar to set background (empty background), then press again to see the background removal",
+					"patching_rect" : [ 3.0, 30.0, 628.0, 21.0 ],
+					"text" : "press the space bar to set background (empty background), then press again to see the background removal",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -345,12 +332,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 626.0, 188.0, 64.0 ],
+					"patching_rect" : [ 176.0, 626.0, 188.0, 62.0 ],
 					"text" : "this mask could be improved using erode/ dilate morphological operations. \n\nsee jit.convolve-morphop.pat example or Jean marc Pelletier's cv.jit externals"
 				}
 
@@ -359,6 +347,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -377,7 +366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 457.0, 284.0, 20.0 ],
+					"patching_rect" : [ 12.0, 457.0, 282.0, 20.0 ],
 					"text" : "jit.rgb2luma @rscale 0.3 @gscale 0.3 @bscale 0.3"
 				}
 
@@ -391,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 714.0, 60.0, 36.0 ]
+					"patching_rect" : [ 12.0, 714.0, 60.0, 35.0 ]
 				}
 
 			}
@@ -404,7 +393,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 95.0, 51.0, 18.0 ],
+					"patching_rect" : [ 150.0, 92.0, 51.0, 18.0 ],
 					"text" : "settings"
 				}
 
@@ -418,7 +407,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 95.0, 38.0, 18.0 ],
+					"patching_rect" : [ 108.0, 92.0, 38.0, 18.0 ],
 					"text" : "close"
 				}
 
@@ -427,6 +416,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -441,6 +431,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -499,6 +490,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -602,7 +594,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 95.0, 35.0, 18.0 ],
+					"patching_rect" : [ 68.0, 92.0, 35.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -615,7 +607,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 65.0, 21.0, 21.0 ]
+					"patching_rect" : [ 12.0, 62.0, 21.0, 21.0 ]
 				}
 
 			}
@@ -628,7 +620,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 95.0, 50.0, 20.0 ],
+					"patching_rect" : [ 12.0, 92.0, 50.0, 20.0 ],
 					"text" : "metro 2"
 				}
 
@@ -663,6 +655,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -727,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.0, 732.0, 52.0, 20.0 ],
+					"patching_rect" : [ 579.0, 732.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -748,7 +741,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 460.5, 208.0, 20.0, 20.0 ],
+					"patching_rect" : [ 460.5, 207.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -798,7 +791,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 256.5, 515.0, 20.0, 20.0 ],
+					"patching_rect" : [ 256.5, 514.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -848,7 +841,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 336.0, 94.0, 20.0, 20.0 ],
+					"patching_rect" : [ 331.0, 91.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -863,7 +856,6 @@
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"grad2" : [ 0.78, 0.84, 0.86, 0.7 ],
 					"id" : "obj-42",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -879,7 +871,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-45",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

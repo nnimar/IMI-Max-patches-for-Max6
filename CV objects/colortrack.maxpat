@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 4.0, 44.0, 835.0, 520.0 ],
@@ -86,13 +86,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 416.0, 21.0 ],
-					"text" : "Click on a colored object on the screen and follow it using jit.findbounds",
+					"patching_rect" : [ 3.0, 28.0, 757.0, 21.0 ],
+					"text" : "Click on a colored object on the screen and follow it using jit.findbounds (make sure your object is properly lighten !)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -103,7 +103,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -121,12 +121,13 @@
 					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 319.0, 90.0, 53.0 ],
+					"patching_rect" : [ 20.0, 319.0, 90.0, 52.0 ],
 					"text" : "center point of our color area"
 				}
 
@@ -200,12 +201,13 @@
 					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 367.0, 129.0, 53.0 ],
+					"patching_rect" : [ 179.0, 367.0, 129.0, 52.0 ],
 					"text" : "use jit.lcd to have some visual feedback"
 				}
 
@@ -215,12 +217,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.0, 423.0, 176.0, 52.0 ],
+					"patching_rect" : [ 632.0, 423.0, 176.0, 51.0 ],
 					"text" : "subtracting the output of the suckah object to provide a little range of color."
 				}
 
@@ -426,7 +429,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 409.0, 204.0, 147.0, 23.0 ],
+					"patching_rect" : [ 409.0, 204.0, 147.0, 22.0 ],
 					"text" : "jit.lcd 4 char 320 240"
 				}
 
@@ -468,7 +471,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 168.0, 199.0, 106.0, 23.0 ],
+					"patching_rect" : [ 168.0, 199.0, 106.0, 22.0 ],
 					"text" : "jit.findbounds"
 				}
 
@@ -533,7 +536,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 409.0, 132.0, 129.0, 23.0 ],
+					"patching_rect" : [ 409.0, 132.0, 129.0, 22.0 ],
 					"text" : "jit.qt.grab 320 240"
 				}
 
@@ -543,12 +546,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 619.0, 294.0, 163.0, 38.0 ],
+					"patching_rect" : [ 619.0, 294.0, 163.0, 37.0 ],
 					"text" : "use suckah in the window to select a color to track"
 				}
 
@@ -575,7 +579,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-34",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

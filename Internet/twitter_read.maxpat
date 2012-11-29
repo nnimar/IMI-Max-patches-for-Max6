@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 2.0, 44.0, 573.0, 580.0 ],
+		"rect" : [ 0.0, 44.0, 573.0, 601.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -33,7 +33,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 72.0, 447.0, 20.0, 20.0 ]
+					"patching_rect" : [ 72.0, 425.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 474.0, 547.0, 84.0, 21.0 ],
+					"patching_rect" : [ 474.0, 564.0, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 656.0, 208.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 550.0, 86.0, 16.0 ],
+					"patching_rect" : [ 474.0, 567.0, 86.0, 16.0 ],
 					"text" : "load searchtweet"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.0, 548.0, 48.0, 18.0 ],
+					"patching_rect" : [ 477.0, 565.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -140,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 190.0, 78.0, 24.0 ],
+					"patching_rect" : [ 207.0, 162.0, 78.0, 24.0 ],
 					"text" : "examples"
 				}
 
@@ -155,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 283.0, 146.0, 24.0 ],
+					"patching_rect" : [ 121.0, 261.0, 146.0, 24.0 ],
 					"text" : "username | text | date"
 				}
 
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 194.0, 97.0, 18.0 ],
+					"patching_rect" : [ 103.0, 166.0, 97.0, 18.0 ],
 					"text" : "search nnimar 5"
 				}
 
@@ -183,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 223.0, 109.0, 18.0 ],
+					"patching_rect" : [ 103.0, 195.0, 109.0, 18.0 ],
 					"text" : "search @nnimar 1"
 				}
 
@@ -195,11 +195,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-24",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 107.0, 203.0, 24.0 ],
-					"text" : "enter search keyword or hashtag"
+					"patching_rect" : [ 214.0, 102.0, 160.0, 37.0 ],
+					"text" : "enter search keyword or hashtag then press enter"
 				}
 
 			}
@@ -226,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 251.0, 86.0, 18.0 ],
+					"patching_rect" : [ 103.0, 223.0, 86.0, 18.0 ],
 					"text" : "search #bbc 1"
 				}
 
@@ -240,7 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 251.0, 73.0, 18.0 ],
+					"patching_rect" : [ 21.0, 223.0, 73.0, 18.0 ],
 					"text" : "search $1 1"
 				}
 
@@ -274,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 21.0, 285.0, 97.0, 20.0 ],
+					"patching_rect" : [ 21.0, 263.0, 97.0, 20.0 ],
 					"text" : "mxj searchtweet"
 				}
 
@@ -377,7 +378,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 70.0, 447.0, 48.0, 20.0 ],
+					"patching_rect" : [ 70.0, 425.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -404,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 493.0, 38.0, 20.0 ],
+					"patching_rect" : [ 23.0, 471.0, 38.0, 20.0 ],
 					"text" : "prev"
 				}
 
@@ -418,7 +419,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 493.0, 37.0, 20.0 ],
+					"patching_rect" : [ 66.0, 471.0, 37.0, 20.0 ],
 					"text" : "next"
 				}
 
@@ -428,13 +429,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-17",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 522.0, 433.0, 45.0 ],
-					"text" : "no_other_alias \"@nnimar I also reccommend https://t.co/8Kl1QCUc if you are on windows.\""
+					"patching_rect" : [ 19.0, 500.0, 433.0, 85.0 ],
+					"text" : "nnimar \"RT @manovich: a new unique #digitalhumanities book is out: Digital_Humanities, MIT Press, November 2011 - free PDF download - http://t.co/TWCXwY6y\""
 				}
 
 			}
@@ -447,7 +448,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 419.0, 193.0, 20.0 ],
+					"patching_rect" : [ 21.0, 397.0, 193.0, 20.0 ],
 					"text" : "pack i s s"
 				}
 
@@ -461,7 +462,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 21.0, 447.0, 45.0, 20.0 ],
+					"patching_rect" : [ 21.0, 425.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -631,7 +632,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 21.0, 351.0, 78.0, 20.0 ],
+					"patching_rect" : [ 21.0, 329.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -659,7 +660,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.0, 378.0, 40.0, 20.0 ]
+					"patching_rect" : [ 21.0, 356.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -736,7 +737,7 @@
 					"destination" : [ "obj-83", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 30.5, 408.5, 30.5, 408.5 ],
+					"midpoints" : [ 30.5, 386.5, 30.5, 386.5 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -755,7 +756,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 112.5, 275.0, 30.5, 275.0 ],
+					"midpoints" : [ 112.5, 250.0, 30.5, 250.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -783,7 +784,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 75.5, 518.0, 11.0, 518.0, 11.0, 443.0, 30.5, 443.0 ],
+					"midpoints" : [ 75.5, 496.0, 11.0, 496.0, 11.0, 421.0, 30.5, 421.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -811,7 +812,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 32.5, 518.0, 11.5, 518.0, 11.5, 443.0, 30.5, 443.0 ],
+					"midpoints" : [ 32.5, 496.0, 11.5, 496.0, 11.5, 421.0, 30.5, 421.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -821,7 +822,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 112.5, 276.0, 30.5, 276.0 ],
+					"midpoints" : [ 112.5, 249.0, 30.5, 249.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -831,7 +832,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 112.5, 276.0, 30.5, 276.0 ],
+					"midpoints" : [ 112.5, 249.0, 30.5, 249.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -878,7 +879,7 @@
 					"destination" : [ "obj-83", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 56.5, 337.0, 204.5, 337.0 ],
+					"midpoints" : [ 56.5, 315.0, 204.5, 315.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -888,7 +889,7 @@
 					"destination" : [ "obj-83", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 30.5, 326.0, 117.5, 326.0 ],
+					"midpoints" : [ 30.5, 304.0, 117.5, 304.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -907,7 +908,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 30.5, 475.0, 442.5, 475.0 ],
+					"midpoints" : [ 30.5, 453.0, 442.5, 453.0 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
