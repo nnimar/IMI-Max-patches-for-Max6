@@ -25,7 +25,8 @@
 33, IMI_weather_report "an example with detox";
 34, IMI_pachube2OSC "read a Pachube feed";
 35, BBCnews "read the BBCnews";
-36, twitter_read "read and parse XML/twitter"; 
+36, twitter_read "read the twitter api"; 
+37, facebook "read a facebook file"; 
 37, regexp_tutorial "regular expression";
 40, -----------------------;
 41, <category> 5 Computer_Vision;

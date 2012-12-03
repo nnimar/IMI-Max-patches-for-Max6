@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 842.0, 630.0 ],
@@ -201,7 +201,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 849.0, 413.0, 596.0, 260.0 ],
@@ -704,7 +704,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 849.0, 44.0, 389.0, 129.0 ],
@@ -960,7 +960,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 849.0, 323.0, 728.0, 351.0 ],
@@ -1641,7 +1641,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 851.0, 293.0, 498.0, 260.0 ],
@@ -1693,7 +1693,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 6.0, 44.0, 264.0, 156.0 ],
@@ -2198,7 +2198,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 850.0, 44.0, 498.0, 195.0 ],
@@ -2486,7 +2486,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 850.0, 44.0, 495.0, 236.0 ],
@@ -2508,7 +2508,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2979,8 +2978,9 @@
 					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 453.0, 467.0, 115.0, 22.0 ],
 					"text" : "tap.xml.sax"
 				}
@@ -3187,6 +3187,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "tap.xml.sax.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/TapTools/TapTools Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/TapTools/TapTools Abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.xmlread2.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
 				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",

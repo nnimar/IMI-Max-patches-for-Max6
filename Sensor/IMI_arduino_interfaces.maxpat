@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 537.0, 594.0 ],
@@ -53,7 +53,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 269.0, 142.0, 18.0 ],
+					"patching_rect" : [ 95.0, 269.0, 142.0, 17.0 ],
 					"text" : "load maxuino-noGUI.help"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 298.0, 79.0, 18.0 ],
+					"patching_rect" : [ 136.0, 298.0, 79.0, 17.0 ],
 					"text" : "load maxuimi"
 				}
 
@@ -111,11 +111,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 508.0, 212.0, 23.0 ],
+					"patching_rect" : [ 256.0, 508.0, 212.0, 22.0 ],
 					"text" : "Misc interfaces with the Arduino"
 				}
 
@@ -147,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 507.0, 70.0, 18.0 ],
+					"patching_rect" : [ 134.0, 507.0, 70.0, 17.0 ],
 					"text" : "load BlinkM"
 				}
 
@@ -162,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 507.0, 52.0, 20.0 ],
+					"patching_rect" : [ 131.0, 507.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -194,7 +195,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 509.0, 131.0, 18.0 ],
+					"patching_rect" : [ 14.0, 509.0, 131.0, 17.0 ],
 					"text" : "load IMI_max4lightuino"
 				}
 
@@ -209,7 +210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 507.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 507.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -218,11 +219,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 445.0, 150.0, 23.0 ],
+					"patching_rect" : [ 256.0, 445.0, 150.0, 22.0 ],
 					"text" : "Max >> Arduino (any)"
 				}
 
@@ -231,11 +233,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 422.0, 257.0, 23.0 ],
+					"patching_rect" : [ 256.0, 422.0, 257.0, 22.0 ],
 					"text" : "Install the messenger library on Arduino"
 				}
 
@@ -267,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 428.0, 140.0, 18.0 ],
+					"patching_rect" : [ 15.0, 428.0, 140.0, 17.0 ],
 					"text" : "load messenger.maxhelp"
 				}
 
@@ -282,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 432.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 432.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -297,7 +300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 428.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 428.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -340,11 +343,12 @@
 				"box" : 				{
 					"fontname" : "Arial Italic",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 563.0, 506.0, 23.0 ],
+					"patching_rect" : [ 9.0, 563.0, 506.0, 22.0 ],
 					"text" : "Be patient, it can take up to 20 seconds to open patches using the serial object."
 				}
 
@@ -368,11 +372,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 201.0, 216.0, 23.0 ],
+					"patching_rect" : [ 256.0, 201.0, 216.0, 22.0 ],
 					"text" : "Arduino >> Max (5 or 12 input)"
 				}
 
@@ -381,11 +386,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 286.0, 230.0, 23.0 ],
+					"patching_rect" : [ 256.0, 286.0, 230.0, 22.0 ],
 					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
@@ -394,11 +400,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 162.0, 175.0, 23.0 ],
+					"patching_rect" : [ 256.0, 162.0, 175.0, 22.0 ],
 					"text" : "Arduino >> Max (1 input)"
 				}
 
@@ -413,7 +420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 201.0, 197.0, 18.0 ],
+					"patching_rect" : [ 15.0, 201.0, 197.0, 17.0 ],
 					"text" : "load IMI_arduino2max_multi.maxpat"
 				}
 
@@ -428,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 201.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 201.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -437,11 +444,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 364.0, 151.0, 23.0 ],
+					"patching_rect" : [ 256.0, 364.0, 151.0, 22.0 ],
 					"text" : "Max >> Arduino "
 				}
 
@@ -450,12 +458,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 81.0, 264.0, 39.0 ],
+					"patching_rect" : [ 257.0, 81.0, 264.0, 38.0 ],
 					"text" : "see Applications>Max6>example\n>IMIpatches > Sensor Interfaces"
 				}
 
@@ -464,11 +473,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 54.0, 261.0, 23.0 ],
+					"patching_rect" : [ 256.0, 54.0, 261.0, 22.0 ],
 					"text" : "Click to open the sensor interface folder"
 				}
 
@@ -477,11 +487,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 342.0, 258.0, 23.0 ],
+					"patching_rect" : [ 256.0, 342.0, 258.0, 22.0 ],
 					"text" : "Install max2arduino.ino on the Arduino"
 				}
 
@@ -513,7 +524,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 353.0, 103.0, 18.0 ],
+					"patching_rect" : [ 15.0, 353.0, 103.0, 17.0 ],
 					"text" : "load max2arduino"
 				}
 
@@ -528,7 +539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 355.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 355.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -543,7 +554,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 354.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 354.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -552,11 +563,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 263.0, 249.0, 23.0 ],
+					"patching_rect" : [ 256.0, 263.0, 249.0, 22.0 ],
 					"text" : "Install StandardFirmata on the Arduino"
 				}
 
@@ -588,7 +600,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 269.0, 146.0, 18.0 ],
+					"patching_rect" : [ 15.0, 269.0, 146.0, 17.0 ],
 					"text" : "load maxuino.help.maxpat"
 				}
 
@@ -603,7 +615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 267.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 267.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -618,7 +630,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 164.0, 166.0, 18.0 ],
+					"patching_rect" : [ 16.0, 164.0, 166.0, 17.0 ],
 					"text" : "load IMI_arduino2max.maxpat"
 				}
 
@@ -633,7 +645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 163.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 163.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -643,7 +655,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -661,11 +673,12 @@
 					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-36",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 74.0, 340.0, 17.0 ],
+					"patching_rect" : [ 17.0, 72.0, 151.0, 41.0 ],
 					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSensors.scpt"
 				}
 
@@ -677,7 +690,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-12",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -694,7 +706,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -711,7 +722,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-14",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -728,7 +738,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-28",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -745,7 +754,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -762,7 +770,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
