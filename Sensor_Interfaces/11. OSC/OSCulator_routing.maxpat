@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 380.0, 44.0, 431.0, 455.0 ],
+		"rect" : [ 454.0, 44.0, 431.0, 455.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,12 +53,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 56.0, 165.0, 48.0 ],
+					"patching_rect" : [ 266.0, 56.0, 165.0, 47.0 ],
 					"text" : "You don't need Max to route \nOSC messages, this tutorial\nis to show how to do it."
 				}
 
@@ -67,12 +68,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 415.0, 402.0, 34.0 ],
+					"patching_rect" : [ 12.0, 415.0, 402.0, 33.0 ],
 					"text" : "In Osculator, you need to choose Event Type (OSC Routing) and Value to another OSC message the OSC URL to where you want to ouptut "
 				}
 
@@ -81,11 +83,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 366.0, 160.0, 23.0 ],
+					"patching_rect" : [ 14.0, 366.0, 160.0, 22.0 ],
 					"text" : "then test with osculator :"
 				}
 
@@ -94,11 +97,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 335.0, 199.0, 23.0 ],
+					"patching_rect" : [ 13.0, 335.0, 199.0, 22.0 ],
 					"text" : "test with the UDPreceive first :"
 				}
 
@@ -114,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 364.0, 135.0, 56.0 ],
+					"patching_rect" : [ 216.0, 364.0, 135.0, 55.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/routing.oscd\\\"\""
 				}
 
@@ -123,7 +127,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -140,7 +144,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -200,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 215.0, 335.5, 52.0, 20.0 ],
+					"patching_rect" : [ 215.0, 335.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -242,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.170593, 189.557251, 174.0, 21.0 ],
+					"patching_rect" : [ 36.170593, 189.557251, 174.0, 20.0 ],
 					"text" : "/moviesource101/clipnr $1"
 				}
 
@@ -271,7 +275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.170593, 93.557251, 113.0, 21.0 ],
+					"patching_rect" : [ 11.170593, 93.557251, 113.0, 20.0 ],
 					"text" : "/layer1/pos_x $1"
 				}
 
@@ -285,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 232.0, 37.0, 23.0 ],
+					"patching_rect" : [ 12.0, 232.0, 37.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -324,7 +328,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

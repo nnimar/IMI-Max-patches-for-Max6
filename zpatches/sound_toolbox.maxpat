@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.0, 640.0, 96.0, 16.0 ],
+					"patching_rect" : [ 476.0, 639.0, 96.0, 16.0 ],
 					"text" : "read soundtools.txt"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 476.0, 639.0, 52.0, 18.0 ],
+					"patching_rect" : [ 475.0, 638.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 91.0, 39.0, 54.0, 18.0 ],
+					"patching_rect" : [ 90.0, 38.0, 54.0, 18.0 ],
 					"text" : "delay 500"
 				}
 
@@ -232,7 +232,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 205.0, 39.0, 35.0, 18.0 ],
+					"patching_rect" : [ 204.0, 38.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -260,7 +260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 335.0, 38.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -275,7 +275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 642.0, 95.0, 18.0 ],
+					"patching_rect" : [ 6.0, 641.0, 95.0, 18.0 ],
 					"text" : "sprintf %s.maxpat"
 				}
 
@@ -290,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 642.0, 70.0, 18.0 ],
+					"patching_rect" : [ 30.0, 641.0, 70.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -305,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 642.0, 47.0, 18.0 ],
+					"patching_rect" : [ 50.0, 641.0, 47.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -320,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 643.0, 55.0, 18.0 ],
+					"patching_rect" : [ 3.0, 642.0, 55.0, 18.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -335,7 +335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 40.0, 88.0, 16.0 ],
+					"patching_rect" : [ 244.0, 39.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -350,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 39.0, 71.0, 16.0 ],
+					"patching_rect" : [ 3.0, 38.0, 71.0, 16.0 ],
 					"text" : "refer stoolbox"
 				}
 
@@ -365,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 149.0, 39.0, 52.0, 18.0 ],
+					"patching_rect" : [ 148.0, 38.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -380,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 412.0, 640.0, 66.0, 18.0 ],
+					"patching_rect" : [ 411.0, 639.0, 66.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -404,9 +404,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 62.0, 571.0, 596.0 ],
+					"patching_rect" : [ 3.0, 61.0, 571.0, 596.0 ],
 					"rowhead" : 1,
-					"rows" : 32,
+					"rows" : 30,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -422,7 +422,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 163.0, 30.0 ],
+					"patching_rect" : [ 4.0, 4.0, 163.0, 30.0 ],
 					"text" : "Sound toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -438,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 33.0, 420.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 420.0, 21.0 ],
 					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -456,7 +456,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 575.0, 52.0 ],
+					"patching_rect" : [ 2.0, 3.0, 575.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -494,7 +494,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 214.5, 61.5, 13.5, 61.5 ],
+					"midpoints" : [ 213.5, 60.5, 12.5, 60.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -522,7 +522,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 254.5, 61.5, 13.5, 61.5 ],
+					"midpoints" : [ 253.5, 60.5, 12.5, 60.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

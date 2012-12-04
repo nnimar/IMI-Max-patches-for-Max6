@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 445.0, 306.0 ],
+		"rect" : [ 1.0, 44.0, 445.0, 306.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -68,11 +68,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 269.5, 160.0, 23.0 ],
+					"patching_rect" : [ 237.0, 269.5, 160.0, 22.0 ],
 					"text" : "alternatives to osc-route"
 				}
 
@@ -119,12 +120,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 223.5, 156.0, 39.0 ],
+					"patching_rect" : [ 237.0, 223.5, 156.0, 38.0 ],
 					"text" : "how to use OSCulator \nto route messages"
 				}
 
@@ -171,11 +173,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 135.5, 177.0, 23.0 ],
+					"patching_rect" : [ 237.0, 135.5, 177.0, 22.0 ],
 					"text" : "control Modul8 using OSC"
 				}
 
@@ -222,11 +225,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 173.5, 177.0, 23.0 ],
+					"patching_rect" : [ 237.0, 173.5, 177.0, 22.0 ],
 					"text" : "control Millumin using OSC"
 				}
 
@@ -349,7 +353,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -365,11 +369,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 99.5, 193.0, 23.0 ],
+					"patching_rect" : [ 237.0, 99.5, 193.0, 22.0 ],
 					"text" : "control Resolume using OSC"
 				}
 
@@ -378,11 +383,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 61.5, 160.0, 23.0 ],
+					"patching_rect" : [ 237.0, 61.5, 160.0, 22.0 ],
 					"text" : "control VPT using OSC"
 				}
 
@@ -397,7 +403,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 182.5, 52.0, 20.0 ],
+					"patching_rect" : [ 7.0, 182.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -407,7 +413,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -429,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 271.5, 52.0, 20.0 ],
+					"patching_rect" : [ 7.0, 271.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -441,7 +447,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -458,7 +463,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

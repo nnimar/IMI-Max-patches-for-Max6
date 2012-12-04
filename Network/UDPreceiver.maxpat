@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 820.0, 44.0, 426.0, 381.0 ],
+		"rect" : [ 894.0, 44.0, 426.0, 381.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -39,7 +39,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 931.0, 44.0, 317.0, 197.0 ],
@@ -65,11 +65,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 86.0, 55.0, 23.0 ],
+									"patching_rect" : [ 11.0, 86.0, 55.0, 22.0 ],
 									"text" : "receive"
 								}
 
@@ -78,11 +79,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 22.0, 16.0, 42.0, 23.0 ],
+									"patching_rect" : [ 22.0, 16.0, 42.0, 22.0 ],
 									"text" : "send"
 								}
 
@@ -138,7 +140,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 71.170654, 48.442749, 228.0, 26.0 ],
+									"patching_rect" : [ 71.170654, 48.442749, 228.0, 25.0 ],
 									"text" : "/moviesource101/clipnr $1"
 								}
 
@@ -194,26 +196,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "OSC-route.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 287.0, 351.0, 131.0, 23.0 ],
+					"patching_rect" : [ 287.0, 351.0, 131.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 14.0
+						"fontname" : "Arial",
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p osc-route_tutorial"
@@ -227,11 +224,12 @@
 					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 299.0, 118.0, 42.0 ],
+					"patching_rect" : [ 25.0, 299.0, 118.0, 41.0 ],
 					"text" : "then route /clipnr"
 				}
 
@@ -240,12 +238,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 60.0, 244.0, 55.0 ],
+					"patching_rect" : [ 172.0, 60.0, 244.0, 53.0 ],
 					"text" : "receives message over a network\non the \"6666\" channel, \"cnmat\" reads full packet messages"
 				}
 
@@ -257,12 +256,13 @@
 					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 209.0, 183.0, 58.0 ],
+					"patching_rect" : [ 25.0, 209.0, 188.0, 57.0 ],
 					"text" : "route the messages coming \nfrom /moviesource101/"
 				}
 
@@ -272,11 +272,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 146.0, 122.0, 27.0 ],
+					"patching_rect" : [ 206.0, 146.0, 122.0, 26.0 ],
 					"text" : "see the content"
 				}
 
@@ -286,12 +287,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 184.0, 31.0 ],
+					"patching_rect" : [ 1.0, 2.0, 184.0, 30.0 ],
 					"text" : "Test UPDreceiver",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -302,7 +303,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -323,7 +324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 150.0, 175.0, 21.0 ],
+					"patching_rect" : [ 26.0, 150.0, 175.0, 20.0 ],
 					"text" : "/moviesource101/clipnr 17"
 				}
 
@@ -337,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 9.0, 97.0, 122.0, 23.0 ],
+					"patching_rect" : [ 9.0, 97.0, 122.0, 22.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -351,7 +352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 61.0, 156.0, 23.0 ],
+					"patching_rect" : [ 9.0, 61.0, 156.0, 22.0 ],
 					"text" : "udpreceive 6666 cnmat"
 				}
 
@@ -366,7 +367,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 351.0, 50.0, 23.0 ]
+					"patching_rect" : [ 9.0, 351.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -379,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 276.0, 110.0, 23.0 ],
+					"patching_rect" : [ 9.0, 276.0, 110.0, 22.0 ],
 					"text" : "osc-route /clipnr"
 				}
 
@@ -393,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 185.0, 179.0, 23.0 ],
+					"patching_rect" : [ 9.0, 185.0, 179.0, 22.0 ],
 					"text" : "osc-route /moviesource101"
 				}
 
@@ -405,7 +406,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-3",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

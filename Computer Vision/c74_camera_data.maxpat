@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 511.0, 232.0 ],
@@ -109,7 +109,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 299.0, 202.0, 76.0, 22.0 ],
+					"patching_rect" : [ 301.0, 201.0, 76.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -152,28 +152,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 180.0, 69.0, 18.0 ],
-					"text" : "prepend load"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 200.0, 320.0, 22.0 ],
+					"patching_rect" : [ 11.0, 200.0, 320.0, 22.0 ],
 					"text" : "Read the article on the Cycling74 web page :"
 				}
 
@@ -230,8 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 166.0, 107.0, 17.0 ],
-					"text" : "silhouettes.maxpat"
+					"patching_rect" : [ 11.0, 145.0, 91.0, 17.0 ],
+					"text" : "load silhouettes"
 				}
 
 			}
@@ -245,8 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 202.0, 137.0, 17.0 ],
-					"text" : "median-motion.maxpat"
+					"patching_rect" : [ 11.0, 102.0, 112.0, 17.0 ],
+					"text" : "load median-motion"
 				}
 
 			}
@@ -260,7 +245,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 200.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 172.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -275,8 +260,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 182.0, 138.0, 17.0 ],
-					"text" : "framedifferences.maxpat"
+					"patching_rect" : [ 11.0, 61.0, 122.0, 17.0 ],
+					"text" : "load framedifferences"
 				}
 
 			}
@@ -316,7 +301,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
@@ -325,7 +310,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-28", 0 ]
@@ -334,7 +319,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-31", 0 ]
@@ -383,15 +368,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
