@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
@@ -144,7 +144,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 111.0, 16.0 ],
-					"text" : "IMI Max patches v2.25"
+					"text" : "IMI Max patches v2.26"
 				}
 
 			}
@@ -200,12 +200,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 11.600006,
-					"frgb" : [ 0.202792, 0.2038, 0.274174, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 33.0, 208.0, 20.0 ],
+					"patching_rect" : [ 22.0, 33.0, 208.0, 19.0 ],
 					"text" : "____________________________",
 					"textcolor" : [ 0.202792, 0.2038, 0.274174, 1.0 ]
 				}
@@ -216,13 +216,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.277516, 0.278843, 0.36965, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.25 (09/2012)",
+					"text" : "Nicolas Marechal, v2.26 (1/2013)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -243,7 +243,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -283,6 +283,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -549,22 +550,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 528.0, 503.0, 20.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -581,7 +581,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "DbN3D.2",
+					"items" : "Global",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -603,7 +603,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "basic jit.expr", ",", "matrix to GL Nurbs", ",", "control multiple gridshape", ",", "create an isosurf", ",", "an overview of the GL in Max" ],
+					"items" : [ ",", "global help", ",", "useful objects for Max", ",", "useful objects to handle lists", ",", "jitter overview", ",", "MSP overview" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -635,7 +635,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_jitexpr", "GLnurbs", "GLmultiple", "GLisosurf", "GLmisc" ],
+					"tabs" : [ "IMI_max5", "IMI_toolbox", "list_toolbox", "Jitter_overview", "MSP_overview" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -657,7 +657,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -697,6 +697,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -963,22 +964,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 277.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -995,7 +995,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "DbN3D",
+					"items" : "Sensors",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1017,7 +1017,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "welcome to 3d world", ",", "shapes in 3D", ",", "gridshape geometry advanced", ",", "GLSketch and OpenGL", ",", "noise to GLSketch tutorial", ",", "intro to GLmesh" ],
+					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "sensor tools" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1049,7 +1049,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "jittervsGL", "GLgridshape", "GLgeometry", "GLsketch", "Noise2GLsketch", "GLmesh" ],
+					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_sensors_tools" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1071,7 +1071,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1111,6 +1111,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1377,22 +1378,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 24.0, 508.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -1409,7 +1409,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "DbN2D",
+					"items" : "Drawing",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1431,7 +1431,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "using the LCD space", ",", "motion using counter", ",", "oscillation using sin/cos", ",", "noise to jit.sketch position", ",", "drawagent" ],
+					"items" : [ ",", "intro to LCD", ",", "drawing shapes", ",", "simple drawing with LCD", ",", "Drawing like Processing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1463,7 +1463,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_lcd_space", "IMI_lcd_motion", "IMI_lcd_oscillation", "IMI_noise2lcd", "Drawagent" ],
+					"tabs" : [ "IMI_jit_lcd", "IMI_jit_lcd+", "IMI_lcd_drawing", "IMI_lcd_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1485,7 +1485,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1525,6 +1525,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1791,22 +1792,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 530.0, 274.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -1823,7 +1823,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Internet",
+					"items" : "Sound",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1845,7 +1845,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "using XML in Max", ",", "an example with detox", ",", "read a Pachube feed", ",", "read the BBCnews", ",", "read and parse XML/twitter", ",", "regular expression" ],
+					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound player using sfplay", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1879,7 +1879,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_xml", "IMI_weather_report", "IMI_pachube2OSC", "BBCnews", "twitter_read", "regexp_tutorial" ],
+					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -1901,7 +1901,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1941,6 +1941,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2207,22 +2208,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 279.0, 276.0, 17.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -2239,7 +2239,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Exhibition",
+					"items" : "Video",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2261,7 +2261,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "video player for multi screens", ",", "multi-layered video", ",", "space mapping for multi screens", ",", "iCinema", ",", "control VPT/Resolume from Max" ],
+					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "advanced quicktime play" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2293,7 +2293,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_space_mapping", "IMI_iCinema", "IMI_OSControl" ],
+					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "quicktime_smooth" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2315,7 +2315,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 777.0, 141.0, 294.0, 167.0 ],
@@ -2355,6 +2355,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2621,22 +2622,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 21.0, 278.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p"
@@ -2653,7 +2653,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Projection",
+					"items" : "Introduction",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2675,7 +2675,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "simple GL video player", ",", "optimised GL video player", ",", "mask over a video", ",", "using GLrender and GLcamera", ",", "keystone for GL objects" ],
+					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "a few rules to help you patching", ",", "credits" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2707,7 +2707,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_simple_video_player", "GLsmooth_slab", "GLslab_video_mask", "GLcamera_render", "GLcornerpin+" ],
+					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "Max_patching_rules", "IMI_credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -2718,12 +2718,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 23.199997,
-					"frgb" : [ 0.266117, 0.267399, 0.355108, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 17.0, 262.0, 33.0 ],
+					"patching_rect" : [ 21.0, 17.0, 262.0, 32.0 ],
 					"text" : "IMI Max patches",
 					"textcolor" : [ 0.266117, 0.267399, 0.355108, 1.0 ]
 				}
@@ -2848,7 +2848,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 383.0, 44.0, 914.0, 674.0 ],
@@ -2942,6 +2942,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-32",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -2956,6 +2957,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold Italic",
 									"fontsize" : 13.914225,
+									"frgb" : 0.0,
 									"id" : "obj-73",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2969,12 +2971,13 @@
 								"box" : 								{
 									"fontname" : "Arial Italic",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-72",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 440.0, 314.0, 132.0, 54.0 ],
+									"patching_rect" : [ 440.0, 314.0, 132.0, 53.0 ],
 									"text" : "Note : a category name should refer to a directory name within the examples folder, when possible"
 								}
 
@@ -2983,6 +2986,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-66",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2996,6 +3000,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-60",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3009,6 +3014,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-58",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3022,6 +3028,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-51",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3035,12 +3042,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-48",
 									"linecount" : 12,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 574.0, 333.0, 316.0, 150.0 ],
+									"patching_rect" : [ 574.0, 333.0, 316.0, 146.0 ],
 									"text" : "1, <category> 1 \"CategoryName\";\r2, PatchName \"ThisIsTheLongestDescriptionYouCanEnter\";\r3, PatchName ShortDescription;\r4, PatchName ShortDescription;\r5, PatchName ShortDescription;\r6, PatchName ShortDescription;\r7, PatchName ShortDescription;\r8, PatchName ShortDescription;\r9, PatchName ShortDescription;\r10, PatchName ShortDescription;\r11, PatchName ShortDescription;\r12, -----------------------;"
 								}
 
@@ -3049,6 +3057,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-46",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3077,6 +3086,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-44",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3090,6 +3100,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-40",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3103,12 +3114,13 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-39",
 									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 573.0, 55.0, 312.0, 102.0 ],
+									"patching_rect" : [ 573.0, 55.0, 312.0, 100.0 ],
 									"text" : "format for one panel (or category) : \n- index (any), <category> panel-index (1-8) \"category name\";\n- index (any),  patch-name \"your comment\";\n- index (any), -----------------------; (ends the category)\n\n- close coll text editor\n- renumber the indexes (optional)\n- save the patch"
 								}
 
@@ -3117,12 +3129,13 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"frgb" : 0.0,
 									"id" : "obj-38",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 451.0, 194.0, 116.0, 42.0 ],
+									"patching_rect" : [ 451.0, 194.0, 116.0, 41.0 ],
 									"text" : "add new collections here (with \"save data with patcher\" flag on)"
 								}
 
@@ -4206,40 +4219,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "IMIMax103.txt",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "IMIMax102.txt",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "IMIMax101.txt",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 436.0, 54.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"digest" : "",
-						"fontsize" : 9.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontface" : 0
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p Content"
@@ -4269,7 +4263,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-27",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4286,7 +4279,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-22",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4303,7 +4295,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4320,7 +4311,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-12",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4337,7 +4327,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-40",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4354,7 +4343,6 @@
 					"grad1" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-2",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4371,7 +4359,6 @@
 					"grad1" : [ 0.8, 0.8, 0.803922, 1.0 ],
 					"grad2" : [ 0.741176, 0.741176, 0.803922, 1.0 ],
 					"id" : "obj-34",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4896,7 +4883,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "IMIMax103.txt",
+				"name" : "IMIMax101.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
 				"patcherrelativepath" : "../../examples/IMIpatches/z",
 				"type" : "TEXT",
@@ -4910,7 +4897,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax101.txt",
+				"name" : "IMIMax103.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
 				"patcherrelativepath" : "../../examples/IMIpatches/z",
 				"type" : "TEXT",
