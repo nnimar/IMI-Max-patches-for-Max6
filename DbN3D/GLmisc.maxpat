@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 457.0, 383.0 ],
@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.0, 191.0, 153.0, 17.0 ],
-					"presentation_rect" : [ 302.0, 248.0, 0.0, 0.0 ],
 					"text" : "load GLmodel_matrixoutput"
 				}
 

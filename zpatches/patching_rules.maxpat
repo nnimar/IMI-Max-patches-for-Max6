@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
-		"rect" : [ 765.0, 44.0, 784.0, 419.0 ],
+		"rect" : [ 89.0, 579.0, 784.0, 419.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5589.0, 240.0, 219.0, 24.0 ],
+					"patching_rect" : [ 5597.0, 240.0, 219.0, 24.0 ],
 					"text" : "advanced video effects with shaders"
 				}
 
@@ -496,11 +496,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5475.0, 242.0, 110.0, 20.0 ],
+					"patching_rect" : [ 5475.0, 242.0, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5698.0, 190.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "shader overview",
+					"text" : "GLslab collection",
 					"texton" : "Stop"
 				}
 
@@ -515,8 +515,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5458.0, 267.0, 169.0, 18.0 ],
-					"text" : "load shader_overview_v001"
+					"patching_rect" : [ 5458.0, 267.0, 131.0, 18.0 ],
+					"text" : "load GLslab_collection"
 				}
 
 			}
@@ -826,7 +826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3410,7 +3410,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

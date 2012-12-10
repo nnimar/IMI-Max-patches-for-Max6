@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 440.0, 339.0 ],
+		"rect" : [ 1.0, 44.0, 440.0, 387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,11 +30,66 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 187.0, 204.0, 225.0, 22.0 ],
+					"presentation_rect" : [ 187.0, 237.0, 0.0, 0.0 ],
+					"text" : "nurbs with physics"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 11.0, 204.0, 111.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 13.0, 237.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLNurbs_sheet",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 204.0, 102.0, 16.0 ],
+					"presentation_rect" : [ 13.0, 237.0, 0.0, 0.0 ],
+					"text" : "load GLNurbs_sheet"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 234.0, 213.0, 23.0 ],
+					"patching_rect" : [ 13.0, 275.0, 213.0, 22.0 ],
 					"text" : "Andrew Benson's Jitter recipes"
 				}
 
@@ -43,11 +98,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 300.0, 229.0, 23.0 ],
+					"patching_rect" : [ 187.0, 341.0, 229.0, 22.0 ],
 					"text" : "make nurb images based on sound"
 				}
 
@@ -62,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 330.0, 43.0, 17.0 ],
+					"patching_rect" : [ 12.0, 371.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -71,11 +127,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 269.0, 212.0, 23.0 ],
+					"patching_rect" : [ 187.0, 310.0, 212.0, 22.0 ],
 					"text" : "apply effects on nurbs image"
 				}
 
@@ -94,7 +151,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 300.0, 107.0, 20.0 ],
+					"patching_rect" : [ 13.0, 341.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -113,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 300.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 341.0, 99.0, 16.0 ],
 					"text" : "load 22.CatchNurbs"
 				}
 
@@ -132,7 +189,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 269.0, 124.0, 20.0 ],
+					"patching_rect" : [ 13.0, 310.0, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -151,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 269.0, 111.0, 16.0 ],
+					"patching_rect" : [ 13.0, 310.0, 111.0, 16.0 ],
 					"text" : "load 21.SceneProcess"
 				}
 
@@ -160,11 +217,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 183.0, 225.0, 23.0 ],
+					"patching_rect" : [ 187.0, 175.0, 225.0, 22.0 ],
 					"text" : "extrude a gridshape object w/ Gen"
 				}
 
@@ -173,11 +231,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 153.0, 212.0, 23.0 ],
+					"patching_rect" : [ 187.0, 147.0, 212.0, 22.0 ],
 					"text" : "use sound as a source for nurbs"
 				}
 
@@ -186,11 +245,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 124.0, 220.0, 23.0 ],
+					"patching_rect" : [ 187.0, 120.0, 220.0, 22.0 ],
 					"text" : "use a video as a source for nurbs"
 				}
 
@@ -209,7 +269,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 94.0, 146.0, 20.0 ],
+					"patching_rect" : [ 13.0, 92.0, 146.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -228,7 +288,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 94.0, 133.0, 16.0 ],
+					"patching_rect" : [ 13.0, 92.0, 133.0, 16.0 ],
 					"text" : "load GLnurbs_manipulator"
 				}
 
@@ -247,7 +307,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 183.0, 120.0, 20.0 ],
+					"patching_rect" : [ 13.0, 175.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 181.0, 149.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -266,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 183.0, 109.0, 16.0 ],
+					"patching_rect" : [ 13.0, 175.0, 109.0, 16.0 ],
 					"text" : "load GLnurbs_extrude"
 				}
 
@@ -323,7 +383,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 153.0, 113.0, 20.0 ],
+					"patching_rect" : [ 13.0, 147.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 458.0, 385.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -346,7 +406,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 124.0, 109.0, 18.0 ],
+					"patching_rect" : [ 13.0, 120.0, 109.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -365,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 200.0, 43.0, 17.0 ],
+					"patching_rect" : [ 12.0, 230.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -380,7 +440,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 124.0, 100.0, 16.0 ],
+					"patching_rect" : [ 13.0, 120.0, 100.0, 16.0 ],
 					"text" : "load GLnurbs_video"
 				}
 
@@ -395,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 153.0, 103.0, 16.0 ],
+					"patching_rect" : [ 13.0, 147.0, 103.0, 16.0 ],
 					"text" : "load GLnurbs_sound"
 				}
 
@@ -404,11 +464,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 94.0, 212.0, 23.0 ],
+					"patching_rect" : [ 187.0, 92.0, 212.0, 22.0 ],
 					"text" : "create your own control matrix"
 				}
 
@@ -417,11 +478,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 64.0, 227.0, 23.0 ],
+					"patching_rect" : [ 187.0, 64.0, 230.0, 22.0 ],
 					"text" : "use a matrix to control nurbs points "
 				}
 
@@ -430,7 +492,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -447,7 +509,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -466,12 +528,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-40",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 223.0, 428.0, 4.0 ],
+					"patching_rect" : [ 4.0, 264.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -483,7 +544,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -589,6 +649,15 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -617,6 +686,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
