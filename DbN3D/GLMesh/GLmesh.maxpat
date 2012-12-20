@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 438.0, 624.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,60 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-65",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 11.0, 397.0, 114.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 54.0, 417.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLmesh_shatter",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-66",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.0, 402.0, 106.0, 16.0 ],
+					"presentation_rect" : [ 54.0, 417.0, 0.0, 0.0 ],
+					"text" : "load GLmesh_shatter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-67",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 190.0, 396.0, 238.0, 22.0 ],
+					"presentation_rect" : [ 232.0, 417.0, 0.0, 0.0 ],
+					"text" : "break an images in units then shatter"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
@@ -35,8 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 493.0, 164.0, 22.0 ],
-					"presentation_rect" : [ 189.0, 493.0, 0.0, 0.0 ],
+					"patching_rect" : [ 189.0, 518.0, 164.0, 22.0 ],
 					"text" : "catch to mesh, use mask"
 				}
 
@@ -55,7 +108,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 493.0, 107.0, 20.0 ],
+					"patching_rect" : [ 9.0, 518.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 501.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,8 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 494.0, 99.0, 16.0 ],
-					"presentation_rect" : [ 127.0, 503.0, 0.0, 0.0 ],
+					"patching_rect" : [ 9.0, 519.0, 99.0, 16.0 ],
 					"text" : "load GLmesh_mask"
 				}
 
@@ -321,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 347.0, 141.0, 17.0 ],
+					"patching_rect" : [ 11.0, 347.0, 141.0, 17.0 ],
 					"text" : "load GLmesh_bfg-texture"
 				}
 
@@ -349,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 397.0, 190.0, 22.0 ],
+					"patching_rect" : [ 189.0, 422.0, 190.0, 22.0 ],
 					"text" : "create texture coordinates"
 				}
 
@@ -368,7 +420,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 398.0, 166.0, 20.0 ],
+					"patching_rect" : [ 11.0, 423.0, 166.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.0, 270.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -386,7 +438,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 398.0, 141.0, 16.0 ],
+					"patching_rect" : [ 11.0, 423.0, 141.0, 16.0 ],
 					"text" : "load GLmesh_texcoordinates"
 				}
 
@@ -405,7 +457,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 254.0, 598.0, 172.0, 20.0 ],
+					"patching_rect" : [ 254.0, 623.0, 172.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.0, 488.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -423,7 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 598.0, 108.0, 16.0 ],
+					"patching_rect" : [ 313.0, 623.0, 108.0, 16.0 ],
 					"text" : "load GLmesh_benson"
 				}
 
@@ -489,7 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 544.0, 222.0, 22.0 ],
+					"patching_rect" : [ 189.0, 569.0, 222.0, 22.0 ],
 					"text" : "practical example (masato tsutsui)"
 				}
 
@@ -508,7 +560,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 518.0, 135.0, 21.0 ],
+					"patching_rect" : [ 9.0, 543.0, 135.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 511.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -527,7 +579,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 518.0, 121.0, 16.0 ],
+					"patching_rect" : [ 9.0, 543.0, 121.0, 16.0 ],
 					"text" : "load GLmesh_vertexdisp"
 				}
 
@@ -814,7 +866,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 119.0, 597.0, 90.0, 22.0 ],
+					"patching_rect" : [ 119.0, 622.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -846,7 +898,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 544.0, 140.0, 20.0 ],
+					"patching_rect" : [ 9.0, 569.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 331.0, 349.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -865,7 +917,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 547.0, 81.0, 16.0 ],
+					"patching_rect" : [ 9.0, 572.0, 81.0, 16.0 ],
 					"text" : "load mai_points"
 				}
 
@@ -884,7 +936,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 443.0, 72.0, 20.0 ],
+					"patching_rect" : [ 9.0, 468.0, 72.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -907,7 +959,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 468.0, 107.0, 20.0 ],
+					"patching_rect" : [ 9.0, 493.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.0, 341.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -926,7 +978,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 470.0, 99.0, 16.0 ],
+					"patching_rect" : [ 9.0, 495.0, 99.0, 16.0 ],
 					"text" : "load GLmesh_video"
 				}
 
@@ -941,7 +993,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 443.0, 77.0, 16.0 ],
+					"patching_rect" : [ 9.0, 468.0, 77.0, 16.0 ],
 					"text" : "load GLbuffer~"
 				}
 
@@ -1013,7 +1065,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 597.0, 100.0, 22.0 ],
+					"patching_rect" : [ 12.0, 622.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1054,7 +1106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 468.0, 208.0, 22.0 ],
+					"patching_rect" : [ 189.0, 493.0, 208.0, 22.0 ],
 					"text" : "transform a video into a 3D grid"
 				}
 
@@ -1068,7 +1120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 518.0, 137.0, 22.0 ],
+					"patching_rect" : [ 189.0, 543.0, 137.0, 22.0 ],
 					"text" : "vertex displacement"
 				}
 
@@ -1110,7 +1162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 442.0, 154.0, 22.0 ],
+					"patching_rect" : [ 189.0, 467.0, 154.0, 22.0 ],
 					"text" : "visualise a waveform"
 				}
 
@@ -1169,7 +1221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 573.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 598.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1217,7 +1269,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 430.0, 428.0, 4.0 ],
+					"patching_rect" : [ 4.0, 455.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1576,6 +1628,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-66", 0 ]
 				}
 
 			}

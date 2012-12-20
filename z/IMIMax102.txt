@@ -43,5 +43,5 @@
 55, cv_centroid "return the center mass (and the mass)";
 56, cv_jit.blobs "blob detections";
 57, cv_misc "miscellaneous cv";
-54, cv_freekinect "tools to use the kinect";
+54, kinect "tools to use the kinect";
 60, -----------------------;

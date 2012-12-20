@@ -993,7 +993,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 176.0, 562.0, 103.0, 20.0 ],
+					"patching_rect" : [ 143.0, 565.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1746,7 +1746,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 17.0, 207.0, 347.0, 33.0 ],
+									"patching_rect" : [ 17.0, 207.0, 348.0, 33.0 ],
 									"text" : "jit.expr 3 float32 640 480 @expr \"(cell[0]-dim[0]/2.) * (in[0]-in[1]) * in[2] \" \"(cell[1]-dim[1]/2.) * (in[0]-in[1]) * in[2]\" in[0] @inputs 3"
 								}
 
@@ -1796,7 +1796,7 @@
 									"destination" : [ "obj-75", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 190.5, 195.0, 190.5, 195.0 ],
+									"midpoints" : [ 190.5, 195.0, 191.0, 195.0 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -1824,7 +1824,7 @@
 									"destination" : [ "obj-75", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 258.5, 198.0, 354.5, 198.0 ],
+									"midpoints" : [ 258.5, 198.0, 355.5, 198.0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -2662,7 +2662,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 185.5, 594.942749, 23.477112, 594.942749 ],
+					"midpoints" : [ 152.5, 594.942749, 23.477112, 594.942749 ],
 					"source" : [ "obj-16", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 100.0, 100.0, 591.0, 366.0 ],
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 340.0, 264.0, 39.0 ],
+					"patching_rect" : [ 9.0, 340.0, 264.0, 38.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
@@ -135,7 +135,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 68.0, 50.0, 23.0 ],
+					"patching_rect" : [ 182.0, 68.0, 50.0, 22.0 ],
 					"text" : "r bang"
 				}
 
@@ -148,7 +148,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 160.0, 53.0, 23.0 ],
+					"patching_rect" : [ 66.0, 160.0, 53.0, 22.0 ],
 					"text" : "s bang"
 				}
 
@@ -162,7 +162,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 277.0, 295.0, 23.0 ],
+					"patching_rect" : [ 182.0, 277.0, 295.0, 22.0 ],
 					"text" : "jit.gl.syphonserver @servername JitterOutput"
 				}
 
@@ -176,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 202.0, 245.0, 224.0, 23.0 ],
+					"patching_rect" : [ 202.0, 245.0, 224.0, 22.0 ],
 					"text" : "jit.gl.videoplane @blend_enable 1"
 				}
 
@@ -201,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 182.0, 110.0, 132.0, 23.0 ],
+					"patching_rect" : [ 182.0, 110.0, 132.0, 22.0 ],
 					"text" : "jit.qt.movie 320 240"
 				}
 
@@ -215,7 +215,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 68.0, 114.0, 21.0 ],
+					"patching_rect" : [ 246.0, 68.0, 114.0, 20.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -223,7 +223,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -233,7 +233,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 483.0, 44.0, 634.0, 456.0 ],
@@ -259,11 +259,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 585.0, 426.0, 45.0, 23.0 ],
+									"patching_rect" : [ 585.0, 426.0, 45.0, 22.0 ],
 									"text" : "Vade"
 								}
 
@@ -272,33 +273,33 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-17",
 									"linecount" : 24,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 8.0, 621.0, 393.0 ],
+									"patching_rect" : [ 8.0, 8.0, 621.0, 382.0 ],
 									"text" : "Syphon Server needs a 'texture' to be input. So what you need to do is \"render to texture\" in Jitter. In Jitter land, there are two techniques to do this. One is @capture, where you specify an existing named jit.gl.texture object you own as another \"OB3D\" rendering objects @capture attribute.\n\nSo \njit.gl.texture mycontext @name foo\njit.gl.sketch mycontext @capture foo\n\nNow, the jit.gl.sketch will not show up on screen. It renders off screen into the texture named foo. Then bang and send that to Syphon Server.\n\nThe \"issue\" with @capture is it works only on a per object basis. How to capture an entire scene? The solution is to use @capture with jit.gl.sketch, and use jit.gl.sketches drawobject (If memory serves) capablity, coupled with @automatic 0 for the things you want in your scene.\n\nSo, in this case, you would have a context and window named mycontext :\njit.gl.texture mycontext @name foo\njit.gl.sketch mycontext @capture foo\njit.gl.text2d mycontext @automatic 0 @name text\njit.gl.syphonserver mycontext @servername capturedemo\n\nNow, sketch draws to the texture, the the texture goes to syphon, and you tell sketch to manually draw the text2d named \"text\". Search the forum for examples, I have posted some as have many others. This is from memory, some specifics may be different."
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 533.0, 28.0, 53.0, 19.0 ],
+					"patching_rect" : [ 533.0, 28.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 14.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 14.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p tutorial"
@@ -356,7 +357,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-128",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -372,7 +373,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-129",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -393,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 232.0, 80.0, 35.0 ]
+					"patching_rect" : [ 8.0, 232.0, 80.0, 34.0 ]
 				}
 
 			}
@@ -407,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 279.0, 129.0, 39.0 ],
+					"patching_rect" : [ 6.0, 279.0, 129.0, 38.0 ],
 					"text" : "jit.window syphon @visible 0"
 				}
 
@@ -421,7 +422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 197.0, 80.0, 23.0 ],
+					"patching_rect" : [ 8.0, 197.0, 80.0, 22.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -435,7 +436,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "erase", "bang", "bang" ],
-					"patching_rect" : [ 8.0, 124.0, 77.0, 23.0 ],
+					"patching_rect" : [ 8.0, 124.0, 77.0, 22.0 ],
 					"text" : "t erase b b"
 				}
 
@@ -449,7 +450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 88.0, 74.0, 23.0 ],
+					"patching_rect" : [ 8.0, 88.0, 74.0, 22.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -471,7 +472,6 @@
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -520,7 +520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 340.0, 52.0, 20.0 ],
+					"patching_rect" : [ 8.0, 340.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -536,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 340.0, 450.0, 39.0 ],
+					"patching_rect" : [ 130.0, 340.0, 450.0, 38.0 ],
 					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_tools/Syphon/Syphon%20Recorder.app\\\""
 				}
 
@@ -548,7 +548,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-130",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 525.0, 513.0 ],
@@ -31,6 +31,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -128,13 +129,13 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-16",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 440.0, 434.0, 39.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Computer%20Vision/%20tsps/openTSPS.app\\\""
+					"patching_rect" : [ 6.0, 480.0, 513.0, 27.0 ],
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_cv/tsps/openTSPS.app\\\""
 				}
 
 			}
@@ -143,12 +144,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 472.0, 31.0 ],
+					"patching_rect" : [ 3.0, 1.0, 472.0, 30.0 ],
 					"text" : "openTSPS (via OSC)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -159,7 +160,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -182,7 +183,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 440.0, 386.0, 28.0 ],
+					"patching_rect" : [ 7.0, 478.0, 386.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://www.vimeo.com/user3424502"
 				}
 
@@ -198,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 441.0, 305.0, 33.0 ],
+					"patching_rect" : [ 8.0, 474.0, 305.0, 31.0 ],
 					"text" : ";\rmax launchbrowser http://opentsps.com/documentation"
 				}
 
@@ -347,6 +348,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-95",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -360,6 +362,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-94",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -373,6 +376,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-93",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -386,6 +390,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-92",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -399,6 +404,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -412,6 +418,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-90",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -425,6 +432,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-89",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -438,6 +446,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-88",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -610,7 +619,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 64.0, 122.0, 23.0 ],
+					"patching_rect" : [ 170.0, 64.0, 122.0, 22.0 ],
 					"text" : "udpreceive 12000"
 				}
 
@@ -620,7 +629,6 @@
 					"bgcolor" : [ 0.8, 0.8, 0.8, 1.0 ],
 					"border" : 2,
 					"id" : "obj-3",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -635,7 +643,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -660,7 +667,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 436.5, 435.25, 15.5, 435.25 ],
+					"midpoints" : [ 436.5, 474.25, 15.5, 474.25 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -859,7 +866,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 327.5, 435.25, 17.5, 435.25 ],
+					"midpoints" : [ 327.5, 475.25, 17.5, 475.25 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -869,7 +876,7 @@
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 205.5, 435.25, 16.5, 435.25 ],
+					"midpoints" : [ 205.5, 475.25, 16.5, 475.25 ],
 					"source" : [ "obj-27", 0 ]
 				}
 

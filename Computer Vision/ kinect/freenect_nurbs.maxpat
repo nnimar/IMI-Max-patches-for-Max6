@@ -120,7 +120,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 559.0, 359.0, 465.0, 325.0 ],
+						"rect" : [ 971.0, 363.0, 465.0, 325.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5531,7 +5531,7 @@
 															"revision" : 8
 														}
 ,
-														"rect" : [ 50.0, 40.0, 670.0, 561.0 ],
+														"rect" : [ 50.0, 44.0, 670.0, 561.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
@@ -9863,16 +9863,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"id" : "obj-145",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 3.0, 307.0, 169.0 ]
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -10065,16 +10055,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"id" : "obj-128",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 3.0, 270.0, 333.0 ]
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -10241,7 +10221,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 15.0, 173.0, 154.0 ],
+									"patching_rect" : [ 7.0, 15.0, 173.0, 154.0 ],
 									"text" : "JMP's method for isolating a depth range and mapping it back to the camera. Try any of the orange boxes to adjust the range...it will take some fiddling to get used to what works correctly. Some ranges are very very small, and some are larger. Try working with floats as small as .0001 to see the difference",
 									"textcolor" : [ 0.792157, 0.192157, 0.192157, 1.0 ]
 								}
@@ -10534,16 +10514,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 16.0, 296.0, 137.0, 102.75 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-139",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 4.0, 411.0, 537.0 ]
 								}
 
 							}

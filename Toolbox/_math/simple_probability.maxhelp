@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 383.0, 134.0, 33.0 ],
-					"presentation_rect" : [ 270.0, 383.0, 0.0, 0.0 ],
+					"patching_rect" : [ 419.0, 468.0, 134.0, 33.0 ],
 					"text" : "output the nth element of a list (from 0)"
 				}
 
@@ -51,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 383.0, 43.0, 20.0 ],
+					"patching_rect" : [ 367.0, 469.0, 43.0, 20.0 ],
 					"text" : "zl mth"
 				}
 
@@ -65,7 +64,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.0, 347.0, 128.0, 20.0 ],
+					"patching_rect" : [ 419.0, 433.0, 128.0, 20.0 ],
 					"text" : "store a list of numbers"
 				}
 
@@ -79,8 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 347.0, 47.0, 20.0 ],
-					"presentation_rect" : [ 224.0, 394.0, 0.0, 0.0 ],
+					"patching_rect" : [ 367.0, 433.0, 47.0, 20.0 ],
 					"text" : "zl reg"
 				}
 
