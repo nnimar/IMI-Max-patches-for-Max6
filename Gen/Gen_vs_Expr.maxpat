@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 471.0, 526.0 ],
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 471.0, 500.0 ],
@@ -68,12 +68,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-16",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 308.0, 60.0, 161.0, 81.0 ],
+									"patching_rect" : [ 308.0, 60.0, 161.0, 79.0 ],
 									"text" : "in jit.pix, the color format is RGBA just like in jit.gl.pix, which is different than the usual jitter matrix format of ARGB"
 								}
 
@@ -82,12 +83,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 384.0, 428.0, 55.0 ],
+									"patching_rect" : [ 4.0, 384.0, 428.0, 53.0 ],
 									"text" : "in[0] becomes in1\nin[0].p[0] becomes in1.x and [in1]---[swiz x] with patcher objects\nnorm(0) becomes norm.x and [norm]---[swiz x] with patcher objects"
 								}
 
@@ -140,7 +142,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 254.0, 472.0, 52.0, 20.0 ],
+									"patching_rect" : [ 254.0, 472.0, 52.0, 19.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -315,7 +317,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 443.0, 267.0, 271.0, 170.0 ],
@@ -522,23 +524,6 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "snorm.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "swiz.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "*.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "vec.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
@@ -552,7 +537,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -568,7 +553,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -587,7 +572,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -726,22 +710,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 14.0, 152.0, 92.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"fontname" : "Arial",
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p matrix_input",
@@ -762,7 +745,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 1.0, 70.0, 471.0, 500.0 ],
@@ -790,6 +773,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -803,6 +787,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -817,6 +802,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -831,6 +817,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-31",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -897,10 +884,10 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
-										"rect" : [ 218.0, 335.0, 258.0, 146.0 ],
+										"rect" : [ 217.0, 380.0, 258.0, 146.0 ],
 										"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -957,15 +944,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "expr.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 12.0, 317.0, 51.0, 23.0 ],
+									"patching_rect" : [ 12.0, 317.0, 51.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -1026,10 +1008,10 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
-										"rect" : [ 397.0, 206.0, 258.0, 146.0 ],
+										"rect" : [ 219.0, 188.0, 258.0, 146.0 ],
 										"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
@@ -1086,15 +1068,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "expr.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 11.0, 130.0, 51.0, 23.0 ],
+									"patching_rect" : [ 11.0, 130.0, 51.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -1104,12 +1081,13 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-15",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 66.0, 309.0, 131.0, 38.0 ],
+									"patching_rect" : [ 66.0, 309.0, 131.0, 37.0 ],
 									"text" : "same + add 1 to the column number"
 								}
 
@@ -1119,6 +1097,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1176,7 +1155,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 365.0, 473.0, 52.0, 20.0 ],
+									"patching_rect" : [ 365.0, 473.0, 52.0, 19.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -1186,7 +1165,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1202,7 +1181,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1221,7 +1200,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -1304,22 +1282,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 14.0, 125.0, 125.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 13.0,
-						"fontname" : "Arial",
-						"tags" : "",
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p matrix_calculation",

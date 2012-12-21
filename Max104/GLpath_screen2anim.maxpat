@@ -2656,7 +2656,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 3.0, 381.0, 30.0 ],
-					"text" : "IMI screen2anim_path",
+					"text" : "IMI screen2anim path",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}

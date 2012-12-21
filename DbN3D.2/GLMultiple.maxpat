@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 763.0, 482.0 ],
@@ -97,7 +97,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 769.0, 373.0, 398.0, 158.0 ],
@@ -343,7 +343,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 772.0, 380.0, 411.0, 282.0 ],
@@ -930,10 +930,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
-						"rect" : [ 771.0, 365.0, 444.0, 204.0 ],
+						"rect" : [ 768.0, 364.0, 440.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -961,7 +961,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 8.0, 57.0, 22.0 ],
+									"patching_rect" : [ 9.0, 5.0, 57.0, 22.0 ],
 									"text" : "r matrix"
 								}
 
@@ -985,9 +985,9 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"outmode" : 2,
-									"patching_rect" : [ 11.0, 90.0, 425.0, 102.0 ],
+									"patching_rect" : [ 9.0, 57.0, 425.0, 102.0 ],
 									"rowheight" : 20,
-									"rows" : 5,
+									"rows" : 1,
 									"savemode" : 1,
 									"selsync" : 0,
 									"vscroll" : 0,
@@ -1004,7 +1004,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 47.0, 99.0, 22.0 ],
+									"patching_rect" : [ 9.0, 30.0, 99.0, 22.0 ],
 									"text" : "imi.matrix2cell"
 								}
 
@@ -1091,7 +1091,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 770.0, 360.0, 174.0, 207.0 ],
@@ -1340,7 +1340,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 770.0, 360.0, 431.0, 168.0 ],
@@ -2424,7 +2424,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -40,11 +40,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 537.0, 481.0, 78.0, 22.0 ],
+					"patching_rect" : [ 535.0, 480.0, 78.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 468.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "lightpaint",
+					"text" : "cv to draw",
 					"texton" : "Stop"
 				}
 
@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.0, 484.0, 72.0, 16.0 ],
-					"text" : "load lightpaint"
+					"patching_rect" : [ 536.0, 485.0, 69.0, 16.0 ],
+					"text" : "load cv2draw"
 				}
 
 			}

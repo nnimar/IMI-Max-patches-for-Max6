@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 1109.0, 799.0 ],
+		"rect" : [ -1.0, 44.0, 1108.0, 789.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 1117.0, 472.0, 411.0, 282.0 ],
@@ -109,6 +109,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -150,6 +151,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -164,6 +166,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -280,8 +283,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 107.0, 65.0, 17.0 ],
-									"text" : "pos 510 45"
+									"patching_rect" : [ 142.0, 107.0, 71.0, 17.0 ],
+									"text" : "pos 1000 45"
 								}
 
 							}
@@ -321,7 +324,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 199.0, 105.0, 32.0 ],
+									"patching_rect" : [ 142.0, 199.0, 105.0, 31.0 ],
 									"text" : ";\rmax showcursor;\r"
 								}
 
@@ -336,7 +339,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 262.0, 199.0, 99.0, 32.0 ],
+									"patching_rect" : [ 262.0, 199.0, 99.0, 31.0 ],
 									"text" : ";\rmax hidecursor;\r"
 								}
 
@@ -592,22 +595,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 501.0, 452.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -618,11 +620,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-98",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1020.0, 781.0, 86.0, 17.0 ],
+					"patching_rect" : [ 1020.0, 769.0, 86.0, 17.0 ],
 					"text" : "www.blairneal.com"
 				}
 
@@ -633,6 +636,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-95",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -689,7 +693,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -705,7 +709,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -722,6 +726,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-62",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -738,6 +743,7 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-61",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -752,6 +758,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -766,6 +773,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -779,11 +787,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 55.0, 191.0, 23.0 ],
+					"patching_rect" : [ 651.0, 55.0, 191.0, 22.0 ],
 					"text" : "Blur / effects / compositing"
 				}
 
@@ -792,11 +801,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 981.0, 57.0, 122.0, 23.0 ],
+					"patching_rect" : [ 981.0, 57.0, 122.0, 22.0 ],
 					"text" : "Motion Detection"
 				}
 
@@ -806,12 +816,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 673.0, 236.0, 38.0 ],
+					"patching_rect" : [ 101.0, 673.0, 236.0, 37.0 ],
 					"text" : "luminance based autoclear (ie if it's too bright, it will clear the drawing itself)"
 				}
 
@@ -821,12 +832,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-49",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 403.0, 125.0, 38.0 ],
+					"patching_rect" : [ 216.0, 403.0, 125.0, 37.0 ],
 					"text" : "feedback loop and drawing storage"
 				}
 
@@ -836,12 +848,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-47",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 582.0, 207.0, 52.0 ],
+					"patching_rect" : [ 207.0, 582.0, 207.0, 51.0 ],
 					"text" : "check for flow based movement control and how to automatigically change the color of the drawing"
 				}
 
@@ -850,6 +863,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -901,7 +915,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 645.0, 393.0, 466.0, 454.0 ],
@@ -927,12 +941,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"frgb" : 0.0,
 									"id" : "obj-118",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 5.0, 193.0, 48.0 ],
+									"patching_rect" : [ 78.0, 5.0, 193.0, 47.0 ],
 									"text" : "Motion based auto clear\nmust connect bang at bottom to \n[s brightreset] and [r motiondet] to jit.3m for it to work"
 								}
 
@@ -2055,22 +2070,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 853.0, 523.0, 159.0, 21.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p motion-based-autoclear"
@@ -2084,6 +2098,7 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2097,6 +2112,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2110,12 +2126,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-46",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 166.0, 69.0, 48.0 ],
+					"patching_rect" : [ 391.0, 166.0, 69.0, 47.0 ],
 					"text" : "Set luminance threshold"
 				}
 
@@ -2319,7 +2336,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 339.0, 50.0, 600.0, 426.0 ],
@@ -2851,7 +2868,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.4, 0.4, 0.8, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-34",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3320,22 +3337,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 554.0, 627.0, 125.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 9.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "patcher color change"
@@ -3369,7 +3385,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 47.0, 357.0, 640.0, 480.0 ],
@@ -3940,22 +3956,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 485.0, 717.0, 88.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 9.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p colorchanger"
@@ -3972,7 +3987,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 485.0, 585.0, 216.0, 34.0 ],
+					"patching_rect" : [ 485.0, 585.0, 216.0, 33.0 ],
 					"text" : "jit.scalebias @mode 1 @ascale 0. @rscale 0.3 @gscale 0.6 @bscale 0.1"
 				}
 
@@ -4089,7 +4104,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 101.0, 332.0, 232.0, 270.0 ],
@@ -4333,22 +4348,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 13.0, 269.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 9.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p thresh adj."
@@ -4421,7 +4435,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 486.0, 355.0, 161.0, 34.0 ],
+					"patching_rect" : [ 486.0, 355.0, 161.0, 33.0 ],
 					"text" : "jit.repos @interpbits 2 @mode 1"
 				}
 
@@ -4469,7 +4483,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 177.0, 346.0, 934.0, 497.0 ],
@@ -4495,12 +4509,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-31",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 253.0, 39.0, 137.0, 48.0 ],
+									"patching_rect" : [ 253.0, 39.0, 137.0, 47.0 ],
 									"text" : "Optical flow changes the color of the drawing with enough motion"
 								}
 
@@ -5649,26 +5664,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "cv.jit.LKflow.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 111.0, 598.0, 93.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
-						"tags" : "",
-						"fontface" : 0,
 						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 9.0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p optflowcontrol"
@@ -5958,7 +5968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 486.0, 503.0, 80.0, 36.0 ]
+					"patching_rect" : [ 486.0, 503.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -6015,7 +6025,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 628.0, 282.0, 129.0, 34.0 ],
+					"patching_rect" : [ 628.0, 282.0, 129.0, 33.0 ],
 					"text" : "jit.repos @interpbits 5 @mode 1"
 				}
 
@@ -6306,7 +6316,6 @@
 					"bgcolor" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"grad1" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"id" : "obj-88",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6320,7 +6329,6 @@
 					"bgcolor" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"grad1" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"id" : "obj-74",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -6335,7 +6343,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-87",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -6351,7 +6358,6 @@
 					"bgcolor" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"grad1" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
 					"id" : "obj-55",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -7127,7 +7133,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.framesub.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -795,7 +795,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 343.0, 30.0 ],
+					"patching_rect" : [ 4.0, 4.0, 343.0, 30.0 ],
 					"text" : "GLmesh_video2cellcoords",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -811,7 +811,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 491.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 491.0, 21.0 ],
 					"text" : "send a video to a mesh using xray cellcoords (coordinates of existing pixels)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1200,15 +1200,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 145.5, 115.0, 145.5, 115.0 ],
 					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-37", 0 ]
 				}
 
 			}

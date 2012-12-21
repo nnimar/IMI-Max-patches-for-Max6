@@ -338,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 374.0, 30.0 ],
-					"text" : "Simple body builder (Luke DuBois)",
+					"text" : "Simple body builder (Luke Dubois)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

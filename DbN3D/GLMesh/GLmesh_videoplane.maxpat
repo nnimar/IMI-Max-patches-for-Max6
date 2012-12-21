@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 321.0, 273.0, 109.0, 24.0 ],
-					"presentation_rect" : [ 327.0, 274.0, 0.0, 0.0 ],
 					"text" : "the coordinates"
 				}
 
@@ -72,7 +71,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 586.0, 359.0, 385.0, 113.0 ],
+						"rect" : [ 586.0, 359.0, 389.0, 81.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -101,7 +100,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 9.0, 340.0, 53.0 ],
+									"patching_rect" : [ 9.0, 9.0, 307.0, 53.0 ],
 									"text" : "Texture coordinates typically range from [0, 1]. generate coordinates for a plane using a jit.expr \nor jit.gen"
 								}
 
@@ -145,7 +144,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 25.0, 69.0, 203.0, 94.0 ],
+						"rect" : [ 590.0, 361.0, 203.0, 94.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1318,7 +1317,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

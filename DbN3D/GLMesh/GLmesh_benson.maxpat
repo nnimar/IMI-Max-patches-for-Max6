@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 8
 		}
 ,
-		"rect" : [ 448.0, 44.0, 438.0, 261.0 ],
+		"rect" : [ 446.0, 44.0, 438.0, 261.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -70,11 +70,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 175.0, 197.0, 23.0 ],
+					"patching_rect" : [ 144.0, 175.0, 197.0, 22.0 ],
 					"text" : "turn an image into small lights"
 				}
 
@@ -191,7 +192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 120.0, 103.0, 18.0 ],
+					"patching_rect" : [ 13.0, 120.0, 103.0, 17.0 ],
 					"text" : "load 36.TinyVideo"
 				}
 
@@ -230,7 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 206.0, 87.0, 18.0 ],
+					"patching_rect" : [ 13.0, 206.0, 87.0, 17.0 ],
 					"text" : "load 41.Verlets"
 				}
 
@@ -303,11 +304,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 147.0, 195.0, 23.0 ],
+					"patching_rect" : [ 144.0, 147.0, 195.0, 22.0 ],
 					"text" : "shatter an image into pieces"
 				}
 
@@ -316,11 +318,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 120.0, 200.0, 23.0 ],
+					"patching_rect" : [ 144.0, 120.0, 200.0, 22.0 ],
 					"text" : "record images and place them"
 				}
 
@@ -329,11 +332,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 205.0, 157.0, 23.0 ],
+					"patching_rect" : [ 144.0, 205.0, 157.0, 22.0 ],
 					"text" : "images and constraints"
 				}
 
@@ -342,11 +346,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 92.0, 177.0, 23.0 ],
+					"patching_rect" : [ 144.0, 92.0, 177.0, 22.0 ],
 					"text" : "animation tool for GLmesh"
 				}
 
@@ -355,11 +360,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 64.0, 236.0, 23.0 ],
+					"patching_rect" : [ 144.0, 64.0, 236.0, 22.0 ],
 					"text" : "mesh and texture reactive to sound"
 				}
 
@@ -368,7 +374,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -390,7 +396,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 237.0, 52.0, 20.0 ],
+					"patching_rect" : [ 13.0, 237.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -400,7 +406,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -422,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 92.0, 98.0, 18.0 ],
+					"patching_rect" : [ 13.0, 92.0, 98.0, 17.0 ],
 					"text" : "load 31.Animator"
 				}
 
@@ -434,7 +440,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

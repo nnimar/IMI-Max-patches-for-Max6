@@ -54,7 +54,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 313.0, 387.0, 571.0, 355.0 ],
+						"rect" : [ 113.0, 361.0, 571.0, 355.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -669,7 +669,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 666.0, 44.0, 222.0, 187.0 ],
+						"rect" : [ 599.0, 295.0, 222.0, 187.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1537,7 +1537,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 525.0, 44.0, 360.0, 315.0 ],
+						"rect" : [ 595.0, 221.0, 360.0, 315.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

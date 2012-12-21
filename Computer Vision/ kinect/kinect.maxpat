@@ -163,7 +163,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 567.0, 44.0, 485.0, 392.0 ],
+						"rect" : [ 562.0, 44.0, 496.0, 582.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -192,8 +192,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 325.0, 396.0, 60.0 ],
-									"text" : "mini glossary :\nOF : openFramework (a C library based on Processing)\nOSC : open sound control (a protocol to send data between application)\nTUIO : framework for multitouch surfaces (exmple : the reactVision)"
+									"patching_rect" : [ 7.0, 519.0, 396.0, 60.0 ],
+									"text" : "mini glossary :\nOF : openFramework (a C library based on Processing)\nOSC : open sound control (a protocol to send data between application)\nTUIO : framework for multitouch surfaces (example : the reactVision)"
 								}
 
 							}
@@ -203,12 +203,12 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-55",
-									"linecount" : 18,
+									"linecount" : 31,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 6.0, 473.0, 288.0 ],
-									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). All of these aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work.\n\nTo help you quickly visualise the kinect skeleton, have a look at the Kinect helpers patch (Jon Bellona)"
+									"patching_rect" : [ 8.0, 5.0, 484.0, 491.0 ],
+									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). All of these aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
 								}
 
 							}
@@ -391,7 +391,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 439.0, 707.5, 110.0, 20.0 ],
+					"patching_rect" : [ 439.0, 707.5, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 550.0, 319.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -425,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 711.5, 110.0, 17.0 ],
+					"patching_rect" : [ 439.0, 711.5, 110.0, 17.0 ],
 					"text" : "load kinect_helpers"
 				}
 
@@ -444,7 +444,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 734.5, 110.0, 20.0 ],
+					"patching_rect" : [ 439.0, 734.5, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 536.0, 816.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -463,7 +463,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.0, 738.5, 114.0, 17.0 ],
+					"patching_rect" : [ 439.0, 738.5, 114.0, 17.0 ],
 					"text" : "help vector_practice"
 				}
 
@@ -482,7 +482,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 295.0, 735.5, 136.0, 20.0 ],
+					"patching_rect" : [ 295.0, 735.5, 136.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 309.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1336,7 +1336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 430.5, 375.0, 38.0 ],
+					"patching_rect" : [ 135.0, 430.5, 377.0, 38.0 ],
 					"text" : "synapse is a simple OF application that sends the skeleton to Max via OSC (port 12345)"
 				}
 

@@ -2,15 +2,13 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
-		"rect" : [ 619.0, 44.0, 851.0, 603.0 ],
+		"rect" : [ 629.0, 44.0, 851.0, 603.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 619.0, 44.0, 851.0, 603.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
@@ -18,17 +16,21 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -44,7 +46,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -67,15 +69,13 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
-						"rect" : [ 865.0, 44.0, 397.0, 378.0 ],
+						"rect" : [ 1114.0, 44.0, 397.0, 378.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 865.0, 44.0, 397.0, 378.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -83,22 +83,27 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"linecount" : 22,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 7.0, 374.0, 361.0 ],
+									"patching_rect" : [ 9.0, 7.0, 374.0, 351.0 ],
 									"text" : "cv.jit.touches, a new object added in the 1.7.0 release, tracks the movement of bright spots in a greyscale image and reports “touch”, “drag” and “release” information – when regions appear, move or disappear. Each region is assigned a unique ID number, so that even if they move, you can always know where an object is from frame to frame. This is unlike using cv.jit.label-based blob analysis, where you are never guaranteed that the same object in a scene will end up with the same index.\n\nBy default, cv.jit.touches outputs ever-increasing indices, although the counter is always reset to 0 when there are no active regions. For some applications, this is a reasonable approach: every touch event has its own unique ID. However, some may wish to recycle IDs. If you’re in this situation, I made an abstraction that renumbers the IDs coming out of cv.jit.touches to re-use release IDs, and keep their values as low as possible. It will always output the smallest value that isn’t currently assigned to another active region. \n\nJean-Marc Pelletier"
 								}
 
@@ -107,15 +112,18 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 568.0, 64.0, 23.0 ],
+					"patching_rect" : [ 9.0, 568.0, 64.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 14.0,
-						"default_fontsize" : 14.0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p tutorial"
@@ -126,6 +134,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -139,6 +148,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -152,6 +162,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -165,6 +176,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"frgb" : 0.0,
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -184,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 604.0, 87.0, 183.0, 64.0 ],
+					"patching_rect" : [ 604.0, 87.0, 183.0, 63.0 ],
 					"text" : "clear, paintoval 50 50 100 100, paintoval 150 150 200 200, paintoval 150 60 200 110, bang, bang, bang"
 				}
 
@@ -322,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 86.0, 169.0, 49.0 ],
+					"patching_rect" : [ 433.0, 86.0, 169.0, 48.0 ],
 					"text" : "clear, paintoval 50 50 100 100, paintoval 150 150 200 200, bang, bang, bang"
 				}
 
@@ -390,8 +402,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 2 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -399,8 +411,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -408,8 +420,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -417,6 +429,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 2 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 262.5, 274.0, 650.5, 274.0 ],
 					"source" : [ "obj-1", 2 ]
@@ -426,6 +439,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 229.0, 274.0, 588.5, 274.0 ],
 					"source" : [ "obj-1", 1 ]
@@ -435,6 +449,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 195.5, 274.0, 526.5, 274.0 ],
 					"source" : [ "obj-1", 0 ]
@@ -444,8 +459,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -453,8 +468,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -462,6 +477,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 276.5, 158.0, 195.5, 158.0 ],
 					"source" : [ "obj-4", 0 ]
@@ -471,6 +487,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 442.5, 158.5, 195.5, 158.5 ],
 					"source" : [ "obj-5", 0 ]
@@ -480,6 +497,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 12.5, 158.0, 195.5, 158.0 ],
 					"source" : [ "obj-6", 0 ]
@@ -489,8 +507,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 2 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-60", 2 ]
 				}
 
@@ -498,8 +516,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-60", 1 ]
 				}
 
@@ -507,8 +525,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -516,8 +534,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -525,8 +543,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -534,6 +552,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 613.5, 158.5, 195.5, 158.5 ],
 					"source" : [ "obj-66", 0 ]
@@ -543,8 +562,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -552,6 +571,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 3 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 195.5, 227.0, 296.5, 227.0 ],
 					"source" : [ "obj-7", 0 ]
@@ -561,6 +581,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 3 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 195.5, 227.5, 712.5, 227.5 ],
 					"source" : [ "obj-7", 0 ]
@@ -570,11 +591,38 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 195.5, 154.0, 195.5, 154.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "cv.jit.touches.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cv.jit.touches.draw.maxpat",
+				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cv.jit.touches.recycle.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/CV objects",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cv.jit.shift.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

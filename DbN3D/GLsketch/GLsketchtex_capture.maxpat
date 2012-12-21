@@ -842,7 +842,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 617.0, 35.0 ],
+					"patching_rect" : [ 2.0, 29.0, 620.0, 35.0 ],
 					"text" : "render multiple GL objects to a single texture by using a GLsketch's \"drawobject\" and GLsketch (@capture), GLtexture (@name) and GLvideoplane (@texture) abilities to pass information using attributes",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1041,8 +1041,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 266.0, 113.0, 20.0 ],
-					"text" : "jit.window capture+"
+					"patching_rect" : [ 7.0, 266.0, 130.0, 20.0 ],
+					"text" : "jit.window texcapture"
 				}
 
 			}

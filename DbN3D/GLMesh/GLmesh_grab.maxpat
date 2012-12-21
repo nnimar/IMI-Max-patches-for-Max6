@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 283.14386, 60.498291, 60.0, 24.0 ],
-					"presentation_rect" : [ 406.14386, 60.498291, 0.0, 0.0 ],
 					"text" : "Video"
 				}
 
@@ -51,8 +50,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 257.5, 62.498291, 20.0, 20.0 ],
-					"presentation_rect" : [ 355.5, 62.498291, 0.0, 0.0 ]
+					"patching_rect" : [ 257.5, 62.498291, 20.0, 20.0 ]
 				}
 
 			}
@@ -309,7 +307,6 @@
 					}
 ,
 					"patching_rect" : [ 257.5, 87.498291, 63.0, 20.0 ],
-					"presentation_rect" : [ 337.5, 93.498291, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -358,7 +355,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 661.0, 348.0, 411.0, 282.0 ],
+						"rect" : [ 1080.0, 373.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -569,7 +566,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 164.0, 137.0, 73.0, 17.0 ],
-									"text" : "size 640 480"
+									"text" : "size 400 300"
 								}
 
 							}
@@ -596,8 +593,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 142.0, 111.0, 65.0, 17.0 ],
-									"text" : "pos 510 45"
+									"patching_rect" : [ 143.0, 111.0, 72.0, 17.0 ],
+									"text" : "pos 1080 45"
 								}
 
 							}
@@ -743,7 +740,7 @@
 									"destination" : [ "obj-161", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 151.5, 159.5, 15.5, 159.5 ],
+									"midpoints" : [ 152.5, 159.5, 15.5, 159.5 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2197,7 +2194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 29.0, 676.0, 21.0 ],
-					"text" : "This patch creates a 3D mesh which cornforms its shape to the parts of a video which have an alpha of more than 0.",
+					"text" : "This patch creates a 3D mesh which conforms its shape to the parts of a video which have an alpha of more than 0.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
