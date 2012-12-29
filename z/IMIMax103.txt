@@ -23,15 +23,15 @@
 32, IMI_lcd_space "using the LCD space";
 33, IMI_lcd_motion "motion using counter";
 34, IMI_lcd_oscillation "oscillation using sin/cos";
-35, IMI_noise2lcd "noise to jit.sketch position";
+35, IMI_noise2lcd "noise to lcd position";
 36, Drawagent "drawagent";
 40, -----------------------;
 41, <category> 5 DbN3D;
-42, jittervsGL "welcome to 3d world";
-43, GLgridshape "shapes in 3D";
-44, GLgeometry "gridshape geometry advanced";
+42, jittervsGL "2d vs 3d world";
+43, GLgridshape "ez shapes in 3D";
+44, GLgeometry "gridshape tricks";
 45, GLtexture "apply a texture to a 3D shape";
-46, GLsketch "GLSketch and OpenGL";
+46, GLsketch "intro to GLSketch";
 47, GLmesh "intro to GLmesh";
 50, -----------------------;
 51, <category> 6 DbN3D.2;
@@ -39,6 +39,6 @@
 53, GLnurbs "matrix to GL Nurbs";
 54, GLmultiple "control multiple gridshape";
 55, GLisosurf "create an isosurf";
-56, GLmisc "an overview of the GL in Max";
+56, GLmisc "an overview of GL world";
 60, -----------------------;
 

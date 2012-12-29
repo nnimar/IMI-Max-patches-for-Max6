@@ -709,7 +709,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 623.0, 44.0, 294.0, 268.0 ],
+						"rect" : [ 748.0, 44.0, 294.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,

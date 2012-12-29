@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 4.0, 44.0, 1043.0, 472.0 ],
+		"rect" : [ 0.0, 44.0, 1043.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -113,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 440.0, 315.0, 28.0 ],
+					"patching_rect" : [ 6.0, 440.0, 315.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://en.wikipedia.org/wiki/ASCII"
 				}
 
@@ -505,7 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 425.0, 52.0, 20.0 ],
+					"patching_rect" : [ 480.0, 425.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -575,7 +575,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -634,7 +634,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -973,7 +972,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textbasics.png",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Global/image",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Global/image",
+				"patcherrelativepath" : "../Global/image",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

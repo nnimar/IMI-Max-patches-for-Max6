@@ -9,16 +9,14 @@
 10, -----------------------;
 11, <category> 2 Path;
 12, path_animation_intro "an overview of path and animation";
-12, GLpath_screen2anim "motion path in Max";
-13, GLpath_selector "interface using path";
+13, GLpath_screen2anim "motion path in Max";
 14, GLpath_render "render and edit a path with GLpath";
 
 20, -----------------------;
 21, <category> 3 Animation;
 22, anim_node "animate different elements";
-23, anim_drive_tunnel "animate a tunnel";
-24, anim_drive_camera "mouse drags to pan around";
-25, anim_drive2camera "distance between a camera and an object";
+23, anim_drive_camera "mouse drags to pan around";
+24, anim_drive2camera "distance between a camera and an object";
 
 30, -----------------------;
 31, <category> 4 Node;

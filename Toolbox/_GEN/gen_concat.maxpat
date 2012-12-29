@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 2.0, 44.0, 580.0, 350.0 ],
@@ -45,7 +45,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 11.0, 224.0, 344.0, 98.0 ],
+					"patching_rect" : [ 8.0, 224.0, 344.0, 98.0 ],
 					"rowheight" : 20,
 					"rows" : 1,
 					"savemode" : 1,
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 176.0, 87.0, 20.0 ],
+					"patching_rect" : [ 8.0, 176.0, 87.0, 20.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -74,12 +74,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 209.0, 31.0 ],
+					"patching_rect" : [ 3.0, 1.0, 209.0, 30.0 ],
 					"text" : "Gen_concat",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -90,13 +90,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 481.0, 36.0 ],
+					"patching_rect" : [ 4.0, 28.0, 481.0, 35.0 ],
 					"text" : "the dot product (or scalar product) is very useful for finding out how much two sets of numbers are similar to each other : dot (XYZ1, XYZ2) = X1*X2 + Y1*Y2 + Z1*Z2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -141,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 134.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 5 float32 1"
 				}
 
@@ -156,7 +156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 8.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -175,7 +175,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 591.0, 44.0, 378.0, 332.0 ],
@@ -281,11 +281,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "concat.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -301,7 +296,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

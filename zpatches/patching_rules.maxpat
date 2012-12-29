@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"hidden" : 1,
+					"id" : "obj-166",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3564.0, 362.0, 82.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontface" : 1,
 					"fontname" : "Arial",
@@ -621,8 +636,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5332.0, 48.0, 577.0, 90.0 ],
-					"text" : "Patch is too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than the jitter objects. For video effects, have a look at shaders. "
+					"patching_rect" : [ 5332.0, 48.0, 588.0, 90.0 ],
+					"text" : "Patch too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than the jitter objects. For video effects, have a look at the shaders. "
 				}
 
 			}
@@ -829,7 +844,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 441.0, 93.0, 116.0, 284.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -857,7 +872,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 50.0, 130.0, 83.0, 22.0 ],
+									"patching_rect" : [ 17.0, 106.0, 83.0, 22.0 ],
 									"text" : "counter 64"
 								}
 
@@ -871,7 +886,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 81.0, 22.0 ],
+									"patching_rect" : [ 17.0, 76.0, 81.0, 22.0 ],
 									"text" : "qmetro 100"
 								}
 
@@ -885,7 +900,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 217.0, 69.0, 22.0 ],
+									"patching_rect" : [ 17.0, 193.0, 69.0, 22.0 ],
 									"text" : "pack 0 0"
 								}
 
@@ -899,7 +914,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 100.0, 175.0, 35.0, 22.0 ],
+									"patching_rect" : [ 67.0, 151.0, 35.0, 22.0 ],
 									"text" : "% 8"
 								}
 
@@ -913,7 +928,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 175.0, 32.5, 22.0 ],
+									"patching_rect" : [ 17.0, 151.0, 32.5, 22.0 ],
 									"text" : "/ 8"
 								}
 
@@ -926,7 +941,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 17.0, 16.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -937,7 +952,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 300.0, 25.0, 25.0 ]
+									"patching_rect" : [ 17.0, 244.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -947,7 +962,7 @@
 									"destination" : [ "obj-138", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 59.5, 164.0, 109.5, 164.0 ],
+									"midpoints" : [ 26.5, 140.0, 76.5, 140.0 ],
 									"source" : [ "obj-135", 0 ]
 								}
 
@@ -1434,8 +1449,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4737.0, 47.0, 567.0, 48.0 ],
-					"text" : "When a group is working, select and encapsulate it, it will create a subpatch, you should rename it (ex : <p counter_modulo>)."
+					"patching_rect" : [ 4737.0, 47.0, 520.0, 48.0 ],
+					"text" : "When a group is working, encapsulate it (cmd-shift-e) to create a subpatch, you should then rename it : <p counter_modulo>."
 				}
 
 			}
@@ -1810,21 +1825,6 @@
 							"data" : [ 5, "obj-80", "slider", "float", 77.0, 5, "obj-79", "number", "int", 72 ]
 						}
  ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"hidden" : 1,
-					"id" : "obj-72",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4210.0, 277.0, 86.0, 22.0 ],
-					"text" : "loadmess 0."
 				}
 
 			}
@@ -2400,8 +2400,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4155.0, 244.0, 37.0, 22.0 ],
-					"text" : "r val"
+					"patching_rect" : [ 4155.0, 244.0, 77.0, 22.0 ],
+					"text" : "receive val"
 				}
 
 			}
@@ -3085,6 +3085,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-139", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -3288,15 +3306,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-72", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3410,7 +3419,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
+				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
 				"type" : "JSON",
 				"implicit" : 1
 			}

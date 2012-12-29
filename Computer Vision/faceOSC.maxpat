@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 741.0, 355.0, 87.0, 22.0 ],
+					"patching_rect" : [ 739.0, 356.0, 87.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 310.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -63,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 569.0, 355.0, 165.0, 22.0 ],
+					"patching_rect" : [ 456.0, 356.0, 165.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 184.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -584,7 +584,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 383.0, 355.0, 60.0, 22.0 ],
+					"patching_rect" : [ 392.0, 356.0, 60.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 471.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -607,7 +607,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 452.0, 355.0, 110.0, 22.0 ],
+					"patching_rect" : [ 626.0, 356.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -627,7 +627,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 355.0, 478.0, 27.0 ],
+					"patching_rect" : [ 342.0, 350.0, 478.0, 27.0 ],
 					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_cv/faceOSC/FaceOSC.app\\\""
 				}
 
@@ -676,7 +676,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 355.0, 315.0, 27.0 ],
+					"patching_rect" : [ 315.0, 350.0, 315.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://github.com/kylemcdonald/ofxFaceTracker"
 				}
 
@@ -735,8 +735,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 355.0, 512.0, 27.0 ],
-					"presentation_rect" : [ 318.0, 358.0, 0.0, 0.0 ],
+					"patching_rect" : [ 315.0, 350.0, 512.0, 27.0 ],
 					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_cv/faceOSC/FaceOSCSyphon.app\\\""
 				}
 
@@ -744,14 +743,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.0, 355.0, 60.0, 22.0 ],
+					"patching_rect" : [ 679.0, 352.0, 50.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -759,15 +758,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.0, 355.0, 130.0, 20.0 ],
-					"text" : "mini_syphon_client"
+					"patching_rect" : [ 680.0, 353.0, 137.0, 17.0 ],
+					"text" : "load mini_syphon_client"
 				}
 
 			}

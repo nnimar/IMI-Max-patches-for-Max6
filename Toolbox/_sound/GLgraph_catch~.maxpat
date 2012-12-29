@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 3.0, 44.0, 480.0, 475.0 ],
+		"rect" : [ 0.0, 44.0, 480.0, 475.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -762,12 +762,12 @@
 					"patching_rect" : [ 252.0, 244.0, 39.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "flonum",
-							"parameter_longname" : "flonum"
+							"parameter_longname" : "flonum",
+							"parameter_initial" : [ 1 ]
 						}
 
 					}
@@ -1090,44 +1090,44 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-18::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-18::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
-			"obj-24" : [ "flonum", "flonum", 0 ],
-			"obj-18::obj-35" : [ "[5]", "Level", 0 ]
+			"obj-18::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-24" : [ "flonum", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demosound.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../Cycling '74/msp-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
 				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "saw.svg",
 				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
 				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.svg",
 				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../Applications/Max6/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}

@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 45.0, 622.0, 508.0 ],
+		"rect" : [ 4.0, 44.0, 622.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -34,13 +34,51 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-62",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 456.0, 478.5, 73.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 103.0, 472.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "tap tools",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-64",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 456.0, 478.5, 76.0, 17.0 ],
+					"text" : "load taptools"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-60",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 535.0, 480.0, 78.0, 22.0 ],
+					"patching_rect" : [ 536.0, 478.5, 78.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 468.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.0, 485.0, 69.0, 16.0 ],
+					"patching_rect" : [ 537.0, 478.5, 69.0, 16.0 ],
 					"text" : "load cv2draw"
 				}
 
@@ -74,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 537.0, 482.0, 46.0, 18.0 ],
+					"patching_rect" : [ 538.0, 478.5, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1392,10 +1430,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
