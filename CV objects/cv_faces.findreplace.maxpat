@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 532.0, 99.0, 20.0 ],
+					"patching_rect" : [ 351.0, 532.0, 99.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 230.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 338.0, 534.0, 113.0, 18.0 ],
-					"presentation_rect" : [ 291.0, 313.0, 0.0, 0.0 ],
 					"text" : "load cv_faces2GL2"
 				}
 
@@ -79,7 +78,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 356.0, 505.0, 94.0, 20.0 ],
+					"patching_rect" : [ 357.0, 506.0, 93.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 288.0, 189.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -98,8 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 342.0, 507.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 211.0, 191.0, 0.0, 0.0 ],
+					"patching_rect" : [ 342.0, 508.0, 107.0, 18.0 ],
 					"text" : "load cv_faces2GL"
 				}
 
@@ -115,7 +113,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 349.0, 532.0, 52.0, 19.0 ],
-					"presentation_rect" : [ 287.0, 189.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -160,7 +157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 349.0, 479.0, 101.0, 20.0 ],
+					"patching_rect" : [ 349.0, 480.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 303.0, 259.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -179,8 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.0, 479.0, 113.0, 18.0 ],
-					"text" : "load cv_faces2cam"
+					"patching_rect" : [ 319.0, 480.0, 131.0, 18.0 ],
+					"text" : "load cv_faces2camera"
 				}
 
 			}
@@ -194,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 478.0, 54.0, 20.0 ],
+					"patching_rect" : [ 349.0, 480.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -213,7 +210,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 357.0, 453.0, 94.0, 20.0 ],
+					"patching_rect" : [ 356.0, 454.0, 94.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 305.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -232,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 455.0, 170.0, 18.0 ],
+					"patching_rect" : [ 280.0, 456.0, 170.0, 18.0 ],
 					"text" : "load cv_find_and_track_eyes"
 				}
 
@@ -247,7 +244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 453.0, 52.0, 19.0 ],
+					"patching_rect" : [ 356.0, 452.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -571,7 +568,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 346.0, 558.0, 106.0, 20.0 ],
+					"patching_rect" : [ 345.0, 558.0, 106.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 300.0, 471.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -636,8 +633,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 321.0, 30.0 ],
-					"text" : "cv.jit.faces find and replace",
+					"patching_rect" : [ 3.0, 3.0, 382.0, 30.0 ],
+					"text" : "cv.jit.faces find and replace (lcd)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
