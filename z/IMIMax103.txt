@@ -20,10 +20,10 @@
 26, h.lines "generate a mesh of lines from a movie";
 30, -----------------------;
 31, <category> 4 DbN2D;
-32, IMI_lcd_space "using the LCD space";
-33, IMI_lcd_motion "motion using counter";
-34, IMI_lcd_oscillation "oscillation using sin/cos";
-35, IMI_noise2lcd "noise to lcd position";
+32, IMI_lcd_motion "motion using counter";
+33, IMI_lcd_oscillation "oscillation using sin/cos";
+34, IMI_noise2lcd "noise to lcd position";
+35, IMI_lcd_space "using the LCD space";
 36, Drawagent "drawagent";
 40, -----------------------;
 41, <category> 5 DbN3D;

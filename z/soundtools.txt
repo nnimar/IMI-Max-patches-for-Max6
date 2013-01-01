@@ -29,3 +29,4 @@ sound_triangulation, "find the direction of the sound";
 sfmarkers~, "Returns the list of markers in a .wav or .aiff sound file";
 msg.surround, "really basic 4 channel surround panner";
 zns.apan~, "constant power, variable channel surround panner";
+panFour, "Signal-Controlled Quad Panner";

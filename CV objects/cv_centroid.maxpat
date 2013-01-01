@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 3.0, 44.0, 528.0, 605.0 ],
@@ -40,11 +40,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 573.5, 102.0, 22.0 ],
+					"patching_rect" : [ 280.0, 574.5, 131.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 675.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "cv.jit.centroids",
+					"text" : "cv.jit.centroids help",
 					"texton" : "Stop"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 578.0, 95.0, 16.0 ],
+					"patching_rect" : [ 309.0, 574.5, 95.0, 16.0 ],
 					"text" : "help cv.jit.centroids"
 				}
 
@@ -97,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 415.0, 578.0, 108.0, 16.0 ],
+					"patching_rect" : [ 415.0, 574.5, 108.0, 16.0 ],
 					"text" : "help 2up.jit.centroids"
 				}
 
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 415.0, 575.0, 52.0, 20.0 ],
+					"patching_rect" : [ 415.0, 574.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -136,7 +136,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -152,12 +152,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 204.0, 34.0 ],
+					"patching_rect" : [ 3.0, 1.0, 204.0, 33.0 ],
 					"text" : "cv.jit.centroid",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -169,6 +169,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -183,6 +184,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -201,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 560.0, 71.0, 36.0 ]
+					"patching_rect" : [ 15.0, 560.0, 71.0, 35.0 ]
 				}
 
 			}
@@ -217,7 +219,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 102.0, 379.0, 65.0, 23.0 ],
+					"patching_rect" : [ 102.0, 379.0, 65.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -226,11 +228,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 380.0, 42.0, 23.0 ],
+					"patching_rect" : [ 168.0, 380.0, 42.0, 22.0 ],
 					"text" : "mass"
 				}
 
@@ -267,7 +270,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 48.0, 344.0, 126.0, 23.0 ],
+					"patching_rect" : [ 48.0, 344.0, 126.0, 22.0 ],
 					"text" : "cv.jit.centroids"
 				}
 
@@ -281,7 +284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 218.0, 84.0, 23.0 ],
+					"patching_rect" : [ 15.0, 218.0, 84.0, 22.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -292,6 +295,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -324,7 +328,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 253.0, 36.0, 23.0 ],
+					"patching_rect" : [ 140.0, 253.0, 36.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -338,7 +342,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 288.0, 144.0, 23.0 ],
+					"patching_rect" : [ 15.0, 288.0, 144.0, 22.0 ],
 					"text" : "jit.op @op > @val 50"
 				}
 
@@ -347,12 +351,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 337.0, 247.0, 71.0 ],
+					"patching_rect" : [ 234.0, 337.0, 247.0, 69.0 ],
 					"text" : "returns the center of mass of a greyscale image or object (centroid)\n\nand returns the mass."
 				}
 
@@ -366,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 181.0, 176.0, 23.0 ],
+					"patching_rect" : [ 15.0, 181.0, 176.0, 22.0 ],
 					"text" : "cv.jit.resize @size 160 120"
 				}
 
@@ -380,7 +385,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 99.0, 43.0, 21.0 ],
+					"patching_rect" : [ 134.0, 99.0, 43.0, 20.0 ],
 					"text" : "close"
 				}
 
@@ -394,7 +399,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 99.0, 40.0, 21.0 ],
+					"patching_rect" : [ 90.0, 99.0, 40.0, 20.0 ],
 					"text" : "open"
 				}
 
@@ -420,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 99.0, 68.0, 23.0 ],
+					"patching_rect" : [ 15.0, 99.0, 68.0, 22.0 ],
 					"text" : "qmetro 2"
 				}
 
@@ -434,7 +439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 144.0, 121.0, 23.0 ],
+					"patching_rect" : [ 15.0, 144.0, 121.0, 22.0 ],
 					"text" : "jit.qt.grab 360 240"
 				}
 
@@ -444,11 +449,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 522.0, 230.0, 27.0 ],
+					"patching_rect" : [ 175.0, 522.0, 230.0, 26.0 ],
 					"text" : "centroids changes knob position"
 				}
 
@@ -475,7 +481,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-31",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -490,7 +495,6 @@
 					"background" : 1,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"id" : "obj-22",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,

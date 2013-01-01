@@ -23,5 +23,4 @@ function_graph, "procedural basis functions graph";
 3dextrude, "3D extrusion";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 GLNurbs_sound, "GL Nurbs with sound";
-GLSketch, "GL Sketch";
 PennyDrops, "ink writer";
