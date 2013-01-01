@@ -319,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 223.0, 64.0, 35.0 ]
+					"patching_rect" : [ 15.0, 214.0, 64.0, 35.0 ]
 				}
 
 			}
@@ -1068,8 +1068,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 567.0, 21.0 ],
-					"text" : "Converts screen coordinates to world coordinates, control a gridshape sphere with a mouse",
+					"patching_rect" : [ 5.0, 29.0, 567.0, 21.0 ],
+					"text" : "converts screen coordinates to world coordinates, control a gridshape sphere with a mouse",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1124,7 +1124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 15.0, 127.0, 57.0, 20.0 ],
+					"patching_rect" : [ 15.0, 121.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1151,7 +1151,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 54.0, 289.147247, 214.0 ],
+					"patching_rect" : [ 7.0, 54.0, 285.147247, 204.0 ],
 					"rounded" : 30
 				}
 
