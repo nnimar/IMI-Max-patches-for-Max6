@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 251.0, 152.0, 193.0, 24.0 ],
+					"text" : "mode / threshold / radius / post"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -715,7 +730,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 518.0, 312.0, 411.0, 282.0 ],
+						"rect" : [ 516.0, 346.0, 411.0, 282.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1305,7 +1320,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 678.0, 44.0, 281.0, 291.0 ],
+						"rect" : [ 516.0, 343.0, 281.0, 291.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2336,7 +2351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 416.0, 20.0 ],
+					"patching_rect" : [ 2.0, 29.0, 416.0, 20.0 ],
 					"text" : "positions circles in gl.sketch using cv centroids as sources",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2353,7 +2368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 356.0, 30.0 ],
-					"text" : "cv centroids to GL sketch",
+					"text" : "cv centroids to GLsketch",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -3013,21 +3028,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.blobs.centroids.draw.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onemess.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_sound/St.ools/St.ools/abhaXions",
+				"patcherrelativepath" : "../Plugins_sound/St.ools/St.ools/abhaXions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.close.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

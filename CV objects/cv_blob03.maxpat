@@ -1629,7 +1629,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 20.0, 74.0, 178.0, 275.0 ],
+										"rect" : [ 935.0, 205.0, 178.0, 275.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1892,7 +1892,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 20.0, 74.0, 172.0, 249.0 ],
+										"rect" : [ 933.0, 204.0, 172.0, 249.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2972,7 +2972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 428.0, 411.0, 54.0, 18.0 ],
-					"text" : "133 221"
+					"text" : "119 221"
 				}
 
 			}
@@ -2986,7 +2986,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 377.0, 113.0, 18.0 ],
-					"text" : "0 90 12 223 233"
+					"text" : "0 123 12 242 233"
 				}
 
 			}
@@ -3000,7 +3000,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 377.0, 121.0, 18.0 ],
-					"text" : "0 90 12 223 233"
+					"text" : "0 123 12 242 233"
 				}
 
 			}
@@ -3238,7 +3238,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 144.0, 402.0, 57.0, 18.0 ],
-					"text" : "133 221"
+					"text" : "119 221"
 				}
 
 			}
