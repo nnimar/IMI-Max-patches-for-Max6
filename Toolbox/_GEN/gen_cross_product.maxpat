@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 2.0, 44.0, 548.0, 272.0 ],
@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.0, 246.5, 125.0, 20.0 ],
+					"patching_rect" : [ 416.0, 245.5, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 502.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 247.5, 142.0, 18.0 ],
-					"text" : "help xray.jit.crossproduct"
+					"patching_rect" : [ 364.0, 247.5, 179.0, 18.0 ],
+					"text" : "load xray.jit.crossproduct.help"
 				}
 
 			}
@@ -68,12 +68,13 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 235.0, 259.0, 34.0 ],
+					"patching_rect" : [ 5.0, 235.0, 259.0, 33.0 ],
 					"text" : "Tip : To use DOT with Gen, you need to use planes (three here) rather than dimension."
 				}
 
@@ -83,6 +84,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -97,6 +99,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -111,12 +114,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 248.0, 31.0 ],
+					"patching_rect" : [ 3.0, 1.0, 248.0, 30.0 ],
 					"text" : "Gen_cross product",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -127,13 +130,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 539.0, 36.0 ],
+					"patching_rect" : [ 4.0, 28.0, 539.0, 35.0 ],
 					"text" : "results in a vector which is perpendicular to both of the vectors being multiplied and therefore normal to the plane containing them : a x b = |a||b| sin t (sin 0 = 0 and sin 90 = 1)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -178,7 +181,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 169.0, 50.0, 23.0 ]
+					"patching_rect" : [ 302.0, 169.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -234,7 +237,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 134.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -266,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 8.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -285,7 +288,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 554.0, 47.0, 166.0, 151.0 ],
@@ -391,11 +394,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "cross.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -426,7 +424,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -531,7 +528,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "z.crossP.maxpat",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
+				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
