@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 100.0, 100.0, 351.0, 647.0 ],
+		"rect" : [ 100.0, 100.0, 390.0, 418.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -33,8 +33,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 215.0, 337.0, 399.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 337.0, 399.0 ]
+					"patching_rect" : [ 7.0, 215.0, 315.0, 188.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 315.0, 188.0 ]
 				}
 
 			}
@@ -42,11 +42,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
+					"frgb" : 0.0,
 					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 621.0, 326.0, 20.0 ],
+					"patching_rect" : [ 260.0, 35.0, 122.0, 45.0 ],
 					"text" : "Note: deferlow used here to handle the resizing of jit.pwindow"
 				}
 
@@ -60,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 173.0, 77.0, 20.0 ],
+					"patching_rect" : [ 155.0, 173.0, 77.0, 19.0 ],
 					"text" : "prepend size"
 				}
 
@@ -74,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 155.0, 150.0, 59.0, 20.0 ],
+					"patching_rect" : [ 155.0, 150.0, 59.0, 19.0 ],
 					"text" : "route dim"
 				}
 
@@ -88,7 +90,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 155.0, 54.0, 20.0 ],
+					"patching_rect" : [ 73.0, 155.0, 54.0, 19.0 ],
 					"text" : "deferlow"
 				}
 
@@ -102,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 73.0, 127.0, 101.0, 20.0 ],
+					"patching_rect" : [ 73.0, 127.0, 101.0, 19.0 ],
 					"text" : "jit.matrix intarnets"
 				}
 
@@ -116,7 +118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 100.0, 45.0, 18.0 ],
+					"patching_rect" : [ 73.0, 100.0, 45.0, 17.0 ],
 					"text" : "getdim"
 				}
 
@@ -130,8 +132,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 13.0, 336.0, 18.0 ],
-					"text" : "url http://s11.allstarpics.net/images/orig/l/n/ln1uth25edxiht5n.jpg"
+					"patching_rect" : [ 5.0, 12.0, 376.0, 17.0 ],
+					"text" : "url http://upload.wikimedia.org/wikipedia/en/7/78/Mathews84Violin.PNG"
 				}
 
 			}
@@ -144,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.0, 99.0, 101.0, 20.0 ],
+					"patching_rect" : [ 140.0, 99.0, 101.0, 19.0 ],
 					"text" : "jit.matrix intarnets"
 				}
 
@@ -158,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 6.0, 70.0, 153.0, 20.0 ],
+					"patching_rect" : [ 6.0, 70.0, 153.0, 19.0 ],
 					"text" : "t b b s"
 				}
 
@@ -172,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 41.0, 194.0, 20.0 ],
+					"patching_rect" : [ 6.0, 41.0, 194.0, 19.0 ],
 					"text" : "mxj jitwebimage /Applications/Max6"
 				}
 
@@ -239,7 +241,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 15.5, 40.0, 15.5, 40.0 ],
+					"midpoints" : [ 14.5, 40.0, 15.5, 40.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

@@ -37,7 +37,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 297.0, 493.0, 88.0, 20.0 ],
-					"presentation_rect" : [ 175.0, 474.0, 0.0, 0.0 ],
 					"text_width" : 59.0
 				}
 
@@ -1152,7 +1151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 427.0, 30.0 ],
-					"text" : "cv_feature to GLmesh & GLmultiple+",
+					"text" : "cv_features to GLmesh & GLmultiple+",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1168,7 +1167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 28.0, 487.0, 21.0 ],
-					"text" : "use cv.feature to create GL graphics",
+					"text" : "use cv.features to create GL graphics",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1327,7 +1326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 5.0, 366.0, 119.0, 100.0 ],
+					"patching_rect" : [ 5.0, 366.0, 122.0, 100.0 ],
 					"text" : "jit.gl.gridshape @shape circle @lighting_enable 1 @smooth_shading 1 @color 1 1 1 1 @name thegraphs @automatic 0"
 				}
 

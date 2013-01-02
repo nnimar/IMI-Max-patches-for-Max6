@@ -201,15 +201,13 @@
 					"frgb" : 0.0,
 					"id" : "obj-1",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 382.0, 84.0, 247.0, 37.0 ],
-					"text" : "c2adfd12ae5d714c338e7b1805f990c99d55340e0873eb4cff617c3a73fdb363"
+					"patching_rect" : [ 382.0, 84.0, 247.0, 37.0 ]
 				}
 
 			}
@@ -2325,7 +2323,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 260.0, 278.0, 94.0, 20.0 ],
-					"text" : "London"
+					"text" : "Unauthorized"
 				}
 
 			}
@@ -3122,8 +3120,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 84.0, 75.0, 29.0 ],
-					"text" : "14348"
+					"patching_rect" : [ 9.0, 84.0, 75.0, 29.0 ]
 				}
 
 			}
@@ -3138,7 +3135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 258.0, 319.0, 134.0, 20.0 ],
-					"text" : "\"CC128 with Max 5\""
+					"text" : "Unauthorized"
 				}
 
 			}

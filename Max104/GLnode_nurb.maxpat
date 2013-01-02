@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 85.0, 439.0, 146.0, 37.0 ],
-					"presentation_rect" : [ 86.0, 423.0, 0.0, 0.0 ],
 					"text" : "take node2 and send\nit onto a nurbs"
 				}
 
@@ -57,7 +56,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 86.0, 373.0, 146.0, 37.0 ],
-					"presentation_rect" : [ 11.0, 374.0, 0.0, 0.0 ],
 					"text" : "put it on a videoplane, render it on node2"
 				}
 
@@ -676,8 +674,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 28.0, 399.0, 21.0 ],
-					"text" : "Play a video using the the graphic card (the graphic processing unit)",
+					"patching_rect" : [ 5.0, 28.0, 534.0, 21.0 ],
+					"text" : "take a gridshape and a video that you render on a node, then render the node to a final node",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

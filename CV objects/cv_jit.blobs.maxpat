@@ -1475,7 +1475,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 300.0, 40.0, 20.0 ]
+					"patching_rect" : [ 62.0, 308.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -1488,7 +1488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 35.0, 276.0, 59.5, 20.0 ],
+					"patching_rect" : [ 35.0, 284.0, 59.5, 20.0 ],
 					"text" : "jit.3m"
 				}
 
@@ -1502,7 +1502,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 300.0, 98.0, 20.0 ],
+					"patching_rect" : [ 105.0, 308.0, 98.0, 20.0 ],
 					"text" : "number of blobs"
 				}
 
@@ -1517,7 +1517,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 340.0, 247.0, 74.0 ],
+					"patching_rect" : [ 306.0, 347.0, 247.0, 74.0 ],
 					"text" : "(3) bounds\n\nCreates bounding box that you can visualise (cv.jit.blobs.bounds.draw) or use in a matrix (blob matrix)"
 				}
 
@@ -1532,7 +1532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 375.0, 62.0, 24.0 ],
+					"patching_rect" : [ 125.0, 382.0, 62.0, 24.0 ],
 					"text" : "matrix"
 				}
 
@@ -1562,7 +1562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 229.0, 249.0, 100.0 ],
+					"patching_rect" : [ 306.0, 237.0, 249.0, 100.0 ],
 					"text" : "(2) label the blobs\n\n- In mode 0, each blob is assigned a number (starting from the left corner)\n- in mode 1, each blobs is labelled by size\n\n- threshold rejects the smallest blobs"
 				}
 
@@ -3477,7 +3477,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 38.0, 377.0, 83.0, 20.0 ],
+					"patching_rect" : [ 38.0, 384.0, 83.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3518,7 +3518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 19.0, 340.0, 110.0, 20.0 ],
+					"patching_rect" : [ 19.0, 347.0, 110.0, 20.0 ],
 					"text" : "cv.jit.blobs.bounds"
 				}
 
@@ -3533,7 +3533,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 19.0, 229.0, 198.0, 33.0 ],
+					"patching_rect" : [ 19.0, 237.0, 198.0, 33.0 ],
 					"text" : "cv.jit.label @mode 0 @charmode 1 @threshold 25"
 				}
 
@@ -3593,7 +3593,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 229.0, 20.0, 20.0 ],
+					"patching_rect" : [ 225.0, 237.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -3618,7 +3618,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 132.5, 340.0, 20.0, 20.0 ],
+					"patching_rect" : [ 132.5, 347.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -3781,7 +3781,7 @@
 					"destination" : [ "obj-8", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 216.0, 254.5, 216.0 ],
+					"midpoints" : [ 28.5, 221.0, 254.5, 221.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -3863,7 +3863,7 @@
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 268.5, 44.5, 268.5 ],
+					"midpoints" : [ 28.5, 276.5, 44.5, 276.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -3891,7 +3891,7 @@
 					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 367.5, 47.5, 367.5 ],
+					"midpoints" : [ 28.5, 374.5, 47.5, 374.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

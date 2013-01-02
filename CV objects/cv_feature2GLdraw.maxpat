@@ -982,7 +982,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
-					"text" : "cv_feature to GLmultiple",
+					"text" : "cv_features to GLmultiple",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -998,7 +998,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 29.0, 399.0, 21.0 ],
-					"text" : "use cv.feature to create GL graphics",
+					"text" : "use cv.features to create GL graphics",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

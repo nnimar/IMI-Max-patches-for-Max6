@@ -57,8 +57,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 436.0, 114.0, 15.0 ],
-					"text" : "load cv_feature2GLdraw+"
+					"patching_rect" : [ 267.0, 436.0, 107.0, 15.0 ],
+					"text" : "load cv_feature2GLdraw"
 				}
 
 			}
@@ -1073,7 +1073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 147.0, 279.0, 20.0 ],
+					"patching_rect" : [ 157.0, 147.0, 279.0, 20.0 ],
 					"text" : "calculate the bounding box and send it to a matrix"
 				}
 
@@ -1185,7 +1185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 178.0, 161.0, 20.0 ],
+					"patching_rect" : [ 169.0, 177.0, 161.0, 20.0 ],
 					"text" : "calculate the center of mass"
 				}
 
@@ -1199,7 +1199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 178.0, 159.0, 20.0 ],
+					"patching_rect" : [ 461.0, 177.0, 159.0, 20.0 ],
 					"text" : "re-order labels for continuity"
 				}
 
