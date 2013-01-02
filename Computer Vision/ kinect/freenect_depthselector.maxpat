@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 148.0, 411.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 118.0, 361.0, 0.0, 0.0 ],
 					"text" : "y"
 				}
 
@@ -53,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 409.34375, 20.0, 20.0 ],
-					"presentation_rect" : [ 89.0, 349.0, 0.0, 0.0 ],
 					"text" : "x"
 				}
 
@@ -84,8 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 409.34375, 46.0, 22.0 ],
-					"presentation_rect" : [ 271.0, 452.34375, 0.0, 0.0 ]
+					"patching_rect" : [ 103.0, 409.34375, 46.0, 22.0 ]
 				}
 
 			}
@@ -113,7 +110,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 347.0, 164.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 330.0, 257.0, 0.0, 0.0 ],
 					"text" : "|"
 				}
 
@@ -128,7 +124,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 164.0, 77.0, 20.0 ],
-					"presentation_rect" : [ 310.0, 258.0, 0.0, 0.0 ],
 					"text" : "background"
 				}
 
@@ -178,7 +173,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 453.0, 44.0, 297.0, 311.0 ],
+						"rect" : [ 536.0, 44.0, 297.0, 311.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -557,13 +552,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 12.0,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 12.0, 470.0, 214.0, 19.0 ],
+					"patching_rect" : [ 12.0, 470.0, 178.0, 20.0 ],
 					"text" : "cv.jit.centroids.draw"
 				}
 
@@ -811,7 +806,7 @@
 					"destination" : [ "obj-33", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 284.5, 216.5, 284.5 ],
+					"midpoints" : [ 21.5, 284.5, 180.5, 284.5 ],
 					"source" : [ "obj-37", 0 ]
 				}
 

@@ -248,7 +248,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.0, 253.5, 128.0, 23.0 ],
+					"patching_rect" : [ 246.0, 253.5, 120.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 472.0, 268.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -286,7 +286,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 253.5, 128.0, 23.0 ],
+					"patching_rect" : [ 112.0, 253.5, 129.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 460.0, 213.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1213,7 +1213,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 253.5, 98.0, 22.0 ],
+					"patching_rect" : [ 9.0, 253.5, 99.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 221.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1521,7 +1521,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 94.5, 255.0, 22.0 ],
+					"patching_rect" : [ 158.0, 94.5, 255.0, 22.0 ],
 					"text" : "a basic Kinect interface (J-M Pelletier)"
 				}
 
@@ -1540,11 +1540,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 94.5, 111.0, 22.0 ],
+					"patching_rect" : [ 9.0, 94.5, 140.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 491.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "jit.freenect.grab",
+					"text" : "jit.freenect.grab help",
 					"texton" : "Stop"
 				}
 
