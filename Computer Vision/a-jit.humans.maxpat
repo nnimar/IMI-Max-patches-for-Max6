@@ -389,8 +389,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
-					"text" : "a-jit.human",
+					"patching_rect" : [ 2.0, 3.0, 415.0, 30.0 ],
+					"text" : "a-jit.human (andré sier)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -604,7 +604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 63.0, 215.0, 33.0 ],
+					"patching_rect" : [ 179.0, 63.0, 218.0, 33.0 ],
 					"text" : "Toggle ON remove the background, \nthen turn it OFF once done."
 				}
 

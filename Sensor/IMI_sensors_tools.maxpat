@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ -1.0, 44.0, 580.0, 577.0 ],
+		"rect" : [ 0.0, 44.0, 578.0, 586.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 495.0, 54.0, 20.0 ],
+					"patching_rect" : [ 78.0, 563.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 494.0, 81.0, 20.0 ],
+					"patching_rect" : [ 39.0, 563.0, 81.0, 20.0 ],
 					"text" : "prepend help"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 448.0, 492.0, 60.0, 20.0 ],
+					"patching_rect" : [ 512.0, 563.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -96,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 492.0, 96.0, 18.0 ],
+					"patching_rect" : [ 467.0, 563.0, 96.0, 18.0 ],
 					"text" : "read sensors.txt"
 				}
 
@@ -290,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 39.0, 62.0, 18.0 ],
+					"patching_rect" : [ 247.0, 39.0, 60.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -305,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 494.0, 71.0, 20.0 ],
+					"patching_rect" : [ 16.0, 563.0, 71.0, 20.0 ],
 					"text" : "sprintf %s"
 				}
 
@@ -320,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 493.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 563.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -497,7 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 340.0, 493.0, 79.0, 20.0 ],
+					"patching_rect" : [ 404.0, 563.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -521,7 +521,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 59.0, 570.0, 513.0 ],
+					"patching_rect" : [ 4.0, 59.0, 570.0, 522.0 ],
 					"rowhead" : 1,
 					"rows" : 28,
 					"savemode" : 1,

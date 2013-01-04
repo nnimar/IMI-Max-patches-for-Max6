@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 581.0, 666.0 ],
+		"rect" : [ 1.0, 44.0, 569.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 476.0, 639.0, 96.0, 16.0 ],
+					"patching_rect" : [ 443.0, 640.0, 96.0, 16.0 ],
 					"text" : "read soundtools.txt"
 				}
 
@@ -404,9 +404,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 3.0, 61.0, 571.0, 596.0 ],
+					"patching_rect" : [ 3.0, 61.0, 563.0, 596.0 ],
 					"rowhead" : 1,
-					"rows" : 30,
+					"rows" : 32,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -456,7 +456,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 575.0, 52.0 ],
+					"patching_rect" : [ 2.0, 3.0, 565.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
