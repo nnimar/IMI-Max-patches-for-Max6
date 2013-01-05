@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 187.0, 204.0, 225.0, 22.0 ],
-					"presentation_rect" : [ 187.0, 237.0, 0.0, 0.0 ],
 					"text" : "nurbs with physics"
 				}
 
@@ -75,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 204.0, 102.0, 16.0 ],
-					"presentation_rect" : [ 13.0, 237.0, 0.0, 0.0 ],
 					"text" : "load GLNurbs_sheet"
 				}
 
@@ -89,7 +87,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 275.0, 213.0, 22.0 ],
+					"patching_rect" : [ 13.0, 267.0, 213.0, 22.0 ],
 					"text" : "Andrew Benson's Jitter recipes"
 				}
 
@@ -103,7 +101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 341.0, 229.0, 22.0 ],
+					"patching_rect" : [ 187.0, 333.0, 229.0, 22.0 ],
 					"text" : "make nurb images based on sound"
 				}
 
@@ -118,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 371.0, 43.0, 17.0 ],
+					"patching_rect" : [ 12.0, 363.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -132,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 310.0, 212.0, 22.0 ],
+					"patching_rect" : [ 187.0, 302.0, 212.0, 22.0 ],
 					"text" : "apply effects on nurbs image"
 				}
 
@@ -151,7 +149,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 341.0, 107.0, 20.0 ],
+					"patching_rect" : [ 13.0, 333.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -170,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 341.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 333.0, 99.0, 16.0 ],
 					"text" : "load 22.CatchNurbs"
 				}
 
@@ -189,7 +187,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 310.0, 124.0, 20.0 ],
+					"patching_rect" : [ 13.0, 302.0, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -208,7 +206,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 310.0, 111.0, 16.0 ],
+					"patching_rect" : [ 13.0, 302.0, 111.0, 16.0 ],
 					"text" : "load 21.SceneProcess"
 				}
 
@@ -532,7 +530,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 264.0, 428.0, 4.0 ],
+					"patching_rect" : [ 4.0, 256.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 

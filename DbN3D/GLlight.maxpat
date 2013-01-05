@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 517.0, 342.0, 206.0, 33.0 ],
+					"patching_rect" : [ 517.0, 342.0, 209.0, 33.0 ],
 					"text" : "the fog attribute can now be changed in GLmaterial, here is another way :"
 				}
 
@@ -227,7 +227,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 779.0, 372.0, 400.0, 165.0 ],
+						"rect" : [ 779.0, 372.0, 401.0, 133.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -256,7 +256,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 106.0, 373.0, 33.0 ],
+									"patching_rect" : [ 8.0, 91.0, 373.0, 33.0 ],
 									"text" : "move the light source directly in the window, pressing the cmd (apple) key to change the position and the alt key to change depth."
 								}
 

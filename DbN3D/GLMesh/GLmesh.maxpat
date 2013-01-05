@@ -1147,7 +1147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 580.0, 162.0, 22.0 ],
+					"patching_rect" : [ 189.0, 579.0, 162.0, 22.0 ],
 					"text" : "drawing using images"
 				}
 
