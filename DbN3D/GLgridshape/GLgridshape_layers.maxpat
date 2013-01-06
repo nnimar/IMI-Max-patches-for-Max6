@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 615.0, 465.0, 151.360596, 22.098633 ],
+					"patching_rect" : [ 615.0, 467.0, 151.360596, 22.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 370.0, 53.360592, 24.098633 ],
 					"rounded" : 20.0,
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 468.0, 46.0, 18.0 ],
+					"patching_rect" : [ 615.0, 470.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 468.0, 152.0, 18.0 ],
+					"patching_rect" : [ 616.0, 470.0, 152.0, 18.0 ],
 					"text" : "load GLrender_techniques"
 				}
 
@@ -808,7 +808,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -901,7 +901,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 725.0, 27.638458, 38.0, 20.0 ],
+					"patching_rect" : [ 733.0, 30.638458, 33.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",

@@ -1434,7 +1434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 506.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 506.0, 21.0 ],
 					"text" : "GLrender has still some benefits over GLcamera, like the ability to measure a scene",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
