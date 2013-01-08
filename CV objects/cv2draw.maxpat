@@ -125,7 +125,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 249.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "inky partilces",
+					"text" : "inky particles",
 					"texton" : "Stop"
 				}
 

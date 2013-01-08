@@ -42,12 +42,15 @@ var startDrawing = true;
 
 var brush = new simple(this,colorArray,BRUSH_SIZE,BRUSH_PRESSURE);
 
+var outputMatrix = new JitterMatrix(4, "char", 640, 480); 
+
 var window = new JitterObject("jit.window", "harmony");
 window.fsaa = 1;
 window.size = [640,480];
+//window.depthbuffer = 1; 
 var render = new JitterObject("jit.gl.render", "harmony");
 var sketch = new JitterObject("jit.gl.sketch", "harmony");
-sketch.blend_enable = 1;
+sketch.blend_enable =1;
 var listener = new JitterListener(window.getregisteredname(), windowcallback);
 var globalButton = 0;
 
@@ -63,7 +66,8 @@ function resetsketch()
         glpolygonmode("front_and_back","fill");
         glpointsize(1.);
         gllinewidth(1.);
-        gldisable("depth_test");
+       gldisable("depth_test");
+        gldepthmask();
         gldisable("fog");
         glcolor(0.,0.,0.,1.);
         glshademodel("smooth");
@@ -79,9 +83,9 @@ function resetsketch()
         glclearcolor(1., 1., 1., 1.);    
         glclear();
         glenable("blend");
-        //glblendfunc(6,1);
+       // glblendfunc(3, 7);
     }
-    render.drawswap();
+    render.swap();
 }
 ////////////////////////////////////////////////////////////
 // Global and API Functions 
@@ -261,7 +265,7 @@ function mapColor2RGBA(r,g,b,a)
     rgbaArray[0] = r/255.;
     rgbaArray[1] = g/255.;
     rgbaArray[2] = b/255.;
-    rgbaArray[3] = a/255.;
+    rgbaArray[3] = 1.;
     return rgbaArray;
 }
 
@@ -271,13 +275,26 @@ function mapColor2RGBA(r,g,b,a)
 function draw()
 {
     refresh();
+prepareOutput();
 }
 
 function deleteCanvas()
 {
     resetsketch();
     refresh();
+prepareOutput();
 }
+
+
+function prepareOutput()
+{
+    // Generate output
+
+sketch.glreadpixels(outputMatrix.name, 0, 0, 640, 480);
+
+
+   outlet(0, "jit_matrix", outputMatrix.name);
+  }
 
 ////////////////////////////////////////////////////////////
 // Interaction
@@ -1100,7 +1117,9 @@ roundSquares.prototype.clear = roundSquaresClear;
 
 function refresh()
 {
+   
     render.swap();
+prepareOutput();
 }
 
 function notifydeleted()
@@ -1109,4 +1128,5 @@ function notifydeleted()
     sketch.freepeer();
     render.freepeer();
     window.freepeer();
+
 }

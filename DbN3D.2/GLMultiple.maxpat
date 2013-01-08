@@ -60,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.0, 457.0, 109.0, 15.0 ],
-					"presentation_rect" : [ 465.0, 387.0, 0.0, 0.0 ],
 					"text" : "load anim_drive_camera"
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 625.0, 455.0, 44.0, 17.0 ],
-					"presentation_rect" : [ 466.0, 384.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -403,7 +401,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 89.0, 37.0, 18.0 ],
+					"patching_rect" : [ 188.0, 65.0, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 

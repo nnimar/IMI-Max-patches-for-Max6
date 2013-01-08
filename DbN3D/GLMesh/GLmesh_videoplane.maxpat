@@ -71,7 +71,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 586.0, 359.0, 389.0, 81.0 ],
+						"rect" : [ 586.0, 359.0, 385.0, 80.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -96,12 +96,12 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-27",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 9.0, 307.0, 53.0 ],
-									"text" : "Texture coordinates typically range from [0, 1]. generate coordinates for a plane using a jit.expr \nor jit.gen"
+									"patching_rect" : [ 9.0, 17.0, 356.0, 38.0 ],
+									"text" : "Texture coordinates typically range from [0, 1]. generate coordinates for a plane using a jit.expr or jit.gen"
 								}
 
 							}

@@ -54,7 +54,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 204.0, 111.0, 20.0 ],
+					"patching_rect" : [ 13.0, 204.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 237.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -404,7 +404,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 120.0, 109.0, 18.0 ],
+					"patching_rect" : [ 13.0, 120.0, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -423,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 230.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 230.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 

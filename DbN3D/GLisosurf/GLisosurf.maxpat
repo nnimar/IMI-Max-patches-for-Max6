@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 438.0, 337.0 ],
@@ -68,11 +68,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 89.0, 244.0, 23.0 ],
+					"patching_rect" : [ 193.0, 89.0, 244.0, 22.0 ],
 					"text" : "convert a movie to an extruded mesh"
 				}
 
@@ -119,11 +120,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 148.0, 236.0, 23.0 ],
+					"patching_rect" : [ 193.0, 148.0, 236.0, 22.0 ],
 					"text" : "isosurf to dist. functions (using Gen)"
 				}
 
@@ -170,11 +172,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 117.0, 236.0, 23.0 ],
+					"patching_rect" : [ 193.0, 117.0, 236.0, 22.0 ],
 					"text" : "isosurf to dist. functions (using Gen)"
 				}
 
@@ -183,11 +186,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 299.0, 138.0, 23.0 ],
+					"patching_rect" : [ 189.0, 299.0, 138.0, 22.0 ],
 					"text" : "psychedelic shapes"
 				}
 
@@ -206,7 +210,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 299.0, 104.0, 19.0 ],
+					"patching_rect" : [ 14.0, 299.0, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 247.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -234,11 +238,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 197.0, 213.0, 23.0 ],
+					"patching_rect" : [ 13.0, 197.0, 213.0, 22.0 ],
 					"text" : "Andrew Benson's Jitter recipes"
 				}
 
@@ -247,11 +252,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 268.0, 109.0, 23.0 ],
+					"patching_rect" : [ 189.0, 268.0, 109.0, 22.0 ],
 					"text" : "visual blobs"
 				}
 
@@ -275,11 +281,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 235.0, 212.0, 23.0 ],
+					"patching_rect" : [ 189.0, 235.0, 212.0, 22.0 ],
 					"text" : "a fortress made of moving image"
 				}
 
@@ -298,7 +305,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 268.0, 102.0, 19.0 ],
+					"patching_rect" : [ 13.0, 268.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -336,7 +343,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 235.0, 159.0, 21.0 ],
+					"patching_rect" : [ 13.0, 235.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -417,11 +424,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 61.0, 236.0, 23.0 ],
+					"patching_rect" : [ 192.0, 61.0, 236.0, 22.0 ],
 					"text" : "isosurf to track position"
 				}
 
@@ -430,7 +438,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -447,7 +455,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -466,7 +474,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-40",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -483,7 +490,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

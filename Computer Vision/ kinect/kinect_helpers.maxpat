@@ -120,7 +120,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 59.5, 218.0, 22.0 ],
-					"presentation_rect" : [ 154.0, 59.5, 0.0, 0.0 ],
 					"text" : "use with the Synapse application"
 				}
 
@@ -162,7 +161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 94.5, 208.0, 22.0 ],
+					"patching_rect" : [ 120.0, 94.5, 208.0, 22.0 ],
 					"text" : "use with the NIMate application"
 				}
 
@@ -307,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 94.5, 111.0, 22.0 ],
+					"patching_rect" : [ 10.0, 94.5, 102.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 521.5, 79.0, 17.0 ],
 					"rounded" : 20.0,

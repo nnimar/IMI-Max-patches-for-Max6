@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 587.0, 331.0 ],
@@ -27,6 +27,44 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-31",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 383.0, 67.5, 110.218712, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 384.0, 67.5, 110.218712, 24.098633 ],
+					"rounded" : 20.0,
+					"text" : "GLpath_matrix",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-33",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 384.0, 67.5, 98.0, 16.0 ],
+					"text" : "load GLpath_matrix"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -74,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 307.0, 52.0, 20.0 ],
+					"patching_rect" : [ 264.0, 307.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -304,11 +342,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-47",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 267.5, 117.0, 23.0 ],
+					"patching_rect" : [ 6.0, 267.5, 117.0, 22.0 ],
 					"text" : "Nodal transform"
 				}
 
@@ -317,12 +356,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-44",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 292.0, 122.0, 34.0 ],
+					"patching_rect" : [ 127.0, 292.0, 122.0, 33.0 ],
 					"text" : "perform hierarchical transformation"
 				}
 
@@ -331,6 +371,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -344,12 +385,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-42",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 163.0, 152.0, 34.0 ],
+					"patching_rect" : [ 127.0, 163.0, 152.0, 33.0 ],
 					"text" : "create / edit points and interpolates between them"
 				}
 
@@ -358,12 +400,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 92.0, 121.0, 34.0 ],
+					"patching_rect" : [ 127.0, 92.0, 121.0, 33.0 ],
 					"text" : "generate and render a path in openGL"
 				}
 
@@ -372,11 +415,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 209.5, 103.0, 23.0 ],
+					"patching_rect" : [ 6.0, 209.5, 103.0, 22.0 ],
 					"text" : "3D transform"
 				}
 
@@ -385,11 +429,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 137.5, 84.0, 23.0 ],
+					"patching_rect" : [ 6.0, 137.5, 84.0, 22.0 ],
 					"text" : "Interpolate"
 				}
 
@@ -408,11 +453,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.0, 67.5, 61.943336, 22.0 ],
+					"patching_rect" : [ 127.0, 67.5, 86.943336, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.0, 158.5, 61.943336, 24.098633 ],
 					"rounded" : 20.0,
-					"text" : "GLpath",
+					"text" : "GLpath help",
 					"texton" : "Stop"
 				}
 
@@ -431,11 +476,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.0, 137.5, 77.508537, 22.0 ],
+					"patching_rect" : [ 127.0, 137.5, 100.508537, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 67.0, 77.508537, 24.098633 ],
 					"rounded" : 20.0,
-					"text" : "anim.path",
+					"text" : "anim.path help",
 					"texton" : "Stop"
 				}
 
@@ -454,11 +499,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.0, 267.5, 81.406677, 22.0 ],
+					"patching_rect" : [ 127.0, 267.5, 104.406677, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 277.0, 81.406677, 24.098633 ],
 					"rounded" : 20.0,
-					"text" : "anim.node",
+					"text" : "anim.node help",
 					"texton" : "Stop"
 				}
 
@@ -477,11 +522,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.0, 208.0, 80.606529, 22.0 ],
+					"patching_rect" : [ 127.0, 208.0, 103.606529, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 395.0, 365.0, 80.606529, 24.098633 ],
 					"rounded" : 20.0,
-					"text" : "anim.drive",
+					"text" : "anim.drive help",
 					"texton" : "Stop"
 				}
 
@@ -496,7 +541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 128.0, 305.0, 52.0, 20.0 ],
+					"patching_rect" : [ 127.0, 305.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -505,11 +550,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 67.5, 77.0, 23.0 ],
+					"patching_rect" : [ 6.0, 67.5, 77.0, 22.0 ],
 					"text" : "Generate"
 				}
 
@@ -518,7 +564,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -534,7 +580,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -601,7 +647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 271.0, 90.0, 16.0 ],
+					"patching_rect" : [ 127.0, 271.0, 90.0, 16.0 ],
 					"text" : "help jit.anim.node"
 				}
 
@@ -616,7 +662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 212.0, 89.0, 16.0 ],
+					"patching_rect" : [ 127.0, 212.0, 89.0, 16.0 ],
 					"text" : "help jit.anim.drive"
 				}
 
@@ -646,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 141.0, 86.0, 16.0 ],
+					"patching_rect" : [ 127.0, 141.0, 86.0, 16.0 ],
 					"text" : "help jit.anim.path"
 				}
 
@@ -658,7 +704,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -824,10 +869,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}

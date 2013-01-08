@@ -28,6 +28,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 499.0, 39.0, 18.0 ],
+					"presentation_rect" : [ 490.0, 499.0, 0.0, 0.0 ],
+					"text" : "close"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -781,7 +796,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 504.0, 37.0, 18.0 ],
+					"patching_rect" : [ 443.0, 499.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -1529,6 +1544,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 452.5, 522.0, 433.5, 522.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1807,6 +1823,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 496.5, 522.0, 433.5, 522.0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
