@@ -30,6 +30,92 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-174",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4581.0, 159.0, 87.0, 22.0 ],
+					"presentation_rect" : [ 4385.0, 301.0, 0.0, 0.0 ],
+					"text" : "store / recall"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-164",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5174.0, 143.0, 135.0, 47.0 ],
+					"presentation_rect" : [ 5172.0, 142.0, 0.0, 0.0 ],
+					"text" : "good practice :\n- collect data\n- parse and output\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-165",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 5173.0, 119.0, 104.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5173.0, 119.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "weather report",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-172",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5173.0, 143.0, 141.0, 18.0 ],
+					"presentation_rect" : [ 5173.0, 143.0, 0.0, 0.0 ],
+					"text" : "load IMI_weather_report"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-173",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5173.0, 143.0, 52.0, 19.0 ],
+					"presentation_rect" : [ 5173.0, 143.0, 0.0, 0.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"hidden" : 1,
 					"id" : "obj-166",
 					"maxclass" : "newobj",
@@ -472,7 +558,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -637,7 +722,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5332.0, 48.0, 588.0, 90.0 ],
-					"text" : "Patch too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than the jitter objects. For video effects, have a look at the shaders. "
+					"text" : "Patch too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than \nthe jitter objects. For video effects, have a look at the shaders or Gen. "
 				}
 
 			}
@@ -1640,8 +1725,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1783.0, 12.0, 168.0, 27.0 ],
-					"text" : "4. simulation",
+					"patching_rect" : [ 1783.0, 12.0, 407.0, 27.0 ],
+					"text" : "4. simulation : the manual mode",
 					"varname" : "autohelp_top_title[6]"
 				}
 
@@ -1656,8 +1741,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1783.0, 47.0, 542.0, 48.0 ],
-					"text" : "Add more objects, one at a time, and experiment to see how they interact, one small group at a time. It's the manual mode. "
+					"patching_rect" : [ 1783.0, 47.0, 548.0, 48.0 ],
+					"text" : "Add more objects, one at a time, and experiment manually to see how they interact, one small group at a time. "
 				}
 
 			}
@@ -1802,8 +1887,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4582.0, 199.0, 127.0, 38.0 ],
-					"text" : "click to recall\nshift-click to store"
+					"patching_rect" : [ 4581.0, 193.0, 127.0, 38.0 ],
+					"text" : "shift-click to store\nclick to recall"
 				}
 
 			}
@@ -3085,6 +3170,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-172", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-165", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -3098,6 +3192,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-172", 0 ]
 				}
 
 			}
@@ -3418,8 +3521,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/filters/dot.threshtrig",
+				"patcherrelativepath" : "../Plugins_tools/dot_20121204/filters/dot.threshtrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}

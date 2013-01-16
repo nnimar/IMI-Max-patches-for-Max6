@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 504.0, 343.0 ],
+		"rect" : [ 0.0, 44.0, 503.0, 282.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -596,7 +596,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 384.0, 269.0, 102.0, 20.0 ],
+					"patching_rect" : [ 13.0, 225.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -624,7 +624,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 80.0, 121.0, 24.0 ],
+					"patching_rect" : [ 206.0, 61.0, 121.0, 24.0 ],
 					"text" : "size of the circle"
 				}
 
@@ -689,7 +689,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 320.0, 5.0, 115.0, 24.0 ],
-									"presentation_rect" : [ 237.0, 196.0, 0.0, 0.0 ],
 									"text" : "clear, white color"
 								}
 
@@ -704,7 +703,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 191.0, 8.090912, 127.0, 18.0 ],
-									"presentation_rect" : [ 249.0, 202.090912, 0.0, 0.0 ],
 									"text" : "glclear, glcolor 1. 1. 1."
 								}
 
@@ -720,7 +718,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 284.0, 32.0, 89.0, 24.0 ],
-									"presentation_rect" : [ 205.0, 119.0, 0.0, 0.0 ],
 									"text" : "go to center"
 								}
 
@@ -1109,7 +1106,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 312.0, 53.0, 22.0 ],
+					"patching_rect" : [ 331.0, 254.0, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1539,7 +1536,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 205.0, 174.0, 55.0, 20.0 ],
+					"patching_rect" : [ 354.0, 144.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1566,7 +1563,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.0, 173.0, 59.0, 20.0 ],
+					"patching_rect" : [ 286.0, 143.0, 59.0, 20.0 ],
 					"text" : "r sketchy"
 				}
 
@@ -1863,7 +1860,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 71.0, 312.0, 107.0, 22.0 ],
+					"patching_rect" : [ 390.0, 254.0, 107.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1890,7 +1887,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 478.0, 21.0 ],
+					"patching_rect" : [ 5.0, 30.0, 478.0, 21.0 ],
 					"text" : "the turtle mode is the easiest to use, see inside <turtle> for some experiments",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1909,7 +1906,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 81.0, 42.0, 20.0 ]
+					"patching_rect" : [ 161.0, 62.0, 42.0, 20.0 ]
 				}
 
 			}
@@ -1922,7 +1919,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 81.0, 140.0, 64.0, 20.0 ],
+					"patching_rect" : [ 230.0, 110.0, 64.0, 20.0 ],
 					"text" : "change 0."
 				}
 
@@ -1936,7 +1933,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 81.0, 173.0, 38.0, 18.0 ],
+					"patching_rect" : [ 230.0, 143.0, 38.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -1950,7 +1947,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 384.0, 294.0, 93.0, 20.0 ],
+					"patching_rect" : [ 13.0, 250.0, 93.0, 20.0 ],
 					"text" : "jit.window turtle"
 				}
 
@@ -1981,7 +1978,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 173.0, 55.0, 18.0 ],
+					"patching_rect" : [ 161.0, 143.0, 55.0, 18.0 ],
 					"text" : "circle $1"
 				}
 
@@ -1996,7 +1993,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 407.0, 62.0, 60.0, 20.0 ],
+					"patching_rect" : [ 36.0, 62.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2006,12 +2003,12 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-10",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 223.0, 250.0, 38.0 ],
+					"patching_rect" : [ 161.0, 204.0, 131.0, 69.0 ],
 					"text" : "jit.gl.sketch turtle @color 1. 1. 1. 1. @scale 0.6 @line_width 3"
 				}
 
@@ -2024,21 +2021,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 149.0, 46.0, 20.0 ],
+					"patching_rect" : [ 57.0, 149.0, 46.0, 20.0 ],
 					"text" : "s draw"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "jit.fpsgui",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 384.0, 227.0, 65.0, 35.0 ]
 				}
 
 			}
@@ -2050,7 +2034,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 384.0, 62.0, 20.0, 20.0 ]
+					"patching_rect" : [ 13.0, 62.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -2063,7 +2047,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 384.0, 92.0, 65.0, 20.0 ],
+					"patching_rect" : [ 13.0, 92.0, 65.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -2077,7 +2061,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 384.0, 121.0, 106.0, 20.0 ],
+					"patching_rect" : [ 13.0, 121.0, 106.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -2092,7 +2076,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 384.0, 184.0, 103.0, 33.0 ],
+					"patching_rect" : [ 13.0, 184.0, 103.0, 33.0 ],
 					"text" : "jit.gl.render turtle @ortho 1"
 				}
 
@@ -2107,7 +2091,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 54.0, 124.147247, 268.0 ],
+					"patching_rect" : [ 4.0, 54.0, 121.147247, 226.0 ],
 					"rounded" : 30
 				}
 
@@ -2134,7 +2118,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 204.0, 21.5, 204.0 ],
+					"midpoints" : [ 170.5, 174.0, 170.5, 174.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -2162,17 +2146,8 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 132.0, 90.5, 132.0 ],
+					"midpoints" : [ 170.5, 102.0, 239.5, 102.0 ],
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -2181,7 +2156,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 480.5, 175.5, 393.5, 175.5 ],
+					"midpoints" : [ 109.5, 175.5, 22.5, 175.5 ],
 					"source" : [ "obj-26", 2 ]
 				}
 
@@ -2227,7 +2202,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 90.5, 204.0, 21.5, 204.0 ],
+					"midpoints" : [ 239.5, 174.0, 170.5, 174.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -2237,7 +2212,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 146.5, 204.0, 21.5, 204.0 ],
+					"midpoints" : [ 295.5, 174.0, 170.5, 174.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2256,7 +2231,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 214.5, 204.5, 21.5, 204.5 ],
+					"midpoints" : [ 363.5, 174.5, 170.5, 174.5 ],
 					"source" : [ "obj-87", 0 ]
 				}
 

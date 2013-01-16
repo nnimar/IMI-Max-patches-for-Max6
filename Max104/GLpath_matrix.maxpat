@@ -658,7 +658,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 84.844299, 191.0, 37.0 ],
+					"patching_rect" : [ 296.0, 79.844299, 191.0, 37.0 ],
 					"text" : "4 plane matrix - first plane is time, followed by position x,y,z"
 				}
 
@@ -670,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 170.0, 60.63472, 25.0, 25.0 ]
+					"patching_rect" : [ 170.0, 55.63472, 25.0, 25.0 ]
 				}
 
 			}
@@ -683,7 +683,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 93.844299, 121.0, 20.0 ],
+					"patching_rect" : [ 170.0, 88.844299, 121.0, 20.0 ],
 					"text" : "jit.matrix 4 float32 10"
 				}
 
@@ -698,7 +698,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 137.0, 153.0, 47.0 ],
+					"patching_rect" : [ 170.0, 132.0, 153.0, 47.0 ],
 					"text" : "jit.expr @expr (norm[0]*5) cos(norm[0]*TWOPI) sin(norm[0]*TWOPI 0."
 				}
 
@@ -781,7 +781,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.0, 265.790405, 108.0, 20.0 ],
+					"patching_rect" : [ 190.0, 260.790405, 108.0, 20.0 ],
 					"text" : "jit.gl.material"
 				}
 
@@ -796,7 +796,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 297.0, 145.0, 33.0 ],
+					"patching_rect" : [ 170.0, 292.0, 145.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @scale 0.2 0.2 0.2"
 				}
 
@@ -824,7 +824,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 228.946106, 286.0, 20.0 ],
+					"patching_rect" : [ 170.0, 223.946106, 286.0, 20.0 ],
 					"text" : "jit.anim.path @drawpath glpath @interpmode spline"
 				}
 
@@ -839,7 +839,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 199.0, 81.0, 20.0 ],
+					"patching_rect" : [ 195.0, 194.0, 81.0, 20.0 ],
 					"text_width" : 56.0
 				}
 

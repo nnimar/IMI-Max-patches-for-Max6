@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 2.0, 44.0, 739.0, 439.0 ],
+		"rect" : [ 0.0, 44.0, 739.0, 439.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -214,7 +214,7 @@
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 688.0, 32.0, 43.0, 18.0 ],
-					"text" : "rev 007",
+					"text" : "rev 008",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -283,10 +283,10 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -3550.0, 0.0 ],
+					"offset" : [ -4734.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 155.274536, 53.0, 583.0, 370.0 ]
+					"presentation_rect" : [ 142.274536, 53.0, 589.0, 370.0 ]
 				}
 
 			}
@@ -572,8 +572,8 @@
 			}
 , 			{
 				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/filters/dot.threshtrig",
+				"patcherrelativepath" : "../Plugins_tools/dot_20121204/filters/dot.threshtrig",
 				"type" : "JSON",
 				"implicit" : 1
 			}

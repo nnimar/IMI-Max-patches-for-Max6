@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 396.0, 553.0 ],
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -68,6 +68,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -110,7 +111,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 334.0, 500.0, 52.0, 20.0 ],
+									"patching_rect" : [ 334.0, 500.0, 52.0, 19.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -214,7 +215,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 404.0, 249.0, 436.0, 346.0 ],
@@ -363,15 +364,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "codebox.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 100.244202, 205.0, 156.0, 23.0 ],
+									"patching_rect" : [ 100.244202, 205.0, 156.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -397,7 +393,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 65.0, 485.0, 80.0, 37.0 ]
+									"patching_rect" : [ 65.0, 485.0, 80.0, 36.0 ]
 								}
 
 							}
@@ -418,7 +414,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -434,7 +430,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -453,7 +449,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -581,28 +576,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "demovideo.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 11.0, 246.0, 37.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p rot",
@@ -623,10 +611,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
+						"rect" : [ 1.0, 70.0, 396.0, 527.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -660,7 +648,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 406.0, 225.0, 136.0, 145.0 ],
@@ -766,15 +754,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "*.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 8.0, 205.0, 159.0, 23.0 ],
+									"patching_rect" : [ 8.0, 205.0, 159.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -794,6 +777,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -890,7 +874,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -906,13 +890,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 4.0, 30.0, 372.0, 21.0 ],
-									"text" : "screen blend (R = Base × Blend)",
+									"text" : "multiply blend (R = Base × Blend)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -925,7 +909,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -1009,22 +992,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 11.0, 280.0, 66.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p multiple",
@@ -1045,10 +1027,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
-						"rect" : [ 1.0, 70.0, 396.0, 527.0 ],
+						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1082,7 +1064,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 407.0, 162.0, 126.0, 197.0 ],
@@ -1257,19 +1239,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "*.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "!-.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 8.0, 205.0, 159.0, 23.0 ],
+									"patching_rect" : [ 8.0, 205.0, 159.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -1289,6 +1262,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1385,7 +1359,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1401,7 +1375,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1420,7 +1394,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -1504,22 +1477,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 11.0, 305.0, 60.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p screen",
@@ -1540,7 +1512,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -1612,7 +1584,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 8.0, 485.0, 80.0, 37.0 ]
+									"patching_rect" : [ 8.0, 485.0, 80.0, 36.0 ]
 								}
 
 							}
@@ -1642,7 +1614,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 407.0, 216.0, 313.0, 217.0 ],
@@ -1699,6 +1671,7 @@
 													"bubbleside" : 3,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"frgb" : 0.0,
 													"id" : "obj-8",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -1837,31 +1810,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "norm.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "sample.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "+.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "*.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "param.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 8.0, 256.0, 51.0, 23.0 ],
+									"patching_rect" : [ 8.0, 256.0, 51.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -1871,7 +1823,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1887,7 +1839,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1906,7 +1858,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -1962,28 +1913,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "demovideo.maxpat",
-								"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 11.0, 214.0, 43.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p grid",
@@ -2004,7 +1948,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -2060,7 +2004,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 326.0, 504.0, 52.0, 20.0 ],
+									"patching_rect" : [ 326.0, 504.0, 52.0, 19.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -2215,7 +2159,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 407.0, 44.0, 488.0, 165.0 ],
@@ -2243,12 +2187,13 @@
 													"bubble" : 1,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"frgb" : 0.0,
 													"id" : "obj-11",
 													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 232.0, 58.0, 240.0, 38.0 ],
+													"patching_rect" : [ 232.0, 58.0, 240.0, 37.0 ],
 													"text" : "convert linear [0, 1] param to cubic interpolated param over the range [0, 1]"
 												}
 
@@ -2382,23 +2327,10 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "param.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "mix.mxo",
-												"type" : "iLaX"
-											}
-, 											{
-												"name" : "smoothstep.mxo",
-												"type" : "iLaX"
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 79.0, 205.0, 176.0, 23.0 ],
+									"patching_rect" : [ 79.0, 205.0, 176.0, 22.0 ],
 									"text" : "jit.gen"
 								}
 
@@ -2408,7 +2340,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2424,7 +2356,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2443,7 +2375,6 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
@@ -2565,22 +2496,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 10.0, 188.0, 53.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 13.0
+						"fontname" : "Arial",
+						"fontsize" : 13.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p xfade",
@@ -2606,25 +2536,25 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-2::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ],
 			"obj-2::obj-3::obj-4::obj-21" : [ "number[2]", "number", 0 ],
 			"obj-3::obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-3::obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-2::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-2::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ],
-			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
+			"obj-2::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "demovideo.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/jitter-help",
+				"patcherrelativepath" : "../../../Cycling '74/jitter-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
