@@ -28,25 +28,25 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "tutorial 41",
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.419608, 0.521569, 0.521569, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-49",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 346.0, 236.0, 87.0, 19.0 ],
+					"patching_rect" : [ 311.0, 236.0, 123.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
+					"presentation_rect" : [ 327.0, 175.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "Jitter recipe 2",
-					"texton" : "Stop",
-					"textovercolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ]
+					"text" : "Jitter recipe 2 web",
+					"texton" : "Stop"
 				}
 
 			}
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 218.0, 293.0, 41.0 ],
+					"patching_rect" : [ 141.0, 214.0, 293.0, 41.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/2006/02/14/jitter-recipes-book-2/"
 				}
 
@@ -75,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 175.0, 197.0, 22.0 ],
+					"patching_rect" : [ 144.0, 171.0, 197.0, 22.0 ],
 					"text" : "turn an image into small lights"
 				}
 
@@ -95,7 +95,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 176.0, 92.0, 20.0 ],
+					"patching_rect" : [ 13.0, 172.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 172.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -114,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 176.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 172.0, 99.0, 16.0 ],
 					"text" : "load 38.BrightLights"
 				}
 
@@ -134,7 +134,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 147.0, 91.0, 20.0 ],
+					"patching_rect" : [ 13.0, 143.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -153,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 147.0, 78.0, 16.0 ],
+					"patching_rect" : [ 13.0, 143.0, 78.0, 16.0 ],
 					"text" : "load 37.Shatter"
 				}
 
@@ -173,7 +173,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 120.0, 92.0, 20.0 ],
+					"patching_rect" : [ 13.0, 116.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 152.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -192,7 +192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 120.0, 103.0, 17.0 ],
+					"patching_rect" : [ 13.0, 116.0, 103.0, 17.0 ],
 					"text" : "load 36.TinyVideo"
 				}
 
@@ -212,7 +212,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 206.0, 92.0, 19.0 ],
+					"patching_rect" : [ 13.0, 202.0, 92.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 216.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -231,7 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 206.0, 87.0, 17.0 ],
+					"patching_rect" : [ 13.0, 202.0, 87.0, 17.0 ],
 					"text" : "load 41.Verlets"
 				}
 
@@ -251,7 +251,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 92.0, 92.0, 21.0 ],
+					"patching_rect" : [ 13.0, 88.0, 92.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 125.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -276,7 +276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 64.0, 91.0, 20.0 ],
+					"patching_rect" : [ 13.0, 60.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 96.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -295,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 64.0, 103.0, 16.0 ],
+					"patching_rect" : [ 13.0, 60.0, 103.0, 16.0 ],
 					"text" : "load 30.SoundLump"
 				}
 
@@ -309,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 147.0, 195.0, 22.0 ],
+					"patching_rect" : [ 144.0, 143.0, 195.0, 22.0 ],
 					"text" : "shatter an image into pieces"
 				}
 
@@ -323,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 120.0, 200.0, 22.0 ],
+					"patching_rect" : [ 144.0, 116.0, 200.0, 22.0 ],
 					"text" : "record images and place them"
 				}
 
@@ -337,7 +337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 205.0, 157.0, 22.0 ],
+					"patching_rect" : [ 144.0, 201.0, 157.0, 22.0 ],
 					"text" : "images and constraints"
 				}
 
@@ -351,7 +351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 92.0, 177.0, 22.0 ],
+					"patching_rect" : [ 144.0, 88.0, 177.0, 22.0 ],
 					"text" : "animation tool for GLmesh"
 				}
 
@@ -365,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 64.0, 236.0, 22.0 ],
+					"patching_rect" : [ 144.0, 60.0, 236.0, 22.0 ],
 					"text" : "mesh and texture reactive to sound"
 				}
 
@@ -428,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 92.0, 98.0, 17.0 ],
+					"patching_rect" : [ 13.0, 88.0, 98.0, 17.0 ],
 					"text" : "load 31.Animator"
 				}
 
@@ -506,6 +506,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -537,15 +546,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-49", 0 ]
 				}
 
 			}

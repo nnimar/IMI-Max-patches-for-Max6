@@ -934,7 +934,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 468.0, 44.0, 314.0, 400.0 ],
+						"rect" : [ 630.0, 44.0, 314.0, 400.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,

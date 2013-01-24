@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
@@ -40,11 +40,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 614.0, 407.0, 79.0, 21.0 ],
+					"patching_rect" : [ 614.0, 407.0, 85.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 567.0, 336.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "Start VPT",
+					"text" : "launch VPT",
 					"texton" : "Stop"
 				}
 
@@ -74,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 408.0, 52.0, 20.0 ],
+					"patching_rect" : [ 614.0, 408.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -93,7 +93,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 753.0, 44.0, 471.0, 228.0 ],
@@ -124,7 +124,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 22.0, 78.0, 105.0, 23.0 ],
+									"patching_rect" : [ 22.0, 78.0, 105.0, 22.0 ],
 									"text" : "dot.for 101 105"
 								}
 
@@ -138,7 +138,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 22.0, 125.0, 190.0, 23.0 ],
+									"patching_rect" : [ 22.0, 125.0, 190.0, 22.0 ],
 									"text" : "sprintf /moviesource%ld/start"
 								}
 
@@ -152,7 +152,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 22.0, 44.0, 79.0, 23.0 ],
+									"patching_rect" : [ 22.0, 44.0, 79.0, 22.0 ],
 									"text" : "delay 1000"
 								}
 
@@ -166,7 +166,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 233.0, 125.0, 209.0, 23.0 ],
+									"patching_rect" : [ 233.0, 125.0, 209.0, 22.0 ],
 									"text" : "sprintf /moviesource%ld/scrub 0"
 								}
 
@@ -191,7 +191,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 264.0, 78.0, 189.0, 23.0 ],
+									"patching_rect" : [ 264.0, 78.0, 189.0, 22.0 ],
 									"text" : "sprintf /moviesource%ld/stop"
 								}
 
@@ -205,7 +205,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 233.0, 44.0, 105.0, 23.0 ],
+									"patching_rect" : [ 233.0, 44.0, 105.0, 22.0 ],
 									"text" : "dot.for 101 105"
 								}
 
@@ -308,28 +308,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "dot.for.maxpat",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 241.0, 199.0, 52.0, 23.0 ],
+					"patching_rect" : [ 241.0, 199.0, 52.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p multi"
@@ -345,7 +338,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 217.170593, 166.557251, 167.0, 21.0 ],
+					"patching_rect" : [ 217.170593, 166.557251, 167.0, 20.0 ],
 					"text" : "/moviesource101/scrub 0"
 				}
 
@@ -359,7 +352,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.170593, 135.557251, 148.0, 21.0 ],
+					"patching_rect" : [ 199.170593, 135.557251, 148.0, 20.0 ],
 					"text" : "/moviesource101/start"
 				}
 
@@ -373,7 +366,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 184.170593, 108.557251, 147.0, 21.0 ],
+					"patching_rect" : [ 184.170593, 108.557251, 147.0, 20.0 ],
 					"text" : "/moviesource101/stop"
 				}
 
@@ -391,7 +384,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 754.0, 44.0, 528.0, 460.0 ],
@@ -417,33 +410,33 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 27,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 4.0, 515.0, 441.0 ],
+									"patching_rect" : [ 5.0, 4.0, 515.0, 429.0 ],
 									"text" : "OSC parameters to the moviesources:\n/clipnr /rate /trig /scrub /in /out /loop /loopreset /loopreport /unique /unirefr /argb /start /stop /dim /vol /pan /clipnr /random\n\nOSC parameters to the layers:\n/fade /red /green /blue /rgb /pos_x /pos_y /scale_x /scale_y /x1 /y1 /x2 /y2 /x3 /y3 /x4 /y4 /rotx /roty /rotz /txrot/rot /txrot/zoomx /txrot/zoomy \n\n/avig/radius /avig/fade /avig/x avig/y \n\n/edge/edge1 /edge/edge1 /edge/edge2 /edge/edge3 /edge/edge4 /edge/inv /sourcenr /solotrig\n\nOSC parameters to the lfos:\n/on /phase /speed /wave /wnormal /val /range /lfomix\n\nOSC to VPT (/vpt)\n/preset /cue /blackout /fullscreen\n\n/vpt/store\n/vpt/storenr $number\n/vpt/storename $name\n/vpt/storetype $number (0 store, 1 storenext, 2 storeinsert)\n\nnext/previous cue in cuelist\n/vpt/cuenext\n/vpt/cueprev"
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 643.829346, 278.557251, 88.0, 23.0 ],
+					"patching_rect" : [ 643.829346, 278.557251, 88.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 14.0,
-						"fontface" : 0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 14.0,
-						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p OSC2VPT"
@@ -454,6 +447,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -554,7 +548,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 432.0, 52.0, 20.0 ],
+					"patching_rect" : [ 614.0, 432.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -563,11 +557,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 281.0, 107.0, 23.0 ],
+					"patching_rect" : [ 451.0, 281.0, 107.0, 22.0 ],
 					"text" : "canvas (layerx)"
 				}
 
@@ -581,7 +576,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 281.0, 49.0, 23.0 ],
+					"patching_rect" : [ 28.0, 281.0, 49.0, 22.0 ],
 					"text" : "r layer"
 				}
 
@@ -594,7 +589,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 219.0, 52.0, 23.0 ],
+					"patching_rect" : [ 609.0, 219.0, 52.0, 22.0 ],
 					"text" : "s layer"
 				}
 
@@ -603,12 +598,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 61.0, 279.0, 39.0 ],
+					"patching_rect" : [ 6.0, 61.0, 279.0, 38.0 ],
 					"text" : "choose a video source (moviesource_101) and a video for that source (clipnr x)"
 				}
 
@@ -617,12 +613,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 400.0, 308.0, 55.0 ],
+					"patching_rect" : [ 230.0, 400.0, 308.0, 53.0 ],
 					"text" : "send OSC message over the network\n\"localhost\" is this computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
 				}
 
@@ -632,6 +629,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -729,7 +727,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.170593, 108.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 108.557251, 166.0, 20.0 ],
 					"text" : "/moviesource101/clipnr 1"
 				}
 
@@ -743,7 +741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.170593, 139.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 139.557251, 166.0, 20.0 ],
 					"text" : "/moviesource101/clipnr 2"
 				}
 
@@ -757,7 +755,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.170593, 249.557251, 103.0, 21.0 ],
+					"patching_rect" : [ 452.170593, 249.557251, 103.0, 20.0 ],
 					"text" : "/layer1/fade $1"
 				}
 
@@ -771,7 +769,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.170593, 191.557251, 123.0, 21.0 ],
+					"patching_rect" : [ 610.170593, 191.557251, 123.0, 20.0 ],
 					"text" : "/layer1/scale_y $1"
 				}
 
@@ -785,7 +783,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 609.170593, 100.557251, 123.0, 21.0 ],
+					"patching_rect" : [ 609.170593, 100.557251, 123.0, 20.0 ],
 					"text" : "/layer1/scale_x $1"
 				}
 
@@ -799,7 +797,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.170593, 191.557251, 113.0, 21.0 ],
+					"patching_rect" : [ 451.170593, 191.557251, 113.0, 20.0 ],
 					"text" : "/layer1/pos_y $1"
 				}
 
@@ -813,7 +811,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.170593, 101.557251, 113.0, 21.0 ],
+					"patching_rect" : [ 450.170593, 101.557251, 113.0, 20.0 ],
 					"text" : "/layer1/pos_x $1"
 				}
 
@@ -827,7 +825,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 324.0, 37.0, 23.0 ],
+					"patching_rect" : [ 7.0, 324.0, 37.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -841,7 +839,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.170593, 169.557251, 164.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 169.557251, 164.0, 20.0 ],
 					"text" : "/moviesource101/clipnr 3"
 				}
 
@@ -869,7 +867,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.170593, 201.557251, 166.0, 21.0 ],
+					"patching_rect" : [ 7.170593, 201.557251, 166.0, 20.0 ],
 					"text" : "/moviesource101/clipnr 4"
 				}
 
@@ -882,7 +880,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.383881, 397.206085, 209.0, 28.0 ],
+					"patching_rect" : [ 15.383881, 397.206085, 209.0, 27.0 ],
 					"text" : "udpsend localhost 6666"
 				}
 
@@ -892,12 +890,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 148.0, 31.0 ],
+					"patching_rect" : [ 4.0, 2.0, 148.0, 30.0 ],
 					"text" : "IMI OSC2VPT",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -908,7 +906,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -928,7 +926,6 @@
 					"grad1" : [ 0.94902, 0.945098, 0.945098, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-36",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -945,7 +942,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-10",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -1228,8 +1224,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.for.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/control/dot.for",
+				"patcherrelativepath" : "../Plugins_tools/dot_20121204/control/dot.for",
 				"type" : "JSON",
 				"implicit" : 1
 			}

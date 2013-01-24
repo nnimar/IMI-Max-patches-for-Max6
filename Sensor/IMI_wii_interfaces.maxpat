@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 537.0, 561.0 ],
+		"rect" : [ 1.0, 44.0, 537.0, 533.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,13 +28,28 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 34.0, 508.0, 463.0, 20.0 ],
+					"text" : "WARNING : ajh.wiiremote and aka.wiiremote are incompatible with Mac OS 10.8"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-45",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 142.0, 264.0, 23.0 ],
+					"patching_rect" : [ 259.0, 142.0, 264.0, 22.0 ],
 					"text" : "this version is for 2 Wii + accelerometers"
 				}
 
@@ -49,7 +64,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 142.0, 147.0, 18.0 ],
+					"patching_rect" : [ 10.0, 142.0, 147.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 149.0, 100.0, 20.0 ],
 					"text" : "Wiimote2Max_simple"
@@ -66,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 142.0, 146.0, 18.0 ],
+					"patching_rect" : [ 10.0, 142.0, 146.0, 17.0 ],
 					"text" : "load Wiimote2Max_simple"
 				}
 
@@ -81,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 142.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 142.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -90,11 +105,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 110.0, 264.0, 23.0 ],
+					"patching_rect" : [ 259.0, 110.0, 264.0, 22.0 ],
 					"text" : "Wiimote is the interface to OSCulator"
 				}
 
@@ -109,7 +125,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 110.0, 98.0, 19.0 ],
+					"patching_rect" : [ 10.0, 110.0, 98.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 113.0, 100.0, 20.0 ],
 					"text" : "Wiimote2Max"
@@ -126,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 110.0, 106.0, 18.0 ],
+					"patching_rect" : [ 10.0, 110.0, 106.0, 17.0 ],
 					"text" : "load Wiimote2Max"
 				}
 
@@ -141,7 +157,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 110.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 110.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -156,7 +172,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 456.0, 120.0, 19.0 ],
+					"patching_rect" : [ 10.0, 381.0, 120.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 405.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav_quad"
@@ -173,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 456.0, 123.0, 18.0 ],
+					"patching_rect" : [ 10.0, 381.0, 123.0, 17.0 ],
 					"text" : "help z.wii.glNav_quad"
 				}
 
@@ -188,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 458.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 383.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -203,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 457.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 382.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -218,7 +234,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 396.0, 88.0, 20.0 ],
+					"patching_rect" : [ 10.0, 321.0, 88.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 345.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav1"
@@ -235,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 396.0, 100.0, 18.0 ],
+					"patching_rect" : [ 10.0, 321.0, 100.0, 17.0 ],
 					"text" : "help z.wii.glNav1"
 				}
 
@@ -250,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 398.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 323.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -265,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 397.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 322.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -274,12 +290,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 513.0, 257.0, 39.0 ],
+					"patching_rect" : [ 260.0, 438.0, 257.0, 38.0 ],
 					"text" : "wii components of the gesture follower library (uses OSCulator)"
 				}
 
@@ -294,10 +311,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 518.0, 96.0, 20.0 ],
+					"patching_rect" : [ 10.0, 440.0, 236.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
-					"text" : "gf wii to audio"
+					"text" : "gf realtime following and recognition"
 				}
 
 			}
@@ -311,8 +328,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 519.0, 98.0, 18.0 ],
-					"text" : "load 3-Wii2Audio"
+					"patching_rect" : [ 10.0, 443.0, 49.0, 17.0 ],
+					"text" : "help gf"
 				}
 
 			}
@@ -326,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 516.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 441.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -341,7 +358,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 208.0, 157.0, 21.0 ],
+					"patching_rect" : [ 10.0, 208.0, 157.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "ajh.wiiremote alpha 1.6"
@@ -350,43 +367,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-8",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 253.0, 126.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
-					"text" : "disis.aka.wiiremote"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 253.0, 143.0, 23.0 ],
-					"text" : "disis.aka.wiiremote"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 208.0, 105.0, 23.0 ],
+					"patching_rect" : [ 260.0, 208.0, 100.0, 22.0 ],
 					"text" : "ajh wiiremote"
 				}
 
@@ -394,43 +382,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-18",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 254.0, 134.0, 18.0 ],
-					"text" : "help disis.aka.wiiremote"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 253.0, 52.0, 20.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 46.0, 269.0, 55.0 ],
+					"patching_rect" : [ 260.0, 46.0, 269.0, 53.0 ],
 					"text" : "OSCulator is an application that connects to the Wii and translates the data into the OSC-format (Open Sound Control). "
 				}
 
@@ -439,12 +398,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 416.0, 258.0, 39.0 ],
+					"patching_rect" : [ 260.0, 341.0, 258.0, 38.0 ],
 					"text" : "use the  z.wii patches for 3d navigation\n(uses aka.wiiremote)"
 				}
 
@@ -459,7 +419,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 426.0, 88.0, 20.0 ],
+					"patching_rect" : [ 10.0, 351.0, 88.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 404.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav2"
@@ -476,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 426.0, 98.0, 18.0 ],
+					"patching_rect" : [ 10.0, 351.0, 98.0, 17.0 ],
 					"text" : "help z.wii.glNav2"
 				}
 
@@ -491,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 428.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 353.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -506,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 427.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 352.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -515,13 +475,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 255.0, 320.0, 166.0, 39.0 ],
-					"text" : "CNMAT OSC-Wiiremote (uses aka.wiiremote)"
+					"patching_rect" : [ 260.0, 245.0, 166.0, 38.0 ],
+					"text" : "CNMAT OSC-Wiiremote (uses ajh.wiiremote)"
 				}
 
 			}
@@ -535,7 +496,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 327.0, 112.0, 18.0 ],
+					"patching_rect" : [ 10.0, 252.0, 112.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "OSC-Wiiremote"
@@ -552,7 +513,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 327.0, 117.0, 18.0 ],
+					"patching_rect" : [ 10.0, 252.0, 117.0, 17.0 ],
 					"text" : "help OSC-Wiiremote"
 				}
 
@@ -567,7 +528,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 325.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 250.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -582,7 +543,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 211.0, 104.0, 18.0 ],
+					"patching_rect" : [ 10.0, 211.0, 104.0, 17.0 ],
 					"text" : "help ajh.wiiremote"
 				}
 
@@ -597,7 +558,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 209.0, 52.0, 20.0 ],
+					"patching_rect" : [ 10.0, 209.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -612,7 +573,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 49.0, 149.0, 20.0 ],
+					"patching_rect" : [ 10.0, 49.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 89.0, 292.0, 100.0, 20.0 ],
 					"text" : "OSCulator application"
@@ -624,7 +585,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -647,7 +608,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 52.0, 213.0, 46.0 ],
+					"patching_rect" : [ 10.0, 52.0, 213.0, 45.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/osculator.oscd\\\"\""
 				}
 
@@ -659,12 +620,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 493.0, 530.0, 4.0 ],
+					"patching_rect" : [ 5.0, 418.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -676,12 +636,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-14",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 376.0, 530.0, 4.0 ],
+					"patching_rect" : [ 5.0, 301.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -692,25 +651,7 @@
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-28",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 295.0, 530.0, 4.0 ],
-					"varname" : "autohelp_top_panel[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -727,7 +668,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -762,15 +702,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -887,7 +818,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 25.5, 211.0, 25.5, 211.0 ],
+					"midpoints" : [ 19.5, 211.0, 19.5, 211.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -898,15 +829,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}

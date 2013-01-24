@@ -1,0 +1,2 @@
+SLIPSerial	KEYWORD1
+endTransmission	KEYWORD1
