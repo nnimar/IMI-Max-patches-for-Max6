@@ -44,7 +44,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 2.0, 70.0, 396.0, 527.0 ],
+						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -71,8 +71,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 26.0, 175.0, 84.0, 63.0 ],
-									"presentation_rect" : [ 40.0, 152.0, 0.0, 0.0 ]
+									"patching_rect" : [ 26.0, 175.0, 84.0, 63.0 ]
 								}
 
 							}
@@ -478,7 +477,6 @@
 					}
 ,
 					"patching_rect" : [ 11.0, 334.0, 38.0, 21.0 ],
-					"presentation_rect" : [ 11.0, 334.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2420,7 +2418,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
+						"rect" : [ 2.0, 70.0, 396.0, 527.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2448,13 +2446,68 @@
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"id" : "obj-4",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 216.0, 501.5, 105.268539, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 205.0, 486.5, 64.268539, 24.098633 ],
+									"rounded" : 20.0,
+									"text" : "fade for shapes",
+									"texton" : "Stop"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
+									"hidden" : 1,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 220.0, 502.0, 52.0, 19.0 ],
+									"presentation_rect" : [ 205.0, 491.0, 0.0, 0.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"hidden" : 1,
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 222.0, 505.5, 86.0, 16.0 ],
+									"presentation_rect" : [ 203.0, 492.5, 0.0, 0.0 ],
+									"text" : "load Gen_xfades"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
 									"id" : "obj-18",
 									"maxclass" : "textbutton",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 326.0, 499.5, 64.268539, 22.0 ],
+									"patching_rect" : [ 326.0, 501.5, 64.268539, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 534.0, 219.5, 64.268539, 24.098633 ],
 									"rounded" : 20.0,
@@ -2958,10 +3011,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -3005,25 +3076,25 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
 			"obj-2::obj-3::obj-4::obj-21" : [ "number[2]", "number", 0 ],
-			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
-			"obj-3::obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-2::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ],
 			"obj-3::obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-2::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ]
+			"obj-2::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-3::obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "demovideo.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/jitter-help",
+				"patcherrelativepath" : "../../../Cycling '74/jitter-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}

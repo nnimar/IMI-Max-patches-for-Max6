@@ -39,7 +39,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 238.0, 210.0, 43.0, 22.0 ],
-					"presentation_rect" : [ 94.0, 165.0, 0.0, 0.0 ],
 					"triscale" : 0.9
 				}
 
@@ -447,11 +446,11 @@
 					"fontsize" : 14.0,
 					"id" : "obj-45",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 13.0, 247.0, 127.0, 22.0 ],
-					"text" : "dot.threshtrig 100"
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 13.0, 247.0, 90.0, 22.0 ],
+					"text" : "past2 100"
 				}
 
 			}
@@ -477,7 +476,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 121.0, 277.0, 20.0, 20.0 ]
+					"patching_rect" : [ 84.0, 277.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -515,7 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 304.0, 33.0, 18.0 ],
+					"patching_rect" : [ 84.0, 304.0, 33.0, 18.0 ],
 					"text" : "stop"
 				}
 
@@ -946,9 +945,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/filters/dot.threshtrig",
-				"patcherrelativepath" : "../../Plugins_tools/dot_20121204/filters/dot.threshtrig",
+				"name" : "past2.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

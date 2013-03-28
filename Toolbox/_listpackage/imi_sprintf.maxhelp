@@ -532,7 +532,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 699.0, 44.0, 547.0, 299.0 ],
+						"rect" : [ 458.0, 331.0, 547.0, 299.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -551,6 +551,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",

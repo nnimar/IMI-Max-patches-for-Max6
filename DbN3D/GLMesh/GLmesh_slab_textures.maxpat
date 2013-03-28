@@ -611,7 +611,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 260.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 254.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -819,12 +819,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 288.0, 99.0, 20.0 ],
-					"text" : "jit.window mesht"
+					"patching_rect" : [ 9.0, 282.0, 100.0, 33.0 ],
+					"text" : "jit.window mesht @fsmenubar 0"
 				}
 
 			}
@@ -1337,7 +1338,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 58.0, 113.147247, 257.0 ],
+					"patching_rect" : [ 4.0, 58.0, 113.147247, 269.0 ],
 					"rounded" : 30
 				}
 

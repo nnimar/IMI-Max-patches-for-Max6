@@ -376,7 +376,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -450,7 +450,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 757.0, 29.0, 37.0, 20.0 ],
+					"patching_rect" : [ 763.0, 30.0, 33.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -579,7 +579,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "float", "float", "bang" ],
+					"outlettype" : [ "bang", "bang", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -608,6 +608,17 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 99.0, 68.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -876,11 +887,11 @@
 									"fontsize" : 18.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 18.0, 387.0, 163.0, 27.0 ],
-									"text" : "dot.threshtrig 500"
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 18.0, 387.0, 93.0, 27.0 ],
+									"text" : "past2 500"
 								}
 
 							}
@@ -931,7 +942,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-7",
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patcher" : 									{
@@ -942,7 +953,7 @@
 											"revision" : 8
 										}
 ,
-										"rect" : [ 25.0, 69.0, 250.0, 377.0 ],
+										"rect" : [ 1069.0, 44.0, 153.0, 263.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 14.0,
@@ -963,12 +974,36 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"comment" : "",
+													"id" : "obj-3",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 94.0, 7.0, 25.0, 25.0 ],
+													"presentation_rect" : [ 166.0, 31.0, 0.0, 0.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 94.0, 40.0, 20.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-48",
 													"maxclass" : "button",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 95.0, 226.0, 15.0, 15.0 ]
+													"patching_rect" : [ 51.0, 137.0, 15.0, 15.0 ]
 												}
 
 											}
@@ -981,7 +1016,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 108.0, 198.0, 84.0, 17.0 ],
+													"patching_rect" : [ 64.0, 109.0, 84.0, 17.0 ],
 													"text" : "prepend set port"
 												}
 
@@ -1182,7 +1217,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 50.0, 146.0, 52.0, 18.0 ],
+													"patching_rect" : [ 6.0, 57.0, 52.0, 18.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -1209,7 +1244,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 50.0, 100.0, 53.0, 18.0 ],
+													"patching_rect" : [ 6.0, 11.0, 53.0, 18.0 ],
 													"text" : "loadbang"
 												}
 
@@ -1223,7 +1258,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 125.0, 32.0, 16.0 ],
+													"patching_rect" : [ 6.0, 36.0, 32.0, 16.0 ],
 													"text" : "print"
 												}
 
@@ -1236,7 +1271,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 108.0, 97.0, 25.0, 25.0 ]
+													"patching_rect" : [ 64.0, 8.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1247,7 +1282,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 301.0, 25.0, 25.0 ]
+													"patching_rect" : [ 6.0, 212.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1258,12 +1293,30 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 107.5, 301.0, 25.0, 25.0 ]
+													"patching_rect" : [ 63.5, 212.0, 25.0, 25.0 ]
 												}
 
 											}
  ],
 										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-58", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
+												}
+
+											}
+, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-63", 0 ],
 													"disabled" : 0,
@@ -1352,7 +1405,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "SparkFun-BT-COM0", ",", "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "TheBiggPad-WirelessiAP", ",", "Bluetooth-PDA-Sync" ],
+									"items" : [ "SparkFun-BT-COM0", ",", "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1508,6 +1561,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1540,7 +1602,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 171.5, 419.5, 27.5, 419.5 ],
+									"midpoints" : [ 101.5, 419.5, 27.5, 419.5 ],
 									"source" : [ "obj-3", 1 ]
 								}
 
@@ -1884,8 +1946,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 578.0, 21.0 ],
-					"text" : "The first loop is the intro. When a spectator approaches he/she gets access to the rest of the movie. ",
+					"patching_rect" : [ 3.0, 30.0, 578.0, 21.0 ],
+					"text" : "the first loop is the intro. When a spectator approaches he/she gets access to the rest of the movie. ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -2360,16 +2422,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"name" : "past2.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.smooth.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/filters/dot.smooth",
+				"patcherrelativepath" : "../Plugins_tools/dot_20121204/filters/dot.smooth",
 				"type" : "JSON",
 				"implicit" : 1
 			}

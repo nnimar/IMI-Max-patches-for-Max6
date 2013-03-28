@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 417.0, 329.0 ],
+		"rect" : [ 0.0, 44.0, 417.0, 330.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,6 +31,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -68,7 +69,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 425.0, 44.0, 790.0, 482.0 ],
@@ -123,12 +124,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 21,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 422.0, 121.0, 401.0, 296.0 ],
+									"patching_rect" : [ 422.0, 121.0, 401.0, 288.0 ],
 									"text" : "  texcoordM = texcoord;\n    texcoordB0 = texcoord - width;\n    texcoordF0 = texcoord + width;\n    texcoordB1 = texcoord - width * 2.0;\n    texcoordF1 = texcoord + width * 2.0;\n    texcoordB2 = texcoord - width * 3.0;\n    texcoordF2 = texcoord + width * 3.0;\n\n\nvec4 sampleM  = texture2DRect(image, texcoordM);\n    vec4 sampleB0 = texture2DRect(image, texcoordB0);\n    vec4 sampleF0 = texture2DRect(image, texcoordF0);\n    vec4 sampleB1 = texture2DRect(image, texcoordB1);\n    vec4 sampleF1 = texture2DRect(image, texcoordF1);\n    vec4 sampleB2 = texture2DRect(image, texcoordB2);\n    vec4 sampleF2 = texture2DRect(image, texcoordF2);\n\n    gl_FragColor = 0.1752 * sampleM + \n0.1658 * (sampleB0 + sampleF0) + \n0.1403 * (sampleB1 + sampleF1) + \n0.1063 * (sampleB2 + sampleF2);"
 								}
 
@@ -211,19 +213,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "codebox.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "param.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "/.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -274,7 +263,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 425.0, 44.0, 744.0, 383.0 ],
@@ -301,6 +290,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -342,12 +332,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 21,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 424.0, 79.0, 297.0, 296.0 ],
+									"patching_rect" : [ 424.0, 79.0, 297.0, 288.0 ],
 									"text" : "texcoordM = texcoord;\ntexcoordB0 = texcoord - width;\ntexcoordF0 = texcoord + width;\ntexcoordB1 = texcoord - width * 2.0;\ntexcoordF1 = texcoord + width * 2.0;\ntexcoordB2 = texcoord - width * 3.0;\ntexcoordF2 = texcoord + width * 3.0;\n\n\nvec4 sampleM  = texture2DRect(image, texcoordM);\nvec4 sampleB0 = texture2DRect(image, texcoordB0);\nvec4 sampleF0 = texture2DRect(image, texcoordF0);\nvec4 sampleB1 = texture2DRect(image, texcoordB1);\nvec4 sampleF1 = texture2DRect(image, texcoordF1);\nvec4 sampleB2 = texture2DRect(image, texcoordB2);\nvec4 sampleF2 = texture2DRect(image, texcoordF2);\n\ngl_FragColor = 0.1752 * sampleM + \n0.1658 * (sampleB0 + sampleF0) + \n0.1403 * (sampleB1 + sampleF1) + \n0.1063 * (sampleB2 + sampleF2);"
 								}
 
@@ -430,19 +421,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "codebox.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "param.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "/.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -459,7 +437,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 152.0, 45.0, 20.0 ],
+					"patching_rect" : [ 56.0, 152.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -473,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 211.0, 80.0, 35.0 ]
+					"patching_rect" : [ 10.0, 211.0, 80.0, 34.0 ]
 				}
 
 			}
@@ -486,7 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 185.0, 68.0, 20.0 ],
+					"patching_rect" : [ 10.0, 185.0, 68.0, 19.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -500,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "erase", "bang" ],
-					"patching_rect" : [ 10.0, 123.0, 65.0, 20.0 ],
+					"patching_rect" : [ 10.0, 123.0, 65.0, 19.0 ],
 					"text" : "t b erase b"
 				}
 
@@ -514,7 +492,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 95.0, 63.0, 20.0 ],
+					"patching_rect" : [ 10.0, 95.0, 63.0, 19.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -545,7 +523,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 427.0, 361.0, 411.0, 282.0 ],
@@ -613,6 +591,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -654,6 +633,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -667,6 +647,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -824,7 +805,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
+									"patching_rect" : [ 145.0, 203.0, 119.0, 45.0 ],
 									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
 								}
 
@@ -839,7 +820,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
+									"patching_rect" : [ 265.0, 203.0, 114.0, 45.0 ],
 									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
 								}
 
@@ -1095,22 +1076,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 7.0, 260.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -1136,12 +1116,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-142",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.574097, 285.638458, 99.0, 20.0 ],
-					"text" : "jit.window gen_b"
+					"patching_rect" : [ 6.574097, 285.638458, 102.0, 33.0 ],
+					"text" : "jit.window gen_b @fsmenubar 0"
 				}
 
 			}
@@ -1150,12 +1131,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 31.0 ],
+					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
 					"text" : "Gen_blur (Wesley Smith)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1166,7 +1147,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1243,7 +1224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.244202, 131.054932, 219.0, 23.0 ],
+					"patching_rect" : [ 134.244202, 131.054932, 219.0, 22.0 ],
 					"text" : "jit.qt.movie @autostart 1 @loop 1"
 				}
 
@@ -1258,7 +1239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.244202, 289.142548, 252.0, 23.0 ],
+					"patching_rect" : [ 134.244202, 289.142548, 252.0, 22.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -1268,11 +1249,10 @@
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-7",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 59.0, 111.147247, 258.0 ],
+					"patching_rect" : [ 4.0, 59.0, 111.147247, 267.0 ],
 					"rounded" : 30
 				}
 
@@ -1284,7 +1264,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

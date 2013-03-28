@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 538.0, 397.0 ],
@@ -28,6 +29,36 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 376.0, 371.0, 59.0, 20.0 ],
+					"text" : "tosymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 376.0, 370.0, 35.0, 20.0 ],
+					"text" : "shell"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -36,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 254.0, 68.0, 24.0 ],
+					"patching_rect" : [ 121.0, 250.0, 68.0, 24.0 ],
 					"text" : "re-scan"
 				}
 
@@ -48,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 99.0, 256.0, 20.0, 20.0 ]
+					"patching_rect" : [ 99.0, 252.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -64,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 359.0, 139.0, 34.0 ],
+					"patching_rect" : [ 136.0, 355.0, 142.0, 34.0 ],
 					"text" : "serial communication\nport a, at 9600 bauds"
 				}
 
@@ -80,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 318.0, 105.0, 24.0 ],
+					"patching_rect" : [ 215.0, 314.0, 105.0, 24.0 ],
 					"text" : "choose a port"
 				}
 
@@ -93,16 +124,17 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 621.0, 44.0, 204.0, 210.0 ],
+						"rect" : [ 544.0, 44.0, 204.0, 210.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -171,8 +203,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 0,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 623.0, 327.0, 206.0, 248.0 ],
@@ -513,7 +546,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 31.0, 283.0, 87.0, 20.0 ],
+					"patching_rect" : [ 31.0, 279.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -536,13 +569,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "SparkFun-BT-COM0", ",", "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 31.0, 320.0, 179.0, 20.0 ],
+					"patching_rect" : [ 31.0, 316.0, 179.0, 20.0 ],
 					"pattrmode" : 1
 				}
 
@@ -557,7 +590,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 15.0, 363.0, 118.0, 27.0 ],
+					"patching_rect" : [ 15.0, 359.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
 				}
 
@@ -572,7 +605,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.0, 371.5, 155.0, 20.0 ],
+					"patching_rect" : [ 379.0, 370.5, 155.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "Sensor interface folder"
@@ -590,8 +623,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 363.0, 347.5, 151.0, 41.0 ],
-					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSensors.scpt"
+					"patching_rect" : [ 376.0, 348.5, 152.0, 41.0 ],
+					"text" : "osascript \\\"/Applications/Max 6.1/packages/IMIpatches/scripts/SSensors.scpt\\\""
 				}
 
 			}
@@ -605,7 +638,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 211.0, 154.0, 24.0 ],
+					"patching_rect" : [ 66.0, 207.0, 154.0, 24.0 ],
 					"text" : "convert ascii to integers"
 				}
 
@@ -651,7 +684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 15.0, 100.0, 32.5, 20.0 ],
+					"patching_rect" : [ 15.0, 96.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -665,7 +698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 106.0, 100.0, 32.5, 20.0 ],
+					"patching_rect" : [ 106.0, 96.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -679,7 +712,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 220.0, 100.0, 32.5, 20.0 ],
+					"patching_rect" : [ 220.0, 96.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -696,7 +729,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 220.0, 68.0, 50.0, 20.0 ]
+					"patching_rect" : [ 220.0, 64.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -712,7 +745,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.0, 68.0, 50.0, 20.0 ]
+					"patching_rect" : [ 106.0, 64.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -728,7 +761,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 68.0, 50.0, 20.0 ]
+					"patching_rect" : [ 15.0, 64.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -741,7 +774,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 15.0, 214.0, 46.0, 20.0 ],
+					"patching_rect" : [ 15.0, 210.0, 46.0, 20.0 ],
 					"text" : "atoi"
 				}
 
@@ -755,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 129.0, 19.0, 18.0 ],
+					"patching_rect" : [ 236.0, 125.0, 19.0, 18.0 ],
 					"text" : "c"
 				}
 
@@ -769,7 +802,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.0, 129.0, 19.0, 18.0 ],
+					"patching_rect" : [ 122.0, 125.0, 19.0, 18.0 ],
 					"text" : "b"
 				}
 
@@ -783,7 +816,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 129.0, 19.0, 18.0 ],
+					"patching_rect" : [ 31.0, 125.0, 19.0, 18.0 ],
 					"text" : "a"
 				}
 
@@ -855,7 +888,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 229.5, 177.5, 24.5, 177.5 ],
+					"midpoints" : [ 229.5, 173.5, 24.5, 173.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -874,7 +907,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 115.5, 177.5, 24.5, 177.5 ],
+					"midpoints" : [ 115.5, 173.5, 24.5, 173.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -899,6 +932,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -917,10 +959,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 40.5, 176.0, 24.5, 176.0 ],
+					"midpoints" : [ 40.5, 172.0, 24.5, 172.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -939,7 +990,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 108.5, 311.5, 24.5, 311.5 ],
+					"midpoints" : [ 108.5, 307.5, 24.5, 307.5 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
@@ -949,7 +1000,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.5, 195.0, 24.5, 195.0 ],
+					"midpoints" : [ 131.5, 191.0, 24.5, 191.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -959,7 +1010,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 245.5, 195.0, 24.5, 195.0 ],
+					"midpoints" : [ 245.5, 191.0, 24.5, 191.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -974,7 +1025,11 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

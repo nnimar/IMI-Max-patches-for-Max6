@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 520.0, 329.0 ],
+		"rect" : [ 0.0, 44.0, 520.0, 358.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -30,11 +30,64 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 125.0, 318.5, 264.0, 22.0 ],
+					"text" : "recursive drawing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-25",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 10.0, 318.5, 87.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 319.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "recursive",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-27",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 318.5, 73.0, 16.0 ],
+					"text" : "load recursive"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 280.5, 264.0, 23.0 ],
+					"patching_rect" : [ 125.0, 280.5, 264.0, 22.0 ],
 					"text" : "use collision to drag balls with the mouse"
 				}
 
@@ -72,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 285.5, 92.0, 16.0 ],
+					"patching_rect" : [ 10.0, 285.5, 92.0, 16.0 ],
 					"text" : "load example_1_8"
 				}
 
@@ -81,11 +134,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 243.5, 198.0, 23.0 ],
+					"patching_rect" : [ 125.0, 243.5, 198.0, 22.0 ],
 					"text" : "check collisions between balls"
 				}
 
@@ -94,11 +148,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 207.5, 164.0, 23.0 ],
+					"patching_rect" : [ 125.0, 207.5, 164.0, 22.0 ],
 					"text" : "move multiple balls"
 				}
 
@@ -159,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 212.5, 92.0, 16.0 ],
+					"patching_rect" : [ 10.0, 212.5, 92.0, 16.0 ],
 					"text" : "load example_1_6"
 				}
 
@@ -174,7 +229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 247.5, 92.0, 16.0 ],
+					"patching_rect" : [ 10.0, 247.5, 92.0, 16.0 ],
 					"text" : "load example_1_7"
 				}
 
@@ -267,11 +322,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 175.5, 102.0, 23.0 ],
+					"patching_rect" : [ 125.0, 175.5, 102.0, 22.0 ],
 					"text" : "draw the zoog"
 				}
 
@@ -303,11 +359,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 139.5, 164.0, 23.0 ],
+					"patching_rect" : [ 125.0, 139.5, 164.0, 22.0 ],
 					"text" : "three dots. three colours"
 				}
 
@@ -331,7 +388,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -347,11 +404,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 104.5, 136.0, 23.0 ],
+					"patching_rect" : [ 125.0, 104.5, 136.0, 22.0 ],
 					"text" : "draw ellipse (no fill)"
 				}
 
@@ -360,11 +418,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 68.5, 199.0, 23.0 ],
+					"patching_rect" : [ 125.0, 68.5, 199.0, 22.0 ],
 					"text" : "draw rectangle (stroke and fill)"
 				}
 
@@ -379,7 +438,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 178.5, 52.0, 20.0 ],
+					"patching_rect" : [ 108.0, 178.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -389,7 +448,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -438,7 +497,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -527,6 +585,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}

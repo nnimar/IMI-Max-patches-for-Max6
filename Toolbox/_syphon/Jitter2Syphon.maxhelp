@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 591.0, 366.0 ],
@@ -46,22 +47,6 @@
 					"rounded" : 20.0,
 					"text" : "Syphon Quartz",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-22",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 340.0, 264.0, 38.0 ],
-					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
 			}
@@ -135,7 +120,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 68.0, 50.0, 22.0 ],
+					"patching_rect" : [ 182.0, 64.0, 50.0, 22.0 ],
 					"text" : "r bang"
 				}
 
@@ -148,7 +133,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 160.0, 53.0, 22.0 ],
+					"patching_rect" : [ 39.0, 157.0, 53.0, 22.0 ],
 					"text" : "s bang"
 				}
 
@@ -162,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 277.0, 295.0, 22.0 ],
+					"patching_rect" : [ 182.0, 273.0, 295.0, 22.0 ],
 					"text" : "jit.gl.syphonserver @servername JitterOutput"
 				}
 
@@ -176,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 202.0, 245.0, 224.0, 22.0 ],
+					"patching_rect" : [ 202.0, 241.0, 224.0, 22.0 ],
 					"text" : "jit.gl.videoplane @blend_enable 1"
 				}
 
@@ -188,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 151.0, 80.0, 60.0 ]
+					"patching_rect" : [ 204.0, 147.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -201,7 +186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 182.0, 110.0, 132.0, 22.0 ],
+					"patching_rect" : [ 182.0, 106.0, 132.0, 22.0 ],
 					"text" : "jit.qt.movie 320 240"
 				}
 
@@ -215,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 68.0, 114.0, 20.0 ],
+					"patching_rect" : [ 246.0, 64.0, 114.0, 20.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -232,8 +217,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 483.0, 44.0, 634.0, 456.0 ],
@@ -394,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 232.0, 80.0, 34.0 ]
+					"patching_rect" : [ 8.0, 223.0, 55.0, 34.0 ]
 				}
 
 			}
@@ -408,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 279.0, 129.0, 38.0 ],
+					"patching_rect" : [ 6.0, 265.0, 122.0, 38.0 ],
 					"text" : "jit.window syphon @visible 0"
 				}
 
@@ -422,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 197.0, 80.0, 22.0 ],
+					"patching_rect" : [ 8.0, 188.0, 80.0, 22.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -435,9 +421,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "erase", "bang", "bang" ],
-					"patching_rect" : [ 8.0, 124.0, 77.0, 22.0 ],
-					"text" : "t erase b b"
+					"outlettype" : [ "bang", "bang", "erase" ],
+					"patching_rect" : [ 8.0, 117.0, 81.0, 22.0 ],
+					"text" : "t b b erase"
 				}
 
 			}
@@ -475,7 +461,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 55.0, 137.147247, 270.0 ],
+					"patching_rect" : [ 3.0, 55.0, 126.147247, 255.0 ],
 					"rounded" : 30
 				}
 
@@ -531,13 +517,29 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-42",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 375.0, 313.0, 202.0, 49.0 ],
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max%206.1/packages/IMIpatches/apps/Syphon%20Recorder.app\\\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-22",
 					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 340.0, 450.0, 38.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_tools/Syphon/Syphon%20Recorder.app\\\""
+					"patching_rect" : [ 7.0, 323.0, 264.0, 38.0 ],
+					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
 			}
@@ -572,8 +574,8 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 46.5, 171.5, 17.5, 171.5 ],
-					"source" : [ "obj-13", 1 ]
+					"midpoints" : [ 79.5, 147.0, 17.5, 147.0 ],
+					"source" : [ "obj-13", 2 ]
 				}
 
 			}
@@ -591,7 +593,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-13", 2 ]
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -672,7 +674,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 255.5, 101.5, 191.5, 101.5 ],
+					"midpoints" : [ 255.5, 97.5, 191.5, 97.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -682,7 +684,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 191.5, 139.5, 213.5, 139.5 ],
+					"midpoints" : [ 191.5, 135.5, 213.5, 135.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -692,7 +694,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 191.5, 233.0, 211.5, 233.0 ],
+					"midpoints" : [ 191.5, 229.0, 211.5, 229.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

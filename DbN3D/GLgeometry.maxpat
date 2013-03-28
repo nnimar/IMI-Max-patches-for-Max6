@@ -1091,7 +1091,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 285.142548, 102.0, 20.0 ],
+					"patching_rect" : [ 8.0, 273.142548, 102.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
@@ -2098,14 +2098,15 @@
 					"hidden" : 0,
 					"id" : "obj-142",
 					"ignoreclick" : 0,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.574097, 311.638428, 116.0, 20.0 ],
+					"patching_rect" : [ 7.574097, 297.638428, 115.0, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"text" : "jit.window geometry",
+					"text" : "jit.window geometry @fsmenubar 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

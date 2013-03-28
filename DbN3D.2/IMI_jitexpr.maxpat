@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 2.0, 44.0, 567.0, 521.0 ],
+		"rect" : [ -1.0, 44.0, 567.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -31,6 +31,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -44,12 +45,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 286.0, 133.0, 55.0 ],
+					"patching_rect" : [ 309.0, 286.0, 133.0, 53.0 ],
 					"text" : "(0 x 2) + (1 + 1) = 2\n(1 x 2) + (1 + 1) = 4\n..."
 				}
 
@@ -58,12 +60,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 286.0, 133.0, 55.0 ],
+					"patching_rect" : [ 176.0, 286.0, 133.0, 53.0 ],
 					"text" : "(0 x 2) + (0 + 1) = 1\n(1 x 2) + (0 + 1) = 3\n..."
 				}
 
@@ -73,12 +76,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 245.0, 129.0, 38.0 ],
+					"patching_rect" : [ 423.0, 245.0, 129.0, 37.0 ],
 					"text" : "same + add 1 to \nthe column number"
 				}
 
@@ -92,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 196.0, 96.0, 38.0, 23.0 ],
+					"patching_rect" : [ 196.0, 96.0, 38.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -132,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 140.0, 95.0, 38.0, 23.0 ],
+					"patching_rect" : [ 140.0, 95.0, 38.0, 22.0 ],
 					"text" : "t b b"
 				}
 
@@ -151,7 +155,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.0, 490.0, 101.0, 22.0 ],
+					"patching_rect" : [ 459.0, 492.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,13 +168,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 32.0, 350.0, 20.0 ],
-					"text" : "The jit.expr object evaluates expressions to fill an output matrix",
+					"text" : "the jit.expr object evaluates expressions to fill an output matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -185,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.0, 491.0, 120.0, 16.0 ],
+					"patching_rect" : [ 429.0, 493.0, 120.0, 16.0 ],
 					"text" : "load IMI_jitexpr+.maxpat"
 				}
 
@@ -200,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.0, 490.0, 52.0, 20.0 ],
+					"patching_rect" : [ 442.0, 492.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -209,11 +213,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 83.0, 108.0, 23.0 ],
+					"patching_rect" : [ 455.0, 83.0, 108.0, 22.0 ],
 					"text" : "cell[1] = row"
 				}
 
@@ -223,12 +228,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 123.0, 31.0 ],
+					"patching_rect" : [ 2.0, 4.0, 123.0, 30.0 ],
 					"text" : "IMI jit.expr",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -265,12 +270,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.0, 164.0, 71.0, 55.0 ],
+					"patching_rect" : [ 232.0, 164.0, 71.0, 53.0 ],
 					"text" : "0 x 2 = 0\n1 x 2 = 2 \n2 x 2 = 4"
 				}
 
@@ -280,6 +286,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -293,11 +300,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 59.0, 108.0, 23.0 ],
+					"patching_rect" : [ 455.0, 59.0, 108.0, 22.0 ],
 					"text" : "cell[0] = column"
 				}
 
@@ -323,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 10.0, 140.0, 153.0, 23.0 ],
+					"patching_rect" : [ 10.0, 140.0, 153.0, 22.0 ],
 					"text" : "jit.matrix 1 float32 5 5"
 				}
 
@@ -416,7 +424,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-22",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

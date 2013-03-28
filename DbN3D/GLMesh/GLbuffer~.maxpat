@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 483.0, 510.0 ],
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 492.0, 365.0, 393.0, 188.0 ],
@@ -136,12 +136,13 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-44",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 63.0, 197.0, 34.0 ],
+									"patching_rect" : [ 189.0, 63.0, 197.0, 33.0 ],
 									"text" : "resample the waveform, in this case to the width of your screen."
 								}
 
@@ -204,22 +205,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 23.0, 392.0, 91.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontsize" : 14.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 14.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p width_screen"
@@ -240,7 +240,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 496.0, 362.0, 454.0, 314.0 ],
@@ -266,6 +266,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -279,6 +280,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -422,7 +424,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 158.0, 258.0, 85.0, 46.0 ],
+									"patching_rect" : [ 158.0, 258.0, 85.0, 45.0 ],
 									"text" : ";\rmax showcursor"
 								}
 
@@ -437,7 +439,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 278.0, 259.0, 80.0, 46.0 ],
+									"patching_rect" : [ 278.0, 259.0, 80.0, 45.0 ],
 									"text" : ";\rmax hidecursor"
 								}
 
@@ -466,7 +468,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 158.0, 205.0, 102.0, 46.0 ],
+									"patching_rect" : [ 158.0, 205.0, 102.0, 45.0 ],
 									"text" : ";\rmax showmenubar"
 								}
 
@@ -481,7 +483,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 277.0, 206.0, 99.0, 46.0 ],
+									"patching_rect" : [ 277.0, 206.0, 99.0, 45.0 ],
 									"text" : ";\rmax hidemenubar"
 								}
 
@@ -732,22 +734,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 367.0, 192.662506, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -759,7 +760,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -775,7 +776,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -792,12 +793,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-55",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 367.0, 218.0, 96.0, 20.0 ],
-					"text" : "jit.window buffer"
+					"patching_rect" : [ 367.0, 218.0, 95.0, 33.0 ],
+					"text" : "jit.window buffer @fsmenubar 0"
 				}
 
 			}
@@ -860,6 +862,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -893,7 +896,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 453.0, 472.0, 39.0 ],
+					"patching_rect" : [ 8.0, 453.0, 472.0, 38.0 ],
 					"text" : "jit.gl.mesh @draw_mode line_strip @color 1 1 1 0.5 @blend_enable 1 @transform_reset 2 @scale 2 1 1 @position -1 0 0"
 				}
 
@@ -945,6 +948,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1085,11 +1089,10 @@
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-2",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 58.0, 116.147247, 188.0 ],
+					"patching_rect" : [ 359.0, 58.0, 115.147247, 199.0 ],
 					"rounded" : 30
 				}
 
@@ -1101,7 +1104,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 404.0, 92.0, 24.0 ],
+					"patching_rect" : [ 92.0, 411.0, 92.0, 24.0 ],
 					"text" : "grab objects"
 				}
 
@@ -172,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 349.0, 106.0, 24.0 ],
+					"patching_rect" : [ 97.0, 358.0, 106.0, 24.0 ],
 					"text" : "see phys-world"
 				}
 
@@ -1326,7 +1326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 406.0, 84.0, 20.0 ],
+					"patching_rect" : [ 7.0, 413.0, 84.0, 20.0 ],
 					"text" : "jit.phys.picker"
 				}
 
@@ -1340,7 +1340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 351.0, 88.0, 20.0 ],
+					"patching_rect" : [ 7.0, 361.0, 88.0, 20.0 ],
 					"text" : "jit.gl.physdraw"
 				}
 
@@ -1420,12 +1420,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 290.0, 111.0, 20.0 ],
-					"text" : "jit.window phys001"
+					"patching_rect" : [ 7.0, 290.0, 113.0, 33.0 ],
+					"text" : "jit.window phys001 @fsmenubar 0"
 				}
 
 			}
@@ -1494,7 +1495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 326.0, 99.0, 20.0 ],
+					"patching_rect" : [ 7.0, 336.0, 99.0, 20.0 ],
 					"text_width" : 64.0
 				}
 
@@ -1509,7 +1510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 381.0, 99.0, 20.0 ],
+					"patching_rect" : [ 7.0, 388.0, 99.0, 20.0 ],
 					"text_width" : 76.0
 				}
 
@@ -1552,7 +1553,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 56.0, 162.147247, 378.0 ],
+					"patching_rect" : [ 2.0, 56.0, 122.147247, 271.0 ],
 					"rounded" : 30
 				}
 

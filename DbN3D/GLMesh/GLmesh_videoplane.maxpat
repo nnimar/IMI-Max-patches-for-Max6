@@ -100,7 +100,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 17.0, 356.0, 38.0 ],
+									"patching_rect" : [ 9.0, 17.0, 358.0, 38.0 ],
 									"text" : "Texture coordinates typically range from [0, 1]. generate coordinates for a plane using a jit.expr or jit.gen"
 								}
 
@@ -261,34 +261,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -515,13 +487,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 45.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 31.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -530,13 +502,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 45.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 31.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -725,24 +697,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -794,7 +748,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 212.0, 102.0, 20.0 ],
+					"patching_rect" : [ 13.0, 208.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1034,12 +988,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 13.0, 241.0, 101.0, 20.0 ],
-					"text" : "jit.window meshv"
+					"patching_rect" : [ 13.0, 233.0, 100.0, 33.0 ],
+					"text" : "jit.window meshv @fsmenubar 0"
 				}
 
 			}

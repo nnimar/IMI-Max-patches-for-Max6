@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 313.0, 121.0, 16.0 ],
-					"presentation_rect" : [ 348.0, 314.0, 0.0, 0.0 ],
 					"text" : "port usbmodem1a21"
 				}
 
@@ -260,8 +259,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 255.0, 139.0, 34.0 ],
-					"text" : "serial communication\nport a, at 9600 bauds"
+					"patching_rect" : [ 136.0, 242.0, 145.0, 34.0 ],
+					"text" : "serial communication\nport a, 9600 bauds"
 				}
 
 			}
@@ -275,7 +274,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2.0, 223.0, 67.0, 20.0 ],
+					"patching_rect" : [ 3.0, 159.0, 67.0, 20.0 ],
 					"text" : "closebang"
 				}
 
@@ -306,7 +305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 304.0, 113.0, 24.0 ],
+					"patching_rect" : [ 61.0, 291.0, 113.0, 24.0 ],
 					"text" : "receiving data ?"
 				}
 
@@ -575,7 +574,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1.0, 223.0, 38.5, 20.0 ],
+					"patching_rect" : [ 3.0, 159.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -590,7 +589,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 225.0, 38.0, 16.0 ],
+					"patching_rect" : [ 3.0, 162.0, 38.0, 16.0 ],
 					"text" : "close"
 				}
 
@@ -602,7 +601,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.0, 304.0, 24.0, 24.0 ]
+					"patching_rect" : [ 36.0, 291.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -614,7 +613,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "clear", "" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -687,7 +686,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "clear" ],
+									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -1057,7 +1056,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP", ",", "usbmodem1a21" ],
+					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1119,7 +1118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 15.0, 259.0, 118.0, 27.0 ],
+					"patching_rect" : [ 15.0, 246.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
 				}
 
@@ -1234,7 +1233,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 10.5, 251.5, 24.5, 251.5 ],
+					"midpoints" : [ 12.5, 231.5, 24.5, 231.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1253,7 +1252,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 297.0, 45.5, 297.0 ],
+					"midpoints" : [ 24.5, 284.0, 45.5, 284.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1299,7 +1298,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 24.5, 105.5, 10.5, 105.5 ],
+					"midpoints" : [ 24.5, 105.5, 12.5, 105.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 490.0, 220.0 ],
@@ -29,14 +30,31 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 84.0, 174.0, 137.0, 26.0 ],
+					"presentation_rect" : [ 87.0, 173.0, 0.0, 0.0 ],
+					"text" : "output (0.1 - 0.75)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 83.0, 130.0, 27.0 ],
-					"text" : "input (450 - 500"
+					"patching_rect" : [ 81.0, 83.0, 133.0, 26.0 ],
+					"text" : "input (450 - 550)"
 				}
 
 			}
@@ -86,13 +104,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 460.0, 36.0 ],
+					"patching_rect" : [ 4.0, 29.0, 460.0, 35.0 ],
 					"text" : "takes an init value (500) and a range value (450-500) and strictly map to values of the output  (0.1 to 0.75 in the example). ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -104,7 +122,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -123,7 +141,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -155,8 +172,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.splitscale.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "./",
 				"type" : "JSON",
 				"implicit" : 1
 			}

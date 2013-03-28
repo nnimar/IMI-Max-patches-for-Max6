@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 553.0, 44.0, 483.0, 310.0 ],
@@ -30,11 +31,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 147.0, 310.0, 23.0 ],
+					"patching_rect" : [ 5.0, 147.0, 310.0, 22.0 ],
 					"text" : "3. Change port number to 5555 then click add"
 				}
 
@@ -43,11 +45,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 118.0, 310.0, 23.0 ],
+					"patching_rect" : [ 5.0, 118.0, 310.0, 22.0 ],
 					"text" : "3. Choose device to add... and select manual "
 				}
 
@@ -56,11 +59,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 90.0, 251.0, 23.0 ],
+					"patching_rect" : [ 5.0, 90.0, 251.0, 22.0 ],
 					"text" : "2. Go to File > OSC Connections"
 				}
 
@@ -69,11 +73,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 61.0, 204.0, 23.0 ],
+					"patching_rect" : [ 5.0, 61.0, 204.0, 22.0 ],
 					"text" : "1. Open OSCseq (below)"
 				}
 
@@ -88,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 282.0, 60.0, 20.0 ],
+					"patching_rect" : [ 245.0, 286.0, 60.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -107,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 298.0, 280.5, 109.0, 20.0 ],
+					"patching_rect" : [ 298.0, 283.5, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 411.0, 620.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -130,7 +135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 280.5, 64.0, 20.0 ],
+					"patching_rect" : [ 412.0, 283.5, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -148,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 184.0, 114.0, 23.0 ],
+					"patching_rect" : [ 8.0, 184.0, 114.0, 22.0 ],
 					"text" : "udpreceive 5555"
 				}
 
@@ -158,12 +163,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 184.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 184.0, 30.0 ],
 					"text" : "OSCseq",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -174,7 +179,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -207,7 +212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 255.0, 50.0, 23.0 ]
+					"patching_rect" : [ 8.0, 255.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -220,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 8.0, 218.0, 242.0, 23.0 ],
+					"patching_rect" : [ 8.0, 218.0, 242.0, 22.0 ],
 					"text" : "OSC-route /Filter1/Cutoff /ping"
 				}
 
@@ -228,7 +233,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-23",
 					"linecount" : 4,
@@ -236,8 +241,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 251.0, 285.0, 50.0 ],
-					"text" : ";\rmax launchbrowser \\\"file://///Applications/Max5/examples/IMIpatches/Plugins_communication/OSCeq/OSCseq.app\\\""
+					"patching_rect" : [ 248.0, 246.0, 216.0, 58.0 ],
+					"text" : ";\rmax launchbrowser \\\"file://///Applications/Max%206.1/packages/IMIpatches/apps/OSCseq.app\\\""
 				}
 
 			}
@@ -252,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 259.0, 274.0, 217.0, 27.0 ],
+					"patching_rect" : [ 259.0, 277.0, 217.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://oscseq.com/manual/"
 				}
 
@@ -264,7 +269,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-3",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

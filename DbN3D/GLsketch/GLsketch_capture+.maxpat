@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 720.0, 468.0 ],
+		"rect" : [ 1.0, 44.0, 720.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 403.0, 441.5, 181.0, 21.0 ],
+					"patching_rect" : [ 531.0, 398.5, 181.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 537.0, 212.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,7 +59,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 442.0, 173.0, 20.0 ],
+					"patching_rect" : [ 535.0, 399.0, 173.0, 20.0 ],
 					"text" : "load GLsketchtex_capture"
 				}
 
@@ -251,7 +251,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 590.0, 441.5, 124.0, 20.0 ],
+					"patching_rect" : [ 532.0, 373.5, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 94.0, 286.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -297,34 +297,6 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -761,24 +733,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -870,7 +824,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 147.0, 47.0, 20.0 ],
+					"patching_rect" : [ 27.0, 148.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -996,13 +950,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 163.0, 398.0, 70.0, 20.0 ],
+					"patching_rect" : [ 163.0, 398.0, 81.0, 22.0 ],
 					"text" : "jit.gl.sketch"
 				}
 
@@ -1068,12 +1022,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 253.0, 113.0, 20.0 ],
-					"text" : "jit.window capture+"
+					"patching_rect" : [ 7.0, 253.0, 114.0, 33.0 ],
+					"text" : "jit.window capture+ @fsmenubar 0"
 				}
 
 			}
@@ -1140,7 +1095,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 57.0, 144.147247, 221.0 ],
+					"patching_rect" : [ 4.0, 57.0, 144.147247, 238.0 ],
 					"rounded" : 30
 				}
 
@@ -1155,7 +1110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.0, 442.0, 60.0, 22.0 ],
+					"patching_rect" : [ 530.0, 396.0, 60.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1170,7 +1125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 563.0, 443.0, 153.0, 20.0 ],
+					"patching_rect" : [ 531.0, 373.0, 153.0, 20.0 ],
 					"text" : "load GLnode_capture+"
 				}
 

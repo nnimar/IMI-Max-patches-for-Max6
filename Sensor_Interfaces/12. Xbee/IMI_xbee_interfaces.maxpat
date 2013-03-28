@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 537.0, 451.0 ],
@@ -53,7 +54,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 293.0, 91.0, 18.0 ],
+					"patching_rect" : [ 111.0, 293.0, 91.0, 17.0 ],
 					"text" : "help Xbee4Max"
 				}
 
@@ -68,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 292.0, 52.0, 20.0 ],
+					"patching_rect" : [ 111.0, 292.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -77,7 +78,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -100,7 +101,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 373.0, 306.0, 29.0 ],
+					"patching_rect" : [ 18.0, 384.0, 306.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://blog.lib.umn.edu/ali/2009xbee/"
 				}
 
@@ -119,7 +120,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 309.0, 381.0, 85.0, 20.0 ],
+					"patching_rect" : [ 309.0, 392.0, 85.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 418.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -139,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 375.0, 295.0, 29.0 ],
+					"patching_rect" : [ 17.0, 386.0, 295.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-api/"
 				}
 
@@ -158,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 381.0, 64.0, 20.0 ],
+					"patching_rect" : [ 235.0, 392.0, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 419.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -181,7 +182,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.0, 381.0, 132.0, 20.0 ],
+					"patching_rect" : [ 94.0, 392.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -201,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 374.0, 318.0, 29.0 ],
+					"patching_rect" : [ 16.0, 385.0, 318.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-arduino/"
 				}
 
@@ -210,11 +211,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 310.0, 263.0, 23.0 ],
+					"patching_rect" : [ 249.0, 310.0, 263.0, 22.0 ],
 					"text" : "use the Xbee Arduino library (series 2)"
 				}
 
@@ -257,11 +259,12 @@
 				"box" : 				{
 					"fontname" : "Arial Italic",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 410.0, 421.0, 23.0 ],
+					"patching_rect" : [ 41.0, 421.0, 421.0, 22.0 ],
 					"text" : "It is recommended to read the article on the Xbee in the IMI Wiki !"
 				}
 
@@ -300,11 +303,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 214.0, 242.0, 23.0 ],
+					"patching_rect" : [ 249.0, 214.0, 242.0, 22.0 ],
 					"text" : "install xbee_at.pde"
 				}
 
@@ -313,12 +317,13 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-26",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 167.0, 229.0, 39.0 ],
+					"patching_rect" : [ 249.0, 167.0, 229.0, 38.0 ],
 					"text" : "The AT mode is the transparent / program mode (human readable)"
 				}
 
@@ -333,7 +338,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 217.0, 118.0, 18.0 ],
+					"patching_rect" : [ 15.0, 194.0, 118.0, 17.0 ],
 					"text" : "load xbee_at.maxpat"
 				}
 
@@ -348,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 193.0, 52.0, 20.0 ],
+					"patching_rect" : [ 15.0, 193.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -357,13 +362,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 93.0, 264.0, 39.0 ],
-					"text" : "see Applications>Max5>examples\n>IMIpatches > Sensor Interfaces"
+					"patching_rect" : [ 250.0, 93.0, 280.0, 38.0 ],
+					"text" : "see Applications>Max 6 .1>packages\n>IMIpatches > patchers > Sensor Interfaces"
 				}
 
 			}
@@ -371,11 +377,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 66.0, 261.0, 23.0 ],
+					"patching_rect" : [ 249.0, 66.0, 261.0, 22.0 ],
 					"text" : "Click to open the sensor interface folder"
 				}
 
@@ -384,12 +391,13 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 268.0, 264.0, 39.0 ],
+					"patching_rect" : [ 249.0, 268.0, 264.0, 38.0 ],
 					"text" : "The API is the more robust mode \n(not easy, advanced only !)"
 				}
 
@@ -404,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 292.0, 124.0, 18.0 ],
+					"patching_rect" : [ 17.0, 292.0, 124.0, 17.0 ],
 					"text" : "load xbee_api.maxpat"
 				}
 
@@ -419,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 292.0, 52.0, 20.0 ],
+					"patching_rect" : [ 17.0, 292.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -446,7 +454,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -464,13 +472,13 @@
 					"fontsize" : 11.0,
 					"hidden" : 1,
 					"id" : "obj-36",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 90.0, 215.0, 42.0 ],
-					"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSensorsA2.scpt"
+					"patching_rect" : [ 17.0, 87.0, 136.0, 54.0 ],
+					"text" : "osascript \\\"/Applications/Max 6.1/packages/IMIpatches/scripts/SSensorsA2.scpt\\\""
 				}
 
 			}
@@ -481,7 +489,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-14",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -498,7 +505,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-28",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -515,7 +521,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -532,7 +537,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

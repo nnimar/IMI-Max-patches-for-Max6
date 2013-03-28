@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ -1.0, 44.0, 1108.0, 789.0 ],
+		"rect" : [ 0.0, 44.0, 1108.0, 789.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -5718,7 +5718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 210.0, 130.0, 20.0 ],
+					"patching_rect" : [ 13.0, 206.0, 130.0, 20.0 ],
 					"text" : "jit.dimmap @invert 1 0"
 				}
 
@@ -5961,19 +5961,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-78",
-					"maxclass" : "jit.fpsgui",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 486.0, 503.0, 80.0, 35.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.835294, 0.858824, 0.541176, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -6148,12 +6135,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 486.0, 475.0, 94.0, 20.0 ],
-					"text" : "jit.window Draw"
+					"patching_rect" : [ 486.0, 475.0, 98.0, 33.0 ],
+					"text" : "jit.window Draw @fsmenubar 0"
 				}
 
 			}
@@ -6381,15 +6369,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}

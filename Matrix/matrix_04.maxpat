@@ -97,8 +97,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 554.0, 93.0, 16.0 ],
-					"text" : "load matrix_setcell"
+					"patching_rect" : [ 419.0, 554.0, 93.0, 16.0 ],
+					"text" : "load matrix_05"
 				}
 
 			}

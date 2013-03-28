@@ -89,14 +89,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 549.0, 463.0, 20.0 ],
-					"text" : "WARNING : ajh.wiiremote and aka.wiiremote are incompatible with Mac OS 10.8"
+					"patching_rect" : [ 26.0, 546.0, 460.0, 22.0 ],
+					"text" : "ajh.wiiremote / aka.wiiremote are NOT compatible with Mac OS 10.8"
 				}
 
 			}
@@ -660,16 +660,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
-					"id" : "obj-6",
+					"id" : "obj-50",
 					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 52.0, 213.0, 45.0 ],
-					"text" : ";\rmax launchbrowser \"\\\"file://////Applications/Max6/examples/IMIpatches/Sensor_Interfaces/11. OSC/osculator.oscd\\\"\""
+					"patching_rect" : [ 12.0, 50.0, 118.0, 49.0 ],
+					"text" : ";\rmax launchbrowser \\\"file:////Applications/OSCulator/OSCulator.app\\\""
 				}
 
 			}
@@ -776,9 +776,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
-					"hidden" : 1,
+					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 

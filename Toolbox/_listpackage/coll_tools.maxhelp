@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 569.0, 335.0 ],
+		"rect" : [ 510.0, 44.0, 569.0, 335.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -36,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 207.0, 268.0, 156.0, 22.0 ],
-					"presentation_rect" : [ 207.0, 366.0, 0.0, 0.0 ],
 					"text" : "use comma (,) in a coll"
 				}
 
@@ -53,8 +53,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 679.0, 100.0, 391.0, 242.0 ],
@@ -345,8 +346,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 577.0, 44.0, 371.0, 406.0 ],
@@ -763,8 +765,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 582.0, 44.0, 721.0, 786.0 ],
@@ -1861,8 +1864,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 583.0, 44.0, 526.0, 415.0 ],
@@ -2479,8 +2483,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 582.0, 44.0, 567.0, 426.0 ],
@@ -3088,8 +3093,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 582.0, 44.0, 318.0, 259.0 ],
@@ -3308,8 +3314,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 579.0, 44.0, 674.0, 180.0 ],
@@ -3558,8 +3565,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 581.0, 44.0, 413.0, 382.0 ],
@@ -3954,43 +3962,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "lh.lsub.js",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/lh.collection/lh.javascripts",
-				"patcherrelativepath" : "../../Plugins_tools/lh.collection/lh.javascripts",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/lh.collection/lh.javascripts",
+				"patcherrelativepath" : "../../../externals/tools/lh.collection/lh.javascripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lh.lookup.js",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/lh.collection/lh.javascripts",
-				"patcherrelativepath" : "../../Plugins_tools/lh.collection/lh.javascripts",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/lh.collection/lh.javascripts",
+				"patcherrelativepath" : "../../../externals/tools/lh.collection/lh.javascripts",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f0.duplicates_in_coll.pat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/f0.abs110216",
-				"patcherrelativepath" : "../../Plugins_tools/f0.abs110216",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/f0.abs110216",
+				"patcherrelativepath" : "../../../externals/tools/f0.abs110216",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f0.s==.pat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/f0.abs110216",
-				"patcherrelativepath" : "../../Plugins_tools/f0.abs110216",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/f0.abs110216",
+				"patcherrelativepath" : "../../../externals/tools/f0.abs110216",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.metroUzi.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.metroUzi",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.metroUzi",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.metroUzi",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.metroUzi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "coll_duplicates.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_listpackage",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_listpackage",
+				"patcherrelativepath" : "./",
 				"type" : "JSON",
 				"implicit" : 1
 			}

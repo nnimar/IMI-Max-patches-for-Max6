@@ -1,5 +1,6 @@
 IMI_simple_triggers, "simple triggering options";
 IMI_filtering_change, "change to filter out repetitions";
+IMI_average, "a few patches to calculate the average";
 smoother_derivitive, "smooth, get speed and acceleration";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 dot.autoscale, "rescales numbers according to auto-detected maximum and minimum values.";
@@ -9,6 +10,7 @@ dot.distance,"find distance between a scalar ans a list";
 dot.ema, "exponential moving average";
 dot.extrema, "outputs maxima and minima";
 dot.median, "outputs median value (cancel noise)";
+dot.orient, "to use with magnetometer and accelerometer";
 dot.slope, "output the slope between each successive point.";
 dot.smooth, "simple sample-averaging filter";
 dot.squeuedlim, "limits the speed of messages passing through (a speedlim queued like zl queue)";

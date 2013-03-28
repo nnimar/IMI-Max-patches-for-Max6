@@ -9,7 +9,7 @@
 11, <category> 2 Video;
 12, IMI_quicktime "help for jit.qt.movie";
 14, IMI_sound_to_animation "sound to animation";
-15, quicktime_smooth "advanced quicktime play";
+15, image_adjustment "brightness and colouring";
 20, -----------------------;
 21, <category> 3 Sound;
 22, IMI_sound_player_qtmovie "sound player using jit.qt.movie";

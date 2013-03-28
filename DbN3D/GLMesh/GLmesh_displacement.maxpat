@@ -127,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 251.0, 115.0, 20.0 ],
+					"patching_rect" : [ 10.0, 266.0, 115.0, 20.0 ],
 					"text" : "the gen equivalent :"
 				}
 
@@ -334,7 +334,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 120.0, 251.0, 43.0, 20.0 ],
+					"patching_rect" : [ 126.0, 266.0, 43.0, 20.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -1175,17 +1175,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frozen_object_attributes" : 					{
-						"rect" : [ 806, 99, 1126, 339 ]
-					}
-,
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 216.0, 119.0, 20.0 ],
-					"text" : "jit.window mesh-ctx"
+					"patching_rect" : [ 9.0, 216.0, 117.0, 33.0 ],
+					"text" : "jit.window mesh-ctx @fsmenubar 0"
 				}
 
 			}
@@ -1251,7 +1248,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 54.0, 164.147247, 189.0 ],
+					"patching_rect" : [ 3.0, 54.0, 157.147247, 201.0 ],
 					"rounded" : 30
 				}
 

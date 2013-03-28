@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 89.0, 579.0, 784.0, 419.0 ],
+		"rect" : [ 190.0, 370.0, 784.0, 419.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -28,6 +29,85 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-183",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2625.0, 300.0, 183.0, 24.0 ],
+					"text" : "or before the end (frame 251)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-179",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2557.0, 333.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-178",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2557.0, 301.0, 64.0, 22.0 ],
+					"text" : "past 240"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-177",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2557.0, 268.0, 44.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-175",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2616.0, 270.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-163",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2381.0, 165.0, 95.0, 20.0 ],
+					"text" : "bang, gettime"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
@@ -36,7 +116,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4581.0, 159.0, 87.0, 22.0 ],
-					"presentation_rect" : [ 4385.0, 301.0, 0.0, 0.0 ],
 					"text" : "store / recall"
 				}
 
@@ -52,7 +131,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5174.0, 143.0, 135.0, 47.0 ],
-					"presentation_rect" : [ 5172.0, 142.0, 0.0, 0.0 ],
 					"text" : "good practice :\n- collect data\n- parse and output\n"
 				}
 
@@ -91,7 +169,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5173.0, 143.0, 141.0, 18.0 ],
-					"presentation_rect" : [ 5173.0, 143.0, 0.0, 0.0 ],
 					"text" : "load IMI_weather_report"
 				}
 
@@ -107,7 +184,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5173.0, 143.0, 52.0, 19.0 ],
-					"presentation_rect" : [ 5173.0, 143.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -181,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3352.0, 281.0, 20.0, 20.0 ]
+					"patching_rect" : [ 3327.0, 281.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -216,11 +292,11 @@
 					"fontsize" : 14.0,
 					"id" : "obj-100",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 3259.0, 250.0, 112.0, 22.0 ],
-					"text" : "dot.threshtrig 50"
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 3259.0, 250.0, 87.0, 22.0 ],
+					"text" : "past2 50"
 				}
 
 			}
@@ -385,7 +461,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5377.0, 293.0, 32.5, 20.0 ],
+					"patching_rect" : [ 5377.0, 293.0, 20.0, 20.0 ],
 					"text" : "0"
 				}
 
@@ -721,8 +797,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5332.0, 48.0, 588.0, 90.0 ],
-					"text" : "Patch too slow ? The easiest is to close the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than \nthe jitter objects. For video effects, have a look at the shaders or Gen. "
+					"patching_rect" : [ 5332.0, 48.0, 574.0, 90.0 ],
+					"text" : "Patch too slow ? Start by closing the processes that you don't need. Optimise your video playback using the quicktime smooth patch or change your rendering methods using the GL objects rather than \nthe jitter objects. For video effects, have a look at the shaders or Gen. "
 				}
 
 			}
@@ -925,8 +1001,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 441.0, 93.0, 116.0, 284.0 ],
@@ -1259,19 +1336,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2579.0, 236.0, 250.0, 24.0 ],
+					"patching_rect" : [ 2637.0, 268.0, 250.0, 24.0 ],
 					"text" : "bang when you reach the end of the video"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-117",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2557.0, 237.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1281,11 +1347,11 @@
 					"fontsize" : 14.0,
 					"id" : "obj-115",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2557.0, 206.0, 106.0, 22.0 ],
-					"text" : "route loopnotify"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 2557.0, 236.0, 137.0, 22.0 ],
+					"text" : "route time loopnotify"
 				}
 
 			}
@@ -1297,7 +1363,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2381.0, 116.0, 20.0, 20.0 ]
+					"patching_rect" : [ 2381.0, 105.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1310,7 +1376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2381.0, 141.0, 66.0, 22.0 ],
+					"patching_rect" : [ 2381.0, 134.0, 66.0, 22.0 ],
 					"text" : "metro 40"
 				}
 
@@ -1322,7 +1388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2381.0, 205.0, 160.0, 120.0 ],
+					"patching_rect" : [ 2381.0, 235.0, 160.0, 120.0 ],
 					"presentation_rect" : [ 30.0, 30.0, 160.0, 120.0 ]
 				}
 
@@ -1336,7 +1402,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2455.0, 141.0, 114.0, 20.0 ],
+					"patching_rect" : [ 2481.0, 165.0, 114.0, 20.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -1350,7 +1416,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 2381.0, 175.0, 195.0, 22.0 ],
+					"patching_rect" : [ 2381.0, 205.0, 195.0, 22.0 ],
 					"text" : "jit.qt.movie @loopreport 1"
 				}
 
@@ -1433,7 +1499,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 121.0, 180.0, 24.0 ],
+					"patching_rect" : [ 99.0, 121.0, 182.0, 24.0 ],
 					"text" : "play a movie using quicktime "
 				}
 
@@ -1448,7 +1514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 162.0, 174.0, 24.0 ],
+					"patching_rect" : [ 92.0, 162.0, 176.0, 24.0 ],
 					"text" : "grab images from a camera "
 				}
 
@@ -1680,7 +1746,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2964.0, 47.0, 572.0, 48.0 ],
-					"text" : "Too many bangs ? With sensors, use onebang to control the gate opening and closing, past or dot.threshtrig to convert data into bangs."
+					"text" : "Too many bangs ? With sensors, use onebang to control the gate opening and closing, past or past2 to convert data into bangs."
 				}
 
 			}
@@ -1726,7 +1792,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1783.0, 12.0, 407.0, 27.0 ],
-					"text" : "4. simulation : the manual mode",
+					"text" : "4. manual mode (simulation)",
 					"varname" : "autohelp_top_title[6]"
 				}
 
@@ -2841,7 +2907,7 @@
 					"destination" : [ "obj-111", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 2464.5, 169.0, 2390.5, 169.0 ],
+					"midpoints" : [ 2490.5, 195.0, 2390.5, 195.0 ],
 					"source" : [ "obj-110", 0 ]
 				}
 
@@ -2866,7 +2932,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 0 ],
+					"destination" : [ "obj-163", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-112", 0 ]
@@ -2893,7 +2959,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
+					"destination" : [ "obj-175", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-115", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-115", 0 ]
@@ -3145,7 +3220,7 @@
 					"destination" : [ "obj-141", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 5386.5, 321.0, 5339.5, 321.0, 5339.5, 164.0, 5360.5, 164.0 ],
+					"midpoints" : [ 5386.5, 321.0, 5339.5, 321.0, 5339.5, 160.0, 5360.5, 160.0 ],
 					"source" : [ "obj-152", 0 ]
 				}
 
@@ -3165,6 +3240,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-160", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-163", 0 ]
 				}
 
 			}
@@ -3201,6 +3285,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-172", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-178", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-179", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-178", 0 ]
 				}
 
 			}
@@ -3520,9 +3622,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/filters/dot.threshtrig",
-				"patcherrelativepath" : "../Plugins_tools/dot_20121204/filters/dot.threshtrig",
+				"name" : "past2.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "./Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

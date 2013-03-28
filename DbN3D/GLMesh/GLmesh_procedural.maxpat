@@ -308,34 +308,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-108",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -771,24 +743,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1209,12 +1163,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 315.0, 89.0, 20.0 ],
-					"text" : "jit.window proc"
+					"patching_rect" : [ 7.0, 315.0, 96.0, 33.0 ],
+					"text" : "jit.window proc @fsmenubar 0"
 				}
 
 			}
@@ -1296,7 +1251,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 181.0, 345.0, 285.0, 33.0 ],
+					"patching_rect" : [ 181.0, 345.0, 286.0, 33.0 ],
 					"text" : "jit.gl.mesh @lighting_enable 1 @smooth_shading 1 @poly_mode 1 1 @antialias 1"
 				}
 
@@ -1308,7 +1263,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 58.0, 160.147247, 284.0 ],
+					"patching_rect" : [ 3.0, 58.0, 152.147247, 296.0 ],
 					"rounded" : 30
 				}
 
@@ -1550,14 +1505,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "makemeashape.js",
-				"bootpath" : "/Users/hubbles/Desktop",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/DbN3D/GLMesh",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makemeashape2.js",
-				"bootpath" : "/Users/hubbles/Desktop",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/DbN3D/GLMesh",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1

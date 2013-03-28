@@ -915,7 +915,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 361.0, 109.0, 36.0 ],
+					"patching_rect" : [ 7.0, 368.0, 109.0, 36.0 ],
 					"text" : "jit.phys.picker @filterclass pick"
 				}
 
@@ -1190,12 +1190,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 325.0, 123.0, 20.0 ],
-					"text" : "jit.window membrane"
+					"patching_rect" : [ 7.0, 325.0, 126.0, 33.0 ],
+					"text" : "jit.window membrane @fsmenubar 0"
 				}
 
 			}
@@ -1221,7 +1222,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 57.0, 132.147247, 296.0 ],
+					"patching_rect" : [ 3.0, 57.0, 132.147247, 306.0 ],
 					"rounded" : 30
 				}
 

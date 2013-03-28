@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 2.0, 44.0, 651.0, 493.0 ],
+		"rect" : [ 2.0, 44.0, 652.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -80,7 +80,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 498.0, 464.849884, 141.0, 27.0 ],
+					"patching_rect" : [ 500.0, 450.849854, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 308.0, 150.0, 226.0, 19.0 ],
+					"patching_rect" : [ 308.0, 143.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -124,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 143.0, 207.0, 25.0 ],
+					"patching_rect" : [ 307.0, 136.0, 207.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -139,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 395.849884, 635.0, 47.0 ],
+					"patching_rect" : [ 4.0, 392.849884, 635.0, 47.0 ],
 					"text" : "Medias : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
 
@@ -154,7 +154,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 126.0, 647.0, 87.0 ],
+					"patching_rect" : [ 4.0, 119.0, 647.0, 87.0 ],
 					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on http://cycling74.com/forums/,\nimproved help files from Max. Many patches were taken from Max's evangelists Andrew Benson and Robert Ramirez, thanks for their great tutorials !"
 				}
 
@@ -165,12 +165,12 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-3",
-					"linecount" : 7,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 233.0, 635.0, 147.0 ],
-					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012)"
+					"patching_rect" : [ 4.0, 217.0, 635.0, 167.0 ],
+					"text" : "Credits also goes to the IMI students who have helped improving this patch.\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust, Andres Ayerbe (2012), Alan Hong (2013)"
 				}
 
 			}

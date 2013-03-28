@@ -787,7 +787,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 413.0, 102.0, 20.0 ],
+					"patching_rect" : [ 12.0, 405.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -924,13 +924,13 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-142",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.953674, 442.638458, 128.0, 38.0 ],
-					"text" : "jit.window output @depthbuffer 0"
+					"patching_rect" : [ 11.953674, 429.638458, 127.0, 53.0 ],
+					"text" : "jit.window output @depthbuffer 0 @fsmenubar 0"
 				}
 
 			}
@@ -1168,7 +1168,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.953674, 296.322388, 20.0, 20.0 ]
+					"patching_rect" : [ 11.953674, 286.322388, 20.0, 20.0 ]
 				}
 
 			}
@@ -1181,8 +1181,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.953674, 378.690796, 107.0, 20.0 ],
-					"text" : "jit.gl.render output"
+					"patching_rect" : [ 11.953674, 368.690796, 105.0, 20.0 ],
+					"text" : "jit.gl.render layers"
 				}
 
 			}
@@ -1210,7 +1210,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.953674, 348.743439, 67.0, 20.0 ],
+					"patching_rect" : [ 11.953674, 338.743439, 67.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1224,7 +1224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.953674, 323.753296, 65.0, 20.0 ],
+					"patching_rect" : [ 11.953674, 313.753296, 65.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -1237,7 +1237,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 289.0, 140.147247, 198.0 ],
+					"patching_rect" : [ 5.0, 279.0, 141.147247, 211.0 ],
 					"rounded" : 30
 				}
 
@@ -1258,7 +1258,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 37.5, 296.0, 20.0, 20.0 ],
+					"patching_rect" : [ 37.5, 286.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

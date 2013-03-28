@@ -1,4 +1,5 @@
 // Max4lightuino - install this on the lightuino and use the messenger libary to read information from Max/MSP
+// needs to be updated
 
 #include <Messenger.h>
 #include <lightuino.h>

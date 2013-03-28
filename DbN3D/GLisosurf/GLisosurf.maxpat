@@ -381,7 +381,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 61.0, 106.0, 20.0 ],
+					"patching_rect" : [ 13.0, 61.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 362.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,

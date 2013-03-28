@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 543.0, 463.0 ],
@@ -30,12 +30,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.0, 56.0, 235.0, 87.0 ],
+					"patching_rect" : [ 287.0, 56.0, 235.0, 85.0 ],
 					"text" : "use the window object to get the mouse coordinates and send them to the render object so we can use them in GLsketch using the screen (window) to world (3D) conversion."
 				}
 
@@ -54,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 553.0, 371.0, 232.0, 227.0 ],
@@ -81,6 +82,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -292,21 +294,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 9.0, 337.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -356,7 +357,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 552.0, 372.0, 411.0, 282.0 ],
@@ -382,34 +383,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-108",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -424,6 +397,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -465,6 +439,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -478,6 +453,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -635,7 +611,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"patching_rect" : [ 145.0, 203.0, 105.0, 31.0 ],
 									"text" : ";\rmax showcursor;\r"
 								}
 
@@ -650,7 +626,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 266.0, 203.0, 99.0, 32.0 ],
+									"patching_rect" : [ 266.0, 203.0, 99.0, 31.0 ],
 									"text" : ";\rmax hidecursor;\r"
 								}
 
@@ -840,24 +816,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -906,21 +864,20 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 141.0, 63.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -935,6 +892,7 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -951,12 +909,13 @@
 					"bubbleside" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 127.0, 73.0, 53.0 ],
+					"patching_rect" : [ 162.0, 127.0, 73.0, 52.0 ],
 					"text" : "mouse coordinates"
 				}
 
@@ -979,12 +938,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 342.0, 31.0 ],
+					"patching_rect" : [ 3.0, 2.0, 342.0, 30.0 ],
 					"text" : "Texture to gl.sketch",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -995,7 +954,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1059,7 +1018,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 368.0, 489.0, 53.0 ],
+					"patching_rect" : [ 9.0, 368.0, 489.0, 51.0 ],
 					"text" : "reset, glenable texture, glbindtexture movie, glbegin quads, glnormal 0 -1, gltexcoord 0 1, glvertex $1 $2, gltexcoord 1 1, glvertex $3 $4, gltexcoord 1 0, glvertex $5 $6, gltexcoord 0 0, glvertex $7 $8, glend, gldisable texture"
 				}
 
@@ -1073,7 +1032,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 432.0, 311.0, 23.0 ],
+					"patching_rect" : [ 9.0, 432.0, 311.0, 22.0 ],
 					"text" : "jit.gl.sketch @texture movie @color 1. 1. 1. 1."
 				}
 
@@ -1164,12 +1123,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 141.0, 90.0, 120.0, 20.0 ],
-					"text" : "jit.window sketchtext"
+					"patching_rect" : [ 141.0, 90.0, 120.0, 33.0 ],
+					"text" : "jit.window sketchtext @fsmenubar 0"
 				}
 
 			}
@@ -1205,7 +1165,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"id" : "obj-107",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1218,7 +1177,6 @@
 				"box" : 				{
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1284,7 +1242,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-14",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -1346,7 +1303,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 251.5, 117.5, 150.5, 117.5 ],
+					"midpoints" : [ 251.5, 145.5, 150.5, 145.5 ],
 					"source" : [ "obj-20", 1 ]
 				}
 

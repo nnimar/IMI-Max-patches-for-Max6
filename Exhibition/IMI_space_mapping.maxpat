@@ -959,7 +959,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 471.0, 253.0, 87.0 ],
+					"patching_rect" : [ 245.0, 480.0, 253.0, 87.0 ],
 					"text" : "(S) start\n(R) restart\n(ESC) fullscreen\n(shift-ESC) fullscreen with cursor andcorners\n{1-2-3-4-5} load preset 1 to 5\nshift {3-4-5} save preset 3 to 5"
 				}
 
@@ -975,7 +975,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 166.0, 471.0, 77.0, 24.0 ],
+					"patching_rect" : [ 166.0, 480.0, 77.0, 24.0 ],
 					"text" : "shortcuts"
 				}
 
@@ -6409,34 +6409,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-108",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -6942,24 +6914,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -7011,7 +6965,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.5, 282.0, 108.0, 20.0 ],
+					"patching_rect" : [ 10.5, 271.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -7074,12 +7028,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.5, 306.0, 117.0, 20.0 ],
-					"text" : "jit.window cornerpin"
+					"patching_rect" : [ 10.5, 296.0, 116.0, 33.0 ],
+					"text" : "jit.window cornerpin @fsmenubar 0"
 				}
 
 			}
@@ -7095,21 +7050,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 10.5, 188.0, 139.0, 33.0 ],
 					"text" : "jit.gl.render @erase_color 0. 0. 0. 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
-					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 60.0, 151.147247, 275.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 76.0, 225.0, 168.147247, 292.0 ],
-					"rounded" : 30
 				}
 
 			}
@@ -10535,7 +10475,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 283.0, 69.0, 20.0 ],
+					"patching_rect" : [ 11.0, 271.0, 69.0, 20.0 ],
 					"text" : "r fullscreen"
 				}
 
@@ -10623,6 +10563,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 403.0, 83.0, 20.0 ],
 					"text" : "r save_preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-39",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 60.0, 151.147247, 275.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 76.0, 225.0, 168.147247, 292.0 ],
+					"rounded" : 30
 				}
 
 			}
@@ -11635,8 +11590,8 @@
 			}
 , 			{
 				"name" : "dot.debounce.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/timing/dot.debounce",
+				"patcherrelativepath" : "../Plugins_tools/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}

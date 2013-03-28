@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 369.0, 86.0, 24.0 ],
+					"patching_rect" : [ 32.0, 369.0, 86.0, 24.0 ],
 					"text" : "print output"
 				}
 
@@ -50,7 +50,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 373.0, 46.0, 18.0 ],
+					"patching_rect" : [ 36.0, 373.0, 46.0, 18.0 ],
 					"text" : "s debug"
 				}
 
@@ -63,7 +63,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 371.0, 20.0, 20.0 ]
+					"patching_rect" : [ 9.0, 371.0, 20.0, 20.0 ]
 				}
 
 			}

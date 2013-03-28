@@ -1,6 +1,5 @@
 // Arduino Serial button (using pullup)
 // Connect the button on GND and pin 2
-// rld, cycling'74, 3.2008
 // nm, imi, 10.2010
 
 #include <Button.h>
@@ -12,7 +11,8 @@ Button button = Button(buttonPin,BUTTON_PULLUP_INTERNAL);
 
 void setup() 
 { 
-	Serial.begin(9600); 
+	Serial.begin(9600);
+	PinMode (ledPin, OUTPUT);
 	digitalWrite (ledPin, LOW);
 } 
 

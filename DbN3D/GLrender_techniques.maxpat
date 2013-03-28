@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 2.0, 44.0, 581.0, 515.0 ],
+		"rect" : [ 2.0, 44.0, 583.0, 456.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.0, 439.0, 98.0, 52.0 ],
+					"patching_rect" : [ 459.0, 384.0, 98.0, 52.0 ],
 					"text" : "layers also use depthbuffer 0"
 				}
 
@@ -130,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 486.0, 137.360596, 22.098633 ],
+					"patching_rect" : [ 438.0, 431.0, 137.360596, 22.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 355.0, 53.360592, 24.098633 ],
 					"rounded" : 20.0,
@@ -148,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.0, 488.0, 53.0, 20.0 ],
+					"patching_rect" : [ 523.0, 433.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -163,7 +163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 488.0, 144.0, 18.0 ],
+					"patching_rect" : [ 426.0, 433.0, 144.0, 18.0 ],
 					"text" : "load GLgridshape_layers"
 				}
 
@@ -188,15 +188,17 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"bubblepoint" : 0.08,
+					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-27",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 420.0, 199.0, 37.0 ],
+					"patching_rect" : [ 18.0, 367.0, 131.0, 66.0 ],
 					"text" : "with depthbuffer 1, the rendering depends on the z position "
 				}
 
@@ -312,7 +314,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 449.0, 150.0, 20.0 ]
+					"patching_rect" : [ 6.0, 246.0, 127.0, 20.0 ]
 				}
 
 			}
@@ -415,7 +417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 430.0, 150.0, 20.0 ]
+					"patching_rect" : [ 6.0, 227.0, 127.0, 20.0 ]
 				}
 
 			}
@@ -551,13 +553,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-91",
-					"linecount" : 2,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 474.0, 227.0, 33.0 ],
-					"text" : "jit.window window_options @pos 590 45 @size 400 300 @depthbuffer 1"
+					"patching_rect" : [ 6.0, 273.0, 100.0, 87.0 ],
+					"text" : "jit.window window_options @pos 590 45 @size 400 300 @depthbuffer 1 @fsmenubar 0"
 				}
 
 			}
@@ -584,7 +586,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 56.0, 98.147247, 161.0 ],
+					"patching_rect" : [ 3.0, 56.0, 98.147247, 158.0 ],
 					"rounded" : 30
 				}
 
@@ -601,6 +603,20 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 224.0, 277.0, 72.0, 20.0 ],
 					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
+					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 222.0, 140.147247, 142.0 ],
+					"presentation_rect" : [ 3.0, 222.0, 0.0, 0.0 ],
+					"rounded" : 30
 				}
 
 			}
@@ -644,7 +660,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 363.5, 421.00235, 20.0, 20.0 ],
+					"patching_rect" : [ 153.5, 385.00235, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -688,7 +704,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 577.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 579.0, 49.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

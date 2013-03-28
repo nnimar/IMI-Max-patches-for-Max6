@@ -40,7 +40,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 739.0, 356.0, 87.0, 22.0 ],
+					"patching_rect" : [ 676.0, 356.0, 87.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 310.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -63,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.0, 356.0, 165.0, 22.0 ],
+					"patching_rect" : [ 508.0, 356.0, 165.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 184.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -149,11 +149,11 @@
 									"fontsize" : 14.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
-									"numinlets" : 3,
+									"numinlets" : 2,
 									"numoutlets" : 2,
-									"outlettype" : [ "float", "float" ],
+									"outlettype" : [ "bang", "bang" ],
 									"patching_rect" : [ 14.0, 50.0, 116.0, 22.0 ],
-									"text" : "dot.threshtrig 2.5"
+									"text" : "past2 2.5"
 								}
 
 							}
@@ -167,8 +167,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 144.0, 49.0, 261.0, 53.0 ],
-									"text" : "find the average value (2.5 for example)\nand dot.threshtrig will output the value once passing the threshold"
+									"patching_rect" : [ 144.0, 49.0, 275.0, 53.0 ],
+									"text" : "find the average value (2.5 for example)\nand past2 will output the value once passing the threshold"
 								}
 
 							}
@@ -584,7 +584,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 392.0, 356.0, 60.0, 22.0 ],
+					"patching_rect" : [ 767.0, 356.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 471.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -607,7 +607,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 626.0, 356.0, 110.0, 22.0 ],
+					"patching_rect" : [ 395.0, 356.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1075,9 +1075,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dot.threshtrig.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"name" : "past2.maxpat",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

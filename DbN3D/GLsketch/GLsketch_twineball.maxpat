@@ -666,12 +666,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-142",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 350.638458, 94.0, 20.0 ],
-					"text" : "jit.window twine"
+					"patching_rect" : [ 8.0, 350.638458, 103.0, 33.0 ],
+					"text" : "jit.window twine @fsmenubar 0"
 				}
 
 			}
@@ -939,8 +940,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 65.0, 47.0, 20.0 ],
-					"text" : "r pulse"
+					"patching_rect" : [ 213.0, 65.0, 45.0, 20.0 ],
+					"text" : "r bang"
 				}
 
 			}
@@ -1110,8 +1111,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 147.0, 51.0, 20.0 ],
-					"text" : "s pulse"
+					"patching_rect" : [ 31.0, 147.0, 47.0, 20.0 ],
+					"text" : "s bang"
 				}
 
 			}
@@ -1280,7 +1281,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 60.0, 173.147247, 316.0 ],
+					"patching_rect" : [ 2.0, 60.0, 174.147247, 330.0 ],
 					"rounded" : 30
 				}
 

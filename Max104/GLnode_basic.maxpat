@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 1.0, 44.0, 552.0, 391.0 ],
@@ -86,6 +86,7 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -98,7 +99,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -108,7 +109,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 562.0, 360.0, 384.0, 92.0 ],
@@ -134,33 +135,33 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-48",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 10.0, 349.0, 71.0 ],
+									"patching_rect" : [ 5.0, 10.0, 349.0, 69.0 ],
 									"text" : "Node will overwrite jit.gl. attributes (useful for setting every object in the node's context at once). \n\nCamera overrides while node overwrites"
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 247.0, 57.0, 20.0 ],
+					"patching_rect" : [ 498.0, 4.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p tutorial"
@@ -181,7 +182,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 563.0, 361.0, 411.0, 282.0 ],
@@ -249,6 +250,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -290,6 +292,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -303,6 +306,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -460,7 +464,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 105.0, 32.0 ],
+									"patching_rect" : [ 145.0, 203.0, 105.0, 31.0 ],
 									"text" : ";\rmax showcursor;\r"
 								}
 
@@ -475,7 +479,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 32.0 ],
+									"patching_rect" : [ 265.0, 203.0, 114.0, 31.0 ],
 									"text" : ";\rmax hidecursor;\r"
 								}
 
@@ -731,22 +735,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 12.0, 184.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -758,12 +761,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 343.0, 31.0 ],
+					"patching_rect" : [ 3.0, 1.0, 343.0, 30.0 ],
 					"text" : "GLnode (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -774,7 +777,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -791,12 +794,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-40",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 196.0, 178.0, 38.0 ],
+					"patching_rect" : [ 364.0, 196.0, 178.0, 37.0 ],
 					"text" : "attached to node context via context name (subnode)"
 				}
 
@@ -806,12 +810,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.0, 150.0, 162.0, 38.0 ],
+					"patching_rect" : [ 382.0, 150.0, 162.0, 37.0 ],
 					"text" : "attached to node context via patch coords"
 				}
 
@@ -821,12 +826,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-38",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 288.0, 153.0, 38.0 ],
+					"patching_rect" : [ 391.0, 288.0, 153.0, 37.0 ],
 					"text" : "not part of node context\n(red ball)"
 				}
 
@@ -841,7 +847,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 284.0, 255.0, 48.0 ],
+					"patching_rect" : [ 133.0, 284.0, 255.0, 47.0 ],
 					"text" : "jit.gl.gridshape @shape sphere @material mtl @scale 0.2 0.2 0.2 @mat_diffuse 1 0.2 0.2 1 @position -0.5 0 0"
 				}
 
@@ -856,7 +862,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 198.0, 229.0, 34.0 ],
+					"patching_rect" : [ 133.0, 198.0, 229.0, 33.0 ],
 					"text" : "jit.gl.gridshape subnode @shape sphere @material mtl @scale 0.2 0.2 0.2"
 				}
 
@@ -900,7 +906,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 152.0, 247.0, 34.0 ],
+					"patching_rect" : [ 133.0, 152.0, 247.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @material mtl @scale 0.5 0.5 0.5 @dim 40 40"
 				}
 
@@ -910,12 +916,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 209.0, 99.0, 20.0 ],
-					"text" : "jit.window nodes"
+					"patching_rect" : [ 12.0, 208.0, 99.0, 33.0 ],
+					"text" : "jit.window nodes @fsmenubar 0"
 				}
 
 			}
@@ -978,11 +985,10 @@
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-13",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 56.0, 116.147247, 180.0 ],
+					"patching_rect" : [ 4.0, 56.0, 115.147247, 191.0 ],
 					"rounded" : 30
 				}
 
@@ -994,7 +1000,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-15",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

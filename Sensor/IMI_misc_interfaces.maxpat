@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 1.0, 44.0, 545.0, 615.0 ],
+		"rect" : [ 1.0, 44.0, 544.0, 633.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,69 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-76",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 11.0, 417.0, 139.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 121.0, 446.0, 100.0, 20.0 ],
+					"text" : "OSC synching video"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-75",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 226.0, 415.0, 269.0, 22.0 ],
+					"presentation_rect" : [ 226.0, 415.0, 0.0, 0.0 ],
+					"text" : "synch two or more computers with OSC"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-73",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 421.0, 101.0, 16.0 ],
+					"text" : "load synching_video"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 419.0, 52.0, 19.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
@@ -35,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 419.0, 246.0, 22.0 ],
+					"patching_rect" : [ 226.0, 443.0, 246.0, 22.0 ],
 					"text" : "Iannix controler"
 				}
 
@@ -51,7 +114,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 420.0, 56.0, 20.0 ],
+					"patching_rect" : [ 12.0, 444.0, 56.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 417.0, 100.0, 20.0 ],
 					"text" : "IanniX"
@@ -68,7 +131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 423.0, 61.0, 16.0 ],
+					"patching_rect" : [ 12.0, 447.0, 61.0, 16.0 ],
 					"text" : "load IanniX"
 				}
 
@@ -83,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 421.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 445.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -97,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 554.0, 143.0, 22.0 ],
+					"patching_rect" : [ 226.0, 578.0, 143.0, 22.0 ],
 					"text" : "osc test application"
 				}
 
@@ -113,7 +176,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 554.0, 90.0, 19.0 ],
+					"patching_rect" : [ 12.0, 578.0, 90.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
 					"text" : "OSCTestApp"
@@ -190,7 +253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 473.0, 177.0, 22.0 ],
+					"patching_rect" : [ 226.0, 497.0, 177.0, 22.0 ],
 					"text" : "OSCseq (OSC sequencer)"
 				}
 
@@ -206,7 +269,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 473.0, 62.0, 19.0 ],
+					"patching_rect" : [ 12.0, 497.0, 62.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSCseq"
@@ -223,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 473.0, 107.0, 16.0 ],
+					"patching_rect" : [ 12.0, 497.0, 107.0, 16.0 ],
 					"text" : "load OSCseq.maxpat"
 				}
 
@@ -238,7 +301,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.0, 127.0, 82.0, 21.0 ],
+					"patching_rect" : [ 101.0, 128.0, 72.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 112.0, 100.0, 20.0 ],
 					"text" : "TuioClient"
@@ -255,7 +318,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.0, 71.0, 111.0, 21.0 ],
+					"patching_rect" : [ 97.0, 71.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 58.0, 100.0, 20.0 ],
 					"text" : "MMF-Fantastick"
@@ -316,7 +379,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 71.0, 78.0, 21.0 ],
+					"patching_rect" : [ 12.0, 71.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 88.0, 100.0, 20.0 ],
 					"text" : "Fantastick"
@@ -364,7 +427,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 579.0, 137.0, 20.0 ],
+					"patching_rect" : [ 12.0, 603.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -382,7 +445,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 446.0, 78.0, 20.0 ],
+					"patching_rect" : [ 12.0, 470.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
 					"text" : "OSControl"
@@ -520,7 +583,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 527.0, 183.0, 22.0 ],
+					"patching_rect" : [ 226.0, 551.0, 183.0, 22.0 ],
 					"text" : "osc tools (osc java for max)"
 				}
 
@@ -536,7 +599,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 527.0, 73.0, 20.0 ],
+					"patching_rect" : [ 12.0, 551.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSC tools"
@@ -583,7 +646,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 446.0, 246.0, 22.0 ],
+					"patching_rect" : [ 226.0, 470.0, 246.0, 22.0 ],
 					"text" : "control other applications using OSC"
 				}
 
@@ -598,7 +661,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 448.0, 98.0, 16.0 ],
+					"patching_rect" : [ 12.0, 472.0, 98.0, 16.0 ],
 					"text" : "load IMI_OSControl"
 				}
 
@@ -613,7 +676,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 579.0, 93.0, 16.0 ],
+					"patching_rect" : [ 12.0, 603.0, 93.0, 16.0 ],
 					"text" : "load 00-OSC_intro"
 				}
 
@@ -627,7 +690,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 499.0, 141.0, 22.0 ],
+					"patching_rect" : [ 226.0, 523.0, 141.0, 22.0 ],
 					"text" : "osc-from-processing"
 				}
 
@@ -641,7 +704,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 579.0, 142.0, 22.0 ],
+					"patching_rect" : [ 226.0, 603.0, 142.0, 22.0 ],
 					"text" : "osc tutorial (CNMAT)"
 				}
 
@@ -657,7 +720,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 499.0, 116.0, 22.0 ],
+					"patching_rect" : [ 12.0, 523.0, 116.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -674,7 +737,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 499.0, 141.0, 17.0 ],
+					"patching_rect" : [ 12.0, 523.0, 141.0, 17.0 ],
 					"text" : "load osc-from-processing"
 				}
 
@@ -689,7 +752,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 449.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 473.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -721,7 +784,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 127.0, 81.0, 21.0 ],
+					"patching_rect" : [ 12.0, 128.0, 75.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
 					"text" : "TuioDemo"
@@ -751,7 +814,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 127.0, 210.0, 22.0 ],
+					"patching_rect" : [ 226.0, 128.0, 210.0, 22.0 ],
 					"text" : "Tuio (tangible user interfaces)"
 				}
 
@@ -794,7 +857,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 127.0, 88.0, 17.0 ],
+					"patching_rect" : [ 12.0, 128.0, 88.0, 17.0 ],
 					"text" : "load TuioDemo"
 				}
 
@@ -809,7 +872,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 127.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 128.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -994,7 +1057,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 527.0, 67.0, 15.0 ],
+					"patching_rect" : [ 12.0, 551.0, 67.0, 15.0 ],
 					"text" : "load OSCtools"
 				}
 
@@ -1009,7 +1072,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 127.0, 87.0, 17.0 ],
+					"patching_rect" : [ 12.0, 128.0, 87.0, 17.0 ],
 					"text" : "load TuioClient"
 				}
 
@@ -1025,7 +1088,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 546.0, 473.0, 25.0 ],
+					"patching_rect" : [ 12.0, 570.0, 473.0, 25.0 ],
 					"text" : ";\rmax launchbrowser \\\"file://////Applications/Max6/examples/IMIpatches/Plugins_communication/OSCTestApp.app\\\""
 				}
 
@@ -1434,6 +1497,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}

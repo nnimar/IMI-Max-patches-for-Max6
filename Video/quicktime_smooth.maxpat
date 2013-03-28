@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 8
 		}
 ,
 		"rect" : [ 2.0, 44.0, 732.0, 395.0 ],
@@ -40,10 +40,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 8
 						}
 ,
-						"rect" : [ 511.0, 359.0, 411.0, 282.0 ],
+						"rect" : [ 742.0, 359.0, 411.0, 252.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -66,40 +66,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-26",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 36.0, 224.0, 60.0, 20.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-25",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 36.0, 250.0, 77.0, 18.0 ],
-									"text" : "fsmenubar 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-108",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 174.25, 79.0, 18.0 ],
+									"patching_rect" : [ 23.0, 172.25, 79.0, 18.0 ],
 									"text" : "fullscreen $1"
 								}
 
@@ -108,6 +80,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -149,12 +122,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 353.0, 5.0, 51.0, 20.0 ],
-									"text" : "rev. 005"
+									"text" : "rev. 007"
 								}
 
 							}
@@ -162,6 +136,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -279,7 +254,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 142.0, 111.0, 65.0, 17.0 ],
-									"text" : "pos 510 45"
+									"text" : "pos 741 45"
 								}
 
 							}
@@ -314,13 +289,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-159",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 203.0, 119.0, 46.0 ],
-									"text" : ";\rmax showmenubar;\rmax showcursor;\r"
+									"patching_rect" : [ 145.0, 203.0, 105.0, 31.0 ],
+									"text" : ";\rmax showcursor;\r"
 								}
 
 							}
@@ -329,13 +304,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-160",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 265.0, 203.0, 114.0, 46.0 ],
-									"text" : ";\rmax hidemenubar;\rmax hidecursor;\r"
+									"patching_rect" : [ 265.0, 203.0, 99.0, 31.0 ],
+									"text" : ";\rmax hidecursor;\r"
 								}
 
 							}
@@ -386,7 +361,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 243.0, 25.0, 25.0 ]
+									"patching_rect" : [ 6.0, 220.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -415,7 +390,7 @@
 									"destination" : [ "obj-161", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 32.5, 217.125, 15.5, 217.125 ],
+									"midpoints" : [ 32.5, 205.125, 15.5, 205.125 ],
 									"source" : [ "obj-108", 0 ]
 								}
 
@@ -524,24 +499,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-161", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-25", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-26", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -590,22 +547,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 396.0, 241.0, 102.0, 20.0 ],
+					"patching_rect" : [ 395.0, 238.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p ESC-fullscreen"
@@ -617,12 +573,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-142",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 377.0, 266.638458, 212.0, 23.0 ],
-					"text" : "jit.window foo @colormode uyvy"
+					"patching_rect" : [ 377.0, 266.638458, 130.0, 53.0 ],
+					"text" : "jit.window foo @colormode uyvy @fsmenubar 0"
 				}
 
 			}
@@ -631,7 +588,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -647,12 +604,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 307.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 307.0, 21.0 ],
 					"text" : "smooth play recommendations (Joshua Kit Clayton)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -663,6 +620,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -685,10 +643,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 8
 						}
 ,
-						"rect" : [ 753.0, 364.0, 601.0, 258.0 ],
+						"rect" : [ 745.0, 361.0, 601.0, 258.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -726,12 +684,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 9.0, 298.0, 34.0 ],
+									"patching_rect" : [ 85.0, 9.0, 298.0, 33.0 ],
 									"text" : "In a default simple case like this, I like to use 10 for all throttles, overdrive off, and scheduler slop at 25"
 								}
 
@@ -756,12 +715,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 476.0, 70.0, 113.0, 75.0 ],
+									"patching_rect" : [ 476.0, 70.0, 113.0, 74.0 ],
 									"text" : "How much time behing \"wall time\", before the scheduler is forced to be in sync"
 								}
 
@@ -770,12 +730,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-5",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 340.0, 70.0, 112.0, 62.0 ],
+									"patching_rect" : [ 340.0, 70.0, 112.0, 60.0 ],
 									"text" : "How many patcher UI objects in a patcher with every patcher refresh"
 								}
 
@@ -784,12 +745,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-4",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 223.0, 71.0, 111.0, 75.0 ],
+									"patching_rect" : [ 223.0, 71.0, 111.0, 74.0 ],
 									"text" : "How many low priority queue events to process in one queue servicing. "
 								}
 
@@ -798,12 +760,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 119.0, 71.0, 106.0, 75.0 ],
+									"patching_rect" : [ 119.0, 71.0, 106.0, 74.0 ],
 									"text" : "How many high priority scheduler events to process in one scheduler \"tick\". "
 								}
 
@@ -1072,22 +1035,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 377.0, 334.0, 96.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"tags" : "",
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : ""
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p schedulerlab"
@@ -1103,7 +1065,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.0, 143.0, 115.0, 21.0 ],
+					"patching_rect" : [ 444.0, 143.0, 115.0, 20.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -1112,12 +1074,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-61",
 					"linecount" : 23,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 62.0, 364.0, 324.0 ],
+					"patching_rect" : [ 4.0, 59.0, 364.0, 315.0 ],
 					"text" : "1. use a *single* 1 ms qmetro to drive all of your jit.qt.movie objects.\n\n2. make sure you use \"@unique 1\" for all jit.qt.movie objects (@adapt 1 and @colormode uyvy recommended)\n\n3. disable overdrive if you are only doing jitter work. high priority scheduler work typically interfere's with jitter. You may also want to set a small scheduler slop value in this case.\n\n4. don't use a lot of metronomes or line objects if you can avoid it.\n\n5. use as few dynamically updating UI elements as possible\n\n6. if possible, separate your video playback mechanism from your performance patch. communicate over the network with your playback engine running in two separate instances of the applciation (run your playback engine in the runtime version)\n\n7. if you are using other jit.gl.* objects for mixing or otherwise, drive your render drawing and swapping from a single master movie's output or following slab chain, rather than a separate metronome"
 				}
 
@@ -1126,13 +1089,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-57",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 76.0, 235.0, 48.0 ],
-					"text" : "click on the 1 to have a continuous polling metronome which deliviers frames when QT says one is available with @unique 1"
+					"patching_rect" : [ 450.0, 76.0, 235.0, 47.0 ],
+					"text" : "click on the 1 to have a continuous polling metronome which delivers frames when QT says one is available with @unique 1"
 				}
 
 			}
@@ -1145,7 +1109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 399.0, 143.0, 40.0, 21.0 ],
+					"patching_rect" : [ 399.0, 143.0, 40.0, 20.0 ],
 					"text" : "read"
 				}
 
@@ -1171,7 +1135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 377.0, 102.0, 67.0, 23.0 ],
+					"patching_rect" : [ 377.0, 102.0, 67.0, 22.0 ],
 					"text" : "qmetro 1"
 				}
 
@@ -1185,7 +1149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 377.0, 188.0, 331.0, 23.0 ],
+					"patching_rect" : [ 377.0, 188.0, 331.0, 22.0 ],
 					"text" : "jit.qt.movie @adapt 1 @unique 1 @colormode uyvy"
 				}
 
@@ -1197,7 +1161,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

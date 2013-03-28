@@ -31,7 +31,7 @@ CapSense   cs_37_36 = CapSense(37,36);
 void setup()                    
 {
 
-  // cs_4_2.set_CS_AutocaL_Millis(0xFFFFFFFF);     // turn off autocalibrate on channel 1 - just as an example
+  // cs_4_2.set_CS_AutocaL_Millis(0xFFFFFFFF);     // turn off autocalibrate on channel 1
   Serial.begin(57600);
   delay (100);
 
