@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
+		"rect" : [ 2.0, 44.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -144,7 +144,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 111.0, 16.0 ],
-					"text" : "IMI Max patches v2.26"
+					"text" : "IMI Max patches v2.27"
 				}
 
 			}
@@ -222,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.26 (1/2013)",
+					"text" : "Nicolas Marechal, v2.27 (4/2013)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -581,7 +581,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "Global",
+					"items" : "CV_Objects",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -603,7 +603,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "global help", ",", "useful objects for Max", ",", "useful objects to handle lists", ",", "jitter overview", ",", "MSP overview" ],
+					"items" : [ ",", "cv face find & replace", ",", "basic gesture interface", ",", "return the center mass (and the mass)", ",", "blob detections", ",", "miscellaneous cv", ",", "tools to use the kinect" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -635,7 +635,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_max5", "IMI_toolbox", "list_toolbox", "Jitter_overview", "MSP_overview" ],
+					"tabs" : [ "cv_faces.findreplace", "cv_HSflow", "cv_centroid", "cv_jit.blobs", "cv_misc", "kinect" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -995,7 +995,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Sensors",
+					"items" : "Computer_Vision",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1017,7 +1017,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "sensor tools" ],
+					"items" : [ ",", "track a colour with jit.findbounds", ",", "frame differencing and silhouette", ",", "background removal", ",", "softVNS v.region object", ",", "an interface to faceOSC", ",", "an interface to TSPS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1049,7 +1049,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_sensors_tools" ],
+					"tabs" : [ "IMI_colourtrack", "c74_camera_data", "background_removal", "v.regions", "faceOSC", "openTSPS" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1409,7 +1409,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "Drawing",
+					"items" : "Internet",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1431,7 +1431,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to LCD", ",", "drawing shapes", ",", "simple drawing with LCD", ",", "Drawing like Processing" ],
+					"items" : [ ",", "using XML in Max", ",", "an example with detox", ",", "read a COSM feed", ",", "read the BBCnews", ",", "read the twitter api", ",", "read a facebook file", ",", "regular expression" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1463,7 +1463,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_jit_lcd", "IMI_jit_lcd+", "IMI_lcd_drawing", "IMI_lcd_processing" ],
+					"tabs" : [ "IMI_xml", "IMI_weather_report", "IMI_cosm2OSC", "BBCnews", "twitter_read", "facebook", "regexp_tutorial" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1823,7 +1823,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Sound",
+					"items" : "Grab",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1845,7 +1845,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound player using sfplay", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
+					"items" : [ ",", "simple video grab", ",", "video grab for 2 to 4 cameras", ",", "timelapse", ",", "use webcam, netcam and dslr", ",", "grab movements" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1879,7 +1879,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
+					"tabs" : [ "IMI_videograb", "IMI_videograb_(4cam)", "IMI_timelapse", "grab2syphon", "grab_hotspot" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -2239,7 +2239,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Video",
+					"items" : "Matrix",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2261,7 +2261,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "advanced quicktime play" ],
+					"items" : [ ",", "introduction to the jit Matrix", ",", "matrix and friends", ",", "matrix positioning", ",", "matrix lookup data", ",", "matrix feedback" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2293,7 +2293,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "quicktime_smooth" ],
+					"tabs" : [ "IMI_jit_matrix_introduction", "IMI_jit_matrix_and_friends", "IMI_matrix_positioning", "matrix_lookup", "matrix_feedback" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2653,7 +2653,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Introduction",
+					"items" : "Text",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2675,7 +2675,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "a few rules to help you patching", ",", "credits" ],
+					"items" : [ ",", "text basics", ",", "text + alpha layer", ",", "typing text in a window", ",", "compare text against a database", ",", "a simple patch to place text", ",", "interactive text patch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2707,7 +2707,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "Max_patching_rules", "IMI_credits" ],
+					"tabs" : [ "IMI_text_basics", "IMI_text_alpha", "IMI_type_text", "IMI_text_compare", "IMI_coll2text2d", "IMI_text_passingtime" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -4883,14 +4883,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "IMIMax101.txt",
+				"name" : "IMIMax102.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
 				"patcherrelativepath" : "../../examples/IMIpatches/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax102.txt",
+				"name" : "IMIMax101.txt",
 				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
 				"patcherrelativepath" : "../../examples/IMIpatches/z",
 				"type" : "TEXT",
