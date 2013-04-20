@@ -1,2 +1,0 @@
-open thispatcher
-include "D:/CRX Libs/MaxMSP Libs/EUCLID/euclid.js"include "D:/CRX Libs/MaxMSP Libs/EUCLID/euclidStorage.xml"
