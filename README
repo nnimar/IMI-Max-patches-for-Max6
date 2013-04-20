@@ -1,7 +1,6 @@
-The IMI Max patches is a collection of Max patches used or made at the design for interaction and moving image course at the London College of Communication (University of the Arts London). 
+The IMI Max patches is a collection of Max patches made or used at the design for interaction and moving image course at the London College of Communication (University of the Arts London). 
 
-This light version comes without the media or the plugins folder. To install plugins use the plugins_download patch in the Max Extra menu.
+This light version comes without the applications, externals, help, java-classes, jsextension and media folders. To install, just dop the IMIpatches folder in the packages folder (Max 6.1 and above).
 
-If you have been a student on the course and have the media and the plugins folder installed, the installer will update your patches but won't touch the media / plugins folder.
 
 If you have any questions, please e-mail : n.marechal@lcc.arts.ac.uk
