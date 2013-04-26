@@ -1,6 +1,6 @@
 The IMI Max patches is a collection of Max patches made or used at the design for interaction and moving image course at the London College of Communication (University of the Arts London). 
 
-This light version comes without the applications, externals, help, java-classes, jsextension and media folders. To install, just dop the IMIpatches folder in the packages folder (Max 6.1 and above).
+This light version comes without the applications, externals, help, java-classes, jsextension and media folders. To install, you can either launch the install.command (version 6 or 6.1) or manually drop the IMIpatches folder in the packages folder (Max 6.1 and above).
 
 
 If you have any questions, please e-mail : n.marechal@lcc.arts.ac.uk
