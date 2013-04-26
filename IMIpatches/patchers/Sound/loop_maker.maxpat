@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 455.0, 71.0, 24.0 ],
+					"patching_rect" : [ 373.0, 465.0, 71.0, 24.0 ],
 					"text" : "volume"
 				}
 
@@ -53,18 +53,18 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 227.0, 462.0, 141.0, 21.0 ],
+					"patching_rect" : [ 227.0, 472.0, 141.0, 21.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ -12 ],
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~",
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -89,7 +89,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -277,7 +277,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 249.0, 353.0, 81.0, 20.0 ],
+					"patching_rect" : [ 249.0, 370.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -392,7 +392,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 32.0, 655.0, 21.0 ],
-					"text" : "Making one sound loop using the record~object, the buffer~ and the groove~ object (playing a loop called \"looper\")",
+					"text" : "making one sound loop using the record~object, the buffer~ and the groove~ object (playing a loop called \"looper\")",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -408,7 +408,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 286.0, 535.0, 100.0, 20.0 ],
+					"patching_rect" : [ 286.0, 545.0, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 372.0, 155.0, 100.0, 20.0 ],
 					"text" : "Audio driver"
@@ -425,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 536.0, 35.0, 16.0 ],
+					"patching_rect" : [ 287.0, 546.0, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -440,7 +440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 536.0, 48.0, 18.0 ],
+					"patching_rect" : [ 288.0, 546.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -460,7 +460,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -804,7 +804,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 287.0, 536.0, 51.0, 18.0 ],
+					"patching_rect" : [ 287.0, 546.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -833,7 +833,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 212.0, 64.0, 128.0, 24.0 ],
+					"patching_rect" : [ 212.0, 67.0, 128.0, 24.0 ],
 					"text" : "record / start loop"
 				}
 
@@ -849,7 +849,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 430.0, 64.0, 152.0, 24.0 ],
+					"patching_rect" : [ 430.0, 67.0, 152.0, 24.0 ],
 					"text" : "stop loop/clear buffer\n"
 				}
 
@@ -888,7 +888,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 227.0, 255.0, 57.0, 18.0 ],
+					"patching_rect" : [ 227.0, 256.0, 57.0, 18.0 ],
 					"text" : "startloop"
 				}
 
@@ -902,7 +902,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 177.0, 343.0, 33.0, 20.0 ],
+					"patching_rect" : [ 177.0, 370.0, 33.0, 20.0 ],
 					"text" : "sig~"
 				}
 
@@ -929,7 +929,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 177.0, 313.0, 20.0, 20.0 ]
+					"patching_rect" : [ 177.0, 340.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -942,7 +942,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 177.0, 285.0, 30.0, 20.0 ],
+					"patching_rect" : [ 177.0, 294.0, 30.0, 20.0 ],
 					"text" : "abs"
 				}
 
@@ -956,7 +956,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 177.0, 255.0, 32.5, 20.0 ],
+					"patching_rect" : [ 177.0, 256.0, 32.5, 20.0 ],
 					"text" : "- 1"
 				}
 
@@ -982,7 +982,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 80.0, 253.0, 50.0, 22.0 ]
+					"patching_rect" : [ 85.0, 254.0, 44.0, 22.0 ]
 				}
 
 			}
@@ -995,7 +995,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 34.0, 284.0, 110.0, 22.0 ],
+					"patching_rect" : [ 34.0, 294.0, 120.0, 22.0 ],
 					"text" : "record~ looper"
 				}
 
@@ -1073,7 +1073,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"ongradcolor1" : [ 0.929412, 0.52765, 0.538609, 1.0 ],
-					"patching_rect" : [ 227.0, 511.0, 45.0, 45.0 ],
+					"patching_rect" : [ 227.0, 521.0, 45.0, 45.0 ],
 					"varname" : "autohelp_dac"
 				}
 
@@ -1088,7 +1088,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.0, 395.0, 40.0, 20.0 ]
+					"patching_rect" : [ 292.0, 405.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -1101,7 +1101,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 227.0, 422.0, 148.0, 22.0 ],
+					"patching_rect" : [ 227.0, 432.0, 148.0, 22.0 ],
 					"text" : "groove~ looper"
 				}
 
@@ -1227,7 +1227,7 @@
 					"destination" : [ "obj-19", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 251.5, 238.5, 134.5, 238.5 ],
+					"midpoints" : [ 251.5, 238.5, 144.5, 238.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1407,7 +1407,7 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 236.5, 498.5, 262.5, 498.5 ],
+					"midpoints" : [ 236.5, 508.5, 262.5, 508.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

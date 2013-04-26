@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 437.0, 432.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 58.5, 235.0, 22.0 ],
+					"patching_rect" : [ 195.0, 59.5, 205.0, 22.0 ],
 					"text" : "use mgraphics with GLmultiple"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 58.5, 152.0, 20.0 ],
+					"patching_rect" : [ 11.0, 59.5, 152.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 82.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 62.0, 144.0, 17.0 ],
+					"patching_rect" : [ 11.0, 63.0, 144.0, 17.0 ],
 					"text" : "load mgraphics2GLmultiple"
 				}
 
@@ -88,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 223.0, 210.0, 22.0 ],
+					"patching_rect" : [ 195.0, 224.0, 108.0, 22.0 ],
 					"text" : "basic textures"
 				}
 
@@ -107,7 +107,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 223.0, 125.0, 20.0 ],
+					"patching_rect" : [ 12.0, 224.0, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 246.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -126,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 223.0, 127.0, 17.0 ],
+					"patching_rect" : [ 10.0, 224.0, 127.0, 17.0 ],
 					"text" : "load GLmultiple_texture"
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 138.5, 116.0, 20.0 ],
+					"patching_rect" : [ 11.0, 140.5, 116.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 112.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -163,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 138.5, 183.0, 22.0 ],
+					"patching_rect" : [ 195.0, 140.5, 183.0, 22.0 ],
 					"text" : "transformation order"
 				}
 
@@ -206,7 +206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 251.0, 210.0, 22.0 ],
+					"patching_rect" : [ 195.0, 252.0, 168.0, 22.0 ],
 					"text" : "use textures (texcoords)"
 				}
 
@@ -220,7 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 193.5, 210.0, 22.0 ],
+					"patching_rect" : [ 195.0, 195.5, 210.0, 22.0 ],
 					"text" : "use GLgridshape's matrixoutput"
 				}
 
@@ -234,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 166.0, 210.0, 22.0 ],
+					"patching_rect" : [ 195.0, 168.0, 210.0, 22.0 ],
 					"text" : "query the position using jit.anim"
 				}
 
@@ -268,7 +268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 193.5, 139.0, 20.0 ],
+					"patching_rect" : [ 11.0, 195.5, 139.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 387.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 251.0, 146.0, 20.0 ],
+					"patching_rect" : [ 11.0, 252.0, 146.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.0, 378.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 251.0, 129.0, 16.0 ],
+					"patching_rect" : [ 11.0, 252.0, 129.0, 16.0 ],
 					"text" : "load GLmultiple_texcoords"
 				}
 
@@ -389,7 +389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 166.0, 130.0, 20.0 ],
+					"patching_rect" : [ 11.0, 168.0, 130.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 539.0, 407.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -539,7 +539,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 111.5, 86.0, 20.0 ],
+					"patching_rect" : [ 11.0, 113.5, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 91.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -557,7 +557,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 111.5, 183.0, 22.0 ],
+					"patching_rect" : [ 195.0, 113.5, 183.0, 22.0 ],
 					"text" : "use position, color, scale"
 				}
 
@@ -571,7 +571,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 84.5, 235.0, 22.0 ],
+					"patching_rect" : [ 195.0, 86.5, 235.0, 22.0 ],
 					"text" : "place multiple gridshapes (position) "
 				}
 
@@ -606,7 +606,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 84.5, 113.0, 20.0 ],
+					"patching_rect" : [ 11.0, 86.5, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,

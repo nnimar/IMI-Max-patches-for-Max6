@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 591.0, 508.0 ],
+		"rect" : [ 1.0, 44.0, 591.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -63,7 +63,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
@@ -76,7 +75,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 130.0, 60.0, 246.0, 51.0 ],
-									"presentation_rect" : [ 162.0, 142.0, 0.0, 0.0 ],
 									"text" : "to understand, we use the jit.matrix (dimension of 1, filled with 0.5) rather than jit.noise (dim 100, random numbers)"
 								}
 
@@ -297,7 +295,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 538.0, 30.0, 49.0, 18.0 ],
+					"patching_rect" : [ 538.0, 32.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -328,7 +326,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 489.0, 281.0, 40.0, 39.0 ],
-					"presentation_rect" : [ 498.0, 287.0, 0.0, 0.0 ],
 					"text" : "scale"
 				}
 
@@ -360,8 +357,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 343.0, 30.0 ],
-					"text" : "mgraphics to GLmultiple",
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
+					"text" : "mgraphics to GLmultiple (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -376,7 +373,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 528.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 528.0, 21.0 ],
 					"text" : "create a shape with jit.mgraphics then use a random position + fixed scale with GLmultiple",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1283,7 +1280,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 588.0, 48.0 ],
+					"patching_rect" : [ 1.0, 3.0, 588.0, 52.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1514,14 +1511,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../../examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

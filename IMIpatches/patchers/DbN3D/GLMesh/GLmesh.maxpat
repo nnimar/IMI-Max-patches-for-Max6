@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 438.0, 559.0 ],
+		"rect" : [ 0.0, 44.0, 438.0, 546.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,9 +36,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 387.0, 164.0, 22.0 ],
-					"presentation_rect" : [ 225.0, 393.0, 0.0, 0.0 ],
-					"text" : "catch to mesh, use mask"
+					"patching_rect" : [ 189.0, 387.0, 109.0, 22.0 ],
+					"text" : "mesh distorter"
 				}
 
 			}
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 387.0, 103.0, 16.0 ],
-					"presentation_rect" : [ 45.0, 394.0, 0.0, 0.0 ],
 					"text" : "load TextureDistorter"
 				}
 
@@ -367,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 256.5, 154.0, 22.0 ],
+					"patching_rect" : [ 189.0, 255.5, 154.0, 22.0 ],
 					"text" : "make multiple shapes"
 				}
 
@@ -508,7 +506,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 191.0, 228.0, 22.0 ],
+					"patching_rect" : [ 189.0, 191.0, 169.0, 22.0 ],
 					"text" : "bfg + gridshape to mesh"
 				}
 
@@ -560,7 +558,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 217.0, 222.0, 22.0 ],
+					"patching_rect" : [ 189.0, 218.0, 222.0, 22.0 ],
 					"text" : "practical example (masato tsutsui)"
 				}
 
@@ -834,7 +832,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 217.0, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 218.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 331.0, 349.0, 79.0, 17.0 ],
 					"rounded" : 20.0,

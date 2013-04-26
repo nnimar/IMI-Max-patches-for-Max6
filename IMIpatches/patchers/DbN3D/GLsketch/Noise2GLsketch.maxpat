@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -73,7 +73,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 337.0, 692.5, 140.0, 22.0 ],
+					"patching_rect" : [ 337.0, 689.5, 140.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 354.0, 535.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -96,7 +96,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -751,7 +751,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1388,7 +1388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 694.0, 143.0, 17.0 ],
+					"patching_rect" : [ 337.0, 691.0, 143.0, 17.0 ],
 					"text" : "load GLmesh_bouncebox"
 				}
 
@@ -1433,7 +1433,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 694.0, 52.0, 19.0 ],
+					"patching_rect" : [ 340.0, 691.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
