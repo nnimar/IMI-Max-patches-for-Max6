@@ -29,6 +29,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
+					"patching_rect" : [ 199.0, 321.0, 46.0, 46.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -297,7 +308,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 199.0, 164.25, 66.0, 20.0 ],
+					"patching_rect" : [ 199.0, 157.75, 66.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -434,7 +445,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 312.0, 341.0, 165.0, 20.0 ],
+					"patching_rect" : [ 323.0, 349.0, 165.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -483,35 +494,20 @@
 					"presentation_rect" : [ 30.0, 30.0, 50.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~[2]",
 							"parameter_unitstyle" : 4,
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ -18 ],
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~[2]"
+							"parameter_shortname" : "live.gain~"
 						}
 
 					}
 ,
 					"showname" : 0,
 					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1.75,
-					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"id" : "obj-3",
-					"local" : 1,
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 318.0, 44.0, 44.0 ],
-					"prototypename" : "helpfile"
 				}
 
 			}
@@ -548,16 +544,17 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 208.5, 311.25, 235.5, 311.25 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]

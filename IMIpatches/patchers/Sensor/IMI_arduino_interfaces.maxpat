@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 537.0, 552.0 ],
+		"rect" : [ 2.0, 44.0, 537.0, 552.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -393,8 +393,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 328.0, 150.0, 22.0 ],
-					"text" : "Max >> Arduino (any)"
+					"patching_rect" : [ 259.0, 328.0, 231.0, 22.0 ],
+					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
 			}

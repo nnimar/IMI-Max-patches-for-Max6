@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 842.0, 630.0 ],
@@ -200,8 +201,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 849.0, 413.0, 596.0, 260.0 ],
@@ -260,7 +262,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 66.0, 42.0, 20.0 ],
+									"patching_rect" : [ 6.0, 72.0, 42.0, 20.0 ],
 									"text" : "open"
 								}
 
@@ -316,7 +318,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-									"patching_rect" : [ 58.0, 96.0, 69.0, 22.0 ],
+									"patching_rect" : [ 58.0, 109.0, 69.0, 22.0 ],
 									"text" : "jit.textfile"
 								}
 
@@ -380,7 +382,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 15.5, 91.0, 67.5, 91.0 ],
+									"midpoints" : [ 15.5, 100.0, 67.5, 100.0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -447,7 +449,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 452.0, 549.0, 116.0, 22.0 ],
+					"patching_rect" : [ 452.0, 549.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -504,7 +506,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 454.0, 467.0, 111.0, 23.0 ],
+					"patching_rect" : [ 454.0, 467.0, 95.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 534.0, 496.0, 87.0, 31.0 ]
 				}
@@ -534,24 +536,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 453.0, 433.0, 113.0, 22.0 ],
+					"patching_rect" : [ 454.0, 433.0, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 446.0, 429.0, 87.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-36",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 433.0, 106.0, 18.0 ],
-					"text" : "help dot.xmlread2"
 				}
 
 			}
@@ -703,8 +690,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 849.0, 44.0, 389.0, 129.0 ],
@@ -959,8 +947,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 849.0, 323.0, 728.0, 351.0 ],
@@ -1640,8 +1629,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 851.0, 293.0, 498.0, 260.0 ],
@@ -1692,8 +1682,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 6.0, 44.0, 264.0, 156.0 ],
@@ -2197,11 +2188,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 44.0, 498.0, 195.0 ],
+						"rect" : [ 850.0, 44.0, 501.0, 196.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2220,6 +2212,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2268,13 +2261,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 100.0, 168.0, 171.0, 36.0 ],
-									"text" : "Marr on Obama: Why hope shrivelled"
+									"patching_rect" : [ 100.0, 168.0, 243.0, 20.0 ],
+									"text" : "Who is the Syrian Electronic Army?"
 								}
 
 							}
@@ -2402,7 +2394,7 @@
 									"destination" : [ "obj-2", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 108.5, 135.5, 261.5, 135.5 ],
+									"midpoints" : [ 108.5, 135.5, 333.5, 135.5 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2485,11 +2477,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 850.0, 44.0, 495.0, 236.0 ],
+						"rect" : [ 850.0, 44.0, 495.0, 243.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -2574,7 +2567,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 343.0, 208.0, 144.0, 22.0 ],
+									"patching_rect" : [ 343.0, 216.0, 144.0, 22.0 ],
 									"text" : "example by Luke Hall"
 								}
 
@@ -2616,7 +2609,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "int" ],
-									"patching_rect" : [ 160.0, 210.0, 46.0, 20.0 ],
+									"patching_rect" : [ 160.0, 216.0, 46.0, 20.0 ],
 									"text" : "text"
 								}
 
@@ -2765,7 +2758,7 @@
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 128.5, 203.0, 169.5, 203.0 ],
+									"midpoints" : [ 128.5, 207.0, 169.5, 207.0 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -2775,7 +2768,7 @@
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 183.5, 203.0, 169.5, 203.0 ],
+									"midpoints" : [ 183.5, 207.0, 169.5, 207.0 ],
 									"source" : [ "obj-37", 1 ]
 								}
 
@@ -2925,8 +2918,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "int" ],
-					"patching_rect" : [ 453.0, 433.0, 115.0, 22.0 ],
-					"text" : "dot.xmlread2"
+					"patching_rect" : [ 453.0, 433.0, 98.0, 22.0 ],
+					"text" : "dot.xmlread"
 				}
 
 			}
@@ -2981,7 +2974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 453.0, 467.0, 115.0, 22.0 ],
+					"patching_rect" : [ 453.0, 467.0, 101.0, 22.0 ],
 					"text" : "tap.xml.sax"
 				}
 
@@ -2998,6 +2991,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 653.0, 605.0, 98.0, 16.0 ],
 					"text" : "load regexp_tutorial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 453.0, 436.0, 106.0, 18.0 ],
+					"text" : "help dot.xmlread"
 				}
 
 			}
@@ -3188,28 +3196,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "tap.xml.sax.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/TapTools/TapTools Abstractions",
-				"patcherrelativepath" : "../../../Cycling '74/TapTools/TapTools Abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/TapTools/patchers/abstractions",
+				"patcherrelativepath" : "../../../TapTools/patchers/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.xmlread2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"name" : "dot.xmlread.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/data/dot.xmlread",
+				"patcherrelativepath" : "../../externals/tools/dot_20121204/data/dot.xmlread",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.properties.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/data/dot.properties",
+				"patcherrelativepath" : "../../externals/tools/dot_20121204/data/dot.properties",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lemonade.jpg",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
 				"patcherrelativepath" : "../z/ images",
 				"type" : "JPEG",
 				"implicit" : 1

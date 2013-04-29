@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 546.0, 642.0 ],
+		"rect" : [ 1.0, 44.0, 545.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -99,7 +99,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 423.0, 139.0, 20.0 ],
+					"patching_rect" : [ 11.0, 452.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 446.0, 100.0, 20.0 ],
 					"text" : "OSC synching video"
@@ -115,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 421.0, 269.0, 22.0 ],
+					"patching_rect" : [ 226.0, 450.0, 269.0, 22.0 ],
 					"text" : "synch two or more computers with OSC"
 				}
 
@@ -130,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 427.0, 101.0, 16.0 ],
+					"patching_rect" : [ 11.0, 456.0, 101.0, 16.0 ],
 					"text" : "load synching_video"
 				}
 
@@ -145,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 425.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 454.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -159,7 +159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 449.0, 246.0, 22.0 ],
+					"patching_rect" : [ 226.0, 529.0, 116.0, 22.0 ],
 					"text" : "Iannix controler"
 				}
 
@@ -175,7 +175,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 450.0, 56.0, 20.0 ],
+					"patching_rect" : [ 11.0, 530.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 417.0, 100.0, 20.0 ],
 					"text" : "IanniX"
@@ -192,7 +192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 453.0, 61.0, 16.0 ],
+					"patching_rect" : [ 11.0, 533.0, 61.0, 16.0 ],
 					"text" : "load IanniX"
 				}
 
@@ -207,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 451.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 531.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -221,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 584.0, 143.0, 22.0 ],
+					"patching_rect" : [ 226.0, 612.0, 143.0, 22.0 ],
 					"text" : "osc test application"
 				}
 
@@ -237,7 +237,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 584.0, 90.0, 20.0 ],
+					"patching_rect" : [ 11.0, 612.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
 					"text" : "OSCTestApp"
@@ -314,7 +314,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 503.0, 177.0, 22.0 ],
+					"patching_rect" : [ 226.0, 478.0, 177.0, 22.0 ],
 					"text" : "OSCseq (OSC sequencer)"
 				}
 
@@ -330,7 +330,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 503.0, 62.0, 20.0 ],
+					"patching_rect" : [ 11.0, 478.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSCseq"
@@ -347,7 +347,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 503.0, 107.0, 16.0 ],
+					"patching_rect" : [ 11.0, 479.0, 107.0, 16.0 ],
 					"text" : "load OSCseq.maxpat"
 				}
 
@@ -488,7 +488,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 611.0, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 425.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -506,7 +506,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 476.0, 78.0, 20.0 ],
+					"patching_rect" : [ 11.0, 504.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
 					"text" : "OSControl"
@@ -644,7 +644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 557.0, 183.0, 22.0 ],
+					"patching_rect" : [ 226.0, 585.0, 183.0, 22.0 ],
 					"text" : "osc tools (osc java for max)"
 				}
 
@@ -660,7 +660,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 557.0, 73.0, 20.0 ],
+					"patching_rect" : [ 11.0, 585.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSC tools"
@@ -707,7 +707,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 476.0, 246.0, 22.0 ],
+					"patching_rect" : [ 226.0, 504.0, 246.0, 22.0 ],
 					"text" : "control other applications using OSC"
 				}
 
@@ -722,7 +722,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 478.0, 98.0, 16.0 ],
+					"patching_rect" : [ 11.0, 506.0, 98.0, 16.0 ],
 					"text" : "load IMI_OSControl"
 				}
 
@@ -737,7 +737,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 611.0, 93.0, 16.0 ],
+					"patching_rect" : [ 11.0, 423.0, 93.0, 16.0 ],
 					"text" : "load 00-OSC_intro"
 				}
 
@@ -751,7 +751,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 529.0, 141.0, 22.0 ],
+					"patching_rect" : [ 226.0, 557.0, 141.0, 22.0 ],
 					"text" : "osc-from-processing"
 				}
 
@@ -765,7 +765,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 611.0, 142.0, 22.0 ],
+					"patching_rect" : [ 226.0, 423.0, 142.0, 22.0 ],
 					"text" : "osc tutorial (CNMAT)"
 				}
 
@@ -781,7 +781,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 529.0, 116.0, 20.0 ],
+					"patching_rect" : [ 11.0, 557.0, 116.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -798,7 +798,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 529.0, 141.0, 17.0 ],
+					"patching_rect" : [ 11.0, 557.0, 141.0, 17.0 ],
 					"text" : "load osc-from-processing"
 				}
 
@@ -813,7 +813,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 479.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 620.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1118,7 +1118,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 557.0, 67.0, 15.0 ],
+					"patching_rect" : [ 11.0, 585.0, 67.0, 15.0 ],
 					"text" : "load OSCtools"
 				}
 
@@ -1164,7 +1164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 557.0, 189.0, 45.0 ],
+					"patching_rect" : [ 11.0, 585.0, 189.0, 45.0 ],
 					"text" : ";\rmax launchbrowser \\\"file://////Applications/Max%206.1/packages/IMIpatches/apps/OSCtest/OSCTestApp.app\\\""
 				}
 

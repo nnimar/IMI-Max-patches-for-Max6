@@ -1315,7 +1315,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 258.0, 186.5, 59.0, 20.0 ],
+					"patching_rect" : [ 258.0, 177.5, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2242,7 +2242,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 307.5, 216.5, 329.592163, 216.5, 329.592163, 131.660461, 184.5, 131.660461 ],
+					"midpoints" : [ 307.5, 205.5, 329.592163, 205.5, 329.592163, 131.660461, 184.5, 131.660461 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -2252,7 +2252,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 267.5, 215.761993, 184.5, 215.761993 ],
+					"midpoints" : [ 267.5, 205.761993, 184.5, 205.761993 ],
 					"source" : [ "obj-43", 0 ]
 				}
 

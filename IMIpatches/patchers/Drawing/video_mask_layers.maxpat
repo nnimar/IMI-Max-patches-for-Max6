@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 3.0, 44.0, 684.0, 297.0 ],
@@ -111,8 +112,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 692.0, 173.0, 411.0, 282.0 ],
@@ -756,7 +758,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 148.0, 47.0, 20.0 ],
+					"patching_rect" : [ 46.0, 156.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -927,7 +929,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 250.0, 100.0, 33.0 ],
+					"patching_rect" : [ 8.0, 250.0, 101.0, 33.0 ],
 					"text" : "jit.window output @fsmenubar 0"
 				}
 
@@ -1102,7 +1104,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 93.5, 174.0, 17.5, 174.0 ],
+					"midpoints" : [ 93.5, 147.0, 17.5, 147.0 ],
 					"source" : [ "obj-6", 2 ]
 				}
 

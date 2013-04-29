@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 642.0, 44.0, 708.0, 531.0 ],
+		"rect" : [ 642.0, 44.0, 748.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -36,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 58.0, 66.0, 50.0, 20.0 ]
+					"patching_rect" : [ 37.0, 87.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -50,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 143.0, 118.0, 22.0 ],
+					"patching_rect" : [ 33.0, 164.0, 118.0, 22.0 ],
 					"text_width" : 90.0
 				}
 
@@ -65,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 117.0, 118.0, 22.0 ],
+					"patching_rect" : [ 33.0, 138.0, 118.0, 22.0 ],
 					"text_width" : 50.0
 				}
 
@@ -80,7 +81,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 92.0, 118.0, 22.0 ],
+					"patching_rect" : [ 33.0, 113.0, 118.0, 22.0 ],
 					"text_width" : 45.0
 				}
 
@@ -89,8 +90,8 @@
 				"box" : 				{
 					"bblend" : 100,
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
-					"cols" : 3,
-					"colwidth" : 28,
+					"cols" : 15,
+					"colwidth" : 84,
 					"fblend" : 100,
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -104,10 +105,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 588.0, 335.0, 84.0, 60.0 ],
+					"patching_rect" : [ 588.0, 335.0, 153.0, 60.0 ],
 					"precision" : 0,
 					"rowheight" : 20,
-					"rows" : 3,
+					"rows" : 15,
 					"savemode" : 1,
 					"selsync" : 0,
 					"vscroll" : 0,
@@ -188,7 +189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 152.0, 229.0, 46.0, 37.0 ]
+					"patching_rect" : [ 152.0, 245.0, 52.0, 37.0 ]
 				}
 
 			}
@@ -202,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.0, 229.0, 49.0, 37.0 ]
+					"patching_rect" : [ 27.0, 245.0, 49.0, 37.0 ]
 				}
 
 			}
@@ -216,7 +217,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 86.0, 229.0, 55.0, 37.0 ]
+					"patching_rect" : [ 86.0, 245.0, 55.0, 37.0 ]
 				}
 
 			}
@@ -302,7 +303,7 @@
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"colhead" : 1,
-					"cols" : 3,
+					"cols" : 15,
 					"colwidth" : 97,
 					"fontname" : "Geneva",
 					"fontsize" : 14.0,
@@ -319,7 +320,7 @@
 					"precision" : 4,
 					"rowhead" : 1,
 					"rowheight" : 64,
-					"rows" : 3,
+					"rows" : 15,
 					"vscroll" : 0
 				}
 
@@ -331,7 +332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 42.0, 39.0, 39.0 ]
+					"patching_rect" : [ 10.0, 42.0, 33.0, 33.0 ]
 				}
 
 			}
@@ -358,7 +359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 10.0, 179.0, 167.0, 27.0 ],
+					"patching_rect" : [ 10.0, 195.0, 167.0, 27.0 ],
 					"text" : "jit.noise 1 char 3 3"
 				}
 
@@ -384,7 +385,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 47.0, 332.0, 27.0 ],
+					"patching_rect" : [ 383.0, 47.0, 332.0, 27.0 ],
 					"text" : "A matrix is simply organized information."
 				}
 
@@ -399,7 +400,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 88.0, 358.0, 87.0 ],
+					"patching_rect" : [ 383.0, 88.0, 358.0, 87.0 ],
 					"text" : "Jitter supports matrices of data type can be 8-bit integer (\"char\"), 32-bit integer (\"long\"), 32-bit floating point (\"float32\"), or 64-bit floating point (\"float64\")."
 				}
 
@@ -411,7 +412,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 43.0, 363.0, 138.0 ]
+					"patching_rect" : [ 381.0, 43.0, 363.0, 138.0 ]
 				}
 
 			}
@@ -424,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 96.0, 36.0, 16.0 ],
+					"patching_rect" : [ 37.0, 117.0, 36.0, 16.0 ],
 					"text" : "$1 $1"
 				}
 
@@ -440,7 +441,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 704.0, 34.0 ],
+					"patching_rect" : [ 2.0, 2.0, 744.0, 33.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -508,7 +509,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 217.0, 161.5, 217.0 ],
+					"midpoints" : [ 19.5, 233.0, 161.5, 233.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -518,7 +519,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 217.0, 36.5, 217.0 ],
+					"midpoints" : [ 19.5, 233.0, 36.5, 233.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -528,7 +529,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 217.0, 95.5, 217.0 ],
+					"midpoints" : [ 19.5, 233.0, 95.5, 233.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -628,7 +629,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1

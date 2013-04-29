@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 646.0, 44.0, 711.0, 421.0 ],
@@ -38,8 +39,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 955.0, 186.0, 404.0, 279.0 ],
@@ -292,8 +294,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1082.0, 108.0, 273.0, 65.0 ],
@@ -458,8 +461,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 799.0, 149.0, 558.0, 317.0 ],
@@ -481,6 +485,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -490,7 +495,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 371.0, 188.5, 88.0, 20.0 ],
+									"patching_rect" : [ 222.0, 90.5, 88.0, 20.0 ],
 									"text" : "dim 320 240"
 								}
 
@@ -519,7 +524,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 243.0, 41.5, 36.0, 20.0 ],
+									"patching_rect" : [ 237.0, 41.5, 36.0, 20.0 ],
 									"text" : "start"
 								}
 
@@ -533,7 +538,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.0, 41.5, 35.5, 20.0 ],
+									"patching_rect" : [ 196.0, 41.5, 35.5, 20.0 ],
 									"text" : "stop"
 								}
 
@@ -561,7 +566,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 41.5, 107.0, 20.0 ],
+									"patching_rect" : [ 84.0, 41.5, 107.0, 20.0 ],
 									"text" : "read dozer.mov"
 								}
 
@@ -587,8 +592,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 8.0, 41.5, 76.0, 22.0 ],
-									"text" : "qmetro 40"
+									"patching_rect" : [ 8.0, 41.5, 67.0, 22.0 ],
+									"text" : "metro 40"
 								}
 
 							}
@@ -639,7 +644,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 371.0, 218.5, 75.0, 20.0 ],
+									"patching_rect" : [ 222.0, 120.5, 75.0, 20.0 ],
 									"text" : "dim 10 10"
 								}
 
@@ -650,7 +655,7 @@
 									"destination" : [ "obj-43", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 252.5, 72.5, 17.5, 72.5 ],
+									"midpoints" : [ 246.5, 72.5, 17.5, 72.5 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -660,7 +665,7 @@
 									"destination" : [ "obj-43", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 211.5, 72.5, 17.5, 72.5 ],
+									"midpoints" : [ 205.5, 72.5, 17.5, 72.5 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -679,7 +684,7 @@
 									"destination" : [ "obj-43", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 99.5, 72.5, 17.5, 72.5 ],
+									"midpoints" : [ 93.5, 72.5, 17.5, 72.5 ],
 									"source" : [ "obj-39", 0 ]
 								}
 
@@ -726,7 +731,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -735,7 +740,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -788,7 +793,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 44.0, 383.0, 328.0 ],
+					"patching_rect" : [ 5.0, 44.0, 387.0, 328.0 ],
 					"text" : "A digital image is represented as a matrix with numbers representing each pixel.\n\nTypically, images are saved with 8 bits, so there are 256 values to choose from (char).\n\nColours are represented in ARGB where A is the alpha channel (transparency) and RGB is the red, green, blue.\n\nThus to represent a colour image, it is necessary with 4 values for each pixel (planes)\n\nA jitter matrix is 4 planes, x by y dimension (the resolution) with values between 0 and 255 to describe every pixels. "
 				}
 
@@ -843,8 +848,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

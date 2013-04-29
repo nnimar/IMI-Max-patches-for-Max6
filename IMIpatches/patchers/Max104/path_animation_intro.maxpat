@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 587.0, 331.0 ],
@@ -34,13 +35,52 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-34",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 246.0, 67.5, 95.218712, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 434.0, 102.5, 110.218712, 24.098633 ],
+					"rounded" : 20.0,
+					"text" : "GLpath_draw",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 250.0, 67.5, 92.0, 16.0 ],
+					"presentation_rect" : [ 434.0, 102.5, 0.0, 0.0 ],
+					"text" : "load GLpath_draw"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 383.0, 67.5, 110.218712, 22.0 ],
+					"patching_rect" : [ 466.0, 67.5, 110.218712, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 384.0, 67.5, 110.218712, 24.098633 ],
 					"rounded" : 20.0,
@@ -59,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 67.5, 98.0, 16.0 ],
+					"patching_rect" : [ 467.0, 67.5, 98.0, 16.0 ],
 					"text" : "load GLpath_matrix"
 				}
 
@@ -112,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 307.0, 52.0, 19.0 ],
+					"patching_rect" : [ 526.0, 176.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -230,7 +270,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 67.5, 110.218712, 22.0 ],
+					"patching_rect" : [ 348.0, 67.5, 110.218712, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 519.0, 204.5, 110.218712, 24.098633 ],
 					"rounded" : 20.0,
@@ -249,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 67.5, 99.0, 16.0 ],
+					"patching_rect" : [ 348.0, 67.5, 99.0, 16.0 ],
 					"text" : "load GLpath_render"
 				}
 
@@ -358,11 +398,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-44",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 292.0, 122.0, 33.0 ],
+					"patching_rect" : [ 6.0, 294.0, 209.0, 20.0 ],
 					"text" : "perform hierarchical transformation"
 				}
 
@@ -376,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 234.0, 124.0, 20.0 ],
+					"patching_rect" : [ 6.0, 235.0, 124.0, 20.0 ],
 					"text" : "animate 3d transform"
 				}
 
@@ -387,11 +426,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-42",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 163.0, 152.0, 33.0 ],
+					"patching_rect" : [ 7.0, 163.0, 274.0, 20.0 ],
 					"text" : "create / edit points and interpolates between them"
 				}
 
@@ -402,11 +440,10 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 92.0, 121.0, 33.0 ],
+					"patching_rect" : [ 6.0, 93.0, 214.0, 20.0 ],
 					"text" : "generate and render a path in openGL"
 				}
 
@@ -569,7 +606,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 570.0, 20.0 ],
+					"patching_rect" : [ 4.0, 29.0, 570.0, 20.0 ],
 					"text" : "those two new families of objects are great to create motion paths and basic animations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -891,6 +928,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 644.0, 44.0, 617.0, 578.0 ],
@@ -142,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 255.0, 57.0, 24.0 ],
+					"patching_rect" : [ 249.0, 253.0, 57.0, 24.0 ],
 					"text" : "result"
 				}
 
@@ -168,7 +169,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 137.0, 254.0, 106.0, 20.0 ],
-					"text" : "cell 1 4 val 0"
+					"text" : "cell 2 2 val 0"
 				}
 
 			}
@@ -196,8 +197,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 219.0, 250.0, 24.0 ],
-					"text" : "1 plane / 5 x 5 dimension / 0 - 255 (char)"
+					"patching_rect" : [ 250.0, 219.0, 345.0, 24.0 ],
+					"text" : "1 plane / 5 x 5 dimension / values betwenn 0 and 255 (char)"
 				}
 
 			}
