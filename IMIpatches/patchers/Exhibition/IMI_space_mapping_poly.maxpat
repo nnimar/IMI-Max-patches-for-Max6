@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 666.0, 565.0 ],
@@ -99,8 +100,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 10.0, 44.0, 202.0, 195.0 ],
@@ -160,8 +162,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 682.0, 44.0, 551.0, 584.0 ],
@@ -1338,8 +1341,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 638.0, 44.0, 383.0, 408.0 ],
@@ -1895,11 +1899,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 684.0, 372.0, 409.0, 160.0 ],
+						"rect" : [ 678.0, 371.0, 410.0, 122.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2068,8 +2073,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 674.0, 44.0, 391.0, 295.0 ],
@@ -2515,7 +2521,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 377.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.0, 385.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -2546,8 +2552,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 680.0, 371.0, 411.0, 282.0 ],
@@ -2581,8 +2588,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1008.0, 372.0, 244.0, 184.0 ],
@@ -3314,7 +3322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 8.5, 350.0, 91.0, 20.0 ],
+					"patching_rect" : [ 8.5, 350.0, 70.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -3803,7 +3811,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 90.0, 402.5, 18.0, 402.5 ],
+					"midpoints" : [ 69.0, 377.5, 18.0, 377.5 ],
 					"source" : [ "obj-7", 2 ]
 				}
 
@@ -3865,15 +3873,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cornerpoly.json",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cornerpin.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Exhibition",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

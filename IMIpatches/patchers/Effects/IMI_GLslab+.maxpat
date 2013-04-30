@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 802.0, 454.0 ],
@@ -39,11 +40,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 807.0, 44.0, 262.0, 252.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -62,6 +64,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -71,7 +74,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 50.0, 149.0, 40.0, 19.0 ],
+									"patching_rect" : [ 19.0, 114.0, 40.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 603.0, 168.0, 40.0, 19.0 ],
 									"text" : "folder"
@@ -87,7 +90,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 124.0, 70.0, 19.0 ],
+									"patching_rect" : [ 19.0, 83.0, 70.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 603.0, 143.0, 70.0, 19.0 ],
 									"text" : "relativepath"
@@ -103,10 +106,10 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 89.0, 19.0 ],
+									"patching_rect" : [ 19.0, 55.0, 99.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 603.0, 119.0, 89.0, 19.0 ],
-									"text" : "opendialog fold"
+									"presentation_rect" : [ 603.0, 119.0, 99.0, 19.0 ],
+									"text" : "opendialog folder"
 								}
 
 							}
@@ -118,7 +121,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 19.0, 18.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -129,7 +132,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 229.0, 25.0, 25.0 ]
+									"patching_rect" : [ 19.0, 147.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -238,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.0, 220.0, 60.0, 34.0 ],
+					"patching_rect" : [ 18.0, 224.0, 60.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 220.0, 80.0, 34.0 ]
 				}
@@ -257,8 +260,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 812.0, 371.0, 411.0, 282.0 ],
@@ -854,7 +858,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 164.0, 45.0, 19.0 ],
+					"patching_rect" : [ 41.0, 170.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -871,8 +875,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 577.0, 351.0, 531.0, 176.0 ],
@@ -1546,8 +1551,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 786.0, 162.0, 254.0, 318.0 ],
@@ -1863,7 +1869,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-56",
-					"items" : [ "cf.blur.jxs", ",", "cf.convolve.jxs", ",", "cf.deinterlace.jxs", ",", "cf.dilate.jxs", ",", "cf.edgedetect.jxs", ",", "cf.emboss.jxs", ",", "cf.erode.jxs", ",", "cf.gaussian.2p.jxs", ",", "cf.laplace.jxs", ",", "cf.median.2p.jxs", ",", "cf.normals.jxs", ",", "cf.radialblur.jxs", ",", "cf.sharpen.ip.jxs", ",", "cf.sharpen.jxs", ",", "cf.sobel.jxs" ],
+					"items" : [ ".localized", ",", "Microsoft Silverlight" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1963,10 +1969,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 518.0, 253.0, 143.0, 36.0 ],
+					"patching_rect" : [ 518.0, 253.0, 149.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 573.0, 404.0, 125.0, 49.0 ],
+					"presentation_rect" : [ 573.0, 404.0, 127.0, 49.0 ],
 					"text" : "param values (only the \nfirst is connected)"
 				}
 
@@ -2425,11 +2431,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "erase", "bang" ],
+					"outlettype" : [ "bang", "bang", "erase" ],
 					"patching_rect" : [ 18.0, 136.0, 65.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 139.0, 65.0, 19.0 ],
-					"text" : "t b erase b"
+					"text" : "t b b erase"
 				}
 
 			}
@@ -2442,7 +2448,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 18.0, 189.0, 68.0, 19.0 ],
+					"patching_rect" : [ 18.0, 196.0, 68.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 247.0, 68.0, 19.0 ],
 					"text" : "jit.gl.render"
@@ -2463,7 +2469,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 10.0, 36.0, 628.0, 49.0 ],
-					"text" : "Performs a GL accelerated grid-based evaluation using a shader. This is for quick experimenting with the various shaders and their options. Once you know what you are looking for, use the IMI GL.slab_simple patch.",
+					"text" : "performs a GL accelerated grid-based evaluation using a shader. This is for quick experimenting with the various shaders and their options. Once you know what you are looking for, use the IMI GL.slab_simple patch.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -2934,7 +2940,7 @@
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-90", 2 ]
+					"source" : [ "obj-90", 1 ]
 				}
 
 			}
@@ -2943,8 +2949,8 @@
 					"destination" : [ "obj-91", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 50.5, 165.0, 27.5, 165.0 ],
-					"source" : [ "obj-90", 1 ]
+					"midpoints" : [ 73.5, 162.0, 27.5, 162.0 ],
+					"source" : [ "obj-90", 2 ]
 				}
 
 			}

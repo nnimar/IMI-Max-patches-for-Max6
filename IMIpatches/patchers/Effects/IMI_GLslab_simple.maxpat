@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 581.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 11.595187,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -35,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 219.0, 80.0, 34.0 ]
+					"patching_rect" : [ 10.0, 214.0, 80.0, 34.0 ]
 				}
 
 			}
@@ -52,8 +53,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 590.0, 375.0, 411.0, 282.0 ],
@@ -609,7 +611,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 271.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 256.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -649,7 +651,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 153.0, 45.0, 19.0 ],
+					"patching_rect" : [ 34.0, 163.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -709,7 +711,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 296.0, 101.0, 32.0 ],
+					"patching_rect" : [ 9.0, 281.0, 105.0, 32.0 ],
 					"text" : "jit.window simslab @fsmenubar 0"
 				}
 
@@ -933,7 +935,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 10.0, 126.0, 96.0, 19.0 ],
+					"patching_rect" : [ 10.0, 126.0, 67.0, 19.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -947,7 +949,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 191.0, 68.0, 19.0 ],
+					"patching_rect" : [ 10.0, 188.0, 68.0, 19.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -976,7 +978,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 61.0, 112.147247, 272.0 ],
+					"patching_rect" : [ 5.0, 61.0, 113.147247, 257.0 ],
 					"rounded" : 30
 				}
 
@@ -1172,7 +1174,7 @@
 					"destination" : [ "obj-91", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 96.5, 178.0, 19.5, 178.0 ],
+					"midpoints" : [ 67.5, 153.0, 19.5, 153.0 ],
 					"source" : [ "obj-90", 2 ]
 				}
 

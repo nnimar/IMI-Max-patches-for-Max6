@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 637.0, 306.0 ],
@@ -121,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 579.0, 276.0, 51.0, 22.0 ],
+					"patching_rect" : [ 579.0, 277.0, 51.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 469.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -273,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.0, 255.0, 52.0, 20.0 ],
+					"patching_rect" : [ 429.0, 255.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -343,7 +344,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -503,7 +504,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -751,7 +751,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imimatrix.jpg",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Global/image",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/image",
 				"patcherrelativepath" : "../Global/image",
 				"type" : "JPEG",
 				"implicit" : 1
