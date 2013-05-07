@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 567.0, 521.0 ],
+		"rect" : [ 0.0, 44.0, 567.0, 521.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -173,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 32.0, 350.0, 20.0 ],
+					"patching_rect" : [ 2.0, 31.0, 350.0, 20.0 ],
 					"text" : "the jit.expr object evaluates expressions to fill an output matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -233,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 123.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 123.0, 30.0 ],
 					"text" : "IMI jit.expr",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -428,7 +429,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 563.0, 52.0 ],
+					"patching_rect" : [ 2.0, 2.0, 563.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

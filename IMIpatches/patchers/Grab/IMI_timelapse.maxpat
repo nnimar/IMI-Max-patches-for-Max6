@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -60,7 +60,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 2.0, 30.0, 580.0, 35.0 ],
-					"text" : "Start digitising, play with the image parameters then select your folder for output. \nDefault setting is to capture 1 image every 5 seconds.",
+					"text" : "start digitising, play with the image parameters then select your folder for output. \nDefault setting is to capture 1 image every 5 seconds.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -161,7 +161,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,

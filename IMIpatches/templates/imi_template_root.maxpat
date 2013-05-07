@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 3
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 634.0, 524.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 3
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 634.0, 498.0 ],
@@ -68,7 +70,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -84,13 +86,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 32.0, 204.0, 21.0 ],
-									"text" : "Play a QuickTime movie",
+									"patching_rect" : [ 4.0, 33.0, 204.0, 21.0 ],
+									"text" : "play a QuickTime movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -103,32 +105,29 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 5.0, 626.0, 48.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 4.0, 5.0, 626.0, 51.0 ]
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 11.0, 204.0, 51.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -149,8 +148,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 3
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 634.0, 498.0 ],
@@ -178,7 +178,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -194,13 +194,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 32.0, 204.0, 21.0 ],
-									"text" : "Play a QuickTime movie",
+									"patching_rect" : [ 4.0, 33.0, 204.0, 21.0 ],
+									"text" : "play a QuickTime movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -213,32 +213,29 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 5.0, 626.0, 48.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 4.0, 5.0, 626.0, 51.0 ]
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 11.0, 142.0, 45.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,
@@ -259,8 +256,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 3
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 634.0, 498.0 ],
@@ -288,7 +286,7 @@
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 20.871338,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -304,13 +302,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.754705,
-									"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 32.0, 204.0, 21.0 ],
-									"text" : "Play a QuickTime movie",
+									"patching_rect" : [ 4.0, 33.0, 204.0, 21.0 ],
+									"text" : "play a QuickTime movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
 								}
@@ -323,32 +321,30 @@
 									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 									"id" : "obj-29",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 5.0, 626.0, 48.0 ],
+									"patching_rect" : [ 4.0, 5.0, 626.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
 					"patching_rect" : [ 10.0, 85.0, 50.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 13.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 13.0,
+						"globalpatchername" : "",
 						"tags" : ""
 					}
 ,

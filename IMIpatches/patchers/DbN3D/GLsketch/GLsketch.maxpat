@@ -56,7 +56,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 136.5, 99.0, 21.0 ],
+					"patching_rect" : [ 11.0, 138.5, 99.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 136.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 136.5, 184.0, 22.0 ],
+					"patching_rect" : [ 215.0, 138.5, 184.0, 22.0 ],
 					"text" : "use join and group to draw"
 				}
 
@@ -93,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 321.0, 115.0, 21.0 ],
+					"patching_rect" : [ 8.0, 323.0, 115.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 426.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 317.5, 184.0, 22.0 ],
+					"patching_rect" : [ 215.0, 319.5, 184.0, 22.0 ],
 					"text" : "a practical example"
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 271.5, 116.0, 21.0 ],
+					"patching_rect" : [ 11.0, 273.5, 116.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 268.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -282,7 +282,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 162.5, 112.0, 21.0 ],
+					"patching_rect" : [ 11.0, 164.5, 112.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 277.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -300,7 +300,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 162.5, 183.0, 22.0 ],
+					"patching_rect" : [ 215.0, 164.5, 183.0, 22.0 ],
 					"text" : "noise to position example"
 				}
 
@@ -314,7 +314,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 207.5, 136.0, 22.0 ],
+					"patching_rect" : [ 215.0, 209.5, 136.0, 22.0 ],
 					"text" : "GLsketch stroke line"
 				}
 
@@ -348,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 207.5, 120.0, 21.0 ],
+					"patching_rect" : [ 11.0, 209.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 145.0, 355.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -386,7 +386,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 244.5, 94.0, 21.0 ],
+					"patching_rect" : [ 11.0, 246.5, 94.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 52.0, 242.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -405,7 +405,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 251.5, 137.0, 38.0 ],
+					"patching_rect" : [ 215.0, 253.5, 137.0, 38.0 ],
 					"text" : "GLsketch command environment"
 				}
 
@@ -439,7 +439,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 110.5, 137.0, 21.0 ],
+					"patching_rect" : [ 11.0, 112.5, 137.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 121.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -462,7 +462,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 84.5, 138.0, 21.0 ],
+					"patching_rect" : [ 11.0, 86.5, 138.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 91.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -510,7 +510,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.5, 110.5, 184.0, 22.0 ],
+					"patching_rect" : [ 214.5, 112.5, 184.0, 22.0 ],
 					"text" : "assemble GLgridshapes"
 				}
 
@@ -538,7 +538,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 84.5, 183.0, 22.0 ],
+					"patching_rect" : [ 215.0, 86.5, 183.0, 22.0 ],
 					"text" : "GLsketch \"command mode\""
 				}
 
@@ -552,7 +552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 58.5, 176.0, 22.0 ],
+					"patching_rect" : [ 215.0, 60.5, 176.0, 22.0 ],
 					"text" : "GLsketch \"turtle mode\""
 				}
 
@@ -566,7 +566,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 29.0, 425.0, 21.0 ],
+					"patching_rect" : [ 0.0, 30.0, 425.0, 21.0 ],
 					"text" : " jit.gl.sketch object records a list of 3-D drawing commands",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -587,7 +587,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 58.5, 110.0, 21.0 ],
+					"patching_rect" : [ 11.0, 60.5, 110.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -653,7 +653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 321.0, 119.0, 17.0 ],
+					"patching_rect" : [ 8.0, 323.0, 119.0, 17.0 ],
 					"text" : "load noise2GLsketch"
 				}
 
@@ -669,7 +669,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 305.0, 428.0, 4.0 ],
+					"patching_rect" : [ 2.0, 307.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -685,7 +685,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 194.0, 428.0, 4.0 ],
+					"patching_rect" : [ 2.0, 196.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -701,7 +701,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 434.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -900,7 +900,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "gl_primitives3.png",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
+				"patcherrelativepath" : "../../z/ images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -457,7 +457,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 530.0, 52.0 ],
+					"patching_rect" : [ 2.0, 2.0, 530.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

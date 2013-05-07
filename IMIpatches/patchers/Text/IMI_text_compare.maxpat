@@ -683,8 +683,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 456.0, 21.0 ],
-					"text" : "Input a text in the <textedit> object and compare with a list of words in a <coll> ",
+					"patching_rect" : [ 3.0, 31.0, 456.0, 21.0 ],
+					"text" : "input a text in the <textedit> object and compare with a list of words in a <coll> ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}

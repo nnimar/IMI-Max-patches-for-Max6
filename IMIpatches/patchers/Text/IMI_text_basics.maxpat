@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1043.0, 472.0 ],
@@ -580,7 +581,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 4.0, 286.0, 30.0 ],
+					"patching_rect" : [ 2.0, 4.0, 286.0, 30.0 ],
 					"text" : "IMI text basics",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -971,7 +972,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "textbasics.png",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Global/image",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/image",
 				"patcherrelativepath" : "../Global/image",
 				"type" : "PNG ",
 				"implicit" : 1

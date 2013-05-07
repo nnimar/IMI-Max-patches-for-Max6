@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 580.0, 438.0 ],
@@ -159,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 5.0, 450.0, 30.0 ],
+					"patching_rect" : [ 1.0, 4.0, 450.0, 30.0 ],
 					"text" : "GLslab_video_mask (Luke Woodbury)\n",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -175,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 399.0, 21.0 ],
+					"patching_rect" : [ 2.0, 32.0, 399.0, 21.0 ],
 					"text" : "create a gridshape, capture it as a texture and mix it on a videoplane",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -195,8 +196,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 591.0, 363.0, 244.0, 270.0 ],
@@ -391,8 +393,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 589.0, 358.0, 411.0, 282.0 ],
@@ -1421,8 +1424,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../jitter-examples/render/slab",
+				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}

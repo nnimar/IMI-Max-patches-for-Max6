@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 445.0, 306.0 ],
@@ -40,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 124.0, 99.5, 101.0, 22.0 ],
+					"patching_rect" : [ 124.0, 100.5, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.0, 137.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 123.0, 99.5, 96.0, 16.0 ],
+					"patching_rect" : [ 123.0, 100.5, 96.0, 16.0 ],
 					"text" : "load sequencer 1.1"
 				}
 
@@ -178,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 135.5, 177.0, 22.0 ],
+					"patching_rect" : [ 237.0, 136.5, 177.0, 22.0 ],
 					"text" : "control Modul8 using OSC"
 				}
 
@@ -197,7 +198,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 135.5, 100.0, 21.0 ],
+					"patching_rect" : [ 7.0, 136.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 163.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -216,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 135.5, 112.0, 16.0 ],
+					"patching_rect" : [ 7.0, 136.5, 112.0, 16.0 ],
 					"text" : "load IMI_OSC2Modul8"
 				}
 
@@ -230,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 173.5, 177.0, 22.0 ],
+					"patching_rect" : [ 237.0, 174.5, 177.0, 22.0 ],
 					"text" : "control Millumin using OSC"
 				}
 
@@ -249,7 +250,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 173.5, 100.0, 21.0 ],
+					"patching_rect" : [ 6.0, 174.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.0, 152.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -268,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 176.5, 118.0, 16.0 ],
+					"patching_rect" : [ 6.0, 177.5, 118.0, 16.0 ],
 					"text" : "load IMI_OSC2Millumin"
 				}
 
@@ -287,7 +288,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 99.5, 113.0, 21.0 ],
+					"patching_rect" : [ 7.0, 100.5, 113.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -306,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 99.5, 124.0, 16.0 ],
+					"patching_rect" : [ 7.0, 100.5, 124.0, 16.0 ],
 					"text" : "load IMI_OSC2Resolume"
 				}
 
@@ -325,7 +326,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 61.5, 84.0, 21.0 ],
+					"patching_rect" : [ 7.0, 62.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -344,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 61.5, 97.0, 16.0 ],
+					"patching_rect" : [ 7.0, 62.5, 97.0, 16.0 ],
 					"text" : "load IMI_OSC2VPT"
 				}
 
@@ -358,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 28.0, 362.0, 21.0 ],
+					"patching_rect" : [ 1.0, 29.0, 362.0, 21.0 ],
 					"text" : "OSC is a content format for messaging between applications ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -374,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 99.5, 193.0, 22.0 ],
+					"patching_rect" : [ 237.0, 100.5, 193.0, 22.0 ],
 					"text" : "control Resolume using OSC"
 				}
 
@@ -388,7 +389,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 61.5, 160.0, 22.0 ],
+					"patching_rect" : [ 237.0, 62.5, 160.0, 22.0 ],
 					"text" : "control VPT using OSC"
 				}
 
@@ -403,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 182.5, 52.0, 19.0 ],
+					"patching_rect" : [ 6.0, 177.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -451,7 +452,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 209.0, 433.0, 4.0 ],
+					"patching_rect" : [ 6.0, 211.0, 433.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -467,7 +468,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 443.0, 48.0 ],
+					"patching_rect" : [ 1.0, 1.0, 443.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -523,7 +524,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 132.5, 117.5, 16.5, 117.5 ],
+					"midpoints" : [ 132.5, 118.5, 15.5, 118.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

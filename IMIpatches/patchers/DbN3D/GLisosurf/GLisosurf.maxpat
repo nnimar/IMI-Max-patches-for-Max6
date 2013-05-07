@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 438.0, 337.0 ],
@@ -73,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 89.0, 244.0, 22.0 ],
+					"patching_rect" : [ 192.0, 90.0, 244.0, 22.0 ],
 					"text" : "convert a movie to an extruded mesh"
 				}
 
@@ -92,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 118.0, 165.0, 20.0 ],
+					"patching_rect" : [ 13.0, 119.0, 165.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 153.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -111,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 118.0, 142.0, 16.0 ],
+					"patching_rect" : [ 13.0, 119.0, 142.0, 16.0 ],
 					"text" : "load GLisosurf_dist_functions"
 				}
 
@@ -125,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 148.0, 236.0, 22.0 ],
+					"patching_rect" : [ 192.0, 148.0, 236.0, 22.0 ],
 					"text" : "isosurf to dist. functions (using Gen)"
 				}
 
@@ -144,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 89.0, 116.0, 20.0 ],
+					"patching_rect" : [ 13.0, 90.0, 116.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 153.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -163,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 89.0, 104.0, 16.0 ],
+					"patching_rect" : [ 13.0, 90.0, 104.0, 16.0 ],
 					"text" : "load jit.gl.isosurf-mov"
 				}
 
@@ -177,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 117.0, 236.0, 22.0 ],
+					"patching_rect" : [ 192.0, 118.0, 236.0, 22.0 ],
 					"text" : "isosurf to dist. functions (using Gen)"
 				}
 
@@ -191,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 299.0, 138.0, 22.0 ],
+					"patching_rect" : [ 189.0, 295.0, 138.0, 22.0 ],
 					"text" : "psychedelic shapes"
 				}
 
@@ -210,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 299.0, 104.0, 20.0 ],
+					"patching_rect" : [ 14.0, 295.0, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 247.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -229,22 +230,22 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 299.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 295.0, 99.0, 16.0 ],
 					"text" : "load 25.RagingSwirl"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 197.0, 213.0, 22.0 ],
-					"text" : "Andrew Benson's Jitter recipes"
+					"patching_rect" : [ 13.0, 198.0, 232.0, 22.0 ],
+					"text" : "Andrew Benson's Jitter recipes :"
 				}
 
 			}
@@ -257,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 268.0, 109.0, 22.0 ],
+					"patching_rect" : [ 189.0, 266.0, 109.0, 22.0 ],
 					"text" : "visual blobs"
 				}
 
@@ -272,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 313.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 309.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -286,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 235.0, 212.0, 22.0 ],
+					"patching_rect" : [ 189.0, 236.0, 212.0, 22.0 ],
 					"text" : "a fortress made of moving image"
 				}
 
@@ -305,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 268.0, 102.0, 20.0 ],
+					"patching_rect" : [ 13.0, 266.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -324,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 268.0, 97.0, 16.0 ],
+					"patching_rect" : [ 13.0, 266.0, 97.0, 16.0 ],
 					"text" : "load 08.VideoBlobs"
 				}
 
@@ -343,7 +344,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 235.0, 159.0, 20.0 ],
+					"patching_rect" : [ 13.0, 236.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -362,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 235.0, 139.0, 16.0 ],
+					"patching_rect" : [ 13.0, 236.0, 139.0, 16.0 ],
 					"text" : "load 03.CrumblingFortresses"
 				}
 
@@ -381,7 +382,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 61.0, 101.0, 20.0 ],
+					"patching_rect" : [ 13.0, 62.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 362.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -400,7 +401,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 61.0, 97.0, 16.0 ],
+					"patching_rect" : [ 13.0, 62.0, 97.0, 16.0 ],
 					"text" : "load GLisosurf_pos"
 				}
 
@@ -415,7 +416,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 161.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 162.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -429,7 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 61.0, 236.0, 22.0 ],
+					"patching_rect" : [ 192.0, 62.0, 236.0, 22.0 ],
 					"text" : "isosurf to track position"
 				}
 
@@ -443,7 +444,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 425.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 343.0, 21.0 ],
 					"text" : "creates a geometrix surface from a volumetric density field",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -460,7 +461,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 272.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 129.0, 30.0 ],
 					"text" : "GLisosurf",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -478,7 +479,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 186.0, 428.0, 4.0 ],
+					"patching_rect" : [ 7.0, 187.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -494,7 +495,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 434.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

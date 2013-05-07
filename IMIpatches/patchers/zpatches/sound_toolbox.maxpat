@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 569.0, 663.0 ],
@@ -85,8 +86,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -439,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 32.0, 420.0, 21.0 ],
-					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
+					"text" : "useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -575,8 +577,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "soundtools.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

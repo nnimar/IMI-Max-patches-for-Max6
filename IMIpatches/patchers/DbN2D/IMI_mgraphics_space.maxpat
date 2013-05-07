@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -41,11 +41,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 498.0, 44.0, 191.0, 317.0 ],
+						"rect" : [ 505.0, 44.0, 191.0, 317.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -345,7 +345,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -541,8 +541,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.510893, 29.332657, 405.0, 21.0 ],
-					"text" : "a few utilities to play with jit.lcd : imi.through, imi.bounce and Laccum",
+					"patching_rect" : [ 3.510893, 31.332657, 444.0, 21.0 ],
+					"text" : "a few utilities to play with jit.mgraphics : imi.through, imi.bounce and Laccum",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -853,7 +853,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 2.332659, 492.0, 50.0 ],
+					"patching_rect" : [ 2.510893, 2.332659, 492.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

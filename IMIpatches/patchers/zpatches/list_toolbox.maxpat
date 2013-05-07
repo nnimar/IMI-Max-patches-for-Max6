@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 502.0, 670.0 ],
@@ -85,8 +86,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -439,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 31.0, 420.0, 21.0 ],
-					"text" : "Useful tools to use lists in Max/MSP (click on the object name to open)",
+					"text" : "useful tools to use lists in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -456,7 +458,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 494.0, 50.0 ],
+					"patching_rect" : [ 4.0, 4.0, 494.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -575,8 +577,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "listpackage.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

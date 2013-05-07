@@ -2212,7 +2212,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2902,7 +2901,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 501.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 501.0, 21.0 ],
 					"text" : "various methods to parse XML content or entire files in Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -3051,7 +3050,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 836.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 836.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

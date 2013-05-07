@@ -647,7 +647,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 477.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 477.0, 30.0 ],
 					"text" : "IMI passing time : dot, dot, dot.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1311,7 +1311,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 755.0, 52.0 ],
+					"patching_rect" : [ 3.0, 3.0, 755.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

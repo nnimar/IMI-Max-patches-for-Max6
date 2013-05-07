@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 742.0, 396.0 ],
@@ -91,7 +92,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pcontrol",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -115,7 +117,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "load GLgridshape2mesh",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -487,7 +490,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pcontrol",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -511,7 +515,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "load Glmesh_matrixoutput",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -534,8 +539,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 752.0, 366.0, 411.0, 282.0 ],
@@ -1108,7 +1114,8 @@
 					}
 ,
 					"text" : "p ESC-fullscreen",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1178,7 +1185,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/docs/max6/dynamic/c74_docs.html#jitterchapter37",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1201,7 +1209,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "pcontrol",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1223,11 +1232,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 649.0, 220.0, 71.0, 41.0 ],
+					"patching_rect" : [ 649.0, 220.0, 73.0, 41.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "geometry ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1255,6 +1265,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "matrix dim",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1313,7 +1324,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 20",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -1335,11 +1347,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.0, 57.0, 87.0, 26.0 ],
+					"patching_rect" : [ 629.0, 57.0, 91.0, 26.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gridshape ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1367,6 +1380,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "crossfade ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1394,6 +1408,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "primitives",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -1416,8 +1431,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 747.0, 44.0, 380.0, 508.0 ],
@@ -1963,7 +1979,8 @@
 					}
 ,
 					"text" : "p geometry_gridshape",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2060,6 +2077,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "planes",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2083,7 +2101,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 12",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2103,11 +2122,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.574097, 297.638428, 115.0, 33.0 ],
+					"patching_rect" : [ 7.574097, 297.638428, 117.0, 33.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "jit.window geometry @fsmenubar 0",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2134,6 +2154,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "presets",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2212,11 +2233,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 485.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 485.0, 30.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "GL gridshape geometry",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0,
 					"varname" : "autohelp_top_title"
 				}
@@ -2245,6 +2267,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gridshape has the ability to output a matrix, that matrix can be used to draw random images following 3D primitives (geometry)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0,
 					"varname" : "autohelp_top_digest"
 				}
@@ -2273,6 +2296,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "matrix dim",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2297,7 +2321,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "reset",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2321,7 +2346,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "jit.gl.handle @inherit_transform 1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2348,6 +2374,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "wireframe",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2453,7 +2480,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "dim $1 $1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2497,7 +2525,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "poly_mode $1 $1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2524,6 +2553,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "slide",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2551,6 +2581,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "matrixoutput",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2613,6 +2644,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "noise",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2660,6 +2692,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "fade",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0,
 					"underline" : 0
 				}
 
@@ -2750,7 +2783,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "matrixoutput $1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2773,7 +2807,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "prepend shape",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2842,7 +2877,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "r render",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2865,7 +2901,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "t b erase",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2884,11 +2921,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 175.0, 228.0, 233.0, 22.0 ],
+					"patching_rect" : [ 175.0, 230.0, 233.0, 22.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "jit.gl.gridshape @scale 0.7 0.7 0.7",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2911,7 +2949,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "qmetro 40",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2955,7 +2994,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "jit.gl.render @erase_color 0. 0. 0. 1.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -2978,7 +3018,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 20",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3001,7 +3042,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 2",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3025,7 +3067,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess symbol quad_grid",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3048,7 +3091,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "loadmess 0",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3072,7 +3116,8 @@
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "load GLgridshape_xfade",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
 				}
 
 			}
@@ -3647,7 +3692,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.slide.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1

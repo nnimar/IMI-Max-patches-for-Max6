@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -76,7 +76,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 3.0, 370.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 370.0, 30.0 ],
 									"text" : "Matrix feedback using LCD / part 03",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -139,7 +139,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -629,7 +629,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 2.0, 418.0, 31.0 ],
+									"patching_rect" : [ 3.0, 2.0, 414.0, 31.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -810,11 +810,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 421.0, 638.0 ],
+						"rect" : [ 0.0, 70.0, 421.0, 638.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -858,7 +858,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 3.0, 366.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 366.0, 30.0 ],
 									"text" : "Matrix feedback using LCD / part 02",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -879,7 +879,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1355,7 +1355,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 2.0, 417.0, 31.0 ],
+									"patching_rect" : [ 3.0, 2.0, 414.0, 31.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1507,11 +1507,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 421.0, 638.0 ],
+						"rect" : [ 0.0, 26.0, 421.0, 638.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1540,7 +1540,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 367.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 226.0, 21.0 ],
 									"text" : "from Peter Elsea's tutorial on Jitter",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest[1]"
@@ -1556,7 +1556,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 10.0, 162.0, 115.0, 20.0 ],
+									"patching_rect" : [ 10.0, 164.0, 115.0, 20.0 ],
 									"text" : "jit.qt.movie 320 240"
 								}
 
@@ -1570,7 +1570,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 26.0, 138.0, 84.0, 18.0 ],
+									"patching_rect" : [ 26.0, 140.0, 84.0, 18.0 ],
 									"text" : "read tom.mov"
 								}
 
@@ -1584,7 +1584,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 320.0, 241.0, 20.0 ],
+									"patching_rect" : [ 135.0, 322.0, 241.0, 20.0 ],
 									"text" : "matrix goes in the loop, one frame later"
 								}
 
@@ -1598,7 +1598,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 27.0, 318.0, 102.0, 22.0 ],
+									"patching_rect" : [ 27.0, 320.0, 102.0, 22.0 ],
 									"text" : "jit.matrix loop"
 								}
 
@@ -1613,7 +1613,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 392.0, 30.0 ],
+									"patching_rect" : [ 3.0, 2.0, 357.0, 30.0 ],
 									"text" : "Matrix feedback using jit.qt.movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -1630,7 +1630,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 204.0, 197.0, 48.0, 20.0 ]
+									"patching_rect" : [ 204.0, 199.0, 48.0, 20.0 ]
 								}
 
 							}
@@ -1643,7 +1643,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 204.0, 225.0, 90.0, 18.0 ],
+									"patching_rect" : [ 204.0, 227.0, 90.0, 18.0 ],
 									"text" : "val 1 $1 $1 $1"
 								}
 
@@ -1657,7 +1657,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 150.0, 253.0, 73.0, 20.0 ],
+									"patching_rect" : [ 150.0, 255.0, 73.0, 20.0 ],
 									"text" : "jit.op @op *"
 								}
 
@@ -1671,7 +1671,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 150.0, 162.0, 204.0, 22.0 ],
+									"patching_rect" : [ 150.0, 164.0, 204.0, 22.0 ],
 									"text" : "jit.matrix loop 4 char 320 240"
 								}
 
@@ -1683,7 +1683,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.0, 355.0, 320.0, 240.0 ],
+									"patching_rect" : [ 10.0, 357.0, 320.0, 240.0 ],
 									"presentation_rect" : [ 15.0, 15.0, 320.0, 240.0 ]
 								}
 
@@ -1697,7 +1697,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 10.0, 290.0, 159.0, 20.0 ],
+									"patching_rect" : [ 10.0, 292.0, 159.0, 20.0 ],
 									"text" : "jit.op @op +"
 								}
 
@@ -1710,7 +1710,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 58.0, 25.0, 25.0 ]
+									"patching_rect" : [ 10.0, 60.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1723,7 +1723,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 10.0, 94.0, 58.0, 20.0 ],
+									"patching_rect" : [ 10.0, 96.0, 58.0, 20.0 ],
 									"text" : "metro 30"
 								}
 
@@ -1739,7 +1739,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 416.0, 49.0 ],
+									"patching_rect" : [ 3.0, 2.0, 416.0, 51.0 ],
 									"varname" : "autohelp_top_panel[2]"
 								}
 
@@ -1750,7 +1750,7 @@
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 19.5, 126.0, 159.5, 126.0 ],
+									"midpoints" : [ 19.5, 128.0, 159.5, 128.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 

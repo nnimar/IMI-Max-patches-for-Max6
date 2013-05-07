@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 204.0, 225.0, 22.0 ],
+					"patching_rect" : [ 187.0, 206.0, 225.0, 22.0 ],
 					"text" : "nurbs with physics"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 204.0, 111.0, 20.0 ],
+					"patching_rect" : [ 13.0, 206.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 237.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 204.0, 102.0, 16.0 ],
+					"patching_rect" : [ 13.0, 206.0, 102.0, 16.0 ],
 					"text" : "load GLNurbs_sheet"
 				}
 
@@ -221,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 175.0, 225.0, 22.0 ],
+					"patching_rect" : [ 187.0, 177.0, 225.0, 22.0 ],
 					"text" : "extrude a gridshape object w/ Gen"
 				}
 
@@ -235,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 147.0, 212.0, 22.0 ],
+					"patching_rect" : [ 187.0, 149.0, 212.0, 22.0 ],
 					"text" : "use sound as a source for nurbs"
 				}
 
@@ -249,7 +249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 120.0, 220.0, 22.0 ],
+					"patching_rect" : [ 187.0, 122.0, 220.0, 22.0 ],
 					"text" : "use a video as a source for nurbs"
 				}
 
@@ -268,7 +268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 92.0, 146.0, 20.0 ],
+					"patching_rect" : [ 13.0, 94.0, 146.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -287,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 92.0, 133.0, 16.0 ],
+					"patching_rect" : [ 13.0, 94.0, 133.0, 16.0 ],
 					"text" : "load GLnurbs_manipulator"
 				}
 
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 175.0, 120.0, 20.0 ],
+					"patching_rect" : [ 13.0, 177.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 181.0, 149.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 175.0, 109.0, 16.0 ],
+					"patching_rect" : [ 13.0, 177.0, 109.0, 16.0 ],
 					"text" : "load GLnurbs_extrude"
 				}
 
@@ -344,7 +344,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 64.0, 124.0, 20.0 ],
+					"patching_rect" : [ 13.0, 66.0, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 463.0, 362.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -363,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 64.0, 113.0, 16.0 ],
+					"patching_rect" : [ 13.0, 66.0, 113.0, 16.0 ],
 					"text" : "load GLnurbs_ctlmatrix"
 				}
 
@@ -382,7 +382,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 147.0, 113.0, 20.0 ],
+					"patching_rect" : [ 13.0, 149.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 458.0, 385.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -405,7 +405,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 120.0, 109.0, 20.0 ],
+					"patching_rect" : [ 13.0, 122.0, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -424,7 +424,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 230.0, 43.0, 17.0 ],
+					"patching_rect" : [ 13.0, 232.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -439,7 +439,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 120.0, 100.0, 16.0 ],
+					"patching_rect" : [ 13.0, 122.0, 100.0, 16.0 ],
 					"text" : "load GLnurbs_video"
 				}
 
@@ -454,7 +454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 147.0, 103.0, 16.0 ],
+					"patching_rect" : [ 13.0, 149.0, 103.0, 16.0 ],
 					"text" : "load GLnurbs_sound"
 				}
 
@@ -468,7 +468,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 92.0, 212.0, 22.0 ],
+					"patching_rect" : [ 187.0, 94.0, 212.0, 22.0 ],
 					"text" : "create your own control matrix"
 				}
 
@@ -482,7 +482,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 64.0, 230.0, 22.0 ],
+					"patching_rect" : [ 187.0, 66.0, 230.0, 22.0 ],
 					"text" : "use a matrix to control nurbs points "
 				}
 
@@ -496,7 +496,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 425.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 311.0, 21.0 ],
 					"text" : "renders a Non-Uniform Rational B-Spline (NURBS)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -547,7 +547,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 434.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

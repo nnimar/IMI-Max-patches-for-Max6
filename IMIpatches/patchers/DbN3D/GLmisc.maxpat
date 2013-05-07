@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -664,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 434.0, 20.0 ],
+					"patching_rect" : [ 4.0, 32.0, 434.0, 20.0 ],
 					"text" : "the GL objects in Max are a great gateway to your graphic card's ability to draw",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -680,7 +680,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 99.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 99.0, 30.0 ],
 					"text" : "GLmisc",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -698,7 +698,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 452.0, 47.0 ],
+					"patching_rect" : [ 2.0, 3.0, 452.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

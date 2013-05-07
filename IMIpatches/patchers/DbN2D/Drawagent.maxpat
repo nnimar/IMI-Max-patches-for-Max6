@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 453.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 18.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -27,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 52.0, 63.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -52,8 +67,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 395.0, 21.0 ],
-					"text" : "Draw circles / filled circles / lines at random position (using jit.noise)",
+					"patching_rect" : [ 4.0, 31.0, 395.0, 21.0 ],
+					"text" : "draw circles / filled circles / lines at random position (using jit.noise)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -100,8 +115,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 517.0, 44.0, 249.0, 185.0 ],
@@ -414,7 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 225.0, 145.0, 23.0 ],
+					"patching_rect" : [ 89.0, 223.0, 145.0, 23.0 ],
 					"text" : "radius of circle drawn"
 				}
 
@@ -432,8 +448,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 460.0, 44.0, 399.0, 451.0 ],
@@ -1006,7 +1023,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 54.0, 225.0, 50.0, 19.0 ]
+					"patching_rect" : [ 54.0, 225.0, 33.0, 19.0 ]
 				}
 
 			}
@@ -1019,8 +1036,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 92.0, 63.0, 19.0 ],
-					"text" : "qmetro 40"
+					"patching_rect" : [ 15.0, 94.0, 56.0, 19.0 ],
+					"text" : "metro 40"
 				}
 
 			}
@@ -1033,6 +1050,21 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 61.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 52.0, 62.0, 79.0, 20.0 ],
+					"text" : "loadmess 40"
 				}
 
 			}
@@ -1189,6 +1221,24 @@
 					"hidden" : 0,
 					"midpoints" : [ 399.5, 308.0, 24.5, 308.0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

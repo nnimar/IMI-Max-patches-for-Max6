@@ -259,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 204.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 204.0, 21.0 ],
 					"text" : "read a facebook JSON file",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1056,7 +1056,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 399.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 399.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

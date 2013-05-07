@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -57,7 +57,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -398,7 +398,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -854,7 +854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 958.0, 31.0, 52.0, 20.0 ],
+					"patching_rect" : [ 958.0, 30.0, 52.0, 20.0 ],
 					"text" : "rev 003",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
@@ -916,7 +916,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1080,7 +1080,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -1113,7 +1113,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 36.0, 11.0, 41.0, 17.0 ],
-													"presentation_rect" : [ 36.0, 11.0, 0.0, 0.0 ],
 													"text" : "draw"
 												}
 
@@ -1128,7 +1127,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 159.0, 11.0, 41.0, 17.0 ],
-													"presentation_rect" : [ 159.0, 11.0, 0.0, 0.0 ],
 													"text" : "pen"
 												}
 
@@ -1997,8 +1995,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 901.0, 21.0 ],
-					"text" : "v.region uses the frame differencing methods but adds the possibility of creating zones.  It was adapted from an object from SoftVNS (David Rokeby)",
+					"patching_rect" : [ 4.0, 29.0, 901.0, 21.0 ],
+					"text" : "v.region uses the frame differencing methods but adds the possibility of creating zones.  It was adapted from the SoftVNS (David Rokeby)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -2457,7 +2455,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 1008.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 1008.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

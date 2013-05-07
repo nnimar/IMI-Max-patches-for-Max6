@@ -17,8 +17,9 @@
 22, IMI_compositing_modes "methods for compositing";
 23, IMI_video_delay "video delay";
 24, GLslab_collection "easy to use shaders";
-25, BadTV "badTV effect";
-26, h.lines "generate a mesh of lines from a movie";
+25, GLpix_colourFX "various colour effects";
+26, BadTV "badTV effect";
+27, h.lines "generate a mesh of lines from a movie";
 30, -----------------------;
 31, <category> 4 DbN2D;
 32, IMI_mgraphics_motion "motion using counter";

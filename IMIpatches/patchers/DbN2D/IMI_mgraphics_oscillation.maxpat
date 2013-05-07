@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 489.0, 736.0 ],
+		"rect" : [ 1.0, 44.0, 489.0, 736.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -71,7 +71,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -344,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 344.0, 204.0, 52.0 ],
+					"patching_rect" : [ 267.0, 343.0, 204.0, 52.0 ],
 					"text" : "set colour white, paint (background)\nset colour red, draw ellipse, fill"
 				}
 
@@ -359,7 +359,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.0, 395.0, 316.0, 31.0 ],
+					"patching_rect" : [ 71.0, 394.0, 316.0, 31.0 ],
 					"text" : "set_source_rgba 1 1 1 1, paint, set_source_rgba 1 0 0 1, ellipse $1 $2 $3 $4, fill"
 				}
 
@@ -373,7 +373,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 472.0, 21.0 ],
+					"patching_rect" : [ 2.0, 29.0, 472.0, 21.0 ],
 					"text" : "with a counter, a sinus and a cosinus, you  make a ball oscillate around the center",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -775,7 +775,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 487.0, 49.0 ],
+					"patching_rect" : [ 1.0, 1.0, 487.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

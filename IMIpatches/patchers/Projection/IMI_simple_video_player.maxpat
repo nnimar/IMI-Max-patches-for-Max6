@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 411.0, 356.0, 89.0, 20.0 ],
-					"presentation_rect" : [ 39.0, 356.0, 0.0, 0.0 ],
 					"rounded" : 20.0,
 					"text" : "hap codec",
 					"texton" : "Stop"
@@ -75,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 411.0, 358.0, 64.0, 15.0 ],
-					"presentation_rect" : [ 37.0, 356.0, 0.0, 0.0 ],
 					"text" : "help jit.gl.hap"
 				}
 
@@ -246,7 +244,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -821,7 +819,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
 					"text" : "IMI GL video player ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -837,7 +835,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 399.0, 21.0 ],
 					"text" : "play a video using the gpu (the graphic processing unit)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

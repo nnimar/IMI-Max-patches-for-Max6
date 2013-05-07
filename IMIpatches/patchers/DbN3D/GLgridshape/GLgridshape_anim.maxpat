@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 447.0, 468.0 ],
+		"rect" : [ 1.0, 44.0, 447.0, 468.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1178,7 +1178,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 443.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 443.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

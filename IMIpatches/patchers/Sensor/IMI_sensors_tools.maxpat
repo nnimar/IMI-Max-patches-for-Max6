@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -117,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -566,7 +566,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 31.0, 477.0, 21.0 ],
-					"text" : "Useful tools for sensor patching in Max/MSP (click on the object name to open)",
+					"text" : "useful tools for sensor patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -583,7 +583,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 573.0, 50.0 ],
+					"patching_rect" : [ 3.0, 4.0, 573.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -703,7 +703,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "sensors.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

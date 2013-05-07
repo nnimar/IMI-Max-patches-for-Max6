@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 662.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 662.0, 21.0 ],
 					"text" : "get a normalised output from the Kinect using jit.map",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -293,7 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 63.885483, 20.0, 20.0 ]
+					"patching_rect" : [ 11.0, 62.885483, 20.0, 20.0 ]
 				}
 
 			}
@@ -350,7 +350,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 670.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 670.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -101,7 +101,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -643,7 +643,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -726,7 +726,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 196.0, 412.0, 36.0 ],
+					"patching_rect" : [ 209.0, 179.0, 412.0, 36.0 ],
 					"text" : "reset, glcolor 1 0 0, glscale 0.8 0.8 0.8, drawobject squeamish 1, glrotate 90 0 1 0, glcolor 0 1 0, drawobject squeamish 1"
 				}
 
@@ -744,7 +744,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -919,7 +919,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 472.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 241.0, 30.0 ],
 					"text" : "GLsketch assemble",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -935,7 +935,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 530.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 374.0, 21.0 ],
 					"text" : "use jit.gl.sketch to assemble multiple jit.gl.gridshape together.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1007,7 +1007,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 189.0, 138.0, 416.0, 36.0 ],
+					"patching_rect" : [ 189.0, 133.0, 416.0, 36.0 ],
 					"text" : "reset, drawobject plane1, drawobject plane2, drawobject plane3, drawobject plane4, drawobject plane5, drawobject plane6"
 				}
 
@@ -1021,7 +1021,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 167.0, 261.0, 88.0, 22.0 ],
+					"patching_rect" : [ 167.0, 233.0, 88.0, 22.0 ],
 					"text" : "jit.gl.sketch"
 				}
 
@@ -1067,7 +1067,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 640.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 640.0, 51.0 ],
 					"varname" : "autohelp_top_panel[7]"
 				}
 

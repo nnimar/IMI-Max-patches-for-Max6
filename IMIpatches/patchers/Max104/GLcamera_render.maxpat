@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 640.0, 419.0 ],
@@ -246,8 +247,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 522.0, 44.0, 273.0, 225.0 ],
@@ -606,8 +608,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 651.0, 360.0, 388.0, 198.0 ],
@@ -819,8 +822,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 656.0, 363.0, 411.0, 282.0 ],
@@ -1358,7 +1362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.574097, 375.638458, 127.0, 33.0 ],
+					"patching_rect" : [ 8.574097, 375.638458, 129.0, 33.0 ],
 					"text" : "jit.window cam-render @fsmenubar 0"
 				}
 
@@ -1389,8 +1393,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 506.0, 21.0 ],
-					"text" : "GLrender has still some benefits over GLcamera, like the ability to measure a scene",
+					"patching_rect" : [ 4.0, 30.0, 549.0, 21.0 ],
+					"text" : "GLrender has still some benefits over GLcamera, like the ability to measure the size of a scene",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1591,7 +1595,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 637.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 637.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

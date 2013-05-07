@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 89.0, 629.5, 40.0, 21.0 ],
+					"patching_rect" : [ 89.0, 631.5, 40.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 675.0, 372.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 588.5, 492.0, 22.0 ],
+					"patching_rect" : [ 7.0, 590.5, 492.0, 22.0 ],
 					"text" : "jit.openni (OpenNI) has  RGB, IR and depth, skeleton, user events, ..."
 				}
 
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 623.5, 293.0, 38.0 ],
+					"patching_rect" : [ 139.0, 625.5, 293.0, 38.0 ],
 					"text" : "jit.openni (OpenNI) is a native jitter object. \nIt uses the Osceleton OSC format (port 7120)"
 				}
 
@@ -93,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 629.5, 74.0, 21.0 ],
+					"patching_rect" : [ 6.0, 631.5, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.0, 431.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 629.5, 53.0, 20.0 ],
+					"patching_rect" : [ 6.0, 631.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -127,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 629.5, 82.0, 17.0 ],
+					"patching_rect" : [ 6.0, 631.5, 82.0, 17.0 ],
 					"text" : "help jit.openni"
 				}
 
@@ -143,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 630.0, 340.0, 29.0 ],
+					"patching_rect" : [ 88.0, 632.0, 340.0, 29.0 ],
 					"text" : ";\rmax launchbrowser https://github.com/diablodale/jit.openni/wiki"
 				}
 
@@ -161,7 +161,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -250,7 +250,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.0, 253.5, 120.0, 22.0 ],
+					"patching_rect" : [ 246.0, 255.5, 120.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 472.0, 268.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -269,7 +269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 253.5, 125.0, 17.0 ],
+					"patching_rect" : [ 245.0, 255.5, 125.0, 17.0 ],
 					"text" : "load freenect_tracking"
 				}
 
@@ -288,7 +288,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 253.5, 129.0, 22.0 ],
+					"patching_rect" : [ 112.0, 255.5, 129.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 460.0, 213.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -307,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 253.5, 132.0, 17.0 ],
+					"patching_rect" : [ 112.0, 255.5, 132.0, 17.0 ],
 					"text" : "load freenect_moments"
 				}
 
@@ -326,7 +326,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 454.5, 88.0, 22.0 ],
+					"patching_rect" : [ 11.0, 456.5, 88.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 195.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -345,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 455.0, 53.0, 20.0 ],
+					"patching_rect" : [ 12.0, 457.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -360,7 +360,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 459.5, 96.0, 17.0 ],
+					"patching_rect" : [ 13.0, 461.5, 96.0, 17.0 ],
 					"text" : "load bodybuilder"
 				}
 
@@ -521,7 +521,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -910,7 +910,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 89.0, 537.5, 40.0, 21.0 ],
+					"patching_rect" : [ 89.0, 539.5, 40.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 549.0, 442.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -928,7 +928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 497.5, 491.0, 22.0 ],
+					"patching_rect" : [ 9.0, 499.5, 491.0, 22.0 ],
 					"text" : "kinect-A (OpenNI) has RGB, IR and depth, skeleton, hand, gestures, ..."
 				}
 
@@ -943,7 +943,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 530.5, 352.0, 38.0 ],
+					"patching_rect" : [ 144.0, 532.5, 352.0, 38.0 ],
 					"text" : "Kinect-A is a more advanced OF applications that sends choosen information to Max via OSC (port 3333)"
 				}
 
@@ -962,7 +962,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 537.5, 74.0, 21.0 ],
+					"patching_rect" : [ 9.0, 539.5, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 549.0, 414.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -981,7 +981,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 538.5, 53.0, 20.0 ],
+					"patching_rect" : [ 11.0, 540.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -996,7 +996,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 537.5, 72.0, 17.0 ],
+					"patching_rect" : [ 12.0, 539.5, 72.0, 17.0 ],
 					"text" : "load kinecta"
 				}
 
@@ -1012,7 +1012,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 538.0, 305.0, 29.0 ],
+					"patching_rect" : [ 88.0, 540.0, 305.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://kinecta.mihoo.de/short-manual"
 				}
 
@@ -1031,7 +1031,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 84.0, 427.5, 38.0, 21.0 ],
+					"patching_rect" : [ 84.0, 429.5, 38.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 750.0, 460.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1049,7 +1049,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 387.5, 295.0, 22.0 ],
+					"patching_rect" : [ 9.0, 389.5, 295.0, 22.0 ],
 					"text" : "synapse (OpenNI) has skeleton and depth"
 				}
 
@@ -1068,7 +1068,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 426.5, 67.0, 22.0 ],
+					"patching_rect" : [ 11.0, 428.5, 67.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.0, 331.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1087,7 +1087,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 428.5, 79.0, 17.0 ],
+					"patching_rect" : [ 11.0, 430.5, 79.0, 17.0 ],
 					"text" : "load synapse"
 				}
 
@@ -1116,7 +1116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 58.5, 364.0, 22.0 ],
+					"patching_rect" : [ 8.0, 60.5, 364.0, 22.0 ],
 					"text" : "jit.freenect.grab (libfreenect) has RGB, IR and depth"
 				}
 
@@ -1130,7 +1130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 333.5, 340.0, 22.0 ],
+					"patching_rect" : [ 90.0, 335.5, 340.0, 22.0 ],
 					"text" : "OF kinect tracker (libfreenect) using the tuio protocol"
 				}
 
@@ -1149,7 +1149,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 333.5, 78.0, 22.0 ],
+					"patching_rect" : [ 8.0, 335.5, 78.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 423.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1168,7 +1168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 336.5, 90.0, 17.0 ],
+					"patching_rect" : [ 10.0, 338.5, 90.0, 17.0 ],
 					"text" : "load TuioKinect"
 				}
 
@@ -1183,7 +1183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 335.0, 55.0, 20.0 ],
+					"patching_rect" : [ 10.0, 337.0, 55.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1197,7 +1197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.0, 253.5, 96.0, 22.0 ],
+					"patching_rect" : [ 379.0, 255.5, 96.0, 22.0 ],
 					"text" : "basic cv tools"
 				}
 
@@ -1216,7 +1216,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 253.5, 99.0, 22.0 ],
+					"patching_rect" : [ 9.0, 255.5, 99.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 221.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1234,7 +1234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 285.0, 275.0, 22.0 ],
+					"patching_rect" : [ 157.0, 287.0, 275.0, 22.0 ],
 					"text" : "a very advanced kinect tracker using blobs"
 				}
 
@@ -1253,7 +1253,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 285.0, 140.0, 22.0 ],
+					"patching_rect" : [ 9.0, 287.0, 140.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 247.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1272,7 +1272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 285.0, 96.0, 17.0 ],
+					"patching_rect" : [ 9.0, 287.0, 96.0, 17.0 ],
 					"text" : "load KVLpatcher"
 				}
 
@@ -1286,7 +1286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 166.0, 221.5, 168.0, 22.0 ],
+					"patching_rect" : [ 166.0, 223.5, 168.0, 22.0 ],
 					"text" : "undistort the kinect image"
 				}
 
@@ -1305,7 +1305,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 221.5, 144.0, 22.0 ],
+					"patching_rect" : [ 9.0, 223.5, 144.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 205.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1324,7 +1324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 221.5, 144.0, 17.0 ],
+					"patching_rect" : [ 9.0, 223.5, 144.0, 17.0 ],
 					"text" : "load freenect_undistortion"
 				}
 
@@ -1339,7 +1339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 430.5, 377.0, 38.0 ],
+					"patching_rect" : [ 135.0, 432.5, 377.0, 38.0 ],
 					"text" : "synapse is a simple OF application that sends the skeleton to Max via OSC (port 12345)"
 				}
 
@@ -1353,7 +1353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 158.5, 237.0, 22.0 ],
+					"patching_rect" : [ 176.0, 160.5, 237.0, 22.0 ],
 					"text" : "select a depth range using the kinect"
 				}
 
@@ -1372,7 +1372,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 158.5, 153.0, 22.0 ],
+					"patching_rect" : [ 8.0, 160.5, 153.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 128.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1391,7 +1391,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 158.5, 158.0, 17.0 ],
+					"patching_rect" : [ 9.0, 160.5, 158.0, 17.0 ],
 					"text" : "load freenect_depthselector"
 				}
 
@@ -1405,7 +1405,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 131.0, 190.5, 251.0, 22.0 ],
+					"patching_rect" : [ 131.0, 192.5, 251.0, 22.0 ],
 					"text" : "take the kinect image and make nurbs"
 				}
 
@@ -1424,7 +1424,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 190.5, 106.0, 22.0 ],
+					"patching_rect" : [ 9.0, 192.5, 106.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 186.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1443,7 +1443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 190.5, 113.0, 17.0 ],
+					"patching_rect" : [ 9.0, 192.5, 113.0, 17.0 ],
 					"text" : "load freenect_nurbs"
 				}
 
@@ -1457,7 +1457,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 126.5, 237.0, 22.0 ],
+					"patching_rect" : [ 157.0, 128.5, 237.0, 22.0 ],
 					"text" : "a patch to see the normalised image"
 				}
 
@@ -1476,7 +1476,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 126.5, 139.0, 22.0 ],
+					"patching_rect" : [ 9.0, 128.5, 139.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 150.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1495,7 +1495,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 126.5, 141.0, 17.0 ],
+					"patching_rect" : [ 9.0, 128.5, 141.0, 17.0 ],
 					"text" : "load freenect_normalised"
 				}
 
@@ -1510,7 +1510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 285.0, 55.0, 20.0 ],
+					"patching_rect" : [ 9.0, 287.0, 55.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1524,7 +1524,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 94.5, 255.0, 22.0 ],
+					"patching_rect" : [ 158.0, 96.5, 255.0, 22.0 ],
 					"text" : "a basic Kinect interface (J-M Pelletier)"
 				}
 
@@ -1543,7 +1543,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 94.5, 140.0, 22.0 ],
+					"patching_rect" : [ 9.0, 96.5, 140.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 491.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1562,7 +1562,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 94.5, 116.0, 17.0 ],
+					"patching_rect" : [ 9.0, 96.5, 116.0, 17.0 ],
 					"text" : "help jit.freenect.grab"
 				}
 
@@ -1576,7 +1576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 538.0, 20.0 ],
+					"patching_rect" : [ 2.0, 31.0, 538.0, 20.0 ],
 					"text" : "everything you need to get you get started with the Kinect on a Mac (see tutorial below for more)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1609,7 +1609,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 253.5, 113.0, 17.0 ],
+					"patching_rect" : [ 70.0, 255.5, 113.0, 17.0 ],
 					"text" : "load freenect_blob"
 				}
 
@@ -1624,7 +1624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 427.0, 53.0, 20.0 ],
+					"patching_rect" : [ 12.0, 429.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1640,7 +1640,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 427.0, 448.0, 29.0 ],
+					"patching_rect" : [ 10.0, 429.0, 448.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://synapsekinect.tumblr.com/post/6307752257/maxmsp-jitter"
 				}
 
@@ -1655,7 +1655,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 253.5, 60.0, 22.0 ],
+					"patching_rect" : [ 246.0, 255.5, 60.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1671,7 +1671,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 81.0, 364.0, 4.0 ],
+					"patching_rect" : [ 7.0, 83.0, 364.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -1687,7 +1687,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 410.0, 290.0, 4.0 ],
+					"patching_rect" : [ 8.0, 412.0, 290.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1703,7 +1703,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 554.0, 46.0 ],
+					"patching_rect" : [ 2.0, 3.0, 554.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1719,7 +1719,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 520.0, 480.0, 4.0 ],
+					"patching_rect" : [ 8.0, 522.0, 480.0, 4.0 ],
 					"varname" : "autohelp_top_panel[6]"
 				}
 
@@ -1735,7 +1735,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 611.0, 467.0, 4.0 ],
+					"patching_rect" : [ 6.0, 613.0, 467.0, 4.0 ],
 					"varname" : "autohelp_top_panel[5]"
 				}
 

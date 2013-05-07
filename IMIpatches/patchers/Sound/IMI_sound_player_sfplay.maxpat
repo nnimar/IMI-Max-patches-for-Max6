@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -57,14 +57,14 @@
 					"presentation_rect" : [ 60.0, 60.0, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 4,
+							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_initial" : [ -12 ],
 							"parameter_type" : 0,
 							"parameter_initial_enable" : 1,
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~",
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0
+							"parameter_longname" : "live.gain~"
 						}
 
 					}
@@ -237,7 +237,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -976,7 +976,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 433.0, 52.0 ],
+					"patching_rect" : [ 2.0, 2.0, 433.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

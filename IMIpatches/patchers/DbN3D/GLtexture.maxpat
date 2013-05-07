@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 326.0, 152.0, 22.0 ],
+					"patching_rect" : [ 188.0, 327.0, 152.0, 22.0 ],
 					"text" : "texture with GLmultiple"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 326.0, 125.0, 20.0 ],
+					"patching_rect" : [ 9.0, 327.0, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 326.0, 127.0, 17.0 ],
+					"patching_rect" : [ 9.0, 327.0, 127.0, 17.0 ],
 					"text" : "load GLmultiple_texture"
 				}
 
@@ -93,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 302.0, 111.0, 20.0 ],
+					"patching_rect" : [ 9.0, 303.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 432.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -112,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 305.0, 106.0, 16.0 ],
+					"patching_rect" : [ 9.0, 306.0, 106.0, 16.0 ],
 					"text" : "load GLmesh_shatter"
 				}
 
@@ -126,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 302.0, 238.0, 22.0 ],
+					"patching_rect" : [ 187.0, 303.0, 238.0, 22.0 ],
 					"text" : "break an images in units then shatter"
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 229.0, 119.0, 20.0 ],
+					"patching_rect" : [ 9.0, 230.0, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 249.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 229.0, 141.0, 17.0 ],
+					"patching_rect" : [ 9.0, 230.0, 141.0, 17.0 ],
 					"text" : "load GLmesh_bfg-texture"
 				}
 
@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 229.0, 197.0, 22.0 ],
+					"patching_rect" : [ 187.0, 230.0, 197.0, 22.0 ],
 					"text" : "texture mapping with GLmesh"
 				}
 
@@ -192,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 278.0, 190.0, 22.0 ],
+					"patching_rect" : [ 187.0, 279.0, 190.0, 22.0 ],
 					"text" : "create texture coordinates"
 				}
 
@@ -211,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 278.0, 164.0, 20.0 ],
+					"patching_rect" : [ 9.0, 279.0, 164.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 285.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 278.0, 141.0, 16.0 ],
+					"patching_rect" : [ 9.0, 279.0, 141.0, 16.0 ],
 					"text" : "load GLmesh_texcoordinates"
 				}
 
@@ -249,7 +249,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 254.0, 136.0, 20.0 ],
+					"patching_rect" : [ 9.0, 255.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.0, 510.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -268,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 254.0, 124.0, 16.0 ],
+					"patching_rect" : [ 9.0, 255.0, 124.0, 16.0 ],
 					"text" : "load GLmesh_videoplane"
 				}
 
@@ -282,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 254.0, 180.0, 22.0 ],
+					"patching_rect" : [ 187.0, 255.0, 180.0, 22.0 ],
 					"text" : "set coordinates for a video"
 				}
 
@@ -296,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 130.0, 197.0, 22.0 ],
+					"patching_rect" : [ 213.0, 132.0, 197.0, 22.0 ],
 					"text" : "mix textures with slab"
 				}
 
@@ -315,7 +315,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 130.0, 152.0, 20.0 ],
+					"patching_rect" : [ 10.0, 132.0, 152.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 246.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -334,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 130.0, 158.0, 17.0 ],
+					"patching_rect" : [ 10.0, 132.0, 158.0, 17.0 ],
 					"text" : "load GLmesh_slab_textures"
 				}
 
@@ -353,7 +353,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 106.0, 149.0, 20.0 ],
+					"patching_rect" : [ 10.0, 108.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -372,7 +372,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 106.0, 127.0, 17.0 ],
+					"patching_rect" : [ 10.0, 108.0, 127.0, 17.0 ],
 					"text" : "load GLmesh_texture"
 				}
 
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 106.0, 197.0, 22.0 ],
+					"patching_rect" : [ 213.0, 108.0, 197.0, 22.0 ],
 					"text" : "multiple textures with GLmesh"
 				}
 
@@ -401,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 376.5, 174.0, 38.0 ],
+					"patching_rect" : [ 213.0, 377.5, 174.0, 38.0 ],
 					"text" : "use sketch commands to \ncapture a texture"
 				}
 
@@ -415,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 178.0, 177.0, 22.0 ],
+					"patching_rect" : [ 213.0, 180.0, 177.0, 22.0 ],
 					"text" : "cubemap texture target"
 				}
 
@@ -429,7 +429,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 154.5, 177.0, 22.0 ],
+					"patching_rect" : [ 213.0, 156.5, 177.0, 22.0 ],
 					"text" : "apply a texture on a model"
 				}
 
@@ -448,7 +448,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 58.0, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 60.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 305.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -467,7 +467,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 63.0, 114.0, 16.0 ],
+					"patching_rect" : [ 10.0, 65.0, 114.0, 16.0 ],
 					"text" : "load GLtexture_basics"
 				}
 
@@ -562,7 +562,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 154.0, 117.0, 20.0 ],
+					"patching_rect" : [ 10.0, 156.0, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 261.0, 576.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -581,7 +581,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 157.0, 109.0, 16.0 ],
+					"patching_rect" : [ 10.0, 159.0, 109.0, 16.0 ],
 					"text" : "load GLmodel_texture"
 				}
 
@@ -600,7 +600,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 82.0, 82.0, 20.0 ],
+					"patching_rect" : [ 10.0, 84.0, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -623,7 +623,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 178.0, 90.0, 20.0 ],
+					"patching_rect" : [ 10.0, 180.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 432.0, 307.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -642,7 +642,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 178.0, 79.0, 16.0 ],
+					"patching_rect" : [ 10.0, 180.0, 79.0, 16.0 ],
 					"text" : "load GLskybox"
 				}
 
@@ -657,7 +657,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 83.0, 82.0, 16.0 ],
+					"patching_rect" : [ 10.0, 85.0, 82.0, 16.0 ],
 					"text" : "load GLtexture+"
 				}
 
@@ -691,7 +691,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 380.5, 122.0, 20.0 ],
+					"patching_rect" : [ 10.0, 381.5, 122.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 158.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -748,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 384.0, 127.0, 17.0 ],
+					"patching_rect" : [ 10.0, 385.0, 127.0, 17.0 ],
 					"text" : "load texture2GLsketch"
 				}
 
@@ -800,7 +800,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 81.5, 219.0, 22.0 ],
+					"patching_rect" : [ 213.0, 83.5, 219.0, 22.0 ],
 					"text" : "more options and multiple images"
 				}
 
@@ -814,7 +814,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 58.5, 157.0, 22.0 ],
+					"patching_rect" : [ 213.0, 60.5, 157.0, 22.0 ],
 					"text" : "use an image or video"
 				}
 
@@ -828,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 425.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 219.0, 21.0 ],
 					"text" : "use or capture images as textures",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -860,7 +860,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 272.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 130.0, 30.0 ],
 					"text" : "GLtexture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -893,7 +893,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 364.0, 428.0, 4.0 ],
+					"patching_rect" : [ 2.0, 365.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -909,7 +909,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 212.0, 428.0, 4.0 ],
+					"patching_rect" : [ 2.0, 213.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -925,7 +925,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 434.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

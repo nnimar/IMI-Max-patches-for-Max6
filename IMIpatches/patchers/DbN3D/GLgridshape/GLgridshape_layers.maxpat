@@ -963,7 +963,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 481.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 481.0, 21.0 ],
 					"text" : "place shapes in a flatten 3D space user layers and @depthbuffer 0 on jit.window",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1259,7 +1259,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 767.0, 50.0 ],
+					"patching_rect" : [ 3.0, 3.0, 767.0, 51.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 159.0, 193.0, 24.0 ],
+					"patching_rect" : [ 264.0, 158.0, 193.0, 24.0 ],
 					"text" : "mode / threshold / radius / post"
 				}
 
@@ -53,7 +53,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 161.0, 60.0, 20.0 ]
+					"patching_rect" : [ 201.0, 160.0, 60.0, 20.0 ]
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 65.0, 161.0, 20.0, 20.0 ]
+					"patching_rect" : [ 65.0, 160.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 161.0, 39.0, 20.0 ]
+					"patching_rect" : [ 156.0, 160.0, 39.0, 20.0 ]
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 110.0, 161.0, 39.0, 20.0 ]
+					"patching_rect" : [ 110.0, 160.0, 39.0, 20.0 ]
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.0, 161.0, 115.0, 20.0 ],
+					"patching_rect" : [ 65.0, 160.0, 115.0, 20.0 ],
 					"text" : "loadmess 1 25 10 0"
 				}
 
@@ -126,7 +126,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -644,7 +644,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 19.0, 187.0, 201.0, 20.0 ],
+					"patching_rect" : [ 19.0, 186.0, 201.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -672,7 +672,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 63.0, 161.0, 89.0, 20.0 ],
+					"patching_rect" : [ 63.0, 160.0, 89.0, 20.0 ],
 					"text" : "unpack 0 0 0 0"
 				}
 
@@ -757,7 +757,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1579,7 +1579,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 189.0, 245.0, 20.0 ],
+					"patching_rect" : [ 306.0, 188.0, 245.0, 20.0 ],
 					"text" : "(1) use threshold to remove smaller blobs"
 				}
 
@@ -1610,7 +1610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 543.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 543.0, 21.0 ],
 					"text" : "this is similar to <jit.findbounds> but finds the bounding box for every blob in a labeled image.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1630,7 +1630,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1666,7 +1666,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -2739,7 +2739,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -3067,7 +3067,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -3649,7 +3649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 188.0, 20.0, 20.0 ],
+					"patching_rect" : [ 225.0, 187.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -3669,7 +3669,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 569.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 569.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

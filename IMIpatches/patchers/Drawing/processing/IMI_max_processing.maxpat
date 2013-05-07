@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -394,7 +394,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -2.0, 30.0, 485.0, 21.0 ],
+					"patching_rect" : [ -2.0, 30.0, 294.0, 21.0 ],
 					"text" : " drawings example, using mgraphics and lcd ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -454,7 +454,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 387.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 269.0, 30.0 ],
 					"text" : "IMI Max and processing...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -502,7 +502,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 516.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 516.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

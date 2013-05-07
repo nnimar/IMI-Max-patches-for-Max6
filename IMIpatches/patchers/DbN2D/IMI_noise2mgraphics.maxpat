@@ -168,14 +168,14 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 116.0, 159.0, 40.0 ],
+					"patching_rect" : [ 172.0, 117.0, 146.0, 37.0 ],
 					"text" : "2 planes / 1 dimension\nchar (0 - 255)"
 				}
 

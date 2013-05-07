@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -260,7 +260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 628.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 628.0, 21.0 ],
 					"text" : "press the space bar to set background (empty background), then press again to see the background removal",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -949,7 +949,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 759.0, 50.0 ]
+					"patching_rect" : [ 3.0, 3.0, 759.0, 51.0 ]
 				}
 
 			}

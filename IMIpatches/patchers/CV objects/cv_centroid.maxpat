@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 422.0, 158.0, 121.0 ],
+					"patching_rect" : [ 8.0, 417.0, 158.0, 121.0 ],
 					"rightvalue" : 160,
 					"topvalue" : 0
 				}
@@ -158,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 439.0, 20.0 ],
+					"patching_rect" : [ 3.0, 31.0, 439.0, 20.0 ],
 					"text" : "returns the centroids, or the center of mass of a greyscale image or object",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
@@ -191,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.0, 212.0, 214.0, 24.0 ],
+					"patching_rect" : [ 95.0, 202.0, 214.0, 24.0 ],
 					"text" : "converts from RGB to monochrome"
 				}
 
@@ -206,7 +206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 188.0, 174.0, 148.0, 24.0 ],
+					"patching_rect" : [ 188.0, 169.0, 148.0, 24.0 ],
 					"text" : "resized with antiliasing"
 				}
 
@@ -220,7 +220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 554.0, 71.0, 35.0 ]
+					"patching_rect" : [ 7.0, 549.0, 71.0, 35.0 ]
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.0, 373.0, 65.0, 22.0 ],
+					"patching_rect" : [ 94.0, 368.0, 65.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -250,7 +250,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 374.0, 42.0, 22.0 ],
+					"patching_rect" : [ 160.0, 369.0, 42.0, 22.0 ],
 					"text" : "mass"
 				}
 
@@ -264,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 40.0, 338.0, 126.0, 22.0 ],
+					"patching_rect" : [ 40.0, 333.0, 126.0, 22.0 ],
 					"text" : "cv.jit.centroids"
 				}
 
@@ -278,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 212.0, 84.0, 22.0 ],
+					"patching_rect" : [ 7.0, 202.0, 84.0, 22.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -294,7 +294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.0, 247.0, 320.0, 24.0 ],
+					"patching_rect" : [ 171.0, 244.0, 320.0, 24.0 ],
 					"text" : "change thresholding value to obtain a binary image"
 				}
 
@@ -306,7 +306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 422.0, 160.0, 120.0 ]
+					"patching_rect" : [ 7.0, 417.0, 160.0, 120.0 ]
 				}
 
 			}
@@ -322,7 +322,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 132.0, 247.0, 36.0, 22.0 ],
+					"patching_rect" : [ 132.0, 244.0, 36.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -336,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 282.0, 144.0, 22.0 ],
+					"patching_rect" : [ 7.0, 274.0, 144.0, 22.0 ],
 					"text" : "jit.op @op > @val 50"
 				}
 
@@ -351,7 +351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 331.0, 247.0, 69.0 ],
+					"patching_rect" : [ 226.0, 326.0, 247.0, 69.0 ],
 					"text" : "returns the center of mass of a greyscale image or object (centroid)\n\nand returns the mass."
 				}
 
@@ -365,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 175.0, 176.0, 22.0 ],
+					"patching_rect" : [ 7.0, 170.0, 176.0, 22.0 ],
 					"text" : "cv.jit.resize @size 160 120"
 				}
 
@@ -448,7 +448,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 516.0, 230.0, 26.0 ],
+					"patching_rect" : [ 167.0, 511.0, 230.0, 26.0 ],
 					"text" : "centroids changes knob position"
 				}
 
@@ -463,7 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 250.0, 67.0, 18.0 ],
+					"patching_rect" : [ 101.0, 247.0, 67.0, 18.0 ],
 					"text" : "loadmess 50"
 				}
 
@@ -479,7 +479,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 525.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 525.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -492,7 +492,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 329.0, 179.0, 72.0 ],
+					"patching_rect" : [ 34.0, 324.0, 179.0, 72.0 ],
 					"rounded" : 30
 				}
 
@@ -530,7 +530,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.5, 325.0, 49.5, 325.0 ],
+					"midpoints" : [ 16.5, 320.0, 49.5, 320.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -670,7 +670,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 370.5, 17.5, 370.5 ],
+					"midpoints" : [ 49.5, 365.5, 17.5, 365.5 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

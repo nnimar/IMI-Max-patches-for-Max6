@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.0, 501.0, 99.0, 20.0 ],
+					"patching_rect" : [ 455.0, 500.0, 99.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 266.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 502.5, 46.0, 18.0 ],
+					"patching_rect" : [ 455.0, 501.5, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 503.0, 105.0, 17.0 ],
+					"patching_rect" : [ 455.0, 502.0, 105.0, 17.0 ],
 					"text" : "load freenect_blob"
 				}
 
@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 432.0, 85.0, 20.0 ],
+					"patching_rect" : [ 265.0, 431.0, 85.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "cv_features",
 					"texton" : "Stop"
@@ -111,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 434.0, 107.0, 15.0 ],
+					"patching_rect" : [ 264.0, 433.0, 107.0, 15.0 ],
 					"text" : "load cv_feature2GLdraw"
 				}
 
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 434.0, 46.0, 18.0 ],
+					"patching_rect" : [ 268.0, 433.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -139,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 525.0, 125.0, 20.0 ],
+					"patching_rect" : [ 77.0, 524.0, 125.0, 20.0 ],
 					"text" : "average of an image"
 				}
 
@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 303.0, 252.0, 20.0 ],
+					"patching_rect" : [ 108.0, 302.0, 252.0, 20.0 ],
 					"text" : "use moments to learn and recognise patterns"
 				}
 
@@ -167,7 +167,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 304.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 303.0, 21.0, 20.0 ],
 					"text" : "6."
 				}
 
@@ -186,7 +186,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 304.0, 77.0, 19.0 ],
+					"patching_rect" : [ 27.0, 303.0, 77.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 408.0, 404.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -205,7 +205,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 303.0, 81.0, 17.0 ],
+					"patching_rect" : [ 27.0, 302.0, 81.0, 17.0 ],
 					"text" : "load cv_learn"
 				}
 
@@ -224,7 +224,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 432.0, 73.0, 20.0 ],
+					"patching_rect" : [ 188.0, 431.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 368.0, 438.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -243,7 +243,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.0, 432.0, 88.0, 17.0 ],
+					"patching_rect" : [ 186.0, 431.0, 88.0, 17.0 ],
 					"text" : "load cv_hsflow"
 				}
 
@@ -262,7 +262,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.0, 114.0, 136.0, 20.0 ],
+					"patching_rect" : [ 169.0, 113.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 248.0, 68.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -281,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 114.0, 89.0, 17.0 ],
+					"patching_rect" : [ 168.0, 113.0, 89.0, 17.0 ],
 					"text" : "load cv_blob03"
 				}
 
@@ -295,7 +295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 82.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 81.0, 21.0, 20.0 ],
 					"text" : "1."
 				}
 
@@ -309,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.0, 82.0, 194.0, 20.0 ],
+					"patching_rect" : [ 126.0, 81.0, 194.0, 20.0 ],
 					"text" : "the first step is to clean the image"
 				}
 
@@ -328,7 +328,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 82.0, 91.0, 20.0 ],
+					"patching_rect" : [ 27.0, 81.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.0, 95.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -347,7 +347,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 84.0, 101.0, 17.0 ],
+					"patching_rect" : [ 27.0, 83.0, 101.0, 17.0 ],
 					"text" : "load cv_threshold"
 				}
 
@@ -362,7 +362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 457.0, 52.0, 19.0 ],
+					"patching_rect" : [ 189.0, 456.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -381,7 +381,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.0, 526.0, 73.0, 20.0 ],
+					"patching_rect" : [ 455.0, 525.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 472.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -404,7 +404,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 535.0, 526.0, 78.0, 20.0 ],
+					"patching_rect" : [ 534.0, 525.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 468.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -423,7 +423,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, 526.0, 69.0, 16.0 ],
+					"patching_rect" : [ 534.0, 525.0, 69.0, 16.0 ],
 					"text" : "load cv2draw"
 				}
 
@@ -438,7 +438,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.0, 526.0, 46.0, 18.0 ],
+					"patching_rect" : [ 535.0, 525.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -457,7 +457,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 145.0, 124.0, 19.0 ],
+					"patching_rect" : [ 27.0, 144.0, 124.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 74.0, 537.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -476,7 +476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 146.0, 94.0, 17.0 ],
+					"patching_rect" : [ 27.0, 145.0, 94.0, 17.0 ],
 					"text" : "load cv_jit.blobs"
 				}
 
@@ -490,7 +490,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 112.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 111.0, 21.0, 20.0 ],
 					"text" : "2."
 				}
 
@@ -504,7 +504,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 208.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 207.0, 21.0, 20.0 ],
 					"text" : "5."
 				}
 
@@ -518,7 +518,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 176.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 175.0, 21.0, 20.0 ],
 					"text" : "4."
 				}
 
@@ -532,7 +532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 144.0, 21.0, 20.0 ],
+					"patching_rect" : [ 6.0, 143.0, 21.0, 20.0 ],
 					"text" : "3."
 				}
 
@@ -546,7 +546,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, 114.0, 270.0, 20.0 ],
+					"patching_rect" : [ 311.0, 113.0, 270.0, 20.0 ],
 					"text" : "use cv.jit.labels to identify each blob components"
 				}
 
@@ -565,7 +565,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 114.0, 136.0, 20.0 ],
+					"patching_rect" : [ 27.0, 113.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 345.0, 67.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -584,7 +584,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 114.0, 87.0, 17.0 ],
+					"patching_rect" : [ 27.0, 113.0, 87.0, 17.0 ],
 					"text" : "load cv_blob01"
 				}
 
@@ -598,7 +598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 368.0, 159.0, 20.0 ],
+					"patching_rect" : [ 176.0, 367.0, 159.0, 20.0 ],
 					"text" : "creates blobs for multitouch"
 				}
 
@@ -617,7 +617,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.0, 368.0, 74.0, 20.0 ],
+					"patching_rect" : [ 100.0, 367.0, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 356.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -640,7 +640,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 368.0, 91.0, 20.0 ],
+					"patching_rect" : [ 4.0, 367.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 356.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -658,7 +658,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 341.5, 164.0, 22.0 ],
+					"patching_rect" : [ 6.0, 340.5, 164.0, 22.0 ],
 					"text" : "BLOBS (MULTITOUCH)"
 				}
 
@@ -672,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 499.0, 44.0, 20.0 ],
+					"patching_rect" : [ 288.0, 498.0, 44.0, 20.0 ],
 					"text" : "edges"
 				}
 
@@ -691,7 +691,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 525.0, 71.0, 20.0 ],
+					"patching_rect" : [ 4.0, 524.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 357.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -710,7 +710,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 525.0, 84.0, 17.0 ],
+					"patching_rect" : [ 4.0, 524.0, 84.0, 17.0 ],
 					"text" : "help cv.jit.ravg"
 				}
 
@@ -729,7 +729,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.0, 498.0, 100.0, 20.0 ],
+					"patching_rect" : [ 183.0, 497.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0, 418.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -748,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 501.0, 110.0, 17.0 ],
+					"patching_rect" : [ 181.0, 500.0, 110.0, 17.0 ],
 					"text" : "help cv.jit.perimeter"
 				}
 
@@ -767,7 +767,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.0, 498.0, 78.0, 20.0 ],
+					"patching_rect" : [ 100.0, 497.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.0, 431.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -786,7 +786,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 500.0, 92.0, 17.0 ],
+					"patching_rect" : [ 99.0, 499.0, 92.0, 17.0 ],
 					"text" : "help cv.jit.canny"
 				}
 
@@ -805,7 +805,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 498.0, 92.0, 20.0 ],
+					"patching_rect" : [ 4.0, 497.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 250.0, 414.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -824,7 +824,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 499.0, 102.0, 17.0 ],
+					"patching_rect" : [ 5.0, 498.0, 102.0, 17.0 ],
 					"text" : "help cv.jit.binedge"
 				}
 
@@ -843,7 +843,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.0, 432.0, 104.0, 20.0 ],
+					"patching_rect" : [ 80.0, 431.0, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 419.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -862,7 +862,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 432.0, 115.0, 17.0 ],
+					"patching_rect" : [ 82.0, 431.0, 115.0, 17.0 ],
 					"text" : "help cv.jit.opticalflow"
 				}
 
@@ -881,7 +881,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 432.0, 71.0, 20.0 ],
+					"patching_rect" : [ 4.0, 431.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 422.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -900,7 +900,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 432.0, 86.0, 17.0 ],
+					"patching_rect" : [ 13.0, 431.0, 86.0, 17.0 ],
 					"text" : "load cv_track"
 				}
 
@@ -919,7 +919,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 198.0, 270.0, 144.0, 20.0 ],
+					"patching_rect" : [ 197.0, 269.0, 144.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 424.0, 257.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -938,7 +938,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 270.0, 146.0, 17.0 ],
+					"patching_rect" : [ 199.0, 269.0, 146.0, 17.0 ],
 					"text" : "help cv.jit.blobs.orientation"
 				}
 
@@ -957,7 +957,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 198.0, 240.0, 132.0, 20.0 ],
+					"patching_rect" : [ 197.0, 239.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 279.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -976,7 +976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.0, 240.0, 136.0, 17.0 ],
+					"patching_rect" : [ 198.0, 239.0, 136.0, 17.0 ],
 					"text" : "help cv.jit.blobs.direction"
 				}
 
@@ -995,7 +995,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 198.0, 208.0, 141.0, 20.0 ],
+					"patching_rect" : [ 197.0, 207.0, 141.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 392.0, 262.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1014,7 +1014,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 210.0, 146.0, 17.0 ],
+					"patching_rect" : [ 197.0, 209.0, 146.0, 17.0 ],
 					"text" : "help cv.jit.blobs.elongation"
 				}
 
@@ -1033,7 +1033,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 208.0, 135.0, 20.0 ],
+					"patching_rect" : [ 27.0, 207.0, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 465.0, 255.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1052,7 +1052,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 207.0, 140.0, 17.0 ],
+					"patching_rect" : [ 27.0, 206.0, 140.0, 17.0 ],
 					"text" : "help cv.jit.blobs.moments"
 				}
 
@@ -1071,7 +1071,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 175.0, 106.0, 20.0 ],
+					"patching_rect" : [ 351.0, 174.0, 106.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 371.0, 282.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1094,7 +1094,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 175.0, 135.0, 20.0 ],
+					"patching_rect" : [ 27.0, 174.0, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 277.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1113,7 +1113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 285.0, 52.0, 19.0 ],
+					"patching_rect" : [ 197.0, 284.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1127,7 +1127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 145.0, 279.0, 20.0 ],
+					"patching_rect" : [ 154.0, 144.0, 279.0, 20.0 ],
 					"text" : "calculate the bounding box and send it to a matrix"
 				}
 
@@ -1141,7 +1141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 471.5, 51.0, 22.0 ],
+					"patching_rect" : [ 6.0, 470.5, 51.0, 22.0 ],
 					"text" : "MISC"
 				}
 
@@ -1155,7 +1155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 173.0, 24.0, 27.0 ],
+					"patching_rect" : [ 326.0, 172.0, 24.0, 27.0 ],
 					"text" : ">"
 				}
 
@@ -1169,7 +1169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 205.0, 24.0, 27.0 ],
+					"patching_rect" : [ 167.0, 204.0, 24.0, 27.0 ],
 					"text" : ">"
 				}
 
@@ -1183,7 +1183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 406.5, 129.0, 22.0 ],
+					"patching_rect" : [ 6.0, 405.5, 129.0, 22.0 ],
 					"text" : "PIXEL TRACKING"
 				}
 
@@ -1197,7 +1197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.0, 208.0, 272.0, 20.0 ],
+					"patching_rect" : [ 341.0, 207.0, 272.0, 20.0 ],
 					"text" : "shape : 0 is compact (square, circle). 1 like a line"
 				}
 
@@ -1211,7 +1211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.0, 270.0, 125.0, 20.0 ],
+					"patching_rect" : [ 345.0, 269.0, 125.0, 20.0 ],
 					"text" : "orientation of the blob"
 				}
 
@@ -1225,7 +1225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.0, 240.0, 125.0, 20.0 ],
+					"patching_rect" : [ 332.0, 239.0, 125.0, 20.0 ],
 					"text" : "direction of the blob"
 				}
 
@@ -1239,7 +1239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 175.0, 161.0, 20.0 ],
+					"patching_rect" : [ 166.0, 174.0, 161.0, 20.0 ],
 					"text" : "calculate the center of mass"
 				}
 
@@ -1253,7 +1253,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.0, 175.0, 159.0, 20.0 ],
+					"patching_rect" : [ 458.0, 174.0, 159.0, 20.0 ],
 					"text" : "re-order labels for continuity"
 				}
 
@@ -1267,7 +1267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 56.5, 67.0, 22.0 ],
+					"patching_rect" : [ 6.0, 55.5, 67.0, 22.0 ],
 					"text" : "BLOBS "
 				}
 
@@ -1281,7 +1281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 322.0, 20.0 ],
+					"patching_rect" : [ 3.0, 30.0, 322.0, 20.0 ],
 					"text" : "cv.jit is a collection of tools for computer vision applications",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1297,7 +1297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 525.0, 52.0, 19.0 ],
+					"patching_rect" : [ 3.0, 524.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1312,7 +1312,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 485.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 107.0, 30.0 ],
 					"text" : "cv_misc",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1329,7 +1329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 98.0, 369.0, 98.0, 17.0 ],
+					"patching_rect" : [ 97.0, 368.0, 98.0, 17.0 ],
 					"text" : "load cv.jit.recycle"
 				}
 
@@ -1344,7 +1344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 369.0, 107.0, 17.0 ],
+					"patching_rect" : [ 4.0, 368.0, 107.0, 17.0 ],
 					"text" : "load cv_multitouch"
 				}
 
@@ -1359,7 +1359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 367.0, 52.0, 19.0 ],
+					"patching_rect" : [ 3.0, 366.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1374,7 +1374,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 432.0, 52.0, 19.0 ],
+					"patching_rect" : [ 14.0, 431.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1389,7 +1389,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.0, 526.0, 89.0, 17.0 ],
+					"patching_rect" : [ 455.0, 525.0, 89.0, 17.0 ],
 					"text" : "load Tap_tools"
 				}
 
@@ -1403,7 +1403,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 178.0, 84.0, 16.0 ],
+					"patching_rect" : [ 27.0, 177.0, 84.0, 16.0 ],
 					"text" : "load cv_glsketch"
 				}
 
@@ -1418,7 +1418,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 177.0, 83.0, 17.0 ],
+					"patching_rect" : [ 352.0, 176.0, 83.0, 17.0 ],
 					"text" : "load blobtrack"
 				}
 
@@ -1434,7 +1434,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 616.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 616.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

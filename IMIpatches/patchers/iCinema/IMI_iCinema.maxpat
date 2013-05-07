@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 451.0, 226.0 ],
@@ -60,7 +61,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 172.0, 201.5, 116.0, 16.0 ],
-					"presentation_rect" : [ 35.0, 178.5, 0.0, 0.0 ],
 					"text" : "load Scheduled_Events"
 				}
 
@@ -211,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 142.5, 229.0, 22.0 ],
+					"patching_rect" : [ 128.0, 144.5, 229.0, 22.0 ],
 					"text" : "one webcam / two looping points"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 143.5, 84.0, 20.0 ],
+					"patching_rect" : [ 8.0, 145.5, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 166.0, 145.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -249,7 +249,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 146.5, 99.0, 16.0 ],
+					"patching_rect" : [ 8.0, 148.5, 99.0, 16.0 ],
 					"text" : "load IMI_iCinema03"
 				}
 
@@ -268,7 +268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 101.5, 84.0, 20.0 ],
+					"patching_rect" : [ 8.0, 103.5, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -287,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 103.5, 99.0, 16.0 ],
+					"patching_rect" : [ 8.0, 105.5, 99.0, 16.0 ],
 					"text" : "load IMI_iCinema02"
 				}
 
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 61.5, 84.0, 20.0 ],
+					"patching_rect" : [ 8.0, 63.5, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 62.5, 133.0, 16.0 ],
+					"patching_rect" : [ 8.0, 64.5, 133.0, 16.0 ],
 					"text" : "load IMI_iCinema01-simple"
 				}
 
@@ -339,7 +339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 265.0, 21.0 ],
+					"patching_rect" : [ 2.0, 29.0, 265.0, 21.0 ],
 					"text" : "using sensors to make interactive stories",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -355,7 +355,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 101.5, 229.0, 22.0 ],
+					"patching_rect" : [ 130.0, 103.5, 229.0, 22.0 ],
 					"text" : "one sensor / three looping points"
 				}
 
@@ -369,7 +369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 60.5, 214.0, 22.0 ],
+					"patching_rect" : [ 130.0, 62.5, 214.0, 22.0 ],
 					"text" : "one sensor / two looping points"
 				}
 
@@ -384,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 142.5, 52.0, 19.0 ],
+					"patching_rect" : [ 130.0, 144.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -399,7 +399,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 387.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 295.0, 30.0 ],
 					"text" : "IMI iCinema experiments",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -432,7 +432,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 446.0, 49.0 ],
+					"patching_rect" : [ 2.0, 1.0, 446.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

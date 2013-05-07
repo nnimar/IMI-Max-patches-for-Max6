@@ -1080,7 +1080,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 4.0, 376.0, 30.0 ],
+					"patching_rect" : [ 3.0, 4.0, 376.0, 30.0 ],
 					"text" : "IMI type text (lcd or text3D)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1096,7 +1096,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 32.0, 475.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 475.0, 21.0 ],
 					"text" : "use the textedit object to enter and edit text on the lcd object or the text 3d object.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1172,7 +1172,6 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 169.0, 127.0, 215.0, 71.0 ],
-					"readonly" : 1,
 					"text" : "hello how are you ? Type sometihn "
 				}
 
@@ -1387,7 +1386,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 604.0, 49.0 ],
+					"patching_rect" : [ 2.0, 3.0, 604.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

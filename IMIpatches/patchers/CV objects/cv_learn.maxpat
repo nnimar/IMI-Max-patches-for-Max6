@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 343.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 119.0, 30.0 ],
 					"text" : "cv_learn",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 641.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 594.0, 21.0 ],
 					"text" : "cv.jit.learn has two modes, one to learn about the features of an image (train) and an other to compare",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -150,7 +150,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -469,7 +469,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1206,7 +1206,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 708.0, 50.0 ],
+					"patching_rect" : [ 1.0, 3.0, 708.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

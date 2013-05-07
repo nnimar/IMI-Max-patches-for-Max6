@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 471.0, 526.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 471.0, 500.0 ],
@@ -316,8 +318,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 443.0, 267.0, 271.0, 170.0 ],
@@ -744,8 +747,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1.0, 70.0, 471.0, 500.0 ],
@@ -883,8 +887,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 217.0, 380.0, 258.0, 146.0 ],
@@ -1007,8 +1012,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 219.0, 188.0, 258.0, 146.0 ],
@@ -1170,7 +1176,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 3.0, 274.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 274.0, 30.0 ],
 									"text" : "Gen vs Expr : calculation",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -1309,6 +1315,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "Gen_expr" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -1323,8 +1330,8 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

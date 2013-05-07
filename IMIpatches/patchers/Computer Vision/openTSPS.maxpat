@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -150,7 +150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 472.0, 30.0 ],
+					"patching_rect" : [ 3.0, 1.0, 213.0, 30.0 ],
 					"text" : "openTSPS (via OSC)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
