@@ -244,7 +244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 285.0, 30.0 ],
+					"patching_rect" : [ 3.0, 4.0, 285.0, 30.0 ],
 					"text" : "Background removal ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -260,7 +260,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 628.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 628.0, 21.0 ],
 					"text" : "press the space bar to set background (empty background), then press again to see the background removal",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

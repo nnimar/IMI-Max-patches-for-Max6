@@ -1116,7 +1116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 178.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 178.0, 30.0 ],
 					"text" : "GLgridshape",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1186,7 +1186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 487.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 487.0, 21.0 ],
 					"text" : "generate simple geometric shapes as a connected grid (grid-shape)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

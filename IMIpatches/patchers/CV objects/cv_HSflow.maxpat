@@ -1440,7 +1440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 261.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 261.0, 30.0 ],
 					"text" : "cv_HSflow: Optical Flow",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"

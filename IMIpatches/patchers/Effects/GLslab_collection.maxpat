@@ -597,7 +597,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 702.0, 44.0, 262.0, 502.0 ],
+						"rect" : [ 685.0, 44.0, 262.0, 502.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1069,7 +1069,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 704.0, 44.0, 354.0, 423.0 ],
+						"rect" : [ 686.0, 44.0, 354.0, 423.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1266,7 +1266,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 157.0, 99.0, 130.0, 19.0 ],
+									"patching_rect" : [ 157.0, 103.0, 130.0, 19.0 ],
 									"text" : "jit.noise 4 char 640 480"
 								}
 
@@ -1374,6 +1374,7 @@
 									"destination" : [ "obj-8", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 166.5, 134.0, 317.5, 134.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2049,6 +2050,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,

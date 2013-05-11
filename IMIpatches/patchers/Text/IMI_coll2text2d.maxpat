@@ -607,7 +607,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 346.0, 463.0, 113.0, 20.0 ],
+					"patching_rect" : [ 350.0, 463.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1471,7 +1471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.0, 463.0, 75.0, 16.0 ],
+					"patching_rect" : [ 354.0, 463.0, 75.0, 16.0 ],
 					"text" : "load Multi-Text"
 				}
 
@@ -1486,7 +1486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.0, 463.0, 96.0, 15.0 ],
+					"patching_rect" : [ 352.0, 463.0, 96.0, 15.0 ],
 					"text" : "load IMI_coll2text2d+"
 				}
 
@@ -1501,7 +1501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.0, 463.0, 44.0, 17.0 ],
+					"patching_rect" : [ 352.0, 463.0, 44.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 

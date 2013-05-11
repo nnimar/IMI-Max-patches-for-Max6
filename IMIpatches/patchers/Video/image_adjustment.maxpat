@@ -317,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 30.0, 602.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 602.0, 21.0 ],
 					"text" : "brcosa (brightness, contrast, saturation), scalebias (scale = multiply like brightness, bias = add) and hue",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

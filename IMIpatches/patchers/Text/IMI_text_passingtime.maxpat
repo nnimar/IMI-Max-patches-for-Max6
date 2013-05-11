@@ -422,7 +422,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 443.0, 44.0, 365.0, 154.0 ],
+						"rect" : [ 767.0, 44.0, 365.0, 154.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -465,7 +465,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 223.0, 62.0, 132.0, 31.0 ],
+									"patching_rect" : [ 223.0, 62.0, 132.0, 30.0 ],
 									"text" : "textface bold italic outline underline extend"
 								}
 
@@ -479,7 +479,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 125.0, 73.0, 95.0, 20.0 ],
+									"patching_rect" : [ 125.0, 73.0, 95.0, 19.0 ],
 									"text" : "prepend textface"
 								}
 
@@ -496,7 +496,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 125.0, 41.0, 89.0, 20.0 ]
+									"patching_rect" : [ 125.0, 41.0, 89.0, 19.0 ]
 								}
 
 							}
@@ -509,7 +509,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 47.0, 87.0, 18.0 ],
+									"patching_rect" : [ 11.0, 47.0, 87.0, 17.0 ],
 									"text" : "font Courier 14"
 								}
 
@@ -522,7 +522,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 122.0, 50.0, 20.0 ],
+									"patching_rect" : [ 11.0, 122.0, 50.0, 19.0 ],
 									"text" : "s mylcd"
 								}
 
@@ -536,7 +536,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 46.0, 75.0, 72.0, 18.0 ],
+									"patching_rect" : [ 46.0, 75.0, 72.0, 17.0 ],
 									"text" : "textmode $1"
 								}
 
@@ -647,7 +647,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 477.0, 30.0 ],
+					"patching_rect" : [ 4.0, 4.0, 477.0, 30.0 ],
 					"text" : "IMI passing time : dot, dot, dot.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -663,7 +663,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 618.0, 21.0 ],
+					"patching_rect" : [ 4.0, 33.0, 618.0, 21.0 ],
 					"text" : "If not keyboard interaction, a dot is drawed every second, this patch uses the <LCD> and <text> objects.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

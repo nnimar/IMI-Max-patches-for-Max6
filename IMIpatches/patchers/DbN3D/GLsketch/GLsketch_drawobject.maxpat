@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 460.0, 319.0 ],
+		"rect" : [ 0.0, 44.0, 461.0, 331.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -37,8 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 221.276306, 154.311646, 225.0, 37.0 ],
-					"presentation_rect" : [ 246.276306, 97.311646, 0.0, 0.0 ],
+					"patching_rect" : [ 221.276306, 162.311646, 225.0, 37.0 ],
 					"text" : "place a gridshape on one side of the x axis and the other on the other side"
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 182.0, 60.0, 35.0 ]
+					"patching_rect" : [ 13.0, 190.0, 60.0, 35.0 ]
 				}
 
 			}
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 148.0, 278.0, 282.0, 33.0 ],
+					"patching_rect" : [ 148.0, 286.0, 282.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape sphere @scale 0.2 0.2 0.2 @lighting_enable 1 @name graph @automatic 0"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 148.0, 99.0, 33.0, 20.0 ],
+					"patching_rect" : [ 148.0, 112.0, 33.0, 20.0 ],
 					"text" : "* -1."
 				}
 
@@ -95,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 196.444336, 56.627441, 43.0, 20.0 ]
+					"patching_rect" : [ 196.444336, 70.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 148.359741, 129.714844, 48.0, 20.0 ]
+					"patching_rect" : [ 148.359741, 142.714844, 48.0, 20.0 ]
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.501404, 163.856506, 67.0, 20.0 ],
+					"patching_rect" : [ 147.501404, 171.856506, 67.0, 20.0 ],
 					"text" : "pack -1. 1."
 				}
 
@@ -137,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.52002, 198.897583, 271.0, 31.0 ],
+					"patching_rect" : [ 147.52002, 206.897583, 271.0, 31.0 ],
 					"text" : "reset, glclear, moveto $1 0. 0., drawobject graph, moveto $2 0. 0., drawobject graph"
 				}
 
@@ -152,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 57.0, 82.0, 20.0 ],
+					"patching_rect" : [ 196.0, 70.0, 82.0, 20.0 ],
 					"text" : "loadmess 0.5"
 				}
 
@@ -166,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 148.0, 244.0, 70.0, 20.0 ],
+					"patching_rect" : [ 148.0, 252.0, 70.0, 20.0 ],
 					"text" : "jit.gl.sketch"
 				}
 
@@ -184,8 +184,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 471.0, 357.0, 411.0, 282.0 ],
@@ -695,7 +696,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 228.0, 102.0, 20.0 ],
+					"patching_rect" : [ 11.0, 236.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -723,7 +724,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 251.638458, 109.0, 33.0 ],
+					"patching_rect" : [ 11.0, 259.638458, 109.0, 33.0 ],
 					"text" : "jit.window drawobj @fsmenubar 0"
 				}
 
@@ -754,7 +755,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 274.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 274.0, 21.0 ],
 					"text" : "place two GLgridshape in symetrical way",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -770,7 +771,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 13.0, 155.0, 70.0, 20.0 ],
+					"patching_rect" : [ 13.0, 163.0, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -784,7 +785,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 13.0, 119.0, 57.0, 20.0 ],
+					"patching_rect" : [ 13.0, 127.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -797,7 +798,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 63.0, 20.0, 20.0 ]
+					"patching_rect" : [ 13.0, 70.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -810,7 +811,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 94.0, 67.0, 20.0 ],
+					"patching_rect" : [ 13.0, 100.0, 67.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -825,7 +826,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 53.0, 123.147247, 240.0 ],
+					"patching_rect" : [ 4.0, 61.0, 123.147247, 240.0 ],
 					"rounded" : 30
 				}
 
@@ -840,7 +841,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 64.0, 60.0, 20.0 ],
+					"patching_rect" : [ 14.0, 72.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -856,7 +857,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 457.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 457.0, 51.0 ],
 					"varname" : "autohelp_top_panel[7]"
 				}
 
@@ -885,7 +886,7 @@
 					"destination" : [ "obj-127", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 60.5, 146.0, 22.5, 146.0 ],
+					"midpoints" : [ 60.5, 154.0, 22.5, 154.0 ],
 					"source" : [ "obj-129", 1 ]
 				}
 
@@ -976,7 +977,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 205.944336, 89.313721, 157.5, 89.313721 ],
+					"midpoints" : [ 205.944336, 101.313721, 157.5, 101.313721 ],
 					"source" : [ "obj-50", 0 ]
 				}
 

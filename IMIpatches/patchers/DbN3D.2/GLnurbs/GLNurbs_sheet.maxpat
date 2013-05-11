@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 630.0, 621.0 ],
@@ -92,8 +93,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 632.0, 361.0, 411.0, 282.0 ],
@@ -631,7 +633,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 334.638458, 119.0, 33.0 ],
+					"patching_rect" : [ 8.0, 334.638458, 121.0, 33.0 ],
 					"text" : "jit.window nurbsheet @fsmenubar 0"
 				}
 
@@ -646,8 +648,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 1.0, 343.0, 30.0 ],
-					"text" : "GLNurb-sheet (matmat)",
+					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
+					"text" : "GLnurbs sheet (matmat)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -662,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
 					"text" : "use phys.hinge and phys.multiple with a GLnurbs",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -682,8 +684,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 638.0, 358.0, 240.0, 259.0 ],
@@ -1269,7 +1272,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 59.0, 26.0, 26.0 ]
+					"patching_rect" : [ 8.0, 62.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1397,7 +1400,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 626.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 626.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -74,7 +74,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 6.0, 5.0, 619.0, 147.0 ],
-									"text" : "The plugins installed belongs to their respective authors: Adam Murray (ajm), Masayuki Akamatsu (aka), Leo Vanderveen (c74), Michael Zbysynski (cnmat, University of Berkley), Miller Puckette (crca), Mathieu Champagne, Charles Bascou, Erin Catto (box2d), Joseph Malloch, Stephen Sinclair, Marlon Schumacher (dot), Fredrik Olofsson (f0), Jakob Riis (jr), Pelado, Karlheinz Essl (RTC), Vade (shaders), Zachary Seldess (z), Emmanuel Jourdan (ej, zsa), Wes (textcoordmagic), Andrew Benson (Cycling '74), ..."
+									"text" : "The plugins installed belongs to their respective authors: Adam Murray (ajm), Masayuki Akamatsu (aka), Leo Vanderveen (c74), Michael Zbysynski (cnmat, University of Berkley), Miller Puckette (crca), Mathieu Champagne, Charles Bascou, Erin Catto (box2d), Joseph Malloch, Stephen Sinclair, Marlon Schumacher (dot), Fredrik Olofsson (f0), Jakob Riis (jr), Pelado, Karlheinz Essl (RTC), Vade (shaders), Zachary Seldess (z), Emmanuel Jourdan (ej, zsa), Wes (textcoordmagic), ..."
 								}
 
 							}
@@ -109,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 308.0, 143.0, 226.0, 19.0 ],
+					"patching_rect" : [ 337.0, 142.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -126,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 136.0, 207.0, 25.0 ],
+					"patching_rect" : [ 341.0, 136.0, 207.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
 
@@ -156,8 +156,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 119.0, 647.0, 87.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on http://cycling74.com/forums/ or\nimproved help files from Max. Many patches were taken from Max's evangelists Andrew Benson and Robert Ramirez, thanks for their great tutorials !"
+					"patching_rect" : [ 4.0, 119.0, 656.0, 87.0 ],
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson and Luke DuBois, thanks for their great tutorials and support to the non tildas !"
 				}
 
 			}

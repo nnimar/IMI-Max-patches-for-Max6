@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 662.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 336.0, 21.0 ],
 					"text" : "get a normalised output from the Kinect using jit.map",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.931305, 295.0, 103.0, 33.0 ],
+					"patching_rect" : [ 267.931305, 302.0, 103.0, 33.0 ],
 					"text" : "push this down until it looks good"
 				}
 
@@ -137,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.931305, 297.0, 123.0, 33.0 ],
+					"patching_rect" : [ 35.931305, 305.0, 123.0, 33.0 ],
 					"text" : "push this up until background vanishes"
 				}
 
@@ -293,7 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 62.885483, 20.0, 20.0 ]
+					"patching_rect" : [ 11.0, 59.885483, 20.0, 20.0 ]
 				}
 
 			}
@@ -306,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.977112, 90.885483, 69.0, 21.0 ],
+					"patching_rect" : [ 10.977112, 87.885483, 69.0, 21.0 ],
 					"text" : "qmetro 33"
 				}
 

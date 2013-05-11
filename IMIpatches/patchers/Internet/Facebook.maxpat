@@ -259,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 204.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 204.0, 21.0 ],
 					"text" : "read a facebook JSON file",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -625,7 +625,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 296.0, 63.0, 103.0, 20.0 ],
+					"patching_rect" : [ 296.0, 58.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",

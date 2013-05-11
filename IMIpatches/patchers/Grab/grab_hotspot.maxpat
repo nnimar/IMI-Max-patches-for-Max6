@@ -246,7 +246,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 193.0, 30.0 ],
+					"patching_rect" : [ 3.0, 4.0, 193.0, 30.0 ],
 					"text" : "Grab hotspot",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -262,7 +262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 390.0, 21.0 ],
+					"patching_rect" : [ 5.0, 32.0, 390.0, 21.0 ],
 					"text" : "send a bang whenever movement is detected in one of the 9 zones",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

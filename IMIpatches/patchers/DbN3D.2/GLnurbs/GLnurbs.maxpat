@@ -55,11 +55,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 206.0, 111.0, 20.0 ],
+					"patching_rect" : [ 12.0, 206.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 237.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLNurbs_sheet",
+					"text" : "GLnurbs_sheet",
 					"texton" : "Stop"
 				}
 
@@ -75,7 +75,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 206.0, 102.0, 16.0 ],
-					"text" : "load GLNurbs_sheet"
+					"text" : "load GLnurbs_sheet"
 				}
 
 			}
@@ -310,7 +310,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 181.0, 149.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLNurbs_extrude",
+					"text" : "GLnurbs_extrude",
 					"texton" : "Stop"
 				}
 
@@ -386,7 +386,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 458.0, 385.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLNurbs_sound",
+					"text" : "GLnurbs_sound",
 					"texton" : "Stop"
 				}
 
@@ -409,7 +409,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLNurbs_video",
+					"text" : "GLnurbs_video",
 					"texton" : "Stop"
 				}
 
@@ -692,7 +692,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 

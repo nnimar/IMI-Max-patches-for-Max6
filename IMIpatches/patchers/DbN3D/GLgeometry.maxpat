@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"orientation" : 0,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.0, 157.0, 131.0, 20.0 ],
+					"patching_rect" : [ 371.0, 157.0, 144.0, 20.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"rounded" : 8.0,
@@ -1283,7 +1283,7 @@
 					"hbgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"htricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-76",
 					"ignoreclick" : 0,
 					"maxclass" : "number",
@@ -1295,12 +1295,12 @@
 					"outlettype" : [ "int", "bang" ],
 					"outputonclick" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 599.0, 289.0, 31.0, 19.0 ],
+					"patching_rect" : [ 599.0, 289.0, 36.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 1,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
 
@@ -1997,7 +1997,7 @@
 					"hbgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"htextcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"htricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-59",
 					"ignoreclick" : 0,
 					"maxclass" : "number",
@@ -2014,7 +2014,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 1,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 1.0
 				}
 
@@ -2032,7 +2032,7 @@
 					"hbgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"htricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-52",
 					"ignoreclick" : 0,
 					"maxclass" : "number",
@@ -2044,12 +2044,12 @@
 					"outlettype" : [ "int", "bang" ],
 					"outputonclick" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 670.0, 289.0, 31.0, 19.0 ],
+					"patching_rect" : [ 670.0, 289.0, 37.0, 19.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 1,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2438,7 +2438,7 @@
 					"hbgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"htricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 0,
 					"maxclass" : "number",
@@ -2455,7 +2455,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 1,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
 
@@ -2598,7 +2598,7 @@
 					"hbgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"hidden" : 0,
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
+					"htricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-17",
 					"ignoreclick" : 0,
 					"maxclass" : "flonum",
@@ -2616,7 +2616,7 @@
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triangle" : 1,
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
+					"tricolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triscale" : 0.9
 				}
 

@@ -851,8 +851,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 257.0, 21.0 ],
-					"text" : "Use jit.noise to create 3d positions and size",
+					"patching_rect" : [ 4.0, 32.0, 257.0, 21.0 ],
+					"text" : "use jit.noise to create 3d positions and size",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1511,7 +1511,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 479.0, 50.0 ],
+					"patching_rect" : [ 3.0, 3.0, 479.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

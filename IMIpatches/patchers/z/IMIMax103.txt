@@ -41,6 +41,7 @@
 53, GLnurbs "matrix to GL Nurbs";
 54, GLmultiple "control multiple gridshape";
 55, GLisosurf "create an isosurf";
-56, GLmisc "an overview of GL world";
+56, GLmodel "use 3D models";
+57, GLoverview "an overview of GL world";
 60, -----------------------;
 

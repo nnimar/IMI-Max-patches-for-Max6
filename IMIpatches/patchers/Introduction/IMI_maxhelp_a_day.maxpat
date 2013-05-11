@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 429.0, 307.0 ],
@@ -110,9 +111,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.0, 138.0, 33.526974, 42.49707 ],
+					"patching_rect" : [ 276.0, 138.0, 33.519531, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 381.0, 199.0, 33.526974, 42.49707 ],
+					"presentation_rect" : [ 381.0, 199.0, 33.519531, 41.515625 ],
 					"rounded" : 20.0,
 					"text" : "+",
 					"texton" : "Stop"
@@ -189,11 +190,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 156.121994, 49.396484 ],
+					"patching_rect" : [ 166.0, 435.0, 134.054688, 48.21875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 100.0, 156.121994, 49.396484 ],
+					"presentation_rect" : [ 15.0, 100.0, 134.054688, 48.21875 ],
 					"rounded" : 20.0,
-					"text" : "gswitch2",
+					"text" : "f0.wrap",
 					"texton" : "Stop"
 				}
 
@@ -236,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 18.0 ],
-					"text" : "help gswitch2"
+					"text" : "help f0.wrap"
 				}
 
 			}
@@ -509,7 +510,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 18.0 ],
-					"text" : "help gswitch"
+					"text" : "help f0.fold"
 				}
 
 			}
@@ -527,11 +528,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 116.076668, 42.49707 ],
+					"patching_rect" : [ 17.0, 435.0, 97.723633, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 199.0, 116.076668, 42.49707 ],
+					"presentation_rect" : [ 167.0, 199.0, 97.723633, 41.515625 ],
 					"rounded" : 20.0,
-					"text" : "gswitch",
+					"text" : "f0.fold",
 					"texton" : "Stop"
 				}
 
@@ -541,7 +542,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -559,14 +560,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 29.0, 400.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 29.0, 396.0, 21.0 ],
+					"presentation_rect" : [ 4.0, 31.0, 396.0, 21.0 ],
 					"text" : "learn Max through it's core objects, here is two help files for the day !",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -580,14 +581,13 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 2.0, 408.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 425.0, 49.0 ],
+					"presentation_rect" : [ 2.0, 2.0, 425.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

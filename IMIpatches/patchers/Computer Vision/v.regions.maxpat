@@ -1979,7 +1979,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 179.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 179.0, 30.0 ],
 					"text" : "v.region",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1995,7 +1995,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 901.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 901.0, 21.0 ],
 					"text" : "v.region uses the frame differencing methods but adds the possibility of creating zones.  It was adapted from the SoftVNS (David Rokeby)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

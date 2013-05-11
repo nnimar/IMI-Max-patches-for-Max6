@@ -1190,7 +1190,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 227.0, 30.0 ],
+									"patching_rect" : [ 2.0, 3.0, 227.0, 30.0 ],
 									"text" : "Unsharp mask (c74)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -1206,7 +1206,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 30.0, 428.0, 20.0 ],
+									"patching_rect" : [ 3.0, 31.0, 428.0, 20.0 ],
 									"text" : "remove some blur from the image for cv processing",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1652,7 +1652,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 179.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 									"text" : "IMI slide on grab",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -1668,7 +1668,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 30.0, 427.0, 20.0 ],
+									"patching_rect" : [ 3.0, 31.0, 427.0, 20.0 ],
 									"text" : "slide specify the amount of frames it would take to fully get to an input image",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -8913,7 +8913,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 179.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 									"text" : "IMI video grab",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -8929,7 +8929,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 310.0, 20.0 ],
+									"patching_rect" : [ 4.0, 31.0, 310.0, 20.0 ],
 									"text" : "a simplified version of the video grab (one camera)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"

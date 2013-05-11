@@ -693,7 +693,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 532.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 394.0, 30.0 ],
 					"text" : "GLsketch Twine Ball (Andrew Benson)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -709,7 +709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 477.0, 21.0 ],
+					"patching_rect" : [ 6.0, 32.0, 343.0, 21.0 ],
 					"text" : "use the \"stroke\" commands to create curves in OpenGL.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1383,7 +1383,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 733.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 733.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
