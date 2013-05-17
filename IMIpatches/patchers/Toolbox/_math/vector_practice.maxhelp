@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 464.0, 401.0 ],
@@ -35,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 345.0, 336.0, 20.0 ],
-					"presentation_rect" : [ 107.0, 379.0, 0.0, 0.0 ],
+					"patching_rect" : [ 107.0, 348.0, 336.0, 20.0 ],
 					"text" : "calculate the perpendicular component of P with respect to Q"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 343.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 346.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 378.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,8 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 345.5, 71.0, 18.0 ],
-					"presentation_rect" : [ 7.0, 382.5, 0.0, 0.0 ],
+					"patching_rect" : [ 7.0, 348.5, 71.0, 18.0 ],
 					"text" : "load a-perp"
 				}
 
@@ -89,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 271.5, 261.0, 20.0 ],
+					"patching_rect" : [ 124.0, 274.5, 261.0, 20.0 ],
 					"text" : "find the intersection between two lines (lua)"
 				}
 
@@ -103,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 243.5, 166.0, 20.0 ],
+					"patching_rect" : [ 124.0, 246.5, 166.0, 20.0 ],
 					"text" : "center of four points  (lua)"
 				}
 
@@ -122,7 +121,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 270.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 273.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 278.0, 341.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -141,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 270.5, 113.0, 18.0 ],
+					"patching_rect" : [ 7.0, 273.5, 113.0, 18.0 ],
 					"text" : "load intersect_lines"
 				}
 
@@ -160,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 241.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 244.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.0, 270.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -179,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 241.5, 86.0, 18.0 ],
+					"patching_rect" : [ 7.0, 244.5, 86.0, 18.0 ],
 					"text" : "load centroid4"
 				}
 
@@ -193,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 215.5, 166.0, 20.0 ],
+					"patching_rect" : [ 124.0, 218.5, 166.0, 20.0 ],
 					"text" : "center of three points (lua)"
 				}
 
@@ -212,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 213.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 216.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 267.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -231,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 213.5, 86.0, 18.0 ],
+					"patching_rect" : [ 7.0, 216.5, 86.0, 18.0 ],
 					"text" : "load centroid3"
 				}
 
@@ -245,7 +244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 185.5, 243.0, 20.0 ],
+					"patching_rect" : [ 124.0, 188.5, 243.0, 20.0 ],
 					"text" : "distance between two points (lua)"
 				}
 
@@ -264,7 +263,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 185.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 188.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 254.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -283,7 +282,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 185.5, 114.0, 18.0 ],
+					"patching_rect" : [ 7.0, 188.5, 114.0, 18.0 ],
 					"text" : "load point_distance"
 				}
 
@@ -297,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 300.5, 267.0, 20.0 ],
+					"patching_rect" : [ 161.0, 303.5, 267.0, 20.0 ],
 					"text" : "intersection between a line and a sphere  (lua)"
 				}
 
@@ -316,7 +315,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 298.5, 144.0, 23.0 ],
+					"patching_rect" : [ 7.0, 301.5, 144.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 246.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -335,7 +334,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 298.5, 151.0, 18.0 ],
+					"patching_rect" : [ 7.0, 301.5, 151.0, 18.0 ],
 					"text" : "load intersect_line_sphere"
 				}
 
@@ -349,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 143.0, 336.0, 20.0 ],
+					"patching_rect" : [ 107.0, 146.0, 336.0, 20.0 ],
 					"text" : "yields a vector that is perpendicular to the original two vectors"
 				}
 
@@ -363,7 +362,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 114.5, 230.0, 20.0 ],
+					"patching_rect" : [ 107.0, 117.5, 230.0, 20.0 ],
 					"text" : "get the angle between two vectors"
 				}
 
@@ -377,7 +376,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 86.5, 246.0, 20.0 ],
+					"patching_rect" : [ 107.0, 89.5, 246.0, 20.0 ],
 					"text" : "gives you the direction between two vectors"
 				}
 
@@ -391,7 +390,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 61.0, 337.0, 20.0 ],
+					"patching_rect" : [ 107.0, 64.0, 337.0, 20.0 ],
 					"text" : "helps you to  move things around (position, direction, velocity)"
 				}
 
@@ -410,7 +409,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 142.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 145.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 294.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -429,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 146.5, 107.0, 18.0 ],
+					"patching_rect" : [ 7.0, 149.5, 107.0, 18.0 ],
 					"text" : "load crossProduct"
 				}
 
@@ -448,7 +447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 86.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 89.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 163.0, 198.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -467,7 +466,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 86.5, 95.0, 18.0 ],
+					"patching_rect" : [ 7.0, 89.5, 95.0, 18.0 ],
 					"text" : "load vector_sub"
 				}
 
@@ -486,7 +485,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 58.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 61.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 149.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -505,7 +504,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 62.5, 96.0, 18.0 ],
+					"patching_rect" : [ 7.0, 65.5, 96.0, 18.0 ],
 					"text" : "load vector_add"
 				}
 
@@ -524,7 +523,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 114.5, 89.0, 22.0 ],
+					"patching_rect" : [ 7.0, 117.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 518.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -543,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 114.5, 95.0, 18.0 ],
+					"patching_rect" : [ 7.0, 117.5, 95.0, 18.0 ],
 					"text" : "load dotProduct"
 				}
 
@@ -573,7 +572,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 381.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 200.0, 30.0 ],
 					"text" : "vectors in practice",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -589,7 +588,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 391.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 319.0, 21.0 ],
 					"text" : "a few examples to get started with vectors in Max.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -607,7 +606,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 460.0, 48.0 ],
+					"patching_rect" : [ 1.0, 2.0, 460.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

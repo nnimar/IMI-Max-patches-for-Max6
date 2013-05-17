@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 589.0, 44.0, 497.0, 335.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -52,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 27.0, 204.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 204.0, 21.0 ],
 					"text" : "use a scanner from Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -68,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 215.0, 460.0, 22.0 ],
+					"patching_rect" : [ 6.0, 220.0, 460.0, 22.0 ],
 					"text" : "Unix command to scan an image with SANE and put it on the desktop ;"
 				}
 
@@ -82,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 135.0, 150.0, 22.0 ],
+					"patching_rect" : [ 8.0, 140.0, 150.0, 22.0 ],
 					"text" : "For more info :"
 				}
 
@@ -96,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 58.0, 420.0, 22.0 ],
+					"patching_rect" : [ 8.0, 63.0, 420.0, 22.0 ],
 					"text" : "Download the SANE preference pane and the SANE backends :"
 				}
 
@@ -111,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 82.0, 332.0, 36.0 ],
+					"patching_rect" : [ 8.0, 87.0, 332.0, 36.0 ],
 					"text" : ";\rmax launchbrowser http://www.ellert.se/twain-sane/"
 				}
 
@@ -126,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 159.0, 312.0, 36.0 ],
+					"patching_rect" : [ 7.0, 164.0, 312.0, 36.0 ],
 					"text" : ";\rmax launchbrowser http://www.sane-project.org/"
 				}
 
@@ -155,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 240.0, 461.0, 36.0 ],
+					"patching_rect" : [ 6.0, 245.0, 461.0, 36.0 ],
 					"text" : "/usr/local/bin/scanimage -x 200 -y 300 --format=tiff > /Users/imi/Desktop/image.tif --mode Color --resolution 100 --brightness 3"
 				}
 
@@ -171,7 +172,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 491.0, 47.0 ],
+					"patching_rect" : [ 3.0, 3.0, 491.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

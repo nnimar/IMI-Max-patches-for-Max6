@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -102,7 +102,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -208,7 +208,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -334,7 +334,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -578,7 +578,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 484.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 437.0, 30.0 ],
 					"text" : "Smoother + derivitive (Michael Zbyszynski)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -594,7 +594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 511.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 348.0, 21.0 ],
 					"text" : "smooth sensor values and output speed and acceleration",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -709,7 +709,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 17.0, 145.0, 44.0, 20.0 ],
+					"patching_rect" : [ 17.0, 151.0, 44.0, 20.0 ],
 					"text" : "* 0.01"
 				}
 
@@ -723,7 +723,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 17.0, 116.0, 82.0, 20.0 ],
+					"patching_rect" : [ 17.0, 122.0, 82.0, 20.0 ],
 					"text" : "drunk 100 10"
 				}
 
@@ -781,7 +781,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 56.0, 24.0, 24.0 ]
+					"patching_rect" : [ 17.0, 62.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -794,7 +794,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 17.0, 88.0, 58.0, 20.0 ],
+					"patching_rect" : [ 17.0, 94.0, 58.0, 20.0 ],
 					"text" : "metro 40"
 				}
 
@@ -851,7 +851,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 674.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 674.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -907,7 +907,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.5, 174.5, 318.5, 174.5 ],
+					"midpoints" : [ 26.5, 193.5, 318.5, 193.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 

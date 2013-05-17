@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 3
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 558.0, 579.0 ],
+		"rect" : [ 100.0, 100.0, 558.0, 579.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -126,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 438.0, 552.0, 52.0, 20.0 ],
+					"patching_rect" : [ 438.0, 552.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -135,11 +136,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 550.0, 128.0, 23.0 ],
+					"patching_rect" : [ 3.0, 550.0, 128.0, 22.0 ],
 					"text" : "source : wikipedia"
 				}
 
@@ -162,12 +164,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.0, 58.0, 289.0, 55.0 ],
+					"patching_rect" : [ 261.0, 58.0, 289.0, 53.0 ],
 					"text" : "A Cartesian coordinate system specifies each point uniquely in a plane by a pair of numerical coordinates"
 				}
 
@@ -176,12 +179,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 315.0, 274.0, 87.0 ],
+					"patching_rect" : [ 258.0, 315.0, 274.0, 85.0 ],
 					"text" : "The polar coordinate system is a two-dimensional coordinate system in which each point on a plane is determined by a distance from a fixed point and an angle from a fixed direction."
 				}
 
@@ -191,12 +195,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 220.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 220.0, 30.0 ],
 					"text" : "polar - cartesian",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -207,12 +211,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 420.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 307.0, 21.0 ],
 					"text" : "convert from one coordinate system to another",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -226,13 +230,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-39",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 555.0, 52.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 555.0, 51.0 ]
 				}
 
 			}
@@ -276,7 +278,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "500px-CircularCoordinates.png",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
 				"patcherrelativepath" : "../../z/ images",
 				"type" : "PNG ",
 				"implicit" : 1

@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 591.0, 366.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -133,7 +133,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 157.0, 53.0, 22.0 ],
+					"patching_rect" : [ 39.0, 159.0, 53.0, 22.0 ],
 					"text" : "s bang"
 				}
 
@@ -218,7 +218,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -274,7 +274,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 533.0, 28.0, 49.0, 18.0 ],
+					"patching_rect" : [ 537.0, 32.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -348,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 179.0, 30.0 ],
 					"text" : "Jitter2Syphon",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -364,7 +364,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 426.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 426.0, 21.0 ],
 					"text" : "basic patch to use Syphon (open Syphon Client or Syphon Quartz to test)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -380,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 223.0, 55.0, 34.0 ]
+					"patching_rect" : [ 8.0, 225.0, 55.0, 34.0 ]
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 265.0, 122.0, 38.0 ],
+					"patching_rect" : [ 6.0, 267.0, 122.0, 38.0 ],
 					"text" : "jit.window syphon @visible 0"
 				}
 
@@ -408,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 188.0, 80.0, 22.0 ],
+					"patching_rect" : [ 8.0, 190.0, 80.0, 22.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -422,7 +422,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 8.0, 117.0, 81.0, 22.0 ],
+					"patching_rect" : [ 8.0, 119.0, 81.0, 22.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -436,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 88.0, 74.0, 22.0 ],
+					"patching_rect" : [ 8.0, 90.0, 74.0, 22.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -449,7 +449,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 8.0, 62.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -461,7 +461,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 55.0, 126.147247, 255.0 ],
+					"patching_rect" : [ 3.0, 57.0, 126.147247, 255.0 ],
 					"rounded" : 30
 				}
 
@@ -554,7 +554,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 587.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 587.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -574,7 +574,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 79.5, 147.0, 17.5, 147.0 ],
+					"midpoints" : [ 79.5, 149.0, 17.5, 149.0 ],
 					"source" : [ "obj-13", 2 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -168,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 184.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 184.0, 30.0 ],
 					"text" : "OSCseq",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -184,7 +184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 383.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 383.0, 21.0 ],
 					"text" : "a very simple example patch to receive data from OSCseq",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -273,7 +273,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 478.0, 50.0 ],
+					"patching_rect" : [ 3.0, 2.0, 478.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

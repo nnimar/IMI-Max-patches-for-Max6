@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 509.0, 595.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -247,8 +248,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 588.0, 44.0, 233.0, 314.0 ],
@@ -768,8 +770,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 519.0, 44.0, 330.0, 300.0 ],
@@ -874,8 +877,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1334,8 +1338,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 516.0, 44.0, 375.0, 275.0 ],
@@ -1517,8 +1522,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 536.0, 66.0, 176.0, 290.0 ],
@@ -2224,7 +2230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 486.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 486.0, 21.0 ],
 					"text" : "change is used to filter out repetitions, here is some practical cases and alternatives",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -2761,22 +2767,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jb.change",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/jb.utilities1.2/abstractions",
+				"patcherrelativepath" : "../../../externals/tools/jb.utilities1.2/abstractions",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jb.grid",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/jb.utilities1.2/abstractions",
+				"patcherrelativepath" : "../../../externals/tools/jb.utilities1.2/abstractions",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jb.pass",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/jb.utilities1.2/abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/jb.utilities1.2/abstractions",
+				"patcherrelativepath" : "../../../externals/tools/jb.utilities1.2/abstractions",
 				"type" : "maxb",
 				"implicit" : 1
 			}

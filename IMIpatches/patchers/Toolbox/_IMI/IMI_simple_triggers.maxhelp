@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 411.0, 572.0 ],
@@ -656,7 +657,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 406.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 406.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -946,7 +947,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "past2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"patcherrelativepath" : "../_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1

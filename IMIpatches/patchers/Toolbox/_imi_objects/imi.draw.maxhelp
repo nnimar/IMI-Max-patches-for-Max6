@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 507.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -31,6 +32,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -45,6 +47,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -59,6 +62,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -73,6 +77,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -91,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 335.0, 80.0, 21.0 ],
+					"patching_rect" : [ 44.0, 335.0, 80.0, 20.0 ],
 					"text" : "clear, bang"
 				}
 
@@ -105,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 109.0, 143.0, 21.0 ],
+					"patching_rect" : [ 41.0, 109.0, 143.0, 20.0 ],
 					"text" : "paintrect 50 50 80 80"
 				}
 
@@ -119,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.0, 137.0, 105.0, 23.0 ],
+					"patching_rect" : [ 41.0, 137.0, 105.0, 22.0 ],
 					"text" : "imi.draw center"
 				}
 
@@ -134,7 +139,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 186.0, 37.0, 20.0 ]
+					"patching_rect" : [ 210.0, 186.0, 37.0, 19.0 ]
 				}
 
 			}
@@ -148,7 +153,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 186.0, 37.0, 20.0 ]
+					"patching_rect" : [ 166.0, 186.0, 37.0, 19.0 ]
 				}
 
 			}
@@ -162,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 186.0, 37.0, 20.0 ]
+					"patching_rect" : [ 121.0, 186.0, 37.0, 19.0 ]
 				}
 
 			}
@@ -176,7 +181,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.0, 186.0, 37.0, 20.0 ]
+					"patching_rect" : [ 77.0, 186.0, 37.0, 19.0 ]
 				}
 
 			}
@@ -185,12 +190,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-29",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 59.367401, 162.0, 38.0 ],
+					"patching_rect" : [ 330.0, 59.367401, 168.0, 37.0 ],
 					"text" : "clear, white backgound, \ngrey foreground"
 				}
 
@@ -204,7 +210,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 415.0, 76.0, 18.0 ],
+					"patching_rect" : [ 32.0, 415.0, 76.0, 17.0 ],
 					"text" : "size 200 200"
 				}
 
@@ -218,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 68.367401, 314.0, 21.0 ],
+					"patching_rect" : [ 13.0, 68.367401, 314.0, 20.0 ],
 					"text" : "clear, brgb 255 255 255, frgb 150 150 150, bang"
 				}
 
@@ -246,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 77.0, 280.0, 105.0, 23.0 ],
+					"patching_rect" : [ 77.0, 280.0, 105.0, 22.0 ],
 					"text" : "imi.draw center"
 				}
 
@@ -260,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 252.0, 119.0, 23.0 ],
+					"patching_rect" : [ 77.0, 252.0, 119.0, 22.0 ],
 					"text" : "prepend paintrect"
 				}
 
@@ -288,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 252.0, 42.0, 21.0 ],
+					"patching_rect" : [ 212.0, 252.0, 42.0, 20.0 ],
 					"text" : "clear"
 				}
 
@@ -297,12 +303,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 474.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 405.0, 21.0 ],
 					"text" : "lcd drawing help : use with paintoval, frameoval, framerect, paintrect",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -314,12 +320,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 299.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 98.0, 30.0 ],
 					"text" : "imi.draw ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -336,7 +342,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 77.0, 175.0, 153.0, 20.0 ],
+					"patching_rect" : [ 77.0, 175.0, 153.0, 19.0 ],
 					"text" : "unpack 50 50 30 30"
 				}
 
@@ -351,7 +357,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 77.0, 176.0, 58.0, 20.0 ],
+					"patching_rect" : [ 77.0, 176.0, 58.0, 19.0 ],
 					"text" : "loadbang"
 				}
 
@@ -363,12 +369,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-30",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 502.0, 50.0 ],
+					"patching_rect" : [ 3.0, 2.0, 502.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -395,7 +400,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-5",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -593,8 +597,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.draw.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

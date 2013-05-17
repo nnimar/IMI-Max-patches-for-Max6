@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 404.0, 585.0 ],
@@ -83,12 +84,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 525.0, 131.0, 34.0 ],
+					"patching_rect" : [ 12.0, 525.0, 131.0, 33.0 ],
 					"text" : "@norm 1 to normalise the output"
 				}
 
@@ -217,8 +219,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 511.0, 99.0, 333.0, 543.0 ],
@@ -244,6 +247,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-45",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -273,6 +277,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-41",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -301,6 +306,7 @@
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -317,6 +323,7 @@
 									"bubbleside" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-32",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -331,6 +338,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-26",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -396,8 +404,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 5
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 511.0, 101.0, 334.0, 232.0 ],
@@ -542,8 +551,8 @@
 													"id" : "obj-35",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 12.000031, 156.0, 164.0, 20.0 ],
 													"text" : "jit.gl.lua @file vectorMath.lua"
 												}
@@ -712,22 +721,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 14.0, 383.0, 192.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial"
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p lua.intersect_line_sphere"
@@ -739,6 +747,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -816,8 +825,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 5
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 511.0, 101.0, 273.0, 230.0 ],
@@ -936,8 +946,8 @@
 													"id" : "obj-35",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 12.000031, 156.0, 164.0, 20.0 ],
 													"text" : "jit.gl.lua @file vectorMath.lua"
 												}
@@ -1078,22 +1088,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 14.0, 249.0, 135.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial"
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p lua.triangle.centroid"
@@ -1105,6 +1114,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1173,6 +1183,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1250,8 +1261,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 5
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 511.0, 101.0, 273.0, 230.0 ],
@@ -1370,8 +1382,8 @@
 													"id" : "obj-35",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 12.000031, 156.0, 164.0, 20.0 ],
 													"text" : "jit.gl.lua @file vectorMath.lua"
 												}
@@ -1512,22 +1524,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 14.0, 144.0, 135.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial"
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p lua.triangle.normal"
@@ -1588,8 +1599,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 5
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 847.0, 100.0, 190.0, 252.0 ],
@@ -1682,8 +1694,8 @@
 													"id" : "obj-35",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 10.666656, 167.0, 164.0, 20.0 ],
 													"text" : "jit.gl.lua @file vectorMath.lua"
 												}
@@ -1796,22 +1808,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 14.0, 42.0, 77.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"fontface" : 0,
 										"default_fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
 										"default_fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"fontname" : "Arial"
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p lua.Vadd"
@@ -2090,22 +2101,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 340.0, 527.0, 59.0, 23.0 ],
+					"patching_rect" : [ 340.0, 527.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p more"
@@ -2170,11 +2180,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.0, 94.0, 87.0, 24.0 ],
+					"patching_rect" : [ 279.0, 94.0, 90.0, 24.0 ],
 					"text" : "magnitude "
 				}
 
@@ -2184,6 +2195,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2198,6 +2210,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2212,6 +2225,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2290,8 +2304,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 509.0, 101.0, 192.0, 249.0 ],
@@ -2373,8 +2388,8 @@
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 10.000031, 167.0, 164.0, 20.0 ],
 									"text" : "jit.gl.lua @file vectorMath.lua"
 								}
@@ -2498,22 +2513,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 205.0, 354.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p lua.Vdot"
@@ -2533,8 +2547,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 511.0, 101.0, 178.0, 185.0 ],
@@ -2577,8 +2592,8 @@
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 88.0, 164.0, 20.0 ],
 									"text" : "jit.gl.lua @file vectorMath.lua"
 								}
@@ -2635,22 +2650,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 205.0, 189.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p lua.Vnormal"
@@ -2684,8 +2698,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 510.0, 97.0, 204.0, 253.0 ],
@@ -2767,8 +2782,8 @@
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 16.0, 163.0, 164.0, 20.0 ],
 									"text" : "jit.gl.lua @file vectorMath.lua"
 								}
@@ -2892,22 +2907,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 205.0, 458.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p lua.Vcross"
@@ -2968,8 +2982,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 511.0, 100.0, 184.0, 189.0 ],
@@ -2998,8 +3013,8 @@
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 8.0, 90.0, 164.0, 20.0 ],
 									"text" : "jit.gl.lua @file vectorMath.lua"
 								}
@@ -3070,22 +3085,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 205.0, 97.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p lua.Vmag"
@@ -3125,12 +3139,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 381.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 328.0, 30.0 ],
 					"text" : "vector calculation (mark2e, nm)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -3141,7 +3155,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3385,7 +3399,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-28",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -3402,12 +3415,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 400.0, 51.0 ],
+					"patching_rect" : [ 2.0, 2.0, 400.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -3726,29 +3738,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "z.vecMag.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.vecMag",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.vecMag",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.vecMag",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.vecMag",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.vecNorm.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.vecNorm",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.vecNorm",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.vecNorm",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.vecNorm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.crossP.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.crossP",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.crossP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.dotP.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.dotP",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.dotP",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.dotP",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.dotP",
 				"type" : "JSON",
 				"implicit" : 1
 			}

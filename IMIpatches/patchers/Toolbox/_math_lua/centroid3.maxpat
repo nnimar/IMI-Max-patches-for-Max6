@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 494.0, 433.0 ],
@@ -112,8 +113,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 506.0, 374.0, 289.0, 299.0 ],
@@ -372,8 +374,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 508.0, 373.0, 239.0, 281.0 ],
@@ -659,8 +662,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 973.0, 47.0, 461.0, 268.0 ],
@@ -1037,8 +1041,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 505.0, 374.0, 244.0, 286.0 ],
@@ -1282,8 +1287,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 508.0, 371.0, 240.0, 288.0 ],
@@ -1539,8 +1545,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 506.0, 375.0, 411.0, 282.0 ],
@@ -2096,7 +2103,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 267.0, 102.0, 20.0 ],
+					"patching_rect" : [ 8.166687, 258.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2156,7 +2163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 223.0, 60.0, 35.0 ]
+					"patching_rect" : [ 8.166687, 214.0, 60.0, 35.0 ]
 				}
 
 			}
@@ -2168,7 +2175,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 156.0, 47.0, 20.0 ],
+					"patching_rect" : [ 32.166687, 162.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -2266,7 +2273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 292.0, 116.0, 20.0 ],
+					"patching_rect" : [ 8.166687, 283.0, 116.0, 20.0 ],
 					"text" : "jit.window centroid3"
 				}
 
@@ -2280,7 +2287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.166687, 98.0, 63.0, 20.0 ],
+					"patching_rect" : [ 8.0, 98.0, 63.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -2292,10 +2299,10 @@
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 8.166687, 127.0, 81.0, 20.0 ],
-					"text" : "t b erase"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "erase" ],
+					"patching_rect" : [ 8.0, 127.0, 67.0, 20.0 ],
+					"text" : "t b b erase"
 				}
 
 			}
@@ -2308,7 +2315,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.916687, 194.5, 72.0, 20.0 ],
+					"patching_rect" : [ 8.0, 185.5, 72.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -2321,7 +2328,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 60.0, 128.147247, 257.0 ],
+					"patching_rect" : [ 3.0, 60.0, 127.147247, 252.0 ],
 					"rounded" : 30
 				}
 
@@ -2558,8 +2565,8 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 79.666687, 184.25, 17.416687, 184.25 ],
-					"source" : [ "obj-55", 1 ]
+					"midpoints" : [ 65.5, 153.25, 17.5, 153.25 ],
+					"source" : [ "obj-55", 2 ]
 				}
 
 			}
@@ -2577,7 +2584,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-55", 0 ]
+					"source" : [ "obj-55", 1 ]
 				}
 
 			}

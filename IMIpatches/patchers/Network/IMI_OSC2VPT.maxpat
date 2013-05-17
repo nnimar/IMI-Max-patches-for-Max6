@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
@@ -92,8 +93,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 753.0, 44.0, 471.0, 228.0 ],
@@ -383,8 +385,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 754.0, 44.0, 528.0, 460.0 ],
@@ -514,7 +517,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 614.0, 432.0, 127.0, 20.0 ],
+					"patching_rect" : [ 614.0, 434.0, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 611.0, 163.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -533,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 433.0, 122.0, 16.0 ],
+					"patching_rect" : [ 614.0, 435.0, 122.0, 16.0 ],
 					"text" : "load UDPreceiver.maxpat"
 				}
 
@@ -548,7 +551,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 614.0, 432.0, 52.0, 19.0 ],
+					"patching_rect" : [ 614.0, 434.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -911,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 638.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 638.0, 21.0 ],
 					"text" : "send intructions to hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -946,7 +949,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 740.0, 50.0 ],
+					"patching_rect" : [ 3.0, 2.0, 740.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1224,8 +1227,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.for.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/control/dot.for",
-				"patcherrelativepath" : "../Plugins_tools/dot_20121204/control/dot.for",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/control/dot.for",
+				"patcherrelativepath" : "../../externals/tools/dot_20121204/control/dot.for",
 				"type" : "JSON",
 				"implicit" : 1
 			}

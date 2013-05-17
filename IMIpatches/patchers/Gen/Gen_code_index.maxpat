@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 584.0, 553.0 ],
@@ -40,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 461.0, 523.0, 113.0, 20.0 ],
+					"patching_rect" : [ 461.0, 525.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 377.0, 340.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -59,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.0, 523.0, 108.0, 18.0 ],
+					"patching_rect" : [ 462.0, 525.0, 108.0, 18.0 ],
 					"text" : "load Gen_tutorials"
 				}
 
@@ -74,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 523.0, 53.0, 20.0 ],
+					"patching_rect" : [ 464.0, 525.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -88,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 54.0, 51.0, 22.0 ],
+					"patching_rect" : [ 424.0, 56.0, 51.0, 22.0 ],
 					"text" : "More :"
 				}
 
@@ -105,8 +106,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 300.0, 256.0, 1150.0, 505.0 ],
@@ -1790,7 +1792,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 474.0, 56.0, 94.0, 19.0 ],
+					"patching_rect" : [ 474.0, 58.0, 94.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1820,8 +1822,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 307.0, 276.0, 1145.0, 561.0 ],
@@ -2879,7 +2882,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 474.0, 78.0, 102.0, 19.0 ],
+					"patching_rect" : [ 474.0, 80.0, 102.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2943,7 +2946,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 162.0, 287.0, 22.0 ],
+					"patching_rect" : [ 96.0, 164.0, 287.0, 22.0 ],
 					"text" : "normalised coordinates of input matrix [-1,1]"
 				}
 
@@ -2957,7 +2960,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 133.0, 280.0, 22.0 ],
+					"patching_rect" : [ 96.0, 135.0, 280.0, 22.0 ],
 					"text" : "normalised coordinates of input matrix [0,1]"
 				}
 
@@ -2971,7 +2974,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 107.0, 244.0, 22.0 ],
+					"patching_rect" : [ 96.0, 109.0, 244.0, 22.0 ],
 					"text" : "dimensions of input matrix (input dim)"
 				}
 
@@ -2985,7 +2988,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 79.0, 252.0, 22.0 ],
+					"patching_rect" : [ 96.0, 81.0, 252.0, 22.0 ],
 					"text" : "cell coordinates of input matrix (index)"
 				}
 
@@ -3004,7 +3007,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 163.0, 61.0, 21.0 ],
+					"patching_rect" : [ 8.0, 165.0, 61.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 155.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3027,7 +3030,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 135.0, 61.0, 21.0 ],
+					"patching_rect" : [ 8.0, 137.0, 61.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 125.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3050,7 +3053,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 108.0, 60.0, 20.0 ],
+					"patching_rect" : [ 8.0, 110.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 96.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3073,7 +3076,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 81.0, 60.0, 20.0 ],
+					"patching_rect" : [ 8.0, 83.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 68.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3092,7 +3095,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 81.0, 111.0, 18.0 ],
+					"patching_rect" : [ 8.0, 83.0, 111.0, 18.0 ],
 					"text" : "load Gen_vs_Expr"
 				}
 
@@ -3106,7 +3109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 54.0, 227.0, 22.0 ],
+					"patching_rect" : [ 7.0, 56.0, 227.0, 22.0 ],
 					"text" : "Coordinate (inside the image)"
 				}
 
@@ -3120,7 +3123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 290.0, 160.0, 22.0 ],
+					"patching_rect" : [ 7.0, 292.0, 160.0, 22.0 ],
 					"text" : "Operations on vectors"
 				}
 
@@ -3134,7 +3137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 198.0, 180.0, 22.0 ],
+					"patching_rect" : [ 7.0, 200.0, 180.0, 22.0 ],
 					"text" : "Sampling (whole image)"
 				}
 
@@ -3148,7 +3151,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 478.0, 213.0, 22.0 ],
+					"patching_rect" : [ 96.0, 480.0, 213.0, 22.0 ],
 					"text" : "pack scalar values into a vector"
 				}
 
@@ -3162,7 +3165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 451.166656, 272.0, 22.0 ],
+					"patching_rect" : [ 96.0, 453.166656, 272.0, 22.0 ],
 					"text" : "unpack and remap vector components"
 				}
 
@@ -3176,7 +3179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 424.333344, 325.0, 22.0 ],
+					"patching_rect" : [ 96.0, 426.333344, 325.0, 22.0 ],
 					"text" : "reflect a vector off a a surface defined by a normal"
 				}
 
@@ -3190,7 +3193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 397.5, 232.0, 22.0 ],
+					"patching_rect" : [ 96.0, 399.5, 232.0, 22.0 ],
 					"text" : "normalise of a vector to unit length"
 				}
 
@@ -3204,7 +3207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 370.666656, 175.0, 22.0 ],
+					"patching_rect" : [ 96.0, 372.666656, 175.0, 22.0 ],
 					"text" : "get the length of a vector"
 				}
 
@@ -3218,7 +3221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 343.833344, 228.0, 22.0 ],
+					"patching_rect" : [ 96.0, 345.833344, 228.0, 22.0 ],
 					"text" : "take the dot product of two vectors"
 				}
 
@@ -3232,7 +3235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 317.0, 240.0, 22.0 ],
+					"patching_rect" : [ 96.0, 319.0, 240.0, 22.0 ],
 					"text" : "take the cross product of two vectors"
 				}
 
@@ -3246,7 +3249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 253.0, 472.0, 22.0 ],
+					"patching_rect" : [ 96.0, 255.0, 472.0, 22.0 ],
 					"text" : "sample a matrix at a given coordinate (normalised) with linear interpolation"
 				}
 
@@ -3280,7 +3283,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 480.0, 75.0, 20.0 ],
+					"patching_rect" : [ 8.0, 482.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.0, 348.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3303,7 +3306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 453.166656, 75.0, 20.0 ],
+					"patching_rect" : [ 8.0, 455.166656, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.0, 321.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3326,7 +3329,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 427.333344, 75.0, 19.0 ],
+					"patching_rect" : [ 8.0, 429.333344, 75.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.0, 293.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3349,7 +3352,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 400.5, 74.0, 20.0 ],
+					"patching_rect" : [ 8.0, 402.5, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 533.0, 265.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3372,7 +3375,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 371.666656, 71.0, 22.0 ],
+					"patching_rect" : [ 8.0, 373.666656, 71.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 531.0, 210.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3395,7 +3398,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 344.833344, 71.0, 20.0 ],
+					"patching_rect" : [ 8.0, 346.833344, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 232.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3418,7 +3421,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 318.0, 71.0, 20.0 ],
+					"patching_rect" : [ 8.0, 320.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 126.0, 487.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3456,7 +3459,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 255.0, 62.0, 20.0 ],
+					"patching_rect" : [ 8.0, 257.0, 62.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 119.0, 185.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3479,7 +3482,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 227.0, 62.0, 21.0 ],
+					"patching_rect" : [ 8.0, 229.0, 62.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 156.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -3498,7 +3501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 227.0, 154.0, 18.0 ],
+					"patching_rect" : [ 8.0, 229.0, 154.0, 18.0 ],
 					"text" : "load Gen_nearest to erode"
 				}
 
@@ -3512,7 +3515,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 225.0, 445.0, 22.0 ],
+					"patching_rect" : [ 96.0, 227.0, 445.0, 22.0 ],
 					"text" : "nearest neighbor sample a matrix at a given coordinate (normalised)"
 				}
 
@@ -3526,7 +3529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 28.0, 363.0, 21.0 ],
+					"patching_rect" : [ 5.0, 30.0, 363.0, 21.0 ],
 					"text" : "an index (with example) of some very usefull Gen commands",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -3560,7 +3563,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 255.0, 119.0, 18.0 ],
+					"patching_rect" : [ 8.0, 257.0, 119.0, 18.0 ],
 					"text" : "load Gen_examples"
 				}
 
@@ -3575,7 +3578,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 453.0, 110.0, 18.0 ],
+					"patching_rect" : [ 8.0, 455.0, 110.0, 18.0 ],
 					"text" : "load Gen_vs_Expr"
 				}
 
@@ -3590,7 +3593,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 480.0, 108.0, 18.0 ],
+					"patching_rect" : [ 8.0, 482.0, 108.0, 18.0 ],
 					"text" : "load xyswizzle_1a"
 				}
 
@@ -3605,7 +3608,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 135.0, 117.0, 18.0 ],
+					"patching_rect" : [ 8.0, 137.0, 117.0, 18.0 ],
 					"text" : "load Gen_examples"
 				}
 
@@ -3620,7 +3623,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 163.0, 82.0, 18.0 ],
+					"patching_rect" : [ 8.0, 165.0, 82.0, 18.0 ],
 					"text" : "load jit.gen_3"
 				}
 
@@ -3635,7 +3638,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 110.0, 83.0, 18.0 ],
+					"patching_rect" : [ 8.0, 112.0, 83.0, 18.0 ],
 					"text" : "load gen_dim"
 				}
 
@@ -3650,7 +3653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 346.0, 127.0, 18.0 ],
+					"patching_rect" : [ 8.0, 348.0, 127.0, 18.0 ],
 					"text" : "load gen_dot_product"
 				}
 
@@ -3665,7 +3668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 373.0, 96.0, 18.0 ],
+					"patching_rect" : [ 8.0, 375.0, 96.0, 18.0 ],
 					"text" : "load gen_length"
 				}
 
@@ -3680,7 +3683,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 402.0, 100.0, 18.0 ],
+					"patching_rect" : [ 8.0, 404.0, 100.0, 18.0 ],
 					"text" : "load gen_normal"
 				}
 
@@ -3695,7 +3698,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 319.0, 139.0, 18.0 ],
+					"patching_rect" : [ 8.0, 321.0, 139.0, 18.0 ],
 					"text" : "load gen_cross_product"
 				}
 
@@ -3710,7 +3713,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 427.0, 109.0, 18.0 ],
+					"patching_rect" : [ 8.0, 429.0, 109.0, 18.0 ],
 					"text" : "load gen_reflexion"
 				}
 
@@ -3726,7 +3729,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 579.0, 46.0 ],
+					"patching_rect" : [ 2.0, 2.0, 579.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

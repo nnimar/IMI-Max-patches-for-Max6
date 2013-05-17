@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 490.0, 220.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 174.0, 137.0, 26.0 ],
-					"presentation_rect" : [ 87.0, 173.0, 0.0, 0.0 ],
 					"text" : "output (0.1 - 0.75)"
 				}
 
@@ -110,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 460.0, 35.0 ],
+					"patching_rect" : [ 4.0, 30.0, 460.0, 35.0 ],
 					"text" : "takes an init value (500) and a range value (450-500) and strictly map to values of the output  (0.1 to 0.75 in the example). ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -145,7 +144,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 488.0, 63.0 ],
+					"patching_rect" : [ 1.0, 2.0, 488.0, 64.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -173,7 +172,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.splitscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "./",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 538.0, 415.0 ],
@@ -45,6 +46,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -72,11 +74,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.249197,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.699249, 334.212189, 212.0, 23.0 ],
+					"patching_rect" : [ 290.699249, 334.212189, 212.0, 22.0 ],
 					"text" : "give a scripting name : hello"
 				}
 
@@ -85,11 +88,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.074553, 59.880463, 63.0, 23.0 ],
+					"patching_rect" : [ 10.074553, 59.880463, 63.0, 22.0 ],
 					"text" : "Presets"
 				}
 
@@ -133,7 +137,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -149,13 +153,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.510893, 29.332659, 429.0, 21.0 ],
-					"text" : "There are really only two objects involved: autopattr and pattrstorage.",
+					"patching_rect" : [ 3.510893, 30.332659, 429.0, 21.0 ],
+					"text" : "record presets using autopattr and pattrstorage.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -170,7 +174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.510895, 347.332642, 99.0, 21.0 ],
+					"patching_rect" : [ 15.510895, 347.332642, 99.0, 20.0 ],
 					"text" : "varname hello"
 				}
 
@@ -180,11 +184,12 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
+					"frgb" : 0.0,
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 421.510895, 364.332642, 63.0, 20.0 ],
+					"patching_rect" : [ 421.510895, 364.332642, 63.0, 19.0 ],
 					"text" : "See Also:",
 					"varname" : "autohelp_see_title"
 				}
@@ -201,7 +206,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.510895, 386.332642, 100.0, 20.0 ],
+					"patching_rect" : [ 423.510895, 386.332642, 100.0, 19.0 ],
 					"varname" : "autohelp_see_menu"
 				}
 
@@ -284,12 +289,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.249197,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.699249, 191.212189, 212.0, 56.0 ],
+					"patching_rect" : [ 290.699249, 191.212189, 212.0, 54.0 ],
 					"text" : "these objects all have names, which lets autopattr see them\n(see the inspector or use attrui)"
 				}
 
@@ -535,11 +541,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.249197,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.699249, 59.332672, 238.0, 23.0 ],
+					"patching_rect" : [ 290.699249, 59.332672, 238.0, 22.0 ],
 					"text" : "this is all you need to store presets."
 				}
 
@@ -548,6 +555,7 @@
 				"box" : 				{
 					"fontname" : "Sans Serif",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"hidden" : 1,
 					"id" : "obj-32",
 					"maxclass" : "comment",
@@ -616,6 +624,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -629,6 +638,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -750,9 +760,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.699247, 161.212158, 201.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"client_rect" : [ 1189, 44, 1572, 406 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ],
-						"client_rect" : [ 1189, 44, 1572, 406 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage myData @savemode 2",
@@ -764,6 +774,7 @@
 				"box" : 				{
 					"fontname" : "Sans Serif",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -777,6 +788,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -792,7 +804,6 @@
 					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 					"border" : 1,
 					"id" : "obj-11",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -807,7 +818,6 @@
 					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 					"border" : 1,
 					"id" : "obj-56",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -823,7 +833,6 @@
 					"border" : 2,
 					"bordercolor" : [ 0.5, 0.5, 0.5, 0.75 ],
 					"id" : "obj-67",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -839,12 +848,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-6",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 2.332659, 533.0, 48.0 ],
+					"patching_rect" : [ 2.510893, 2.332659, 533.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -855,7 +863,6 @@
 					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
 					"border" : 1,
 					"id" : "obj-57",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1080,8 +1087,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "myData.xml",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_listpackage/PattrKitty",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_listpackage/PattrKitty",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

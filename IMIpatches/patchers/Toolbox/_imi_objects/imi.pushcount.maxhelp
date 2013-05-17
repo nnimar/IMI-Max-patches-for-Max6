@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 416.0, 219.0 ],
@@ -30,11 +31,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 155.0, 48.0, 23.0 ],
+					"patching_rect" : [ 67.0, 155.0, 48.0, 22.0 ],
 					"text" : "bang"
 				}
 
@@ -43,11 +45,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 238.0, 155.0, 48.0, 23.0 ],
+					"patching_rect" : [ 238.0, 155.0, 48.0, 22.0 ],
 					"text" : "shoot"
 				}
 
@@ -56,13 +59,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 392.0, 36.0 ],
+					"patching_rect" : [ 4.0, 31.0, 340.0, 35.0 ],
 					"text" : "when a number hits the threshold (120), send a bang after a delay (2000 ms or 2 seconds in the example below)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -74,7 +77,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -106,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 87.0, 34.0, 21.0 ],
+					"patching_rect" : [ 117.0, 87.0, 34.0, 20.0 ],
 					"text" : "120"
 				}
 
@@ -120,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.0, 87.0, 41.0, 21.0 ],
+					"patching_rect" : [ 211.0, 87.0, 41.0, 20.0 ],
 					"text" : "2000"
 				}
 
@@ -134,7 +137,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 22.0, 120.0, 208.0, 23.0 ],
+					"patching_rect" : [ 22.0, 120.0, 208.0, 22.0 ],
 					"text" : "imi.pushcount"
 				}
 
@@ -160,7 +163,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 22.0, 87.0, 50.0, 23.0 ]
+					"patching_rect" : [ 22.0, 87.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -171,12 +174,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 411.0, 62.0 ],
+					"patching_rect" : [ 2.0, 2.0, 411.0, 65.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -230,8 +232,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.pushcount.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

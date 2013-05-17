@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 449.0, 328.0 ],
@@ -31,12 +32,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-30",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 187.0, 150.0, 38.0 ],
+					"patching_rect" : [ 129.0, 187.0, 150.0, 37.0 ],
 					"text" : "1, 2, 3, 4, 5 into\na, b, c, d, e (with delay)"
 				}
 
@@ -46,12 +48,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-29",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 116.0, 111.0, 38.0 ],
+					"patching_rect" : [ 82.0, 116.0, 112.0, 37.0 ],
 					"text" : "group open and Ambiance1.wav"
 				}
 
@@ -134,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 94.0, 71.0, 46.0 ],
+					"patching_rect" : [ 368.0, 94.0, 71.0, 45.0 ],
 					"text" : ";\rrender 1;\rstart bang;\r"
 				}
 
@@ -144,7 +147,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -160,12 +163,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 402.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 402.0, 21.0 ],
 					"text" : "in a patch you should only use one loadbang or loadmess.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -341,12 +344,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-7",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 446.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 446.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
