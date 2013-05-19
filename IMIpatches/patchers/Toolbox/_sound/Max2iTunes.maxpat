@@ -32,6 +32,20 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 118.0, 185.0, 54.0, 22.0 ],
+					"text" : "(0-100)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1670,13 +1684,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.0, 241.0, 484.0, 37.0 ],
-									"text" : "\"osascript -e 'tell application \\\"iTunes\\\" to play playlist \\\"Hildegard Westerkamp - Into India\\\"'\""
+									"text" : "\"osascript -e 'tell application \\\"iTunes\\\" to play playlist \\\"Feist\\\"'\""
 								}
 
 							}
@@ -2139,15 +2152,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.123962, 56.23967, 50.0, 22.0 ],
-					"text" : "iTunes"
+					"patching_rect" : [ 104.123962, 58.23967, 104.0, 24.0 ],
+					"text" : "launch iTunes"
 				}
 
 			}
@@ -2160,7 +2174,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 80.347107, 83.347107, 93.0, 22.0 ],
+					"patching_rect" : [ 80.347107, 87.347107, 93.0, 22.0 ],
 					"text" : "route"
 				}
 
@@ -2173,7 +2187,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.98349, 56.752068, 20.0, 20.0 ]
+					"patching_rect" : [ 79.98349, 60.752068, 20.0, 20.0 ]
 				}
 
 			}

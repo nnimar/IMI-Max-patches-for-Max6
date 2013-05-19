@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 580.0, 510.0 ],
+		"rect" : [ 100.0, 100.0, 580.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 468.0, 134.0, 33.0 ],
+					"patching_rect" : [ 419.0, 471.0, 134.0, 33.0 ],
 					"text" : "output the nth element of a list (from 0)"
 				}
 
@@ -50,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 367.0, 469.0, 43.0, 20.0 ],
+					"patching_rect" : [ 367.0, 472.0, 43.0, 20.0 ],
 					"text" : "zl mth"
 				}
 
@@ -64,7 +65,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 419.0, 433.0, 128.0, 20.0 ],
+					"patching_rect" : [ 419.0, 436.0, 128.0, 20.0 ],
 					"text" : "store a list of numbers"
 				}
 
@@ -78,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 367.0, 433.0, 47.0, 20.0 ],
+					"patching_rect" : [ 367.0, 436.0, 47.0, 20.0 ],
 					"text" : "zl reg"
 				}
 
@@ -93,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 62.0, 128.0, 60.0 ],
+					"patching_rect" : [ 448.0, 65.0, 128.0, 60.0 ],
 					"text" : "select the probability \nfor 15 numbers :\n0 is unlikely\n100 is likely to happen"
 				}
 
@@ -111,8 +112,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 591.0, 44.0, 195.0, 246.0 ],
@@ -393,7 +395,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 447.0, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 450.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -420,7 +422,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 415.0, 37.0, 18.0 ],
+					"patching_rect" : [ 66.0, 418.0, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -435,7 +437,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 476.0, 42.0, 20.0 ]
+					"patching_rect" : [ 10.0, 479.0, 42.0, 20.0 ]
 				}
 
 			}
@@ -452,8 +454,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 589.0, 44.0, 169.0, 261.0 ],
@@ -631,7 +634,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 150.0, 225.0, 102.0, 20.0 ],
+					"patching_rect" : [ 150.0, 228.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -658,7 +661,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 252.0, 70.0, 18.0 ],
+					"patching_rect" : [ 150.0, 255.0, 70.0, 18.0 ],
 					"text" : "set $1 0 $2"
 				}
 
@@ -675,7 +678,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 150.0, 276.0, 417.0, 20.0 ],
+					"patching_rect" : [ 150.0, 279.0, 417.0, 20.0 ],
 					"rows" : 1,
 					"selmode" : 0,
 					"vscroll" : 0
@@ -692,7 +695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 387.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 387.0, 30.0 ],
 					"text" : "Simple probability (Nicolas Danet)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -708,7 +711,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 410.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 410.0, 21.0 ],
 					"text" : "probability is a measure of the expectation that an event will occur ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -722,7 +725,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 415.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 418.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -735,7 +738,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 382.0, 40.0, 20.0 ],
+					"patching_rect" : [ 10.0, 385.0, 40.0, 20.0 ],
 					"text" : "sel 1"
 				}
 
@@ -749,7 +752,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 10.0, 352.0, 32.5, 20.0 ],
+					"patching_rect" : [ 10.0, 355.0, 32.5, 20.0 ],
 					"text" : "<"
 				}
 
@@ -763,7 +766,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 10.0, 288.0, 33.0, 20.0 ],
+					"patching_rect" : [ 10.0, 291.0, 33.0, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -777,7 +780,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 10.0, 320.0, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 323.0, 75.0, 20.0 ],
 					"text" : "random 100"
 				}
 
@@ -791,7 +794,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 10.0, 150.0, 57.0, 20.0 ],
+					"patching_rect" : [ 10.0, 153.0, 57.0, 20.0 ],
 					"text" : "t b i"
 				}
 
@@ -805,7 +808,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 257.0, 57.0, 20.0 ],
+					"patching_rect" : [ 10.0, 260.0, 57.0, 20.0 ],
 					"text" : "zl mth"
 				}
 
@@ -819,7 +822,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 225.0, 76.0, 20.0 ],
+					"patching_rect" : [ 10.0, 228.0, 76.0, 20.0 ],
 					"text" : "zl reg"
 				}
 
@@ -834,7 +837,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 62.0, 268.0, 135.0 ],
+					"patching_rect" : [ 150.0, 65.0, 268.0, 135.0 ],
 					"setminmax" : [ 0.0, 100.0 ],
 					"settype" : 0,
 					"size" : 16,
@@ -851,7 +854,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 61.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 64.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -864,7 +867,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 89.0, 66.0, 20.0 ],
+					"patching_rect" : [ 10.0, 92.0, 66.0, 20.0 ],
 					"text" : "metro 180"
 				}
 
@@ -878,7 +881,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 10.0, 119.0, 78.0, 20.0 ],
+					"patching_rect" : [ 10.0, 122.0, 78.0, 20.0 ],
 					"text" : "counter 0 15"
 				}
 
@@ -894,7 +897,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 577.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 577.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -915,7 +918,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.5, 60.0, 20.0, 20.0 ],
+					"patching_rect" : [ 36.5, 63.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -940,7 +943,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 423.0, 63.0, 20.0, 20.0 ],
+					"patching_rect" : [ 423.0, 66.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1000,7 +1003,7 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 19.5, 179.5, 47.5, 179.5 ],
+					"midpoints" : [ 19.5, 182.5, 47.5, 182.5 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1109,7 +1112,7 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 159.5, 214.5, 76.5, 214.5 ],
+					"midpoints" : [ 159.5, 217.5, 76.5, 217.5 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

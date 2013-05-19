@@ -40,7 +40,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 316.0, 284.0, 85.0, 37.0 ],
-					"presentation_rect" : [ 316.0, 286.0, 0.0, 0.0 ],
 					"text" : "turn sound ON"
 				}
 
@@ -450,7 +449,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 264.0, 337.0, 48.0, 18.0 ],
-					"presentation_rect" : [ 600.0, 416.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -759,7 +757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 410.0, 161.0, 22.0 ],
+					"patching_rect" : [ 32.0, 413.0, 161.0, 22.0 ],
 					"text" : "with fade in / fade out :"
 				}
 
@@ -1491,7 +1489,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 192.0, 410.0, 104.0, 22.0 ],
+					"patching_rect" : [ 192.0, 413.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1747,7 +1745,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 411.0, 20.0, 20.0 ],
+					"patching_rect" : [ 9.0, 414.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -2208,8 +2206,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-7" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 577.0, 44.0, 629.0, 695.0 ],
+		"rect" : [ 0.0, 44.0, 629.0, 695.0 ],
 		"bgcolor" : [ 1.0, 1.0, 0.929412, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
@@ -52,8 +53,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1052.0, 44.0, 174.0, 374.0 ],
@@ -1062,15 +1064,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fp_fft.maxpat",
-				"bootpath" : "/Applications/Max6/examples/fft-fun/lib",
-				"patcherrelativepath" : "../../fft-fun/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/fft-fun/lib",
+				"patcherrelativepath" : "../../../../examples/fft-fun/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IO.maxpat",
-				"bootpath" : "/Applications/Max6/examples/utilities/input_output IO/lib",
-				"patcherrelativepath" : "../../utilities/input_output IO/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/utilities/input_output IO/lib",
+				"patcherrelativepath" : "../../../../examples/utilities/input_output IO/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

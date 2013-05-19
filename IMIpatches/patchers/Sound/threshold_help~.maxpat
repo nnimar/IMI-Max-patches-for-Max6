@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 577.0, 44.0, 569.0, 233.0 ],
+		"rect" : [ 2.0, 44.0, 569.0, 233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -401,8 +402,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "threshold~.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Sound",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sound",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

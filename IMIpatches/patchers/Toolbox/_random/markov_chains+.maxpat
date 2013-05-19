@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 824.0, 519.0 ],
+		"rect" : [ 1.0, 44.0, 824.0, 510.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 513.0, 419.0, 163.0, 24.0 ],
-					"presentation_rect" : [ 576.0, 403.0, 0.0, 0.0 ],
 					"text" : "manually set current state"
 				}
 
@@ -84,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 527.0, 149.0, 79.0, 24.0 ],
-					"presentation_rect" : [ 647.0, 244.0, 0.0, 0.0 ],
 					"text" : "start over"
 				}
 
@@ -102,8 +101,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -331,7 +331,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 474.0, 21.0 ],
+					"patching_rect" : [ 2.0, 30.0, 474.0, 21.0 ],
 					"text" : "analyze data and calculate the probability of going from one number to the other",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -348,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 299.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 299.0, 30.0 ],
 					"text" : "markov chains+ (Eric Marty)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -368,8 +368,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -591,8 +592,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -736,8 +738,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 10.0, 59.0, 674.0, 234.0 ],
@@ -1181,7 +1184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.0, 53.0, 159.0, 27.0 ],
+					"patching_rect" : [ 389.0, 55.0, 159.0, 27.0 ],
 					"text" : "Analyze and edit..."
 				}
 
@@ -1522,7 +1525,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 53.0, 181.0, 27.0 ],
+					"patching_rect" : [ 6.0, 55.0, 181.0, 27.0 ],
 					"text" : "Analyze sample data."
 				}
 
@@ -1736,7 +1739,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 822.0, 52.0 ],
+					"patching_rect" : [ 1.0, 1.0, 822.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

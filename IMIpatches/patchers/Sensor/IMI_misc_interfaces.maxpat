@@ -813,7 +813,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 620.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 613.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1164,7 +1164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 585.0, 189.0, 45.0 ],
+					"patching_rect" : [ 11.0, 588.0, 189.0, 45.0 ],
 					"text" : ";\rmax launchbrowser \\\"file://////Applications/Max%206.1/packages/IMIpatches/apps/OSCtest/OSCTestApp.app\\\""
 				}
 

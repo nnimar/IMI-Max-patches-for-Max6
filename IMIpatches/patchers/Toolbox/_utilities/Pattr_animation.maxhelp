@@ -552,7 +552,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 198.0, 102.0, 20.0 ],
+					"patching_rect" : [ 8.0, 184.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -649,7 +649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 133.0, 152.0, 24.0 ],
+					"patching_rect" : [ 320.0, 133.0, 152.0, 24.0 ],
 					"text" : "scripting name : gridfoo"
 				}
 
@@ -663,7 +663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 136.0, 146.0, 18.0 ],
+					"patching_rect" : [ 172.0, 136.0, 146.0, 18.0 ],
 					"text" : "sendbox varname gridfoo"
 				}
 
@@ -677,7 +677,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 470.0, 20.0 ],
+					"patching_rect" : [ 2.0, 32.0, 470.0, 20.0 ],
 					"text" : "use pattr-storage to save and recall presets of pattr-data and interpolate between them",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
@@ -912,7 +912,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 291.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 291.0, 30.0 ],
 					"text" : "Pattr-animation",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -929,7 +929,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 227.0, 290.0, 20.0 ],
-					"restore" : [ 0.0, 0.0, 0.0 ],
+					"restore" : [ -5.8, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1091,7 +1091,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 152.0, 198.0, 249.0, 20.0 ],
-					"restore" : [ 0.5, 0.5, 0.5 ],
+					"restore" : [ 0.5, 0.47, 0.5 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -1110,7 +1110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 13.0, 222.0, 101.0, 20.0 ],
+					"patching_rect" : [ 8.0, 208.0, 101.0, 20.0 ],
 					"text" : "jit.window pattr-a",
 					"varname" : "number_position[4]"
 				}
@@ -1124,7 +1124,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 63.0, 22.0, 22.0 ]
+					"patching_rect" : [ 8.0, 63.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -1137,7 +1137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 97.0, 67.0, 20.0 ],
+					"patching_rect" : [ 8.0, 97.0, 67.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -1151,7 +1151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 13.0, 123.0, 58.0, 20.0 ],
+					"patching_rect" : [ 8.0, 123.0, 58.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1165,8 +1165,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 13.0, 156.0, 90.0, 20.0 ],
-					"text" : "jit.gl.render foo",
+					"patching_rect" : [ 8.0, 156.0, 70.0, 20.0 ],
+					"text" : "jit.gl.render",
 					"varname" : "number_position[3]"
 				}
 
@@ -1180,8 +1180,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 152.0, 169.0, 280.0, 20.0 ],
-					"text" : "jit.gl.gridshape foo @shape cube @poly_mode 1 1",
+					"patching_rect" : [ 152.0, 169.0, 260.0, 20.0 ],
+					"text" : "jit.gl.gridshape @shape cube @poly_mode 1 1",
 					"varname" : "gridfoo"
 				}
 
@@ -1289,7 +1289,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 58.0, 129.147247, 191.0 ],
+					"patching_rect" : [ 3.0, 58.0, 111.147247, 179.0 ],
 					"rounded" : 30
 				}
 
@@ -1316,7 +1316,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 342.5, 158.0, 161.5, 158.0 ],
+					"midpoints" : [ 181.5, 158.0, 161.5, 158.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1535,7 +1535,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 61.5, 149.5, 22.5, 149.5 ],
+					"midpoints" : [ 56.5, 149.5, 17.5, 149.5 ],
 					"source" : [ "obj-72", 1 ]
 				}
 

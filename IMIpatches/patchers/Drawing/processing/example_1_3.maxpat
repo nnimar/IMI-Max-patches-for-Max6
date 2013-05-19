@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -212,13 +212,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 61.367401, 239.0, 20.0 ],
+					"patching_rect" : [ 10.0, 64.367401, 206.0, 18.0 ],
 					"text" : "set_source_rgba 1 1 1 1, paint, bang"
 				}
 
@@ -250,7 +250,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -322,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 60.367401, 155.0, 24.0 ],
+					"patching_rect" : [ 221.0, 61.367401, 155.0, 24.0 ],
 					"text" : "white background, draw"
 				}
 
@@ -336,7 +336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 371.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 371.0, 21.0 ],
 					"text" : "adapted from Learning Processing by Daniel Shiffman",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -371,7 +371,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 538.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 538.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 480.0, 475.0 ],
@@ -35,7 +36,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 216.0, 45.0, 20.0 ],
+					"patching_rect" : [ 169.0, 218.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -53,8 +54,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 488.0, 359.0, 411.0, 282.0 ],
@@ -612,7 +614,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 227.0, 102.0, 20.0 ],
+					"patching_rect" : [ 10.0, 229.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -640,7 +642,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 126.0, 95.0, 24.0 ],
+					"patching_rect" : [ 378.0, 128.0, 95.0, 24.0 ],
 					"text" : "play a sound"
 				}
 
@@ -653,7 +655,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 153.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.0, 161.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -684,7 +686,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 433.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 433.0, 21.0 ],
 					"text" : "capture the rendering of an object to a texture for further processing",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -701,7 +703,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 412.0, 96.0, 24.0 ],
+					"patching_rect" : [ 170.0, 414.0, 96.0, 24.0 ],
 					"text" : "process here"
 				}
 
@@ -715,7 +717,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 151.0, 354.0, 60.0, 20.0 ],
+					"patching_rect" : [ 151.0, 356.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -729,7 +731,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.0, 444.0, 203.0, 20.0 ],
+					"patching_rect" : [ 151.0, 446.0, 203.0, 20.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -744,7 +746,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 242.0, 169.0, 24.0 ],
+					"patching_rect" : [ 294.0, 244.0, 169.0, 24.0 ],
 					"text" : "scale amplitude for display"
 				}
 
@@ -759,15 +761,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 252.0, 244.0, 39.0, 20.0 ],
+					"patching_rect" : [ 252.0, 246.0, 39.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
 							"parameter_type" : 3,
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_shortname" : "flonum",
-							"parameter_longname" : "flonum",
-							"parameter_initial" : [ 1 ]
+							"parameter_longname" : "flonum"
 						}
 
 					}
@@ -785,7 +787,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.0, 275.0, 120.0, 20.0 ],
+					"patching_rect" : [ 151.0, 277.0, 120.0, 20.0 ],
 					"text" : "jit.op @op * @val 1."
 				}
 
@@ -796,7 +798,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 173.0, 34.0, 34.0 ]
+					"patching_rect" : [ 170.0, 175.0, 34.0, 34.0 ]
 				}
 
 			}
@@ -809,7 +811,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.0, 246.0, 60.0, 20.0 ],
+					"patching_rect" : [ 151.0, 248.0, 60.0, 20.0 ],
 					"text" : "jit.catch~"
 				}
 
@@ -822,7 +824,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 151.0, 55.0, 225.0, 95.0 ]
+					"patching_rect" : [ 151.0, 57.0, 225.0, 95.0 ]
 				}
 
 			}
@@ -835,7 +837,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 151.0, 384.0, 143.0, 20.0 ],
+					"patching_rect" : [ 151.0, 386.0, 143.0, 20.0 ],
 					"text" : "jit.gl.texture @name tex1"
 				}
 
@@ -849,7 +851,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.0, 305.0, 147.0, 20.0 ],
+					"patching_rect" : [ 151.0, 307.0, 147.0, 20.0 ],
 					"text" : "jit.gl.graph @capture tex1"
 				}
 
@@ -862,7 +864,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 61.0, 25.0, 25.0 ]
+					"patching_rect" : [ 10.0, 65.0, 21.0, 21.0 ]
 				}
 
 			}
@@ -875,7 +877,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 10.0, 124.0, 91.0, 20.0 ],
+					"patching_rect" : [ 10.0, 126.0, 66.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -889,7 +891,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 94.0, 58.0, 20.0 ],
+					"patching_rect" : [ 10.0, 96.0, 58.0, 20.0 ],
 					"text" : "qmetro 5"
 				}
 
@@ -903,7 +905,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 253.0, 117.0, 20.0 ],
+					"patching_rect" : [ 10.0, 255.0, 117.0, 20.0 ],
 					"text" : "jit.window catch_tex"
 				}
 
@@ -917,7 +919,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 193.0, 71.0, 20.0 ],
+					"patching_rect" : [ 10.0, 195.0, 71.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -930,7 +932,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 55.0, 126.147247, 227.0 ],
+					"patching_rect" : [ 6.0, 57.0, 126.147247, 227.0 ],
 					"rounded" : 30
 				}
 
@@ -946,7 +948,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 477.0, 50.0 ],
+					"patching_rect" : [ 1.0, 2.0, 477.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1056,7 +1058,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 91.5, 181.0, 19.5, 181.0 ],
+					"midpoints" : [ 66.5, 152.0, 19.5, 152.0 ],
 					"source" : [ "obj-7", 2 ]
 				}
 
@@ -1090,44 +1092,44 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-35" : [ "[5]", "Level", 0 ],
-			"obj-18::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
 			"obj-18::obj-32" : [ "[8]", "[2]", 0 ],
+			"obj-18::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-18::obj-35" : [ "[5]", "Level", 0 ],
 			"obj-24" : [ "flonum", "flonum", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demosound.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/msp-help",
-				"patcherrelativepath" : "../../../../Cycling '74/msp-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/msp-help",
+				"patcherrelativepath" : "../../../../../Cycling '74/msp-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sine.svg",
-				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "saw.svg",
-				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "random.svg",
-				"bootpath" : "/Applications/Max6/patches/picts/m4l-picts",
-				"patcherrelativepath" : "../../../../patches/picts/m4l-picts",
+				"bootpath" : "/Applications/Max 6.1/patches/picts/m4l-picts",
+				"patcherrelativepath" : "../../../../../patches/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}

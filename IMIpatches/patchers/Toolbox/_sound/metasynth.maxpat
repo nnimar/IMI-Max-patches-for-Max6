@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 577.0, 44.0, 535.0, 734.0 ],
+		"rect" : [ 1.0, 44.0, 535.0, 734.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -109,8 +110,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 546.0, 44.0, 317.0, 303.0 ],
@@ -216,8 +218,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 545.0, 44.0, 429.0, 387.0 ],
@@ -676,8 +679,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 592.0, 44.0, 318.0, 492.0 ],
@@ -1273,8 +1277,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 545.0, 44.0, 358.0, 86.0 ],
@@ -2351,8 +2356,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "IO.maxpat",
-				"bootpath" : "/Applications/Max6/examples/utilities/input_output IO/lib",
-				"patcherrelativepath" : "../../../utilities/input_output IO/lib",
+				"bootpath" : "/Applications/Max 6.1/examples/utilities/input_output IO/lib",
+				"patcherrelativepath" : "../../../../../examples/utilities/input_output IO/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

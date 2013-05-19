@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 720.0, 391.0 ],
@@ -52,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 29.0, 204.0, 21.0 ],
+					"patching_rect" : [ 5.0, 31.0, 204.0, 21.0 ],
 					"text" : "predicts the future from the past",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -412,7 +413,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 715.0, 49.0 ],
+					"patching_rect" : [ 3.0, 2.0, 715.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -573,8 +574,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "can.markov.maxpat",
-				"bootpath" : "/Applications/Max6/examples/can/Tools",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/can/Tools",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/CanTools",
+				"patcherrelativepath" : "../../../externals/tools/CanTools",
 				"type" : "JSON",
 				"implicit" : 1
 			}

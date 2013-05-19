@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -123,7 +123,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1180,7 +1180,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1383,7 +1383,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 345.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 345.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1397,7 +1397,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 289.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 289.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1411,7 +1411,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 289.0, 98.0, 33.0, 20.0 ],
+									"patching_rect" : [ 289.0, 98.0, 33.0, 19.0 ],
 									"text" : "< 16"
 								}
 
@@ -1426,8 +1426,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 65.0, 111.0, 23.0 ],
-									"text" : "z.distCalc"
+									"patching_rect" : [ 289.0, 65.0, 111.0, 22.0 ],
+									"text" : "imi.dist"
 								}
 
 							}
@@ -1440,7 +1440,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 203.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 203.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1454,7 +1454,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 147.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 147.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1468,7 +1468,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 147.0, 98.0, 33.0, 20.0 ],
+									"patching_rect" : [ 147.0, 98.0, 33.0, 19.0 ],
 									"text" : "< 16"
 								}
 
@@ -1483,8 +1483,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 147.0, 65.0, 111.0, 23.0 ],
-									"text" : "z.distCalc"
+									"patching_rect" : [ 147.0, 65.0, 111.0, 22.0 ],
+									"text" : "imi.dist"
 								}
 
 							}
@@ -1497,7 +1497,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 66.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 66.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1511,7 +1511,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.0, 36.0, 55.0, 20.0 ],
+									"patching_rect" : [ 10.0, 36.0, 55.0, 19.0 ],
 									"text" : "zl ecils 2"
 								}
 
@@ -1525,7 +1525,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 10.0, 98.0, 33.0, 20.0 ],
+									"patching_rect" : [ 10.0, 98.0, 33.0, 19.0 ],
 									"text" : "< 16"
 								}
 
@@ -1540,8 +1540,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 65.0, 111.0, 23.0 ],
-									"text" : "z.distCalc"
+									"patching_rect" : [ 10.0, 65.0, 111.0, 22.0 ],
+									"text" : "imi.dist"
 								}
 
 							}
@@ -1839,7 +1839,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -2700,7 +2700,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -3067,7 +3067,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 59.367401, 200.0, 23.0 ],
+					"patching_rect" : [ 206.0, 61.367401, 200.0, 23.0 ],
 					"text" : "clear, white background, \"do it\""
 				}
 
@@ -3081,7 +3081,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 371.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 371.0, 21.0 ],
 					"text" : "use collision to control the ball with the mouse",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -3111,7 +3111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 60.367401, 197.0, 20.0 ],
+					"patching_rect" : [ 7.0, 62.367401, 197.0, 20.0 ],
 					"text" : "clear, brgb 255 255 255, bang"
 				}
 
@@ -3172,7 +3172,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 466.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 466.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -3410,6 +3410,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.draw.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.dist.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",

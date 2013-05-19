@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 579.0, 44.0, 543.0, 420.0 ],
+		"rect" : [ 1.0, 44.0, 543.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -76,7 +77,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 76.0, 38.0, 32.0 ],
+					"patching_rect" : [ 15.0, 78.0, 38.0, 32.0 ],
 					"text" : "start audio",
 					"varname" : "autohelp_dac_text"
 				}
@@ -497,8 +498,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jscope~.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Sound",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sound",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

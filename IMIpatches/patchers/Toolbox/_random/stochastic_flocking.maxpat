@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 462.0, 726.0 ],
@@ -40,11 +41,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 462.0, 700.0 ],
+						"rect" : [ 2.0, 70.0, 462.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -76,8 +78,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 471.0, 364.0, 540.0, 478.0 ],
@@ -261,8 +264,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 588.0, 359.0, 411.0, 193.0 ],
@@ -503,8 +507,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 180.0, 68.0, 471.0, 496.0 ],
@@ -624,8 +629,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 556.0, 157.0, 640.0, 480.0 ],
@@ -912,8 +918,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 2,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 50.0, 94.0, 249.0, 338.0 ],
@@ -2078,8 +2085,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 473.0, 128.0, 285.0, 428.0 ],
@@ -2438,7 +2446,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 86.0, 20.0, 20.0 ]
+									"patching_rect" : [ 10.0, 83.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2552,7 +2560,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 447.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 447.0, 21.0 ],
 									"text" : "this patch uses a stochastic method to simulate flocking (cauchy distribution)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2570,8 +2578,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 458.0, 49.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 2.0, 458.0, 51.0 ]
 								}
 
 							}
@@ -2721,8 +2728,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 462.0, 700.0 ],
@@ -2860,7 +2868,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 327.0, 30.0 ],
+									"patching_rect" : [ 3.0, 2.0, 327.0, 30.0 ],
 									"text" : "Stochastic flocking (Eric Marty)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -2876,7 +2884,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 447.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 447.0, 21.0 ],
 									"text" : "this patch uses a stochastic method to simulate flocking (cauchy distribution)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2896,8 +2904,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 471.0, 361.0, 627.0, 488.0 ],
@@ -2932,8 +2941,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 470.0, 360.0, 411.0, 230.0 ],
@@ -4244,8 +4254,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 540.0, 555.0 ],
@@ -4295,8 +4306,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 411.0, 400.0 ],
@@ -5287,7 +5299,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.5, 287.0, 189.0, 37.0 ],
+									"patching_rect" : [ 151.5, 287.0, 190.0, 37.0 ],
 									"text" : "Allow center value to meander in 3D space (x y z)"
 								}
 
@@ -5320,8 +5332,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 368.0, 313.0 ],
@@ -5776,8 +5789,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 180.0, 68.0, 471.0, 496.0 ],
@@ -5911,8 +5925,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 556.0, 157.0, 640.0, 480.0 ],
@@ -6199,8 +6214,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 2,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 50.0, 94.0, 249.0, 338.0 ],
@@ -7346,7 +7362,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 9.5, 61.0, 20.0, 20.0 ]
+									"patching_rect" : [ 9.5, 57.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -7375,7 +7391,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 458.0, 49.0 ],
+									"patching_rect" : [ 2.0, 1.0, 458.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -7582,8 +7598,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 462.0, 700.0 ],
@@ -7724,8 +7741,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 331.0, 191.0 ],
@@ -7947,8 +7965,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 138.0, 168.0, 254.0, 353.0 ],
@@ -8123,8 +8142,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 236.0, 124.0, 640.0, 480.0 ],
@@ -8187,8 +8207,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 2,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 421.0, 425.0 ],
@@ -9081,8 +9102,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 180.0, 68.0, 471.0, 496.0 ],
@@ -9216,8 +9238,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 556.0, 157.0, 640.0, 480.0 ],
@@ -9504,8 +9527,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 2,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 50.0, 94.0, 249.0, 338.0 ],
@@ -10679,7 +10703,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 327.0, 30.0 ],
+									"patching_rect" : [ 3.0, 2.0, 327.0, 30.0 ],
 									"text" : "Stochastic flocking (Eric Marty)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -10695,7 +10719,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 447.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 447.0, 21.0 ],
 									"text" : "this patch uses a stochastic method to simulate flocking (cauchy distribution)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -10713,7 +10737,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 1.0, 458.0, 49.0 ],
+									"patching_rect" : [ 1.0, 1.0, 458.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -10930,11 +10954,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 70.0, 462.0, 700.0 ],
+						"rect" : [ 0.0, 26.0, 462.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -11116,8 +11141,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 180.0, 68.0, 471.0, 496.0 ],
@@ -11251,8 +11277,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 2,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 192.0, 44.0, 640.0, 480.0 ],
@@ -11539,8 +11566,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 2,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 50.0, 94.0, 249.0, 338.0 ],
@@ -12846,7 +12874,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 29.0, 447.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 447.0, 21.0 ],
 									"text" : "uses a stochastic method to simulate flocking (cauchy distribution)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -12864,7 +12892,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 458.0, 49.0 ],
+									"patching_rect" : [ 2.0, 2.0, 458.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -13035,6 +13063,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "jit.qt.movie" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -13049,15 +13078,15 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "can.random.maxpat",
-				"bootpath" : "/Applications/Max6/examples/can/Tools",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/can/Tools",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/CanTools",
+				"patcherrelativepath" : "../../../externals/tools/CanTools",
 				"type" : "JSON",
 				"implicit" : 1
 			}

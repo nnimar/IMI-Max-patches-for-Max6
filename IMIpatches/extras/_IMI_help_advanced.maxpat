@@ -3,9 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 8
 		}
 ,
 		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
@@ -239,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.30 (5/2013)",
+					"text" : "Nicolas Marechal, v2.30 (6/2013)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -259,9 +258,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -674,9 +672,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1089,9 +1086,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1451,7 +1447,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to LCD", ",", "drawing shapes", ",", "simple drawing with LCD", ",", "Drawing like Processing" ],
+					"items" : [ ",", "intro to LCD", ",", "intro to jit.mgraphics", ",", "simple drawing with jit.magraphics", ",", "drawing like Processing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1483,7 +1479,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_jit_lcd", "IMI_jit_lcd+", "IMI_lcd_drawing", "IMI_lcd_processing" ],
+					"tabs" : [ "IMI_jit_lcd", "IMI_jit_mgraphics", "mgraphics_drawing", "IMI_max_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1504,9 +1500,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1921,9 +1916,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -2336,9 +2330,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 777.0, 141.0, 294.0, 167.0 ],
@@ -2870,9 +2863,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x86"
+							"minor" : 0,
+							"revision" : 8
 						}
 ,
 						"rect" : [ 383.0, 44.0, 914.0, 674.0 ],
@@ -4984,29 +4976,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "IMIMax101.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "./patchers/z",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax102.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "./patchers/z",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax103.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "./patchers/z",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax104.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "./patchers/z",
+				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

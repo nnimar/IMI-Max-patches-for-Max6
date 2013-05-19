@@ -88,8 +88,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 125.0, 280.5, 264.0, 22.0 ],
-					"text" : "use collision to drag balls with the mouse"
+					"patching_rect" : [ 125.0, 280.5, 357.0, 22.0 ],
+					"text" : "use the collision technique to drag balls with the mouse"
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -2.0, 30.0, 294.0, 21.0 ],
+					"patching_rect" : [ 0.0, 31.0, 294.0, 21.0 ],
 					"text" : " drawings example, using mgraphics and lcd ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -454,7 +454,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 269.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 269.0, 30.0 ],
 					"text" : "IMI Max and processing...",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

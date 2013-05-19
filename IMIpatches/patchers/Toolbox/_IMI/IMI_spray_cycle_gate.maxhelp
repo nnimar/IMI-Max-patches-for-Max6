@@ -1220,7 +1220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 424.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 356.0, 30.0 ],
 					"text" : "IMI spray, cycle, gate and bucket",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"

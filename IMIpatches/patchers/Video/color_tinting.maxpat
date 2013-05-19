@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 420.0, 637.0 ],
+		"rect" : [ 2.0, 44.0, 417.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 204.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 204.0, 21.0 ],
 					"text" : "use the swatch and jit.op @op *",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -323,8 +324,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 194.0, 268.0, 193.0, 181.0 ],
@@ -557,7 +559,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 415.0, 49.0 ],
+					"patching_rect" : [ 1.0, 2.0, 415.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

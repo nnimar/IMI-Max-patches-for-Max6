@@ -140,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 302.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 167.0, 30.0 ],
 					"text" : "IMI matrix2cell",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"

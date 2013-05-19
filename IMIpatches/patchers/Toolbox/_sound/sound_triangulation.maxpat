@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 873.0, 424.0 ],
@@ -37,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.0, 388.0, 70.0, 19.0 ],
-					"presentation_rect" : [ 373.0, 403.0, 0.0, 0.0 ],
 					"text" : "result"
 				}
 
@@ -52,7 +52,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.0, 112.0, 34.0, 18.0 ],
-					"presentation_rect" : [ 573.0, 364.0, 0.0, 0.0 ],
 					"text" : "right"
 				}
 
@@ -97,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 408.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 408.0, 21.0 ],
 					"text" : "with one stereo mic, find the location of a sound",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -117,8 +116,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 881.0, 44.0, 131.0, 272.0 ],
@@ -281,8 +281,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -751,8 +752,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 881.0, 44.0, 424.0, 497.0 ],
@@ -1541,7 +1543,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 100.0, 64.0, 31.0 ],
+					"patching_rect" : [ 310.0, 100.0, 70.0, 31.0 ],
 					"text" : "stereo mic \ninput"
 				}
 
@@ -1902,8 +1904,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 298.0, 88.0, 184.0, 332.0 ],
@@ -2378,7 +2381,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 301.0, 387.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 351.0, 409.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -2398,7 +2400,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 870.0, 49.0 ],
+					"patching_rect" : [ 1.0, 2.0, 870.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

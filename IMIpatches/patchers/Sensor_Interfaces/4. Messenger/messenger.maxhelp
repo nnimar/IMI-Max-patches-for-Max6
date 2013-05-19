@@ -31,46 +31,33 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"id" : "obj-22",
+					"id" : "obj-26",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 369.0, 155.0, 20.0 ],
+					"patching_rect" : [ 439.5, 370.5, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 149.0, 352.0, 100.0, 20.0 ],
+					"text" : "messenger website"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-25",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 278.5, 370.5, 155.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 134.0, 337.0, 100.0, 20.0 ],
 					"text" : "Sensor interface folder"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"hidden" : 1,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 369.5, 69.0, 22.0 ],
-					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 275.0, 368.5, 41.0, 22.0 ],
-					"text" : "shell"
 				}
 
 			}
@@ -79,37 +66,176 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
-					"id" : "obj-24",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 332.0, 141.0, 58.0 ],
-					"text" : "osascript \\\"/Applications/Max 6.1/packages/IMIpatches/scripts/SSensors.scpt\\\""
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 963.0, 470.0, 270.0, 238.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 143.0, 143.0, 20.0 ],
+									"text" : "sprintf osascript \\\\\\\"%s\\\\\\\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"patching_rect" : [ 50.0, 177.0, 35.0, 20.0 ],
+									"text" : "shell"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 50.0, 111.0, 140.0, 21.0 ],
+									"text" : "conformpath max boot"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 80.0, 85.0, 21.0 ],
+									"text" : "absolutepath"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-17",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 278.0, 370.5, 76.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p shell-open"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-49",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 438.0, 369.0, 134.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "messenger website",
-					"texton" : "Stop"
+					"fontsize" : 13.0,
+					"hidden" : 1,
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 278.0, 349.5, 94.0, 19.0 ],
+					"text" : "SSensors.scpt"
 				}
 
 			}
@@ -119,12 +245,12 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-38",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 318.0, 121.0, 72.0 ],
+					"patching_rect" : [ 441.0, 319.0, 133.0, 58.0 ],
 					"text" : ";\rmax launchbrowser http://playground.arduino.cc/Code/Messenger"
 				}
 
@@ -139,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 135.0, 154.0, 24.0 ],
+					"patching_rect" : [ 145.0, 136.0, 154.0, 24.0 ],
 					"text" : "pinMode (13, OUTPUT)"
 				}
 
@@ -154,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 192.0, 192.0, 24.0 ],
+					"patching_rect" : [ 158.0, 193.0, 192.0, 24.0 ],
 					"text" : "digitalWrite (13, LOW or HIGH)"
 				}
 
@@ -169,7 +295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 268.0, 126.0, 24.0 ],
+					"patching_rect" : [ 158.0, 269.0, 126.0, 24.0 ],
 					"text" : "read all digital pins"
 				}
 
@@ -184,7 +310,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 232.0, 130.0, 24.0 ],
+					"patching_rect" : [ 148.0, 233.0, 130.0, 24.0 ],
 					"text" : "read all analog pins"
 				}
 
@@ -198,7 +324,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 235.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 235.0, 21.0 ],
 					"text" : "send messages to the Arduino",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
@@ -214,7 +340,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 325.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 325.0, 30.0 ],
 					"text" : "messenger library (version 1.5)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -231,7 +357,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.0, 57.0, 205.0, 47.0 ],
+					"patching_rect" : [ 369.0, 58.0, 205.0, 47.0 ],
 					"text" : "Install the messenger library on your Mac and the basic_communication example on your Arduino"
 				}
 
@@ -245,7 +371,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 269.0, 26.5, 18.0 ],
+					"patching_rect" : [ 129.0, 270.0, 26.5, 18.0 ],
 					"text" : "r d"
 				}
 
@@ -259,7 +385,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 234.0, 25.5, 18.0 ],
+					"patching_rect" : [ 120.0, 235.0, 25.5, 18.0 ],
 					"text" : "r a"
 				}
 
@@ -272,7 +398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 169.0, 20.0, 20.0 ]
+					"patching_rect" : [ 92.0, 170.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -285,7 +411,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 196.0, 63.0, 18.0 ],
+					"patching_rect" : [ 92.0, 197.0, 63.0, 18.0 ],
 					"text" : "w d 13 $1"
 				}
 
@@ -299,7 +425,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 135.0, 57.0, 18.0 ],
+					"patching_rect" : [ 80.0, 136.0, 57.0, 18.0 ],
 					"text" : "p m 13 1"
 				}
 
@@ -314,7 +440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 314.0, 267.0, 33.0 ],
+					"patching_rect" : [ 140.0, 315.0, 267.0, 33.0 ],
 					"text" : "argument 1: port.\nargument 2: baud rate (Default baud is 115200)"
 				}
 
@@ -329,7 +455,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 94.0, 81.0, 24.0 ],
+					"patching_rect" : [ 80.0, 95.0, 81.0, 24.0 ],
 					"text" : "select port"
 				}
 
@@ -343,7 +469,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 97.0, 41.0, 18.0 ],
+					"patching_rect" : [ 35.0, 98.0, 41.0, 18.0 ],
 					"text" : "port h"
 				}
 
@@ -358,7 +484,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 57.0, 131.0, 24.0 ],
+					"patching_rect" : [ 52.0, 61.0, 131.0, 24.0 ],
 					"text" : "print available ports"
 				}
 
@@ -372,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 59.0, 34.0, 18.0 ],
+					"patching_rect" : [ 11.0, 63.0, 34.0, 18.0 ],
 					"text" : "print"
 				}
 
@@ -385,7 +511,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 366.0, 34.0, 20.0 ],
+					"patching_rect" : [ 11.0, 367.0, 34.0, 20.0 ],
 					"text" : "print"
 				}
 
@@ -399,7 +525,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 11.0, 321.0, 122.0, 20.0 ],
+					"patching_rect" : [ 11.0, 322.0, 122.0, 20.0 ],
 					"text" : "messenger a 115200"
 				}
 
@@ -415,7 +541,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 572.0, 49.0 ],
+					"patching_rect" : [ 3.0, 2.0, 572.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -459,15 +585,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -486,19 +603,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-22", 0 ]
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-24", 0 ]
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -513,10 +630,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-49", 0 ]
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 450.0, 44.0, 520.0, 595.0 ],
@@ -109,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 323.0, 65.0, 22.0 ],
+					"patching_rect" : [ 13.0, 326.0, 65.0, 22.0 ],
 					"text" : "metro 20"
 				}
 
@@ -139,7 +140,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 290.0, 19.0, 19.0 ]
+					"patching_rect" : [ 13.0, 300.0, 19.0, 19.0 ]
 				}
 
 			}
@@ -221,7 +222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 154.0, 81.0, 24.0 ],
+					"patching_rect" : [ 306.0, 166.0, 81.0, 24.0 ],
 					"text" : "output (4)"
 				}
 
@@ -236,7 +237,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 54.0, 70.0, 24.0 ],
+					"patching_rect" : [ 353.0, 66.0, 70.0, 24.0 ],
 					"text" : "input (2)"
 				}
 
@@ -251,7 +252,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.0, 85.0, 100.0, 24.0 ],
+					"patching_rect" : [ 412.0, 97.0, 100.0, 24.0 ],
 					"text" : "probability (1)"
 				}
 
@@ -263,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 251.0, 56.5, 23.0, 23.0 ]
+					"patching_rect" : [ 251.0, 68.5, 23.0, 23.0 ]
 				}
 
 			}
@@ -279,7 +280,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.0, 155.0, 51.0, 22.0 ],
+					"patching_rect" : [ 251.0, 167.0, 51.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -293,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.0, 88.0, 86.0, 20.0 ],
+					"patching_rect" : [ 324.0, 100.0, 86.0, 20.0 ],
 					"text" : "10 20 50 20"
 				}
 
@@ -307,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 56.5, 62.0, 20.0 ],
+					"patching_rect" : [ 288.0, 68.5, 62.0, 20.0 ],
 					"text" : "1 4 2 86"
 				}
 
@@ -321,7 +322,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 251.0, 117.0, 92.0, 22.0 ],
+					"patching_rect" : [ 251.0, 129.0, 92.0, 22.0 ],
 					"text" : "randomness"
 				}
 
@@ -338,7 +339,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.0, 125.0, 102.0, 39.0 ],
+					"patching_rect" : [ 90.0, 137.0, 102.0, 39.0 ],
 					"text" : "distribution curve"
 				}
 
@@ -353,7 +354,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 57.0, 144.0, 24.0 ],
+					"patching_rect" : [ 35.0, 69.0, 144.0, 24.0 ],
 					"text" : "weighted randomness"
 				}
 
@@ -374,7 +375,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 237.0, 152.0, 24.0 ],
+					"patching_rect" : [ 11.0, 249.0, 152.0, 24.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"settype" : 0
@@ -393,7 +394,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 126.0, 53.0, 22.0 ],
+					"patching_rect" : [ 11.0, 138.0, 53.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -410,7 +411,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 201.0, 51.0, 22.0 ],
+					"patching_rect" : [ 11.0, 213.0, 51.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -422,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 57.0, 23.0, 23.0 ]
+					"patching_rect" : [ 11.0, 69.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -435,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 11.0, 90.0, 88.0, 22.0 ],
+					"patching_rect" : [ 11.0, 102.0, 88.0, 22.0 ],
 					"text" : "random 128"
 				}
 
@@ -451,7 +452,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 11.0, 165.0, 153.0, 22.0 ],
+					"patching_rect" : [ 11.0, 177.0, 153.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"name" : "curve",
 						"parameter_enable" : 0,
@@ -476,7 +477,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 27.0, 366.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 143.0, 21.0 ],
 					"text" : "more random functions",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -511,7 +512,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 517.0, 48.0 ],
+					"patching_rect" : [ 1.0, 1.0, 517.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -656,8 +657,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "randomness.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_random",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_random",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
