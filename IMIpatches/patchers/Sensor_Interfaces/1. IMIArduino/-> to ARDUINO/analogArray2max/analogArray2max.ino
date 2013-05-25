@@ -15,9 +15,9 @@ void loop(){
 
     for (int i=0; i<5; i++){                  
       selector = analogRead(switchArray[i]); 
+       // Serial.print (switchRoute[i]);
 	  Serial.print (selector);
 	  Serial.print (" ");   
-      // Serial.print (switchRoute[i]);
     }
 	
 	Serial.println (""));
