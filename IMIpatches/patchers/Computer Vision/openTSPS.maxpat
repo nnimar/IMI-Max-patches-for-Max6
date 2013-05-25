@@ -126,22 +126,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-16",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 457.0, 196.0, 49.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max%206.1/packages/IMIpatches/apps/tsps/openTSPS.app\\\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
@@ -467,7 +451,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.0, 404.0, 123.0, 18.0 ],
-					"text" : "0.10625"
+					"text" : "0.051562"
 				}
 
 			}
@@ -481,7 +465,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 374.0, 111.0, 18.0 ],
-					"text" : "0.2375"
+					"text" : "0.59375"
 				}
 
 			}
@@ -495,7 +479,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.0, 344.0, 96.0, 18.0 ],
-					"text" : "0.075"
+					"text" : "0.45625"
 				}
 
 			}
@@ -509,7 +493,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 188.0, 314.0, 82.0, 18.0 ],
-					"text" : "-0.293137"
+					"text" : "-0.028046"
 				}
 
 			}
@@ -523,7 +507,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.0, 284.0, 98.0, 18.0 ],
-					"text" : "-0.2043"
+					"text" : "-0.060425"
 				}
 
 			}
@@ -537,7 +521,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 158.0, 254.0, 85.0, 18.0 ],
-					"text" : "0.315848"
+					"text" : "0.654558"
 				}
 
 			}
@@ -551,7 +535,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 158.0, 224.0, 72.0, 18.0 ],
-					"text" : "0.12638"
+					"text" : "0.47419"
 				}
 
 			}
@@ -565,7 +549,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 194.0, 87.0, 18.0 ],
-					"text" : "47"
+					"text" : "14"
 				}
 
 			}
@@ -639,6 +623,21 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-35",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 409.0, 473.0, 109.0, 33.0 ],
+					"text" : "imi.apploader tsps openTSPS.app"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -665,7 +664,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-17", 0 ]
@@ -883,6 +882,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.apploader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "slicelist.mxo",
 				"type" : "iLaX"
 			}

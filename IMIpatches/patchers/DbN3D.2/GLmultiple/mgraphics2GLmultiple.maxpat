@@ -1280,7 +1280,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 588.0, 52.0 ],
+					"patching_rect" : [ 1.0, 3.0, 588.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

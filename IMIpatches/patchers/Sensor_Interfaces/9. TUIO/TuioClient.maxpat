@@ -12032,14 +12032,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
-					"id" : "obj-54",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 619.0, 421.0, 272.0, 58.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:///////Applications/Max%206.1/packages/IMIpatches/apps/TUIO_Simulator/TuioSimulator.jar\\\""
+					"id" : "obj-10",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 750.0, 435.0, 101.0, 47.0 ],
+					"text" : "imi.apploader TUIO_Simulator TuioSimulator.jar"
 				}
 
 			}
@@ -12890,7 +12889,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-9", 0 ]
@@ -12944,6 +12943,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.apploader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "TuioClient.mxo",
 				"type" : "iLaX"
 			}

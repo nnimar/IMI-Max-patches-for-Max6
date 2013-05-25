@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 613.0, 656.0 ],
+		"rect" : [ 0.0, 44.0, 573.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,284 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 64.0, 255.0, 24.0 ],
+					"text" : "turn off the metro when using the Arduino !"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-40",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 438.0, 614.0, 122.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 459.0, 521.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "more Arduino",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 578.0, 44.0, 342.0, 361.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-1",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 206.0, 330.0, 60.0 ],
+									"presentation_rect" : [ 15.0, 202.0, 0.0, 0.0 ],
+									"text" : "An Arduino uses the port usbmodem1a21 or  usbserial-A6008hpd, you can connect the following messages to the serial object if you know the complete \nport name."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 5.0, 325.0, 123.0 ],
+									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Turn the metro on (you can't have Arduino and Max\npolling the serial at the same time)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 10.0, 144.0, 323.0, 47.0 ],
+									"text" : "You can either Install analog2max.ino (analog sensor) \nor button2max.ino (digital sensor ). This patch works with only one sensor at a time."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica",
+									"fontsize" : 12.0,
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 302.0, 121.0, 16.0 ],
+									"text" : "port usbmodem1a21"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
+									"bubble" : 1,
+									"fontname" : "Helvetica",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-22",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 166.0, 304.0, 153.0, 34.0 ],
+									"text" : "Arduino starts with usbserial or usbmodem"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica",
+									"fontsize" : 12.0,
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 328.0, 141.0, 16.0 ],
+									"text" : "port usbserial-A6008hpd"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 517.0, 33.0, 49.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p tutorial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-35",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 438.0, 562.0, 122.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 467.0, 381.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "open button2max",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-36",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 438.0, 562.5, 93.0, 18.0 ],
+					"presentation_rect" : [ 467.0, 406.5, 0.0, 0.0 ],
+					"text" : "button2max.ino"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-28",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 438.0, 588.0, 122.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "open analog2max",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 438.0, 589.5, 95.0, 18.0 ],
+					"text" : "analog2max.ino"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 438.0, 587.5, 82.0, 20.0 ],
+					"text" : "imi.docloader"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -172,7 +450,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 412.5, 194.0, 76.0, 20.0 ],
+					"patching_rect" : [ 438.0, 616.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -200,22 +478,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 412.5, 165.0, 103.0, 19.0 ],
+					"patching_rect" : [ 438.0, 616.0, 103.0, 19.0 ],
 					"text" : "SSensorsA.scpt"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 313.0, 121.0, 16.0 ],
-					"text" : "port usbmodem1a21"
 				}
 
 			}
@@ -229,7 +493,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 130.0, 68.0, 24.0 ],
+					"patching_rect" : [ 121.0, 120.0, 68.0, 24.0 ],
 					"text" : "re-scan"
 				}
 
@@ -241,98 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 99.0, 132.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-39",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 413.0, 138.0, 129.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 337.0, 100.0, 20.0 ],
-					"text" : "Arduino programs"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-8",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 494.0, 627.0, 110.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 244.0, 100.0, 20.0 ],
-					"text" : "arduino2max 12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 630.0, 121.0, 16.0 ],
-					"text" : "load IMI_arduino2max12"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 627.0, 52.0, 19.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"frgb" : 0.0,
-					"id" : "obj-11",
-					"linecount" : 11,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 79.0, 234.0, 166.0 ],
-					"text" : "1. Close this patch\n\n2. Install the program on the Arduino :\n\n\n\n3. Check the arduino serial monitor.\n\n4. Quit the arduino application\n\n5. Open this patch again"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-					"id" : "obj-12",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 72.0, 238.0, 183.0 ],
-					"rounded" : 29
+					"patching_rect" : [ 99.0, 122.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -353,30 +526,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 405.0, 404.0, 238.317078 ],
+					"patching_rect" : [ 15.0, 395.0, 404.0, 238.317078 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 1023.0 ],
 					"setstyle" : 3,
 					"settype" : 0,
 					"slidercolor" : [ 0.341176, 0.341176, 0.341176, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.67451, 0.270588, 0.270588, 0.0 ],
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-22",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 261.0, 135.0, 49.0 ],
-					"text" : "Arduino starts with usbserial or usbmodem"
 				}
 
 			}
@@ -392,7 +547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 242.0, 145.0, 34.0 ],
+					"patching_rect" : [ 136.0, 232.0, 145.0, 34.0 ],
 					"text" : "serial communication\nport a, 9600 bauds"
 				}
 
@@ -407,7 +562,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 3.0, 159.0, 67.0, 20.0 ],
+					"patching_rect" : [ 3.0, 149.0, 67.0, 20.0 ],
 					"text" : "closebang"
 				}
 
@@ -423,7 +578,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 194.0, 105.0, 24.0 ],
+					"patching_rect" : [ 215.0, 184.0, 105.0, 24.0 ],
 					"text" : "choose a port"
 				}
 
@@ -438,7 +593,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 291.0, 113.0, 24.0 ],
+					"patching_rect" : [ 61.0, 281.0, 113.0, 24.0 ],
 					"text" : "receiving data ?"
 				}
 
@@ -449,12 +604,11 @@
 					"fontsize" : 13.0,
 					"frgb" : 0.0,
 					"id" : "obj-5",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 29.0, 600.0, 36.0 ],
-					"text" : "monitor one analog or digital input on the Arduino. Install analog2max.ino (analog) on the Arduino\nor button2max.ino (digital)",
+					"patching_rect" : [ 5.0, 32.0, 296.0, 21.0 ],
+					"text" : "monitor one analog or digital input on the Arduino ",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
 
@@ -663,7 +817,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 338.0, 81.0, 20.0 ],
+					"patching_rect" : [ 15.0, 328.0, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -693,7 +847,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 368.0, 67.0, 22.0 ],
+					"patching_rect" : [ 15.0, 358.0, 67.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -708,7 +862,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 3.0, 159.0, 38.5, 20.0 ],
+					"patching_rect" : [ 3.0, 149.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -723,7 +877,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 162.0, 38.0, 16.0 ],
+					"patching_rect" : [ 3.0, 152.0, 38.0, 16.0 ],
 					"text" : "close"
 				}
 
@@ -735,7 +889,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.0, 291.0, 24.0, 24.0 ]
+					"patching_rect" : [ 36.0, 281.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1169,7 +1323,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 31.0, 159.0, 87.0, 20.0 ],
+					"patching_rect" : [ 31.0, 149.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1198,7 +1352,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 31.0, 196.0, 179.0, 20.0 ],
+					"patching_rect" : [ 31.0, 186.0, 179.0, 20.0 ],
 					"pattrmode" : 1
 				}
 
@@ -1211,21 +1365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 74.0, 23.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 339.0, 141.0, 16.0 ],
-					"text" : "port usbserial-A6008hpd"
+					"patching_rect" : [ 15.0, 64.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -1239,7 +1379,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 114.0, 51.0, 20.0 ],
+					"patching_rect" : [ 15.0, 104.0, 51.0, 20.0 ],
 					"text" : "metro 5"
 				}
 
@@ -1254,7 +1394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 15.0, 246.0, 118.0, 27.0 ],
+					"patching_rect" : [ 15.0, 236.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
 				}
 
@@ -1287,7 +1427,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 609.0, 62.0 ],
+					"patching_rect" : [ 2.0, 3.0, 567.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1303,7 +1443,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 400.0, 412.0, 248.0 ],
+					"patching_rect" : [ 11.0, 390.0, 412.0, 248.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1315,15 +1455,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1347,10 +1478,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 142.0, 24.5, 142.0 ],
+					"midpoints" : [ 24.5, 132.0, 24.5, 132.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1366,10 +1506,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 12.5, 231.5, 24.5, 231.5 ],
+					"midpoints" : [ 12.5, 221.5, 24.5, 221.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1388,7 +1537,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 284.0, 45.5, 284.0 ],
+					"midpoints" : [ 24.5, 274.0, 45.5, 274.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1404,6 +1553,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1413,19 +1580,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 24.5, 105.5, 12.5, 105.5 ],
+					"midpoints" : [ 24.5, 95.5, 12.5, 95.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1436,6 +1594,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1462,22 +1629,20 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 108.5, 187.5, 24.5, 187.5 ],
+					"midpoints" : [ 108.5, 177.5, 24.5, 177.5 ],
 					"source" : [ "obj-64", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.docloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}

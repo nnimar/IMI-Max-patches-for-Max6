@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 601.0, 461.0 ],
+		"rect" : [ 0.0, 44.0, 601.0, 466.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 428.0, 20.0 ],
+					"patching_rect" : [ 2.0, 33.0, 428.0, 20.0 ],
 					"text" : "the tracker is Max application, it sends OSC messages through the port 7300",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -52,7 +52,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 272.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 272.0, 30.0 ],
 					"text" : "KVL Kinect Tracker",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -114,7 +114,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 551.0, 28.0, 45.0, 17.0 ],
+					"patching_rect" : [ 551.0, 33.0, 45.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 538.0, 403.0, 45.0, 20.0 ],
+					"patching_rect" : [ 536.0, 407.0, 45.0, 20.0 ],
 					"text" : "real z"
 				}
 
@@ -155,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 464.0, 403.0, 45.0, 20.0 ],
+					"patching_rect" : [ 462.0, 407.0, 45.0, 20.0 ],
 					"text" : "real y"
 				}
 
@@ -169,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 403.0, 45.0, 20.0 ],
+					"patching_rect" : [ 390.0, 407.0, 45.0, 20.0 ],
 					"text" : "real x"
 				}
 
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 403.0, 45.0, 20.0 ],
+					"patching_rect" : [ 318.0, 407.0, 45.0, 20.0 ],
 					"text" : "pixel y"
 				}
 
@@ -197,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 403.0, 45.0, 20.0 ],
+					"patching_rect" : [ 245.0, 407.0, 45.0, 20.0 ],
 					"text" : "pixel x"
 				}
 
@@ -212,7 +212,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 535.0, 378.0, 50.0, 20.0 ]
+					"patching_rect" : [ 533.0, 382.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 462.0, 378.0, 50.0, 20.0 ]
+					"patching_rect" : [ 460.0, 382.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 390.0, 378.0, 50.0, 20.0 ]
+					"patching_rect" : [ 388.0, 382.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -254,7 +254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.0, 378.0, 50.0, 20.0 ]
+					"patching_rect" : [ 315.0, 382.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -268,7 +268,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.0, 378.0, 50.0, 20.0 ]
+					"patching_rect" : [ 242.0, 382.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "float", "float", "float" ],
-					"patching_rect" : [ 244.0, 350.0, 310.0, 20.0 ],
+					"patching_rect" : [ 242.0, 354.0, 310.0, 20.0 ],
 					"text" : "unpack i i f f f"
 				}
 
@@ -295,7 +295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 317.0, 45.0, 20.0 ],
+					"patching_rect" : [ 418.0, 321.0, 45.0, 20.0 ],
 					"text" : "real z"
 				}
 
@@ -309,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 346.0, 317.0, 45.0, 20.0 ],
+					"patching_rect" : [ 344.0, 321.0, 45.0, 20.0 ],
 					"text" : "real y"
 				}
 
@@ -323,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 317.0, 45.0, 20.0 ],
+					"patching_rect" : [ 272.0, 321.0, 45.0, 20.0 ],
 					"text" : "real x"
 				}
 
@@ -337,7 +337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 317.0, 45.0, 20.0 ],
+					"patching_rect" : [ 200.0, 321.0, 45.0, 20.0 ],
 					"text" : "pixel y"
 				}
 
@@ -351,7 +351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 317.0, 45.0, 20.0 ],
+					"patching_rect" : [ 127.0, 321.0, 45.0, 20.0 ],
 					"text" : "pixel x"
 				}
 
@@ -366,7 +366,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.0, 292.0, 50.0, 20.0 ]
+					"patching_rect" : [ 415.0, 296.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -380,7 +380,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 344.0, 292.0, 50.0, 20.0 ]
+					"patching_rect" : [ 342.0, 296.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 272.0, 292.0, 50.0, 20.0 ]
+					"patching_rect" : [ 270.0, 296.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -408,7 +408,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 199.0, 292.0, 50.0, 20.0 ]
+					"patching_rect" : [ 197.0, 296.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -422,7 +422,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 126.0, 292.0, 50.0, 20.0 ]
+					"patching_rect" : [ 124.0, 296.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -435,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "float", "float", "float" ],
-					"patching_rect" : [ 126.0, 264.0, 310.0, 20.0 ],
+					"patching_rect" : [ 124.0, 268.0, 310.0, 20.0 ],
 					"text" : "unpack i i f f f"
 				}
 
@@ -449,7 +449,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 234.0, 45.0, 20.0 ],
+					"patching_rect" : [ 300.0, 238.0, 45.0, 20.0 ],
 					"text" : "real z"
 				}
 
@@ -463,7 +463,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 228.0, 234.0, 45.0, 20.0 ],
+					"patching_rect" : [ 226.0, 238.0, 45.0, 20.0 ],
 					"text" : "real y"
 				}
 
@@ -477,7 +477,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 234.0, 45.0, 20.0 ],
+					"patching_rect" : [ 154.0, 238.0, 45.0, 20.0 ],
 					"text" : "real x"
 				}
 
@@ -491,7 +491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 234.0, 45.0, 20.0 ],
+					"patching_rect" : [ 82.0, 238.0, 45.0, 20.0 ],
 					"text" : "pixel y"
 				}
 
@@ -505,7 +505,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 234.0, 45.0, 20.0 ],
+					"patching_rect" : [ 9.0, 238.0, 45.0, 20.0 ],
 					"text" : "pixel x"
 				}
 
@@ -520,7 +520,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 299.0, 209.0, 50.0, 20.0 ]
+					"patching_rect" : [ 297.0, 213.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -534,7 +534,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 226.0, 209.0, 50.0, 20.0 ]
+					"patching_rect" : [ 224.0, 213.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -548,7 +548,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 154.0, 209.0, 50.0, 20.0 ]
+					"patching_rect" : [ 152.0, 213.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -562,7 +562,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.0, 209.0, 50.0, 20.0 ]
+					"patching_rect" : [ 79.0, 213.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -576,7 +576,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 209.0, 50.0, 20.0 ]
+					"patching_rect" : [ 6.0, 213.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -589,7 +589,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 8.0, 147.0, 373.0, 20.0 ],
+					"patching_rect" : [ 6.0, 151.0, 373.0, 20.0 ],
 					"text" : "route 1 2 3"
 				}
 
@@ -606,7 +606,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 110.0, 284.0, 39.0 ],
+					"patching_rect" : [ 95.0, 114.0, 284.0, 39.0 ],
 					"text" : "route output of blobs 1, 2, and 3 to different places"
 				}
 
@@ -620,7 +620,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "float", "float", "float" ],
-					"patching_rect" : [ 8.0, 181.0, 310.0, 20.0 ],
+					"patching_rect" : [ 6.0, 185.0, 310.0, 20.0 ],
 					"text" : "unpack i i f f f"
 				}
 
@@ -634,7 +634,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 115.0, 49.0, 20.0 ],
+					"patching_rect" : [ 6.0, 119.0, 49.0, 20.0 ],
 					"text" : "zl iter 6"
 				}
 
@@ -648,7 +648,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 81.0, 108.0, 20.0 ],
+					"patching_rect" : [ 6.0, 85.0, 108.0, 20.0 ],
 					"text" : "route /kinect/blobs"
 				}
 
@@ -662,7 +662,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 55.0, 99.0, 20.0 ],
+					"patching_rect" : [ 6.0, 59.0, 99.0, 20.0 ],
 					"text" : "udpreceive 7300"
 				}
 
@@ -681,7 +681,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.0, 435.0, 180.0, 20.0 ],
+					"patching_rect" : [ 415.0, 441.0, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 791.0, 343.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -693,16 +693,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"hidden" : 1,
-					"id" : "obj-16",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 334.0, 406.0, 261.0, 49.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max%206.1/packages/IMIpatches/apps/KVL_Kinect_Tracker_v20/KVL_Kinect_Tracker.app\\\""
+					"id" : "obj-9",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 412.0, 415.0, 144.0, 47.0 ],
+					"text" : "imi.apploader KVL_Kinect_Tracker KVL_Kinect_Tracker.app"
 				}
 
 			}
@@ -717,7 +716,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 597.0, 45.0 ],
+					"patching_rect" : [ 2.0, 3.0, 597.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -734,7 +733,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-17", 0 ]
@@ -922,7 +921,18 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "imi.apploader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

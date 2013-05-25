@@ -816,7 +816,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 9.0, 59.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -921,14 +921,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 280.0, 120.0, 31.0 ],
+					"patching_rect" : [ 496.0, 280.0, 106.0, 26.0 ],
 					"text" : "computer B"
 				}
 
@@ -1321,14 +1321,14 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 280.0, 125.0, 31.0 ],
+					"patching_rect" : [ 159.0, 280.0, 111.0, 26.0 ],
 					"text" : "computer A"
 				}
 
@@ -1336,7 +1336,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-21",
@@ -1344,7 +1344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 395.0, 115.0, 212.0, 42.0 ],
+					"patching_rect" : [ 395.0, 115.0, 226.0, 42.0 ],
 					"text" : "CONTROL COMPUTER\n(could be computer A, B or C)"
 				}
 

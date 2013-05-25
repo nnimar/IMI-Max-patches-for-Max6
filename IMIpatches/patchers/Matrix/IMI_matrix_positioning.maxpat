@@ -285,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 506.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 506.0, 21.0 ],
 					"text" : "take a portion of one matrix and place it in some different location in another matrix",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

@@ -585,7 +585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 30.0, 423.0, 21.0 ],
+					"patching_rect" : [ 0.0, 31.0, 423.0, 21.0 ],
 					"text" : " create multiple object instances (including particles, boids and text)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

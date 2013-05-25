@@ -31,195 +31,46 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 616.0, 140.0, 112.0, 18.0 ],
-					"text" : "Wiimote2Max.oscd"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
-						}
-,
-						"rect" : [ 665.0, 44.0, 270.0, 238.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-11",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 143.0, 122.0, 20.0 ],
-									"text" : "sprintf open \\\\\\\"%s\\\\\\\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 50.0, 177.0, 35.0, 20.0 ],
-									"text" : "shell"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 50.0, 111.0, 140.0, 21.0 ],
-									"text" : "conformpath max boot"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-21",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 80.0, 85.0, 21.0 ],
-									"text" : "absolutepath"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-17",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-11", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-21", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-21", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-9", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 615.5, 165.0, 85.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p shell-launch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"id" : "obj-1",
+					"id" : "obj-3",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 616.0, 114.0, 78.0, 18.0 ],
+					"patching_rect" : [ 574.0, 192.0, 131.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 819.0, 540.0, 100.0, 20.0 ],
-					"text" : "OSC patch"
+					"presentation_rect" : [ 781.0, 539.0, 133.0, 20.0 ],
+					"text" : "open Wiimote2Max"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 551.0, 192.5, 153.0, 18.0 ],
+					"text" : "Wiimote2Max_simple.oscd"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 551.0, 191.5, 82.0, 20.0 ],
+					"text" : "imi.docloader"
 				}
 
 			}
@@ -235,7 +86,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 615.0, 11.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 738.0, 540.0, 75.0, 20.0 ],
+					"presentation_rect" : [ 698.0, 539.0, 75.0, 20.0 ],
 					"text" : "More Info"
 				}
 
@@ -388,7 +239,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 274.0, 130.0, 106.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 607.0, 48.0, 295.0, 52.0 ],
+					"presentation_rect" : [ 607.0, 57.0, 295.0, 52.0 ],
 					"tabcolor" : [ 0.690196, 0.690196, 0.690196, 1.0 ],
 					"tabs" : [ "wii1", "wii2", "wii3", "wii4" ]
 				}
@@ -3644,7 +3495,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 549.0, 44.0, 389.0, 386.0 ],
+						"rect" : [ 602.0, 91.0, 327.0, 396.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3688,7 +3539,7 @@
 									"patching_rect" : [ 178.0, 21.0, 148.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 112.0, 9.0, 257.0, 27.0 ],
+									"presentation_rect" : [ 10.0, 30.0, 259.0, 27.0 ],
 									"text" : "- this patch is included as a way to get started using OSC data coming in from the OSCulator application"
 								}
 
@@ -3705,8 +3556,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 207.0, 188.0, 181.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 200.0, 148.0, 181.0, 47.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 185.0, 293.0, 27.0 ],
 									"text" : "- sometimes when switching from triangulation to object tracking mode size=0 and results in no red circle being visible in the LCD object"
 								}
 
@@ -3723,40 +3574,40 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 206.0, 135.0, 181.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 200.0, 93.0, 181.0, 47.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 154.0, 298.0, 27.0 ],
 									"text" : "- ignore the error message for the [OSC-route] obect in the Max window: 'invalid list beginning with a number' - will fix this in new version"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
+									"fontname" : "Arial Bold",
+									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 33.0, 47.0, 117.0, 27.0 ],
+									"patching_rect" : [ 33.0, 47.0, 102.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 7.0, 117.0, 27.0 ],
+									"presentation_rect" : [ 10.0, 7.0, 82.0, 22.0 ],
 									"text" : "more info :"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontname" : "Arial Bold",
+									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.0, 133.0, 130.0, 17.0 ],
+									"patching_rect" : [ 36.0, 133.0, 214.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 91.0, 130.0, 17.0 ],
+									"presentation_rect" : [ 10.0, 100.0, 182.0, 22.0 ],
 									"text" : "caveats or known issues:"
 								}
 
@@ -3773,8 +3624,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 35.0, 168.0, 168.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 10.0, 128.0, 181.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 123.0, 270.0, 27.0 ],
 									"text" : "- you can modify this patch to use up to four wii remotes by using the [OCS-route] object which has the routing already set up"
 								}
 
@@ -3791,7 +3642,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 345.0, 276.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 251.0, 302.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 263.0, 302.0, 20.0 ],
 									"text" : "/device/address/function/defin data1 data2 data3 data4"
 								}
 
@@ -3799,16 +3650,16 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
-									"fontsize" : 12.0,
+									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 326.0, 195.0, 33.0 ],
+									"patching_rect" : [ 25.0, 326.0, 226.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 219.0, 246.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 239.0, 270.0, 22.0 ],
 									"text" : "format of data coming from OSCulator:"
 								}
 
@@ -3824,7 +3675,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 450.0, 191.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 361.0, 191.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 373.0, 191.0, 20.0 ],
 									"text" : "/wii/1/ir/xys/1 float1 float2 float3"
 								}
 
@@ -3840,7 +3691,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 428.0, 120.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 339.0, 120.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 351.0, 120.0, 20.0 ],
 									"text" : "/wii/1/button/A 1int"
 								}
 
@@ -3856,7 +3707,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 365.0, 138.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 275.0, 138.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 287.0, 138.0, 20.0 ],
 									"text" : "/wii/1/accel/pry 4floats"
 								}
 
@@ -3872,7 +3723,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 407.0, 116.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 317.0, 116.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 329.0, 116.0, 20.0 ],
 									"text" : "/wii/1/button/A 1int"
 								}
 
@@ -3888,7 +3739,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 385.0, 136.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 296.0, 136.0, 20.0 ],
+									"presentation_rect" : [ 10.0, 308.0, 136.0, 20.0 ],
 									"text" : "/wii/1/accel/xyz 3floats"
 								}
 
@@ -3902,21 +3753,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 317.0, 294.0, 156.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 210.0, 310.0, 174.0 ],
-									"rounded" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-									"id" : "obj-17",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 111.0, 374.0, 202.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 77.0, 374.0, 131.0 ],
+									"presentation_rect" : [ 10.0, 224.0, 310.0, 5.0 ],
 									"rounded" : 0
 								}
 
@@ -3934,22 +3771,8 @@
 									"patching_rect" : [ 178.0, 72.0, 150.0, 37.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 112.0, 40.0, 257.0, 27.0 ],
+									"presentation_rect" : [ 10.0, 61.0, 257.0, 27.0 ],
 									"text" : "- please feel free to modify, mangle, hack or tweak this patch as needed"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-									"id" : "obj-19",
-									"maxclass" : "panel",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 168.0, 17.0, 207.0, 92.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 103.0, 5.0, 281.0, 70.0 ],
-									"rounded" : 0
 								}
 
 							}
@@ -4487,7 +4310,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 28.0, 17.0, 302.0, 60.0 ],
-					"text" : "Wii remote to OSCulator to Max patch"
+					"text" : "Wii remote to OSCulator \nto Max patch"
 				}
 
 			}
@@ -4726,15 +4549,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
@@ -5032,6 +4846,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5211,15 +5043,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5313,6 +5136,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.docloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}

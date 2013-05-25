@@ -699,11 +699,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 238.0, 550.0, 118.0, 20.0 ],
+					"patching_rect" : [ 243.0, 550.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 573.0, 433.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "Launch Millumin",
+					"text" : "launch Millumin",
 					"texton" : "Stop"
 				}
 
@@ -742,7 +742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.0, 545.0, 220.0, 25.0 ],
+					"patching_rect" : [ 360.0, 545.0, 220.0, 25.0 ],
 					"text" : ";\rmax launchbrowser http://lab.millumin.com/#tutorials"
 				}
 
@@ -2454,7 +2454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 545.0, 232.0, 25.0 ],
+					"patching_rect" : [ 244.0, 545.0, 232.0, 25.0 ],
 					"text" : ";\rmax launchbrowser \\\"file:/Applications/Millumin.app\\\""
 				}
 

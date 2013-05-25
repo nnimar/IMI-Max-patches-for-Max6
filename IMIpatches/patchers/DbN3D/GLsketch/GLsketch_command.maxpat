@@ -1142,7 +1142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 478.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 287.0, 21.0 ],
 					"text" : "use GL sketch as an interface for OpenGL ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"

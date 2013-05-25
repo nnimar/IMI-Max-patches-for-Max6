@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 556.0, 44.0, 429.0, 230.0 ],
+		"rect" : [ 553.0, 44.0, 429.0, 230.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -91,11 +92,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 155.5, 261.0, 23.0 ],
+					"patching_rect" : [ 114.0, 157.5, 261.0, 22.0 ],
 					"text" : "Publish an OSC device on the network"
 				}
 
@@ -104,11 +106,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 123.5, 229.0, 23.0 ],
+					"patching_rect" : [ 114.0, 125.5, 229.0, 22.0 ],
 					"text" : "sends OSC messages"
 				}
 
@@ -127,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 155.5, 85.0, 21.0 ],
+					"patching_rect" : [ 6.0, 157.5, 85.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 318.0, 199.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -150,7 +153,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 123.5, 71.0, 21.0 ],
+					"patching_rect" : [ 6.0, 125.5, 71.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 156.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -233,7 +236,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 91.5, 89.0, 21.0 ],
+					"patching_rect" : [ 6.0, 93.5, 89.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -256,7 +259,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 59.5, 84.0, 21.0 ],
+					"patching_rect" : [ 6.0, 61.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -284,12 +287,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 28.0, 265.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 265.0, 21.0 ],
 					"text" : "a few OSC tools",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -300,11 +303,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 91.5, 229.0, 23.0 ],
+					"patching_rect" : [ 114.0, 93.5, 229.0, 22.0 ],
 					"text" : "receives OSC messages"
 				}
 
@@ -313,11 +317,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 58.5, 263.0, 23.0 ],
+					"patching_rect" : [ 114.0, 60.5, 263.0, 22.0 ],
 					"text" : "search for OSC devices on the network"
 				}
 
@@ -332,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 200.5, 52.0, 20.0 ],
+					"patching_rect" : [ 6.0, 200.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -342,7 +347,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -361,12 +366,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 426.0, 49.0 ],
+					"patching_rect" : [ 1.0, 1.0, 426.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

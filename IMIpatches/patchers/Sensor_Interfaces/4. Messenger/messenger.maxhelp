@@ -242,7 +242,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-38",
 					"linecount" : 4,
@@ -250,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 319.0, 133.0, 58.0 ],
+					"patching_rect" : [ 441.0, 342.0, 133.0, 49.0 ],
 					"text" : ";\rmax launchbrowser http://playground.arduino.cc/Code/Messenger"
 				}
 

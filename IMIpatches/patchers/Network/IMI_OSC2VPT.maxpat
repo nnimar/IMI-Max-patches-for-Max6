@@ -915,7 +915,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 30.0, 638.0, 21.0 ],
-					"text" : "send intructions to hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
+					"text" : "send instructions to hc gilje's video projection tool (VPT) using OSC, this patch works with version 6.0 of VPT.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

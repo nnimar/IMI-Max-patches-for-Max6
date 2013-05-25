@@ -1369,7 +1369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 477.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 315.0, 21.0 ],
 					"text" : "use join,group to create drawings with sketch",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

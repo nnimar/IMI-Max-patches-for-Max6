@@ -72,7 +72,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 18.0, 184.0, 18.0 ],
+									"patching_rect" : [ 20.0, 8.0, 184.0, 18.0 ],
 									"text" : "read LIVEmask-alpha.mov, bang"
 								}
 
@@ -88,7 +88,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 97.0, 67.0, 158.0, 37.0 ],
+									"patching_rect" : [ 85.0, 67.0, 158.0, 37.0 ],
 									"text" : "unpack a movie (alpha red green blue or ARGB)"
 								}
 
@@ -102,7 +102,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-									"patching_rect" : [ 20.0, 75.0, 73.0, 20.0 ],
+									"patching_rect" : [ 20.0, 75.0, 62.0, 20.0 ],
 									"text" : "jit.unpack"
 								}
 
@@ -128,7 +128,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 20.0, 47.0, 71.0, 20.0 ],
+									"patching_rect" : [ 20.0, 37.0, 71.0, 20.0 ],
 									"text" : "jit.qt.movie"
 								}
 

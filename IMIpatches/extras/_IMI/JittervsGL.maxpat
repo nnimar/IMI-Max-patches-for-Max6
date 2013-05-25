@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 396.0, 373.0, 67.0 ],
-					"text" : "In 2D, the [0,0] is at the top left corner\nX, Y axis depends on the size of the matrix\nex : jit.matrix 160 120 (160 x 120 px)\n"
+					"text" : "In 2D, the [0,0] is at the top left corner\nX, Y axis depends on the size of the matrix\nex : jit.matrix 160 120 (160 x 120 px)"
 				}
 
 			}

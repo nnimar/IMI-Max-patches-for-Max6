@@ -364,7 +364,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 426.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 426.0, 21.0 ],
 					"text" : "basic patch to use Syphon (open Syphon Client or Syphon Quartz to test)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

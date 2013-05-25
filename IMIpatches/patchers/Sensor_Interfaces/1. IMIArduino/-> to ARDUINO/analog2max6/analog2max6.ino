@@ -1,6 +1,6 @@
 // Arduino2max6 (analog)
 // Connect 6 analog sensors on pins 0,1,2,3,4,5
-// and send them to Max/MSP (use regexp to decode)
+// and send them to Max (unpack method)
 // nm, imi, 9.2010
               
 void setup() 
@@ -17,17 +17,16 @@ void loop() {
 
 	while (1){
 
-		Serial.print("a");  
 		Serial.print(analogRead(0));
-		Serial.print("b");  
+		Serial.print(" ");  
 		Serial.print(analogRead(1)); 
-		Serial.print("c");  
+		Serial.print(" ");  
 		Serial.print(analogRead(2));
-		Serial.print("d");  
+		Serial.print(" ");  
 		Serial.print(analogRead(3));
-		Serial.print("e");  
+		Serial.print(" ");  
 		Serial.print(analogRead(4));
-		Serial.print("f");  
+		Serial.print(" ");  
 		Serial.print(analogRead(5));
 		Serial.println("");
 

@@ -3,7 +3,7 @@
 /*
  * CapSense Library
  * Paul Badger 2008
- * IMI version for 12 sensors and send to Max/MSP (use regexp to decode)
+ * IMI version for 12 sensors and send to Max (use regexp to decode)
  */
 
 /*
@@ -41,44 +41,30 @@ void loop()
 {
   long start = millis();
  
-  long a =  cs_4_3.capSense(30);
-  long b =  cs_6_5.capSense(30);
-  long c =  cs_8_7.capSense(30);
-  long d =  cs_10_9.capSense(30);
-  long e =  cs_12_11.capSense(30);
-  long f =  cs_25_24.capSense(30);
-  long g =  cs_27_26.capSense(30);
-  long h =  cs_29_28.capSense(30);
-  long i =  cs_31_30.capSense(30);
-  long j=  	cs_33_32.capSense(30);
-  long k =  cs_35_34.capSense(30);
-  long l =  cs_37_36.capSense(30);
-
-  
-Serial.print("a");  
-Serial.print(a);
+ Serial.print("a");  
+Serial.print(cs_4_3.capSense(30));
 Serial.print("b");  
-Serial.print(b);
+Serial.print(cs_6_5.capSense(30));
 Serial.print("c");  
-Serial.print(c);
+Serial.print(cs_8_7.capSense(30));
 Serial.print("d");  
-Serial.print(d);
+Serial.print(cs_10_9.capSense(30));
 Serial.print("e");  
-Serial.print(e);
+Serial.print(cs_12_11.capSense(30));
 Serial.print("f");  
-Serial.print(f);
+Serial.print(cs_25_24.capSense(30));
 Serial.print("g");  
-Serial.print(g);
+Serial.print(cs_27_26.capSense(30));
 Serial.print("h");  
-Serial.print(h);
+Serial.print(cs_29_28.capSense(30));
 Serial.print("i");  
-Serial.print(i);
+Serial.print(cs_31_30.capSense(30));
 Serial.print("j");
-Serial.print(j);
+Serial.print(cs_33_32.capSense(30));
 Serial.print("k");
-Serial.print(k);
+Serial.print(cs_35_34.capSense(30));
 Serial.print("l"); 
-Serial.print(l);
+Serial.print(cs_37_36.capSense(30));
 
 Serial.println("");
 

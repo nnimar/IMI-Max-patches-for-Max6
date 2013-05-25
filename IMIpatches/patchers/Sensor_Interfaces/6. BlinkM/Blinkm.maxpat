@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 739.0, 431.0 ],
+		"rect" : [ 1.0, 44.0, 739.0, 423.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,60 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-11",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 622.0, 396.0, 110.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "open BlinkM.ino",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 593.0, 396.5, 141.0, 18.0 ],
+					"text" : "BlinkMCommu_v100.ino"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 589.0, 396.5, 82.0, 20.0 ],
+					"text" : "imi.docloader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -96,7 +148,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 661.0, 399.0, 64.0, 22.0 ],
+					"patching_rect" : [ 686.0, 33.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -110,7 +162,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p BlinkM"
+					"text" : "p tutorial"
 				}
 
 			}
@@ -124,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 277.0, 592.0, 141.0 ],
+					"patching_rect" : [ 11.0, 276.0, 592.0, 141.0 ],
 					"text" : "Commands look like this {1 0 4 0 99 0 255 0} and means change all BlinkM's to the colour green (0 255 0)\n1 is the start byte\n0 is the i2c address (0 is to all)\n4 is the number of bytes to send (from the command name)\n0 is the number if bytes to receive (back from the Arduino)\n99 is the command name (99 is the ASCII for c or Fade to RGB Color) - see p13 of the BlinkM's datasheet\nThe next three bytes is the color in RGB (255 0 0 is red, 0 0 0 is white) \n\n\nUse BlinkM tester from the Arduino Example to start then use the BlinkMultiple to work with several BlinkM's"
 				}
 
@@ -155,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 587.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 475.0, 21.0 ],
 					"text" : "use the BlinkMCommu (arduino) to send messages to the BlinkM (8 bytes long) ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -895,11 +947,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 61.5, 93.0, 38.5, 93.0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1019,7 +1089,18 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "imi.docloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

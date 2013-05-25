@@ -1576,7 +1576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 538.0, 20.0 ],
+					"patching_rect" : [ 2.0, 32.0, 538.0, 20.0 ],
 					"text" : "everything you need to get you get started with the Kinect on a Mac (see tutorial below for more)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1592,7 +1592,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 80.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 80.0, 30.0 ],
 					"text" : "Kinect",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

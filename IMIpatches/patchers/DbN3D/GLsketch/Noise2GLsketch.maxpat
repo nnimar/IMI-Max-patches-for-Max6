@@ -1137,7 +1137,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 147.0, 46.0, 20.0 ],
+					"patching_rect" : [ 376.0, 157.0, 46.0, 20.0 ],
 					"text" : "s draw"
 				}
 
@@ -1259,7 +1259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 352.0, 119.0, 106.0, 20.0 ],
+					"patching_rect" : [ 352.0, 119.0, 67.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1667,7 +1667,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 448.5, 173.5, 361.5, 173.5 ],
+					"midpoints" : [ 409.5, 148.5, 361.5, 148.5 ],
 					"source" : [ "obj-26", 2 ]
 				}
 
