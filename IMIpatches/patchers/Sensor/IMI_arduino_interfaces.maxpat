@@ -37,7 +37,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 480.0, 132.0, 20.0 ],
+					"patching_rect" : [ 15.0, 481.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 486.0, 100.0, 20.0 ],
 					"text" : "capsense2max (12)"
@@ -54,8 +54,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 482.0, 139.0, 17.0 ],
-					"text" : "load IIMI_capsense2max"
+					"patching_rect" : [ 14.0, 482.0, 136.0, 17.0 ],
+					"text" : "load IMI_capsense2max"
 				}
 
 			}

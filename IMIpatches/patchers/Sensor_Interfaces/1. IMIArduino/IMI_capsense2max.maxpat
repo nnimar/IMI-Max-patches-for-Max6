@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 479.0, 596.0 ],
+		"rect" : [ 0.0, 44.0, 478.0, 589.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -189,7 +189,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.0, 543.0, 160.0, 20.0 ],
+					"patching_rect" : [ 311.0, 536.0, 160.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 246.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -208,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 544.5, 124.0, 18.0 ],
+					"patching_rect" : [ 312.0, 537.5, 124.0, 18.0 ],
 					"text" : "capsense2max12.ino"
 				}
 
@@ -227,7 +227,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.0, 569.0, 105.0, 20.0 ],
+					"patching_rect" : [ 366.0, 562.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 504.0, 566.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -245,7 +245,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.0, 543.5, 82.0, 20.0 ],
+					"patching_rect" : [ 312.0, 536.5, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -395,7 +395,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 312.0, 571.0, 76.0, 20.0 ],
+					"patching_rect" : [ 366.0, 564.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -423,7 +423,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 571.0, 103.0, 19.0 ],
+					"patching_rect" : [ 366.0, 564.0, 103.0, 19.0 ],
 					"text" : "SSensorsA.scpt"
 				}
 
@@ -438,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 117.0, 68.0, 24.0 ],
+					"patching_rect" : [ 122.0, 110.0, 68.0, 24.0 ],
 					"text" : "re-scan"
 				}
 
@@ -450,7 +450,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 101.0, 119.0, 20.0, 20.0 ]
+					"patching_rect" : [ 100.0, 112.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 242.0, 149.0, 34.0 ],
+					"patching_rect" : [ 151.0, 235.0, 149.0, 34.0 ],
 					"text" : "serial communication\nport a, at 57600 bauds"
 				}
 
@@ -481,7 +481,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4.0, 210.0, 67.0, 20.0 ],
+					"patching_rect" : [ 3.0, 203.0, 67.0, 20.0 ],
 					"text" : "closebang"
 				}
 
@@ -497,7 +497,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 181.0, 105.0, 24.0 ],
+					"patching_rect" : [ 216.0, 174.0, 105.0, 24.0 ],
 					"text" : "choose a port"
 				}
 
@@ -512,7 +512,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 63.0, 291.0, 113.0, 24.0 ],
+					"patching_rect" : [ 62.0, 284.0, 113.0, 24.0 ],
 					"text" : "receiving data ?"
 				}
 
@@ -527,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 3.0, 210.0, 38.5, 20.0 ],
+					"patching_rect" : [ 2.0, 203.0, 38.5, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -542,7 +542,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 212.0, 38.0, 16.0 ],
+					"patching_rect" : [ 2.0, 205.0, 38.0, 16.0 ],
 					"text" : "close"
 				}
 
@@ -554,7 +554,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 38.0, 291.0, 24.0, 24.0 ]
+					"patching_rect" : [ 37.0, 284.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -988,7 +988,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 33.0, 146.0, 87.0, 20.0 ],
+					"patching_rect" : [ 32.0, 139.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1011,13 +1011,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "Bluetooth-PDA-Sync", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.0, 183.0, 179.0, 20.0 ],
+					"patching_rect" : [ 32.0, 176.0, 179.0, 20.0 ],
 					"pattrmode" : 1
 				}
 
@@ -1030,7 +1030,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 61.0, 23.0, 23.0 ]
+					"patching_rect" : [ 16.0, 58.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -1044,7 +1044,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 17.0, 101.0, 51.0, 20.0 ],
+					"patching_rect" : [ 16.0, 94.0, 51.0, 20.0 ],
 					"text" : "metro 5"
 				}
 
@@ -1059,7 +1059,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 17.0, 246.0, 128.0, 27.0 ],
+					"patching_rect" : [ 16.0, 239.0, 128.0, 27.0 ],
 					"text" : "serial a 57600"
 				}
 
@@ -1269,7 +1269,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.0, 330.0, 80.0, 20.0 ],
+					"patching_rect" : [ 16.0, 323.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1296,8 +1296,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 298.0, 21.0 ],
-					"text" : "monitor 12 capsense sensors on the Arduino,",
+					"patching_rect" : [ 3.0, 32.0, 371.0, 21.0 ],
+					"text" : "monitor 12 capsense sensors on the Arduino (regexp method)",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
 
@@ -1329,7 +1329,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 217.75, 569.0, 50.0, 20.0 ]
+					"patching_rect" : [ 216.75, 562.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1343,7 +1343,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 204.75, 541.0, 50.0, 20.0 ]
+					"patching_rect" : [ 203.75, 534.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1357,7 +1357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.75, 514.0, 50.0, 20.0 ]
+					"patching_rect" : [ 189.75, 507.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1371,7 +1371,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 175.75, 486.0, 50.0, 20.0 ]
+					"patching_rect" : [ 174.75, 479.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1385,7 +1385,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.75, 455.0, 50.0, 20.0 ]
+					"patching_rect" : [ 161.75, 448.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1399,7 +1399,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.5, 428.0, 50.0, 20.0 ]
+					"patching_rect" : [ 148.5, 421.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1413,7 +1413,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.25, 569.0, 50.0, 20.0 ]
+					"patching_rect" : [ 136.25, 562.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1427,7 +1427,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 541.0, 50.0, 20.0 ]
+					"patching_rect" : [ 120.0, 534.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1441,7 +1441,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.75, 514.0, 50.0, 20.0 ]
+					"patching_rect" : [ 108.75, 507.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1455,7 +1455,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 93.5, 486.0, 50.0, 20.0 ]
+					"patching_rect" : [ 92.5, 479.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1469,7 +1469,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 83.25, 455.0, 50.0, 20.0 ]
+					"patching_rect" : [ 82.25, 448.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1483,7 +1483,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.0, 428.0, 50.0, 20.0 ]
+					"patching_rect" : [ 67.0, 421.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -1496,7 +1496,7 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 69.0, 399.0, 167.5, 20.0 ],
+					"patching_rect" : [ 68.0, 392.0, 167.5, 20.0 ],
 					"text" : "route a b c d e f g h i j k"
 				}
 
@@ -1510,7 +1510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 17.0, 363.0, 227.0, 20.0 ],
+					"patching_rect" : [ 16.0, 356.0, 227.0, 20.0 ],
 					"text" : "regexp ([a-z])(\\\\d+) @substitute \"%1 %2\""
 				}
 
@@ -1555,7 +1555,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.5, 129.0, 26.5, 129.0 ],
+					"midpoints" : [ 25.5, 122.0, 25.5, 122.0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1565,7 +1565,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 12.5, 238.5, 26.5, 238.5 ],
+					"midpoints" : [ 11.5, 231.5, 25.5, 231.5 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -1584,7 +1584,7 @@
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 26.5, 284.0, 47.5, 284.0 ],
+					"midpoints" : [ 25.5, 277.0, 46.5, 277.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1729,7 +1729,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 26.5, 92.5, 12.5, 92.5 ],
+					"midpoints" : [ 25.5, 87.5, 11.5, 87.5 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -1784,7 +1784,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 110.5, 174.5, 26.5, 174.5 ],
+					"midpoints" : [ 109.5, 167.5, 25.5, 167.5 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
@@ -1810,8 +1810,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Users/hubbles/Documents/Max/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Documents/Max/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
