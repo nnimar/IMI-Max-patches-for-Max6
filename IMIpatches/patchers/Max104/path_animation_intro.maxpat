@@ -61,7 +61,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 250.0, 67.5, 92.0, 16.0 ],
-					"presentation_rect" : [ 434.0, 102.5, 0.0, 0.0 ],
 					"text" : "load GLpath_draw"
 				}
 
@@ -606,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 570.0, 20.0 ],
+					"patching_rect" : [ 5.0, 34.0, 570.0, 20.0 ],
 					"text" : "those two new families of objects are great to create motion paths and basic animations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -622,7 +621,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 401.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 401.0, 30.0 ],
 					"text" : "path and animation overview",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -745,7 +744,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 581.0, 47.0 ],
+					"patching_rect" : [ 3.0, 3.0, 581.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

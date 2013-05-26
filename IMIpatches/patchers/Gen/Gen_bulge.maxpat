@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 503.0, 300.0 ],
@@ -34,7 +35,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 168.0, 70.0, 230.0, 125.0 ]
+					"patching_rect" : [ 167.0, 70.0, 230.0, 125.0 ]
 				}
 
 			}
@@ -51,8 +52,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 505.0, 360.0, 411.0, 282.0 ],
@@ -562,7 +564,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 231.0, 102.0, 20.0 ],
+					"patching_rect" : [ 7.0, 221.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -590,7 +592,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 211.0, 30.0 ],
 					"text" : "GLgen_bulge ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -606,7 +608,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 167.0, 21.0 ],
 					"text" : "uses cell, clip and sample",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -623,7 +625,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 258.0, 97.0, 33.0 ],
+					"patching_rect" : [ 7.0, 248.0, 97.0, 33.0 ],
 					"text" : "jit.window bulge @fsmenubar 0"
 				}
 
@@ -636,7 +638,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 150.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.0, 156.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -650,7 +652,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 168.0, 258.0, 203.0, 20.0 ],
+					"patching_rect" : [ 167.0, 258.0, 203.0, 20.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -664,7 +666,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 8.0, 123.0, 125.0, 20.0 ],
+					"patching_rect" : [ 7.0, 123.0, 73.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -679,7 +681,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 187.0, 125.0, 33.0 ],
+					"patching_rect" : [ 7.0, 180.0, 125.0, 33.0 ],
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
 
@@ -692,7 +694,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 65.0, 20.0, 20.0 ]
+					"patching_rect" : [ 7.0, 66.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -705,7 +707,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 94.0, 65.0, 20.0 ],
+					"patching_rect" : [ 7.0, 94.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -723,8 +725,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 510.0, 44.0, 257.0, 436.0 ],
@@ -1150,7 +1153,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 168.0, 216.0, 65.0, 22.0 ],
+					"patching_rect" : [ 167.0, 216.0, 65.0, 22.0 ],
 					"text" : "jit.gl.pix"
 				}
 
@@ -1163,7 +1166,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 59.0, 134.147247, 238.0 ],
+					"patching_rect" : [ 4.0, 59.0, 132.147247, 229.0 ],
 					"rounded" : 30
 				}
 
@@ -1179,7 +1182,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 497.0, 49.0 ],
+					"patching_rect" : [ 2.0, 3.0, 497.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1199,7 +1202,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 123.5, 175.0, 17.5, 175.0 ],
+					"midpoints" : [ 70.5, 148.0, 16.5, 148.0 ],
 					"source" : [ "obj-12", 2 ]
 				}
 
@@ -1260,15 +1263,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-4::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-4::obj-4::obj-21" : [ "number", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demovideo.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../Cycling '74/jitter-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/jitter-help",
+				"patcherrelativepath" : "../../../../Cycling '74/jitter-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}

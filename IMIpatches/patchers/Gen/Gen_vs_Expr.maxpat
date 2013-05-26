@@ -545,7 +545,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 4.0, 274.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 274.0, 30.0 ],
 									"text" : "Gen vs Expr : input",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -561,7 +561,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 361.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 361.0, 21.0 ],
 									"text" : "Gen and Expr are quite similar but Gen slightly easier ",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -579,7 +579,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 466.0, 50.0 ],
+									"patching_rect" : [ 2.0, 2.0, 466.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1192,7 +1192,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 29.0, 361.0, 21.0 ],
+									"patching_rect" : [ 5.0, 31.0, 361.0, 21.0 ],
 									"text" : "the cell object is very similar to jit.expr",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1210,7 +1210,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 464.0, 49.0 ],
+									"patching_rect" : [ 3.0, 2.0, 464.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 

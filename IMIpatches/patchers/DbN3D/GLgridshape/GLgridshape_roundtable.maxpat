@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 6.0, 44.0, 507.0, 804.0 ],
+		"rect" : [ 2.0, 44.0, 507.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 318.0, 642.0, 60.0, 20.0 ],
+					"patching_rect" : [ 342.0, 233.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -51,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 644.0, 97.0, 31.0 ],
+					"patching_rect" : [ 342.0, 235.0, 97.0, 31.0 ],
 					"text" : "importmovie wheel.gif, bang"
 				}
 
@@ -65,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 318.0, 690.0, 55.0, 20.0 ],
+					"patching_rect" : [ 342.0, 274.0, 55.0, 20.0 ],
 					"text" : "jit.matrix"
 				}
 
@@ -79,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 318.0, 722.0, 152.0, 20.0 ],
+					"patching_rect" : [ 342.0, 303.0, 152.0, 20.0 ],
 					"text" : "jit.gl.texture @name wheel"
 				}
 
@@ -127,8 +128,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 518.0, 355.0, 411.0, 282.0 ],
@@ -638,7 +640,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 345.0, 59.0, 102.0, 20.0 ],
+					"patching_rect" : [ 345.0, 62.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -666,7 +668,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 1.0, 263.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 263.0, 30.0 ],
 					"text" : "GL Gridshape roundtable",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -682,7 +684,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 468.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 468.0, 21.0 ],
 					"text" : "uses screentoworld to make a 3D circle turn",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -703,8 +705,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 360.0, 152.0, 305.0 ],
@@ -1037,8 +1040,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 519.0, 44.0, 235.0, 353.0 ],
@@ -1560,7 +1564,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 35.0, 56.0, 58.0, 20.0 ],
+					"patching_rect" : [ 35.0, 59.0, 58.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1588,7 +1592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 171.0, 119.0, 18.0 ],
+					"patching_rect" : [ 344.0, 174.0, 119.0, 18.0 ],
 					"text" : "screentoworld $1 $2"
 				}
 
@@ -1602,7 +1606,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 344.0, 148.0, 96.0, 20.0 ],
+					"patching_rect" : [ 344.0, 151.0, 96.0, 20.0 ],
 					"text" : "route mouseidle"
 				}
 
@@ -1615,7 +1619,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 195.0, 53.0, 20.0 ],
+					"patching_rect" : [ 344.0, 198.0, 53.0, 20.0 ],
 					"text" : "s render"
 				}
 
@@ -1728,7 +1732,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.0, 141.0, 44.0, 20.0 ],
+					"patching_rect" : [ 51.0, 144.0, 44.0, 20.0 ],
 					"text" : "s draw"
 				}
 
@@ -1742,7 +1746,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.0, 141.0, 51.0, 20.0 ],
+					"patching_rect" : [ 113.0, 144.0, 51.0, 20.0 ],
 					"text" : "r render"
 				}
 
@@ -1757,7 +1761,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 345.0, 86.0, 101.0, 47.0 ],
+					"patching_rect" : [ 345.0, 89.0, 101.0, 47.0 ],
 					"text" : "jit.window rott @idlemouse 1 @fsmenubar 0",
 					"varname" : "jit.window"
 				}
@@ -1772,7 +1776,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 180.0, 287.0, 20.0 ],
+					"patching_rect" : [ 10.0, 183.0, 287.0, 20.0 ],
 					"text" : "jit.gl.render @camera 0 0 3 @erase_color 0. 0. 0. 1.",
 					"varname" : "jit.gl.render"
 				}
@@ -1786,7 +1790,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 57.0, 20.0, 20.0 ],
+					"patching_rect" : [ 10.0, 60.0, 20.0, 20.0 ],
 					"varname" : "toggle"
 				}
 
@@ -1800,7 +1804,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 83.0, 65.0, 20.0 ],
+					"patching_rect" : [ 10.0, 88.0, 65.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -1814,7 +1818,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 10.0, 113.0, 100.0, 20.0 ],
+					"patching_rect" : [ 10.0, 116.0, 100.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1827,7 +1831,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 54.0, 131.147247, 166.0 ],
+					"patching_rect" : [ 338.0, 57.0, 131.147247, 166.0 ],
 					"rounded" : 30
 				}
 
@@ -1840,7 +1844,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 54.0, 296.147247, 156.0 ],
+					"patching_rect" : [ 3.0, 57.0, 296.147247, 156.0 ],
 					"rounded" : 30
 				}
 
@@ -1856,8 +1860,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 504.0, 47.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 504.0, 51.0 ]
 				}
 
 			}
@@ -2035,7 +2038,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 122.5, 169.0, 19.5, 169.0 ],
+					"midpoints" : [ 122.5, 172.0, 19.5, 172.0 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -2054,7 +2057,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 436.5, 139.0, 353.5, 139.0 ],
+					"midpoints" : [ 436.5, 142.0, 353.5, 142.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -2074,7 +2077,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 287.5, 209.0, 71.5, 209.0 ],
+					"midpoints" : [ 287.5, 212.0, 71.5, 212.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -2093,7 +2096,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 111.0, 19.5, 111.0 ],
+					"midpoints" : [ 19.5, 114.0, 19.5, 114.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -2112,7 +2115,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 100.5, 169.0, 19.5, 169.0 ],
+					"midpoints" : [ 100.5, 172.0, 19.5, 172.0 ],
 					"source" : [ "obj-33", 2 ]
 				}
 

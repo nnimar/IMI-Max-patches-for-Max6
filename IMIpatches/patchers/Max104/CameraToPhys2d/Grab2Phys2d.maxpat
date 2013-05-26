@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 547.0, 466.0 ],
@@ -53,8 +54,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 559.0, 360.0, 411.0, 282.0 ],
@@ -564,7 +566,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 5.0, 281.0, 102.0, 20.0 ],
+					"patching_rect" : [ 5.0, 282.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -592,7 +594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 343.0, 30.0 ],
 					"text" : "Camera2Phys2D (matmat)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -608,7 +610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 399.0, 21.0 ],
 					"text" : "real and virtual interaction using the phys.body objects and qt.grab",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -680,7 +682,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.5, 165.0, 43.0, 20.0 ],
+					"patching_rect" : [ 32.5, 159.0, 43.0, 20.0 ],
 					"text" : "s bing"
 				}
 
@@ -848,7 +850,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 4.75, 308.5, 105.0, 33.0 ],
+					"patching_rect" : [ 4.75, 308.5, 106.0, 33.0 ],
 					"text" : "jit.window phys2d @fsmenubar 0"
 				}
 
@@ -953,7 +955,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.0, 0.012766, 0.396739, 1.0 ],
+					"color" : [ 0.8, 0.839216, 0.709804, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
@@ -976,7 +978,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.75, 66.0, 130.0, 20.0 ]
+					"patching_rect" : [ 92.75, 66.0, 139.0, 20.0 ]
 				}
 
 			}
@@ -990,7 +992,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.75, 84.0, 130.0, 20.0 ]
+					"patching_rect" : [ 92.75, 85.0, 137.0, 20.0 ]
 				}
 
 			}
@@ -1024,6 +1026,55 @@
 			}
 , 			{
 				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-17",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 36.5, 67.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 440.5, 100.0, 0.0, 0.0 ],
+					"rounded" : 60.0,
+					"text" : "2",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-53",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 421.5, 63.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1033,7 +1084,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 543.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 543.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1091,7 +1142,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 67.5, 153.25, 17.5, 153.25 ],
+					"midpoints" : [ 67.5, 150.25, 17.5, 150.25 ],
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -1262,8 +1313,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "polCircle.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Max104/CameraToPhys2d",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/IMIpatches/Max104/CameraToPhys2d",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Max104/CameraToPhys2d",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

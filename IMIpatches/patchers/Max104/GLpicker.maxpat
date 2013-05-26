@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 574.0, 559.0 ],
@@ -38,8 +39,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 583.0, 361.0, 387.0, 242.0 ],
@@ -189,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 208.0, 173.0, 37.0 ],
+					"patching_rect" : [ 317.0, 208.0, 174.0, 37.0 ],
 					"text" : "use mouse data depending on fullscreen status"
 				}
 
@@ -222,8 +224,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 585.0, 358.0, 382.0, 247.0 ],
@@ -258,8 +261,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 733.0, 380.0, 234.0, 200.0 ],
@@ -486,7 +490,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.0, 141.0, 50.0, 18.0 ],
-									"text" : "vid1"
+									"text" : "vid3"
 								}
 
 							}
@@ -793,7 +797,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 343.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 343.0, 30.0 ],
 					"text" : "GLpicker for video",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -809,8 +813,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 378.0, 21.0 ],
-					"text" : "Click on a named video (vid1, vid2, vid3) to bring it fullscreen",
+					"patching_rect" : [ 3.0, 32.0, 378.0, 21.0 ],
+					"text" : "click on a named video (vid1, vid2, vid3) to bring it fullscreen",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -829,8 +833,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 584.0, 361.0, 491.0, 302.0 ],
@@ -1435,8 +1440,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 585.0, 360.0, 386.0, 316.0 ],
@@ -1944,8 +1950,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 585.0, 360.0, 472.0, 294.0 ],
@@ -2632,8 +2639,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 584.0, 363.0, 411.0, 282.0 ],
@@ -3211,7 +3219,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 158.0, 47.0, 20.0 ],
+					"patching_rect" : [ 32.0, 166.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -3324,7 +3332,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 7.0, 130.0, 97.0, 20.0 ],
+					"patching_rect" : [ 7.0, 130.0, 69.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -3353,7 +3361,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 274.0, 122.0, 33.0 ],
+					"patching_rect" : [ 7.0, 274.0, 124.0, 33.0 ],
 					"text" : "jit.window video_pick @fsmenubar 0"
 				}
 
@@ -3496,7 +3504,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 571.0, 50.0 ],
+					"patching_rect" : [ 2.0, 3.0, 571.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -3785,7 +3793,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 94.5, 185.5, 16.5, 185.5 ],
+					"midpoints" : [ 66.5, 157.5, 16.5, 157.5 ],
 					"source" : [ "obj-7", 2 ]
 				}
 
@@ -3858,8 +3866,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.debounce.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_20121204/timing/dot.debounce",
-				"patcherrelativepath" : "../Plugins_tools/dot_20121204/timing/dot.debounce",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/timing/dot.debounce",
+				"patcherrelativepath" : "../../externals/tools/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}

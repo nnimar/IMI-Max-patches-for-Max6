@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-78",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 302.0, 342.0, 111.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 791.0, 343.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "launch Synapse",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-4",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 302.0, 318.5, 87.0, 47.0 ],
+					"text" : "imi.apploader Synapse Synapse.app"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
@@ -40,7 +78,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -292,45 +330,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-4",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 342.0, 111.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 806.0, 358.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "launch Synapse",
-					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-6",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 326.5, 398.0, 38.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max6/examples/IMIpatches/Plugins_kinect/Synapse/Synapse.app\\\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
@@ -355,7 +354,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 399.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 357.0, 21.0 ],
 					"text" : "open synapse, do the psy position then become The Saint !",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -384,7 +383,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 145.0, 63.0, 20.0 ],
+					"patching_rect" : [ 35.0, 150.0, 63.0, 20.0 ],
 					"text" : "s thebang"
 				}
 
@@ -403,11 +402,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 428.0, 358.0, 411.0, 282.0 ],
+						"rect" : [ 428.0, 358.0, 412.0, 241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -916,7 +915,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 232.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 225.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -943,7 +942,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.574097, 257.638458, 128.0, 20.0 ],
+					"patching_rect" : [ 8.574097, 250.638458, 128.0, 20.0 ],
 					"text" : "jit.window bodybuilder"
 				}
 
@@ -972,7 +971,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 181.0, 125.0, 33.0 ],
+					"patching_rect" : [ 9.0, 174.0, 125.0, 33.0 ],
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
 
@@ -986,7 +985,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 9.0, 114.0, 94.0, 20.0 ],
+					"patching_rect" : [ 9.0, 114.0, 70.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1048,7 +1047,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 9.0, 89.0, 65.0, 20.0 ],
-					"text" : "qmetro 30"
+					"text" : "qmetro 33"
 				}
 
 			}
@@ -1073,7 +1072,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 55.0, 141.147247, 231.0 ],
+					"patching_rect" : [ 2.0, 55.0, 141.147247, 222.0 ],
 					"rounded" : 30
 				}
 
@@ -1089,7 +1088,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 415.0, 48.0 ],
+					"patching_rect" : [ 1.0, 1.0, 415.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1136,7 +1135,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 93.5, 173.0, 18.5, 173.0 ],
+					"midpoints" : [ 69.5, 142.0, 18.5, 142.0 ],
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -1188,20 +1187,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 311.5, 362.75, 24.5, 362.75 ],
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-47", 0 ]
+					"source" : [ "obj-78", 0 ]
 				}
 
 			}
@@ -1221,6 +1219,17 @@
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.apploader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

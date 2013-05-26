@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 370.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 370.0, 30.0 ],
 					"text" : "Freenect - normalized output",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 336.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 336.0, 21.0 ],
 					"text" : "get a normalised output from the Kinect using jit.map",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

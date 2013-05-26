@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 640.0, 338.0 ],
@@ -105,8 +106,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -233,7 +235,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.0, 152.0, 45.0, 19.0 ],
+					"patching_rect" : [ 33.0, 155.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -247,7 +249,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 211.0, 80.0, 34.0 ]
+					"patching_rect" : [ 9.0, 206.0, 80.0, 34.0 ]
 				}
 
 			}
@@ -260,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 185.0, 71.0, 20.0 ],
+					"patching_rect" : [ 9.0, 180.0, 71.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -273,9 +275,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "erase", "bang" ],
-					"patching_rect" : [ 9.0, 123.0, 68.0, 20.0 ],
-					"text" : "t b erase b"
+					"outlettype" : [ "bang", "bang", "erase" ],
+					"patching_rect" : [ 9.0, 122.0, 67.0, 20.0 ],
+					"text" : "t b b erase"
 				}
 
 			}
@@ -318,8 +320,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 656.0, 363.0, 411.0, 282.0 ],
@@ -857,7 +860,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 5.574097, 285.638458, 105.0, 33.0 ],
+					"patching_rect" : [ 5.574097, 285.638458, 107.0, 33.0 ],
 					"text" : "jit.window camera @fsmenubar 0"
 				}
 
@@ -901,7 +904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 368.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 368.0, 21.0 ],
 					"text" : "a simple camera setting",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1090,7 +1093,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 637.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 637.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1209,8 +1212,8 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 43.0, 174.0, 18.5, 174.0 ],
-					"source" : [ "obj-4", 1 ]
+					"midpoints" : [ 66.5, 147.0, 18.5, 147.0 ],
+					"source" : [ "obj-4", 2 ]
 				}
 
 			}
@@ -1228,7 +1231,7 @@
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 2 ]
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 741.0, 528.0 ],
@@ -12,7 +13,7 @@
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Verdana",
+		"default_fontname" : "Arial",
 		"gridonopen" : 0,
 		"gridsize" : [ 10.0, 10.0 ],
 		"gridsnaponopen" : 0,
@@ -127,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.5, 340.0, 251.0, 24.0 ],
+					"patching_rect" : [ 265.5, 336.0, 247.0, 24.0 ],
 					"text" : "animate blue and red (turn around X axis)"
 				}
 
@@ -145,8 +146,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 751.0, 363.0, 411.0, 282.0 ],
@@ -656,7 +658,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 230.0, 102.0, 20.0 ],
+					"patching_rect" : [ 7.0, 224.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -684,7 +686,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.5, 230.5, 215.0, 24.0 ],
+					"patching_rect" : [ 281.5, 226.5, 215.0, 24.0 ],
 					"text" : "ui-mapping dictionary (double click)"
 				}
 
@@ -698,20 +700,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 186.0, 80.0, 34.0 ]
+					"patching_rect" : [ 10.0, 180.0, 52.0, 34.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 160.0, 68.0, 19.0 ],
+					"patching_rect" : [ 10.0, 154.0, 72.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -719,13 +721,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 10.0, 123.0, 56.0, 19.0 ],
+					"patching_rect" : [ 10.0, 117.0, 59.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -733,13 +735,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 95.0, 63.0, 19.0 ],
+					"patching_rect" : [ 10.0, 92.0, 67.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -752,7 +754,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 66.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 65.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -766,7 +768,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 400.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 347.0, 30.0 ],
 					"text" : "Pivot points with anim.node (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -782,7 +784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 319.0, 21.0 ],
 					"text" : "animate multiple gridshapes in relation to each other",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -799,7 +801,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 640.0, 419.5, 82.0, 24.0 ],
+					"patching_rect" : [ 641.0, 415.5, 82.0, 24.0 ],
 					"text" : "pivot (red)"
 				}
 
@@ -814,7 +816,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 446.0, 452.75, 214.0, 20.0 ],
+					"patching_rect" : [ 447.0, 448.75, 215.0, 20.0 ],
 					"text" : "jit.gl.gridshape @color 1 0 0 @axes 1"
 				}
 
@@ -829,7 +831,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 446.0, 421.5, 190.0, 20.0 ],
+					"patching_rect" : [ 447.0, 417.5, 191.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.3 0.3 0.3"
 				}
 
@@ -845,7 +847,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.5, 419.5, 150.0, 24.0 ],
+					"patching_rect" : [ 40.5, 414.5, 135.0, 24.0 ],
 					"text" : "dynamic node (blue)"
 				}
 
@@ -860,7 +862,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.5, 262.0, 258.0, 24.0 ],
+					"patching_rect" : [ 332.5, 259.0, 257.0, 24.0 ],
 					"text" : "animated blue and red (turn around X axis)"
 				}
 
@@ -875,7 +877,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.5, 151.0, 133.0, 24.0 ],
+					"patching_rect" : [ 348.5, 146.0, 129.0, 24.0 ],
 					"text" : "static node (yellow)"
 				}
 
@@ -890,7 +892,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 120.0, 104.0, 24.0 ],
+					"patching_rect" : [ 436.0, 117.0, 102.0, 24.0 ],
 					"text" : "root node (all)"
 				}
 
@@ -905,7 +907,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 91.5, 199.5, 20.0 ],
+					"patching_rect" : [ 170.0, 87.5, 199.5, 20.0 ],
 					"text_width" : 75.0
 				}
 
@@ -920,7 +922,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 64.5, 199.5, 20.0 ],
+					"patching_rect" : [ 142.0, 60.5, 199.5, 20.0 ],
 					"text_width" : 75.0
 				}
 
@@ -928,14 +930,14 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 141.0, 122.0, 308.0, 20.0 ],
+					"patching_rect" : [ 142.0, 118.0, 291.0, 20.0 ],
 					"text" : "jit.anim.node @position 0. 0. -3. @rotatexyz 0. 90. 0."
 				}
 
@@ -950,7 +952,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 306.5, 199.5, 20.0 ],
+					"patching_rect" : [ 196.0, 302.5, 199.5, 20.0 ],
 					"text_width" : 75.0
 				}
 
@@ -965,7 +967,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 178.0, 265.5, 150.0, 20.0 ],
+					"patching_rect" : [ 179.0, 261.5, 151.0, 20.0 ],
 					"text" : "jit.anim.drive @turn 1 0 0"
 				}
 
@@ -984,7 +986,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 178.0, 340.75, 83.0, 20.0 ],
+					"patching_rect" : [ 179.0, 336.75, 84.0, 20.0 ],
 					"text" : "jit.anim.node"
 				}
 
@@ -1003,7 +1005,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 178.0, 421.5, 186.0, 20.0 ],
+					"patching_rect" : [ 179.0, 417.5, 187.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.25 1 0.25"
 				}
 
@@ -1018,7 +1020,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 161.0, 152.0, 184.0, 20.0 ],
+					"patching_rect" : [ 162.0, 148.0, 185.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.26 1 0.26"
 				}
 
@@ -1033,7 +1035,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.0, 452.75, 253.0, 20.0 ],
+					"patching_rect" : [ 179.0, 448.75, 254.0, 20.0 ],
 					"text" : "jit.gl.gridshape @shape cube @color 0 0 1 1"
 				}
 
@@ -1048,7 +1050,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 161.0, 183.25, 251.0, 20.0 ],
+					"patching_rect" : [ 162.0, 179.25, 252.0, 20.0 ],
 					"text" : "jit.gl.gridshape @shape cube @color 1 1 0 1"
 				}
 
@@ -1063,7 +1065,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 253.5, 124.0, 33.0 ],
+					"patching_rect" : [ 7.0, 247.5, 124.0, 33.0 ],
 					"text" : "jit.window anim-pivot @fsmenubar 0"
 				}
 
@@ -1078,7 +1080,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 389.75, 199.5, 20.0 ],
+					"patching_rect" : [ 196.0, 385.75, 199.5, 20.0 ],
 					"text_width" : 75.0
 				}
 
@@ -1093,7 +1095,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 233.5, 100.0, 20.0 ],
+					"patching_rect" : [ 179.0, 229.5, 100.0, 20.0 ],
 					"text_width" : 72.0
 				}
 
@@ -1106,7 +1108,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 65.0, 130.147247, 229.0 ],
+					"patching_rect" : [ 4.0, 59.0, 130.147247, 229.0 ],
 					"rounded" : 30
 				}
 
@@ -1122,7 +1124,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 736.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 736.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1133,7 +1135,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 187.5, 377.375, 455.5, 377.375 ],
+					"midpoints" : [ 188.5, 373.375, 456.5, 373.375 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1206,7 +1208,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 150.5, 310.875, 187.5, 310.875 ],
+					"midpoints" : [ 151.5, 306.875, 188.5, 306.875 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1288,7 +1290,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 56.5, 150.0, 19.5, 150.0 ],
+					"midpoints" : [ 59.5, 144.0, 19.5, 144.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 

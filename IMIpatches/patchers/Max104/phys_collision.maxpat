@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 3.0, 44.0, 511.0, 546.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 523.0, 362.0, 411.0, 282.0 ],
@@ -594,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 490.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 490.0, 21.0 ],
 					"text" : "name several bodies (b1, b2) and monitor their position, collisions using phys.world",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -831,11 +833,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 331.0, 143.0, 20.0 ],
+					"patching_rect" : [ 11.0, 432.0, 80.0, 33.0 ],
 					"text" : "jit.phys.body @name b2"
 				}
 
@@ -845,11 +848,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 303.0, 143.0, 20.0 ],
+					"patching_rect" : [ 11.0, 392.0, 80.0, 33.0 ],
 					"text" : "jit.phys.body @name b1"
 				}
 
@@ -877,7 +881,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 446.0, 86.0, 20.0 ],
+					"patching_rect" : [ 11.0, 359.0, 86.0, 20.0 ],
 					"text" : "jit.phys.picker"
 				}
 
@@ -891,7 +895,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 388.0, 86.0, 20.0 ],
+					"patching_rect" : [ 11.0, 301.0, 86.0, 20.0 ],
 					"text" : "jit.gl.physdraw"
 				}
 
@@ -918,7 +922,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 68.0, 24.0, 24.0 ]
+					"patching_rect" : [ 11.0, 68.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -960,7 +964,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 234.0, 120.0, 33.0 ],
+					"patching_rect" : [ 11.0, 234.0, 121.0, 33.0 ],
 					"text" : "jit.window phys-colis @fsmenubar 0"
 				}
 
@@ -990,7 +994,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 365.0, 91.0, 20.0 ],
+					"patching_rect" : [ 11.0, 278.0, 91.0, 20.0 ],
 					"text_width" : 63.0
 				}
 
@@ -1005,7 +1009,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 422.0, 100.0, 20.0 ],
+					"patching_rect" : [ 11.0, 335.0, 100.0, 20.0 ],
 					"text_width" : 75.0
 				}
 
@@ -1033,7 +1037,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 61.0, 134.147247, 212.0 ],
+					"patching_rect" : [ 4.0, 61.0, 131.147247, 322.0 ],
 					"rounded" : 30
 				}
 
@@ -1049,7 +1053,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 505.0, 49.0 ],
+					"patching_rect" : [ 3.0, 3.0, 505.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

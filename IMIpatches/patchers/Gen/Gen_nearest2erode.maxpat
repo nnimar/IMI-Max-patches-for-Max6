@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 666.0, 541.0 ],
@@ -59,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.0, 516.0, 52.0, 20.0 ],
+					"patching_rect" : [ 562.0, 516.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -84,6 +85,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -98,12 +100,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 0.0, 343.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 343.0, 30.0 ],
 					"text" : "Gen_nearest to erode ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -114,13 +116,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 27.0, 499.0, 20.0 ],
-					"text" : "Use gen (nearest, min) to erode an image",
+					"patching_rect" : [ 2.0, 32.0, 248.0, 20.0 ],
+					"text" : "use gen (nearest, min) to erode an image",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -129,12 +131,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 476.0, 514.0, 62.0 ],
+					"patching_rect" : [ 8.0, 476.0, 514.0, 60.0 ],
 					"text" : "Binary erosion consists in marking a pixel ON only if all of its neighbours are also ON.\nGreyscale erosion consists in giving each pixel the minimum value of the pixels around it \n\n(from the cv.jit.erode help)"
 				}
 
@@ -258,8 +261,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 275.0, 44.0, 390.0, 360.0 ],
@@ -672,27 +676,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "nearest.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "*.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "expr.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "norm.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "min.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -708,12 +691,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 662.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 662.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

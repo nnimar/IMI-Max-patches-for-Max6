@@ -3529,7 +3529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 30.0, 363.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 363.0, 21.0 ],
 					"text" : "an index (with example) of some very usefull Gen commands",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

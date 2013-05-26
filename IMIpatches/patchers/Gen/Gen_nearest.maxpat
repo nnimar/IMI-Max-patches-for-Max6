@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 428.0, 523.0 ],
@@ -29,14 +30,73 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 177.0, 79.0, 18.0 ],
-					"text" : "size 400 300"
+					"fontsize" : 10.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-1",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 100.0, 226.0, 87.0 ],
+									"text" : "The first inlet of nearest is the input you're going to grab a value from. The second input is a coordinate from [0, 1] that specifies which cell to grab.\n\nWesley Smith"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 373.0, 8.0, 49.0, 18.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p tutorial"
 				}
 
 			}
@@ -44,13 +104,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 57.0, 226.0, 89.0 ],
-					"text" : "The first inlet of nearest is the input you're going to grab a value from. The second input is a coordinate from [0, 1] that specifies which cell to grab.\n\nWesley Smith"
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 335.0, 177.0, 79.0, 18.0 ],
+					"text" : "size 400 300"
 				}
 
 			}
@@ -59,12 +119,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 343.0, 31.0 ],
+					"patching_rect" : [ 2.0, 4.0, 293.0, 30.0 ],
 					"text" : "Gen_nearest (Wesley Smith)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -75,13 +135,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 407.0, 20.0 ],
-					"text" : "The nearest operator grabs the value of the cell of a matrix you direct it to. ",
+					"patching_rect" : [ 3.0, 33.0, 407.0, 20.0 ],
+					"text" : "the nearest operator grabs the value of the cell of a matrix you direct it to. ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -95,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 113.0, 99.0, 18.0 ],
+					"patching_rect" : [ 27.0, 113.0, 99.0, 18.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -107,7 +167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 204.0, 400.0, 300.0 ],
+					"patching_rect" : [ 10.0, 204.0, 400.0, 300.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 400.0, 300.0 ]
 				}
 
@@ -121,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 85.0, 58.0, 20.0 ],
+					"patching_rect" : [ 10.0, 85.0, 58.0, 20.0 ],
 					"text" : "metro 40"
 				}
 
@@ -134,7 +194,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 59.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 59.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -147,7 +207,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 141.0, 68.0, 20.0 ],
+					"patching_rect" : [ 10.0, 141.0, 68.0, 20.0 ],
 					"text" : "jit.qt.movie"
 				}
 
@@ -165,8 +225,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 436.0, 44.0, 282.0, 271.0 ],
@@ -431,39 +492,10 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "nearest.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "dim.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "absdiff.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "norm.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "!/.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "swiz.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "vec.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 172.0, 46.0, 20.0 ],
+					"patching_rect" : [ 10.0, 172.0, 46.0, 20.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -475,12 +507,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 423.0, 49.0 ],
+					"patching_rect" : [ 2.0, 3.0, 423.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -500,7 +531,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 345.5, 205.0, 20.5, 205.0 ],
+					"midpoints" : [ 344.5, 205.0, 19.5, 205.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

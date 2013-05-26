@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -55,7 +55,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -215,7 +215,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -766,7 +766,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 148.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.0, 158.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -781,7 +781,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 274.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 274.0, 30.0 ],
 					"text" : "GLsketch_capture+",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -791,16 +791,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.754705,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 712.0, 21.0 ],
+					"patching_rect" : [ 2.0, 32.0, 629.0, 20.0 ],
 					"text" : "use gl.sketch to render multiple video using the @name and GLsketch's drawobject method. See GLnode capture+ !",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
 
 			}
@@ -813,7 +812,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 122.0, 99.0, 18.0 ],
+					"patching_rect" : [ 275.0, 120.0, 99.0, 18.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -827,7 +826,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.0, 122.0, 32.0, 18.0 ],
+					"patching_rect" : [ 379.0, 120.0, 32.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -884,21 +883,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 312.0, 289.0, 36.0 ],
+					"patching_rect" : [ 203.0, 315.0, 289.0, 36.0 ],
 					"text" : "reset, drawobject video1, drawobject video2, drawobject video3, drawobject video4"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 163.0, 398.0, 81.0, 22.0 ],
+					"patching_rect" : [ 163.0, 398.0, 89.0, 22.0 ],
 					"text" : "jit.gl.sketch"
 				}
 
@@ -1009,7 +1008,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 7.0, 122.0, 97.0, 20.0 ],
+					"patching_rect" : [ 7.0, 122.0, 73.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1098,7 +1097,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.5, 312.0, 20.0, 20.0 ],
+					"patching_rect" : [ 177.5, 321.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1118,7 +1117,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 717.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 717.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1230,7 +1229,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 94.5, 173.5, 16.5, 173.5 ],
+					"midpoints" : [ 70.5, 149.5, 16.5, 149.5 ],
 					"source" : [ "obj-2", 2 ]
 				}
 

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 674.0, 500.0 ],
@@ -53,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 1.0, 511.0, 30.0 ],
+					"patching_rect" : [ 4.0, 1.0, 395.0, 30.0 ],
 					"text" : "Freenect - cv.jit.moment (Luke Dubois)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -69,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 662.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 662.0, 21.0 ],
 					"text" : "a moment is a just a shape, use your fingers to count from 1 to 5 and press 0 to 4 to record the different shapes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -89,8 +90,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 685.0, 44.0, 606.0, 417.0 ],
@@ -952,8 +954,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 687.0, 44.0, 214.0, 290.0 ],
@@ -1518,7 +1521,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 670.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 670.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

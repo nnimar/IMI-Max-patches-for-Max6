@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 552.0, 391.0 ],
@@ -36,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 259.0, 207.0, 20.0 ]
+					"patching_rect" : [ 133.0, 260.0, 207.0, 20.0 ]
 				}
 
 			}
@@ -48,7 +49,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 345.0, 87.0, 20.0, 20.0 ]
+					"patching_rect" : [ 345.0, 88.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -62,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 87.0, 207.0, 20.0 ]
+					"patching_rect" : [ 133.0, 88.0, 207.0, 20.0 ]
 				}
 
 			}
@@ -76,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 63.0, 207.0, 20.0 ]
+					"patching_rect" : [ 133.0, 61.0, 207.0, 20.0 ]
 				}
 
 			}
@@ -91,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 60.0, 142.0, 24.0 ],
+					"patching_rect" : [ 344.0, 58.0, 142.0, 24.0 ],
 					"text" : "modify the subnode"
 				}
 
@@ -108,8 +109,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 562.0, 360.0, 384.0, 92.0 ],
@@ -181,8 +183,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 563.0, 361.0, 411.0, 282.0 ],
@@ -738,7 +741,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 184.0, 102.0, 20.0 ],
+					"patching_rect" : [ 12.0, 185.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -766,7 +769,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 343.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 343.0, 30.0 ],
 					"text" : "GLnode (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -782,7 +785,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 28.0, 518.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 518.0, 21.0 ],
 					"text" : "a jit.gl.node creates a sub-context (subnode) within an existing OpenGL context (nodes)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -800,7 +803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 196.0, 178.0, 37.0 ],
+					"patching_rect" : [ 364.0, 197.0, 179.0, 37.0 ],
 					"text" : "attached to node context via context name (subnode)"
 				}
 
@@ -816,7 +819,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 382.0, 150.0, 162.0, 37.0 ],
+					"patching_rect" : [ 382.0, 151.0, 162.0, 37.0 ],
 					"text" : "attached to node context via patch coords"
 				}
 
@@ -832,7 +835,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 288.0, 153.0, 37.0 ],
+					"patching_rect" : [ 391.0, 289.0, 155.0, 37.0 ],
 					"text" : "not part of node context\n(red ball)"
 				}
 
@@ -847,7 +850,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 284.0, 255.0, 47.0 ],
+					"patching_rect" : [ 133.0, 285.0, 255.0, 47.0 ],
 					"text" : "jit.gl.gridshape @shape sphere @material mtl @scale 0.2 0.2 0.2 @mat_diffuse 1 0.2 0.2 1 @position -0.5 0 0"
 				}
 
@@ -862,7 +865,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 198.0, 229.0, 33.0 ],
+					"patching_rect" : [ 133.0, 199.0, 229.0, 33.0 ],
 					"text" : "jit.gl.gridshape subnode @shape sphere @material mtl @scale 0.2 0.2 0.2"
 				}
 
@@ -877,7 +880,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 133.0, 114.0, 157.0, 20.0 ],
+					"patching_rect" : [ 133.0, 115.0, 157.0, 20.0 ],
 					"text" : "jit.gl.node @name subnode"
 				}
 
@@ -906,7 +909,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 152.0, 247.0, 33.0 ],
+					"patching_rect" : [ 133.0, 153.0, 247.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @material mtl @scale 0.5 0.5 0.5 @dim 40 40"
 				}
 
@@ -921,7 +924,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 208.0, 99.0, 33.0 ],
+					"patching_rect" : [ 12.0, 209.0, 100.0, 33.0 ],
 					"text" : "jit.window nodes @fsmenubar 0"
 				}
 
@@ -935,7 +938,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 153.0, 72.0, 20.0 ],
+					"patching_rect" : [ 12.0, 154.0, 72.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -949,7 +952,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 12.0, 120.0, 59.0, 20.0 ],
+					"patching_rect" : [ 12.0, 121.0, 59.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -963,7 +966,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 88.0, 65.0, 20.0 ],
+					"patching_rect" : [ 12.0, 89.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -976,7 +979,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 12.0, 61.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -988,7 +991,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 56.0, 115.147247, 191.0 ],
+					"patching_rect" : [ 4.0, 57.0, 115.147247, 191.0 ],
 					"rounded" : 30
 				}
 
@@ -1004,7 +1007,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 550.0, 49.0 ],
+					"patching_rect" : [ 1.0, 2.0, 550.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

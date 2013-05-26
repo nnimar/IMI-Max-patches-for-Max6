@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 396.0, 553.0 ],
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -88,8 +90,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 407.0, 44.0, 260.0, 299.0 ],
@@ -395,7 +398,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 372.0, 21.0 ],
+									"patching_rect" : [ 3.0, 32.0, 160.0, 21.0 ],
 									"text" : "inverse the x coordinates",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -413,7 +416,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -507,8 +510,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -681,8 +685,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 404.0, 249.0, 436.0, 346.0 ],
@@ -854,13 +859,13 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 13.0,
+									"fontsize" : 12.0,
 									"id" : "obj-2",
 									"maxclass" : "jit.fpsgui",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 65.0, 485.0, 80.0, 36.0 ]
+									"patching_rect" : [ 65.0, 472.0, 60.0, 35.0 ]
 								}
 
 							}
@@ -871,7 +876,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 65.0, 291.0, 240.0, 180.0 ],
+									"patching_rect" : [ 65.0, 278.0, 240.0, 180.0 ],
 									"presentation_rect" : [ 45.0, 45.0, 240.0, 180.0 ]
 								}
 
@@ -902,7 +907,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 307.0, 21.0 ],
+									"patching_rect" : [ 3.0, 32.0, 307.0, 21.0 ],
 									"text" : "uses sample and norm to rotate an image",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -920,7 +925,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1077,8 +1082,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -1114,8 +1120,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 406.0, 225.0, 136.0, 145.0 ],
@@ -1362,7 +1369,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 372.0, 21.0 ],
+									"patching_rect" : [ 3.0, 32.0, 228.0, 21.0 ],
 									"text" : "multiply blend (R = Base × Blend)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1380,7 +1387,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1493,8 +1500,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -1530,8 +1538,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 407.0, 162.0, 126.0, 197.0 ],
@@ -1847,7 +1856,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 372.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 264.0, 21.0 ],
 									"text" : "screen blend (R = 1 - (1-Base) × (1-Blend))",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1865,7 +1874,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1978,8 +1987,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 26.0, 396.0, 527.0 ],
@@ -2080,8 +2090,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 407.0, 216.0, 313.0, 217.0 ],
@@ -2311,7 +2322,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 307.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 307.0, 21.0 ],
 									"text" : "uses norm and sample",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2329,7 +2340,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -2414,8 +2425,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 2.0, 70.0, 396.0, 527.0 ],
@@ -2472,7 +2484,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 220.0, 502.0, 52.0, 19.0 ],
-									"presentation_rect" : [ 205.0, 491.0, 0.0, 0.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -2488,7 +2499,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 222.0, 505.5, 86.0, 16.0 ],
-									"presentation_rect" : [ 203.0, 492.5, 0.0, 0.0 ],
 									"text" : "load Gen_xfades"
 								}
 
@@ -2680,8 +2690,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 407.0, 44.0, 488.0, 165.0 ],
@@ -2883,7 +2894,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 204.0, 21.0 ],
+									"patching_rect" : [ 3.0, 32.0, 204.0, 21.0 ],
 									"text" : "uses mix and smoothstep",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2901,7 +2912,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -3063,6 +3074,7 @@
 					"border" : 0,
 					"filename" : "helpname.js",
 					"id" : "obj-4",
+					"ignoreclick" : 1,
 					"jsarguments" : [ "Gen_example" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
@@ -3080,21 +3092,21 @@
 			"obj-2::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ],
 			"obj-3::obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-2::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-3::obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
-			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
+			"obj-3::obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
+			"obj-3::obj-3::obj-4::obj-21" : [ "number", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
-				"bootpath" : "/Applications/Max6/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Cycling '74/help-resources",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "demovideo.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../Cycling '74/jitter-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/jitter-help",
+				"patcherrelativepath" : "../../../../Cycling '74/jitter-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}

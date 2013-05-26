@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 551.0, 511.0 ],
@@ -53,8 +54,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 557.0, 360.0, 411.0, 282.0 ],
@@ -592,7 +594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 343.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
 					"text" : "GLnode_glow\n",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -608,7 +610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 543.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 543.0, 21.0 ],
 					"text" : "create noise and send it to a GLtexture. Use it onto 2 gridshapes, blur and amplify one of them",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -628,8 +630,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 557.0, 360.0, 253.0, 302.0 ],
@@ -706,8 +709,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 852.0, 389.0, 659.0, 560.0 ],
@@ -834,8 +838,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1432.0, 754.0, 659.0, 560.0 ],
@@ -990,8 +995,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 852.0, 389.0, 659.0, 560.0 ],
@@ -1118,8 +1124,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1263.0, 71.0, 659.0, 560.0 ],
@@ -1503,8 +1510,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 556.0, 362.0, 385.0, 212.0 ],
@@ -1721,7 +1729,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 156.0, 190.0, 153.0, 20.0 ],
+					"patching_rect" : [ 156.0, 189.0, 153.0, 20.0 ],
 					"text" : "jit.gl.texture @filter nearest"
 				}
 
@@ -1831,7 +1839,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 233.0, 114.0, 33.0 ],
+					"patching_rect" : [ 11.0, 233.0, 117.0, 33.0 ],
 					"text" : "jit.window glow_ball @fsmenubar 0"
 				}
 
@@ -1917,7 +1925,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 546.0, 50.0 ],
+					"patching_rect" : [ 3.0, 3.0, 546.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -5128,6 +5128,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -5135,8 +5136,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 272.0, 54.0, 20.0 ],
-					"text" : "data ?"
+					"patching_rect" : [ 60.0, 271.0, 111.0, 24.0 ],
+					"text" : "receiving data ?"
 				}
 
 			}
@@ -6081,7 +6082,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 14.0, 311.0, 74.0, 20.0 ],
+					"patching_rect" : [ 14.0, 311.0, 67.0, 20.0 ],
 					"text" : "select 126"
 				}
 
@@ -6410,7 +6411,7 @@
 					"destination" : [ "obj-151", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 78.5, 338.0, 23.5, 338.0 ],
+					"midpoints" : [ 71.5, 338.0, 23.5, 338.0 ],
 					"source" : [ "obj-136", 1 ]
 				}
 

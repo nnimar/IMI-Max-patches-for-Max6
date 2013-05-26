@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 549.0, 341.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 558.0, 362.0, 411.0, 282.0 ],
@@ -550,7 +552,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 203.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 207.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -594,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 480.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 328.0, 21.0 ],
 					"text" : "draw a line from a matrix and animate it with anim.path",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -612,7 +614,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 79.844299, 191.0, 37.0 ],
+					"patching_rect" : [ 296.0, 83.844299, 191.0, 37.0 ],
 					"text" : "4 plane matrix - first plane is time, followed by position x,y,z"
 				}
 
@@ -624,7 +626,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 170.0, 55.63472, 25.0, 25.0 ]
+					"patching_rect" : [ 170.0, 59.63472, 25.0, 25.0 ]
 				}
 
 			}
@@ -637,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 88.844299, 121.0, 20.0 ],
+					"patching_rect" : [ 170.0, 92.844299, 121.0, 20.0 ],
 					"text" : "jit.matrix 4 float32 10"
 				}
 
@@ -652,7 +654,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 132.0, 153.0, 47.0 ],
+					"patching_rect" : [ 170.0, 136.0, 153.0, 47.0 ],
 					"text" : "jit.expr @expr (norm[0]*5) cos(norm[0]*TWOPI) sin(norm[0]*TWOPI 0."
 				}
 
@@ -665,7 +667,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 60.63472, 21.0, 21.0 ]
+					"patching_rect" : [ 9.0, 64.63472, 21.0, 21.0 ]
 				}
 
 			}
@@ -678,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 93.844299, 65.0, 20.0 ],
+					"patching_rect" : [ 9.0, 97.844299, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -692,7 +694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 9.0, 121.185623, 69.0, 20.0 ],
+					"patching_rect" : [ 9.0, 125.185623, 69.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -707,7 +709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 161.0, 92.0, 33.0 ],
+					"patching_rect" : [ 9.0, 165.0, 92.0, 33.0 ],
 					"text" : "jit.gl.render @camera 0 0 4"
 				}
 
@@ -722,7 +724,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 230.946106, 130.0, 33.0 ],
+					"patching_rect" : [ 9.0, 234.946106, 130.0, 33.0 ],
 					"text" : "jit.window path_matrix @fsmenubar 0"
 				}
 
@@ -736,7 +738,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 190.0, 260.790405, 108.0, 20.0 ],
+					"patching_rect" : [ 190.0, 264.790405, 108.0, 20.0 ],
 					"text" : "jit.gl.material"
 				}
 
@@ -751,7 +753,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 292.0, 145.0, 33.0 ],
+					"patching_rect" : [ 170.0, 296.0, 145.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @scale 0.2 0.2 0.2"
 				}
 
@@ -765,7 +767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4.0, 281.0, 138.0, 20.0 ],
+					"patching_rect" : [ 4.0, 285.0, 138.0, 20.0 ],
 					"text" : "jit.gl.path @name glpath"
 				}
 
@@ -779,7 +781,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 223.946106, 286.0, 20.0 ],
+					"patching_rect" : [ 170.0, 227.946106, 286.0, 20.0 ],
 					"text" : "jit.anim.path @drawpath glpath @interpmode spline"
 				}
 
@@ -794,7 +796,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 194.0, 81.0, 20.0 ],
+					"patching_rect" : [ 195.0, 198.0, 81.0, 20.0 ],
 					"text_width" : 56.0
 				}
 
@@ -807,7 +809,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 54.0, 139.147247, 217.0 ],
+					"patching_rect" : [ 3.0, 58.0, 139.147247, 217.0 ],
 					"rounded" : 30
 				}
 
@@ -823,7 +825,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 545.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 545.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -852,7 +854,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 68.5, 150.592804, 18.5, 150.592804 ],
+					"midpoints" : [ 68.5, 154.592804, 18.5, 154.592804 ],
 					"source" : [ "obj-22", 1 ]
 				}
 

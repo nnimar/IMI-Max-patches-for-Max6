@@ -1,8 +1,8 @@
 // reads the analog values from the switchArray
 // and prints them with a label (use the unpack method)
 
-int switchArray[] = {14, 15, 16, 17, 18, 19}; //an array of anlog pins
-// String switchRoute[] = {"a", "b", "c", "d", "e", "f"};  // labels
+int switchArray[] = {14, 15, 16, 17, 18, 19}; // an array of analog pins
+// String switchRoute[] = {"a", "b", "c", "d", "e", "f"};  // regexp method
 int selector = 0;    //value
 
 void setup(){
@@ -15,9 +15,9 @@ void loop(){
 
     for (int i=0; i<5; i++){                  
       selector = analogRead(switchArray[i]); 
-       // Serial.print (switchRoute[i]);
+       // Serial.print (switchRoute[i]); // regexp method
 	  Serial.print (selector);
-	  Serial.print (" ");   
+	  Serial.print (" ");   // remove this if you use the regexp method
     }
 	
 	Serial.println (""));

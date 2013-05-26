@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 531.0, 830.0 ],
@@ -169,8 +170,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 536.0, 44.0, 297.0, 311.0 ],
@@ -470,7 +472,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 370.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 261.0, 30.0 ],
 					"text" : "Freenect depth selector",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -486,7 +488,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 228.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 228.0, 21.0 ],
 					"text" : "select a depth range using the kinect",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -666,7 +668,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 56.0, 20.0, 20.0 ]
+					"patching_rect" : [ 12.0, 61.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -710,7 +712,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 528.0, 47.0 ],
+					"patching_rect" : [ 1.0, 2.0, 528.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -899,8 +901,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.centroids.draw.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../Cycling '74/cv.jit-support/Abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../externals/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

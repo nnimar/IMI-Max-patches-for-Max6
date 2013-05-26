@@ -35,13 +35,51 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-15",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 129.0, 227.0, 138.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 806.0, 358.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "launch SimpleKinect",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-40",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 127.0, 197.5, 107.0, 47.0 ],
+					"text" : "imi.apploader SimpleKinect SimpleKinect.app"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-8",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 260.0, 227.0, 157.0, 20.0 ],
+					"patching_rect" : [ 276.0, 227.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 239.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -470,7 +508,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 260.0, 227.0, 76.0, 20.0 ],
+					"patching_rect" : [ 276.0, 227.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -498,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.0, 201.5, 111.0, 19.0 ],
+					"patching_rect" : [ 276.0, 201.5, 111.0, 19.0 ],
 					"text" : "SProcessing.scpt"
 				}
 
@@ -513,7 +551,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 214.0, 87.0, 47.0 ],
+					"patching_rect" : [ 11.0, 199.0, 87.0, 47.0 ],
 					"text" : "imi.apploader Synapse Synapse.app"
 				}
 
@@ -550,6 +588,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 524.0, 337.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 534.0, 316.0, 411.0, 282.0 ],
@@ -550,7 +552,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 175.0, 102.0, 20.0 ],
+					"patching_rect" : [ 9.0, 177.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -578,7 +580,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 434.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 434.0, 30.0 ],
 					"text" : "GLcamera viewport (Robert Ramirez)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -594,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 427.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 427.0, 21.0 ],
 					"text" : "one camera/viewport to manipulate the view or another camera/viewport.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -612,7 +614,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 394.0, 290.5, 105.0, 37.0 ],
+					"patching_rect" : [ 392.0, 292.5, 105.0, 37.0 ],
 					"text" : "camera representation"
 				}
 
@@ -627,7 +629,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 269.0, 211.0, 122.0, 114.0 ],
+					"patching_rect" : [ 267.0, 213.0, 122.0, 114.0 ],
 					"text" : "jit.gl.gridshape @scale 0.2 0.2 0.5 @color 1 0 0 0.1 @blend_enable 1 @axes 1 @depth_enable 0 @shape cube @lighting_enable 1"
 				}
 
@@ -642,7 +644,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 8.0, 251.0, 204.0, 33.0 ],
+					"patching_rect" : [ 6.0, 253.0, 204.0, 33.0 ],
 					"text" : "jit.gl.camera @viewport 0.5 0. 0.5 1. @position 0 0 10"
 				}
 
@@ -656,7 +658,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 263.0, 127.0, 196.0, 20.0 ],
+					"patching_rect" : [ 261.0, 129.0, 196.0, 20.0 ],
 					"text" : "jit.gl.camera @viewport 0. 0. 0.5 1."
 				}
 
@@ -671,7 +673,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 294.0, 168.0, 33.0 ],
+					"patching_rect" : [ 6.0, 296.0, 168.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @lighting_enable 1"
 				}
 
@@ -685,7 +687,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.0, 71.0, 45.0, 18.0 ],
+					"patching_rect" : [ 244.0, 73.0, 45.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -699,7 +701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 246.0, 98.0, 158.0, 20.0 ],
+					"patching_rect" : [ 244.0, 100.0, 158.0, 20.0 ],
 					"text" : "jit.gl.handle @position 0 0 2"
 				}
 
@@ -712,7 +714,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 61.0, 23.0, 23.0 ]
+					"patching_rect" : [ 9.0, 63.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -725,7 +727,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 118.0, 57.0, 20.0 ],
+					"patching_rect" : [ 9.0, 120.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -739,7 +741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 91.0, 58.0, 20.0 ],
+					"patching_rect" : [ 9.0, 91.0, 58.0, 20.0 ],
 					"text" : "qmetro 5"
 				}
 
@@ -754,7 +756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 199.0, 118.0, 33.0 ],
+					"patching_rect" : [ 9.0, 201.0, 118.0, 33.0 ],
 					"text" : "jit.window cam-view @fsmenubar 0"
 				}
 
@@ -768,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 149.0, 74.0, 20.0 ],
+					"patching_rect" : [ 9.0, 151.0, 74.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -783,7 +785,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 175.0, 149.0, 20.0 ]
+					"patching_rect" : [ 267.0, 177.0, 149.0, 20.0 ]
 				}
 
 			}
@@ -795,7 +797,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 54.0, 126.147247, 186.0 ],
+					"patching_rect" : [ 5.0, 56.0, 126.147247, 186.0 ],
 					"rounded" : 30
 				}
 
@@ -811,7 +813,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 519.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 519.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -822,7 +824,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 255.5, 203.0, 278.5, 203.0 ],
+					"midpoints" : [ 253.5, 205.0, 276.5, 205.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 

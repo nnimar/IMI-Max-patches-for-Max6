@@ -11,7 +11,7 @@
 		"rect" : [ 1.0, 44.0, 557.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -1197,7 +1197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.0, 255.5, 96.0, 22.0 ],
+					"patching_rect" : [ 375.0, 255.5, 96.0, 22.0 ],
 					"text" : "basic cv tools"
 				}
 

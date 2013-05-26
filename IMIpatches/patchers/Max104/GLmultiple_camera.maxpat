@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 1090.0, 745.0 ],
@@ -106,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 406.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 406.0, 30.0 ],
 					"text" : "GLmultiple camera (Dieter Vandoren)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -122,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 29.0, 957.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 724.0, 21.0 ],
 					"text" : "use huge video output with the matrox triplehead2go or dualhead2go (http://www.cycling74.com/forums/topic.php?id=38151)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1026,8 +1027,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 488.0, 246.0, 622.0, 525.0 ],
@@ -2268,7 +2270,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 340.791107, 1029.0, 166.0, 60.0 ],
+					"patching_rect" : [ 340.791107, 1029.0, 167.0, 60.0 ],
 					"text" : "jit.window preview_test @size 1200 300 @pos 70 70 @sync 0 @shared 1 @fsmenubar 0"
 				}
 
@@ -2423,7 +2425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.151489, 58.398865, 31.0, 31.0 ]
+					"patching_rect" : [ 6.151489, 60.398865, 24.0, 24.0 ]
 				}
 
 			}
@@ -2485,7 +2487,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 42.651489, 63.340088, 20.0, 20.0 ],
+					"patching_rect" : [ 34.651489, 63.340088, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -2528,7 +2530,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 1084.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 1084.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

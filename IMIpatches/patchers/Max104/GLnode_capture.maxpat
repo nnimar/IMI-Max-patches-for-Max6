@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 554.0, 314.0 ],
@@ -78,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 57.0, 211.0, 20.0 ]
+					"patching_rect" : [ 135.0, 59.0, 211.0, 20.0 ]
 				}
 
 			}
@@ -95,8 +96,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 563.0, 361.0, 411.0, 282.0 ],
@@ -606,7 +608,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 182.0, 102.0, 20.0 ],
+					"patching_rect" : [ 7.0, 184.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -634,7 +636,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 343.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 243.0, 30.0 ],
 					"text" : "GLnode_capture (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -650,7 +652,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 28.0, 518.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 185.0, 21.0 ],
 					"text" : "nodes can capture to texture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -740,7 +742,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 207.0, 102.0, 33.0 ],
+					"patching_rect" : [ 7.0, 209.0, 102.0, 33.0 ],
 					"text" : "jit.window node2 @fsmenubar 0"
 				}
 
@@ -754,7 +756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 151.0, 72.0, 20.0 ],
+					"patching_rect" : [ 7.0, 153.0, 72.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -768,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 7.0, 118.0, 59.0, 20.0 ],
+					"patching_rect" : [ 7.0, 120.0, 59.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -782,7 +784,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.0, 90.0, 65.0, 20.0 ],
+					"patching_rect" : [ 7.0, 92.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -795,7 +797,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 62.0, 20.0, 20.0 ]
+					"patching_rect" : [ 7.0, 64.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -807,7 +809,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 55.0, 110.147247, 196.0 ],
+					"patching_rect" : [ 3.0, 57.0, 112.147247, 193.0 ],
 					"rounded" : 30
 				}
 
@@ -838,7 +840,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 550.0, 49.0 ],
+					"patching_rect" : [ 1.0, 2.0, 550.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -964,8 +966,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max6/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../jitter-examples/render/slab",
+				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
