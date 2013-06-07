@@ -542,7 +542,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 30.0, 548.0, 20.0 ],
+					"patching_rect" : [ 3.0, 31.0, 548.0, 20.0 ],
 					"text" : "jit.matrixset allows you to record images (index) in a matrix and recall them (outputmatrix)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -607,7 +607,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 3.0, 170.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 170.0, 30.0 ],
 					"text" : "IMI video delay",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

@@ -657,7 +657,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 815.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 710.0, 21.0 ],
 					"text" : "ofxFaceTracker is an openFramework addon based on Jason Saragih's FaceTracker library. Also look at FaceOSC Syphon",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"

@@ -657,7 +657,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 431.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 431.0, 30.0 ],
 					"text" : "max2arduino (Tom Igoe / Scott Fitzgerald)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"

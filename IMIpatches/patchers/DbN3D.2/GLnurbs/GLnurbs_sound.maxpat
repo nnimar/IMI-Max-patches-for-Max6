@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 752.0, 656.0 ],
+		"rect" : [ 1.0, 44.0, 752.0, 656.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -55,11 +56,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 761.0, 359.0, 411.0, 282.0 ],
+						"rect" : [ 766.0, 359.0, 409.0, 241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -377,7 +379,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 243.0, 25.0, 25.0 ]
+									"patching_rect" : [ 6.0, 212.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -406,7 +408,7 @@
 									"destination" : [ "obj-161", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 32.5, 217.125, 15.5, 217.125 ],
+									"midpoints" : [ 32.5, 200.125, 15.5, 200.125 ],
 									"source" : [ "obj-108", 0 ]
 								}
 
@@ -566,7 +568,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 624.0, 63.0, 102.0, 20.0 ],
+					"patching_rect" : [ 631.0, 67.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -594,7 +596,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 623.574097, 93.0, 107.0, 33.0 ],
+					"patching_rect" : [ 630.574097, 97.0, 111.0, 33.0 ],
 					"text" : "jit.window wrinkles @fsmenubar 0"
 				}
 
@@ -670,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 485.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 485.0, 30.0 ],
 					"text" : "GLnurbs from sound input",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -686,7 +688,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 29.0, 485.0, 21.0 ],
+					"patching_rect" : [ 5.0, 31.0, 437.0, 21.0 ],
 					"text" : "play with the slide and the jit.op values for various rendering of the effect",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1056,7 +1058,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 620.0, 56.0, 121.147247, 79.0 ],
+					"patching_rect" : [ 627.0, 60.0, 121.147247, 79.0 ],
 					"rounded" : 30
 				}
 
@@ -1146,7 +1148,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 748.0, 48.0 ],
+					"patching_rect" : [ 2.0, 3.0, 748.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

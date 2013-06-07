@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -133,7 +133,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -656,7 +656,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 559.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 559.0, 21.0 ],
 					"text" : "jit.poke writes an audio signal into a matrix / jit.rrepos reposition pixels",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -673,7 +673,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 462.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 462.0, 30.0 ],
 					"text" : "BadTV : using sound to manipulate an image",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1042,7 +1042,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 605.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 605.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

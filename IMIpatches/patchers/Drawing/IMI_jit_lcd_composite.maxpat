@@ -539,8 +539,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 31.0, 310.0, 21.0 ],
-					"text" : " jit.lcd  can be used with composite modes",
+					"patching_rect" : [ 3.0, 31.0, 310.0, 21.0 ],
+					"text" : "jit.lcd  can be used with composite modes",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

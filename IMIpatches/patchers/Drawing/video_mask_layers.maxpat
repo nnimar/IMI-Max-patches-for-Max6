@@ -698,7 +698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 343.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
 					"text" : "Video mask (using layers)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -714,7 +714,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 399.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 399.0, 21.0 ],
 					"text" : "use GLslab to mix to images",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -731,7 +731,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 116.0, 58.0, 24.0 ],
+					"patching_rect" : [ 250.0, 119.0, 58.0, 24.0 ],
 					"text" : "backg"
 				}
 
@@ -846,7 +846,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 119.0, 94.0, 18.0 ],
+					"patching_rect" : [ 149.0, 122.0, 94.0, 18.0 ],
 					"text" : "read dozer.mov"
 				}
 

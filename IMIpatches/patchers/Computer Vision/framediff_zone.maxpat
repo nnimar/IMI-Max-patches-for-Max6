@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 771.0, 688.0 ],
@@ -47,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 645.0, 587.941772, 44.0, 16.0 ],
-					"presentation_rect" : [ 728.0, 399.0, 0.0, 0.0 ],
 					"text" : "export"
 				}
 
@@ -79,8 +79,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 775.0, 44.0, 305.0, 418.0 ],
@@ -540,7 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 412.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 412.0, 21.0 ],
 					"text" : "draw the reactive area in the zone map",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -682,8 +683,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 87.0, 65.0, 20.0 ],
-					"text" : "qmetro 40"
+					"patching_rect" : [ 13.0, 87.0, 58.0, 20.0 ],
+					"text" : "metro 40"
 				}
 
 			}
@@ -726,7 +727,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 766.0, 50.0 ]
+					"patching_rect" : [ 2.0, 2.0, 766.0, 51.0 ]
 				}
 
 			}
@@ -757,8 +758,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 781.0, 44.0, 690.0, 574.0 ],
@@ -787,8 +789,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 170.0, 499.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 216.0, 525.0, 0.0, 0.0 ]
+									"patching_rect" : [ 170.0, 499.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -869,7 +870,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 226.0, 126.0, 443.0, 20.0 ],
-									"presentation_rect" : [ 418.0, 238.0, 0.0, 0.0 ],
 									"text" : "\"/Applications/Max6/examples/IMIpatches/Computer Vision/zone.png\""
 								}
 
@@ -1028,8 +1028,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 781.0, 44.0, 328.0, 399.0 ],
@@ -2127,8 +2128,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.blobs.color.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

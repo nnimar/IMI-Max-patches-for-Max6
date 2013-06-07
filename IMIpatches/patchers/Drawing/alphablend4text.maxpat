@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 433.0, 570.0 ],
+		"rect" : [ 0.0, 44.0, 430.0, 570.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -36,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 199.0, 140.0, 34.0 ],
+					"patching_rect" : [ 13.0, 199.0, 140.0, 33.0 ],
 					"text" : "jit.matrix 4 char 320 240 @planemap 1 1 2 3"
 				}
 
@@ -79,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 80.0, 210.0, 21.0 ],
+					"patching_rect" : [ 13.0, 80.0, 210.0, 20.0 ],
 					"text" : "clear, font Arial 72, moveto 0 60"
 				}
 
@@ -93,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 114.0, 141.0, 21.0 ],
+					"patching_rect" : [ 29.0, 114.0, 141.0, 20.0 ],
 					"text" : "write hello sof!, bang"
 				}
 
@@ -107,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 161.0, 126.0, 20.0 ],
+					"patching_rect" : [ 13.0, 165.0, 124.0, 20.0 ],
 					"text" : "jit.lcd 4 char 320 240"
 				}
 
@@ -115,14 +116,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.800003,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 379.0, 21.0 ],
-					"text" : "Use a matrix (jit.matrix) as a mask to blend two images together.",
+					"patching_rect" : [ 4.0, 32.0, 356.0, 20.0 ],
+					"text" : "use a matrix (jit.matrix) as a mask to blend two images together.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -133,7 +134,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -150,12 +151,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 195.0, 118.0, 39.0 ],
+					"patching_rect" : [ 155.0, 195.0, 118.0, 37.0 ],
 					"text" : "use the red (1)\nchannel as alpha"
 				}
 
@@ -244,12 +246,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 426.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 426.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

@@ -484,7 +484,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 403.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 403.0, 21.0 ],
 					"text" : "stop the movie (rate 0), select the colour by clicking on it then play.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

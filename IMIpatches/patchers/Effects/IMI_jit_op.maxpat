@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 939.0, 682.0 ],
+		"rect" : [ 1.0, 44.0, 760.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -29,108 +30,8 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-31",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 353.0, 178.0, 50.0, 23.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 234.0, 217.0, 138.0, 23.0 ],
-					"text" : "jit.op @op * @val 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 432.0, 432.0, 320.0, 240.0 ],
-					"presentation_rect" : [ 492.0, 469.0, 320.0, 240.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 432.0, 398.0, 216.0, 23.0 ],
-					"text" : "jit.op @op +"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-22",
-					"linecount" : 17,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 62.0, 399.0, 280.0 ],
-					"text" : "A few interesting jit.op :\n\npass : original image\n\nmultiply (*) : The product of two numbers that are less than 1.0 is smaller than either (need process)\n\ndivide (/) : Dividing usually gives black unless the B image is very dim. To get this, multiply  the bars by 0.01.\n\nplus (+) : Addition gives a mix. This works as well as keying if your images contain a lot of black\n\nmin : minimum lets the lesser values through and max works \nthe other way\n\naverage : the average of pixel values is a washed out mix"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 30.0, 707.0, 23.0 ],
-					"text" : "apply binary operators to matrixes. Important : if the input matrix is char (0-255) the values will mapped to  0. 1.",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 103.0, 30.0 ],
-					"text" : "IMI jit-op",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-21",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
@@ -138,14 +39,15 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 480.0, 44.0, 463.0, 608.0 ],
+						"rect" : [ 766.0, 44.0, 418.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 10.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
@@ -164,218 +66,390 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-2",
-									"linecount" : 6,
+									"fontsize" : 14.0,
+									"frgb" : 0.0,
+									"id" : "obj-22",
+									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 283.0, 195.0, 86.0 ],
-									"text" : ">p: greater than(pass);\r<p: less than(pass);\r>=p: greater than or equal to(pass);\r<=p: less than or equal to(pass);\r==p: equal(pass);\r!=p not equal(pass)"
+									"patching_rect" : [ 12.0, 7.0, 391.0, 272.0 ],
+									"text" : "A few interesting jit.op :\n\npass : original image\n\nmultiply (*) : The product of two numbers that are less than 1.0 is smaller than either (need process)\n\ndivide (/) : Dividing usually gives black unless the B image is very dim. To get this, multiply  the bars by 0.01.\n\nplus (+) : Addition gives a mix. This works as well as keying if your images contain a lot of black\n\nmin : minimum lets the lesser values through and max works \nthe other way\n\naverage : the average of pixel values is a washed out mix"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
+									"fontsize" : 14.0,
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 40.0, 146.0, 20.0 ],
-									"text" : "(long/char only)"
-								}
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 6,
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
+										}
+,
+										"rect" : [ 767.0, 44.0, 463.0, 608.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 0,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 0,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"boxanimatetime" : 200,
+										"imprint" : 0,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-2",
+													"linecount" : 6,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 283.0, 195.0, 84.0 ],
+													"text" : ">p: greater than(pass);\r<p: less than(pass);\r>=p: greater than or equal to(pass);\r<=p: less than or equal to(pass);\r==p: equal(pass);\r!=p not equal(pass)"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 387.0, 156.0, 33.0 ],
-									"text" : "(float32/float64 only, unary unless otherwise mentioned)"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-3",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 40.0, 146.0, 19.0 ],
+													"text" : "(long/char only)"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-5",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 370.0, 163.0, 20.0 ],
-									"text" : "exp/log/rounding"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-4",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 387.0, 156.0, 32.0 ],
+													"text" : "(float32/float64 only, unary unless otherwise mentioned)"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-6",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 351.0, 156.0, 33.0 ],
-									"text" : "(float32/float64 only, unary unless otherwise mentioned)"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-5",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 370.0, 163.0, 19.0 ],
+													"text" : "exp/log/rounding"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-7",
-									"linecount" : 13,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 385.0, 170.0, 180.0 ],
-									"text" : "sin: sine;\rcos: cosine;\rtan: tangent;\rasin: arcsine;\racos: arccosine;\ratan: arctangent;\ratan2: arctangent(binary);\rsinh: hyperbolic sine;\rcosh: hyperbolic cosine;\rtanh: hyperbolic tangent;\rasinh: hyperbolic arcsine;\racosh: hyperbolic arccosine;\ratanh: hyperbolic arctangent;\r"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-6",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 17.0, 351.0, 156.0, 32.0 ],
+													"text" : "(float32/float64 only, unary unless otherwise mentioned)"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-8",
-									"linecount" : 9,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 160.0, 164.0, 126.0 ],
-									"text" : "&&: logical and;\r||: logical or;\r!: logical not(unary);\r>: greater than;\r<: less than;\r>=: greater than or equal to;\r<=: less than or equal to;\r==: equal;\r!=: not equal"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-7",
+													"linecount" : 13,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 17.0, 385.0, 170.0, 175.0 ],
+													"text" : "sin: sine;\rcos: cosine;\rtan: tangent;\rasin: arcsine;\racos: arccosine;\ratan: arctangent;\ratan2: arctangent(binary);\rsinh: hyperbolic sine;\rcosh: hyperbolic cosine;\rtanh: hyperbolic tangent;\rasinh: hyperbolic arcsine;\racosh: hyperbolic arccosine;\ratanh: hyperbolic arctangent;\r"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-9",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 141.0, 110.0, 20.0 ],
-									"text" : "logical"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-8",
+													"linecount" : 9,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 160.0, 164.0, 123.0 ],
+													"text" : "&&: logical and;\r||: logical or;\r!: logical not(unary);\r>: greater than;\r<: less than;\r>=: greater than or equal to;\r<=: less than or equal to;\r==: equal;\r!=: not equal"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-10",
-									"linecount" : 12,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 417.0, 175.0, 166.0 ],
-									"text" : "exp: e to the x;\rexp2: 2 to the x;\rln: log base e;\rlog2: log base 2;\rlog10: log base 10;\rhypot: hypotenuse(binary);\rpow: x to the y(binary);\rsqrt: square root;\rceil: integer ceiling;\rfloor: integer floor;\rround: round to nearest integer;\rtrunc: truncate to integer"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-9",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 141.0, 110.0, 19.0 ],
+													"text" : "logical"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-11",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 19.0, 146.0, 20.0 ],
-									"text" : "bitwise"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-10",
+													"linecount" : 12,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 417.0, 175.0, 162.0 ],
+													"text" : "exp: e to the x;\rexp2: 2 to the x;\rln: log base e;\rlog2: log base 2;\rlog10: log base 10;\rhypot: hypotenuse(binary);\rpow: x to the y(binary);\rsqrt: square root;\rceil: integer ceiling;\rfloor: integer floor;\rround: round to nearest integer;\rtrunc: truncate to integer"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-12",
-									"linecount" : 6,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 57.0, 163.0, 86.0 ],
-									"text" : "&: bitwise and;\r|: bitwise or;\r^: bitwise xor;\r~: bitwise compliment(unary);\r>>: right shift;\r<<: left shift"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-11",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 19.0, 146.0, 19.0 ],
+													"text" : "bitwise"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-13",
-									"linecount" : 20,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 45.0, 236.0, 273.0 ],
-									"text" : "pass: pass left input, no operator;\r*: multiplication;\r/: division;\r+: addition;\r-: subtraction;\r+m: addition modulo(char only);\r-m: subtraction modulo(char only);\r%: modulo;\rmin: minimum;\rmax: maximum;\rabs: absolute value(unary);\ravg: average;\rabsdiff: absolute value of difference;\r!pass: pass right input, no operator;\r!/: right input/left input(filpped);\r!-: right input-left input(filpped);\r!%:right input/left input(filpped);\rignore: leave previous output value;\rfold: mirrored modulo (float32/float64 only);\rwrap: positive modulo (float32/float64 only);\r"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-12",
+													"linecount" : 6,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 250.0, 57.0, 163.0, 84.0 ],
+													"text" : "&: bitwise and;\r|: bitwise or;\r^: bitwise xor;\r~: bitwise compliment(unary);\r>>: right shift;\r<<: left shift"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-14",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 19.0, 109.0, 20.0 ],
-									"text" : "arithmetic"
-								}
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-13",
+													"linecount" : 20,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 17.0, 45.0, 236.0, 266.0 ],
+													"text" : "pass: pass left input, no operator;\r*: multiplication;\r/: division;\r+: addition;\r-: subtraction;\r+m: addition modulo(char only);\r-m: subtraction modulo(char only);\r%: modulo;\rmin: minimum;\rmax: maximum;\rabs: absolute value(unary);\ravg: average;\rabsdiff: absolute value of difference;\r!pass: pass right input, no operator;\r!/: right input/left input(filpped);\r!-: right input-left input(filpped);\r!%:right input/left input(filpped);\rignore: leave previous output value;\rfold: mirrored modulo (float32/float64 only);\rwrap: positive modulo (float32/float64 only);\r"
+												}
 
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-15",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 17.0, 328.0, 162.0, 20.0 ],
-									"text" : "trigonometric"
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-14",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 17.0, 19.0, 109.0, 19.0 ],
+													"text" : "arithmetic"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 11.595187,
+													"frgb" : 0.0,
+													"id" : "obj-15",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 17.0, 328.0, 162.0, 19.0 ],
+													"text" : "trigonometric"
+												}
+
+											}
+ ],
+										"lines" : [  ]
+									}
+,
+									"patching_rect" : [ 186.0, 9.0, 68.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"description" : "",
+										"digest" : "",
+										"fontface" : 0,
+										"fontname" : "Arial",
+										"fontsize" : 10.0,
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p op_list"
 								}
 
 							}
  ],
-						"lines" : [  ],
-						"dependency_cache" : [  ]
+						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 713.0, 64.0, 68.0, 23.0 ],
+					"patching_rect" : [ 706.0, 32.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0,
+						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
-					"text" : "p op_list"
+					"text" : "p tutorial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-31",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 349.0, 177.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 230.0, 205.0, 138.0, 22.0 ],
+					"text" : "jit.op @op * @val 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "jit.pwindow",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 428.0, 420.0, 320.0, 240.0 ],
+					"presentation_rect" : [ 492.0, 469.0, 320.0, 240.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 428.0, 386.0, 216.0, 22.0 ],
+					"text" : "jit.op @op +"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.0, 31.0, 608.0, 20.0 ],
+					"text" : "apply binary operators to matrixes. Important : if the input matrix is char (0-255) the values will mapped to  0. 1.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 20.871338,
+					"frgb" : 0.0,
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2.0, 2.0, 103.0, 30.0 ],
+					"text" : "IMI jit-op",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -390,7 +464,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 433.0, 313.0, 72.0, 23.0 ]
+					"patching_rect" : [ 429.0, 301.0, 72.0, 22.0 ]
 				}
 
 			}
@@ -403,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 343.0, 85.0, 23.0 ],
+					"patching_rect" : [ 429.0, 331.0, 85.0, 22.0 ],
 					"text" : "prepend op"
 				}
 
@@ -415,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 250.0, 160.0, 120.0 ],
+					"patching_rect" : [ 251.0, 238.0, 160.0, 120.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 120.0 ]
 				}
 
@@ -427,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 213.0, 160.0, 120.0 ],
+					"patching_rect" : [ 28.0, 201.0, 160.0, 120.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 160.0, 120.0 ]
 				}
 
@@ -441,7 +515,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 398.0, 240.0, 23.0 ],
+					"patching_rect" : [ 9.0, 386.0, 240.0, 22.0 ],
 					"text" : "jit.op @op +"
 				}
 
@@ -453,7 +527,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 432.0, 320.0, 240.0 ],
+					"patching_rect" : [ 9.0, 420.0, 320.0, 240.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 320.0, 240.0 ]
 				}
 
@@ -466,7 +540,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 72.0, 22.0, 22.0 ]
+					"patching_rect" : [ 9.0, 60.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -479,7 +553,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 138.0, 130.0, 21.0 ],
+					"patching_rect" : [ 230.0, 126.0, 130.0, 20.0 ],
 					"text" : "read colorbars.pict"
 				}
 
@@ -493,7 +567,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 234.0, 178.0, 76.0, 23.0 ],
+					"patching_rect" : [ 230.0, 166.0, 76.0, 22.0 ],
 					"text" : "jit.qt.movie"
 				}
 
@@ -507,8 +581,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 13.0, 103.0, 74.0, 23.0 ],
-					"text" : "qmetro 40"
+					"patching_rect" : [ 9.0, 91.0, 67.0, 22.0 ],
+					"text" : "metro 40"
 				}
 
 			}
@@ -521,7 +595,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 138.0, 109.0, 21.0 ],
+					"patching_rect" : [ 36.0, 126.0, 109.0, 20.0 ],
 					"text" : "read wheel.mov"
 				}
 
@@ -535,7 +609,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 178.0, 76.0, 23.0 ],
+					"patching_rect" : [ 9.0, 166.0, 76.0, 22.0 ],
 					"text" : "jit.qt.movie"
 				}
 
@@ -550,7 +624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 178.0, 87.0, 23.0 ],
+					"patching_rect" : [ 349.0, 177.0, 87.0, 22.0 ],
 					"text" : "loadmess 1."
 				}
 
@@ -562,13 +636,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 933.0, 52.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 755.0, 51.0 ]
 				}
 
 			}
@@ -578,7 +650,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 469.0, 339.0, 442.5, 339.0 ],
+					"midpoints" : [ 465.0, 327.0, 438.5, 327.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -597,7 +669,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 170.5, 243.5, 170.5 ],
+					"midpoints" : [ 18.5, 158.5, 239.5, 158.5 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -607,7 +679,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 170.0, 22.5, 170.0 ],
+					"midpoints" : [ 45.5, 158.0, 18.5, 158.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -617,7 +689,7 @@
 					"destination" : [ "obj-26", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 383.0, 638.5, 383.0 ],
+					"midpoints" : [ 18.5, 371.0, 634.5, 371.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -654,7 +726,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 442.5, 384.5, 441.5, 384.5 ],
+					"midpoints" : [ 438.5, 372.5, 437.5, 372.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -664,7 +736,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 442.5, 384.5, 22.5, 384.5 ],
+					"midpoints" : [ 438.5, 372.5, 18.5, 372.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -683,7 +755,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 243.5, 383.5, 441.5, 383.5 ],
+					"midpoints" : [ 239.5, 371.5, 437.5, 371.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -738,7 +810,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 243.5, 170.0, 243.5, 170.0 ],
+					"midpoints" : [ 239.5, 158.0, 239.5, 158.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

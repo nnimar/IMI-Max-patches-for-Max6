@@ -433,7 +433,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 32.0, 257.0, 20.0 ],
+					"patching_rect" : [ 3.0, 33.0, 257.0, 20.0 ],
 					"text" : "methods for mixing images and video together",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -539,7 +539,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 248.0, 30.0 ],
+					"patching_rect" : [ 3.0, 4.0, 248.0, 30.0 ],
 					"text" : "IMI compositing modes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

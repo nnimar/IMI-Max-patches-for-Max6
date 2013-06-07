@@ -1017,13 +1017,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.754705,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 411.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 388.0, 20.0 ],
 					"text" : "use jit.lcd with composite modes in conjunction with jit.qt.movie",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1428,13 +1428,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 12.0,
 					"id" : "obj-131",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 36.0, 95.0, 56.0, 19.0 ],
+					"patching_rect" : [ 36.0, 95.0, 59.0, 20.0 ],
 					"text" : "metro 40"
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 536.0, 575.0 ],
+		"rect" : [ 1.0, 44.0, 536.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 233.0, 545.0, 132.0, 20.0 ],
+					"patching_rect" : [ 238.0, 545.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 551.0, 100.0, 20.0 ],
 					"text" : "IMI_sensors_tools"
@@ -225,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 545.0, 130.0, 17.0 ],
+					"patching_rect" : [ 241.0, 545.0, 130.0, 17.0 ],
 					"text" : "load IMI_sensors_tools"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.0, 545.0, 52.0, 19.0 ],
+					"patching_rect" : [ 240.0, 545.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 

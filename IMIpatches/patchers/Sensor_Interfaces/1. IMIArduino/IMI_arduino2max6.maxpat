@@ -218,7 +218,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 385.0, 33.0, 49.0, 18.0 ],
+					"patching_rect" : [ 388.0, 34.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -536,7 +536,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 554.0, 44.0, 119.0, 239.0 ],
+						"rect" : [ 451.0, 44.0, 119.0, 239.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1259,7 +1259,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "SparkFun-BT-COM0", ",", "FireFly-2573-SPP", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-PDA-Sync", ",", "usbmodem1411" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1662,7 +1662,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 438.0, 50.0 ],
+					"patching_rect" : [ 2.0, 3.0, 438.0, 51.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

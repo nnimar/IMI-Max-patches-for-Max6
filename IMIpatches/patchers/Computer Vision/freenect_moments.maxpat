@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 674.0, 500.0 ],
+		"rect" : [ 0.0, 44.0, 674.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -54,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 1.0, 395.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 395.0, 30.0 ],
 					"text" : "Freenect - cv.jit.moment (Luke Dubois)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
