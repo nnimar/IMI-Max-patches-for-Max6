@@ -964,7 +964,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 479.0, 253.0, 87.0 ],
-					"text" : "(S) start\n(R) restart\n(ESC) fullscreen\n(shift-ESC) fullscreen with cursor andcorners\n{1-2-3-4-5} load preset 1 to 5\nshift {3-4-5} save preset 3 to 5"
+					"text" : "(S) start\n(R) restart\n(ESC) fullscreen\n(shift-ESC) fullscreen with cursor and corners\n{1-2-3-4-5} load preset 1 to 5\nshift {3-4-5} save preset 3 to 5"
 				}
 
 			}
@@ -1127,8 +1127,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 192.0, 73.0, 130.0, 58.0 ],
-									"text" : ";\rmovie1 dozer.mov;\rmovie2 sophie.mov;\rmovie3 dvducks.mov;\r"
+									"patching_rect" : [ 192.0, 73.0, 129.0, 58.0 ],
+									"text" : ";\rmovie1 dozer.mov;\rmovie2 dvkite.mov;\rmovie3 dvducks.mov;\r"
 								}
 
 							}
@@ -5724,7 +5724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 630.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 630.0, 21.0 ],
 					"text" : "space mapping using GL.cornerpin for three videos with auto-save / auto-restore system (Dieter Vandoren)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -11606,14 +11606,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "cornerpin.json",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.debounce.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/timing/dot.debounce",
-				"patcherrelativepath" : "../../externals/tools/dot_20121204/timing/dot.debounce",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/timing/dot.debounce",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 44.0, 835.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 18.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -91,8 +92,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 757.0, 21.0 ],
-					"text" : "Click on a colored object on the screen and follow it using jit.findbounds (make sure your object is properly lighten !)",
+					"patching_rect" : [ 3.0, 31.0, 677.0, 21.0 ],
+					"text" : "click on a colored object on the screen and follow it using jit.findbounds (make sure your object is properly lighten !)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -223,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 632.0, 423.0, 176.0, 51.0 ],
+					"patching_rect" : [ 632.0, 423.0, 178.0, 51.0 ],
 					"text" : "subtracting the output of the suckah object to provide a little range of color."
 				}
 
@@ -552,7 +553,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 619.0, 294.0, 163.0, 37.0 ],
+					"patching_rect" : [ 619.0, 294.0, 166.0, 37.0 ],
 					"text" : "use suckah in the window to select a color to track"
 				}
 
@@ -583,7 +584,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 832.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 832.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

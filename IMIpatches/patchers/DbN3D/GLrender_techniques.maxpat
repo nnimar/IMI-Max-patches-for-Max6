@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 583.0, 456.0 ],
@@ -38,8 +39,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 590.0, 371.0, 399.0, 190.0 ],
@@ -198,7 +200,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 367.0, 131.0, 66.0 ],
+					"patching_rect" : [ 18.0, 367.0, 137.0, 66.0 ],
 					"text" : "with depthbuffer 1, the rendering depends on the z position "
 				}
 
@@ -402,7 +404,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 148.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.5, 156.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -501,7 +503,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 9.0, 119.0, 87.0, 20.0 ],
+					"patching_rect" : [ 9.0, 119.0, 70.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -586,7 +588,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 56.0, 98.147247, 158.0 ],
+					"patching_rect" : [ 3.0, 56.0, 87.147247, 157.0 ],
 					"rounded" : 30
 				}
 
@@ -615,7 +617,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 222.0, 140.147247, 142.0 ],
-					"presentation_rect" : [ 3.0, 222.0, 0.0, 0.0 ],
 					"rounded" : 30
 				}
 
@@ -660,7 +661,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 153.5, 385.00235, 20.0, 20.0 ],
+					"patching_rect" : [ 162.0, 384.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -889,7 +890,7 @@
 					"destination" : [ "obj-92", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 86.5, 175.5, 18.5, 175.5 ],
+					"midpoints" : [ 69.5, 146.5, 18.5, 146.5 ],
 					"source" : [ "obj-86", 2 ]
 				}
 

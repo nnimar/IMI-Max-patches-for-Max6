@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 853.0, 460.0 ],
+		"rect" : [ 1.0, 44.0, 853.0, 460.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.5, 3.0, 382.5, 30.0 ],
+					"patching_rect" : [ 0.5, 3.0, 382.5, 30.0 ],
 					"text" : "GLmultiple textures (Robert Ramirez)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.5, 31.0, 399.0, 21.0 ],
+					"patching_rect" : [ 1.5, 31.0, 399.0, 21.0 ],
 					"text" : "how to use GLmultiple with multiple video textures",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

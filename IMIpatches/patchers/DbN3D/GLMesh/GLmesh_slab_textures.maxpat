@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -641,7 +641,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 343.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
 					"text" : "GLmesh - slab and textures",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -657,7 +657,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 28.0, 468.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 468.0, 21.0 ],
 					"text" : "mix two textures using slabs and use mesh vertex coordinates to place the video",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -701,7 +701,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.0, 65.0, 100.0, 18.0 ],
+					"patching_rect" : [ 185.0, 65.0, 100.0, 18.0 ],
 					"text" : "read dishes.mov"
 				}
 
@@ -912,7 +912,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -1362,7 +1362,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 316.0, 64.0, 20.0, 20.0 ],
+					"patching_rect" : [ 290.0, 64.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1382,7 +1382,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 618.0, 46.0 ],
+					"patching_rect" : [ 3.0, 3.0, 618.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1531,7 +1531,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 220.5, 101.5, 194.5, 101.5 ],
+					"midpoints" : [ 194.5, 101.5, 194.5, 101.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 

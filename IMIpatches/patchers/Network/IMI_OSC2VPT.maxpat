@@ -11,7 +11,7 @@
 		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 14.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -1228,7 +1228,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.for.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/control/dot.for",
-				"patcherrelativepath" : "../../externals/tools/dot_20121204/control/dot.for",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/control/dot.for",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1059.0, 746.0 ],
@@ -36,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 706.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 465.0, 30.0 ],
 					"text" : "1st order Markov Chains example (Eric Marty)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -52,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 406.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 406.0, 21.0 ],
 					"text" : "schedule events using a metro or a scrubbing method",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -76,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 354.0, 60.699997, 696.0, 34.599998 ],
+					"patching_rect" : [ 353.0, 64.699997, 696.0, 34.599998 ],
 					"precision" : 4,
 					"rowheight" : 33,
 					"rows" : 1,
@@ -96,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 702.0, 743.0, 38.0 ],
+					"patching_rect" : [ 295.0, 706.0, 743.0, 38.0 ],
 					"text" : "The table shows the relative probability of each given event following another.  By adding up the values in all the rows, we can discover the probabilities of any given event ocurring at any given moment in time."
 				}
 
@@ -110,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.90004, 56.0, 149.0, 27.0 ],
+					"patching_rect" : [ 111.90004, 60.0, 149.0, 27.0 ],
 					"text" : "Simple Sugar Hill"
 				}
 
@@ -125,7 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 401.0, 37.0, 18.0 ],
+					"patching_rect" : [ 68.0, 405.0, 37.0, 18.0 ],
 					"text" : "set 0"
 				}
 
@@ -139,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.900047, 56.0, 89.0, 27.0 ],
+					"patching_rect" : [ 11.900047, 60.0, 89.0, 27.0 ],
 					"text" : "Dr. Seuss"
 				}
 
@@ -157,8 +158,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 228.0, 96.0, 1052.0, 660.0 ],
@@ -1012,7 +1014,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 263.100006, 141.0, 20.0 ],
+					"patching_rect" : [ 10.0, 267.100006, 141.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1047,7 +1049,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 308.0, 97.699997, 42.0, 594.0 ],
+					"patching_rect" : [ 307.0, 101.699997, 42.0, 594.0 ],
 					"precision" : 4,
 					"rowheight" : 33,
 					"rows" : 18,
@@ -1064,7 +1066,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 307.0, 19.0, 19.0 ]
+					"patching_rect" : [ 89.0, 311.0, 19.0, 19.0 ]
 				}
 
 			}
@@ -1082,8 +1084,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 640.0, 295.0, 272.0, 335.0 ],
@@ -1392,7 +1395,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 25.581818, 331.990875, 83.0, 33.0 ],
+					"patching_rect" : [ 24.581818, 335.990875, 83.0, 33.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1418,7 +1421,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.681816, 455.690918, 25.0, 25.0 ]
+					"patching_rect" : [ 9.681816, 459.690918, 25.0, 25.0 ]
 				}
 
 			}
@@ -1435,8 +1438,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 557.0, 161.0, 252.0, 446.0 ],
@@ -1800,7 +1804,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.681816, 427.190918, 257.0, 20.0 ],
+					"patching_rect" : [ 9.681816, 431.190918, 257.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1827,7 +1831,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.981812, 455.690918, 228.299988, 25.0 ],
+					"patching_rect" : [ 38.981812, 459.690918, 228.299988, 25.0 ],
 					"text" : "you must not hop on pop ."
 				}
 
@@ -1849,7 +1853,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 354.0, 97.699997, 696.0, 594.0 ],
+					"patching_rect" : [ 353.0, 101.699997, 696.0, 594.0 ],
 					"precision" : 4,
 					"rowheight" : 33,
 					"rows" : 18,
@@ -1867,7 +1871,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "bang", "" ],
-					"patching_rect" : [ 10.681816, 375.190887, 135.0, 20.0 ],
+					"patching_rect" : [ 9.681816, 379.190887, 135.0, 20.0 ],
 					"text" : "can.markov"
 				}
 
@@ -1880,7 +1884,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.0, 53.400002, 758.0, 644.599976 ]
+					"patching_rect" : [ 297.0, 57.400002, 758.0, 644.599976 ]
 				}
 
 			}
@@ -1895,7 +1899,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 198.0, 94.0, 25.0 ],
+					"patching_rect" : [ 10.0, 202.0, 94.0, 25.0 ],
 					"text" : ";\raka.speak_rate 128."
 				}
 
@@ -1911,7 +1915,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 112.0, 228.0, 92.0, 25.0 ],
+					"patching_rect" : [ 111.0, 232.0, 92.0, 25.0 ],
 					"text" : ";\raka.speak_rate 197."
 				}
 
@@ -1926,7 +1930,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.599976, 90.599991, 155.0, 130.0 ],
+					"patching_rect" : [ 110.599976, 94.599991, 155.0, 130.0 ],
 					"text" : "said a hip . hop . the hippy . the hippy to the hip . hip . hop . a don't stop the rockit to the bang-bang boogie said up jumped the boogie to the rhythm of the boogie the beat ."
 				}
 
@@ -1941,7 +1945,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.599976, 89.600006, 93.0, 98.0 ],
+					"patching_rect" : [ 9.599976, 93.600006, 93.0, 98.0 ],
 					"text" : "pup in cup . cup on pup . hop on pop . stop . you must not hop on pop ."
 				}
 
@@ -1956,7 +1960,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.981827, 344.590912, 91.0, 20.0 ],
+					"patching_rect" : [ 25.981827, 348.590912, 91.0, 20.0 ],
 					"text" : "loadmess clear"
 				}
 
@@ -1977,7 +1981,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.0, 306.0, 20.0, 20.0 ],
+					"patching_rect" : [ 113.0, 310.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1997,7 +2001,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 1053.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 1053.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -2017,7 +2021,7 @@
 					"destination" : [ "obj-208", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 121.099976, 241.350006, 20.5, 241.350006 ],
+					"midpoints" : [ 120.099976, 245.350006, 19.5, 245.350006 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2045,7 +2049,7 @@
 					"destination" : [ "obj-151", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.181816, 498.190918, 4.881847, 498.190918, 4.881847, 307.372681, 35.081818, 307.372681 ],
+					"midpoints" : [ 19.181816, 502.190918, 3.881847, 502.190918, 3.881847, 311.372681, 34.081818, 311.372681 ],
 					"source" : [ "obj-135", 0 ]
 				}
 
@@ -2082,7 +2086,7 @@
 					"destination" : [ "obj-194", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 142.5, 292.100006, 276.5, 292.100006, 276.5, 58.699997, 363.5, 58.699997 ],
+					"midpoints" : [ 141.5, 296.100006, 275.5, 296.100006, 275.5, 62.699997, 362.5, 62.699997 ],
 					"source" : [ "obj-208", 2 ]
 				}
 
@@ -2092,7 +2096,7 @@
 					"destination" : [ "obj-197", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 81.5, 292.100006, 276.25, 292.100006, 276.25, 87.699997, 317.5, 87.699997 ],
+					"midpoints" : [ 80.5, 296.100006, 275.25, 296.100006, 275.25, 91.699997, 316.5, 91.699997 ],
 					"source" : [ "obj-208", 1 ]
 				}
 
@@ -2102,7 +2106,7 @@
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 307.145447, 20.181816, 307.145447 ],
+					"midpoints" : [ 19.5, 311.145447, 19.181816, 311.145447 ],
 					"source" : [ "obj-208", 0 ]
 				}
 
@@ -2139,7 +2143,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 136.181824, 418.172729, 276.0, 418.172729, 276.0, 92.699997, 363.5, 92.699997 ],
+					"midpoints" : [ 135.181824, 422.172729, 275.0, 422.172729, 275.0, 96.699997, 362.5, 96.699997 ],
 					"source" : [ "obj-44", 2 ]
 				}
 
@@ -2165,8 +2169,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "can.markov.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/CanTools",
-				"patcherrelativepath" : "../../Plugins_tools/CanTools",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/CanTools",
+				"patcherrelativepath" : "../../../externals/tools/CanTools",
 				"type" : "JSON",
 				"implicit" : 1
 			}

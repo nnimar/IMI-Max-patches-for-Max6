@@ -1525,8 +1525,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 55.0, 181.0, 27.0 ],
-					"text" : "Analyze sample data."
+					"patching_rect" : [ 6.0, 55.0, 211.0, 27.0 ],
+					"text" : "Analyze sample data..."
 				}
 
 			}
