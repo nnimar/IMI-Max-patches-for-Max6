@@ -80,7 +80,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 578.933655, 59.0, 49.0, 18.0 ],
+					"patching_rect" : [ 578.933655, 63.0, 49.0, 18.0 ],
 					"text" : "r movie1"
 				}
 
@@ -153,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.0, 61.0, 67.0, 18.0 ],
+					"patching_rect" : [ 625.0, 63.0, 67.0, 18.0 ],
 					"text" : "loadmess 10"
 				}
 
@@ -197,7 +197,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.0, 61.0, 62.0, 18.0 ],
+					"patching_rect" : [ 199.0, 63.0, 62.0, 18.0 ],
 					"text" : "loadmess 9"
 				}
 
@@ -1930,7 +1930,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 240.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 240.0, 30.0 ],
 					"text" : "IMI multi-layered video",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -1946,7 +1946,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 669.0, 20.0 ],
+					"patching_rect" : [ 4.0, 31.0, 669.0, 20.0 ],
 					"text" : "play multiple video using the GPU, the closest video (layer 10) has an alpha channel, the furthest is the background (layer 2)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -2183,7 +2183,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.933655, 259.0, 49.0, 18.0 ],
+					"patching_rect" : [ 578.933655, 259.0, 49.0, 18.0 ],
 					"text" : "r movie2"
 				}
 
@@ -2597,7 +2597,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 61.0, 49.0, 18.0 ],
+					"patching_rect" : [ 146.0, 63.0, 49.0, 18.0 ],
 					"text" : "r movie4"
 				}
 
@@ -3915,21 +3915,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "multi-layer.json",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Exhibition",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

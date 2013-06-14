@@ -75,7 +75,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 136.0, 118.0, 17.0 ],
+									"patching_rect" : [ 98.0, 141.0, 118.0, 17.0 ],
 									"text" : "read hapticanna.mov"
 								}
 
@@ -90,7 +90,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 113.0, 65.0, 18.0 ],
+									"patching_rect" : [ 98.0, 118.0, 65.0, 18.0 ],
 									"text" : "loadmess 2"
 								}
 
@@ -105,7 +105,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 136.0, 81.0, 18.0 ],
+									"patching_rect" : [ 98.0, 141.0, 81.0, 18.0 ],
 									"text" : "imi.movieloader"
 								}
 
@@ -119,7 +119,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "bang" ],
-									"patching_rect" : [ 343.0, 244.0, 141.0, 22.0 ],
+									"patching_rect" : [ 343.0, 249.0, 141.0, 22.0 ],
 									"text" : "imi.looptheloop"
 								}
 
@@ -131,7 +131,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 465.0, 277.0, 20.0, 20.0 ]
+									"patching_rect" : [ 465.0, 282.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -144,7 +144,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 388.0, 184.0, 142.0, 17.0 ],
+									"patching_rect" : [ 388.0, 189.0, 142.0, 17.0 ],
 									"text" : "looppoints 100 150 wait 1"
 								}
 
@@ -158,7 +158,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.5, 135.0, 100.0, 20.0 ],
+									"patching_rect" : [ 222.5, 140.0, 100.0, 20.0 ],
 									"text" : "r imi.looptheloop"
 								}
 
@@ -172,7 +172,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 402.0, 207.0, 143.0, 17.0 ],
+									"patching_rect" : [ 402.0, 212.0, 143.0, 17.0 ],
 									"text" : "looppoints 100 150 wait 2"
 								}
 
@@ -186,7 +186,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 373.0, 158.0, 122.0, 17.0 ],
+									"patching_rect" : [ 373.0, 163.0, 122.0, 17.0 ],
 									"text" : "looppoints 15 50 go 2"
 								}
 
@@ -203,7 +203,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 404.0, 277.0, 56.0, 20.0 ],
+									"patching_rect" : [ 404.0, 282.0, 56.0, 20.0 ],
 									"triscale" : 0.9
 								}
 
@@ -220,7 +220,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 343.0, 277.0, 52.0, 20.0 ],
+									"patching_rect" : [ 343.0, 282.0, 52.0, 20.0 ],
 									"triscale" : 0.9
 								}
 
@@ -234,7 +234,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 406.0, 299.0, 57.0, 20.0 ],
+									"patching_rect" : [ 406.0, 304.0, 57.0, 20.0 ],
 									"text" : "duration"
 								}
 
@@ -248,7 +248,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 343.0, 299.0, 41.0, 20.0 ],
+									"patching_rect" : [ 343.0, 304.0, 41.0, 20.0 ],
 									"text" : "frame"
 								}
 
@@ -262,7 +262,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 8.0, 183.0, 354.0, 27.0 ],
+									"patching_rect" : [ 8.0, 188.0, 354.0, 27.0 ],
 									"text" : "jit.qt.movie @adapt 1 @autostart 1"
 								}
 
@@ -276,7 +276,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 136.0, 84.0, 18.0 ],
+									"patching_rect" : [ 8.0, 141.0, 84.0, 18.0 ],
 									"text" : "bang, gettime"
 								}
 
@@ -290,7 +290,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 8.0, 484.0, 80.0, 34.0 ]
+									"patching_rect" : [ 8.0, 489.0, 80.0, 34.0 ]
 								}
 
 							}
@@ -302,7 +302,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 8.0, 76.0, 20.0, 20.0 ]
+									"patching_rect" : [ 8.0, 81.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -315,7 +315,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 8.0, 106.0, 57.0, 19.0 ],
+									"patching_rect" : [ 8.0, 111.0, 57.0, 19.0 ],
 									"text" : "metro 40"
 								}
 
@@ -330,7 +330,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 4.0, 179.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 									"text" : "IMI looptheloop",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -347,7 +347,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 31.0, 539.0, 33.0 ],
+									"patching_rect" : [ 3.0, 33.0, 539.0, 33.0 ],
 									"text" : "universal frame converter to make loop points easier to use. It has two modes wait (wait for the end of the loop to be reached) or go (immediate jump). Accepts normal loop (1) or palindrome (2)",
 									"textcolor" : [ 1.0, 0.999954, 1.0, 1.0 ]
 								}
@@ -364,8 +364,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 576.0, 62.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ]
 								}
 
 							}
@@ -377,7 +376,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 8.0, 232.0, 320.0, 240.0 ]
+									"patching_rect" : [ 8.0, 237.0, 320.0, 240.0 ]
 								}
 
 							}
@@ -432,7 +431,7 @@
 									"destination" : [ "obj-75", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 397.5, 236.0, 474.5, 236.0 ],
+									"midpoints" : [ 397.5, 241.0, 474.5, 241.0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -451,7 +450,7 @@
 									"destination" : [ "obj-116", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 107.5, 165.0, 17.5, 165.0 ],
+									"midpoints" : [ 107.5, 170.0, 17.5, 170.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -461,7 +460,7 @@
 									"destination" : [ "obj-75", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 411.5, 236.5, 474.5, 236.5 ],
+									"midpoints" : [ 411.5, 241.5, 474.5, 241.5 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -489,7 +488,7 @@
 									"destination" : [ "obj-116", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 232.0, 165.0, 17.5, 165.0 ],
+									"midpoints" : [ 232.0, 170.0, 17.5, 170.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -526,7 +525,7 @@
 									"destination" : [ "obj-75", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 382.5, 236.0, 474.5, 236.0 ],
+									"midpoints" : [ 382.5, 241.0, 474.5, 241.0 ],
 									"source" : [ "obj-95", 0 ]
 								}
 
@@ -570,7 +569,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -663,7 +662,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 4.0, 179.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 									"text" : "poly~movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -679,8 +678,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 394.0, 265.0, 170.0, 18.0 ],
-									"text" : "target 2, read hapticanna.mov"
+									"patching_rect" : [ 394.0, 265.0, 155.0, 18.0 ],
+									"text" : "target 2, read dvducks.mov"
 								}
 
 							}
@@ -734,8 +733,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 394.0, 293.0, 148.0, 18.0 ],
-									"text" : "target 1, read sophie.mov"
+									"patching_rect" : [ 394.0, 293.0, 143.0, 18.0 ],
+									"text" : "target 1, read dvkite.mov"
 								}
 
 							}
@@ -1195,7 +1194,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 32.0, 516.0, 33.0 ],
+									"patching_rect" : [ 3.0, 33.0, 516.0, 33.0 ],
 									"text" : "the poly~ object is like a subpatcher but can hold multiple instances (10  here, max 1023). \nThe \"voice\" is the number of instances and \"target\" controls which instance you want to talk to. ",
 									"textcolor" : [ 1.0, 0.999954, 1.0, 1.0 ]
 								}
@@ -1353,8 +1352,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 576.0, 62.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ]
 								}
 
 							}
@@ -1692,7 +1690,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 4.0, 179.0, 30.0 ],
+									"patching_rect" : [ 3.0, 3.0, 179.0, 30.0 ],
 									"text" : "IMI jit.qt.movie +",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -2254,7 +2252,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 3.0, 578.101501, 51.0 ],
+									"patching_rect" : [ 2.0, 2.0, 577.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -2684,7 +2682,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3241,7 +3239,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 204.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 204.0, 21.0 ],
 									"text" : "play a QuickTime movie",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -3696,35 +3694,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly_movie.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Video",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Video",
+				"bootpath" : "/Users/hubbles/Developper/IMIPatches-Max6/IMIpatches/patchers/Video",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
