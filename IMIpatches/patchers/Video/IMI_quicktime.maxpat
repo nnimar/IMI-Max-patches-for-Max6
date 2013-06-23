@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -364,7 +364,8 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ]
+									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ],
+									"varname" : "autohelp_top_panel[1]"
 								}
 
 							}
@@ -569,7 +570,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1194,7 +1195,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 33.0, 516.0, 33.0 ],
+									"patching_rect" : [ 3.0, 34.0, 516.0, 33.0 ],
 									"text" : "the poly~ object is like a subpatcher but can hold multiple instances (10  here, max 1023). \nThe \"voice\" is the number of instances and \"target\" controls which instance you want to talk to. ",
 									"textcolor" : [ 1.0, 0.999954, 1.0, 1.0 ]
 								}
@@ -1352,7 +1353,8 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ]
+									"patching_rect" : [ 2.0, 2.0, 577.0, 66.0 ],
+									"varname" : "autohelp_top_panel[1]"
 								}
 
 							}
@@ -3694,27 +3696,27 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly_movie.maxpat",
-				"bootpath" : "/Users/hubbles/Developper/IMIPatches-Max6/IMIpatches/patchers/Video",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Video",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3722,7 +3724,7 @@
 , 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

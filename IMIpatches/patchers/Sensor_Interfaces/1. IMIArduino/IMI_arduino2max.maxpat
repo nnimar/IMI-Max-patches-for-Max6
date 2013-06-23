@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -37,8 +37,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 64.0, 255.0, 24.0 ],
-					"text" : "turn off the metro when using the Arduino !"
+					"patching_rect" : [ 41.0, 64.0, 305.0, 24.0 ],
+					"text" : "turn off the metro when using the Arduino application"
 				}
 
 			}
@@ -78,7 +78,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -112,7 +112,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 206.0, 330.0, 60.0 ],
-									"presentation_rect" : [ 15.0, 202.0, 0.0, 0.0 ],
 									"text" : "An Arduino uses the port usbmodem1a21 or  usbserial-A6008hpd, you can connect the following messages to the serial object if you know the complete \nport name."
 								}
 
@@ -248,7 +247,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 438.0, 562.5, 93.0, 18.0 ],
-					"presentation_rect" : [ 467.0, 406.5, 0.0, 0.0 ],
 					"text" : "button2max.ino"
 				}
 
@@ -319,7 +317,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -627,7 +625,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -907,7 +905,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -981,7 +979,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,

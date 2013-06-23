@@ -359,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 29.0, 362.0, 21.0 ],
+					"patching_rect" : [ 1.0, 30.0, 362.0, 21.0 ],
 					"text" : "OSC is a content format for messaging between applications ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
