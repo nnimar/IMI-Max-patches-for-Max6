@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 584.0, 746.0 ],
+		"rect" : [ 0.0, 44.0, 537.0, 745.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,8 +71,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -389,9 +391,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 57.0, 574.0, 688.0 ],
+					"patching_rect" : [ 4.0, 57.0, 528.0, 685.0 ],
 					"rowhead" : 1,
-					"rows" : 38,
+					"rows" : 37,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -456,7 +458,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 578.0, 50.0 ],
+					"patching_rect" : [ 2.0, 2.0, 532.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -575,8 +577,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "toolbox.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../../examples/IMIpatches/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

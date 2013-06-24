@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
@@ -144,7 +145,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 111.0, 16.0 ],
-					"text" : "IMI Max patches v2.30"
+					"text" : "IMI Max patches v2.31"
 				}
 
 			}
@@ -222,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.30 (6/2013)",
+					"text" : "Nicolas Marechal, v2.31 (9/2013)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -242,8 +243,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -656,8 +658,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1070,8 +1073,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1484,8 +1488,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -1900,8 +1905,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 233.0, 77.0, 294.0, 167.0 ],
@@ -2314,8 +2320,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 777.0, 141.0, 294.0, 167.0 ],
@@ -2847,8 +2854,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 383.0, 44.0, 914.0, 674.0 ],
@@ -4884,22 +4892,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "IMIMax101.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax102.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMax103.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/IMIpatches/patchers/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 582.0, 571.0 ],
+		"rect" : [ 0.0, 44.0, 469.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,14 +30,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-35",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.0, 37.0, 88.0, 17.0 ],
+					"patching_rect" : [ 388.0, 42.0, 77.0, 16.0 ],
 					"text" : "col 0 width 160"
 				}
 
@@ -51,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 516.0, 545.0, 52.0, 18.0 ],
+					"patching_rect" : [ 366.0, 548.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -66,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 91.0, 38.0, 54.0, 18.0 ],
+					"patching_rect" : [ 91.0, 42.0, 54.0, 18.0 ],
 					"text" : "delay 500"
 				}
 
@@ -81,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.0, 545.0, 94.0, 16.0 ],
+					"patching_rect" : [ 283.0, 548.0, 77.0, 16.0 ],
 					"text" : "read plugins.txt"
 				}
 
@@ -100,8 +101,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -247,7 +249,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 205.0, 38.0, 35.0, 18.0 ],
+					"patching_rect" : [ 205.0, 42.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -275,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 38.0, 62.0, 18.0 ],
+					"patching_rect" : [ 338.0, 42.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -350,7 +352,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 39.0, 88.0, 16.0 ],
+					"patching_rect" : [ 245.0, 42.0, 88.0, 16.0 ],
 					"text" : "mode selmode $1"
 				}
 
@@ -365,7 +367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 38.0, 81.0, 16.0 ],
+					"patching_rect" : [ 4.0, 42.0, 81.0, 16.0 ],
 					"text" : "refer ploverview"
 				}
 
@@ -380,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 149.0, 38.0, 52.0, 18.0 ],
+					"patching_rect" : [ 149.0, 42.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -395,7 +397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 340.0, 543.0, 76.0, 18.0 ],
+					"patching_rect" : [ 204.0, 547.0, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -419,7 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 60.0, 574.0, 501.0 ],
+					"patching_rect" : [ 5.0, 60.0, 459.0, 508.0 ],
 					"rowhead" : 1,
 					"rows" : 27,
 					"savemode" : 1,
@@ -438,7 +440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 4.0, 239.0, 30.0 ],
-					"text" : "Plugins overview",
+					"text" : "Extensions overview",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -453,8 +455,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 443.0, 21.0 ],
-					"text" : "Useful plugins for animating in Max/MSP (click on the object name to open)",
+					"patching_rect" : [ 5.0, 32.0, 443.0, 21.0 ],
+					"text" : "useful extensions for animating in Max (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -471,7 +473,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 576.0, 52.0 ],
+					"patching_rect" : [ 3.0, 3.0, 462.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -509,7 +511,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 214.5, 60.5, 13.5, 60.5 ],
+					"midpoints" : [ 214.5, 60.5, 14.5, 60.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -537,7 +539,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 254.5, 60.5, 13.5, 60.5 ],
+					"midpoints" : [ 254.5, 60.5, 14.5, 60.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -599,8 +601,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "plugins.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../../examples/IMIpatches/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

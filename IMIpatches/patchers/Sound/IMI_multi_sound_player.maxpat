@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,36 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 518.0, 289.0, 50.0, 24.0 ],
+					"text" : "gain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-45",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 572.0, 291.0, 41.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontface" : 1,
@@ -76,7 +106,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -537,24 +567,23 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 622.0, 294.0, 141.0, 21.0 ],
-					"presentation_rect" : [ 383.0, 358.0, 50.0, 21.0 ],
+					"patching_rect" : [ 622.0, 294.0, 141.0, 31.0 ],
+					"presentation_rect" : [ 383.0, 358.0, 50.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_initial" : [ -12 ],
-							"parameter_type" : 0,
-							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~[1]",
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~[1]"
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ -12 ],
+							"parameter_unitstyle" : 4
 						}
 
 					}
 ,
 					"showname" : 0,
-					"shownumber" : 0,
 					"varname" : "live.gain~[1]"
 				}
 
@@ -589,14 +618,14 @@
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_initial" : [ -12 ],
-							"parameter_type" : 0,
-							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~",
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~"
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ -12 ],
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -646,7 +675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"patching_rect" : [ 622.0, 342.0, 46.0, 46.0 ]
+					"patching_rect" : [ 622.0, 349.0, 46.0, 46.0 ]
 				}
 
 			}
@@ -875,7 +904,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2014,7 +2043,7 @@
 					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 631.5, 332.0, 658.5, 332.0 ],
+					"midpoints" : [ 631.5, 338.0, 658.5, 338.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -2131,6 +2160,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2206,8 +2244,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-7" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

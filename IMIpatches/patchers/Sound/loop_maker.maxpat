@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 673.0, 572.0 ],
+		"rect" : [ 1.0, 44.0, 675.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -53,24 +53,23 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 227.0, 472.0, 141.0, 21.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 50.0, 21.0 ],
+					"patching_rect" : [ 227.0, 464.0, 141.0, 31.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 50.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_initial" : [ -12 ],
-							"parameter_type" : 0,
-							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~",
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~"
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ -12 ],
+							"parameter_unitstyle" : 4
 						}
 
 					}
 ,
 					"showname" : 0,
-					"shownumber" : 0,
 					"varname" : "live.gain~"
 				}
 
@@ -89,7 +88,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -460,7 +459,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,

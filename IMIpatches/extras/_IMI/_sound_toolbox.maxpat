@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 570.0, 661.0 ],
@@ -85,8 +86,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
@@ -406,7 +408,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 3.0, 60.0, 564.0, 592.0 ],
 					"rowhead" : 1,
-					"rows" : 30,
+					"rows" : 32,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -422,7 +424,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 163.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 163.0, 30.0 ],
 					"text" : "Sound toolbox",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -438,8 +440,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 420.0, 21.0 ],
-					"text" : "Useful tools for patching in Max/MSP (click on the object name to open)",
+					"patching_rect" : [ 3.0, 31.0, 420.0, 21.0 ],
+					"text" : "useful tools for patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -575,8 +577,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "soundtools.txt",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/z",
-				"patcherrelativepath" : "../../../examples/IMIpatches/z",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

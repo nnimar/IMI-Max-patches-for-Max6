@@ -2,15 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
+			"major" : 6,
 			"minor" : 1,
-			"revision" : 9
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 583.0, 636.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 583.0, 636.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -18,12 +17,16 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -36,15 +39,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
+							"major" : 6,
 							"minor" : 1,
-							"revision" : 9
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 50.0, 94.0, 640.0, 480.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -52,12 +54,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -69,7 +75,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 127.0, 326.0, 27.0 ],
-									"text" : ";\rmax launchbrowser http://syphon.v002.info/"
+									"text" : ";\rmax launchbrowser http://nim.on.free.fr/index.php?id=software"
 								}
 
 							}
@@ -103,6 +109,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 1 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 59.5, 122.0, 366.5, 122.0 ],
 									"source" : [ "obj-3", 0 ]
@@ -112,8 +119,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -121,8 +128,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -133,12 +140,15 @@
 					"patching_rect" : [ 69.0, 618.0, 43.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p web"
@@ -203,15 +213,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 5,
+							"major" : 6,
 							"minor" : 1,
-							"revision" : 9
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 619.0, 44.0, 238.0, 329.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 619.0, 44.0, 238.0, 329.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
@@ -219,12 +228,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -234,6 +247,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 50.0, 123.0, 50.0, 20.0 ]
 								}
 
@@ -242,6 +256,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"frgb" : 0.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -262,6 +277,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 112.0, 124.0, 35.0, 20.0 ],
 									"triscale" : 0.9
 								}
@@ -310,8 +326,8 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-35", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -319,8 +335,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -328,8 +344,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -337,8 +353,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -349,12 +365,15 @@
 					"patching_rect" : [ 204.0, 38.0, 35.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 14.0,
 						"default_fontsize" : 14.0,
-						"fontname" : "Arial"
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 14.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p info"
@@ -439,8 +458,20 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 31,
+						"count" : 29,
 						"data" : [ 							{
+								"key" : "http://cycling74.com/toolbox/bernstein-shell/",
+								"value" : [ "Max to Unix" ]
+							}
+, 							{
+								"key" : "http://syphon.v002.info/",
+								"value" : [ "GL sharing" ]
+							}
+, 							{
+								"key" : "––––––––––––––––––––––––––––––––––––––––––",
+								"value" : [ "" ]
+							}
+, 							{
 								"key" : "http://jmpelletier.com/cvjit/",
 								"value" : [ "computer vision (cv.jit)" ]
 							}
@@ -481,19 +512,7 @@
 								"value" : [ "jb.utilities" ]
 							}
 , 							{
-								"key" : "http://cycling74.com/toolbox/bernstein-shell/",
-								"value" : [ "Max to Unix" ]
-							}
-, 							{
-								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_shell",
-								"value" : [ "Max to Unix (aka)" ]
-							}
-, 							{
-								"key" : "http://www.iamas.ac.jp/~aka/max/#aka_wiiremote",
-								"value" : [ "connect the Wii" ]
-							}
-, 							{
-								"key" : "http://www.nr74.org/c74.html",
+								"key" : "http://nr74.org/software/c74.html",
 								"value" : [ "iPhone plugin" ]
 							}
 , 							{
@@ -501,12 +520,8 @@
 								"value" : [ "" ]
 							}
 , 							{
-								"key" : "http://syphon.v002.info/",
-								"value" : [ "GL sharing" ]
-							}
-, 							{
 								"key" : "http://hcgilje.wordpress.com/vpt/",
-								"value" : [ "VPT 5" ]
+								"value" : [ "VPT 6" ]
 							}
 , 							{
 								"key" : "http://001.vade.info/v001/downloads/v001ShadersB2.zip",
@@ -550,7 +565,7 @@
 							}
 , 							{
 								"key" : "http://jamoma.org/",
-								"value" : [ "janoma" ]
+								"value" : [ "jamoma" ]
 							}
 , 							{
 								"key" : "http://ftm.ircam.fr/index.php/Download",
@@ -559,10 +574,6 @@
 , 							{
 								"key" : "http://cnmat.berkeley.edu/downloads",
 								"value" : [ "CNMAT tools" ]
-							}
-, 							{
-								"key" : "http://shop.electrotap.com/products/taptools",
-								"value" : [ "taptools (payware)" ]
 							}
  ]
 					}
@@ -601,7 +612,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 2.0, 58.0, 576.0, 573.0 ],
 					"rowhead" : 1,
-					"rows" : 31,
+					"rows" : 29,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -612,13 +623,13 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 4.0, 305.0, 30.0 ],
-					"text" : "plugins download for IMI",
+					"text" : "objects download",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -628,12 +639,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 539.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 539.0, 21.0 ],
 					"text" : "click on the URL to download the objects and install them in Max folder.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -660,8 +671,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -669,8 +680,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -678,6 +689,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
 					"midpoints" : [ 213.5, 58.5, 11.5, 58.5 ],
 					"source" : [ "obj-19", 0 ]
@@ -687,8 +699,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -696,8 +708,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -705,6 +717,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
 					"midpoints" : [ 253.5, 58.5, 11.5, 58.5 ],
 					"source" : [ "obj-3", 0 ]
@@ -714,8 +727,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -723,8 +736,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -732,8 +745,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -741,11 +754,19 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [  ],
 					"source" : [ "obj-8", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "plugin_download.txt",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
+				"type" : "TEXT",
+				"implicit" : 1
 			}
  ]
 	}
