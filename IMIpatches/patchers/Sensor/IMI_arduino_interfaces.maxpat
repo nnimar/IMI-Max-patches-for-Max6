@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -683,7 +683,7 @@
 					"patching_rect" : [ 15.0, 154.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
-					"text" : "3. Maxuino 014"
+					"text" : "3. Maxuino 016"
 				}
 
 			}
@@ -743,7 +743,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 229.0, 30.0 ],
-					"text" : "IMI arduino interfaces",
+					"text" : "imi arduino interfaces",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -759,8 +759,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 155.0, 142.0, 17.0 ],
-					"text" : "load maxuino-noGUI.help"
+					"patching_rect" : [ 14.0, 156.0, 71.0, 17.0 ],
+					"text" : "help maxuin"
 				}
 
 			}
@@ -778,7 +778,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1077,7 +1077,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 

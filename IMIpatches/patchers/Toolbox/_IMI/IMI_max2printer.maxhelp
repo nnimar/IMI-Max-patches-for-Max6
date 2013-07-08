@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 523.0, 346.0 ],
+		"rect" : [ 100.0, 100.0, 523.0, 353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -63,7 +63,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
@@ -110,7 +109,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -572,7 +571,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 146.0, 295.0, 55.0, 52.0 ],
+									"patching_rect" : [ 146.0, 295.0, 61.0, 52.0 ],
 									"text" : "displays \nprinters"
 								}
 
@@ -971,7 +970,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 389.0, 318.0, 125.0, 22.0 ],
+					"patching_rect" : [ 394.0, 328.0, 125.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1173,7 +1172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 275.5, 68.0, 22.0 ],
+					"patching_rect" : [ 12.0, 290.5, 68.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -1187,7 +1186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 12.0, 312.0, 51.0, 27.0 ],
+					"patching_rect" : [ 12.0, 322.0, 51.0, 27.0 ],
 					"text" : "shell"
 				}
 

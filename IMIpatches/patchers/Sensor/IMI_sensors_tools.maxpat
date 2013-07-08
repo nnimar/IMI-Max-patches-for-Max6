@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 578.0, 616.0 ],
+		"rect" : [ 0.0, 44.0, 578.0, 642.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 563.0, 54.0, 20.0 ],
+					"patching_rect" : [ 78.0, 619.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 563.0, 81.0, 20.0 ],
+					"patching_rect" : [ 39.0, 619.0, 81.0, 20.0 ],
 					"text" : "prepend help"
 				}
 
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 512.0, 563.0, 60.0, 20.0 ],
+					"patching_rect" : [ 512.0, 619.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -97,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 563.0, 96.0, 18.0 ],
+					"patching_rect" : [ 467.0, 619.0, 96.0, 18.0 ],
 					"text" : "read sensors.txt"
 				}
 
@@ -117,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -307,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 563.0, 71.0, 20.0 ],
+					"patching_rect" : [ 16.0, 619.0, 71.0, 20.0 ],
 					"text" : "sprintf %s"
 				}
 
@@ -322,7 +322,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 563.0, 64.0, 20.0 ],
+					"patching_rect" : [ 4.0, 619.0, 64.0, 20.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -375,7 +375,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 30,
+						"count" : 31,
 						"data" : [ 							{
 								"key" : "IMI_simple_triggers",
 								"value" : [ "simple triggering options" ]
@@ -387,6 +387,10 @@
 , 							{
 								"key" : "IMI_average",
 								"value" : [ "a few patches to calculate the average" ]
+							}
+, 							{
+								"key" : "IMI_exhibition_tools",
+								"value" : [ "tools to help exhibiting" ]
 							}
 , 							{
 								"key" : "smoother_derivitive",
@@ -507,7 +511,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 404.0, 563.0, 79.0, 20.0 ],
+					"patching_rect" : [ 404.0, 619.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -531,9 +535,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 4.0, 59.0, 569.0, 556.0 ],
+					"patching_rect" : [ 4.0, 59.0, 567.0, 579.0 ],
 					"rowhead" : 1,
-					"rows" : 30,
+					"rows" : 31,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -549,8 +553,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 265.0, 30.0 ],
-					"text" : "IMI sensors tools",
+					"patching_rect" : [ 3.0, 5.0, 265.0, 30.0 ],
+					"text" : "imi sensors tools",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -565,7 +569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 477.0, 21.0 ],
+					"patching_rect" : [ 3.0, 33.0, 477.0, 21.0 ],
 					"text" : "useful tools for sensor patching in Max/MSP (click on the object name to open)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

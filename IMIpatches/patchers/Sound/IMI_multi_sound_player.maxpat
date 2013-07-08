@@ -1562,7 +1562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 719.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 719.0, 21.0 ],
 					"text" : "play sounds from a cuelist named play (1), one by one (2) or randomly (3) and add auto fade in / fade out (4)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}

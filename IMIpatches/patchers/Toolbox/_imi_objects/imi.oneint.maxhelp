@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 4.0, 44.0, 344.0, 202.0 ],
+		"rect" : [ 2.0, 44.0, 344.0, 202.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,14 +32,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 97.0, 114.0, 52.0 ],
-					"presentation_rect" : [ 147.0, 91.0, 0.0, 0.0 ],
-					"text" : "then bang here\nto open the gate again"
+					"patching_rect" : [ 153.0, 98.0, 101.0, 24.0 ],
+					"text" : "open the gate"
 				}
 
 			}
@@ -47,11 +47,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 64.0, 123.0, 24.0 ],
+					"patching_rect" : [ 103.0, 64.0, 123.0, 24.0 ],
 					"text" : "integer in this inlet"
 				}
 
@@ -61,7 +62,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -77,13 +78,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 230.0, 21.0 ],
-					"text" : "an alternative to onebang for integers",
+					"patching_rect" : [ 3.0, 31.0, 230.0, 21.0 ],
+					"text" : "onebang for integers",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -98,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 131.0, 138.0, 23.0 ],
+					"patching_rect" : [ 11.0, 131.0, 138.0, 22.0 ],
 					"text" : "imi.oneint"
 				}
 
@@ -112,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 67.0, 26.0, 21.0 ],
+					"patching_rect" : [ 73.0, 67.0, 26.0, 20.0 ],
 					"text" : "10"
 				}
 
@@ -126,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 67.0, 26.0, 21.0 ],
+					"patching_rect" : [ 42.0, 67.0, 22.0, 20.0 ],
 					"text" : "5"
 				}
 
@@ -140,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 67.0, 26.0, 21.0 ],
+					"patching_rect" : [ 11.0, 67.0, 20.0, 20.0 ],
 					"text" : "1"
 				}
 
@@ -152,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 127.0, 100.0, 20.0, 20.0 ]
+					"patching_rect" : [ 130.0, 100.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -166,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 166.0, 53.0, 23.0 ]
+					"patching_rect" : [ 11.0, 166.0, 53.0, 22.0 ]
 				}
 
 			}
@@ -177,12 +178,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 340.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 340.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -236,8 +236,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.oneint.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

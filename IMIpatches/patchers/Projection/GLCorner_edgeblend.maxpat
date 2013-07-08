@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 501.0, 457.0 ],
@@ -30,6 +31,50 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 228.5, 66.0, 100.0, 18.0 ],
+					"text" : "read sophie.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 230.348022, 44.251862, 62.0, 18.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 230.348022, 66.251862, 81.0, 18.0 ],
+					"text" : "imi.movieloader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -39,8 +84,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 507.0, 436.0, 194.0, 280.0 ],
@@ -327,8 +373,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 512.0, 360.0, 411.0, 282.0 ],
@@ -866,8 +913,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 343.0, 30.0 ],
-					"text" : "GLCornerpin w/ edgeblend",
+					"patching_rect" : [ 3.0, 3.0, 343.0, 30.0 ],
+					"text" : "GLcornerpin w/ edgeblend",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -882,8 +929,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
-					"text" : "Play a video using the the graphic card (the graphic processing unit)",
+					"patching_rect" : [ 3.0, 30.0, 399.0, 21.0 ],
+					"text" : "play a video using the the graphic card (the graphic processing unit)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1044,26 +1091,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-62",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.5, 66.0, 100.0, 18.0 ],
-					"text" : "read sophie.mov"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-63",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 64.0, 45.0, 20.0 ],
+					"patching_rect" : [ 178.0, 65.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -1090,7 +1123,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.5, 151.0, 47.0, 20.0 ],
+					"patching_rect" : [ 37.5, 163.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -1119,7 +1152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 11.0, 122.0, 89.0, 20.0 ],
+					"patching_rect" : [ 11.0, 122.0, 73.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1255,6 +1288,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1291,6 +1333,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1304,7 +1364,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 90.5, 178.0, 20.5, 178.0 ],
+					"midpoints" : [ 74.5, 150.0, 20.5, 150.0 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -1374,7 +1434,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "imi.movieloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "IMIMovies.txt",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 228.5, 321.5, 96.0, 17.0 ],
-					"text" : "read sophie.mov"
+					"text" : "read dozer.mov"
 				}
 
 			}
@@ -64,8 +64,8 @@
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 228.5, 321.5, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -226,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -423,7 +423,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1359,6 +1359,15 @@
 					"destination" : [ "obj-32", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-34", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1449,21 +1458,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

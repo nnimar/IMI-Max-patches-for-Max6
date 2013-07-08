@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -203,11 +203,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 369.0, 44.0, 550.0, 650.0 ],
+						"rect" : [ 369.0, 44.0, 535.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -333,7 +333,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 164.0, 423.0, 32.5, 18.0 ],
+									"patching_rect" : [ 164.0, 423.0, 26.5, 18.0 ],
 									"text" : "tint"
 								}
 
@@ -347,7 +347,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 47.0, 423.0, 32.5, 18.0 ],
+									"patching_rect" : [ 47.0, 423.0, 26.5, 18.0 ],
 									"text" : "tint"
 								}
 
@@ -361,7 +361,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 125.0, 423.0, 32.5, 18.0 ],
+									"patching_rect" : [ 125.0, 423.0, 26.5, 18.0 ],
 									"text" : "in"
 								}
 
@@ -375,7 +375,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 423.0, 32.5, 18.0 ],
+									"patching_rect" : [ 8.0, 423.0, 26.5, 18.0 ],
 									"text" : "in"
 								}
 
@@ -725,7 +725,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 605.0, 99.0, 20.0 ],
+									"patching_rect" : [ 8.0, 592.0, 99.0, 20.0 ],
 									"text" : "print References"
 								}
 
@@ -1033,7 +1033,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1749,7 +1749,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1795,7 +1795,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 284.0, 164.0, 212.0, 20.0 ],
+									"patching_rect" : [ 284.0, 175.0, 212.0, 20.0 ],
 									"text" : "regexp regex|regexp|regexes|regexps"
 								}
 
@@ -1879,7 +1879,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 11.0, 164.0, 212.0, 20.0 ],
+									"patching_rect" : [ 11.0, 175.0, 212.0, 20.0 ],
 									"text" : "regexp regexps|regexp|regexes|regex"
 								}
 
@@ -2028,12 +2028,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.0, 190.0, 95.0, 20.0 ],
+									"patching_rect" : [ 108.0, 209.0, 95.0, 20.0 ],
 									"text" : "print Alternation"
 								}
 
@@ -2116,7 +2115,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-19", 2 ]
 								}
 
@@ -2134,7 +2133,8 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
+									"midpoints" : [ 390.0, 201.5, 117.5, 201.5 ],
 									"source" : [ "obj-20", 2 ]
 								}
 
@@ -2144,6 +2144,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 514.5, 165.0, 293.5, 165.0 ],
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -2153,6 +2154,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 189.5, 165.0, 20.5, 165.0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -2162,6 +2164,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 397.5, 165.0, 293.5, 165.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -2171,6 +2174,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 345.5, 165.0, 293.5, 165.0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -2180,6 +2184,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 20.5, 165.0, 20.5, 165.0 ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -2189,6 +2194,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 293.5, 165.0, 293.5, 165.0 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -2198,6 +2204,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 72.5, 165.0, 20.5, 165.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -2207,6 +2214,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 462.5, 165.0, 293.5, 165.0 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -2216,6 +2224,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 124.5, 165.0, 20.5, 165.0 ],
 									"source" : [ "obj-30", 0 ]
 								}
 
@@ -2225,6 +2234,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 241.5, 165.0, 20.5, 165.0 ],
 									"source" : [ "obj-34", 0 ]
 								}
 
@@ -2287,7 +2297,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2691,11 +2701,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 367.0, 44.0, 558.0, 344.0 ],
+						"rect" : [ 367.0, 44.0, 543.0, 319.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2727,11 +2737,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+										"rect" : [ 392.0, 44.0, 531.0, 242.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2759,7 +2769,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 413.0, 190.0, 50.0, 18.0 ],
+													"patching_rect" : [ 436.0, 175.0, 50.0, 18.0 ],
 													"text" : "isn t"
 												}
 
@@ -2773,7 +2783,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 213.0, 231.0, 64.0, 18.0 ],
+													"patching_rect" : [ 133.0, 216.0, 64.0, 18.0 ],
 													"text" : "he's M.I.A"
 												}
 
@@ -2787,7 +2797,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 380.0, 95.0, 101.0, 18.0 ],
+													"patching_rect" : [ 417.0, 80.0, 101.0, 18.0 ],
 													"text" : "Pilkinton-Smythe"
 												}
 
@@ -2801,7 +2811,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 158.0, 95.0, 101.0, 18.0 ],
+													"patching_rect" : [ 163.0, 79.0, 101.0, 18.0 ],
 													"text" : "Pilkinton-Smythe"
 												}
 
@@ -2814,7 +2824,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 194.0, 159.0, 59.0, 20.0 ],
+													"patching_rect" : [ 196.0, 149.0, 59.0, 20.0 ],
 													"text" : "print woo"
 												}
 
@@ -2828,7 +2838,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 381.0, 70.0, 71.0, 18.0 ],
+													"patching_rect" : [ 418.0, 55.0, 71.0, 18.0 ],
 													"text" : "C.O.S.P.O."
 												}
 
@@ -2842,7 +2852,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 23.0, 60.0, 71.0, 18.0 ],
+													"patching_rect" : [ 18.0, 45.0, 71.0, 18.0 ],
 													"text" : "C.O.S.P.O."
 												}
 
@@ -2856,7 +2866,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 249.0, 48.0, 111.0, 18.0 ],
+													"patching_rect" : [ 286.0, 33.0, 111.0, 18.0 ],
 													"text" : "i'm mr d'arcy"
 												}
 
@@ -2870,7 +2880,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 86.0, 28.0, 111.0, 18.0 ],
+													"patching_rect" : [ 81.0, 13.0, 111.0, 18.0 ],
 													"text" : "this fish isn't d'eath"
 												}
 
@@ -2884,7 +2894,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 123.0, 71.0, 33.5, 18.0 ],
+													"patching_rect" : [ 126.0, 56.0, 25.5, 18.0 ],
 													"text" : "is"
 												}
 
@@ -2898,7 +2908,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 325.0, 164.0, 49.0, 20.0 ],
+													"patching_rect" : [ 363.0, 148.0, 49.0, 20.0 ],
 													"text" : "zl iter 1"
 												}
 
@@ -2912,7 +2922,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 381.0, 43.0, 32.5, 18.0 ],
+													"patching_rect" : [ 418.0, 28.0, 32.5, 18.0 ],
 													"text" : "isn't"
 												}
 
@@ -2925,7 +2935,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 326.0, 192.0, 64.0, 20.0 ],
+													"patching_rect" : [ 364.0, 176.0, 64.0, 20.0 ],
 													"text" : "print uhoh"
 												}
 
@@ -2939,7 +2949,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 293.0, 80.0, 32.5, 18.0 ],
+													"patching_rect" : [ 330.0, 65.0, 32.5, 18.0 ],
 													"text" : "is"
 												}
 
@@ -2953,7 +2963,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 285.0, 127.0, 100.0, 20.0 ],
+													"patching_rect" : [ 322.0, 112.0, 100.0, 20.0 ],
 													"text" : "regexp \\\\b\\\\w+\\\\b"
 												}
 
@@ -2967,7 +2977,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 173.0, 54.0, 39.0, 18.0 ],
+													"patching_rect" : [ 168.0, 39.0, 33.0, 18.0 ],
 													"text" : "isn't"
 												}
 
@@ -2982,7 +2992,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 129.0, 165.0, 53.0, 45.0 ],
+													"patching_rect" : [ 135.0, 150.0, 53.0, 45.0 ],
 													"text" : "this fish isn't d'eath"
 												}
 
@@ -2996,7 +3006,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 131.0, 122.0, 104.0, 20.0 ],
+													"patching_rect" : [ 126.0, 107.0, 104.0, 20.0 ],
 													"text" : "regexp \\\\b[^\\\\s]+"
 												}
 
@@ -3043,6 +3053,7 @@
 													"destination" : [ "obj-4", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"midpoints" : [ 372.0, 139.0, 476.5, 139.0 ],
 													"source" : [ "obj-14", 2 ]
 												}
 
@@ -3140,7 +3151,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 389.0, 252.0, 44.0, 20.0 ],
+									"patching_rect" : [ 485.0, 271.0, 44.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3167,7 +3178,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 190.0, 241.0, 118.0, 18.0 ],
+									"patching_rect" : [ 190.0, 243.0, 118.0, 18.0 ],
 									"text" : "this is a misty island"
 								}
 
@@ -3181,7 +3192,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 190.0, 267.0, 150.0, 20.0 ],
+									"patching_rect" : [ 190.0, 269.0, 150.0, 20.0 ],
 									"text" : "regexp is @substitute isn't"
 								}
 
@@ -3195,7 +3206,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 8.0, 267.0, 178.0, 20.0 ],
+									"patching_rect" : [ 8.0, 269.0, 178.0, 20.0 ],
 									"text" : "regexp \\\\bis\\\\b @substitute isn't"
 								}
 
@@ -3209,7 +3220,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 241.0, 117.0, 18.0 ],
+									"patching_rect" : [ 8.0, 243.0, 117.0, 18.0 ],
 									"text" : "this is a misty island"
 								}
 
@@ -3377,7 +3388,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 72.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 70.0, 522.0, 20.0 ],
 									"text" : "beginning and end of your expression. Notice that it only matches the specified characters and"
 								}
 
@@ -3391,7 +3402,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 46.0, 523.0, 20.0 ],
+									"patching_rect" : [ 8.0, 44.0, 523.0, 20.0 ],
 									"text" : "rather than an actual character. The caret matches before the first character and the dollar sign "
 								}
 
@@ -3405,7 +3416,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 85.0, 521.0, 20.0 ],
+									"patching_rect" : [ 8.0, 83.0, 521.0, 20.0 ],
 									"text" : "not the entire word."
 								}
 
@@ -3419,7 +3430,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 59.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 57.0, 522.0, 20.0 ],
 									"text" : "matches after the last character. This means you can specify what you want to match at the"
 								}
 
@@ -3433,7 +3444,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 293.0, 81.0, 20.0 ],
+									"patching_rect" : [ 8.0, 295.0, 81.0, 20.0 ],
 									"text" : "print Anchors"
 								}
 
@@ -3447,7 +3458,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 33.0, 521.0, 20.0 ],
+									"patching_rect" : [ 8.0, 31.0, 521.0, 20.0 ],
 									"text" : "The caret and dollar sign metacharacters are called anchors. They match a position in the string"
 								}
 
@@ -3462,7 +3473,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 7.0, 73.0, 22.0 ],
+									"patching_rect" : [ 8.0, 5.0, 73.0, 22.0 ],
 									"text" : "Anchors:"
 								}
 
@@ -3686,7 +3697,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3718,7 +3729,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 240.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 259.0, 522.0, 20.0 ],
 									"text" : "to escape them with a double backslash. Lower case letters define regular classes and "
 								}
 
@@ -3732,7 +3743,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 253.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 272.0, 522.0, 20.0 ],
 									"text" : "uppercase letters define negated classes. They are detailed below. The closing square bracket, "
 								}
 
@@ -3746,7 +3757,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 266.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 285.0, 522.0, 20.0 ],
 									"text" : "hyphen and caret are the only metacharacters allowed in a character class. All other characters "
 								}
 
@@ -3760,7 +3771,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 279.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 298.0, 522.0, 20.0 ],
 									"text" : "are treated as literals so any other metacharacters do not need to be escaped. If you want to "
 								}
 
@@ -3774,7 +3785,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 292.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 311.0, 522.0, 20.0 ],
 									"text" : "use a character class metacharacter as a literal you can either escape it using a double "
 								}
 
@@ -3788,7 +3799,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 305.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 324.0, 522.0, 20.0 ],
 									"text" : "backslash or you can use it out of place. A literal closing square bracket should be placed "
 								}
 
@@ -3802,7 +3813,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 318.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 337.0, 522.0, 20.0 ],
 									"text" : "directly after the opening square bracket, a literal hyphen should be either the first or last"
 								}
 
@@ -3816,7 +3827,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 331.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 350.0, 522.0, 20.0 ],
 									"text" : "character in the class and the caret can be included anywhere except the start of the class."
 								}
 
@@ -3830,7 +3841,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 357.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 376.0, 522.0, 20.0 ],
 									"text" : "\\\\d matches a numerical digit character, equivalent to [0-9]"
 								}
 
@@ -3844,7 +3855,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 370.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 389.0, 522.0, 20.0 ],
 									"text" : "\\\\w matches a word character, equivalent to [a-zA-Z0-9_] note the inclusion of the underscore"
 								}
 
@@ -3858,7 +3869,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 383.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 402.0, 522.0, 20.0 ],
 									"text" : "\\\\s matches a whitespace character, like the tab or newline character"
 								}
 
@@ -3872,7 +3883,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 409.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 428.0, 522.0, 20.0 ],
 									"text" : "\\\\D matches non-digit characters, equivalent to [^\\\\d] and [^0-9]"
 								}
 
@@ -3886,7 +3897,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 422.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 441.0, 522.0, 20.0 ],
 									"text" : "\\\\W matches a non-word character, equivalent to [^\\\\w] and [^a-zA-Z0-9_]"
 								}
 
@@ -3900,7 +3911,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 435.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 454.0, 522.0, 20.0 ],
 									"text" : "\\\\S matches a non-whitespace character, equivalent to [^\\\\s]"
 								}
 
@@ -3914,7 +3925,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 136.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 143.0, 522.0, 20.0 ],
 									"text" : "class by using a caret directly after the opening bracket. A negated class will match anything"
 								}
 
@@ -3928,7 +3939,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 149.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 156.0, 522.0, 20.0 ],
 									"text" : "except the specified characters."
 								}
 
@@ -3956,7 +3967,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 227.0, 521.0, 20.0 ],
+									"patching_rect" : [ 8.0, 246.0, 521.0, 20.0 ],
 									"text" : "There are a number of shorthand ways to define common general character classes. You need "
 								}
 
@@ -3973,7 +3984,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 99.0, 175.0, 50.0, 20.0 ]
+									"patching_rect" : [ 99.0, 190.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -3986,7 +3997,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 99.0, 201.0, 96.0, 20.0 ],
+									"patching_rect" : [ 99.0, 216.0, 96.0, 20.0 ],
 									"text" : "regexp [^01234]"
 								}
 
@@ -4003,7 +4014,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 8.0, 175.0, 50.0, 20.0 ]
+									"patching_rect" : [ 8.0, 190.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -4016,7 +4027,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 8.0, 201.0, 75.0, 20.0 ],
+									"patching_rect" : [ 8.0, 216.0, 75.0, 20.0 ],
 									"text" : "regexp [0-4]"
 								}
 
@@ -4030,7 +4041,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 123.0, 522.0, 20.0 ],
+									"patching_rect" : [ 8.0, 130.0, 522.0, 20.0 ],
 									"text" : "You can specify an alphabetical range of characters using a hyphen. You can also negate the"
 								}
 
@@ -4044,7 +4055,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 71.0, 32.5, 18.0 ],
+									"patching_rect" : [ 86.0, 73.0, 32.5, 18.0 ],
 									"text" : "groy"
 								}
 
@@ -4058,7 +4069,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 448.0, 80.0, 20.0 ],
+									"patching_rect" : [ 8.0, 467.0, 80.0, 20.0 ],
 									"text" : "print Classes"
 								}
 
@@ -4072,7 +4083,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 8.0, 97.0, 87.0, 20.0 ],
+									"patching_rect" : [ 8.0, 99.0, 87.0, 20.0 ],
 									"text" : "regexp gr[ae]y"
 								}
 
@@ -4086,7 +4097,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 47.0, 71.0, 34.0, 18.0 ],
+									"patching_rect" : [ 47.0, 73.0, 34.0, 18.0 ],
 									"text" : "grey"
 								}
 
@@ -4100,7 +4111,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 71.0, 34.0, 18.0 ],
+									"patching_rect" : [ 8.0, 73.0, 34.0, 18.0 ],
 									"text" : "gray"
 								}
 
@@ -4304,11 +4315,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 372.0, 44.0, 542.0, 343.0 ],
+						"rect" : [ 372.0, 44.0, 538.0, 328.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4364,7 +4375,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.0, 240.0, 37.0, 18.0 ],
+									"patching_rect" : [ 204.0, 240.0, 37.0, 18.0 ],
 									"text" : "a b c"
 								}
 
@@ -4378,7 +4389,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 240.0, 37.0, 18.0 ],
+									"patching_rect" : [ 74.0, 240.0, 37.0, 18.0 ],
 									"text" : "a b c"
 								}
 
@@ -4392,7 +4403,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 137.0, 240.0, 53.0, 18.0 ],
+									"patching_rect" : [ 139.0, 240.0, 53.0, 18.0 ],
 									"text" : "[a-e]*?$"
 								}
 
@@ -4406,7 +4417,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 137.0, 266.0, 123.0, 20.0 ],
+									"patching_rect" : [ 139.0, 266.0, 123.0, 20.0 ],
 									"text" : "regexp \\\\Q[a-e]*?$\\\\E"
 								}
 
@@ -4420,7 +4431,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 240.0, 53.0, 18.0 ],
+									"patching_rect" : [ 9.0, 240.0, 53.0, 18.0 ],
 									"text" : "[a-e]*?$"
 								}
 
@@ -4429,12 +4440,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 292.0, 70.0, 20.0 ],
+									"patching_rect" : [ 46.0, 300.0, 70.0, 20.0 ],
 									"text" : "print Types"
 								}
 
@@ -4448,7 +4458,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 7.0, 266.0, 93.0, 20.0 ],
+									"patching_rect" : [ 9.0, 266.0, 93.0, 20.0 ],
 									"text" : "regexp [a-e]*?$"
 								}
 
@@ -4932,7 +4942,8 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
+									"midpoints" : [ 200.5, 292.5, 55.5, 292.5 ],
 									"source" : [ "obj-14", 2 ]
 								}
 
@@ -4977,7 +4988,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-4", 2 ]
 								}
 

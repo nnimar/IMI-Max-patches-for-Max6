@@ -7,9 +7,13 @@ int selector = 0;    //value
 
 void setup(){
   Serial.begin (57600);
+  pinMode (13, OUTPUT);
+  digitalWrite (13, HIGH);
 }
 
 void loop(){
+  
+   digitalWrite (13, LOW);
 
   while(1){
 
@@ -19,9 +23,7 @@ void loop(){
 	  Serial.print (selector);
 	  Serial.print (" ");   // remove this if you use the regexp method
     }
-	
-	Serial.println (""));
-
+	Serial.println ("");
   }
 }
 

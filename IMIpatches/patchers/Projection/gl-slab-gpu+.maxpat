@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 702.0, 515.0 ],
@@ -47,7 +48,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 153.0, 45.0, 20.0 ],
+					"patching_rect" : [ 45.0, 163.0, 45.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -65,8 +66,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 710.0, 359.0, 411.0, 282.0 ],
@@ -973,7 +975,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 13.0, 126.0, 82.0, 20.0 ],
+					"patching_rect" : [ 13.0, 123.0, 82.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1204,7 +1206,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 85.5, 179.0, 22.5, 179.0 ],
+					"midpoints" : [ 85.5, 152.0, 22.5, 152.0 ],
 					"source" : [ "obj-36", 2 ]
 				}
 

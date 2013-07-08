@@ -4,6 +4,7 @@ IMI_counter_uzi_line, "various methods for counting in max";
 IMI_spray_cycle_gate, "methods to pass numbers";
 IMI_modulo, "usage of modulo %";
 IMI_max2printer, "print from Max";
+IMI_dict,"practical use of the dictionnary";
 network_scanner, "IP on your LAN";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 imi.draw, "lcd drawing tool : use with paintoval, frameoval, framerect, paintrect";

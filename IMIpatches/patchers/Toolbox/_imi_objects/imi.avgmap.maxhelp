@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 410.0, 481.0 ],
+		"rect" : [ 0.0, 44.0, 412.0, 482.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 233.0, 228.0, 147.0, 37.0 ],
-					"presentation_rect" : [ 235.0, 235.0, 0.0, 0.0 ],
 					"text" : "play frame if over\nor under the value of 5"
 				}
 
@@ -55,7 +54,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 122.0, 157.0, 24.0 ],
-					"presentation_rect" : [ 122.0, 189.0, 0.0, 0.0 ],
 					"text" : "number between 0 to 10"
 				}
 
@@ -85,8 +83,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 3.0, 254.0, 30.0 ],
-					"text" : "IMI avg-map",
+					"patching_rect" : [ 4.0, 3.0, 254.0, 30.0 ],
+					"text" : "imi avg-map",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -101,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 30.0, 386.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 386.0, 21.0 ],
 					"text" : "wait for the average (3 s) then add and substract 50 to it.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -427,8 +425,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 406.0, 50.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 2.0, 406.0, 51.0 ]
 				}
 
 			}
@@ -678,22 +675,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.avgmap.maxpat",
-				"bootpath" : "/Users/hubbles/Dropbox/*MaxPatches",
-				"patcherrelativepath" : "./",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "past2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.smooth.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/filters/dot.smooth",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/filters/dot.smooth",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/filters/dot.smooth",
 				"type" : "JSON",
 				"implicit" : 1
 			}

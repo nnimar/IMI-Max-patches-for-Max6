@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 673.0, 371.0 ],
@@ -158,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.0, 272.0, 153.0, 21.0 ],
+					"patching_rect" : [ 177.0, 272.0, 172.0, 21.0 ],
 					"text_width" : 120.0
 				}
 
@@ -176,8 +177,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 684.0, 361.0, 411.0, 282.0 ],
@@ -211,8 +213,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 228.0, 192.0 ],
@@ -909,7 +912,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 313.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 201.0, 30.0 ],
 					"text" : "GL cornerpin+",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -925,8 +928,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 662.0, 21.0 ],
-					"text" : "To render GL object to GL cornerpin, you need to capture the texture via a node (shift-esc to fullscreen with corners)",
+					"patching_rect" : [ 4.0, 31.0, 662.0, 21.0 ],
+					"text" : "render GL object to GL cornerpin, you need to capture the texture via a node (shift-esc to fullscreen with corners)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -970,7 +973,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 148.0, 45.0, 19.0 ],
+					"patching_rect" : [ 43.0, 160.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -1165,7 +1168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 319.0, 106.0, 33.0 ],
+					"patching_rect" : [ 9.0, 319.0, 107.0, 33.0 ],
 					"text" : "jit.window corners @fsmenubar 0"
 				}
 
@@ -1223,7 +1226,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 666.0, 48.0 ],
+					"patching_rect" : [ 3.0, 2.0, 666.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1326,7 +1329,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 173.0, 20.5, 173.0 ],
+					"midpoints" : [ 84.5, 149.0, 20.5, 149.0 ],
 					"source" : [ "obj-21", 2 ]
 				}
 

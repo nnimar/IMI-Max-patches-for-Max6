@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -257,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 293.0, 69.0, 96.0, 17.0 ],
+					"patching_rect" : [ 295.0, 69.0, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -332,7 +332,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1027,7 +1027,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 302.5, 97.0, 143.5, 97.0 ],
+					"midpoints" : [ 304.5, 97.0, 143.5, 97.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 

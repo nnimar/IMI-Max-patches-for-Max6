@@ -65,7 +65,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 340.0, 35.0 ],
+					"patching_rect" : [ 3.0, 31.0, 385.0, 35.0 ],
 					"text" : "when a number hits the threshold (120), send a bang after a delay (2000 ms or 2 seconds in the example below)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 3.0, 264.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 264.0, 30.0 ],
 					"text" : "imi.pushcount",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

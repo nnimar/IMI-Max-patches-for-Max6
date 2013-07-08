@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 3
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 328.0, 402.0 ],
+		"rect" : [ 0.0, 44.0, 327.0, 402.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,15 +29,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-17",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 326.0, 135.0, 34.0 ],
-					"text" : "use importmovie with jit.matrix, ..."
+					"patching_rect" : [ 175.0, 321.5, 99.0, 37.0 ],
+					"text" : "importmovie \nwith jit.matrix"
 				}
 
 			}
@@ -49,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 298.0, 82.0, 21.0 ],
+					"patching_rect" : [ 101.0, 298.0, 82.0, 20.0 ],
 					"text" : "metapic2.tif"
 				}
 
@@ -63,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 298.0, 82.0, 21.0 ],
+					"patching_rect" : [ 9.0, 298.0, 82.0, 20.0 ],
 					"text" : "metapic1.tif"
 				}
 
@@ -77,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 372.0, 287.0, 18.0 ],
+					"patching_rect" : [ 9.0, 372.0, 287.0, 18.0 ],
 					"text" : "importmovie /Users/hubbles/Desktop/"
 				}
 
@@ -91,33 +94,37 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 329.0, 161.0, 23.0 ],
+					"patching_rect" : [ 9.0, 329.0, 161.0, 22.0 ],
 					"text" : "imi.desktop importmovie"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 216.0, 158.0, 20.0 ],
+					"patching_rect" : [ 126.0, 214.0, 159.0, 24.0 ],
 					"text" : "use read with jit.qt.movie"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"bubble" : 1,
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 99.0, 137.0, 20.0 ],
+					"patching_rect" : [ 129.0, 97.0, 145.0, 24.0 ],
 					"text" : "use open with sfplay~"
 				}
 
@@ -131,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 184.0, 64.0, 21.0 ],
+					"patching_rect" : [ 101.0, 184.0, 64.0, 20.0 ],
 					"text" : "tom.mov"
 				}
 
@@ -145,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 184.0, 81.0, 21.0 ],
+					"patching_rect" : [ 9.0, 184.0, 81.0, 20.0 ],
 					"text" : "sophie.mov"
 				}
 
@@ -159,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 252.0, 283.0, 18.0 ],
+					"patching_rect" : [ 9.0, 252.0, 283.0, 18.0 ],
 					"text" : "read /Users/hubbles/Desktop/"
 				}
 
@@ -173,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 215.0, 113.0, 23.0 ],
+					"patching_rect" : [ 9.0, 215.0, 113.0, 22.0 ],
 					"text" : "imi.desktop read"
 				}
 
@@ -187,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 67.0, 55.0, 21.0 ],
+					"patching_rect" : [ 77.0, 67.0, 55.0, 20.0 ],
 					"text" : "bell.aiff"
 				}
 
@@ -201,7 +208,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 67.0, 63.0, 21.0 ],
+					"patching_rect" : [ 9.0, 67.0, 63.0, 20.0 ],
 					"text" : "hello.aiff"
 				}
 
@@ -215,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 135.0, 284.0, 18.0 ],
+					"patching_rect" : [ 9.0, 135.0, 284.0, 18.0 ],
 					"text" : "open /Users/hubbles/Desktop/"
 				}
 
@@ -229,7 +236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 98.0, 117.0, 23.0 ],
+					"patching_rect" : [ 9.0, 98.0, 117.0, 22.0 ],
 					"text" : "imi.desktop open"
 				}
 
@@ -239,12 +246,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.510893, 4.332659, 132.0, 30.0 ],
+					"patching_rect" : [ 2.510893, 4.332659, 132.0, 30.0 ],
 					"text" : "imi.desktop",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -255,12 +262,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.510893, 29.332657, 293.0, 21.0 ],
+					"patching_rect" : [ 2.510893, 29.332657, 293.0, 21.0 ],
 					"text" : "open  / read / import a document from the desktop",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -274,12 +281,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-92",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 2.332659, 322.0, 49.0 ],
+					"patching_rect" : [ 1.510893, 2.332659, 322.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -290,7 +296,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 87.5, 92.5, 19.5, 92.5 ],
+					"midpoints" : [ 86.5, 92.5, 18.5, 92.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -309,7 +315,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 111.5, 323.5, 19.5, 323.5 ],
+					"midpoints" : [ 110.5, 323.5, 18.5, 323.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -328,7 +334,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 111.5, 209.5, 19.5, 209.5 ],
+					"midpoints" : [ 110.5, 209.5, 18.5, 209.5 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -338,7 +344,7 @@
 					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 364.5, 287.5, 364.5 ],
+					"midpoints" : [ 18.5, 364.5, 286.5, 364.5 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -348,7 +354,7 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 127.5, 284.5, 127.5 ],
+					"midpoints" : [ 18.5, 127.5, 283.5, 127.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -367,7 +373,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 19.5, 244.5, 283.5, 244.5 ],
+					"midpoints" : [ 18.5, 244.5, 282.5, 244.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -375,8 +381,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.desktop.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

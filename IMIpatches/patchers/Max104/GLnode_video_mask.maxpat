@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.348022, 233.251862, 96.0, 17.0 ],
+					"patching_rect" : [ 157.348022, 233.251862, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -64,8 +64,8 @@
 					"id" : "obj-58",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 156.348022, 233.251862, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -108,8 +108,8 @@
 					"id" : "obj-55",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 158.348022, 91.251862, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -128,7 +128,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -297,7 +297,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1021,7 +1021,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1963,7 +1963,26 @@
 					"destination" : [ "obj-53", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-55", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 166.848022, 257.153381, 147.744202, 257.153381 ],
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -1991,6 +2010,15 @@
 					"destination" : [ "obj-56", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -2008,28 +2036,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "videomask.jpg",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
+				"patcherrelativepath" : "../z/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

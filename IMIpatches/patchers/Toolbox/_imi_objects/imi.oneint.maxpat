@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 373.0, 65.0, 208.0, 324.0 ],
+		"rect" : [ 354.0, 44.0, 131.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.0, 154.0, 19.0, 18.0 ],
+					"patching_rect" : [ 53.0, 97.0, 19.0, 18.0 ],
 					"text" : "1"
 				}
 
@@ -49,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 89.0, 127.0, 67.0, 20.0 ],
+					"patching_rect" : [ 51.0, 70.0, 67.0, 20.0 ],
 					"text" : "onebang 1"
 				}
 
@@ -63,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "bang" ],
-					"patching_rect" : [ 50.0, 100.0, 58.0, 20.0 ],
+					"patching_rect" : [ 12.0, 43.0, 58.0, 20.0 ],
 					"text" : "t 0 i b"
 				}
 
@@ -77,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 190.0, 39.0, 20.0 ],
+					"patching_rect" : [ 12.0, 133.0, 39.0, 20.0 ],
 					"text" : "gate"
 				}
 
@@ -90,7 +91,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+					"patching_rect" : [ 12.0, 7.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -101,8 +102,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 137.0, 40.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 99.0, 38.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -113,7 +114,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 270.0, 25.0, 25.0 ]
+					"patching_rect" : [ 12.0, 169.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -186,7 +187,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 100.5, 178.0, 59.5, 178.0 ],
+					"midpoints" : [ 62.5, 121.0, 21.5, 121.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

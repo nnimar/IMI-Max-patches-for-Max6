@@ -10,9 +10,13 @@ void setup(){
   for (int i=0;i<10;i++){
     pinMode(switchArray[i], INPUT);  //set all the switch pins to inputs
   }
+  pinMode (13, OUTPUT);
+  digitalWrite (13, HIGH);
 }
 
 void loop(){
+  
+  digitalWrite (13, LOW);
 
   while(1){
 

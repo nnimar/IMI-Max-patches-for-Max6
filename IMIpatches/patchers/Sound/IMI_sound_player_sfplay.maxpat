@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 156.0, 87.0, 18.0 ],
+					"patching_rect" : [ 124.0, 151.0, 87.0, 18.0 ],
 					"text" : "loadmess 5 open"
 				}
 
@@ -64,8 +64,8 @@
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 124.0, 180.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -127,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 150.0, 48.0, 18.0 ],
+					"patching_rect" : [ 291.0, 150.0, 48.0, 18.0 ],
 					"text" : "bell.aiff"
 				}
 
@@ -141,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 150.0, 56.0, 18.0 ],
+					"patching_rect" : [ 223.0, 150.0, 56.0, 18.0 ],
 					"text" : "hello.aiff"
 				}
 
@@ -155,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 179.0, 102.0, 20.0 ],
+					"patching_rect" : [ 223.0, 179.0, 102.0, 20.0 ],
 					"text" : "imi.desktop open"
 				}
 
@@ -295,7 +295,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
 									"id" : "obj-36",
-									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "M-Audio Fast Track Pro USB", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -747,7 +747,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 3.0, 264.0, 30.0 ],
-					"text" : "IMI Sound player (sfplay)",
+					"text" : "IMI sound player (sfplay)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -803,7 +803,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 360.0, 150.0, 20.0, 20.0 ]
+					"patching_rect" : [ 352.0, 150.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -816,7 +816,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 179.0, 49.0, 17.0 ],
+					"patching_rect" : [ 352.0, 179.0, 49.0, 17.0 ],
 					"text" : "loop $1"
 				}
 
@@ -1028,6 +1028,15 @@
 					"destination" : [ "obj-6", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1056,7 +1065,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 308.5, 172.5, 240.5, 172.5 ],
+					"midpoints" : [ 300.5, 172.5, 232.5, 172.5 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1121,7 +1130,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 240.5, 210.5, 18.5, 210.5 ],
+					"midpoints" : [ 232.5, 210.5, 18.5, 210.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1205,7 +1214,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 369.5, 210.5, 18.5, 210.5 ],
+					"midpoints" : [ 361.5, 210.5, 18.5, 210.5 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

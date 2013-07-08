@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.848022, 96.251862, 106.5, 17.0 ],
+					"patching_rect" : [ 159.348022, 96.251862, 106.5, 17.0 ],
 					"text" : "read cityroom.mov"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.348022, 74.251862, 62.0, 18.0 ],
+					"patching_rect" : [ 159.348022, 74.251862, 62.0, 18.0 ],
 					"text" : "loadmess 6"
 				}
 
@@ -64,9 +64,9 @@
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.348022, 96.251862, 81.0, 18.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 159.348022, 96.251862, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -288,7 +288,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -848,7 +848,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 272.348022, 95.251862, 38.0, 18.0 ],
+					"patching_rect" : [ 270.348022, 96.251862, 38.0, 18.0 ],
 					"text" : "read"
 				}
 
@@ -896,7 +896,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 386.0, 68.0, 38.0, 20.0 ]
+					"patching_rect" : [ 384.0, 68.0, 38.0, 20.0 ]
 				}
 
 			}
@@ -909,7 +909,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 95.251862, 49.0, 18.0 ],
+					"patching_rect" : [ 384.0, 96.251862, 49.0, 18.0 ],
 					"text" : "rate $1"
 				}
 
@@ -923,7 +923,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 350.348022, 95.251862, 33.0, 18.0 ],
+					"patching_rect" : [ 348.348022, 96.251862, 33.0, 18.0 ],
 					"text" : "stop"
 				}
 
@@ -937,7 +937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.348022, 95.251862, 34.0, 18.0 ],
+					"patching_rect" : [ 310.348022, 96.251862, 34.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -1149,7 +1149,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 395.5, 121.0, 152.539764, 121.0 ],
+					"midpoints" : [ 393.5, 121.0, 152.539764, 121.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1222,7 +1222,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 281.848022, 121.153397, 152.539764, 121.153397 ],
+					"midpoints" : [ 279.848022, 121.153397, 152.539764, 121.153397 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1241,7 +1241,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 168.348022, 121.153397, 152.539764, 121.153397 ],
+					"midpoints" : [ 168.848022, 121.153397, 152.539764, 121.153397 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -1260,6 +1260,15 @@
 					"destination" : [ "obj-30", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-32", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1269,7 +1278,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 359.848022, 121.0, 152.539764, 121.0 ],
+					"midpoints" : [ 357.848022, 121.0, 152.539764, 121.0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -1279,7 +1288,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 321.848022, 121.0, 152.539764, 121.0 ],
+					"midpoints" : [ 319.848022, 121.0, 152.539764, 121.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1315,15 +1324,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

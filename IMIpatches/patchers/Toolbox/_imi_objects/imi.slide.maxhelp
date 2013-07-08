@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 426.0, 459.0 ],
@@ -88,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 434.0, 52.0, 20.0 ],
+					"patching_rect" : [ 339.0, 434.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -99,11 +100,12 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 209.0, 128.0, 27.0 ],
+					"patching_rect" : [ 146.0, 209.0, 128.0, 26.0 ],
 					"text" : "slide for matrix"
 				}
 
@@ -112,12 +114,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 413.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 413.0, 21.0 ],
 					"text" : "slide for matrix (arguments : on (default) / off, speed (default 20 ms)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -143,7 +145,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -160,12 +162,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-83",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 149.0, 176.0, 43.0 ],
+					"patching_rect" : [ 150.0, 149.0, 176.0, 42.0 ],
 					"text" : "random matrix\n2 planes / 5 dimensions"
 				}
 
@@ -179,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 274.0, 51.0, 23.0 ],
+					"patching_rect" : [ 11.0, 274.0, 51.0, 22.0 ],
 					"text" : "jit.spill"
 				}
 
@@ -247,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 159.0, 135.0, 23.0 ],
+					"patching_rect" : [ 11.0, 159.0, 135.0, 22.0 ],
 					"text" : "jit.noise 2 float32 5"
 				}
 
@@ -274,12 +277,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-17",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 421.0, 49.0 ],
+					"patching_rect" : [ 2.0, 2.0, 421.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -379,8 +381,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.slide.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

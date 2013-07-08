@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.0, 252.0, 107.0, 22.0 ],
+					"patching_rect" : [ 232.0, 254.0, 107.0, 22.0 ],
 					"text" : "median"
 				}
 
@@ -50,7 +50,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 218.0, 107.0, 22.0 ],
+					"patching_rect" : [ 285.0, 220.0, 107.0, 22.0 ],
 					"text" : "bucket average"
 				}
 
@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 190.0, 252.0, 39.0, 22.0 ],
+					"patching_rect" : [ 190.0, 254.0, 39.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -104,7 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 130.0, 173.0, 144.0 ],
+					"patching_rect" : [ 12.0, 132.0, 173.0, 144.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 3,
@@ -121,7 +121,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 70.0, 173.0, 17.0 ]
+					"patching_rect" : [ 12.0, 72.0, 173.0, 17.0 ]
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 95.0, 89.0, 20.0 ],
+					"patching_rect" : [ 12.0, 97.0, 89.0, 20.0 ],
 					"text" : "dot.median 30"
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 241.0, 120.0, 88.0, 22.0 ],
+					"patching_rect" : [ 241.0, 122.0, 88.0, 22.0 ],
 					"text" : "drunk 40 8"
 				}
 
@@ -162,7 +162,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 62.0, 20.0, 20.0 ]
+					"patching_rect" : [ 241.0, 64.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 241.0, 90.0, 70.0, 22.0 ],
+					"patching_rect" : [ 241.0, 92.0, 70.0, 22.0 ],
 					"text" : "metro 25"
 				}
 
@@ -192,7 +192,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 218.0, 39.0, 22.0 ],
+					"patching_rect" : [ 241.0, 220.0, 39.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -210,7 +210,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 150.0, 40.0, 22.0 ],
+					"patching_rect" : [ 241.0, 152.0, 40.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 241.0, 189.0, 111.0, 22.0 ],
+					"patching_rect" : [ 241.0, 191.0, 111.0, 22.0 ],
 					"text" : "St.Average 30 1"
 				}
 
@@ -582,7 +582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 254.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 254.0, 30.0 ],
 					"text" : "IMI average",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -598,7 +598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 251.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 251.0, 21.0 ],
 					"text" : "different ways of calculating the average",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -719,7 +719,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 121.5, 199.5, 121.5 ],
+					"midpoints" : [ 21.5, 123.5, 199.5, 123.5 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -729,7 +729,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 250.5, 181.0, 230.0, 181.0, 230.0, 63.0, 21.5, 63.0 ],
+					"midpoints" : [ 250.5, 183.0, 230.0, 183.0, 230.0, 65.0, 21.5, 65.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

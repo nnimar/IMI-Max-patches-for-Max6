@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 507.0, 663.0 ],
+		"rect" : [ 2.0, 44.0, 507.0, 663.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -325,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 98.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 99.0, 30.0 ],
 					"text" : "imi.draw ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"

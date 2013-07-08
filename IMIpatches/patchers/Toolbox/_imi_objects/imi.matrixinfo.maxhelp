@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 343.0, 268.0 ],
@@ -36,8 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 234.0, 50.0, 23.0 ],
-					"presentation_rect" : [ 236.0, 222.0, 0.0, 0.0 ]
+					"patching_rect" : [ 166.0, 234.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -51,7 +51,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 234.0, 50.0, 23.0 ]
+					"patching_rect" : [ 11.0, 234.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 88.0, 135.0, 23.0 ],
+					"patching_rect" : [ 11.0, 88.0, 135.0, 22.0 ],
 					"text" : "jit.noise 4 float32 50"
 				}
 
@@ -96,12 +96,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 179.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 179.0, 30.0 ],
 					"text" : "imi matrixinfo",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -112,13 +112,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 275.0, 21.0 ],
-					"text" : "Report matrix planecount, type, dimensions ",
+					"patching_rect" : [ 4.0, 32.0, 275.0, 21.0 ],
+					"text" : "report matrix planecount, type, dimensions ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -133,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 11.0, 201.0, 174.0, 23.0 ],
+					"patching_rect" : [ 11.0, 201.0, 174.0, 22.0 ],
 					"text" : "imi.matrixinfo"
 				}
 
@@ -147,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 235.0, 68.0, 21.0 ],
+					"patching_rect" : [ 79.0, 235.0, 68.0, 20.0 ],
 					"text" : "float32"
 				}
 
@@ -159,12 +159,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 337.0, 49.0 ],
+					"patching_rect" : [ 3.0, 3.0, 337.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -228,8 +227,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrixinfo.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 578.933655, 281.0, 96.0, 17.0 ],
-					"text" : "read drift.mov"
+					"patching_rect" : [ 578.933655, 283.0, 96.0, 17.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -64,8 +64,8 @@
 					"id" : "obj-67",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 586.433655, 280.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -94,8 +94,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.433655, 281.0, 109.566345, 17.0 ],
-					"text" : "read Bubbles.mov"
+					"patching_rect" : [ 150.433655, 284.0, 109.566345, 17.0 ],
+					"text" : "bang"
 				}
 
 			}
@@ -122,8 +122,8 @@
 					"id" : "obj-63",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 164.0, 282.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 578.933655, 85.0, 96.0, 17.0 ],
+					"patching_rect" : [ 578.933655, 88.0, 96.0, 17.0 ],
 					"text" : "read alpha.mov"
 				}
 
@@ -166,8 +166,8 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 586.433655, 85.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -182,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 85.0, 123.0, 17.0 ],
+					"patching_rect" : [ 146.0, 87.0, 123.0, 17.0 ],
 					"text" : "read background.mov"
 				}
 
@@ -210,8 +210,8 @@
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 151.0, 86.5, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -530,7 +530,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -715,7 +715,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -900,7 +900,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1137,7 +1137,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1632,7 +1632,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2821,7 +2821,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3719,6 +3719,15 @@
 					"destination" : [ "obj-54", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-56", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -3747,6 +3756,15 @@
 					"destination" : [ "obj-57", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-59", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -3793,6 +3811,15 @@
 					"destination" : [ "obj-61", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -3828,6 +3855,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-67", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-67", 0 ]

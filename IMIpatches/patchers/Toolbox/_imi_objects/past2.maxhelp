@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 255.0, 229.0 ],
@@ -27,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 118.0, 113.0, 23.0, 20.0 ],
+					"text" : "vs"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -87,8 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 156.0, 154.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 156.0, 154.0, 0.0, 0.0 ]
+					"patching_rect" : [ 156.0, 148.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -102,8 +116,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 67.0, 65.0, 27.0 ],
-					"presentation_rect" : [ 156.0, 67.0, 0.0, 0.0 ]
+					"patching_rect" : [ 156.0, 67.0, 65.0, 27.0 ]
 				}
 
 			}
@@ -128,8 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 85.0, 154.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 89.0, 181.0, 0.0, 0.0 ]
+					"patching_rect" : [ 85.0, 148.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -140,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 154.0, 20.0, 20.0 ]
+					"patching_rect" : [ 9.0, 148.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -168,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 2.332659, 201.0, 30.0 ],
+					"patching_rect" : [ 2.510893, 2.332659, 85.0, 30.0 ],
 					"text" : "past.2",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -184,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 29.332657, 247.0, 21.0 ],
+					"patching_rect" : [ 2.510893, 31.332657, 193.489105, 21.0 ],
 					"text" : "bang when threshold is passed",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -216,7 +228,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.510893, 2.332659, 251.0, 49.0 ],
+					"patching_rect" : [ 1.510893, 2.332659, 251.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -288,8 +300,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "past2.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
