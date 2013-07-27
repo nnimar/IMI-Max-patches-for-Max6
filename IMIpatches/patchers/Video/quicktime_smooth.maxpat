@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 444.0, 130.0, 115.0, 20.0 ],
+					"patching_rect" : [ 446.0, 130.0, 115.0, 20.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 446.348022, 131.251862, 81.0, 18.0 ],
+					"patching_rect" : [ 446.348022, 130.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -1237,19 +1237,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 453.5, 162.0, 386.5, 162.0 ],
+					"midpoints" : [ 455.5, 162.0, 386.5, 162.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

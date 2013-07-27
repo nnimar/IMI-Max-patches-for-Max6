@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -158,7 +158,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.5, 141.0, 100.0, 20.0 ],
+									"patching_rect" : [ 222.5, 139.0, 100.0, 20.0 ],
 									"text" : "r imi.looptheloop"
 								}
 
@@ -481,15 +481,6 @@
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-3", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -1587,7 +1578,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1616,7 +1607,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 128.410522, 89.0, 96.0, 17.0 ],
+									"patching_rect" : [ 128.410522, 90.0, 96.0, 17.0 ],
 									"text" : "read sophie.mov"
 								}
 
@@ -1646,7 +1637,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 128.410522, 89.0, 81.0, 18.0 ],
+									"patching_rect" : [ 128.410522, 89.0, 96.0, 18.0 ],
 									"text" : "imi.movieloader"
 								}
 
@@ -2268,7 +2259,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.0, 233.0, 171.0, 43.0 ],
+									"patching_rect" : [ 33.0, 255.0, 171.0, 43.0 ],
 									"text" : "clear, append getautostart, append getlooppoints, append getloop, append getframecount"
 								}
 
@@ -2528,19 +2519,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-22", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 166.5, 286.0, 144.75, 286.0, 144.75, 245.0, 43.0, 245.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -2780,7 +2761,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.0, 66.0, 96.0, 17.0 ],
+									"patching_rect" : [ 108.0, 66.0, 96.0, 17.0 ],
 									"text" : "read sophie.mov"
 								}
 
@@ -3365,7 +3346,7 @@
 									"destination" : [ "obj-116", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 118.5, 119.5, 19.5, 119.5 ],
+									"midpoints" : [ 117.5, 119.5, 19.5, 119.5 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -3424,15 +3405,6 @@
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-11", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-11", 0 ]
 								}
 
 							}

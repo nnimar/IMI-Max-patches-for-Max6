@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -415,8 +415,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 132.5, 67.0, 22.0 ],
-					"text" : "Interface"
+					"patching_rect" : [ 5.0, 132.5, 80.0, 22.0 ],
+					"text" : "Advanced"
 				}
 
 			}
@@ -552,7 +552,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 67.5, 67.0, 22.0 ],
-					"text" : "Shapes "
+					"text" : "Simple"
 				}
 
 			}

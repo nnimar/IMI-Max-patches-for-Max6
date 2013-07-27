@@ -1478,7 +1478,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 308.0, 40.0, 20.0 ]
+					"patching_rect" : [ 62.0, 303.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -1491,7 +1491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 35.0, 284.0, 59.5, 20.0 ],
+					"patching_rect" : [ 35.0, 279.0, 59.5, 20.0 ],
 					"text" : "jit.3m"
 				}
 
@@ -1505,7 +1505,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 308.0, 98.0, 20.0 ],
+					"patching_rect" : [ 105.0, 303.0, 98.0, 20.0 ],
 					"text" : "number of blobs"
 				}
 
@@ -3654,8 +3654,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 569.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 569.0, 51.0 ]
 				}
 
 			}
@@ -3855,7 +3854,6 @@
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.5, 276.5, 44.5, 276.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -156,7 +156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 459.0, 492.0, 101.0, 20.0 ],
+					"patching_rect" : [ 459.0, 495.0, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 671.0, 223.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -190,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 429.0, 493.0, 120.0, 16.0 ],
+					"patching_rect" : [ 429.0, 496.0, 120.0, 16.0 ],
 					"text" : "load IMI_jitexpr+.maxpat"
 				}
 
@@ -205,7 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.0, 492.0, 52.0, 19.0 ],
+					"patching_rect" : [ 442.0, 495.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -324,7 +324,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-19",
@@ -332,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 10.0, 140.0, 153.0, 22.0 ],
+					"patching_rect" : [ 10.0, 140.0, 144.0, 22.0 ],
 					"text" : "jit.matrix 1 float32 5 5"
 				}
 

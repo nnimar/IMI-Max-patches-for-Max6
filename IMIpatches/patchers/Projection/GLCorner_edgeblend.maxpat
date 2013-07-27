@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.5, 66.0, 100.0, 18.0 ],
+					"patching_rect" : [ 230.5, 66.0, 100.0, 18.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -1207,8 +1207,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 497.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 497.0, 51.0 ]
 				}
 
 			}
@@ -1342,15 +1341,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1401,7 +1391,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 238.0, 92.0, 187.5, 92.0 ],
+					"midpoints" : [ 240.0, 92.0, 187.5, 92.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -42,11 +42,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -110,7 +110,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -806,7 +806,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1480,7 +1480,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1801,11 +1801,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1864,7 +1864,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 321.0, 477.0, 30.0, 18.0 ],
+									"patching_rect" : [ 309.0, 480.0, 30.0, 18.0 ],
 									"text" : "s qtg"
 								}
 
@@ -1883,7 +1883,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2087,7 +2087,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2322,7 +2322,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 321.0, 443.0, 62.0, 27.0 ],
+									"patching_rect" : [ 309.0, 446.0, 62.0, 27.0 ],
 									"text" : "vdevice $1, getinputlist"
 								}
 
@@ -2386,11 +2386,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 654.0, 44.0, 266.0, 179.0 ],
+										"rect" : [ 538.0, 44.0, 166.0, 183.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 14.0,
@@ -2418,7 +2418,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.0, 56.0, 34.0, 19.0 ],
+													"patching_rect" : [ 38.0, 104.0, 34.0, 19.0 ],
 													"text" : "r qtg"
 												}
 
@@ -2433,7 +2433,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 67.0, 42.0, 84.0, 36.0 ],
+													"patching_rect" : [ 12.0, 42.0, 84.0, 36.0 ],
 													"text" : "getvdevlist, getinputlist"
 												}
 
@@ -2447,7 +2447,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 67.0, 12.0, 68.0, 22.0 ],
+													"patching_rect" : [ 12.0, 12.0, 68.0, 22.0 ],
 													"text" : "loadbang"
 												}
 
@@ -2459,7 +2459,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 39.0, 139.0, 25.0, 25.0 ]
+													"patching_rect" : [ 12.0, 139.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -2549,7 +2549,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.741425, 453.0, 74.0, 18.0 ]
+									"patching_rect" : [ 405.741425, 453.0, 74.0, 18.0 ],
+									"text" : "input 0"
 								}
 
 							}
@@ -2576,7 +2577,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 321.741425, 371.0, 66.0, 18.0 ]
+									"patching_rect" : [ 321.741425, 371.0, 66.0, 18.0 ],
+									"text" : "vdevice 6"
 								}
 
 							}
@@ -2591,7 +2593,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 405.741425, 397.0, 106.0, 20.0 ]
+									"patching_rect" : [ 405.741425, 397.0, 120.0, 20.0 ]
 								}
 
 							}
@@ -2731,7 +2733,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2821,7 +2823,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3225,7 +3227,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3302,7 +3304,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -4206,7 +4208,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5967,7 +5969,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -8254,7 +8256,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 484.0, 311.0, 20.0, 20.0 ],
+									"patching_rect" : [ 484.0, 315.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "1",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -8575,7 +8577,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -8612,7 +8614,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -8645,7 +8647,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 10.0, 6.0, 280.0, 114.0 ],
+													"patching_rect" : [ 10.0, 6.0, 283.0, 114.0 ],
 													"text" : "In terms of resolution, most cameras are 640 x 480 (US standard). The FaceTime HD is 1280 x 720 (720P). You can connect a DV camera to get 720x576 (PAL standard) but not HDV... \n\nIf you want to get a higher resolution, you can use a blackmagic card (the camera will need an HDMI connector) or buy a high resolution camera."
 												}
 
@@ -8654,7 +8656,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 478.0, 30.0, 49.0, 18.0 ],
+									"patching_rect" : [ 478.0, 32.0, 49.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",

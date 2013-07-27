@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -54,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 524.0, 175.0, 24.0 ],
+					"patching_rect" : [ 271.0, 524.0, 175.0, 24.0 ],
 					"text" : "alternative mapping method"
 				}
 
@@ -119,7 +119,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -310,7 +310,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 184.0, 525.0, 115.0, 22.0 ],
+					"patching_rect" : [ 152.0, 525.0, 115.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -338,8 +338,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 131.0, 115.0, 24.0 ],
-					"text" : "256 x 256 pixels"
+					"patching_rect" : [ 353.0, 131.0, 168.0, 24.0 ],
+					"text" : "downscale to 256 x 256 px"
 				}
 
 			}
@@ -534,7 +534,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1088,8 +1088,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.0, 95.0, 184.0, 24.0 ],
-					"text" : "import your image or video"
+					"patching_rect" : [ 331.0, 95.0, 188.0, 24.0 ],
+					"text" : "or import your image / video"
 				}
 
 			}
@@ -1190,7 +1190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 500.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 500.0, 21.0 ],
 					"text" : "apply a texture (texture) onto a 3d object and use tex-zoom, tex-rotate and tex-anchor ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1288,7 +1288,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 57.0, 149.147247, 222.0 ],
+					"patching_rect" : [ 4.0, 57.0, 149.147247, 222.0 ],
 					"rounded" : 30
 				}
 
@@ -1335,6 +1335,31 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 23.0, 456.0, 58.0, 19.0 ],
 					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-55",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 494.0, 62.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"varname" : "textbutton[5]"
 				}
 
 			}
@@ -1562,7 +1587,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 193.5, 552.5, 16.5, 552.5 ],
+					"midpoints" : [ 161.5, 552.5, 16.5, 552.5 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1600,7 +1625,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textcoordmagic.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_3D",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_3D",
+				"patcherrelativepath" : "../../Toolbox/_3D",
 				"type" : "JSON",
 				"implicit" : 1
 			}

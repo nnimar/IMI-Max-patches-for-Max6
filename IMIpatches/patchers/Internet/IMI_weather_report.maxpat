@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 588.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 588.0, 21.0 ],
 					"text" : "download the weather (XML) and use the results : try KBOS (Boston) or KJFK (N-Y)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -241,7 +241,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -784,7 +784,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -849,7 +849,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1876,15 +1876,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../externals/sound/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT_MMJ-Depot/modules/Depot_Support",
-				"patcherrelativepath" : "../../externals/sound/CNMAT_MMJ-Depot/modules/Depot_Support",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
+				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}

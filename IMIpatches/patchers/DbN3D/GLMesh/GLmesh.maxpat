@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 389.0, 109.0, 22.0 ],
+					"patching_rect" : [ 193.0, 389.0, 109.0, 22.0 ],
 					"text" : "mesh distorter"
 				}
 
@@ -92,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 441.0, 165.0, 22.0 ],
+					"patching_rect" : [ 193.0, 441.0, 165.0, 22.0 ],
 					"text" : "use javascript to draw"
 				}
 
@@ -209,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 415.0, 164.0, 22.0 ],
+					"patching_rect" : [ 193.0, 415.0, 164.0, 22.0 ],
 					"text" : "catch to mesh, use mask"
 				}
 
@@ -261,7 +261,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 117.0, 236.0, 22.0 ],
+					"patching_rect" : [ 193.0, 117.0, 236.0, 22.0 ],
 					"text" : "gridshapes to mesh (matrixoutput)"
 				}
 
@@ -313,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 89.0, 205.0, 22.0 ],
+					"patching_rect" : [ 193.0, 89.0, 205.0, 22.0 ],
 					"text" : "math expression to mesh (grid)"
 				}
 
@@ -365,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 257.5, 154.0, 22.0 ],
+					"patching_rect" : [ 193.0, 257.5, 154.0, 22.0 ],
 					"text" : "make multiple shapes"
 				}
 
@@ -417,7 +417,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 285.5, 203.0, 22.0 ],
+					"patching_rect" : [ 193.0, 284.5, 203.0, 22.0 ],
 					"text" : "animate balls using a matrix"
 				}
 
@@ -436,7 +436,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 285.5, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 284.5, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.0, 550.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -455,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 285.5, 143.0, 17.0 ],
+					"patching_rect" : [ 11.0, 284.5, 143.0, 17.0 ],
 					"text" : "load GLmesh_bouncebox"
 				}
 
@@ -506,7 +506,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 193.0, 169.0, 22.0 ],
+					"patching_rect" : [ 193.0, 193.0, 169.0, 22.0 ],
 					"text" : "bfg + gridshape to mesh"
 				}
 
@@ -558,7 +558,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 220.0, 222.0, 22.0 ],
+					"patching_rect" : [ 193.0, 220.0, 222.0, 22.0 ],
 					"text" : "practical example (masato tsutsui)"
 				}
 
@@ -728,7 +728,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -941,7 +941,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 168.0, 228.0, 22.0 ],
+					"patching_rect" : [ 193.0, 168.0, 228.0, 22.0 ],
 					"text" : "bfg (advanced random) to mesh"
 				}
 
@@ -955,7 +955,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 142.0, 156.0, 22.0 ],
+					"patching_rect" : [ 193.0, 142.0, 156.0, 22.0 ],
 					"text" : "noise (random) to mesh"
 				}
 
@@ -969,7 +969,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 363.0, 208.0, 22.0 ],
+					"patching_rect" : [ 193.0, 363.0, 208.0, 22.0 ],
 					"text" : "transform a video into a 3D grid"
 				}
 
@@ -983,7 +983,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 468.0, 171.0, 22.0 ],
+					"patching_rect" : [ 193.0, 468.0, 171.0, 22.0 ],
 					"text" : "drawing using a live feed"
 				}
 
@@ -997,7 +997,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 336.0, 146.0, 22.0 ],
+					"patching_rect" : [ 193.0, 336.0, 146.0, 22.0 ],
 					"text" : "visualise a waveform"
 				}
 
@@ -1011,7 +1011,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 63.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 63.0, 196.0, 22.0 ],
 					"text" : "simple matrix to mesh (line)"
 				}
 
@@ -1075,7 +1075,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 320.0, 428.0, 4.0 ],
+					"patching_rect" : [ 4.0, 319.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -1388,8 +1388,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gl_primitives3.png",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
-				"patcherrelativepath" : "../../z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
+				"patcherrelativepath" : "../../z/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

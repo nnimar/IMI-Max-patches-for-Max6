@@ -1092,7 +1092,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 68.0, 140.0, 24.0 ],
+					"patching_rect" : [ 217.0, 65.0, 140.0, 24.0 ],
 					"text" : "turn microphone on"
 				}
 
@@ -1123,8 +1123,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 393.0, 123.0, 37.0 ],
-					"text" : "go to a frame, then play it (bang)"
+					"patching_rect" : [ 284.0, 393.0, 142.0, 37.0 ],
+					"text" : "go to a certain frame, then play it (bang)"
 				}
 
 			}
@@ -1287,7 +1287,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.0, 67.0, 25.0, 25.0 ]
+					"patching_rect" : [ 188.0, 64.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1315,7 +1315,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 233.0, 67.0, 63.0, 20.0 ],
+					"patching_rect" : [ 233.0, 64.0, 63.0, 20.0 ],
 					"text" : "loadbang"
 				}
 

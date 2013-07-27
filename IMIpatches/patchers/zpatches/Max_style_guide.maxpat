@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 735.0, 432.0 ],
+		"rect" : [ 0.0, 44.0, 739.0, 439.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -66,8 +66,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 29.0, 317.0, 21.0 ],
-					"text" : "11 ideas to help you patching",
+					"presentation_rect" : [ 4.0, 32.0, 317.0, 21.0 ],
+					"text" : "10 ideas for a better patching",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
 				}
@@ -192,13 +192,14 @@
 					"fontsize" : 20.871338,
 					"frgb" : 0.0,
 					"id" : "obj-60",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 3.0, 221.0, 30.0 ],
+					"patching_rect" : [ 0.0, 3.0, 221.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 2.0, 221.0, 30.0 ],
-					"text" : "Max's patching rules\n",
+					"presentation_rect" : [ 4.0, 3.0, 497.0, 30.0 ],
+					"text" : "Max with style : a guide for visual patching",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
 
@@ -214,8 +215,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 686.0, 31.0, 43.0, 18.0 ],
-					"text" : "rev 009",
+					"presentation_rect" : [ 690.0, 35.0, 43.0, 18.0 ],
+					"text" : "rev 001",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -281,13 +282,13 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
-					"name" : "patching_rules.maxpat",
+					"name" : "style_guide.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -8.0, 0.0 ],
+					"offset" : [ -2368.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.274536, 55.0, 589.0, 370.0 ]
+					"presentation_rect" : [ 141.274536, 57.0, 593.0, 375.0 ]
 				}
 
 			}
@@ -305,8 +306,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 56.0, 124.0, 373.0 ],
-					"tabs" : [ "object", "experiment", "hack", "manual", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
+					"presentation_rect" : [ 1.0, 59.0, 124.0, 373.0 ],
+					"tabs" : [ "visual", "structure", "space", "grid", "gestalt", "colour", "typography", "presentation", "interaction", "GLobject" ]
 				}
 
 			}
@@ -321,9 +322,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 2.0, 591.0, 48.0 ],
+					"patching_rect" : [ 0.0, 2.0, 591.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 730.0, 48.0 ],
+					"presentation_rect" : [ 2.0, 3.0, 733.0, 51.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -565,18 +566,44 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "patching_rules.maxpat",
+				"name" : "style_guide.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/zpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "past2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
-				"type" : "JSON",
+				"name" : "fpic_blue.png",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/max-help",
+				"patcherrelativepath" : "../../../../Cycling '74/max-help",
+				"type" : "PNG ",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "purplebutton.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AS_knob2.png",
+				"bootpath" : "/Applications/Max 6.1/patches/picts",
+				"patcherrelativepath" : "../../../../patches/picts",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mathlist.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "hsv2rgb.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "r2d.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

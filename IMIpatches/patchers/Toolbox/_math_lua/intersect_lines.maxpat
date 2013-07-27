@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -70,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -431,7 +431,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.166687, 164.0, 42.0, 20.0 ],
+					"patching_rect" : [ 68.166687, 161.0, 42.0, 20.0 ],
 					"text" : "s sket"
 				}
 
@@ -493,7 +493,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -718,7 +718,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -943,7 +943,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1238,7 +1238,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1642,7 +1642,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1867,7 +1867,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2086,7 +2086,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 67.0, 23.0, 23.0 ]
+					"patching_rect" : [ 8.0, 64.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -2104,7 +2104,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2615,7 +2615,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 283.0, 102.0, 20.0 ],
+					"patching_rect" : [ 8.0, 280.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2643,7 +2643,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 365.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 189.0, 30.0 ],
 					"text" : "2D line intersect",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -2659,7 +2659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 452.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 267.0, 21.0 ],
 					"text" : "gives you the intersection between 2D points",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -2675,7 +2675,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.166687, 239.5, 60.0, 35.0 ]
+					"patching_rect" : [ 8.166687, 236.5, 60.0, 35.0 ]
 				}
 
 			}
@@ -2687,7 +2687,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.166687, 186.0, 47.0, 20.0 ],
+					"patching_rect" : [ 38.166687, 183.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -2757,7 +2757,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 308.0, 109.0, 20.0 ],
+					"patching_rect" : [ 8.0, 305.0, 109.0, 20.0 ],
 					"text" : "jit.window segmInt"
 				}
 
@@ -2771,7 +2771,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.166687, 98.0, 63.0, 20.0 ],
+					"patching_rect" : [ 8.166687, 95.0, 63.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -2785,7 +2785,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "reset", "erase" ],
-					"patching_rect" : [ 8.166687, 127.0, 109.0, 20.0 ],
+					"patching_rect" : [ 8.166687, 124.0, 109.0, 20.0 ],
 					"text" : "t b b reset erase"
 				}
 
@@ -2799,7 +2799,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.416687, 212.0, 72.0, 20.0 ],
+					"patching_rect" : [ 8.416687, 209.0, 72.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -2812,7 +2812,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 60.0, 121.147247, 275.0 ],
+					"patching_rect" : [ 3.0, 57.0, 121.147247, 275.0 ],
 					"rounded" : 30
 				}
 
@@ -2828,7 +2828,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 528.0, 48.0 ],
+					"patching_rect" : [ 1.0, 2.0, 528.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -3104,7 +3104,7 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 107.666687, 156.25, 17.916687, 156.25 ],
+					"midpoints" : [ 107.666687, 153.25, 17.916687, 153.25 ],
 					"source" : [ "obj-55", 3 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 83.0, 102.0, 24.0 ],
+					"patching_rect" : [ 168.0, 83.0, 102.0, 24.0 ],
 					"text" : "open camera"
 				}
 
@@ -194,7 +194,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -366,7 +366,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -428,7 +428,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1160,7 +1160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 86.0, 39.0, 18.0 ],
+					"patching_rect" : [ 124.0, 86.0, 39.0, 18.0 ],
 					"text" : "close"
 				}
 
@@ -1356,7 +1356,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 86.0, 37.0, 18.0 ],
+					"patching_rect" : [ 77.0, 86.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -1506,7 +1506,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 97.5, 113.0, 21.5, 113.0 ],
+					"midpoints" : [ 86.5, 113.0, 21.5, 113.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1747,7 +1747,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 144.5, 113.0, 21.5, 113.0 ],
+					"midpoints" : [ 133.5, 113.0, 21.5, 113.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 

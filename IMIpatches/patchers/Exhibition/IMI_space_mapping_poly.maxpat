@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -101,7 +101,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -163,7 +163,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1296,8 +1296,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 166.0, 147.0, 18.0 ],
-					"text" : "target 4, read sophie.mov"
+					"patching_rect" : [ 236.0, 166.0, 143.0, 18.0 ],
+					"text" : "target 4, read dvkite.mov"
 				}
 
 			}
@@ -1310,8 +1310,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.0, 194.0, 170.0, 18.0 ],
-					"text" : "target 5, read hapticanna.mov"
+					"patching_rect" : [ 248.0, 194.0, 141.0, 18.0 ],
+					"text" : "target 5, read dozer.mov"
 				}
 
 			}
@@ -1342,7 +1342,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1813,8 +1813,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 138.0, 170.0, 18.0 ],
-					"text" : "target 3, read hapticanna.mov"
+					"patching_rect" : [ 221.0, 138.0, 155.0, 18.0 ],
+					"text" : "target 3, read dvducks.mov"
 				}
 
 			}
@@ -1841,8 +1841,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.0, 112.0, 170.0, 18.0 ],
-					"text" : "target 2, read hapticanna.mov"
+					"patching_rect" : [ 201.0, 112.0, 143.0, 18.0 ],
+					"text" : "target 2, read dvkite.mov"
 				}
 
 			}
@@ -1855,8 +1855,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.0, 85.0, 148.0, 18.0 ],
-					"text" : "target 1, read sophie.mov"
+					"patching_rect" : [ 179.0, 85.0, 141.0, 18.0 ],
+					"text" : "target 1, read dozer.mov"
 				}
 
 			}
@@ -1900,7 +1900,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2029,7 +2029,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 627.0, 29.0, 32.0, 18.0 ],
+					"patching_rect" : [ 630.0, 32.0, 32.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2074,7 +2074,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2418,7 +2418,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 30.0, 49.0, 18.0 ],
+					"patching_rect" : [ 579.0, 32.0, 49.0, 18.0 ],
 					"text" : "rev 010 ",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
@@ -2450,7 +2450,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 525.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 525.0, 21.0 ],
 					"text" : "space mapping using GL.cornerpin for multiple videos with auto-save / auto-restore system",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -2553,7 +2553,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2589,7 +2589,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3519,8 +3519,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 662.0, 50.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 662.0, 51.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,50 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 105.0, 133.0, 123.0, 18.0 ],
+					"text" : "read hapticanna.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 107.0, 109.0, 65.0, 18.0 ],
+					"text" : "loadmess 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 107.0, 132.0, 81.0, 18.0 ],
+					"text" : "imi.movieloader"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -81,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -260,7 +304,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.0, 411.0, 37.0, 18.0 ],
+					"patching_rect" : [ 391.0, 459.0, 37.0, 18.0 ],
 					"text" : "s loop"
 				}
 
@@ -275,7 +319,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 370.0, 66.0, 30.0 ],
+					"patching_rect" : [ 391.0, 418.0, 66.0, 30.0 ],
 					"text" : "looppoints 0 138 go 2"
 				}
 
@@ -289,7 +333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 341.0, 31.0, 18.0 ],
+					"patching_rect" : [ 391.0, 389.0, 31.0, 18.0 ],
 					"text" : "r init"
 				}
 
@@ -324,20 +368,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 79.0, 52.0, 20.0 ],
-					"text" : "r movie"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -356,22 +386,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 132.0, 100.0, 20.0 ],
+					"patching_rect" : [ 234.0, 132.0, 100.0, 20.0 ],
 					"text" : "r imi.looptheloop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-20",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 109.0, 133.0, 124.0, 18.0 ],
-					"text" : "read hapticanna.mov"
 				}
 
 			}
@@ -388,7 +404,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -537,7 +553,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 390.0, 71.0, 23.0, 23.0 ]
+					"patching_rect" : [ 390.0, 75.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -588,7 +604,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -636,7 +652,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -955,7 +971,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1040,7 +1056,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 1,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -1727,7 +1743,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 692.0, 341.0, 38.0, 18.0 ],
+					"patching_rect" : [ 692.0, 389.0, 38.0, 18.0 ],
 					"text" : "r time"
 				}
 
@@ -1739,7 +1755,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 692.0, 411.0, 20.0, 20.0 ]
+					"patching_rect" : [ 692.0, 459.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1752,7 +1768,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 692.0, 370.0, 57.0, 20.0 ],
+					"patching_rect" : [ 692.0, 418.0, 57.0, 20.0 ],
 					"text" : "past 380"
 				}
 
@@ -1808,7 +1824,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.0, 413.0, 62.0, 22.0 ],
+					"patching_rect" : [ 727.0, 341.0, 62.0, 22.0 ],
 					"text" : "SCRIPT"
 				}
 
@@ -1823,7 +1839,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.0, 295.0, 68.0, 22.0 ],
+					"patching_rect" : [ 721.0, 75.0, 68.0, 22.0 ],
 					"text" : "SENSOR"
 				}
 
@@ -1838,7 +1854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 591.0, 53.0, 22.0 ],
+					"patching_rect" : [ 301.0, 75.0, 53.0, 22.0 ],
 					"text" : "VIDEO"
 				}
 
@@ -1852,7 +1868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.0, 445.0, 233.0, 20.0 ],
+					"patching_rect" : [ 569.0, 565.0, 233.0, 20.0 ],
 					"text" : "NM / movie by Anna Szumiec (IMI 2011)"
 				}
 
@@ -1892,7 +1908,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 341.0, 41.0, 18.0 ],
+					"patching_rect" : [ 559.0, 389.0, 41.0, 18.0 ],
 					"text" : "r loop2"
 				}
 
@@ -1905,7 +1921,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.0, 411.0, 37.0, 18.0 ],
+					"patching_rect" : [ 559.0, 459.0, 37.0, 18.0 ],
 					"text" : "s loop"
 				}
 
@@ -1921,7 +1937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 370.0, 78.0, 30.0 ],
+					"patching_rect" : [ 559.0, 418.0, 78.0, 30.0 ],
 					"text" : "looppoints 140 395 go 1"
 				}
 
@@ -1952,7 +1968,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 578.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 578.0, 21.0 ],
 					"text" : "the first loop is the intro. When a spectator approaches he/she gets access to the rest of the movie. ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1993,7 +2009,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 474.0, 411.0, 37.0, 18.0 ],
+					"patching_rect" : [ 474.0, 459.0, 37.0, 18.0 ],
 					"text" : "s loop"
 				}
 
@@ -2008,7 +2024,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 370.0, 74.0, 30.0 ],
+					"patching_rect" : [ 474.0, 418.0, 74.0, 30.0 ],
 					"text" : "looppoints 0 138 wait 2"
 				}
 
@@ -2022,7 +2038,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 341.0, 41.0, 18.0 ],
+					"patching_rect" : [ 474.0, 389.0, 41.0, 18.0 ],
 					"text" : "r loop1"
 				}
 
@@ -2070,24 +2086,6 @@
 				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 2,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-90",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 367.0, 58.0, 430.0, 263.0 ],
-					"rounded" : 52,
-					"varname" : "autohelp_top_panel[4]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-133",
@@ -2095,8 +2093,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 797.0, 50.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"patching_rect" : [ 2.0, 2.0, 797.0, 51.0 ]
 				}
 
 			}
@@ -2112,7 +2109,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 58.0, 361.0, 558.0 ],
+					"patching_rect" : [ 362.0, 58.0, 4.0, 559.0 ],
 					"rounded" : 52
 				}
 
@@ -2129,7 +2126,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.0, 328.0, 431.0, 111.0 ],
+					"patching_rect" : [ 366.0, 323.0, 429.0, 4.0 ],
 					"rounded" : 52
 				}
 
@@ -2219,6 +2216,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-116", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 114.5, 158.5, 26.5, 158.5 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-168", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2232,6 +2239,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-168", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -2255,11 +2271,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-116", 0 ],
+					"destination" : [ "obj-16", 1 ],
 					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 118.5, 159.5, 26.5, 159.5 ],
-					"source" : [ "obj-20", 0 ]
+					"hidden" : 1,
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
@@ -2268,27 +2283,8 @@
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 251.5, 159.0, 26.5, 159.0 ],
+					"midpoints" : [ 243.5, 158.0, 26.5, 158.0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-167", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 118.5, 101.0, 41.5, 101.0, 41.5, 69.0, 26.5, 69.0 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -2439,6 +2435,20 @@
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/filters/dot.smooth",
 				"patcherrelativepath" : "../../externals/tools/dot_20121204/filters/dot.smooth",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.movieloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "IMIMovies.txt",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../z",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]

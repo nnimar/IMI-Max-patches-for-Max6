@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 628.0, 44.0, 416.0, 309.0 ],
@@ -102,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 234.0, 175.0, 22.0 ],
+					"patching_rect" : [ 167.0, 230.0, 175.0, 22.0 ],
 					"text" : "use the edges of an image"
 				}
 
@@ -121,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 234.0, 94.0, 22.0 ],
+					"patching_rect" : [ 11.0, 230.0, 94.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 249.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -549,7 +550,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -138,7 +138,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -649,7 +649,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 202.142548, 102.0, 20.0 ],
+					"patching_rect" : [ 11.0, 201.142548, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -677,7 +677,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 342.0, 30.0 ],
+					"patching_rect" : [ 3.0, 4.0, 342.0, 30.0 ],
 					"text" : "GLgridshape_anchor point ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -693,7 +693,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 415.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 415.0, 21.0 ],
 					"text" : "use the anchor attribute to change the axis of rotation",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -741,7 +741,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 227.0, 124.0, 33.0 ],
+					"patching_rect" : [ 11.0, 226.0, 124.0, 33.0 ],
 					"text" : "jit.window anchorP @fsmenubar 0"
 				}
 
@@ -756,7 +756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 159.0, 125.0, 33.0 ],
+					"patching_rect" : [ 11.0, 158.0, 125.0, 33.0 ],
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
 
@@ -770,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 123.0, 57.0, 20.0 ],
+					"patching_rect" : [ 11.0, 122.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -783,7 +783,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 68.0, 21.0, 21.0 ]
+					"patching_rect" : [ 11.0, 67.0, 21.0, 21.0 ]
 				}
 
 			}
@@ -796,7 +796,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 96.0, 65.0, 20.0 ],
+					"patching_rect" : [ 11.0, 95.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -811,7 +811,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 58.0, 138.147247, 215.0 ],
+					"patching_rect" : [ 5.0, 57.0, 138.147247, 215.0 ],
 					"rounded" : 30
 				}
 
@@ -922,7 +922,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 58.5, 150.5, 20.5, 150.5 ],
+					"midpoints" : [ 58.5, 149.5, 20.5, 149.5 ],
 					"source" : [ "obj-22", 1 ]
 				}
 

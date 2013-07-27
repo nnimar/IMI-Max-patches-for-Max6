@@ -1709,7 +1709,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.0, 76.0, 96.0, 17.0 ],
+					"patching_rect" : [ 305.0, 75.0, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -1723,7 +1723,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 76.0, 32.5, 17.0 ],
+					"patching_rect" : [ 269.0, 75.0, 32.5, 17.0 ],
 					"text" : "stop"
 				}
 
@@ -1737,7 +1737,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 76.0, 33.0, 17.0 ],
+					"patching_rect" : [ 234.0, 75.0, 33.0, 17.0 ],
 					"text" : "start"
 				}
 
@@ -1751,7 +1751,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 76.0, 34.0, 17.0 ],
+					"patching_rect" : [ 198.0, 75.0, 34.0, 17.0 ],
 					"text" : "read"
 				}
 
@@ -1847,7 +1847,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 305.348022, 75.251862, 81.0, 18.0 ],
+					"patching_rect" : [ 305.348022, 75.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -1882,7 +1882,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 312.5, 102.0, 158.5, 102.0 ],
+					"midpoints" : [ 314.5, 102.0, 158.5, 102.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1967,15 +1967,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-32", 0 ]
 				}
 
 			}

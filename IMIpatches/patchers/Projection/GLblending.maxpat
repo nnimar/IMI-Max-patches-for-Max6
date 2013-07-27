@@ -36,8 +36,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 114.0, 99.5, 17.0 ],
-					"text" : "bang"
+					"patching_rect" : [ 210.0, 114.0, 99.5, 17.0 ],
+					"text" : "read monkey.png"
 				}
 
 			}
@@ -976,8 +976,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 444.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 2.0, 444.0, 51.0 ]
 				}
 
 			}
@@ -1032,7 +1031,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 221.5, 141.0, 170.5, 141.0 ],
+					"midpoints" : [ 219.5, 141.0, 170.5, 141.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1043,15 +1042,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-15", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-15", 0 ]
 				}
 
 			}

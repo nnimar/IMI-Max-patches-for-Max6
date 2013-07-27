@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 429.0, 307.0 ],
+		"rect" : [ 1.0, 44.0, 429.0, 307.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -190,11 +190,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 134.054688, 48.21875 ],
+					"patching_rect" : [ 166.0, 435.0, 174.097656, 48.21875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 100.0, 134.054688, 48.21875 ],
+					"presentation_rect" : [ 15.0, 100.0, 174.097656, 48.21875 ],
 					"rounded" : 20.0,
-					"text" : "f0.wrap",
+					"text" : "routepass",
 					"texton" : "Stop"
 				}
 
@@ -237,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 18.0 ],
-					"text" : "help f0.wrap"
+					"text" : "help routepass"
 				}
 
 			}
@@ -510,7 +510,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 18.0 ],
-					"text" : "help f0.fold"
+					"text" : "help route"
 				}
 
 			}
@@ -528,11 +528,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 97.723633, 41.515625 ],
+					"patching_rect" : [ 17.0, 435.0, 84.378906, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 199.0, 97.723633, 41.515625 ],
+					"presentation_rect" : [ 167.0, 199.0, 84.378906, 41.515625 ],
 					"rounded" : 20.0,
-					"text" : "f0.fold",
+					"text" : "route",
 					"texton" : "Stop"
 				}
 
@@ -587,8 +587,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 2.0, 408.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 425.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"presentation_rect" : [ 2.0, 2.0, 425.0, 51.0 ]
 				}
 
 			}

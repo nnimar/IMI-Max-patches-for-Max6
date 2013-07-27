@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.348022, 96.251862, 106.5, 17.0 ],
+					"patching_rect" : [ 159.348022, 97.251862, 106.5, 17.0 ],
 					"text" : "read cityroom.mov"
 				}
 
@@ -1261,15 +1261,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-32", 0 ]
 				}
 
 			}

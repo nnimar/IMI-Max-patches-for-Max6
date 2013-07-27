@@ -29,13 +29,24 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 18.0, 368.0, 16.0, 16.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 414.0, 34.0, 20.0 ],
+					"patching_rect" : [ 17.0, 414.0, 34.0, 20.0 ],
 					"text" : "print"
 				}
 
@@ -50,8 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 359.0, 200.0, 47.0 ],
-					"presentation_rect" : [ 189.0, 359.0, 0.0, 0.0 ],
+					"patching_rect" : [ 188.0, 359.0, 200.0, 47.0 ],
 					"text" : "use the coll document : IMIMovies to load a movie or a sound (add open at the end)"
 				}
 
@@ -66,8 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 242.0, 168.0, 60.0 ],
-					"presentation_rect" : [ 189.0, 246.0, 0.0, 0.0 ],
+					"patching_rect" : [ 188.0, 242.0, 168.0, 60.0 ],
 					"text" : "search for a document in\nthe Max search path.\n\n(requires the shell object)"
 				}
 
@@ -82,8 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 166.0, 62.0, 240.0, 74.0 ],
-					"presentation_rect" : [ 189.0, 105.0, 0.0, 0.0 ],
+					"patching_rect" : [ 165.0, 62.0, 240.0, 74.0 ],
 					"text" : "1. search for the package folder\n2. argument1 : folder (faceOSC)\n3. argument2 : application (FaceOSC.app)\n\n(requires the shell object)"
 				}
 
@@ -98,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 181.0, 168.0, 33.0 ],
+					"patching_rect" : [ 188.0, 181.0, 168.0, 33.0 ],
 					"text" : "uses the ;max launchbrowser command"
 				}
 
@@ -112,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.0, 336.0, 87.0, 18.0 ],
+					"patching_rect" : [ 90.0, 322.0, 87.0, 18.0 ],
 					"text" : "loadmess 4 open"
 				}
 
@@ -126,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 388.0, 96.0, 17.0 ],
+					"patching_rect" : [ 17.0, 388.0, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -140,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 336.0, 65.0, 18.0 ],
+					"patching_rect" : [ 17.0, 322.0, 65.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -154,7 +162,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 18.0, 360.0, 96.0, 18.0 ],
+					"patching_rect" : [ 17.0, 346.0, 96.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -173,7 +181,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 19.0, 234.5, 122.0, 20.0 ],
+					"patching_rect" : [ 18.0, 234.5, 122.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -191,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 260.0, 76.0, 18.0 ],
+					"patching_rect" : [ 18.0, 260.0, 76.0, 18.0 ],
 					"text" : "routing.oscd"
 				}
 
@@ -204,7 +212,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 283.0, 82.0, 20.0 ],
+					"patching_rect" : [ 18.0, 283.0, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -223,7 +231,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 19.0, 153.0, 122.0, 21.0 ],
+					"patching_rect" : [ 18.0, 153.0, 122.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 851.0, 403.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -241,7 +249,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 181.0, 147.0, 33.0 ],
+					"patching_rect" : [ 18.0, 181.0, 147.0, 33.0 ],
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 
@@ -260,7 +268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 19.0, 61.5, 110.0, 22.0 ],
+					"patching_rect" : [ 18.0, 61.5, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.0, 235.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -278,7 +286,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 90.0, 90.0, 47.0 ],
+					"patching_rect" : [ 18.0, 90.0, 90.0, 47.0 ],
 					"text" : "imi.apploader faceOSC FaceOSC.app"
 				}
 
@@ -293,7 +301,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 286.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 286.0, 30.0 ],
 					"text" : "imi doc / app / movie loader",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -309,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 404.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 404.0, 21.0 ],
 					"text" : "load applications and documents from Max (compatible with package)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -327,7 +335,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 406.0, 51.0 ]
+					"patching_rect" : [ 2.0, 2.0, 406.0, 51.0 ]
 				}
 
 			}
@@ -388,7 +396,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
@@ -408,35 +416,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.apploader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.apploader2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
