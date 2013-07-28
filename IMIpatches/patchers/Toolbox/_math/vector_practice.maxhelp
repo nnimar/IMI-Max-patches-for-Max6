@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 346.5, 89.0, 22.0 ],
+					"patching_rect" : [ 8.0, 345.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 378.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,8 +74,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 348.5, 71.0, 18.0 ],
-					"text" : "load a-perp"
+					"patching_rect" : [ 7.0, 348.5, 78.0, 18.0 ],
+					"text" : "load a-perps"
 				}
 
 			}

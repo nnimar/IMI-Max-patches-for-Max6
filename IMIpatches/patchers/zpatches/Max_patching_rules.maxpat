@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 735.0, 432.0 ],
+		"rect" : [ 0.0, 44.0, 735.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -66,7 +66,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 29.0, 317.0, 21.0 ],
+					"presentation_rect" : [ 3.0, 31.0, 317.0, 21.0 ],
 					"text" : "11 ideas to help you patching",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -287,7 +287,7 @@
 					"offset" : [ -8.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.274536, 55.0, 589.0, 370.0 ]
+					"presentation_rect" : [ 140.274536, 57.0, 589.0, 370.0 ]
 				}
 
 			}
@@ -305,7 +305,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 56.0, 124.0, 373.0 ],
+					"presentation_rect" : [ 4.0, 57.0, 124.0, 373.0 ],
 					"tabs" : [ "object", "experiment", "hack", "manual", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
 				}
 
@@ -321,10 +321,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 2.0, 591.0, 48.0 ],
+					"patching_rect" : [ 0.0, 2.0, 591.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 2.0, 730.0, 48.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"presentation_rect" : [ 2.0, 2.0, 730.0, 51.0 ]
 				}
 
 			}

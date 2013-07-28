@@ -827,7 +827,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 7.0, 209.0, 172.0, 20.0 ],
 					"text" : "a-perp @p 1. 0. 0. @q 0. 1. 0."
 				}
@@ -1049,8 +1049,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 653.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 653.0, 51.0 ]
 				}
 
 			}
@@ -1390,7 +1389,11 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "a-perp.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
