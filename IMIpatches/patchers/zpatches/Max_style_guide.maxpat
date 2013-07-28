@@ -285,7 +285,7 @@
 					"name" : "style_guide.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -2368.0, 0.0 ],
+					"offset" : [ -600.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.274536, 57.0, 593.0, 375.0 ]

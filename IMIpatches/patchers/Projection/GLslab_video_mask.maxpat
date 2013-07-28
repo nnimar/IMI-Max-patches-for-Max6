@@ -189,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 4.0, 450.0, 30.0 ],
+					"patching_rect" : [ 1.0, 3.0, 450.0, 30.0 ],
 					"text" : "GLslab_video_mask (Luke Woodbury)\n",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"

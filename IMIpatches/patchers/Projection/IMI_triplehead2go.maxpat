@@ -137,7 +137,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.348022, 59.251862, 116.5, 17.0 ],
+									"patching_rect" : [ 240.348022, 59.251862, 117.0, 17.0 ],
 									"text" : "read hapticanna.mov"
 								}
 
@@ -180,7 +180,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.348022, 59.251862, 106.5, 17.0 ],
+									"patching_rect" : [ 8.348022, 59.251862, 97.5, 17.0 ],
 									"text" : "read sophie.mov"
 								}
 
@@ -310,7 +310,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -346,7 +346,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -382,7 +382,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
+									"hidden" : 0,
 									"source" : [ "obj-5", 0 ]
 								}
 
