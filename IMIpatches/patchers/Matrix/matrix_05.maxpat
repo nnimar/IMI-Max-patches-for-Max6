@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -366,7 +366,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 364.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 364.0, 21.0 ],
 									"text" : "fill the planes of a matrix: planes 0 to 3 are the RGB values",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -384,8 +384,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}
@@ -515,7 +514,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -799,7 +798,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 364.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 364.0, 21.0 ],
 									"text" : "fill the planes of a matrix: planes 0 to 3 are the RGB values",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -817,8 +816,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}
@@ -1004,7 +1002,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1084,7 +1082,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 61.0, 86.0, 24.0 ],
+									"patching_rect" : [ 109.0, 61.0, 89.0, 24.0 ],
 									"text" : "fill method "
 								}
 
@@ -1352,7 +1350,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 364.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 364.0, 21.0 ],
 									"text" : "fill the planes of a matrix: planes 0 to 3 are the RGB values",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1370,8 +1368,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}
@@ -1532,11 +1529,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 397.0, 588.0 ],
+						"rect" : [ 644.0, 70.0, 397.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1582,7 +1579,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 338.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 338.0, 21.0 ],
 									"text" : "use uzi to rapidly fill a matrix with numbers",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1633,7 +1630,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1941,8 +1938,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}
@@ -2122,7 +2118,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2157,7 +2153,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 204.0, 316.0, 110.0, 40.0 ],
+									"patching_rect" : [ 204.0, 316.0, 111.0, 40.0 ],
 									"text" : "change dim to a 3 x 5 matrix"
 								}
 
@@ -2218,7 +2214,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 372.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 372.0, 21.0 ],
 									"text" : "fill a matrix with two planes (plane 0 and 1) using pak",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2238,7 +2234,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2625,7 +2621,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -2821,7 +2817,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3059,7 +3055,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 191.0, 166.0, 150.0, 37.0 ],
+									"patching_rect" : [ 191.0, 166.0, 153.0, 37.0 ],
 									"text" : "jit.fill and jit.matrix have the same name (me)"
 								}
 
@@ -3135,7 +3131,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 307.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 307.0, 21.0 ],
 									"text" : "fill a matrix plane using pak",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -3313,8 +3309,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}
@@ -3534,11 +3529,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 644.0, 70.0, 397.0, 588.0 ],
+						"rect" : [ 0.0, 26.0, 397.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3817,7 +3812,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 204.0, 21.0 ],
+									"patching_rect" : [ 4.0, 32.0, 204.0, 21.0 ],
 									"text" : "fill a matrix and add a number",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -3835,8 +3830,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 3.0, 392.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 3.0, 392.0, 51.0 ]
 								}
 
 							}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -215,7 +215,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -458,10 +458,18 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 29,
+						"count" : 31,
 						"data" : [ 							{
 								"key" : "http://cycling74.com/toolbox/bernstein-shell/",
 								"value" : [ "Max to Unix" ]
+							}
+, 							{
+								"key" : "https://github.com/natcl/max_package_downloader",
+								"value" : [ "Package downloader" ]
+							}
+, 							{
+								"key" : "http://download.74objects.com/taptools/index.html",
+								"value" : [ "Tap Tools" ]
 							}
 , 							{
 								"key" : "http://syphon.v002.info/",
@@ -525,7 +533,7 @@
 							}
 , 							{
 								"key" : "http://001.vade.info/v001/downloads/v001ShadersB2.zip",
-								"value" : [ "Vade's shaders beta 2" ]
+								"value" : [ "Vade's shaders" ]
 							}
 , 							{
 								"key" : "––––––––––––––––––––––––––––––––––––––––––",
@@ -610,9 +618,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 2.0, 58.0, 576.0, 573.0 ],
+					"patching_rect" : [ 3.0, 58.0, 576.0, 573.0 ],
 					"rowhead" : 1,
-					"rows" : 29,
+					"rows" : 31,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -662,8 +670,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 578.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 578.0, 51.0 ]
 				}
 
 			}
@@ -691,7 +698,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 213.5, 58.5, 11.5, 58.5 ],
+					"midpoints" : [ 213.5, 58.5, 12.5, 58.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -719,7 +726,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 253.5, 58.5, 11.5, 58.5 ],
+					"midpoints" : [ 253.5, 58.5, 12.5, 58.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -764,7 +771,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "plugin_download.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 45.0, 636.0, 501.0 ],
@@ -37,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 476.0, 106.0, 16.0 ],
-					"presentation_rect" : [ 370.0, 549.0, 0.0, 0.0 ],
 					"text" : "load gen_code_index"
 				}
 
@@ -242,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 474.0, 52.0, 20.0 ],
+					"patching_rect" : [ 24.0, 474.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -297,7 +297,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -343,13 +343,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-25",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 633.0, 35.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 633.0, 35.0 ]
 				}
 
 			}
@@ -528,7 +526,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "matrix_workflow.jpg",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Global/image",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/image",
 				"patcherrelativepath" : "../Global/image",
 				"type" : "JPEG",
 				"implicit" : 1

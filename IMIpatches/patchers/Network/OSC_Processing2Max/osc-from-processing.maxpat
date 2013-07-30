@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -38,10 +38,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 225.0, 182.0, 128.0, 20.0 ],
+					"patching_rect" : [ 218.0, 182.0, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 432.0, 100.0, 20.0 ],
-					"text" : "launch OSC 2 Max"
+					"text" : "launch OSC to Max"
 				}
 
 			}
@@ -59,7 +59,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -199,7 +199,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 289.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 234.0, 30.0 ],
 					"text" : "OSC from processing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -215,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 27.0, 288.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 187.0, 21.0 ],
 					"text" : "receives osc from processing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -345,8 +345,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 353.0, 49.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 1.0, 353.0, 51.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -94,7 +94,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -440,7 +440,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 0.0, 383.0, 30.0 ],
+									"patching_rect" : [ 3.0, 1.0, 383.0, 30.0 ],
 									"text" : "unpack multislider",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -456,7 +456,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 26.0, 299.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 299.0, 21.0 ],
 									"text" : "route planes using the offset argument",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -474,8 +474,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 867.0, 48.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 1.0, 867.0, 51.0 ]
 								}
 
 							}
@@ -713,11 +712,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 872.0, 465.0 ],
+						"rect" : [ 0.0, 26.0, 872.0, 465.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -783,7 +782,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 0.0, 383.0, 30.0 ],
+									"patching_rect" : [ 3.0, 1.0, 383.0, 30.0 ],
 									"text" : "unpack movie (offset)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -799,7 +798,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 26.0, 299.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 299.0, 21.0 ],
 									"text" : "route planes using the offset argument",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -861,7 +860,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -940,7 +939,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -1198,7 +1197,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -1277,7 +1276,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -1675,8 +1674,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 867.0, 48.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 1.0, 867.0, 51.0 ]
 								}
 
 							}
@@ -1805,7 +1803,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1857,7 +1855,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 0.0, 383.0, 30.0 ],
+									"patching_rect" : [ 3.0, 1.0, 383.0, 30.0 ],
 									"text" : "unpack movie (jump) ",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -1873,7 +1871,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 26.0, 525.0, 21.0 ],
+									"patching_rect" : [ 4.0, 30.0, 297.0, 21.0 ],
 									"text" : "grab specific plane using the jump argument",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1894,7 +1892,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2159,7 +2157,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2465,8 +2463,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 867.0, 48.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 1.0, 867.0, 51.0 ]
 								}
 
 							}
@@ -2590,7 +2587,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2677,7 +2674,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 1.0, 310.0, 30.0 ],
+									"patching_rect" : [ 3.0, 2.0, 310.0, 30.0 ],
 									"text" : "IMI unpack jump and offset",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -2693,7 +2690,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 27.0, 402.0, 21.0 ],
+									"patching_rect" : [ 3.0, 30.0, 402.0, 21.0 ],
 									"text" : "manage lists through unpack's advanced features (jump and offset)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2729,7 +2726,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -2971,7 +2968,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 230.0, 406.0, 158.0, 53.0 ],
+									"patching_rect" : [ 230.0, 406.0, 159.0, 52.0 ],
 									"text" : "grab 3 planes to right outlet\n(starting at plane 1)"
 								}
 
@@ -2989,7 +2986,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 502.0, 406.0, 151.0, 53.0 ],
+									"patching_rect" : [ 502.0, 406.0, 153.0, 52.0 ],
 									"text" : "route plane 1 to left outlet \nand plane 3 to right outlet"
 								}
 
@@ -3007,7 +3004,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 13.0, 406.0, 180.0, 53.0 ],
+									"patching_rect" : [ 13.0, 406.0, 180.0, 52.0 ],
 									"text" : "grab 1 plane to the left outlet\n(starting at plane 0)"
 								}
 
@@ -3102,7 +3099,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-									"patching_rect" : [ 490.0, 290.0, 279.0, 23.0 ],
+									"patching_rect" : [ 490.0, 290.0, 279.0, 22.0 ],
 									"text" : "jit.unpack 2 @offset 1 3"
 								}
 
@@ -3182,7 +3179,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-									"patching_rect" : [ 12.0, 290.0, 279.0, 23.0 ],
+									"patching_rect" : [ 12.0, 290.0, 279.0, 22.0 ],
 									"text" : "jit.unpack 2 @jump 1 3"
 								}
 
@@ -3259,8 +3256,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 867.0, 49.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 1.0, 867.0, 51.0 ]
 								}
 
 							}
@@ -3445,11 +3441,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 872.0, 465.0 ],
+						"rect" : [ 0.0, 70.0, 872.0, 465.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -3498,7 +3494,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -3769,7 +3765,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4040,7 +4036,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4292,7 +4288,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 1.0, 310.0, 30.0 ],
+									"patching_rect" : [ 3.0, 2.0, 310.0, 30.0 ],
 									"text" : "IMI pack - jump and offset",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_title"
@@ -4308,7 +4304,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 27.0, 402.0, 21.0 ],
+									"patching_rect" : [ 3.0, 30.0, 402.0, 21.0 ],
 									"text" : "manage lists through pack's advanced features (jump and offset)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -4344,7 +4340,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4757,8 +4753,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 1.0, 867.0, 50.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 1.0, 867.0, 51.0 ]
 								}
 
 							}
@@ -4948,12 +4943,12 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-6::obj-18::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
 			"obj-5::obj-3::obj-4::obj-21" : [ "number[2]", "number", 0 ],
-			"obj-5::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
-			"obj-5::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ],
 			"obj-6::obj-18::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-6::obj-18::obj-4::obj-21" : [ "number", "number", 0 ]
+			"obj-6::obj-18::obj-4::obj-21" : [ "number", "number", 0 ],
+			"obj-5::obj-3::obj-4::obj-20" : [ "live.tab[2]", "live.tab[1]", 0 ],
+			"obj-6::obj-18::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
+			"obj-5::obj-3::obj-4::obj-18" : [ "number[3]", "number[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

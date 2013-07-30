@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1822.0, 195.0, 77.0, 26.0 ],
-					"presentation_rect" : [ 1825.0, 199.0, 0.0, 0.0 ],
 					"text" : "attribute"
 				}
 
@@ -55,7 +54,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2170.0, 138.0, 124.0, 26.0 ],
-					"presentation_rect" : [ 2170.0, 138.0, 0.0, 0.0 ],
 					"text" : "the main action"
 				}
 
@@ -100,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5374.0, 275.0, 169.0, 26.0 ],
+					"patching_rect" : [ 5438.0, 275.0, 169.0, 26.0 ],
 					"text" : "add the jit.window here"
 				}
 
@@ -122,14 +120,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-122",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4811.0, 344.5, 136.0, 24.0 ],
+					"patching_rect" : [ 4811.0, 345.5, 116.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 154.0, 639.0, 100.0, 20.0 ],
 					"text" : "Max4Lightuino"
@@ -941,14 +939,14 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-82",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.0, 344.5, 163.0, 25.0 ],
+					"patching_rect" : [ 675.0, 345.5, 146.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1008,14 +1006,14 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-49",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2444.0, 345.0, 116.0, 24.0 ],
+					"patching_rect" : [ 2444.0, 346.0, 95.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1103,14 +1101,14 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-5",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1854.0, 346.0, 131.0, 24.0 ],
+					"patching_rect" : [ 1854.0, 346.0, 112.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5203.0, 149.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -2178,14 +2176,14 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 16.0,
 					"id" : "obj-165",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1264.0, 346.0, 131.0, 24.0 ],
+					"patching_rect" : [ 1264.0, 346.0, 121.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5188.0, 134.0, 79.0, 24.0 ],
 					"rounded" : 20.0,
@@ -4191,7 +4189,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 13.0, 36.0, 578.0, 69.0 ],
-					"text" : "Max is visual programming, this patch offers some tips to reconciliate form and logic. Better patching starts with understanding some of the Max logic. For example, trigger (t) allows both clarity and order."
+					"text" : "Max is visual programming, this patch offers some tips to reconciliate form and logic. Better patching starts with understanding Max logic. For example, the trigger (t) object allows both clarity and order."
 				}
 
 			}

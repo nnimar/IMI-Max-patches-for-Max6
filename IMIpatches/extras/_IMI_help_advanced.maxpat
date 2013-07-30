@@ -161,7 +161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 221.0, 38.0, 120.0, 16.0 ],
-					"text" : "IMI Max patches v2.30+"
+					"text" : "IMI Max patches v2.31+"
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.31 (9/2013)",
+					"text" : "Nicolas Marechal, v2.31 (10/2013)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 

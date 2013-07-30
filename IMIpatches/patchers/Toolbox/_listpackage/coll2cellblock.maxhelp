@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 430.0, 368.0 ],
@@ -52,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 292.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 176.0, 21.0 ],
 					"text" : "copy a coll into a cellblock",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -92,7 +93,7 @@
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"coldef" : [ [ 0, 25, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-					"cols" : 2,
+					"cols" : 1,
 					"colwidth" : 96,
 					"fontname" : "Geneva",
 					"fontsize" : 12.0,
@@ -108,7 +109,7 @@
 					"precision" : 4,
 					"rowhead" : 1,
 					"rowheight" : 17,
-					"rows" : 3
+					"rows" : 1
 				}
 
 			}
@@ -226,8 +227,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 424.0, 49.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 3.0, 424.0, 51.0 ]
 				}
 
 			}

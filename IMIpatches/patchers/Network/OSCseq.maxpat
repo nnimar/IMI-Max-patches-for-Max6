@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 147.0, 310.0, 22.0 ],
+					"patching_rect" : [ 6.0, 148.0, 310.0, 22.0 ],
 					"text" : "3. Change port number to 5555 then click add"
 				}
 
@@ -257,8 +257,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 478.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 3.0, 2.0, 478.0, 51.0 ]
 				}
 
 			}

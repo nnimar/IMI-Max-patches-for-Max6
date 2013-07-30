@@ -493,7 +493,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 710.0, 414.0, 119.0, 20.0 ],
+					"patching_rect" : [ 710.0, 418.0, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 387.0, 100.0, 20.0 ],
 					"text" : "IMI_poly_sounds"
@@ -510,7 +510,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 709.0, 414.0, 103.0, 16.0 ],
+					"patching_rect" : [ 709.0, 418.0, 103.0, 16.0 ],
 					"text" : "load IMI_poly_sound"
 				}
 
@@ -646,7 +646,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 584.0, 414.0, 119.0, 20.0 ],
+					"patching_rect" : [ 584.0, 418.0, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 488.0, 374.0, 100.0, 20.0 ],
 					"text" : "IMI_multi_voices"
@@ -663,7 +663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 414.0, 107.0, 16.0 ],
+					"patching_rect" : [ 584.0, 418.0, 107.0, 16.0 ],
 					"text" : "load IMI_multi_voices"
 				}
 
@@ -704,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 587.0, 414.0, 48.0, 18.0 ],
+					"patching_rect" : [ 587.0, 418.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -786,7 +786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 413.0, 161.0, 22.0 ],
+					"patching_rect" : [ 32.0, 416.0, 161.0, 22.0 ],
 					"text" : "with fade in / fade out :"
 				}
 
@@ -1518,7 +1518,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 192.0, 413.0, 104.0, 22.0 ],
+					"patching_rect" : [ 192.0, 416.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1562,7 +1562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 719.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 645.0, 21.0 ],
 					"text" : "play sounds from a cuelist named play (1), one by one (2) or randomly (3) and add auto fade in / fade out (4)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
@@ -1753,7 +1753,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.0, 414.0, 53.0, 20.0 ],
+					"patching_rect" : [ 706.0, 418.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1774,7 +1774,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 414.0, 20.0, 20.0 ],
+					"patching_rect" : [ 9.0, 417.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1868,8 +1868,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 832.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 832.0, 51.0 ]
 				}
 
 			}
@@ -2244,8 +2243,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-33" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-7" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

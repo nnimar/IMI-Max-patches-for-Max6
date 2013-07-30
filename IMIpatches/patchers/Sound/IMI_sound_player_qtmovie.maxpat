@@ -235,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 278.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 278.0, 30.0 ],
 					"text" : "IMI sound player (qtmovie)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -472,8 +472,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 530.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 530.0, 51.0 ]
 				}
 
 			}
@@ -708,10 +707,6 @@
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "getpaths.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
