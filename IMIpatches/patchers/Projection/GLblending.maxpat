@@ -750,7 +750,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 319.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 180.0, 30.0 ],
 					"text" : "GL video blend",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -766,7 +766,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 30.0, 270.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 270.0, 21.0 ],
 					"text" : "overlay a png image on a QuickTime movie",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -976,7 +976,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 444.0, 51.0 ]
+					"patching_rect" : [ 2.0, 2.0, 444.0, 51.0 ]
 				}
 
 			}

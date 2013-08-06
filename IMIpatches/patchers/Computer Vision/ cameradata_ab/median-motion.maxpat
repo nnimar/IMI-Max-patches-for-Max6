@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 3.0, 179.0, 30.0 ],
+					"patching_rect" : [ 1.0, 2.0, 179.0, 30.0 ],
 					"text" : "median motion",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 31.0, 412.0, 21.0 ],
+					"patching_rect" : [ 1.0, 31.0, 287.0, 21.0 ],
 					"text" : "make a silhouette in front of a white background",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"

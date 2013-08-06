@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 458.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 315.0, 21.0 ],
 					"text" : "use the software osculator to connect the wii to Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -73,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -313,7 +313,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -495,7 +495,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -964,7 +964,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1225,8 +1225,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 941.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 941.0, 51.0 ]
 				}
 
 			}
@@ -1452,15 +1451,15 @@
 			}
 , 			{
 				"name" : "wii-osculator.jpg",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
-				"patcherrelativepath" : "../../z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
+				"patcherrelativepath" : "../../z/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wii-data.jpg",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
-				"patcherrelativepath" : "../../z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
+				"patcherrelativepath" : "../../z/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.5, 31.0, 399.0, 21.0 ],
+					"patching_rect" : [ 1.5, 32.0, 301.0, 21.0 ],
 					"text" : "how to use GLmultiple with multiple video textures",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -170,7 +170,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1096,8 +1096,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.5, 3.0, 850.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 0.5, 3.0, 850.0, 51.0 ]
 				}
 
 			}

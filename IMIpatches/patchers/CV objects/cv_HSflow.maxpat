@@ -1343,7 +1343,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 190.0, 111.0, 24.0 ],
+					"patching_rect" : [ 88.0, 188.0, 111.0, 24.0 ],
 					"text" : "the magic part !"
 				}
 
@@ -1570,7 +1570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 191.0, 75.0, 20.0 ],
+					"patching_rect" : [ 11.0, 189.0, 75.0, 20.0 ],
 					"text" : "cv.jit.HSflow"
 				}
 
@@ -2397,8 +2397,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 639.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 639.0, 51.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 186.0, 101.0, 60.0 ],
+					"patching_rect" : [ 7.0, 186.0, 97.0, 60.0 ],
 					"text" : "jit.gl.render @camera 0 0 4 @erase_color 0 0 0 1."
 				}
 
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -693,7 +693,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 399.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 399.0, 21.0 ],
 					"text" : "use the positions of boids elements to generate sounds",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -768,7 +768,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2537,13 +2537,13 @@
 					"patching_rect" : [ 155.0, 642.339539, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_unitstyle" : 4,
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_type" : 0,
+							"parameter_longname" : "live.gain~",
 							"parameter_shortname" : "live.gain~",
-							"parameter_longname" : "live.gain~"
+							"parameter_type" : 0,
+							"parameter_mmin" : -70.0,
+							"parameter_mmax" : 6.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -2635,7 +2635,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 93.0, 98.0, 20.0 ],
+					"patching_rect" : [ 173.0, 93.0, 99.0, 20.0 ],
 					"text" : "r boidParam2D",
 					"varname" : "receive"
 				}
@@ -2650,7 +2650,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.0, 62.0, 45.0, 20.0 ],
+					"patching_rect" : [ 155.0, 62.0, 46.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -2666,8 +2666,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 612.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 612.0, 51.0 ]
 				}
 
 			}

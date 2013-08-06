@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 366.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 300.0, 30.0 ],
 					"text" : "Scheduled Event (Eric Marty)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 406.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 323.0, 21.0 ],
 					"text" : "schedule events using a metro or a scrubbing method",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -577,8 +577,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 516.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 516.0, 51.0 ]
 				}
 
 			}

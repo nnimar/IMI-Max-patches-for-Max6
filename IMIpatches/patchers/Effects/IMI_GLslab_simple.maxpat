@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -54,7 +54,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -957,13 +957,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.800003,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 384.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 361.0, 20.0 ],
 					"text" : "performs a GL accelerated grid-based evaluation using a shader",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -994,8 +994,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 577.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 3.0, 577.0, 51.0 ]
 				}
 
 			}

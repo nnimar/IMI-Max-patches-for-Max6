@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 781.0, 44.0, 443.0, 477.0 ],
+		"rect" : [ -1.0, 44.0, 443.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -481,8 +481,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 438.0, 34.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 3.0, 3.0, 438.0, 34.0 ]
 				}
 
 			}

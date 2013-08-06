@@ -828,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 385.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 255.0, 21.0 ],
 					"text" : "from gridshape, nurb or plato to GLmesh ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1177,8 +1177,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 621.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 621.0, 51.0 ]
 				}
 
 			}

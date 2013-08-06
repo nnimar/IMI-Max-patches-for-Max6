@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -261,7 +261,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -876,7 +876,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1552,7 +1552,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1869,7 +1869,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-56",
-					"items" : [ ".localized", ",", "Microsoft Silverlight" ],
+					"items" : [ "cf.blur.jxs", ",", "cf.convolve.jxs", ",", "cf.deinterlace.jxs", ",", "cf.dilate.jxs", ",", "cf.edgedetect.jxs", ",", "cf.emboss.jxs", ",", "cf.erode.jxs", ",", "cf.gaussian.2p.jxs", ",", "cf.laplace.jxs", ",", "cf.median.2p.jxs", ",", "cf.normals.jxs", ",", "cf.radialblur.jxs", ",", "cf.sharpen.ip.jxs", ",", "cf.sharpen.jxs", ",", "cf.sobel.jxs" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2465,7 +2465,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 701.0, 35.0 ],
+					"patching_rect" : [ 4.0, 32.0, 720.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 10.0, 36.0, 628.0, 49.0 ],
@@ -2520,8 +2520,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 2.0, 797.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 3.0, 792.0, 55.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"presentation_rect" : [ 9.0, 3.0, 792.0, 55.0 ]
 				}
 
 			}

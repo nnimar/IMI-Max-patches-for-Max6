@@ -188,16 +188,16 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold Italic",
 					"fontsize" : 20.871338,
 					"frgb" : 0.0,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 3.0, 221.0, 30.0 ],
+					"patching_rect" : [ 0.0, 3.0, 221.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 2.0, 221.0, 30.0 ],
+					"presentation_rect" : [ 3.0, 2.0, 273.0, 30.0 ],
 					"text" : "Max's patching rules\n",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}

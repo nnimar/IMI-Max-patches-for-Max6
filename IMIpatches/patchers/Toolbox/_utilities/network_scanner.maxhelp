@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -518,7 +518,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 508.0, 94.0, 20.0 ]
+					"patching_rect" : [ 307.0, 508.0, 94.0, 20.0 ],
+					"text" : "192.168.0.4"
 				}
 
 			}
@@ -589,7 +590,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 299.0, 415.0, 44.0, 20.0 ],
-					"text" : "line 4"
+					"text" : "line 5"
 				}
 
 			}
@@ -674,7 +675,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 133.0, 122.0, 20.0 ]
+					"patching_rect" : [ 8.0, 133.0, 122.0, 20.0 ],
+					"text" : "192.168.0.4"
 				}
 
 			}
@@ -699,7 +701,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 367.0, 200.0, 237.0, 38.0 ],
+					"patching_rect" : [ 367.0, 200.0, 241.0, 38.0 ],
 					"text" : "lo (localhost), en (ethernet interface), vnic (virtual network interface)"
 				}
 
@@ -752,7 +754,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-6",
-					"items" : [ "fe80:0:0:0:21c:b3ff:fec4:b883%6", ",", "192.168.1.86" ],
+					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%6", ",", "192.168.0.4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -824,7 +826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1376,7 +1378,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-30",
-					"items" : [ "192.168.1.113", ",", "192.168.1.253", ",", "192.168.1.254" ],
+					"items" : [ "192.168.0.4", ",", "192.168.0.5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1405,7 +1407,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "en2", ",", "lo0" ],
+					"items" : [ "vnic1", ",", "vnic0", ",", "en1", ",", "lo0" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1452,8 +1454,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 603.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 1.0, 603.0, 51.0 ]
 				}
 
 			}

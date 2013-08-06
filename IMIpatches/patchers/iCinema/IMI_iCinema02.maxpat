@@ -590,12 +590,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
-					"linecount" : 4,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 615.0, 544.0, 60.0 ],
-					"text" : "In Eri Sawatari's installation, you have a model with an underwear. The video is projected onto the underwear and remains in the first loop (mini_loop1) till someone took the underwear down. When it reaches the end credits (past 1168), it will enter in a second loop (mini_loop2) till someone puts the underwear back up and the credit has been reached (sensor >1024 and time >1600)."
+					"patching_rect" : [ 10.0, 603.0, 336.0, 127.0 ],
+					"text" : "In Eri Sawatari's installation, you have a model with an underwear. The video is projected onto the underwear and remains in the first loop (mini_loop1) until someone takes the underwear down. \n\nWhen it reaches the end credits (past 1168), it will enter in a second loop (mini_loop2) till someone puts the underwear back up and the credit has been reached (sensor >1024 and frame >1600, see the box above). "
 				}
 
 			}
@@ -2337,7 +2337,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 516.0, 67.0, 18.0 ],
+					"patching_rect" : [ 422.0, 510.0, 67.0, 18.0 ],
 					"text" : "s mini_loop1"
 				}
 
@@ -2363,7 +2363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 422.0, 465.0, 42.0, 42.0 ]
+					"patching_rect" : [ 422.0, 459.0, 42.0, 42.0 ]
 				}
 
 			}
@@ -2640,6 +2640,24 @@
 				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.25098 ],
+					"border" : 1,
+					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
+					"id" : "obj-5",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 413.0, 318.0, 156.0, 218.0 ],
+					"presentation_rect" : [ 220.0, 232.0, 0.0, 0.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 180.0,
+					"background" : 1,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.258824 ],
 					"border" : 3,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2681,8 +2699,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 903.0, 51.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"patching_rect" : [ 2.0, 2.0, 903.0, 51.0 ]
 				}
 
 			}

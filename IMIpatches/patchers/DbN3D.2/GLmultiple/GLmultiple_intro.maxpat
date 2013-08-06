@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 763.0, 482.0 ],
+		"rect" : [ 1.0, 44.0, 763.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 602.578247, 450.0, 149.843567, 20.0 ],
+					"patching_rect" : [ 602.578247, 452.0, 149.843567, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 503.0, 334.0, 86.843559, 24.098633 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.578247, 450.0, 150.0, 17.0 ],
+					"patching_rect" : [ 602.578247, 452.0, 150.0, 17.0 ],
 					"text" : "load GLgridshape_multiple"
 				}
 
@@ -1552,7 +1552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 278.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 184.0, 30.0 ],
 					"text" : "GL multiple intro",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1568,7 +1568,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 639.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 639.0, 21.0 ],
 					"text" : "draw one 3D shape and multiply it in space using a matrix (in this example, only one parameter : the position)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1934,7 +1934,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.578247, 450.0, 53.0, 20.0 ],
+					"patching_rect" : [ 602.578247, 452.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -2022,8 +2022,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 759.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 759.0, 51.0 ]
 				}
 
 			}

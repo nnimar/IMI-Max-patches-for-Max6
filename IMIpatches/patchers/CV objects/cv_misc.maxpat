@@ -1389,8 +1389,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 455.0, 525.0, 89.0, 17.0 ],
-					"text" : "load Tap_tools"
+					"patching_rect" : [ 457.0, 525.0, 89.0, 17.0 ],
+					"text" : "load Taptools"
 				}
 
 			}

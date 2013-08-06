@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -292,7 +292,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -514,7 +514,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1084,7 +1084,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 307.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 307.0, 30.0 ],
 					"text" : "IMI video grab 4 camera",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1100,7 +1100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 500.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 500.0, 21.0 ],
 					"text" : "four webcam to one screen, with record to DV movie function (R to record / S to stop)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1612,8 +1612,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 779.0, 51.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"patching_rect" : [ 3.0, 2.0, 779.0, 51.0 ]
 				}
 
 			}
@@ -2140,10 +2139,6 @@
 				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "getpaths.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

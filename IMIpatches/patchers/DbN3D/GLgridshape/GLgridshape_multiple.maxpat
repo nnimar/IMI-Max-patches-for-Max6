@@ -987,7 +987,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 451.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 283.0, 30.0 ],
 					"text" : "GLgridshape multiple (c74)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1133,8 +1133,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 659.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 659.0, 51.0 ]
 				}
 
 			}

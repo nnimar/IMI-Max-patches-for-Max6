@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -540,7 +540,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1432,7 +1432,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2233,7 +2233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 485.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 245.0, 30.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "GL gridshape geometry",
@@ -2262,7 +2262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 725.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 725.0, 21.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"text" : "gridshape has the ability to output a matrix, that matrix can be used to draw random images following 3D primitives (geometry)",
@@ -3140,13 +3140,12 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 737.0, 50.0 ],
+					"patching_rect" : [ 2.0, 3.0, 737.0, 51.0 ],
 					"presentation" : 0,
 					"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"rounded" : 8,
 					"shadow" : 0,
 					"shape" : 0,
-					"varname" : "autohelp_top_panel[1]",
 					"vertical_direction" : 0
 				}
 

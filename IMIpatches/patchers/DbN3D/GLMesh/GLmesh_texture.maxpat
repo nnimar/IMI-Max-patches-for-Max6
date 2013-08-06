@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 98.0, 71.0, 18.0 ],
+					"patching_rect" : [ 280.0, 110.0, 71.0, 18.0 ],
 					"text" : "name none"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 119.0, 54.0, 18.0 ],
+					"patching_rect" : [ 280.0, 131.0, 54.0, 18.0 ],
 					"text" : "name t1"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 161.0, 71.0, 20.0 ],
+					"patching_rect" : [ 23.0, 166.0, 71.0, 20.0 ],
 					"text" : "jit.gl.handle"
 				}
 
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 147.0, 185.0, 208.0, 39.0 ],
+					"patching_rect" : [ 147.0, 194.0, 208.0, 39.0 ],
 					"text" : "use a gridshape's matrix as a source"
 				}
 
@@ -100,7 +100,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -611,7 +611,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 213.0, 102.0, 20.0 ],
+					"patching_rect" : [ 10.0, 218.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -639,7 +639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 238.670532, 101.0, 33.0 ],
+					"patching_rect" : [ 10.0, 243.670532, 101.0, 33.0 ],
 					"text" : "jit.window mstex @fsmenubar 0"
 				}
 
@@ -652,7 +652,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.10907, 60.058838, 20.531322, 20.531322 ]
+					"patching_rect" : [ 10.10907, 65.058838, 20.531322, 20.531322 ]
 				}
 
 			}
@@ -665,7 +665,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 10.10907, 121.341187, 57.0, 20.0 ],
+					"patching_rect" : [ 10.10907, 126.341187, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -679,7 +679,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.10907, 92.305878, 65.0, 20.0 ],
+					"patching_rect" : [ 10.10907, 97.305878, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -693,7 +693,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.10907, 184.670532, 70.0, 20.0 ],
+					"patching_rect" : [ 10.10907, 189.670532, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -708,7 +708,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 245.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 245.0, 30.0 ],
 					"text" : "GLmesh - multi-texture",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -724,7 +724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 27.0, 313.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 313.0, 21.0 ],
 					"text" : "mesh now accepts multi textures",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -739,7 +739,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 53.0, 112.147247, 227.0 ],
+					"patching_rect" : [ 4.0, 58.0, 112.147247, 227.0 ],
 					"rounded" : 30
 				}
 
@@ -753,7 +753,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.0, 249.0, 179.0, 22.0 ],
+					"patching_rect" : [ 140.0, 258.0, 179.0, 22.0 ],
 					"text" : "jit.gl.mesh @texture t1 t2"
 				}
 
@@ -767,7 +767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 140.0, 56.0, 63.0, 20.0 ],
+					"patching_rect" : [ 140.0, 68.0, 63.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -781,7 +781,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 140.0, 146.0, 211.0, 20.0 ],
+					"patching_rect" : [ 140.0, 158.0, 211.0, 20.0 ],
 					"text" : "jit.gl.texture @name t2 @file chilis.jpg"
 				}
 
@@ -795,7 +795,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 140.0, 116.0, 131.0, 20.0 ],
+					"patching_rect" : [ 140.0, 128.0, 131.0, 20.0 ],
 					"text" : "jit.gl.texture @name t1"
 				}
 
@@ -809,7 +809,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.0, 85.0, 135.0, 20.0 ],
+					"patching_rect" : [ 140.0, 97.0, 135.0, 20.0 ],
 					"text" : "jit.noise 4 char 320 240"
 				}
 
@@ -823,7 +823,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 140.0, 219.0, 180.0, 20.0 ],
+					"patching_rect" : [ 140.0, 228.0, 180.0, 20.0 ],
 					"text" : "jit.gl.gridshape @matrixoutput 1"
 				}
 
@@ -839,8 +839,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 375.0, 45.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 375.0, 51.0 ]
 				}
 
 			}
@@ -895,7 +894,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 57.60907, 149.905884, 19.60907, 149.905884 ],
+					"midpoints" : [ 57.60907, 154.905884, 19.60907, 154.905884 ],
 					"source" : [ "obj-18", 1 ]
 				}
 

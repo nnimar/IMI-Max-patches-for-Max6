@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -92,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 334.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 334.0, 21.0 ],
 					"text" : "post to a twitter account using the unix CURL command. ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -166,8 +166,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 393.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 393.0, 51.0 ]
 				}
 
 			}

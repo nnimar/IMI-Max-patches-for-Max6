@@ -930,7 +930,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 319.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 255.0, 30.0 ],
 					"text" : "GLskybox / GLcubemap",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -946,7 +946,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 545.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 489.0, 21.0 ],
 					"text" : "click and drag in the window to pan and tilt the camera (works also with L/R arrows)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1216,8 +1216,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 550.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 550.0, 51.0 ]
 				}
 
 			}

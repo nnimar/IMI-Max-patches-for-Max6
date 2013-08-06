@@ -973,7 +973,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 160.0, 45.0, 19.0 ],
+					"patching_rect" : [ 37.0, 160.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -1014,7 +1014,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 11.0, 122.0, 83.0, 19.0 ],
+					"patching_rect" : [ 11.0, 122.0, 71.0, 19.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1328,7 +1328,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 149.0, 20.5, 149.0 ],
+					"midpoints" : [ 72.5, 149.0, 20.5, 149.0 ],
 					"source" : [ "obj-21", 2 ]
 				}
 

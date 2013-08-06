@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 452.0, 384.0 ],
+		"rect" : [ 2.0, 44.0, 452.0, 392.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 322.0, 80.0, 17.0 ],
+					"patching_rect" : [ 26.0, 324.0, 80.0, 17.0 ],
 					"text" : "size 1024 768"
 				}
 
@@ -48,7 +49,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 141.0, 47.0, 20.0 ],
+					"patching_rect" : [ 114.0, 143.0, 47.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -64,7 +65,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.0, 271.0, 76.0, 37.0 ],
+					"patching_rect" : [ 334.0, 273.0, 79.0, 37.0 ],
 					"text" : "texture to syphon"
 				}
 
@@ -78,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 252.0, 80.0, 34.0 ]
+					"patching_rect" : [ 9.0, 254.0, 80.0, 34.0 ]
 				}
 
 			}
@@ -92,7 +93,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 108.0, 91.0, 24.0 ],
+					"patching_rect" : [ 301.0, 110.0, 91.0, 24.0 ],
 					"text" : "simple cube"
 				}
 
@@ -107,7 +108,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 72.0, 82.0, 24.0 ],
+					"patching_rect" : [ 259.0, 74.0, 82.0, 24.0 ],
 					"text" : "3D control"
 				}
 
@@ -138,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 438.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 394.0, 21.0 ],
 					"text" : "syphon needs a texture and a GL geometry (such as a videoplane)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -158,8 +159,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 460.0, 369.0, 411.0, 282.0 ],
@@ -669,7 +671,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 296.0, 102.0, 20.0 ],
+					"patching_rect" : [ 7.0, 298.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -696,7 +698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 186.0, 73.0, 71.0, 20.0 ],
+					"patching_rect" : [ 186.0, 75.0, 71.0, 20.0 ],
 					"text" : "jit.gl.handle"
 				}
 
@@ -711,7 +713,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 186.0, 108.0, 113.0, 74.0 ],
+					"patching_rect" : [ 186.0, 110.0, 113.0, 74.0 ],
 					"text" : "jit.gl.gridshape @shape cube @color 1. 1. 1. 1. @scale 0.5 0.5 0.5 @lighting_enable 1"
 				}
 
@@ -725,7 +727,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.5, 210.0, 45.0, 20.0 ],
+					"patching_rect" : [ 186.0, 212.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -739,7 +741,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 185.5, 240.0, 175.0, 20.0 ],
+					"patching_rect" : [ 186.0, 242.0, 175.0, 20.0 ],
 					"text" : "jit.gl.texture @name syphontex"
 				}
 
@@ -753,7 +755,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 165.0, 109.0, 20.0 ],
+					"patching_rect" : [ 9.0, 167.0, 109.0, 20.0 ],
 					"text" : "append syphontex"
 				}
 
@@ -768,7 +770,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.5, 272.0, 145.0, 33.0 ],
+					"patching_rect" : [ 186.0, 274.0, 145.0, 33.0 ],
 					"text" : "jit.gl.syphonserver @servername maxstage"
 				}
 
@@ -782,7 +784,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 91.0, 65.0, 20.0 ],
+					"patching_rect" : [ 9.0, 93.0, 65.0, 20.0 ],
 					"text" : "qmetro 20"
 				}
 
@@ -796,7 +798,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "to_texture", "bang", "erase", "bang" ],
-					"patching_rect" : [ 9.0, 117.0, 124.0, 20.0 ],
+					"patching_rect" : [ 9.0, 119.0, 124.0, 20.0 ],
 					"text" : "t to_texture b erase b"
 				}
 
@@ -809,7 +811,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 62.0, 20.0, 20.0 ],
+					"patching_rect" : [ 9.0, 64.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 142.0, 89.0, 89.0 ]
 				}
@@ -825,7 +827,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 344.0, 102.0, 33.0 ],
+					"patching_rect" : [ 7.0, 346.0, 102.0, 33.0 ],
 					"text" : "jit.window stage @fsmenubar 0"
 				}
 
@@ -840,7 +842,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 195.0, 125.0, 47.0 ],
+					"patching_rect" : [ 9.0, 197.0, 125.0, 47.0 ],
 					"text" : "jit.gl.render @fsaa 1 @blend_enable 1 @erase_color 0 0 0 1"
 				}
 
@@ -853,7 +855,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 55.0, 161.147247, 326.0 ],
+					"patching_rect" : [ 3.0, 57.0, 161.147247, 326.0 ],
 					"rounded" : 30
 				}
 
@@ -869,8 +871,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 450.0, 49.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 450.0, 51.0 ]
 				}
 
 			}

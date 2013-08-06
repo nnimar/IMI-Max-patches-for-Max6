@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 652.0, 523.0 ],
+		"rect" : [ 0.0, 44.0, 651.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 658.0, 44.0, 634.0, 167.0 ],
+						"rect" : [ 658.0, 44.0, 657.0, 157.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -73,8 +73,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 5.0, 619.0, 147.0 ],
-									"text" : "The plugins installed belongs to their respective authors: Adam Murray (ajm), Masayuki Akamatsu (aka), Leo Vanderveen (c74), Michael Zbysynski (cnmat, University of Berkley), Miller Puckette (crca), Mathieu Champagne, Charles Bascou, Erin Catto (box2d), Joseph Malloch - Stephen Sinclair - Marlon Schumacher (dot), Fredrik Olofsson (f0), Jakob Riis (jr), Pelado, Karlheinz Essl (RTC), Vade (shaders), Zachary Seldess (z), Emmanuel Jourdan (ej, zsa), Wes (textcoordmagic), ..."
+									"patching_rect" : [ 6.0, 5.0, 633.0, 147.0 ],
+									"text" : "The plugins installed belongs to their respective authors: Adam Murray (ajm), Masayuki Akamatsu (aka), Leo Vanderveen (c74), Michael Zbysynski (CNMAT - University of Berkley), Miller Puckette (CRCA - UC San Diego), Mathieu Champagne, Charles Bascou, Erin Catto (box2d), Joseph Malloch - Stephen Sinclair - Marlon Schumacher (dot, IDMIL), Fredrik Olofsson (f0), Jakob Riis (jr), Pelado, Karlheinz Essl (RTC), Vade (shaders), Zachary Seldess (z), Emmanuel Jourdan (ej, zsa), Wes (textcoordmagic), ..."
 								}
 
 							}
@@ -82,7 +82,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 500.0, 490.849854, 141.0, 27.0 ],
+					"patching_rect" : [ 500.0, 507.849854, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 432.849884, 635.0, 47.0 ],
+					"patching_rect" : [ 4.0, 449.849884, 635.0, 47.0 ],
 					"text" : "Medias : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
 
@@ -152,12 +152,12 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-1",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 119.0, 639.0, 87.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson and Luke DuBois, thanks for their great tutorials and support to the non tildas !"
+					"patching_rect" : [ 4.0, 119.0, 638.0, 107.0 ],
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tildas (~)"
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 217.0, 637.0, 208.0 ],
+					"patching_rect" : [ 4.0, 234.0, 637.0, 208.0 ],
 					"text" : "Credits also goes to the IMI students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust, Andres Ayerbe (2012), Alan Hong, Catiana Becker (2013)."
 				}
 

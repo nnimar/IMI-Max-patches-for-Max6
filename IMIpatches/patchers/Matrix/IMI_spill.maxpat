@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -193,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 346.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 346.0, 21.0 ],
 					"text" : "unroll a matrix as a list, spilll works well with DIMENSIONS.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -257,7 +257,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 330.0, 394.0, 88.0, 25.0 ],
-					"text" : "0.688402"
+					"text" : "0.198957"
 				}
 
 			}
@@ -285,7 +285,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 394.0, 88.0, 25.0 ],
-					"text" : "0.106389"
+					"text" : "0.980258"
 				}
 
 			}
@@ -313,7 +313,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 117.0, 393.0, 88.0, 25.0 ],
-					"text" : "0.621551"
+					"text" : "0.77701"
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 393.0, 88.0, 25.0 ],
-					"text" : "0.419672"
+					"text" : "0.718374"
 				}
 
 			}
@@ -395,7 +395,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 300.0, 329.0, 25.0 ],
-					"text" : "0.419672 0.621551 0.106389 0.688402"
+					"text" : "0.718374 0.77701 0.980258 0.198957"
 				}
 
 			}
@@ -450,8 +450,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 439.0, 48.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"patching_rect" : [ 2.0, 1.0, 439.0, 51.0 ]
 				}
 
 			}
@@ -597,7 +596,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

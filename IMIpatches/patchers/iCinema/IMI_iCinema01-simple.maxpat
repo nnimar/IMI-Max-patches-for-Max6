@@ -1868,7 +1868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 569.0, 565.0, 233.0, 20.0 ],
+					"patching_rect" : [ 446.0, 594.0, 233.0, 20.0 ],
 					"text" : "NM / movie by Anna Szumiec (IMI 2011)"
 				}
 
@@ -2066,7 +2066,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 17.0, 560.0, 80.0, 34.0 ]
+					"patching_rect" : [ 17.0, 560.0, 54.0, 34.0 ]
 				}
 
 			}

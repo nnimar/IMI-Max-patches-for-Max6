@@ -378,8 +378,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.0, 113.0, 51.5, 20.0 ],
-									"text" : "grey 5"
+									"patching_rect" : [ 363.0, 113.0, 51.5, 20.0 ]
 								}
 
 							}
@@ -476,8 +475,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 79.0, 56.0, 20.0 ],
-									"text" : "2 5 4 1"
+									"patching_rect" : [ 14.0, 79.0, 56.0, 20.0 ]
 								}
 
 							}
@@ -532,8 +530,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 147.0, 55.0, 20.0 ],
-									"text" : "grey 5"
+									"patching_rect" : [ 127.0, 147.0, 55.0, 20.0 ]
 								}
 
 							}
@@ -3495,8 +3492,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 4.0, 135.0, 172.0, 18.0 ],
-									"text" : "1.7 0.3124 12.0001 0."
+									"patching_rect" : [ 4.0, 135.0, 172.0, 18.0 ]
 								}
 
 							}
@@ -5257,8 +5253,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 110.0, 107.0, 20.0 ],
-									"text" : "s y m b o l"
+									"patching_rect" : [ 18.0, 110.0, 107.0, 20.0 ]
 								}
 
 							}
@@ -6113,8 +6108,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.0, 194.0, 101.0, 20.0 ],
-									"text" : "53 516 12 a"
+									"patching_rect" : [ 54.0, 194.0, 101.0, 20.0 ]
 								}
 
 							}
@@ -6127,8 +6121,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 224.0, 144.0, 20.0 ],
-									"text" : "24 1.5 46.2 6.3"
+									"patching_rect" : [ 13.0, 224.0, 144.0, 20.0 ]
 								}
 
 							}
@@ -7124,8 +7117,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 607.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 607.0, 51.0 ]
 				}
 
 			}

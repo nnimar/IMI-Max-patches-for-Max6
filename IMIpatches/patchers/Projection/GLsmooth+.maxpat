@@ -677,7 +677,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 409.0, 352.0, 90.0, 19.0 ],
+					"patching_rect" : [ 409.0, 352.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 734.0, 574.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1313,7 +1313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 394.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 394.0, 21.0 ],
 					"text" : "this is the most complete solution to play video data using the GPU",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1863,7 +1863,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 502.0, 50.0 ]
+					"patching_rect" : [ 2.0, 2.0, 502.0, 51.0 ]
 				}
 
 			}

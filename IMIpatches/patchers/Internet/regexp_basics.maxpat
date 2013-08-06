@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.875, 31.0, 403.0, 21.0 ],
+					"patching_rect" : [ 3.875, 31.0, 299.0, 21.0 ],
 					"text" : "a few examples to  understand the basic of regexp",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.875, 3.0, 405.0, 30.0 ],
+					"patching_rect" : [ 2.875, 3.0, 287.0, 30.0 ],
 					"text" : "Basic Regular Expressions ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -182,8 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 135.0, 50.0, 20.0 ],
-					"text" : "apple"
+					"patching_rect" : [ 464.0, 135.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -434,8 +433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 413.0, 81.0, 20.0 ],
-					"text" : "shell"
+					"patching_rect" : [ 19.0, 413.0, 81.0, 20.0 ]
 				}
 
 			}
@@ -463,7 +461,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 606.5, 371.0, 160.0, 38.0 ],
+					"patching_rect" : [ 606.5, 371.0, 161.0, 38.0 ],
 					"text" : "any word starting with S and with any letters (8)"
 				}
 
@@ -560,8 +558,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 442.0, 82.0, 20.0 ],
-					"text" : "Shelfish"
+					"patching_rect" : [ 47.0, 442.0, 82.0, 20.0 ]
 				}
 
 			}
@@ -724,8 +721,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.5, 187.0, 50.0, 20.0 ],
-					"text" : "abc40"
+					"patching_rect" : [ 125.5, 187.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -738,8 +734,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.75, 137.0, 43.0, 20.0 ],
-					"text" : "4"
+					"patching_rect" : [ 64.75, 137.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -869,8 +864,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.875, 2.0, 777.625, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.875, 2.0, 777.625, 51.0 ]
 				}
 
 			}

@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 666.0, 372.0, 397.0, 191.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -72,7 +72,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 100.0, 61.0, 20.0 ],
+									"patching_rect" : [ 13.0, 12.0, 61.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -86,7 +86,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 50.0, 124.0, 207.0, 20.0 ],
+									"patching_rect" : [ 13.0, 40.0, 207.0, 20.0 ],
 									"text" : "jit.gl.texture @defaultimage checker"
 								}
 
@@ -100,7 +100,7 @@
 									"numinlets" : 8,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 150.0, 172.0, 20.0 ],
+									"patching_rect" : [ 13.0, 69.0, 172.0, 20.0 ],
 									"text" : "jit.gl.material @name diff_mtl2"
 								}
 
@@ -110,11 +110,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-12",
+									"linecount" : 6,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 51.0, 174.0, 537.0, 20.0 ],
+									"patching_rect" : [ 14.0, 93.0, 129.0, 87.0 ],
 									"text" : "jit.gl.gridshape @shape plane @rotate 90 -1 0 0 @position 0 -2 0 @scale 5 5 5 @material diff_mtl2"
 								}
 
@@ -1200,7 +1201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 631.0, 21.0 ],
+					"patching_rect" : [ 5.0, 32.0, 631.0, 21.0 ],
 					"text" : "make an image less digital by enabling fog, set the fog colour, set a density then set the start, end distance",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1343,8 +1344,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 649.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 2.0, 649.0, 51.0 ]
 				}
 
 			}

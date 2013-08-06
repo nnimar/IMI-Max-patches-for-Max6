@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 2.0, 276.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 276.0, 30.0 ],
 					"text" : "GLisosurf_dist. functions",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 224.0, 21.0 ],
+					"patching_rect" : [ 5.0, 31.0, 224.0, 21.0 ],
 					"text" : "an application to distance functions",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -160,7 +160,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -395,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 6.0, 119.0, 57.0, 20.0 ],
+					"patching_rect" : [ 6.0, 122.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -409,7 +409,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6.0, 89.0, 65.0, 20.0 ],
+					"patching_rect" : [ 6.0, 92.0, 65.0, 20.0 ],
 					"text" : "qmetro 33"
 				}
 
@@ -422,7 +422,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 58.0, 20.0, 20.0 ]
+					"patching_rect" : [ 6.0, 61.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -437,8 +437,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 404.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 404.0, 51.0 ]
 				}
 
 			}

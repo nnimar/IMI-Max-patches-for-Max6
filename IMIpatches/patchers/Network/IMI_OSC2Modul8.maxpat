@@ -434,7 +434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 489.0, 32.0, 50.0, 20.0 ],
+					"patching_rect" : [ 489.0, 31.0, 50.0, 20.0 ],
 					"text" : "rev 001",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}

@@ -107,7 +107,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 588.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 500.0, 21.0 ],
 					"text" : "download the weather (XML) and use the results : try KBOS (Boston) or KJFK (N-Y)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1764,8 +1764,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 654.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 3.0, 3.0, 654.0, 51.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -537,8 +537,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 235.0, 21.0 ],
-					"text" : "send messages to the Arduino",
+					"patching_rect" : [ 2.0, 31.0, 280.0, 21.0 ],
+					"text" : "a practical example for the messenger library",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
 
@@ -553,8 +553,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 325.0, 30.0 ],
-					"text" : "messenger library ",
+					"patching_rect" : [ 2.0, 2.0, 133.0, 30.0 ],
+					"text" : "messenger+ ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -613,8 +613,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 606.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 606.0, 51.0 ]
 				}
 
 			}

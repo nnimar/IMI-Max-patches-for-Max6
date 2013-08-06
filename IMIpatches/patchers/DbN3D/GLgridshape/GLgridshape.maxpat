@@ -1186,7 +1186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 487.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 415.0, 21.0 ],
 					"text" : "generate simple geometric shapes as a connected grid (grid-shape)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1548,8 +1548,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 599.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 599.0, 51.0 ]
 				}
 
 			}

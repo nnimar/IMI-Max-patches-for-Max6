@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 486.0, 569.0 ],
+		"rect" : [ 1.0, 44.0, 486.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 462.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 462.0, 21.0 ],
 					"text" : "use counter to animate, the speedlim object will slow down one of the counters",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -193,10 +193,10 @@
 					"rounded" : 20.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 3,
-							"parameter_invisible" : 1,
+							"parameter_longname" : "textbutton",
 							"parameter_shortname" : "textbutton",
-							"parameter_longname" : "textbutton"
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -419,7 +419,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 482.0, 49.0 ],
+					"patching_rect" : [ 1.0, 2.0, 482.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

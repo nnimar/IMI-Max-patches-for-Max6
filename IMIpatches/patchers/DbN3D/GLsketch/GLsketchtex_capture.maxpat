@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.0, 134.0, 96.0, 17.0 ],
+					"patching_rect" : [ 259.0, 134.0, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -64,8 +64,8 @@
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 260.0, 134.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
@@ -85,7 +85,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -260,7 +260,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -843,7 +843,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 32.0, 620.0, 35.0 ],
+					"patching_rect" : [ 3.0, 32.0, 620.0, 35.0 ],
 					"text" : "render multiple GL objects to a single texture by using a GLsketch's \"drawobject\" and GLsketch (@capture), GLtexture (@name) and GLvideoplane (@texture) abilities to pass information using attributes",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -859,7 +859,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 134.0, 32.0, 18.0 ],
+					"patching_rect" : [ 359.0, 133.0, 32.0, 18.0 ],
 					"text" : "start"
 				}
 
@@ -1402,7 +1402,7 @@
 					"destination" : [ "obj-116", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 269.5, 160.5, 248.5, 160.5 ],
+					"midpoints" : [ 268.5, 160.5, 248.5, 160.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1466,7 +1466,7 @@
 					"destination" : [ "obj-28", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-49", 0 ]
+					"source" : [ "obj-49", 1 ]
 				}
 
 			}
@@ -1482,15 +1482,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

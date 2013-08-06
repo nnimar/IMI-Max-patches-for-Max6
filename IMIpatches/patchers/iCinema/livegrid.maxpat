@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.0, 171.0, 55.0, 24.0 ],
+					"patching_rect" : [ 241.0, 171.0, 55.0, 24.0 ],
 					"text" : "more"
 				}
 
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -301,7 +301,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 242.0, 172.0, 59.0, 20.0 ],
+					"patching_rect" : [ 179.0, 173.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -329,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 280.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 102.0, 30.0 ],
 					"text" : "live grid ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -345,7 +345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 355.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 236.0, 21.0 ],
 					"text" : "a quick, easy, nice looking sequencer",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -362,7 +362,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 169.0, 65.0, 24.0 ],
+					"patching_rect" : [ 107.0, 171.0, 65.0, 24.0 ],
 					"text" : "get info"
 				}
 
@@ -377,7 +377,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 139.0, 111.0, 24.0 ],
+					"patching_rect" : [ 41.0, 141.0, 111.0, 24.0 ],
 					"text" : "cursor position "
 				}
 
@@ -392,7 +392,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 398.0, 50.0, 20.0 ]
+					"patching_rect" : [ 7.0, 404.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -405,7 +405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 7.0, 374.0, 79.0, 20.0 ],
+					"patching_rect" : [ 7.0, 377.0, 79.0, 20.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -419,7 +419,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 7.0, 113.0, 72.0, 20.0 ],
+					"patching_rect" : [ 7.0, 115.0, 72.0, 20.0 ],
 					"text" : "counter 1 5"
 				}
 
@@ -432,7 +432,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 58.0, 22.0, 22.0 ]
+					"patching_rect" : [ 7.0, 60.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -445,7 +445,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.0, 86.0, 64.0, 20.0 ],
+					"patching_rect" : [ 7.0, 88.0, 64.0, 20.0 ],
 					"text" : "metro 500"
 				}
 
@@ -460,7 +460,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 141.0, 33.0, 20.0 ]
+					"patching_rect" : [ 7.0, 143.0, 33.0, 20.0 ]
 				}
 
 			}
@@ -473,7 +473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 172.0, 83.0, 18.0 ],
+					"patching_rect" : [ 22.0, 174.0, 83.0, 18.0 ],
 					"text" : "getcolumn $1"
 				}
 
@@ -492,15 +492,15 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 7.0, 218.0, 300.0, 150.0 ],
+					"patching_rect" : [ 7.0, 220.0, 300.0, 150.0 ],
 					"rounded" : 20.0,
 					"rows" : 6,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 3,
-							"parameter_invisible" : 1,
+							"parameter_longname" : "live.grid",
 							"parameter_shortname" : "live.grid",
-							"parameter_longname" : "live.grid"
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
 						}
 
 					}
@@ -522,8 +522,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 362.0, 50.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 362.0, 51.0 ]
 				}
 
 			}
@@ -542,7 +541,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 31.5, 199.0, 16.5, 199.0 ],
+					"midpoints" : [ 31.5, 201.0, 16.5, 201.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -552,7 +551,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 251.5, 199.5, 16.5, 199.5 ],
+					"midpoints" : [ 188.5, 201.5, 16.5, 201.5 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -562,7 +561,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.5, 178.0, 16.5, 178.0 ],
+					"midpoints" : [ 16.5, 180.0, 16.5, 180.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 

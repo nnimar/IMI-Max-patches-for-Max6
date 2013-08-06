@@ -98,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 562.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 481.0, 21.0 ],
 					"text" : "three different methods, any jit.expr expression can be converted to a jit.gen patch.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -549,8 +549,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 577.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 577.0, 51.0 ]
 				}
 
 			}

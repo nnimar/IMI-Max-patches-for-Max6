@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -552,7 +552,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 426.0, 103.0, 20.0 ],
+					"patching_rect" : [ 13.0, 427.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -596,7 +596,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 557.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 557.0, 21.0 ],
 					"text" : "with automatic off on the text, you can place multiple texts with different position, scale, ...",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -612,7 +612,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.0, 452.0, 177.0, 20.0 ],
+					"patching_rect" : [ 13.0, 453.0, 177.0, 20.0 ],
 					"text" : "jit.window xmas @fsmenubar 0"
 				}
 
@@ -620,13 +620,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 244.0, 191.0, 20.0 ],
+					"patching_rect" : [ 318.0, 244.0, 165.0, 18.0 ],
 					"text" : "exprfill 1 snorm[0]*0.5, bang"
 				}
 
@@ -634,13 +634,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 490.0, 144.0, 76.0, 22.0 ],
+					"patching_rect" : [ 490.0, 144.0, 66.0, 20.0 ],
 					"text" : "random 7"
 				}
 
@@ -663,13 +663,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 374.0, 143.0, 76.0, 22.0 ],
+					"patching_rect" : [ 374.0, 143.0, 66.0, 20.0 ],
 					"text" : "random 7"
 				}
 
@@ -704,13 +704,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 253.0, 100.0, 94.0, 22.0 ],
+					"patching_rect" : [ 253.0, 100.0, 83.0, 20.0 ],
 					"text" : "metro 2500"
 				}
 
@@ -718,13 +718,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 253.0, 141.0, 76.0, 22.0 ],
+					"patching_rect" : [ 253.0, 141.0, 66.0, 20.0 ],
 					"text" : "random 7"
 				}
 
@@ -765,7 +765,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.0, 103.0, 40.0, 20.0 ],
+					"patching_rect" : [ 74.0, 104.0, 40.0, 20.0 ],
 					"text" : "dac~"
 				}
 
@@ -788,7 +788,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -798,7 +798,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1210,7 +1210,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 300.0, 315.0, 97.0, 22.0 ],
+					"patching_rect" : [ 300.0, 315.0, 85.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1241,7 +1241,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1751,7 +1751,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 74.0, 250.0, 141.0, 20.0 ],
+					"patching_rect" : [ 74.0, 241.0, 141.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1827,13 +1827,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 299.0, 276.0, 180.0, 22.0 ],
+					"patching_rect" : [ 299.0, 276.0, 156.0, 20.0 ],
 					"text" : "jit.matrix cheer 7 float32 3"
 				}
 
@@ -1849,8 +1849,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 611.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 2.0, 611.0, 51.0 ]
 				}
 
 			}
@@ -1993,7 +1992,7 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 308.5, 306.5, 387.5, 306.5 ],
+					"midpoints" : [ 308.5, 306.5, 375.5, 306.5 ],
 					"source" : [ "obj-29", 0 ]
 				}
 

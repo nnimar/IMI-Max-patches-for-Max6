@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1206,7 +1206,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 31.0, 428.0, 20.0 ],
+									"patching_rect" : [ 3.0, 32.0, 299.0, 20.0 ],
 									"text" : "remove some blur from the image for cv processing",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1262,8 +1262,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 2.0, 526.0, 51.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 2.0, 2.0, 526.0, 51.0 ]
 								}
 
 							}
@@ -1668,7 +1667,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 31.0, 427.0, 20.0 ],
+									"patching_rect" : [ 3.0, 32.0, 427.0, 20.0 ],
 									"text" : "slide specify the amount of frames it would take to fully get to an input image",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -1686,8 +1685,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ]
 								}
 
 							}
@@ -1805,7 +1803,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1887,7 +1885,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 644.0, 498.0, 197.0, 171.0 ],
+										"rect" : [ 540.0, 443.0, 197.0, 171.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -1991,7 +1989,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 83.0, 104.125, 103.0, 20.0 ],
+													"patching_rect" : [ 83.0, 99.125, 103.0, 20.0 ],
 													"text" : "prepend append"
 												}
 
@@ -2091,7 +2089,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 119.0, 391.0, 225.0, 199.0 ],
+										"rect" : [ 539.0, 418.0, 225.0, 199.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2549,8 +2547,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.741425, 453.0, 74.0, 18.0 ],
-									"text" : "input 0"
+									"patching_rect" : [ 405.741425, 453.0, 74.0, 18.0 ]
 								}
 
 							}
@@ -2578,7 +2575,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 321.741425, 371.0, 66.0, 18.0 ],
-									"text" : "vdevice 6"
+									"text" : "vdevice 4"
 								}
 
 							}
@@ -2587,7 +2584,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-24",
-									"items" : "FaceTime HD Camera (Built-in)",
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8233,7 +8230,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 31.0, 402.0, 20.0 ],
+									"patching_rect" : [ 4.0, 32.0, 402.0, 20.0 ],
 									"text" : "learn how to use vdevice and input. firewire camera use the iidc protocols",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -8301,8 +8298,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ]
 								}
 
 							}
@@ -8949,8 +8945,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ],
-									"varname" : "autohelp_top_panel[1]"
+									"patching_rect" : [ 3.0, 2.0, 526.0, 51.0 ]
 								}
 
 							}

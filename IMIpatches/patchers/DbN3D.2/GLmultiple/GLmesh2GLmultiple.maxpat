@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 590.0, 600.0 ],
@@ -35,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.0, 163.0, 71.0, 20.0 ],
+					"patching_rect" : [ 27.0, 165.0, 71.0, 20.0 ],
 					"text" : "jit.gl.handle"
 				}
 
@@ -52,8 +53,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 600.0, 374.0, 402.0, 272.0 ],
@@ -138,8 +140,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -268,8 +271,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 4.0, 659.0, 920.0, 238.0 ],
@@ -399,8 +403,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 599.0, 376.0, 413.0, 253.0 ],
@@ -910,7 +915,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 220.0, 102.0, 20.0 ],
+					"patching_rect" : [ 11.0, 222.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -938,7 +943,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 247.0, 110.0, 33.0 ],
+					"patching_rect" : [ 11.0, 249.0, 110.0, 33.0 ],
 					"text" : "jit.window matmult @fsmenubar 0"
 				}
 
@@ -953,7 +958,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 384.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 384.0, 30.0 ],
 					"text" : "GLgridshape > GLmesh > GLmultiple",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -969,7 +974,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 30.0, 425.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 425.0, 21.0 ],
 					"text" : "draw one 3D shape and multiply it in space using a matrix (GLgridshape)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1041,7 +1046,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 146.5, 127.0, 105.0, 20.0 ],
+					"patching_rect" : [ 146.5, 129.0, 105.0, 20.0 ],
 					"text" : "jit.pack l @jump 8"
 				}
 
@@ -1226,7 +1231,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 146.5, 58.0, 22.0, 22.0 ]
+					"patching_rect" : [ 146.5, 60.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -1240,7 +1245,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 146.5, 156.0, 187.0, 33.0 ],
+					"patching_rect" : [ 146.5, 158.0, 187.0, 33.0 ],
 					"text" : "jit.gl.mesh @name xxx @automatic 0 @poly_mode 0 0"
 				}
 
@@ -1261,14 +1266,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 126.333344, 546.0, 355.0, 20.0 ],
+					"patching_rect" : [ 126.333344, 546.0, 355.0, 38.0 ],
 					"text" : "jit.gl.multiple 3 @targetname xxx @glparams position scale color"
 				}
 
@@ -1282,7 +1288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 189.0, 70.0, 20.0 ],
+					"patching_rect" : [ 11.0, 191.0, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -1296,7 +1302,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 120.0, 57.0, 20.0 ],
+					"patching_rect" : [ 11.0, 122.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -1309,7 +1315,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 63.0, 20.0, 20.0 ]
+					"patching_rect" : [ 11.0, 65.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1322,7 +1328,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 91.0, 65.0, 20.0 ],
+					"patching_rect" : [ 11.0, 93.0, 65.0, 20.0 ],
 					"text" : "qmetro 40"
 				}
 
@@ -1337,7 +1343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 146.5, 84.0, 270.0, 33.0 ],
+					"patching_rect" : [ 146.5, 86.0, 270.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape cube @scale 0.1 0.1 0.1 @automatic 0 @matrixoutput 1"
 				}
 
@@ -1352,7 +1358,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 55.0, 126.147247, 236.0 ],
+					"patching_rect" : [ 3.0, 57.0, 126.147247, 236.0 ],
 					"rounded" : 30
 				}
 
@@ -1398,7 +1404,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.0, 59.0, 20.0, 20.0 ],
+					"patching_rect" : [ 173.0, 61.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1418,8 +1424,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 586.0, 50.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 586.0, 51.0 ]
 				}
 
 			}
@@ -1438,7 +1443,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 111.0, 20.5, 111.0 ],
+					"midpoints" : [ 20.5, 113.0, 20.5, 113.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1504,7 +1509,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 58.5, 150.0, 21.0, 150.0, 21.0, 153.0, 20.5, 153.0 ],
+					"midpoints" : [ 58.5, 152.0, 21.0, 152.0, 21.0, 155.0, 20.5, 155.0 ],
 					"source" : [ "obj-18", 1 ]
 				}
 
@@ -1514,7 +1519,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 141.0, 20.5, 141.0 ],
+					"midpoints" : [ 20.5, 143.0, 20.5, 143.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1735,7 +1740,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
 				"patcherrelativepath" : "../../Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1

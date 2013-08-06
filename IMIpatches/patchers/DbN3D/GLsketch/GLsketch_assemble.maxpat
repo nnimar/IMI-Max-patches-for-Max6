@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 154.0, 98.0, 33.0 ],
+					"patching_rect" : [ 21.0, 154.0, 96.0, 33.0 ],
 					"text" : "jit.gl.handle @auto_rotate 1"
 				}
 
@@ -1052,8 +1052,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 640.0, 51.0 ],
-					"varname" : "autohelp_top_panel[7]"
+					"patching_rect" : [ 2.0, 2.0, 640.0, 51.0 ]
 				}
 
 			}

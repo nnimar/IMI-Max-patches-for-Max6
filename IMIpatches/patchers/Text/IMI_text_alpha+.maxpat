@@ -678,7 +678,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 504.0, 359.0, 256.0, 163.0 ],
+						"rect" : [ 505.0, 294.0, 256.0, 163.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -976,7 +976,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 339.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 339.0, 21.0 ],
 					"text" : "use alpha channel to play a video and a background layer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1037,7 +1037,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 183.0, 345.0, 112.0, 60.0 ],
+					"patching_rect" : [ 183.0, 345.0, 113.0, 60.0 ],
 					"text" : "jit.gl.videoplane viz @blend_enable 1 @blend_mode 3 1 @scale 1.1 1."
 				}
 

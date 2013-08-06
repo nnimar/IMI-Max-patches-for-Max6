@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 880.0, 541.0 ],
+		"rect" : [ 2.0, 44.0, 880.0, 546.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -739,7 +739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 708.0, 516.0, 166.0, 20.0 ],
+					"patching_rect" : [ 708.0, 518.0, 166.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 285.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -758,7 +758,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 446.0, 30.0 ],
+					"patching_rect" : [ 1.0, 2.0, 423.0, 30.0 ],
 					"text" : "GLnurbs - manipulator (Andrew Benson) ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -774,7 +774,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 465.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 327.0, 21.0 ],
 					"text" : "use a matrix to control the positions of the nurbs points ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -1348,7 +1348,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 703.0, 517.0, 166.0, 18.0 ],
+					"patching_rect" : [ 703.0, 519.0, 166.0, 18.0 ],
 					"text" : "load GLmesh_texcoordinates"
 				}
 
@@ -1363,7 +1363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 707.0, 515.0, 53.0, 20.0 ],
+					"patching_rect" : [ 707.0, 517.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1407,8 +1407,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 877.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 877.0, 51.0 ]
 				}
 
 			}

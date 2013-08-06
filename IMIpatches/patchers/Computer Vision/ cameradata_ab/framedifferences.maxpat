@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 463.0, 598.5, 73.0, 22.0 ],
+					"patching_rect" : [ 463.0, 596.5, 73.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0, 487.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.0, 599.5, 76.0, 17.0 ],
+					"patching_rect" : [ 463.0, 597.5, 76.0, 17.0 ],
 					"text" : "load taptools"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 464.0, 625.5, 131.0, 21.0 ],
+					"patching_rect" : [ 464.0, 623.5, 131.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 626.0, 53.0, 18.0 ],
+					"patching_rect" : [ 465.0, 624.0, 53.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.0, 626.0, 112.0, 17.0 ],
+					"patching_rect" : [ 463.0, 624.0, 112.0, 17.0 ],
 					"text" : "load framediff_zone"
 				}
 
@@ -159,7 +159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 28.0, 412.0, 21.0 ],
+					"patching_rect" : [ 2.0, 30.0, 218.0, 21.0 ],
 					"text" : "the simplest computer vision method",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1496,7 +1496,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 596.0, 49.0 ]
+					"patching_rect" : [ 1.0, 1.0, 596.0, 51.0 ]
 				}
 
 			}

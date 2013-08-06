@@ -3874,8 +3874,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 547.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 18.0, 300.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"presentation_rect" : [ 17.0, 18.0, 300.0, 51.0 ]
 				}
 
 			}

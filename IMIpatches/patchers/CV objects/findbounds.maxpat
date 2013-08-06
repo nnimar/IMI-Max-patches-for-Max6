@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 479.0, 44.0, 321.0, 512.0 ],
@@ -31,12 +32,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 286.0, 30.0 ],
+					"patching_rect" : [ 3.0, 1.0, 148.0, 30.0 ],
 					"text" : "jit.findbounds",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -47,12 +48,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 27.0, 304.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 213.0, 21.0 ],
 					"text" : "find the darkest element in a matrix",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -64,11 +65,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 399.0, 138.0, 24.0 ],
+					"patching_rect" : [ 138.0, 402.0, 138.0, 24.0 ],
 					"text" : "location in the matrix"
 				}
 
@@ -78,12 +80,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.0, 320.0, 162.0, 38.0 ],
+					"patching_rect" : [ 137.0, 323.0, 166.0, 37.0 ],
 					"text" : "scan the matrix for values in the range [min, max]"
 				}
 
@@ -93,12 +96,13 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 262.0, 114.0, 38.0 ],
+					"patching_rect" : [ 109.0, 265.0, 114.0, 37.0 ],
 					"text" : "take any values under min value"
 				}
 
@@ -113,7 +117,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 104.0, 226.0, 50.0, 20.0 ]
+					"patching_rect" : [ 104.0, 229.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -122,11 +126,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 195.0, 137.0, 24.0 ],
+					"patching_rect" : [ 145.0, 198.0, 137.0, 24.0 ],
 					"text" : "min values (darkest)"
 				}
 
@@ -141,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 84.5, 400.0, 49.0, 21.0 ],
+					"patching_rect" : [ 84.5, 403.0, 49.0, 21.0 ],
 					"triscale" : 0.9
 				}
 
@@ -156,7 +161,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 29.5, 400.0, 49.0, 21.0 ],
+					"patching_rect" : [ 29.5, 403.0, 49.0, 21.0 ],
 					"triscale" : 0.9
 				}
 
@@ -170,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 29.5, 372.0, 74.0, 21.0 ],
+					"patching_rect" : [ 29.5, 375.0, 74.0, 21.0 ],
 					"text" : "unpack 0 0"
 				}
 
@@ -185,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 29.5, 316.0, 102.0, 48.0 ],
+					"patching_rect" : [ 29.5, 319.0, 102.0, 47.0 ],
 					"text" : "jit.findbounds @min 1. 1. 1. 1. @max 1. 1. 1. 1."
 				}
 
@@ -197,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 55.0, 20.0, 20.0 ]
+					"patching_rect" : [ 12.0, 58.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -208,7 +213,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 114.0, 80.0, 60.0 ]
+					"patching_rect" : [ 30.0, 117.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -221,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 84.0, 110.0, 20.0 ],
+					"patching_rect" : [ 12.0, 87.0, 110.0, 20.0 ],
 					"text" : "jit.noise 1 char 4 4"
 				}
 
@@ -233,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 12.0, 438.0, 80.0, 60.0 ]
+					"patching_rect" : [ 12.0, 441.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -246,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 272.0, 94.0, 20.0 ],
+					"patching_rect" : [ 12.0, 275.0, 94.0, 20.0 ],
 					"text" : "jit.op @op <="
 				}
 
@@ -260,7 +265,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 87.0, 198.0, 55.5, 20.0 ],
+					"patching_rect" : [ 87.0, 201.0, 55.5, 20.0 ],
 					"text" : "jit.3m"
 				}
 
@@ -272,13 +277,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-3",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 318.0, 47.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 1.0, 318.0, 51.0 ]
 				}
 
 			}
@@ -333,7 +336,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 189.0, 96.5, 189.0 ],
+					"midpoints" : [ 21.5, 192.0, 96.5, 192.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -52,15 +52,13 @@
 					"fontsize" : 12.754705,
 					"frgb" : 0.0,
 					"id" : "obj-95",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 53.0, 485.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 2.0, 30.0, 580.0, 35.0 ],
-					"text" : "start digitising, play with the image parameters then select your folder for output. \nDefault setting is to capture 1 image every 5 seconds.",
+					"presentation_rect" : [ 1.0, 32.0, 580.0, 21.0 ],
+					"text" : "start digitising, play with the image parameters then select your folder for output. \n",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -161,7 +159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1457,7 +1455,7 @@
 					"hint" : "Select Input Source",
 					"hltcolor" : [ 0.670588, 0.670588, 0.74902, 1.0 ],
 					"id" : "obj-67",
-					"items" : "<empty>",
+					"items" : "FaceTime HD Camera (Built-in)",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1846,10 +1844,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 19.0, 629.0, 48.0 ],
+					"patching_rect" : [ 18.0, 19.0, 629.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 3.0, 599.0, 63.0 ],
-					"varname" : "autohelp_top_panel[2]"
+					"presentation_rect" : [ 1.0, 3.0, 599.0, 51.0 ]
 				}
 
 			}

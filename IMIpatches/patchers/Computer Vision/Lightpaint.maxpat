@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 1108.0, 789.0 ],
+		"rect" : [ 1.0, 44.0, 1108.0, 774.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -621,13 +621,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 9.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-98",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1020.0, 769.0, 86.0, 17.0 ],
+					"patching_rect" : [ 993.0, 752.0, 112.0, 20.0 ],
 					"text" : "www.blairneal.com"
 				}
 
@@ -824,7 +824,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 675.0, 236.0, 37.0 ],
+					"patching_rect" : [ 101.0, 654.0, 236.0, 37.0 ],
 					"text" : "luminance based autoclear (ie if it's too bright, it will clear the drawing itself)"
 				}
 
@@ -856,7 +856,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 207.0, 584.0, 210.0, 51.0 ],
+					"patching_rect" : [ 207.0, 563.0, 210.0, 51.0 ],
 					"text" : "check for flow based movement control and how to automatigically change the color of the drawing"
 				}
 
@@ -2308,20 +2308,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.0, 745.0, 80.0, 20.0 ],
 					"text" : "s drawsend2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 552.0, 88.0, 20.0 ],
-					"text" : "speedlim 1000"
 				}
 
 			}
@@ -5674,7 +5660,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 111.0, 600.0, 93.0, 20.0 ],
+					"patching_rect" : [ 111.0, 579.0, 93.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -5794,7 +5780,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 77.0, 655.0, 43.0, 20.0 ]
+					"patching_rect" : [ 77.0, 634.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -5820,7 +5806,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 763.0, 79.0, 20.0 ],
+					"patching_rect" : [ 37.0, 742.0, 79.0, 20.0 ],
 					"text" : "s brightreset"
 				}
 
@@ -5834,7 +5820,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 37.0, 737.0, 45.5, 20.0 ],
+					"patching_rect" : [ 37.0, 716.0, 45.5, 20.0 ],
 					"text" : "sel 1"
 				}
 
@@ -5849,7 +5835,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 37.0, 710.0, 44.0, 20.0 ]
+					"patching_rect" : [ 37.0, 689.0, 44.0, 20.0 ]
 				}
 
 			}
@@ -5862,7 +5848,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 37.0, 683.0, 59.0, 20.0 ],
+					"patching_rect" : [ 37.0, 662.0, 59.0, 20.0 ],
 					"text" : ">= 100"
 				}
 
@@ -5876,7 +5862,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 576.0, 73.0, 20.0 ],
+					"patching_rect" : [ 13.0, 555.0, 73.0, 20.0 ],
 					"text" : "jit.rgb2luma"
 				}
 
@@ -5905,7 +5891,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.666656, 655.0, 31.0, 20.0 ],
+					"patching_rect" : [ 36.666656, 634.0, 31.0, 20.0 ],
 					"triscale" : 0.9
 				}
 
@@ -5919,7 +5905,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 36.666656, 626.0, 141.0, 20.0 ],
+					"patching_rect" : [ 36.666656, 605.0, 141.0, 20.0 ],
 					"text" : "unpack 0. 0. 0. 0."
 				}
 
@@ -5933,7 +5919,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 13.0, 601.0, 90.5, 20.0 ],
+					"patching_rect" : [ 13.0, 580.0, 90.5, 20.0 ],
 					"text" : "jit.3m"
 				}
 
@@ -6398,7 +6384,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-124", 0 ]
@@ -6847,15 +6833,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-44", 0 ]
 				}
 
 			}

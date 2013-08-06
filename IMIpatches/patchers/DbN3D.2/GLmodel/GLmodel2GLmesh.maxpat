@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -523,7 +523,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1079,8 +1079,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 620.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 300.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"presentation_rect" : [ 2.0, 3.0, 300.0, 51.0 ]
 				}
 
 			}

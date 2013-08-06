@@ -255,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 607.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 493.0, 21.0 ],
 					"text" : "an efficient way to play video data using the GPU - this version works on Mac only",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1038,7 +1038,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 658.0, 49.0 ]
+					"patching_rect" : [ 2.0, 2.0, 658.0, 51.0 ]
 				}
 
 			}

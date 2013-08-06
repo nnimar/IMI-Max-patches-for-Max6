@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 555.0, 615.0 ],
@@ -80,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 434.0, 21.0 ],
-					"text" : "here is two methods to clean the image before processing",
+					"patching_rect" : [ 2.0, 31.0, 352.0, 21.0 ],
+					"text" : "two methods to clean the image before processing",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -288,8 +289,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 562.0, 44.0, 336.0, 479.0 ],
@@ -1098,8 +1100,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 551.0, 49.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 551.0, 51.0 ]
 				}
 
 			}
@@ -1289,8 +1290,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "onemess.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../Plugins_sound/St.ools/St.ools/abhaXions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/St.ools/St.ools/abhaXions",
+				"patcherrelativepath" : "../../externals/sound/St.ools/St.ools/abhaXions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

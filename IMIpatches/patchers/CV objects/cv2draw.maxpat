@@ -316,7 +316,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 322.0, 20.0 ],
+					"patching_rect" : [ 3.0, 30.0, 281.0, 20.0 ],
 					"text" : "a few examples on how to use CV objects to draw",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -540,8 +540,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 411.0, 48.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 411.0, 51.0 ]
 				}
 
 			}

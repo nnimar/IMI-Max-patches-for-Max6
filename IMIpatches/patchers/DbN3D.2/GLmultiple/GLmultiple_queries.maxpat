@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -629,7 +629,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 267.0, 688.0, 208.0, 18.0 ],
-					"text" : "15.86613 -9.03671 -2.916183"
+					"text" : "-11.984539 4.090425 -5.169563"
 				}
 
 			}
@@ -643,7 +643,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 250.0, 661.0, 208.0, 18.0 ],
-					"text" : "5.91 -3.260147 -5.7"
+					"text" : "7.344528 8.264175 -18.246681"
 				}
 
 			}
@@ -657,7 +657,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 236.0, 636.0, 206.0, 18.0 ],
-					"text" : "25. -25. 15.078148"
+					"text" : "14.320913 -25. -3.303795"
 				}
 
 			}
@@ -772,7 +772,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -862,7 +862,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1477,7 +1477,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 151.0, 494.0, 100.0, 20.0 ],
+					"patching_rect" : [ 151.0, 500.0, 100.0, 20.0 ],
 					"text" : "jit.gl.material"
 				}
 
@@ -1569,14 +1569,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-36",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.0, 520.0, 176.0, 20.0 ],
+					"patching_rect" : [ 134.0, 529.0, 121.0, 38.0 ],
 					"text" : "jit.gl.gridshape @shape sphere"
 				}
 
@@ -1597,14 +1598,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 134.0, 463.0, 164.0, 20.0 ],
+					"patching_rect" : [ 134.0, 463.0, 164.0, 22.0 ],
 					"text" : "jit.gl.multiple 4"
 				}
 
@@ -1841,8 +1842,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 610.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 3.0, 610.0, 51.0 ]
 				}
 
 			}

@@ -188,7 +188,7 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold Italic",
 					"fontsize" : 20.871338,
 					"frgb" : 0.0,
 					"id" : "obj-60",
@@ -288,7 +288,7 @@
 					"offset" : [ -5324.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.274536, 59.0, 593.0, 371.0 ]
+					"presentation_rect" : [ 136.274536, 59.0, 593.0, 371.0 ]
 				}
 
 			}

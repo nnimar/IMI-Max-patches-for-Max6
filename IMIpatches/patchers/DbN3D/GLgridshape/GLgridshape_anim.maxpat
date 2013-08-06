@@ -1103,7 +1103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 9.0, 120.0, 66.0, 20.0 ],
+					"patching_rect" : [ 9.0, 119.0, 66.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1118,7 +1118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 184.0, 146.0, 33.0 ],
+					"patching_rect" : [ 9.0, 184.0, 147.0, 33.0 ],
 					"text" : "jit.gl.render @erase_color 0.5 0.5 1 0.1"
 				}
 
@@ -1147,7 +1147,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 56.0, 155.147247, 281.0 ],
+					"patching_rect" : [ 3.0, 56.0, 158.147247, 281.0 ],
 					"rounded" : 30
 				}
 
@@ -1178,8 +1178,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 443.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 443.0, 51.0 ]
 				}
 
 			}

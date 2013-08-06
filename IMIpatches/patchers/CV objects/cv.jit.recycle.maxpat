@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 629.0, 44.0, 851.0, 603.0 ],
+		"rect" : [ 1.0, 44.0, 851.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -70,8 +71,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1114.0, 44.0, 397.0, 378.0 ],
@@ -393,8 +395,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 847.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 2.0, 847.0, 51.0 ]
 				}
 
 			}
@@ -601,22 +602,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.touches.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.touches.draw.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../Cycling '74/cv.jit-support/Abstractions",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.touches.recycle.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/CV objects",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/CV objects",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

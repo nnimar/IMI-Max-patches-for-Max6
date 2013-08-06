@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 545.0, 455.0 ],
@@ -38,8 +39,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 551.0, 359.0, 383.0, 141.0 ],
@@ -127,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 239.0, 182.0, 39.0 ],
+					"patching_rect" : [ 163.0, 243.0, 182.0, 39.0 ],
 					"text" : "direct rotate of a gridshape (red)"
 				}
 
@@ -142,7 +144,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 117.0, 54.0, 24.0 ],
+					"patching_rect" : [ 468.0, 121.0, 54.0, 24.0 ],
 					"text" : "scale"
 				}
 
@@ -156,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 162.0, 121.0, 32.5, 20.0 ],
+					"patching_rect" : [ 162.0, 125.0, 32.5, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -187,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 468.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 440.0, 21.0 ],
 					"text" : "GLmultiple should follow the same order than GLgridshape (pos, rot, scale)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -207,8 +209,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 549.0, 357.0, 412.0, 254.0 ],
@@ -718,7 +721,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 186.0, 102.0, 20.0 ],
+					"patching_rect" : [ 11.0, 190.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -745,7 +748,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 333.0, 96.0, 60.0, 20.0 ],
+					"patching_rect" : [ 333.0, 100.0, 60.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -759,7 +762,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 333.0, 148.0, 125.0, 20.0 ],
+					"patching_rect" : [ 333.0, 152.0, 125.0, 20.0 ],
 					"text" : "jit.matrix 3 float32 1 1"
 				}
 
@@ -773,7 +776,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 333.0, 121.0, 132.0, 18.0 ],
+					"patching_rect" : [ 333.0, 125.0, 132.0, 18.0 ],
 					"text" : "setall 0.4 0.2 0.2, bang"
 				}
 
@@ -788,7 +791,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 62.0, 156.0, 24.0 ],
+					"patching_rect" : [ 318.0, 66.0, 156.0, 24.0 ],
 					"text" : "rotate around the Z axis!"
 				}
 
@@ -802,7 +805,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 273.0, 122.0, 20.0 ],
+					"patching_rect" : [ 161.0, 277.0, 122.0, 20.0 ],
 					"text" : "pak rotatexyz 0. 0. 0."
 				}
 
@@ -817,7 +820,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 63.0, 50.0, 20.0 ]
+					"patching_rect" : [ 265.0, 67.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -830,7 +833,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 96.0, 101.0, 20.0 ],
+					"patching_rect" : [ 162.0, 100.0, 101.0, 20.0 ],
 					"text" : "pak setall 0. 0. 0."
 				}
 
@@ -844,7 +847,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 162.0, 148.0, 125.0, 20.0 ],
+					"patching_rect" : [ 162.0, 152.0, 125.0, 20.0 ],
 					"text" : "jit.matrix 3 float32 1 1"
 				}
 
@@ -859,7 +862,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 162.0, 176.0, 190.0, 33.0 ],
+					"patching_rect" : [ 162.0, 180.0, 190.0, 33.0 ],
 					"text" : "jit.gl.multiple 2 @targetname mult @glparams rotatexyz scale"
 				}
 
@@ -889,7 +892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 161.0, 301.0, 342.0, 33.0 ],
+					"patching_rect" : [ 161.0, 305.0, 342.0, 33.0 ],
 					"text" : "jit.gl.gridshape @shape torus @rad_minor 0.3 @scale 0.4 0.2 0.2 @position 0.5 0. 0. @poly_mode 1 1 @color 1. 0. 0. 1."
 				}
 
@@ -904,7 +907,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 213.0, 110.0, 33.0 ],
+					"patching_rect" : [ 11.0, 217.0, 110.0, 33.0 ],
 					"text" : "jit.window rotscale @fsmenubar 0"
 				}
 
@@ -918,7 +921,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 122.0, 57.0, 20.0 ],
+					"patching_rect" : [ 11.0, 126.0, 57.0, 20.0 ],
 					"text" : "t b erase"
 				}
 
@@ -931,7 +934,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 63.0, 20.0, 20.0 ]
+					"patching_rect" : [ 11.0, 67.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -944,7 +947,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 93.0, 65.0, 20.0 ],
+					"patching_rect" : [ 11.0, 97.0, 65.0, 20.0 ],
 					"text" : "qmetro 50"
 				}
 
@@ -958,7 +961,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 160.0, 70.0, 20.0 ],
+					"patching_rect" : [ 11.0, 164.0, 70.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -973,7 +976,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 52.0, 124.147247, 200.0 ],
+					"patching_rect" : [ 3.0, 56.0, 124.147247, 200.0 ],
 					"rounded" : 30
 				}
 
@@ -989,8 +992,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 542.0, 49.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 1.0, 542.0, 51.0 ]
 				}
 
 			}
@@ -1117,7 +1119,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 58.5, 150.5, 20.5, 150.5 ],
+					"midpoints" : [ 58.5, 154.5, 20.5, 154.5 ],
 					"source" : [ "obj-5", 1 ]
 				}
 

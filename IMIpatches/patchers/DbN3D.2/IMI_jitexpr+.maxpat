@@ -4363,7 +4363,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 586.0, 21.0 ],
+					"patching_rect" : [ 4.0, 31.0, 586.0, 21.0 ],
 					"text" : "the jit.expr object evaluates expressions to fill an output matrix (see also Gen if available)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"

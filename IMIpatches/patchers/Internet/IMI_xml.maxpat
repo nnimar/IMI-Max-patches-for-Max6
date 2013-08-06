@@ -478,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 488.0, 193.0, 100.0 ],
-					"text" : "\n\nThe contents of an element :\n<age>25</age> \n\nHere 25 is the data"
+					"text" : "\n\nThe contents of an element :\n<age>25</age> \n\nand 25 is the data"
 				}
 
 			}
@@ -2901,7 +2901,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 501.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 354.0, 21.0 ],
 					"text" : "various methods to parse XML content or entire files in Max",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -3050,8 +3050,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 836.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 2.0, 2.0, 836.0, 51.0 ]
 				}
 
 			}

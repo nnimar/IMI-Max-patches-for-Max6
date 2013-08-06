@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 559.0, 585.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 18.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -29,12 +29,79 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 102.0, 467.0, 32.5, 18.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 138.0, 466.0, 45.0, 20.0 ],
+					"text" : "r reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 499.0, 64.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.0, 92.0, 47.0, 20.0 ],
+					"text" : "s reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 65.0, 287.0, 61.0, 20.0 ],
+					"text" : "print date"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 64.0, 421.0, 20.0, 20.0 ]
+					"patching_rect" : [ 65.0, 420.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -141,8 +208,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 158.0, 78.0, 24.0 ],
-					"text" : "examples"
+					"patching_rect" : [ 194.0, 159.0, 221.0, 24.0 ],
+					"text" : "usage : search keyword max_results"
 				}
 
 			}
@@ -214,7 +281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 161.0, 61.0, 20.0 ],
+					"patching_rect" : [ 13.0, 193.0, 61.0, 20.0 ],
 					"text" : "route text"
 				}
 
@@ -263,7 +330,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 13.0, 102.0, 187.0, 26.0 ],
-					"text" : "cnn"
+					"text" : "@LCCLondon"
 				}
 
 			}
@@ -296,7 +363,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -437,7 +504,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 496.0, 433.0, 85.0 ],
-					"text" : "nnimar \"RT @manovich: a new unique #digitalhumanities book is out: Digital_Humanities, MIT Press, November 2011 - free PDF download - http://t.co/TWCXwY6y\""
+					"text" : "\"Siobhan Britton\" \"1) this song is awesome 2) This video is awesome because it was filmed somewhere in @LCCLondon where I work now... http://t.co/h6oPNVrsyy\""
 				}
 
 			}
@@ -487,11 +554,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 454.0, 44.0, 120.0, 224.0 ],
+						"rect" : [ 569.0, 44.0, 120.0, 224.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -635,7 +702,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 325.0, 78.0, 20.0 ],
+					"patching_rect" : [ 13.0, 334.0, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -663,7 +730,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 352.0, 40.0, 20.0 ]
+					"patching_rect" : [ 13.0, 361.0, 40.0, 20.0 ]
 				}
 
 			}
@@ -677,8 +744,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 392.0, 30.0 ],
-					"text" : "searchtweet (Gokce Kinayoglu)",
+					"patching_rect" : [ 3.0, 2.0, 392.0, 30.0 ],
+					"text" : "searchtweet 1.1 (Gokce Kinayoglu)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -693,8 +760,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 321.0, 21.0 ],
-					"text" : "twitter reader is built on tweet4j library twitter4j.org",
+					"patching_rect" : [ 3.0, 31.0, 532.0, 21.0 ],
+					"text" : "twitter reader is built on the Twitter4j library by Yusuke Yomomoto (twitter4j.org)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -711,8 +778,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 554.0, 51.0 ],
-					"varname" : "autohelp_top_panel[3]"
+					"patching_rect" : [ 2.0, 2.0, 554.0, 51.0 ]
 				}
 
 			}
@@ -761,6 +827,25 @@
 					"hidden" : 0,
 					"midpoints" : [ 104.5, 246.0, 22.5, 246.0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"midpoints" : [ 111.5, 491.0, 20.5, 491.0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -870,6 +955,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -882,7 +976,7 @@
 					"destination" : [ "obj-83", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 311.0, 196.5, 311.0 ],
+					"midpoints" : [ 48.5, 324.0, 196.5, 324.0 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -892,7 +986,7 @@
 					"destination" : [ "obj-83", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 300.0, 109.5, 300.0 ],
+					"midpoints" : [ 22.5, 315.0, 109.5, 315.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -913,6 +1007,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 22.5, 449.0, 434.5, 449.0 ],
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

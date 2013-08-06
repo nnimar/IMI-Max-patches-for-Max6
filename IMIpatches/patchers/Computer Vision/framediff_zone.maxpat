@@ -525,7 +525,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 346.0, 30.0 ],
+					"patching_rect" : [ 3.0, 2.0, 346.0, 30.0 ],
 					"text" : "frame difference w/ manual zone",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -541,7 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 241.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 241.0, 21.0 ],
 					"text" : "draw the reactive area in the zone map",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1839,7 +1839,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 74.0, 350.941772, 50.0, 20.0 ]
+					"patching_rect" : [ 71.0, 344.941772, 50.0, 20.0 ]
 				}
 
 			}
@@ -1851,7 +1851,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.0, 371.941772, 206.0, 128.0 ],
+					"patching_rect" : [ 56.0, 369.941772, 206.0, 128.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 2
 				}
@@ -1866,7 +1866,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 45.0, 322.941772, 60.0, 20.0 ],
+					"patching_rect" : [ 42.0, 316.941772, 60.0, 20.0 ],
 					"text" : "jit.3m"
 				}
 
@@ -2028,7 +2028,6 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 35.5, 312.970886, 54.5, 312.970886 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
