@@ -655,7 +655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 191.0, 21.0 ],
+					"patching_rect" : [ 4.0, 32.0, 191.0, 21.0 ],
 					"text" : "smooth play recommendations ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1184,8 +1184,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 726.0, 50.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 3.0, 3.0, 726.0, 51.0 ]
 				}
 
 			}

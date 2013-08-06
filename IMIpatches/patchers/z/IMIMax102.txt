@@ -18,7 +18,7 @@
 21, <category> 3 Internet;
 22, IMI_xml "using XML in Max";
 23, IMI_weather_report "an example with detox";
-24, IMI_cosm2OSC "read a COSM feed";
+24, IMI_xively2OSC "read a xively feed";
 25, BBCnews "read the BBCnews";
 26, twitter_read "read the twitter api"; 
 27, facebook "read a facebook file"; 
@@ -30,7 +30,8 @@
 33, IMI_videograb_(4cam) "video grab for 2 to 4 cameras";
 34, IMI_timelapse "timelapse";
 35, grab2syphon "use webcam, netcam and dslr";
-36, grab_hotspot "grab movements";
+36, grab_position "return the position of a light";
+37, grab_hotspot "return the position of movements";
 40, -----------------------;
 
 41, <category> 5 Computer_Vision;

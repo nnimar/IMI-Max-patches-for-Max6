@@ -1,7 +1,7 @@
 Chlandi2D, "Chlandi plate simulation 2D";
 Chlandi3D, "Chlandi plate simulation 3D";
 Dood_Harmony_Drawing, "procedural drawing";
-Lightpaint-Example, "lightpainter";
+Lightpaint, "lightpainter";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 euclid, "Euclidean rhythm generator";
 sound2graph, "circular waveform";
