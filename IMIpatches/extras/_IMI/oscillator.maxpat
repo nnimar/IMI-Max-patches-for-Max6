@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -37,8 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.0, 238.0, 60.0, 24.0 ],
-					"presentation_rect" : [ 343.0, 238.0, 0.0, 0.0 ],
+					"patching_rect" : [ 353.0, 238.0, 60.0, 24.0 ],
 					"text" : "export"
 				}
 
@@ -53,9 +52,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 238.0, 64.0, 24.0 ],
-					"presentation_rect" : [ 155.0, 238.0, 0.0, 0.0 ],
-					"text" : "volume"
+					"patching_rect" : [ 155.0, 238.0, 103.0, 24.0 ],
+					"text" : "start recording"
 				}
 
 			}
@@ -68,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 240.0, 37.0, 18.0 ],
+					"patching_rect" : [ 311.0, 240.0, 37.0, 18.0 ],
 					"text" : "write"
 				}
 
@@ -94,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 265.0, 270.0, 122.0, 20.0 ],
+					"patching_rect" : [ 311.0, 270.0, 122.0, 20.0 ],
 					"text" : "buffer~ sound 10000"
 				}
 
@@ -204,7 +202,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -353,7 +351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 229.0, 21.0 ],
+					"patching_rect" : [ 2.0, 30.0, 229.0, 21.0 ],
 					"text" : "a simple oscillator",
 					"textcolor" : [ 0.836942, 0.836942, 0.836942, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -488,8 +486,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 454.0, 52.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 1.0, 1.0, 454.0, 51.0 ]
 				}
 
 			}

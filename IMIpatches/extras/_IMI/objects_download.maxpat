@@ -618,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 3.0, 58.0, 576.0, 573.0 ],
+					"patching_rect" : [ 2.0, 58.0, 576.0, 573.0 ],
 					"rowhead" : 1,
 					"rows" : 31,
 					"savemode" : 1,
@@ -636,8 +636,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 305.0, 30.0 ],
-					"text" : "objects download",
+					"patching_rect" : [ 3.0, 3.0, 305.0, 30.0 ],
+					"text" : "max objects download",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -670,7 +670,8 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 578.0, 51.0 ]
+					"patching_rect" : [ 2.0, 3.0, 578.0, 51.0 ],
+					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -698,7 +699,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 213.5, 58.5, 12.5, 58.5 ],
+					"midpoints" : [ 213.5, 58.5, 11.5, 58.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -726,7 +727,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 253.5, 58.5, 12.5, 58.5 ],
+					"midpoints" : [ 253.5, 58.5, 11.5, 58.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -771,7 +772,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "plugin_download.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

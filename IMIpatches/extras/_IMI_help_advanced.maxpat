@@ -55,7 +55,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 32.0, 31.0, 17.0 ],
+					"patching_rect" : [ 524.0, 30.0, 32.0, 17.0 ],
 					"text" : "r pan"
 				}
 
@@ -70,7 +70,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.0, 338.0, 31.0, 17.0 ],
+					"patching_rect" : [ 100.0, 303.0, 33.0, 17.0 ],
 					"text" : "r pan"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.0, 105.0, 31.0, 17.0 ],
+					"patching_rect" : [ 237.0, 71.0, 33.0, 17.0 ],
 					"text" : "r pan"
 				}
 
@@ -93,14 +93,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 303.0, 38.0, 18.0 ],
+					"patching_rect" : [ 17.0, 303.0, 36.0, 17.0 ],
 					"text" : "r color"
 				}
 
@@ -108,14 +108,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 717.0, 308.0, 41.0, 18.0 ],
+					"patching_rect" : [ 57.0, 303.0, 38.0, 17.0 ],
 					"text" : "r panel"
 				}
 
@@ -123,14 +123,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 716.0, 75.0, 41.0, 18.0 ],
+					"patching_rect" : [ 194.0, 71.0, 38.0, 17.0 ],
 					"text" : "r panel"
 				}
 
@@ -138,14 +138,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 671.0, 71.0, 38.0, 18.0 ],
+					"patching_rect" : [ 154.0, 71.0, 36.0, 17.0 ],
 					"text" : "r color"
 				}
 
@@ -160,7 +160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 38.0, 120.0, 16.0 ],
+					"patching_rect" : [ 305.0, 71.0, 120.0, 16.0 ],
 					"text" : "IMI Max patches v2.31+"
 				}
 
@@ -169,14 +169,14 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.501961, 0.0, 1.0 ],
 					"fontname" : "Arial Bold Italic",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 34.0, 24.0, 16.0 ],
+					"patching_rect" : [ 442.0, 31.0, 23.0, 15.0 ],
 					"text" : "init",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -204,7 +204,7 @@
 					"patching_rect" : [ 465.0, 50.0, 281.0, 21.0 ],
 					"spacing_x" : 1.0,
 					"spacing_y" : 0.0,
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
 					"tabs" : [ "Max101", "Max102", "Max103", "Max104" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"valign" : 2,
@@ -621,7 +621,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "global help", ",", "useful objects for Max", ",", "useful objects to handle lists", ",", "jitter overview", ",", "MSP overview" ],
+					"items" : [ ",", "useful objects for Max", ",", "useful objects to handle lists", ",", "a few rules to help you patching", ",", "a visual guide for visual programming" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -652,8 +652,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_max5", "IMI_toolbox", "list_toolbox", "Jitter_overview", "MSP_overview" ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
+					"tabs" : [ "IMI_toolbox", "list_toolbox", "Max_patching_rules", "Max_style_guide" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -1067,7 +1067,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
 					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_sensors_tools" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
@@ -1482,7 +1482,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
 					"tabs" : [ "IMI_jit_lcd", "IMI_jit_mgraphics", "mgraphics_drawing", "IMI_max_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
@@ -1899,7 +1899,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
 					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
@@ -2314,7 +2314,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
 					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "image_adjustment" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
@@ -2698,7 +2698,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "a few rules to help you patching", ",", "credits" ],
+					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2729,8 +2729,8 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
-					"tabcolor" : [ 0.0, 0.0, 0.0, 0.313726 ],
-					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "Max_patching_rules", "IMI_credits" ],
+					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
+					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "IMI_credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -2746,7 +2746,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 17.0, 262.0, 32.0 ],
+					"patching_rect" : [ 21.0, 17.0, 211.0, 32.0 ],
 					"text" : "IMI Max patches",
 					"textcolor" : [ 0.266117, 0.267399, 0.355108, 1.0 ]
 				}
@@ -2762,7 +2762,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 649.0, 31.0, 26.0, 17.0 ],
+					"patching_rect" : [ 54.0, 71.0, 27.0, 17.0 ],
 					"text" : "r bg"
 				}
 
@@ -2776,7 +2776,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.0, 31.0, 70.0, 17.0 ],
+					"patching_rect" : [ 82.0, 71.0, 71.0, 17.0 ],
 					"text" : "bgcolor 0. 0. 0."
 				}
 
@@ -2791,7 +2791,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 21.0, 36.0, 17.0 ],
+					"patching_rect" : [ 15.0, 70.0, 36.0, 17.0 ],
 					"text" : "r color"
 				}
 
@@ -2805,7 +2805,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.0, 51.0, 36.0, 17.0 ],
+					"patching_rect" : [ 271.0, 71.0, 36.0, 17.0 ],
 					"text" : "print _"
 				}
 
@@ -2820,7 +2820,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 220.0, 21.0, 48.0, 17.0 ],
+					"patching_rect" : [ 305.0, 18.0, 48.0, 17.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2829,13 +2829,13 @@
 				"box" : 				{
 					"color" : [ 0.7, 0.7, 0.7, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 702.0, 21.0, 53.0, 18.0 ],
+					"patching_rect" : [ 711.0, 19.0, 43.0, 17.0 ],
 					"text" : "onecopy"
 				}
 
@@ -2843,7 +2843,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.7, 0.7, 0.7, 1.0 ],
-					"fontname" : "Arial MT",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-31",
@@ -2851,7 +2851,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 32.0, 65.0, 17.0 ],
+					"patching_rect" : [ 465.0, 30.0, 55.0, 17.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -4322,7 +4322,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 436.0, 54.0, 57.0, 17.0 ],
+					"patching_rect" : [ 406.0, 51.0, 54.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4343,7 +4343,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-33",
 					"linecount" : 2,
@@ -4351,7 +4351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.0, 41.0, 85.0, 27.0 ],
+					"patching_rect" : [ 305.0, 38.0, 78.0, 25.0 ],
 					"text" : ";\rmax maxwindow"
 				}
 

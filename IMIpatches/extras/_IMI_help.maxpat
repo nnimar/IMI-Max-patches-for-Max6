@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
+		"rect" : [ 1.0, 44.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 556.0, 28.0, 32.0, 17.0 ],
+					"patching_rect" : [ 550.0, 29.0, 32.0, 17.0 ],
 					"text" : "r pan"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 71.0, 31.0, 17.0 ],
+					"patching_rect" : [ 233.0, 70.0, 31.0, 17.0 ],
 					"text" : "r pan"
 				}
 
@@ -114,7 +114,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 71.0, 38.0, 17.0 ],
+					"patching_rect" : [ 190.0, 70.0, 38.0, 17.0 ],
 					"text" : "r panel"
 				}
 
@@ -129,7 +129,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 71.0, 36.0, 17.0 ],
+					"patching_rect" : [ 151.0, 70.0, 36.0, 17.0 ],
 					"text" : "r color"
 				}
 
@@ -137,14 +137,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-36",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 221.0, 38.0, 111.0, 16.0 ],
+					"patching_rect" : [ 302.0, 72.0, 101.0, 15.0 ],
 					"text" : "IMI Max patches v2.31"
 				}
 
@@ -152,15 +152,15 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.501961, 0.0, 1.0 ],
-					"fontname" : "Arial Bold Italic",
-					"fontsize" : 10.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 34.0, 24.0, 16.0 ],
+					"patching_rect" : [ 463.0, 28.0, 24.0, 15.0 ],
 					"text" : "init",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -583,7 +583,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "Global",
+					"items" : "CV_Objects",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -605,7 +605,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "useful objects for Max", ",", "useful objects to handle lists", ",", "a few rules to help you patching", ",", "a visual guide for visual programming" ],
+					"items" : [ ",", "cv face find & replace", ",", "basic gesture interface", ",", "return the center mass (and the mass)", ",", "blob detections", ",", "miscellaneous cv", ",", "tools to use the kinect" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -637,7 +637,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_toolbox", "list_toolbox", "Max_patching_rules", "Max_style_guide" ],
+					"tabs" : [ "cv_faces.findreplace", "cv_HSflow", "cv_centroid", "cv_jit.blobs", "cv_misc", "kinect" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -998,7 +998,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Sensors",
+					"items" : "Computer_Vision",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1020,7 +1020,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "sensor tools" ],
+					"items" : [ ",", "track a colour with jit.findbounds", ",", "frame differencing and silhouette", ",", "background removal", ",", "softVNS v.region object", ",", "an interface to faceOSC", ",", "an interface to TSPS" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1052,7 +1052,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_sensors_tools" ],
+					"tabs" : [ "IMI_colourtrack", "c74_camera_data", "background_removal", "v.regions", "faceOSC", "openTSPS" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1413,7 +1413,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "Drawing",
+					"items" : "Grab",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1435,7 +1435,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to LCD", ",", "intro to jit.mgraphics", ",", "simple drawing with jit.magraphics", ",", "drawing like Processing" ],
+					"items" : [ ",", "simple video grab", ",", "video grab for 2 to 4 cameras", ",", "timelapse", ",", "use webcam, netcam and dslr", ",", "return the position of a light", ",", "return the position of movements" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1467,7 +1467,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_jit_lcd", "IMI_jit_mgraphics", "mgraphics_drawing", "IMI_max_processing" ],
+					"tabs" : [ "IMI_videograb", "IMI_videograb_(4cam)", "IMI_timelapse", "grab2syphon", "grab_position", "grab_hotspot" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1828,7 +1828,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Sound",
+					"items" : "Internet",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1850,7 +1850,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound player using sfplay", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
+					"items" : [ ",", "using XML in Max", ",", "an example with detox", ",", "read a COSM feed", ",", "read the BBCnews", ",", "read the twitter api", ",", "read a facebook file", ",", "regular expression" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1884,7 +1884,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_sound_player_sfplay", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
+					"tabs" : [ "IMI_xml", "IMI_weather_report", "IMI_cosm2OSC", "BBCnews", "twitter_read", "facebook", "regexp_tutorial" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -2245,7 +2245,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Video",
+					"items" : "Text",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2267,7 +2267,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "brightness and colouring" ],
+					"items" : [ ",", "text basics", ",", "text + alpha layer", ",", "typing text in a window", ",", "compare text against a database", ",", "a simple patch to place text", ",", "interactive text patch" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2299,7 +2299,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "image_adjustment" ],
+					"tabs" : [ "IMI_text_basics", "IMI_text_alpha", "IMI_type_text", "IMI_text_compare", "IMI_coll2text2d", "IMI_text_passingtime" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2660,7 +2660,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Introduction",
+					"items" : "Matrix",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2682,7 +2682,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
+					"items" : [ ",", "introduction to the jit Matrix", ",", "matrix and friends", ",", "matrix positioning", ",", "matrix lookup data", ",", "matrix feedback" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2714,7 +2714,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "IMI_credits" ],
+					"tabs" : [ "IMI_jit_matrix_introduction", "IMI_jit_matrix_and_friends", "IMI_matrix_positioning", "matrix_lookup", "matrix_feedback" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -2730,7 +2730,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 17.0, 262.0, 32.0 ],
+					"patching_rect" : [ 21.0, 17.0, 186.0, 32.0 ],
 					"text" : "IMI Max patches",
 					"textcolor" : [ 0.266117, 0.267399, 0.355108, 1.0 ]
 				}
@@ -2746,7 +2746,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 70.0, 26.0, 17.0 ],
+					"patching_rect" : [ 52.0, 70.0, 26.0, 17.0 ],
 					"text" : "r bg"
 				}
 
@@ -2760,7 +2760,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 71.0, 70.0, 17.0 ],
+					"patching_rect" : [ 79.0, 70.0, 70.0, 17.0 ],
 					"text" : "bgcolor 0. 0. 0."
 				}
 
@@ -2775,7 +2775,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 21.0, 36.0, 17.0 ],
+					"patching_rect" : [ 15.0, 70.0, 36.0, 17.0 ],
 					"text" : "r color"
 				}
 
@@ -2789,7 +2789,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.0, 52.0, 36.0, 17.0 ],
+					"patching_rect" : [ 265.0, 70.0, 36.0, 17.0 ],
 					"text" : "print _"
 				}
 
@@ -2804,7 +2804,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 220.0, 21.0, 48.0, 17.0 ],
+					"patching_rect" : [ 303.0, 19.0, 48.0, 17.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2813,13 +2813,13 @@
 				"box" : 				{
 					"color" : [ 0.7, 0.7, 0.7, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 702.0, 21.0, 53.0, 18.0 ],
+					"patching_rect" : [ 712.0, 19.0, 43.0, 17.0 ],
 					"text" : "onecopy"
 				}
 
@@ -2827,7 +2827,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.7, 0.7, 0.7, 1.0 ],
-					"fontname" : "Arial MT",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-31",
@@ -2835,7 +2835,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 29.0, 65.0, 17.0 ],
+					"patching_rect" : [ 490.0, 29.0, 58.0, 17.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -4230,7 +4230,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 425.0, 54.0, 57.0, 17.0 ],
+					"patching_rect" : [ 425.0, 48.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -4251,7 +4251,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-33",
 					"linecount" : 2,
@@ -4259,7 +4259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.0, 41.0, 85.0, 27.0 ],
+					"patching_rect" : [ 303.0, 38.0, 78.0, 25.0 ],
 					"text" : ";\rmax maxwindow"
 				}
 
@@ -4606,7 +4606,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 124.5, 88.0, 327.5, 88.0, 327.5, 88.0, 530.5, 88.0 ],
+					"midpoints" : [ 160.5, 88.0, 327.5, 88.0, 327.5, 88.0, 530.5, 88.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -4625,7 +4625,7 @@
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 124.5, 88.0, 201.5, 88.0, 201.5, 88.0, 278.5, 88.0 ],
+					"midpoints" : [ 160.5, 88.0, 201.5, 88.0, 201.5, 88.0, 278.5, 88.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -4653,7 +4653,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 163.5, 89.5, 281.5, 89.5 ],
+					"midpoints" : [ 199.5, 89.5, 281.5, 89.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -4672,7 +4672,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 163.5, 89.5, 533.5, 89.5 ],
+					"midpoints" : [ 199.5, 89.5, 533.5, 89.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -4821,7 +4821,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 206.5, 89.0, 39.5, 89.0 ],
+					"midpoints" : [ 242.5, 89.0, 39.5, 89.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -4831,7 +4831,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 206.5, 88.0, 543.5, 88.0 ],
+					"midpoints" : [ 242.5, 88.0, 543.5, 88.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -4841,7 +4841,7 @@
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 206.5, 88.0, 291.5, 88.0 ],
+					"midpoints" : [ 242.5, 88.0, 291.5, 88.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -4904,14 +4904,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "IMIMax101.txt",
+				"name" : "IMIMax102.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax102.txt",
+				"name" : "IMIMax101.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
