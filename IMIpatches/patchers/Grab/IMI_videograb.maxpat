@@ -2574,8 +2574,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 321.741425, 371.0, 66.0, 18.0 ],
-									"text" : "vdevice 4"
+									"patching_rect" : [ 321.741425, 371.0, 66.0, 18.0 ]
 								}
 
 							}
@@ -2772,7 +2771,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 477.258575, 31.0, 49.0, 18.0 ],
+									"patching_rect" : [ 478.258575, 32.0, 49.0, 18.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",

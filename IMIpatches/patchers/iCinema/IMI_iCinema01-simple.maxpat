@@ -1969,7 +1969,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 31.0, 578.0, 21.0 ],
-					"text" : "the first loop is the intro. When a spectator approaches he/she gets access to the rest of the movie. ",
+					"text" : "the first loop is the intro, when a spectator approaches he/she gets access to the rest of the movie. ",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

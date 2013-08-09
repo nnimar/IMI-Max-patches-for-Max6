@@ -30,19 +30,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 293.0, 255.0, 20.0 ],
-					"text" : "imi.apploader Ps3EYE_multicam PS3Eye.app"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
@@ -95,7 +82,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 448.0, 31.0, 50.0, 18.0 ],
+					"patching_rect" : [ 448.0, 32.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2039,7 +2026,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.090942, 97.818176, 114.0, 18.0 ],
+					"patching_rect" : [ 202.090942, 98.818176, 114.0, 18.0 ],
 					"text" : "getavailableservers"
 				}
 
@@ -2053,7 +2040,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 175.0, 242.023987, 300.0, 20.0 ],
+					"patching_rect" : [ 175.0, 222.023987, 300.0, 20.0 ],
 					"text" : "jit.gl.videoplane @blend_enable 1 @transform_reset 2"
 				}
 
