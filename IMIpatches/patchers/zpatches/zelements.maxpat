@@ -30,6 +30,62 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-61",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 451.0, 298.0, 111.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 147.0, 581.0, 100.0, 20.0 ],
+					"text" : "jit.dimmap help"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "visible",
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-29",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 627.0, 244.0, 90.0, 19.0 ],
+					"text_width" : 61.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 448.0, 119.5, 128.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 464.0, 308.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Arduino programs",
+					"texton" : "Stop",
+					"varname" : "textbutton[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -98,11 +154,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 216.5, 122.0, 20.0 ],
+					"patching_rect" : [ 265.0, 216.5, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 224.0, 279.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "launch document",
+					"text" : "open document",
 					"texton" : "Stop"
 				}
 
@@ -148,7 +204,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.0, 150.0, 122.0, 21.0 ],
+					"patching_rect" : [ 265.0, 150.0, 122.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -203,7 +259,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.0, 97.0, 90.0, 47.0 ],
+					"patching_rect" : [ 265.0, 97.0, 92.0, 47.0 ],
 					"text" : "imi.apploader faceOSC FaceOSC.app"
 				}
 
@@ -226,7 +282,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 35.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "launch website",
+					"text" : "open website",
 					"texton" : "Stop"
 				}
 
@@ -240,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 173.0, 91.0, 19.0 ],
+					"patching_rect" : [ 447.0, 183.0, 91.0, 19.0 ],
 					"text" : "SToolbox.scpt"
 				}
 
@@ -430,7 +486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 196.5, 47.0, 18.0 ],
+					"patching_rect" : [ 447.0, 206.5, 47.0, 18.0 ],
 					"text" : "wclose"
 				}
 
@@ -600,7 +656,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 447.0, 173.0, 76.0, 20.0 ],
+					"patching_rect" : [ 447.0, 183.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -627,26 +683,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.0, 219.5, 69.0, 20.0 ],
+					"patching_rect" : [ 447.0, 206.5, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-29",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 447.0, 138.5, 129.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 179.0, 382.0, 100.0, 20.0 ],
-					"text" : "Arduino programs"
 				}
 
 			}
@@ -659,7 +698,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 115.0, 103.0, 19.0 ],
+					"patching_rect" : [ 447.0, 148.0, 103.0, 19.0 ],
 					"text" : "SSensorsA.scpt"
 				}
 
@@ -809,7 +848,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 447.0, 140.0, 76.0, 20.0 ],
+					"patching_rect" : [ 447.0, 122.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -858,13 +897,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-47",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 612.0, 245.0, 107.0, 33.0 ],
-					"text" : "jit.window masker @fsmenubar 0"
+					"patching_rect" : [ 612.0, 269.0, 107.0, 47.0 ],
+					"text" : "jit.window masker @fsmenubar 0 @visible 0"
 				}
 
 			}
@@ -2056,7 +2095,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 449.0, 281.0, 108.0, 20.0 ],
+					"patching_rect" : [ 449.0, 267.0, 108.0, 20.0 ],
 					"text" : "load new and hide"
 				}
 
@@ -2211,7 +2250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 516.0, 281.0, 55.0, 17.0 ],
+					"patching_rect" : [ 516.0, 267.0, 55.0, 17.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -2385,7 +2424,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 449.0, 281.0, 65.0, 18.0 ],
+					"patching_rect" : [ 449.0, 267.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2417,7 +2456,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 449.0, 257.5, 128.0, 20.0 ],
+					"patching_rect" : [ 449.0, 243.5, 128.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -2436,7 +2475,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 292.0, 62.0, 20.0 ],
+					"patching_rect" : [ 612.0, 321.0, 62.0, 20.0 ],
 					"text" : "(rev 007)"
 				}
 
@@ -2941,21 +2980,6 @@
 			}
 , 			{
 				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-6",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 5.0, 277.0, 87.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 230.0, 310.0, 87.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.160198,
 					"hidden" : 1,
@@ -3008,7 +3032,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 6.0, 152.147247, 282.0 ],
+					"patching_rect" : [ 607.0, 6.0, 150.147247, 313.0 ],
 					"rounded" : 30
 				}
 
@@ -3170,7 +3194,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
@@ -3360,10 +3384,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-6", 1 ]
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

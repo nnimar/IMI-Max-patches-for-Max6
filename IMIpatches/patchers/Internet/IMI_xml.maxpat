@@ -29,25 +29,86 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 198.0, 311.0, 220.0, 20.0 ],
+					"text" : "example from the XML Tutorial by Tizag"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.419608, 0.521569, 0.521569, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
+					"fontsize" : 14.0,
+					"id" : "obj-57",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 659.0, 602.0, 92.0, 20.0 ],
+					"patching_rect" : [ 716.0, 604.0, 121.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 592.0, 79.0, 17.0 ],
+					"presentation_rect" : [ 687.0, 528.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "Regexp tutorial",
+					"text" : "open XML basics",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-55",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 601.0, 604.0, 108.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 667.0, 500.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "regexp tutorial",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-54",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 487.0, 604.0, 108.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "weather report",
 					"texton" : "Stop",
-					"textovercolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ]
+					"varname" : "textbutton[5]"
 				}
 
 			}
@@ -67,40 +128,16 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.419608, 0.521569, 0.521569, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-49",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 756.0, 602.0, 79.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "XML basics",
-					"texton" : "Stop",
-					"textovercolor" : [ 0.792157, 0.792157, 0.792157, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"hidden" : 1,
 					"id" : "obj-1",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 567.0, 581.0, 268.0, 41.0 ],
+					"patching_rect" : [ 717.0, 577.0, 119.0, 48.0 ],
 					"text" : ";\rmax launchbrowser http://www.xmlnews.org/docs/xml-basics.html"
 				}
 
@@ -114,7 +151,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 488.0, 181.0, 22.0 ],
+					"patching_rect" : [ 7.0, 493.0, 181.0, 22.0 ],
 					"text" : "DATA (or CONTENT)"
 				}
 
@@ -128,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 340.0, 150.0, 22.0 ],
+					"patching_rect" : [ 7.0, 345.0, 150.0, 22.0 ],
 					"text" : "ELEMENTS"
 				}
 
@@ -142,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 341.0, 150.0, 22.0 ],
+					"patching_rect" : [ 215.0, 346.0, 150.0, 22.0 ],
 					"text" : "TREE"
 				}
 
@@ -156,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 456.0, 150.0, 22.0 ],
+					"patching_rect" : [ 214.0, 461.0, 150.0, 22.0 ],
 					"text" : "ATTRIBUTES"
 				}
 
@@ -170,7 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 155.0, 113.0, 18.0 ],
+					"patching_rect" : [ 300.0, 151.0, 113.0, 18.0 ],
 					"text" : "read lemonade.xml"
 				}
 
@@ -477,7 +514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 488.0, 193.0, 100.0 ],
+					"patching_rect" : [ 7.0, 493.0, 193.0, 100.0 ],
 					"text" : "\n\nThe contents of an element :\n<age>25</age> \n\nand 25 is the data"
 				}
 
@@ -492,7 +529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 456.0, 227.0, 163.0 ],
+					"patching_rect" : [ 213.0, 461.0, 227.0, 163.0 ],
 					"text" : "\n\nYou can use an attribute inside \nan element (not advised) :\n\n<person sex=\"female\"></person>\n...or...\n<person>\n<sex>female</sex>\n</person>"
 				}
 
@@ -635,14 +672,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 735.0, 22.0, 60.0, 20.0 ],
+					"patching_rect" : [ 735.0, 32.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -858,7 +895,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 341.0, 194.0, 100.0 ],
+					"patching_rect" : [ 214.0, 346.0, 194.0, 100.0 ],
 					"text" : "\n\nThe tree is the level : \ninventory (tree 0),\ndrink /snack (tree 1), lemonade/pop/chips (tree 2)."
 				}
 
@@ -873,7 +910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 340.0, 198.0, 132.0 ],
+					"patching_rect" : [ 7.0, 345.0, 198.0, 132.0 ],
 					"text" : "\n\nEvery item is an element, counting from top to bottom (then left to right on the tree)\n \ninventory (element 0)\npop (element 5)"
 				}
 
@@ -887,7 +924,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 155.0, 350.0, 154.0 ],
+					"patching_rect" : [ 12.0, 151.0, 350.0, 154.0 ],
 					"pic" : "lemonade.jpg"
 				}
 
@@ -2901,8 +2938,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 354.0, 21.0 ],
-					"text" : "various methods to parse XML content or entire files in Max",
+					"patching_rect" : [ 2.0, 31.0, 675.0, 21.0 ],
+					"text" : "various methods to parse XML content or entire files in Max - prefer the JSON format, much easier to parse with Max.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -2988,7 +3025,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.0, 605.0, 98.0, 16.0 ],
+					"patching_rect" : [ 602.0, 604.0, 98.0, 16.0 ],
 					"text" : "load regexp_tutorial"
 				}
 
@@ -3005,6 +3042,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 453.0, 436.0, 106.0, 18.0 ],
 					"text" : "help dot.xmlread"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 486.0, 604.0, 142.0, 18.0 ],
+					"text" : "load IMI_weather_report"
 				}
 
 			}
@@ -3035,7 +3087,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 148.0, 412.0, 166.0 ]
+					"patching_rect" : [ 7.0, 144.0, 412.0, 166.0 ]
 				}
 
 			}
@@ -3166,10 +3218,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-49", 0 ]
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -3178,7 +3230,25 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}

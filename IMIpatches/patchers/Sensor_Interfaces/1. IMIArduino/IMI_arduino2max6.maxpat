@@ -388,7 +388,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 451.0, 44.0, 119.0, 239.0 ],
+						"rect" : [ 470.0, 350.0, 119.0, 239.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -414,7 +414,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 23.0, 178.0, 25.0, 25.0 ]
+									"patching_rect" : [ 24.0, 187.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -426,7 +426,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 23.0, 143.0, 20.0, 20.0 ]
+									"patching_rect" : [ 24.0, 152.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -439,7 +439,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 23.0, 99.0, 70.0, 27.0 ],
+									"patching_rect" : [ 24.0, 108.0, 70.0, 27.0 ],
 									"text" : "change"
 								}
 
@@ -453,7 +453,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 54.0, 23.0, 27.0 ],
+									"patching_rect" : [ 24.0, 63.0, 23.0, 27.0 ],
 									"text" : "!"
 								}
 
@@ -466,7 +466,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 23.0, 14.0, 25.0, 25.0 ]
+									"patching_rect" : [ 24.0, 23.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2015,7 +2015,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 578.0, 44.0, 346.0, 276.0 ],
+						"rect" : [ 469.0, 44.0, 346.0, 276.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2045,7 +2045,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 5.0, 325.0, 137.0 ],
-									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Scan the serial (2)"
+									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Press the button to scan the serial (2)"
 								}
 
 							}
@@ -2059,8 +2059,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 151.0, 325.0, 114.0 ],
-									"text" : "You can install the following programs : \nanalog2max6.ino (analog sensor) \nbutton2max6.ino (digital sensor)\nanalogArray.ino (analog sensor using an array)\n\nThis patch works with as many sensors as you may need\nbut works with only 6 as a standard, if you need more, we recomment Maxuino.\n"
+									"patching_rect" : [ 8.0, 151.0, 325.0, 127.0 ],
+									"text" : "You can install the following programs : \nanalog2max6.ino (6 analog sensor) \nbutton2max6.ino (6 digital sensor)\nanalogArray.ino (6 analog sensor using an array)\n\nThis patch works with as many sensors as you may need\nbut works with only 6 as a standard, if you need more, we recomment Maxuino.\n"
 								}
 
 							}

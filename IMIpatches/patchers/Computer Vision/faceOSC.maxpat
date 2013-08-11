@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 676.0, 356.0, 87.0, 20.0 ],
+					"patching_rect" : [ 678.0, 356.0, 87.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 310.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -64,7 +64,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.0, 356.0, 165.0, 20.0 ],
+					"patching_rect" : [ 510.0, 356.0, 165.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 184.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -586,7 +586,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 767.0, 356.0, 60.0, 20.0 ],
+					"patching_rect" : [ 767.0, 356.0, 60.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 471.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -609,7 +609,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 395.0, 356.0, 110.0, 20.0 ],
+					"patching_rect" : [ 397.0, 356.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -662,7 +662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 350.0, 315.0, 27.0 ],
+					"patching_rect" : [ 512.0, 350.0, 315.0, 27.0 ],
 					"text" : ";\rmax launchbrowser http://github.com/kylemcdonald/ofxFaceTracker"
 				}
 
@@ -677,21 +677,21 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 63.0, 429.0, 24.0 ],
+					"patching_rect" : [ 133.0, 62.0, 429.0, 24.0 ],
 					"text" : "receives message from the faceOSC application using the OSC port \"8338\""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 63.0, 114.0, 22.0 ],
+					"patching_rect" : [ 10.0, 63.0, 120.0, 22.0 ],
 					"text" : "udpreceive 8338"
 				}
 
@@ -720,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 679.0, 352.0, 50.0, 19.0 ],
+					"patching_rect" : [ 681.0, 352.0, 50.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -735,7 +735,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 680.0, 353.0, 137.0, 17.0 ],
+					"patching_rect" : [ 682.0, 353.0, 137.0, 17.0 ],
 					"text" : "load mini_syphon_client"
 				}
 
@@ -750,7 +750,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 506.0, 330.0, 128.0, 47.0 ],
+					"patching_rect" : [ 508.0, 330.0, 128.0, 47.0 ],
 					"text" : "imi.apploader faceOSC FaceOSCSyphon.app"
 				}
 
@@ -765,7 +765,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 393.0, 330.0, 90.0, 47.0 ],
+					"patching_rect" : [ 395.0, 330.0, 90.0, 47.0 ],
 					"text" : "imi.apploader faceOSC FaceOSC.app"
 				}
 

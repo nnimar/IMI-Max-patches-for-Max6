@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 544.0, 591.0 ],
+		"rect" : [ 1.0, 44.0, 517.0, 671.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,12 +32,184 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"id" : "obj-87",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.0, 309.0, 126.0, 22.0 ],
+					"presentation_rect" : [ 226.0, 308.0, 0.0, 0.0 ],
+					"text" : "Phidget Servo (8)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-86",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.0, 283.0, 126.0, 22.0 ],
+					"presentation_rect" : [ 226.0, 283.0, 0.0, 0.0 ],
+					"text" : "Phidget LED (64)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-85",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 12.0, 310.0, 171.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 389.0, 283.0, 100.0, 20.0 ],
+					"text" : "PhidgetAdvancedServo 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-84",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 310.0, 163.0, 18.0 ],
+					"presentation_rect" : [ 233.0, 300.0, 0.0, 0.0 ],
+					"text" : "help PhidgetAdvancedServo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-79",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 12.0, 283.0, 107.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 34.0, 294.0, 100.0, 20.0 ],
+					"text" : "PhidgetLED-64"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 283.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 294.0, 0.0, 0.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-83",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 283.0, 94.0, 18.0 ],
+					"presentation_rect" : [ 35.0, 294.0, 0.0, 0.0 ],
+					"text" : "help Phidgetled"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-35",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 12.0, 256.0, 83.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 256.0, 100.0, 20.0 ],
+					"text" : "PhilipsHue"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 256.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 256.0, 94.0, 18.0 ],
+					"text" : "load PhilipsHue"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-69",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.0, 256.0, 175.0, 22.0 ],
+					"text" : "PhilipsHue control"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 271.0, 266.0, 22.0 ],
-					"presentation_rect" : [ 226.0, 324.0, 0.0, 0.0 ],
+					"patching_rect" : [ 227.0, 351.0, 266.0, 22.0 ],
 					"text" : "interface for the leap motion (version 0.2)"
 				}
 
@@ -52,7 +224,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 272.0, 108.0, 20.0 ],
+					"patching_rect" : [ 12.0, 352.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 315.0, 100.0, 20.0 ],
 					"text" : "aka.leapmotion"
@@ -69,8 +241,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 274.0, 114.0, 17.0 ],
-					"presentation_rect" : [ 129.0, 315.0, 0.0, 0.0 ],
+					"patching_rect" : [ 12.0, 354.0, 114.0, 17.0 ],
 					"text" : "help aka.leapmotion"
 				}
 
@@ -85,8 +256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 274.0, 52.0, 19.0 ],
-					"presentation_rect" : [ 129.0, 315.0, 0.0, 0.0 ],
+					"patching_rect" : [ 12.0, 354.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -147,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 224.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 228.0, 175.0, 22.0 ],
 					"text" : "Movie 2 LED (WS2801)"
 				}
 
@@ -163,7 +333,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 399.0, 136.0, 20.0 ],
+					"patching_rect" : [ 11.0, 479.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 446.0, 100.0, 20.0 ],
 					"text" : "OSC synching video"
@@ -179,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 397.0, 269.0, 22.0 ],
+					"patching_rect" : [ 227.0, 477.0, 269.0, 22.0 ],
 					"text" : "synch two or more computers with OSC"
 				}
 
@@ -194,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 403.0, 101.0, 16.0 ],
+					"patching_rect" : [ 11.0, 483.0, 101.0, 16.0 ],
 					"text" : "load synching_video"
 				}
 
@@ -209,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 401.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 481.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -223,7 +393,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 476.0, 116.0, 22.0 ],
+					"patching_rect" : [ 227.0, 556.0, 116.0, 22.0 ],
 					"text" : "Iannix controler"
 				}
 
@@ -239,7 +409,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 477.0, 73.0, 20.0 ],
+					"patching_rect" : [ 11.0, 557.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 417.0, 100.0, 20.0 ],
 					"text" : "IanniX"
@@ -256,7 +426,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 480.0, 61.0, 16.0 ],
+					"patching_rect" : [ 11.0, 560.0, 61.0, 16.0 ],
 					"text" : "load IanniX"
 				}
 
@@ -271,7 +441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 478.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 558.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -285,7 +455,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 559.0, 143.0, 22.0 ],
+					"patching_rect" : [ 227.0, 639.0, 143.0, 22.0 ],
 					"text" : "osc test application"
 				}
 
@@ -301,7 +471,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 559.0, 90.0, 20.0 ],
+					"patching_rect" : [ 11.0, 639.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 541.0, 100.0, 20.0 ],
 					"text" : "OSCTestApp"
@@ -317,7 +487,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 98.0, 155.0, 22.0 ],
+					"patching_rect" : [ 227.0, 98.0, 155.0, 22.0 ],
 					"text" : "Touch OSC (iPhone)"
 				}
 
@@ -378,7 +548,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 425.0, 177.0, 22.0 ],
+					"patching_rect" : [ 227.0, 505.0, 177.0, 22.0 ],
 					"text" : "OSCseq (OSC sequencer)"
 				}
 
@@ -394,7 +564,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 425.0, 63.0, 20.0 ],
+					"patching_rect" : [ 11.0, 505.0, 63.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSCseq"
@@ -411,7 +581,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 426.0, 107.0, 16.0 ],
+					"patching_rect" : [ 11.0, 506.0, 107.0, 16.0 ],
 					"text" : "load OSCseq.maxpat"
 				}
 
@@ -489,7 +659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 71.0, 155.0, 22.0 ],
+					"patching_rect" : [ 227.0, 71.0, 155.0, 22.0 ],
 					"text" : "Fantastick (iPhone)"
 				}
 
@@ -552,7 +722,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 372.0, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 452.0, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 419.0, 100.0, 20.0 ],
 					"text" : "Open Sound Control"
@@ -570,7 +740,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 451.0, 75.0, 20.0 ],
+					"patching_rect" : [ 11.0, 531.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 155.0, 416.0, 100.0, 20.0 ],
 					"text" : "OSControl"
@@ -586,7 +756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 324.0, 110.0, 22.0 ],
+					"patching_rect" : [ 227.0, 404.0, 110.0, 22.0 ],
 					"text" : "Bluetooth Witilt"
 				}
 
@@ -601,7 +771,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 324.0, 71.0, 20.0 ],
+					"patching_rect" : [ 12.0, 404.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 526.0, 100.0, 20.0 ],
 					"text" : "Witilt"
@@ -618,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 324.0, 58.0, 17.0 ],
+					"patching_rect" : [ 12.0, 404.0, 58.0, 17.0 ],
 					"text" : "load witilt"
 				}
 
@@ -633,7 +803,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 327.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 407.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -647,7 +817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 298.0, 236.0, 22.0 ],
+					"patching_rect" : [ 227.0, 378.0, 236.0, 22.0 ],
 					"text" : "GPS reading and parsing bluetooth"
 				}
 
@@ -662,7 +832,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 298.0, 71.0, 20.0 ],
+					"patching_rect" : [ 12.0, 378.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 490.0, 100.0, 20.0 ],
 					"text" : "GPS"
@@ -679,7 +849,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 298.0, 100.0, 17.0 ],
+					"patching_rect" : [ 12.0, 378.0, 100.0, 17.0 ],
 					"text" : "load GPS_simple"
 				}
 
@@ -694,7 +864,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 298.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 378.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -708,7 +878,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 532.0, 183.0, 22.0 ],
+					"patching_rect" : [ 227.0, 612.0, 183.0, 22.0 ],
 					"text" : "osc tools (osc java for max)"
 				}
 
@@ -724,7 +894,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 532.0, 73.0, 20.0 ],
+					"patching_rect" : [ 11.0, 612.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 307.0, 100.0, 20.0 ],
 					"text" : "OSC tools"
@@ -741,7 +911,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 200.0, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 200.0, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 197.0, 100.0, 20.0 ],
 					"text" : "Jitter2DMX"
@@ -757,7 +927,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 199.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 199.0, 175.0, 22.0 ],
 					"text" : "using Jitter for DMX"
 				}
 
@@ -771,7 +941,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 451.0, 246.0, 22.0 ],
+					"patching_rect" : [ 227.0, 531.0, 246.0, 22.0 ],
 					"text" : "control other applications using OSC"
 				}
 
@@ -786,7 +956,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 453.0, 98.0, 16.0 ],
+					"patching_rect" : [ 11.0, 533.0, 98.0, 16.0 ],
 					"text" : "load IMI_OSControl"
 				}
 
@@ -801,7 +971,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 370.0, 93.0, 16.0 ],
+					"patching_rect" : [ 11.0, 450.0, 93.0, 16.0 ],
 					"text" : "load 00-OSC_intro"
 				}
 
@@ -815,7 +985,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 504.0, 141.0, 22.0 ],
+					"patching_rect" : [ 227.0, 584.0, 141.0, 22.0 ],
 					"text" : "osc-from-processing"
 				}
 
@@ -829,7 +999,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 370.0, 142.0, 22.0 ],
+					"patching_rect" : [ 227.0, 450.0, 142.0, 22.0 ],
 					"text" : "osc tutorial (CNMAT)"
 				}
 
@@ -845,7 +1015,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 504.0, 116.0, 20.0 ],
+					"patching_rect" : [ 11.0, 584.0, 116.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "OSC2Processing"
@@ -862,7 +1032,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 504.0, 141.0, 17.0 ],
+					"patching_rect" : [ 11.0, 584.0, 141.0, 17.0 ],
 					"text" : "load osc-from-processing"
 				}
 
@@ -877,7 +1047,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 560.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 640.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -925,7 +1095,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 125.0, 210.0, 22.0 ],
+					"patching_rect" : [ 227.0, 125.0, 210.0, 22.0 ],
 					"text" : "Tuio (tangible user interfaces)"
 				}
 
@@ -939,7 +1109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 226.0, 172.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 172.0, 175.0, 22.0 ],
 					"text" : "DMX protocol (lighting, ...)"
 				}
 
@@ -998,7 +1168,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 172.0, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 172.0, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "DMX"
@@ -1092,7 +1262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 532.0, 67.0, 15.0 ],
+					"patching_rect" : [ 11.0, 612.0, 67.0, 15.0 ],
 					"text" : "load OSCtools"
 				}
 
@@ -1137,7 +1307,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 532.0, 103.0, 47.0 ],
+					"patching_rect" : [ 11.0, 612.0, 103.0, 47.0 ],
 					"text" : "imi.apploader OSC OSCTestApp.app"
 				}
 
@@ -1153,7 +1323,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 355.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 436.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -1169,7 +1339,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 259.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 339.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1185,7 +1355,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 158.0, 530.0, 4.0 ],
+					"patching_rect" : [ 12.0, 158.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[5]"
 				}
 
@@ -1201,7 +1371,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 541.0, 32.0 ],
+					"patching_rect" : [ 2.0, 2.0, 512.0, 32.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -1339,8 +1509,17 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 277.0, 21.5, 277.0 ],
+					"midpoints" : [ 21.5, 357.0, 21.5, 357.0 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -1376,7 +1555,7 @@
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 301.0, 21.5, 301.0 ],
+					"midpoints" : [ 21.5, 381.0, 21.5, 381.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1424,7 +1603,7 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 330.0, 21.5, 330.0 ],
+					"midpoints" : [ 21.5, 410.0, 21.5, 410.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1435,6 +1614,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -1548,6 +1736,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1561,6 +1758,33 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}

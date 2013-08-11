@@ -404,10 +404,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 716.0, 482.5, 63.0, 20.0 ],
+					"patching_rect" : [ 700.0, 481.5, 80.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 473.0, 456.5, 100.0, 20.0 ],
-					"text" : "jit.rota"
+					"text" : "jit.rota help"
 				}
 
 			}
@@ -421,10 +421,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 625.0, 482.5, 87.0, 20.0 ],
+					"patching_rect" : [ 581.0, 481.5, 111.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 132.0, 566.0, 100.0, 20.0 ],
-					"text" : "jit.dimmap"
+					"text" : "jit.dimmap help"
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 623.0, 482.5, 88.0, 17.0 ],
+					"patching_rect" : [ 605.0, 481.5, 88.0, 17.0 ],
 					"text" : "help jit.dimmap"
 				}
 
@@ -453,7 +453,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 629.0, 482.5, 52.0, 19.0 ],
+					"patching_rect" : [ 611.0, 481.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1085,7 +1085,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 2.0, 307.0, 30.0 ],
-					"text" : "IMI video grab 4 camera",
+					"text" : "IMI video grab 4 iFire cameras",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1581,7 +1581,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 715.0, 482.5, 52.0, 19.0 ],
+					"patching_rect" : [ 712.0, 481.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1596,7 +1596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 717.0, 482.5, 67.0, 17.0 ],
+					"patching_rect" : [ 714.0, 481.5, 67.0, 17.0 ],
 					"text" : "help jit.rota"
 				}
 

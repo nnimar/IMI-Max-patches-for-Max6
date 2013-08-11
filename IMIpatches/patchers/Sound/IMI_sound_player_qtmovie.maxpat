@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 32.0, 523.0, 21.0 ],
-					"text" : "when a sensor hits a certain value (100), start the sound, below that value, stop the sound.",
+					"text" : "when a sensor hits a certain value (100), start the sound, below that value, stop it.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}

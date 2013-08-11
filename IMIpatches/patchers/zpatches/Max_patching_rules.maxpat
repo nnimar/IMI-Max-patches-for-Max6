@@ -195,7 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 3.0, 221.0, 53.0 ],
+					"patching_rect" : [ 0.0, 3.0, 221.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 2.0, 273.0, 30.0 ],
 					"text" : "Max's patching rules\n",
@@ -284,7 +284,7 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -8.0, 0.0 ],
+					"offset" : [ -4734.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.274536, 57.0, 589.0, 370.0 ]

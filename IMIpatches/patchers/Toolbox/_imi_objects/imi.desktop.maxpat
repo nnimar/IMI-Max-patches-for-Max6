@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -89,7 +89,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 138.0, 193.0, 22.0 ],
-					"text" : "sprintf #1 %s/Desktop/%s"
+					"text" : "sprintf #1 %sDesktop/%s"
 				}
 
 			}

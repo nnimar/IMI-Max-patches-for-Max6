@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 443.0, 477.0 ],
+		"rect" : [ 0.0, 44.0, 443.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 456.0, 44.0, 285.0, 291.0 ],
+						"rect" : [ 452.0, 44.0, 283.0, 257.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -99,27 +99,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "bang", "", "clear" ],
-									"patching_rect" : [ 21.0, 116.0, 91.0, 23.0 ],
-									"text" : "t bang l clear"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
 									"frgb" : 0.0,
-									"id" : "obj-4",
+									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 115.0, 159.0, 23.0 ],
-									"text" : "order : clear, draw, bang"
+									"patching_rect" : [ 62.0, 7.0, 150.0, 22.0 ],
+									"text" : "convert ARGB to RGB"
 								}
 
 							}
@@ -127,14 +113,43 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "", "clear" ],
+									"patching_rect" : [ 21.0, 129.0, 79.0, 20.0 ],
+									"text" : "t bang l clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"frgb" : 0.0,
-									"id" : "obj-2",
-									"linecount" : 2,
+									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 88.0, 38.0, 139.0, 34.0 ],
-									"text" : "convert ARGB to RGB (we get rid of the alpha)"
+									"patching_rect" : [ 103.0, 127.0, 158.0, 24.0 ],
+									"text" : "order : clear, draw, bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 82.0, 58.0, 127.0, 24.0 ],
+									"text" : "get rid of the alpha"
 								}
 
 							}
@@ -147,7 +162,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 21.0, 45.0, 57.0, 20.0 ],
+									"patching_rect" : [ 21.0, 61.0, 57.0, 20.0 ],
 									"text" : "zl slice 1"
 								}
 
@@ -155,13 +170,13 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontsize" : 12.0,
 									"id" : "obj-31",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 82.0, 70.0, 18.0 ],
+									"patching_rect" : [ 21.0, 95.0, 83.0, 20.0 ],
 									"text" : "prepend brgb"
 								}
 
@@ -175,7 +190,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 57.0, 163.0, 186.0, 27.0 ],
+									"patching_rect" : [ 21.0, 179.0, 186.0, 27.0 ],
 									"text" : "jit.lcd 4 char 100 100"
 								}
 
@@ -188,7 +203,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 12.0, 25.0, 25.0 ]
+									"patching_rect" : [ 21.0, 7.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -199,7 +214,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 57.0, 250.0, 25.0, 25.0 ]
+									"patching_rect" : [ 21.0, 221.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -254,7 +269,6 @@
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 68.5, 73.0, 30.5, 73.0 ],
 									"source" : [ "obj-42", 1 ]
 								}
 

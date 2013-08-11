@@ -37,7 +37,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 481.0, 132.0, 20.0 ],
+					"patching_rect" : [ 14.0, 482.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 486.0, 100.0, 20.0 ],
 					"text" : "capsense2max (12)"
@@ -54,8 +54,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 482.0, 136.0, 17.0 ],
-					"text" : "load IMI_capsense2max"
+					"patching_rect" : [ 15.0, 484.0, 149.0, 17.0 ],
+					"text" : "load IMI_capsense2max12"
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 481.0, 52.0, 19.0 ],
+					"patching_rect" : [ 14.0, 484.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 376.0, 544.5, 155.0, 20.0 ],
+					"patching_rect" : [ 376.0, 543.5, 155.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 119.0, 322.0, 100.0, 20.0 ],
 					"text" : "Sensor interface folder"
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 238.0, 545.0, 128.0, 20.0 ],
+					"patching_rect" : [ 238.0, 544.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 551.0, 100.0, 20.0 ],
 					"text" : "IMI_sensors_tools"
@@ -225,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 545.0, 130.0, 17.0 ],
+					"patching_rect" : [ 241.0, 544.0, 130.0, 17.0 ],
 					"text" : "load IMI_sensors_tools"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.0, 545.0, 52.0, 19.0 ],
+					"patching_rect" : [ 240.0, 544.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -286,7 +286,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 452.0, 212.0, 22.0 ],
+					"patching_rect" : [ 259.0, 450.0, 212.0, 22.0 ],
 					"text" : "Misc interfaces with the Arduino"
 				}
 
@@ -301,7 +301,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 134.0, 452.0, 56.0, 20.0 ],
+					"patching_rect" : [ 134.0, 450.0, 56.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 544.0, 100.0, 20.0 ],
 					"text" : "BlinkM"
@@ -318,7 +318,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 452.0, 70.0, 17.0 ],
+					"patching_rect" : [ 134.0, 450.0, 70.0, 17.0 ],
 					"text" : "load BlinkM"
 				}
 
@@ -333,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 452.0, 52.0, 19.0 ],
+					"patching_rect" : [ 131.0, 450.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -348,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 452.0, 103.0, 20.0 ],
+					"patching_rect" : [ 15.0, 450.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 549.0, 100.0, 20.0 ],
 					"text" : "Max4Lightuino"
@@ -365,7 +365,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 452.0, 131.0, 17.0 ],
+					"patching_rect" : [ 15.0, 450.0, 131.0, 17.0 ],
 					"text" : "load IMI_max4lightuino"
 				}
 
@@ -380,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 455.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 453.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -665,8 +665,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 153.0, 249.0, 22.0 ],
-					"text" : "Install StandardFirmata on the Arduino"
+					"patching_rect" : [ 259.0, 153.0, 270.0, 22.0 ],
+					"text" : "Install ConfigurableFirmata on the Arduino"
 				}
 
 			}
@@ -909,7 +909,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 375.5, 545.0, 76.0, 20.0 ],
+					"patching_rect" : [ 375.5, 544.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -937,7 +937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 375.5, 524.0, 94.0, 19.0 ],
+					"patching_rect" : [ 375.5, 523.0, 94.0, 19.0 ],
 					"text" : "SSensors.scpt"
 				}
 

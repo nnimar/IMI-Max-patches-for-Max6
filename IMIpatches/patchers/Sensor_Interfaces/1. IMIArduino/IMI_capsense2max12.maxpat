@@ -290,7 +290,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 215.75, 522.0, 50.0, 20.0 ]
+					"patching_rect" : [ 215.75, 516.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -304,7 +304,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 202.75, 494.0, 50.0, 20.0 ]
+					"patching_rect" : [ 202.75, 488.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.75, 467.0, 50.0, 20.0 ]
+					"patching_rect" : [ 188.75, 461.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -332,7 +332,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.75, 439.0, 50.0, 20.0 ]
+					"patching_rect" : [ 173.75, 433.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -346,7 +346,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 160.75, 408.0, 50.0, 20.0 ]
+					"patching_rect" : [ 160.75, 402.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -360,7 +360,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 147.5, 381.0, 50.0, 20.0 ]
+					"patching_rect" : [ 147.5, 375.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -374,7 +374,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.25, 522.0, 50.0, 20.0 ]
+					"patching_rect" : [ 135.25, 516.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -388,7 +388,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 119.0, 494.0, 50.0, 20.0 ]
+					"patching_rect" : [ 119.0, 488.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -402,7 +402,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 107.75, 467.0, 50.0, 20.0 ]
+					"patching_rect" : [ 107.75, 461.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -416,7 +416,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 91.5, 439.0, 50.0, 20.0 ]
+					"patching_rect" : [ 91.5, 433.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -430,7 +430,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.25, 408.0, 50.0, 20.0 ]
+					"patching_rect" : [ 81.25, 402.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -444,7 +444,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 66.0, 381.0, 50.0, 20.0 ]
+					"patching_rect" : [ 66.0, 375.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -457,7 +457,7 @@
 					"numinlets" : 12,
 					"numoutlets" : 12,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 67.0, 352.0, 167.5, 20.0 ],
+					"patching_rect" : [ 67.0, 346.0, 167.5, 20.0 ],
 					"text" : "route a b c d e f g h i j k"
 				}
 
@@ -1879,7 +1879,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 578.0, 44.0, 346.0, 276.0 ],
+						"rect" : [ 484.0, 44.0, 343.0, 261.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1909,7 +1909,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 5.0, 325.0, 137.0 ],
-									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Scan the serial (2)"
+									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Press the button to scan the serial (2)"
 								}
 
 							}
@@ -1919,12 +1919,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 151.0, 325.0, 114.0 ],
-									"text" : "You can install the following programs : \nanalog2max6.ino (analog sensor) \nbutton2max6.ino (digital sensor)\nanalogArray.ino (analog sensor using an array)\n\nThis patch works with as many sensors as you may need\nbut works with only 6 as a standard, if you need more, we recomment Maxuino.\n"
+									"patching_rect" : [ 8.0, 151.0, 325.0, 100.0 ],
+									"text" : "You can install the following programs : \ncapsense2max12.ino (capsense sensor) \n\nThis patch works with as many sensors as you may need\nbut works with only 6 as a standard, if you need more, \nwe recomment Maxuino.\n"
 								}
 
 							}

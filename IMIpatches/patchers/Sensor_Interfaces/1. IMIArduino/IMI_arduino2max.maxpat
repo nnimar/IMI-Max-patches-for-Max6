@@ -1453,7 +1453,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 578.0, 44.0, 346.0, 205.0 ],
+						"rect" : [ 578.0, 44.0, 348.0, 244.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1483,7 +1483,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 5.0, 325.0, 137.0 ],
-									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Scan the serial (2)"
+									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the  metro on (1)\n\n5. Press the button to scan the serial (2)"
 								}
 
 							}
@@ -1493,12 +1493,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-27",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 150.0, 323.0, 47.0 ],
-									"text" : "You can either Install analog2max.ino (analog sensor) \nor button2max.ino (digital sensor ). This patch works with only one sensor at a time."
+									"patching_rect" : [ 10.0, 150.0, 343.0, 74.0 ],
+									"text" : "You can install the following programs :\nanalog2max.ino (analog sensor) \nbutton2max.ino (digital sensor) \n\nThis patch works with only one sensor at a time."
 								}
 
 							}
@@ -1827,8 +1827,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 32.0, 296.0, 21.0 ],
-					"text" : "monitor one analog or digital input on the Arduino ",
+					"patching_rect" : [ 5.0, 32.0, 454.0, 21.0 ],
+					"text" : "monitor one analog / digital input on the Arduino, press the button (2) to scan ",
 					"textcolor" : [ 0.868223, 0.868086, 0.868238, 1.0 ]
 				}
 

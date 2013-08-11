@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 116.0, 96.0, 17.0 ],
+					"patching_rect" : [ 28.0, 119.0, 96.0, 17.0 ],
 					"text" : "read sophie.mov"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 116.0, 65.0, 18.0 ],
+					"patching_rect" : [ 29.0, 119.0, 65.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 29.0, 117.0, 81.0, 18.0 ],
+					"patching_rect" : [ 29.0, 120.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -141,7 +141,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.0, 241.0, 14.0, 27.0 ],
+					"patching_rect" : [ 362.0, 262.0, 14.0, 27.0 ],
 					"pic" : "down.pict"
 				}
 
@@ -155,7 +155,7 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 187.0, 15.0, 28.0 ],
+					"patching_rect" : [ 362.0, 209.0, 15.0, 28.0 ],
 					"pic" : "up.pict"
 				}
 

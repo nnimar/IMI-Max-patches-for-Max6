@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 180.0, 81.0, 17.0 ],
+					"patching_rect" : [ 124.0, 180.0, 77.0, 17.0 ],
 					"text" : "open bell.aif"
 				}
 
@@ -843,7 +843,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 81.0, 150.0, 20.0, 20.0 ]
+					"patching_rect" : [ 81.0, 138.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -854,7 +854,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.0, 150.0, 20.0, 20.0 ]
+					"patching_rect" : [ 7.0, 138.0, 20.0, 20.0 ]
 				}
 
 			}
