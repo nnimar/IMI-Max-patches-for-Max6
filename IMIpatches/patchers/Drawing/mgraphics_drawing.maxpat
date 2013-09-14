@@ -64,8 +64,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 311.0, 442.0, 129.0, 20.0 ],
-					"text" : "print cmds @popup 1"
+					"patching_rect" : [ 311.0, 438.0, 66.0, 20.0 ],
+					"text" : "print cmds"
 				}
 
 			}
@@ -458,7 +458,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 311.0, 410.0, 101.0, 20.0 ],
+					"patching_rect" : [ 311.0, 406.0, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -600,7 +600,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 320.5, 435.0, 430.0, 435.0, 430.0, 121.0, 19.5, 121.0 ],
+					"midpoints" : [ 320.5, 431.0, 418.0, 431.0, 418.0, 121.0, 19.5, 121.0 ],
 					"source" : [ "obj-132", 0 ]
 				}
 

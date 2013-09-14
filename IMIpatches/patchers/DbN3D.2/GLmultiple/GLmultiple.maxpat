@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 437.0, 416.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 427.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -88,8 +88,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 226.0, 108.0, 22.0 ],
-					"text" : "basic textures"
+					"patching_rect" : [ 195.0, 226.0, 170.0, 22.0 ],
+					"text" : "textures with GLmultiple"
 				}
 
 			}
@@ -107,11 +107,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 226.0, 125.0, 20.0 ],
+					"patching_rect" : [ 12.0, 225.0, 138.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 41.0, 246.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLmultiple_texture",
+					"text" : "GLmultiple_textures",
 					"texton" : "Stop"
 				}
 
@@ -119,15 +119,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 226.0, 127.0, 17.0 ],
-					"text" : "load GLmultiple_texture"
+					"patching_rect" : [ 11.0, 424.0, 122.0, 16.0 ],
+					"text" : "load GLmultiple_textures"
 				}
 
 			}
@@ -178,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 46.0, 18.0 ],
+					"patching_rect" : [ 11.0, 404.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -242,14 +242,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 115.0, 17.0 ],
+					"patching_rect" : [ 11.0, 424.0, 106.0, 16.0 ],
 					"text" : "load GLmultiple_intro"
 				}
 
@@ -280,14 +280,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 136.0, 17.0 ],
+					"patching_rect" : [ 11.0, 422.0, 124.0, 16.0 ],
 					"text" : "load GLmesh2GLmultiple"
 				}
 
@@ -333,14 +333,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 116.0, 17.0 ],
+					"patching_rect" : [ 11.0, 422.0, 107.0, 16.0 ],
 					"text" : "load boid2d2GLmesh"
 				}
 
@@ -348,14 +348,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-7",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 98.0, 17.0 ],
+					"patching_rect" : [ 11.0, 423.0, 91.0, 16.0 ],
 					"text" : "load GLmultiple+"
 				}
 
@@ -363,14 +363,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-46",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 147.0, 17.0 ],
+					"patching_rect" : [ 11.0, 422.0, 134.0, 16.0 ],
 					"text" : "load Particles2GLgridshape"
 				}
 
@@ -389,7 +389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 170.0, 130.0, 20.0 ],
+					"patching_rect" : [ 11.0, 170.0, 130.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 539.0, 407.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -401,14 +401,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-5",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 130.0, 17.0 ],
+					"patching_rect" : [ 11.0, 425.0, 119.0, 16.0 ],
 					"text" : "load GLmultiple_queries"
 				}
 
@@ -446,7 +446,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 71.0, 17.0 ],
+					"patching_rect" : [ 11.0, 423.0, 71.0, 17.0 ],
 					"text" : "load vibgyor"
 				}
 
@@ -635,14 +635,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-36",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 409.0, 120.0, 17.0 ],
+					"patching_rect" : [ 11.0, 423.0, 110.0, 16.0 ],
 					"text" : "load GLmultiple_order"
 				}
 

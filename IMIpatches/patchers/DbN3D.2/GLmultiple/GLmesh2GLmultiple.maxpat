@@ -80,15 +80,15 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 8,
+									"linecount" : 12,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2.0, 5.0, 398.0, 114.0 ],
-									"text" : "GLgridshape outputs a 12 plane matrix when matrixouput is enabled.\n\nWhen using GLgridshape as a source for GLmesh and GLmultiple, you need to remove the color matrix by using insert a \"jit.pack 1 @jump 8\" between the GLgridshape and the GLmesh. this will pass only the first \n8 planes (3 position, 2 texcoord, and 3 normals), planes 9-12 are color info, causing GLmesh to ignore color from GLmultiple. if you don't pass these color planes, it will work as expected."
+									"patching_rect" : [ 5.0, 5.0, 392.0, 194.0 ],
+									"text" : "GLgridshape outputs a 12 plane matrix when matrixouput is enabled.\n\nWhen using GLgridshape as a source for GLmesh and GLmultiple, you need to remove the color matrix by using insert a \"jit.pack 1 @jump 8\" between the GLgridshape \nand the GLmesh. \n\nThis will pass only the first 8 planes (3 position, 2 texcoord, and 3 normals), planes 9-12 are colour info, causing GLmesh to ignore color from GLmultiple. if you don't pass these color planes, it will work as expected."
 								}
 
 							}

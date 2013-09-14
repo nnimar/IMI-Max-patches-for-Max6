@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 952.0, 460.0 ],
+		"rect" : [ 0.0, 44.0, 953.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -974,11 +974,12 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 165.0, 432.0, 606.0, 22.0 ],
+					"patching_rect" : [ 165.0, 432.0, 222.0, 53.0 ],
 					"text" : "jit.gl.gridshape @name drawme @shape plane @color 1 1 1 1 @tex_map 1 @automatic 0"
 				}
 

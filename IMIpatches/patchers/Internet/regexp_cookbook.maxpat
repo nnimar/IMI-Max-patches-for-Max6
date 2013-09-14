@@ -378,7 +378,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.0, 113.0, 51.5, 20.0 ]
+									"patching_rect" : [ 363.0, 113.0, 51.5, 20.0 ],
+									"text" : "2 3"
 								}
 
 							}
@@ -448,7 +449,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 6.0, 193.0, 394.0, 22.0 ],
-									"text" : "You don't always need regexp to remove comma's !"
+									"text" : "You don't necessarely need regexp to remove commas !"
 								}
 
 							}
@@ -475,7 +476,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 79.0, 56.0, 20.0 ]
+									"patching_rect" : [ 14.0, 79.0, 56.0, 20.0 ],
+									"text" : "2 5 4 1"
 								}
 
 							}

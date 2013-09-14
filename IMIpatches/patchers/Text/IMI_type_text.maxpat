@@ -852,7 +852,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 62.0, 194.0, 24.0 ],
+					"patching_rect" : [ 217.0, 61.0, 194.0, 24.0 ],
 					"text" : "select the text at patch opening"
 				}
 
@@ -1050,7 +1050,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.0, 208.0, 127.0, 37.0 ],
+					"patching_rect" : [ 477.0, 208.0, 124.0, 37.0 ],
 					"text" : "send a bang when text is typed"
 				}
 
@@ -1065,7 +1065,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.0, 90.0, 197.0, 24.0 ],
+					"patching_rect" : [ 319.0, 89.0, 197.0, 24.0 ],
 					"text" : "bangmode 0 = output typed text"
 				}
 

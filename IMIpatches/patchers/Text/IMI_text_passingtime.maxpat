@@ -664,7 +664,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 33.0, 618.0, 21.0 ],
-					"text" : "If not keyboard interaction, a dot is drawed every second, this patch uses the <LCD> and <text> objects.",
+					"text" : "If no keyboard interaction, a dot is drawed every second, this patch uses the <LCD> and <text> objects.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

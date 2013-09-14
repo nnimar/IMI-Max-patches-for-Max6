@@ -74,8 +74,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 327.0, 127.0, 17.0 ],
-					"text" : "load GLmultiple_texture"
+					"patching_rect" : [ 9.0, 327.0, 133.0, 17.0 ],
+					"text" : "load GLmultiple_textures"
 				}
 
 			}

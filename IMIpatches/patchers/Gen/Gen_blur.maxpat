@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 417.0, 330.0 ],
@@ -68,8 +69,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 425.0, 44.0, 790.0, 482.0 ],
@@ -262,8 +264,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 425.0, 44.0, 744.0, 383.0 ],
@@ -437,7 +440,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 152.0, 45.0, 19.0 ],
+					"patching_rect" : [ 33.0, 158.0, 45.0, 19.0 ],
 					"text" : "s bang"
 				}
 
@@ -477,9 +480,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "erase", "bang" ],
+					"outlettype" : [ "bang", "bang", "erase" ],
 					"patching_rect" : [ 10.0, 123.0, 65.0, 19.0 ],
-					"text" : "t b erase b"
+					"text" : "t b b erase"
 				}
 
 			}
@@ -522,8 +525,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 427.0, 361.0, 411.0, 282.0 ],
@@ -1224,7 +1228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.244202, 131.054932, 219.0, 22.0 ],
+					"patching_rect" : [ 134.244202, 129.054932, 219.0, 22.0 ],
 					"text" : "jit.qt.movie @autostart 1 @loop 1"
 				}
 
@@ -1279,7 +1283,7 @@
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 2 ]
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -1288,8 +1292,8 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 42.5, 174.0, 19.5, 174.0 ],
-					"source" : [ "obj-1", 1 ]
+					"midpoints" : [ 65.5, 148.0, 19.5, 148.0 ],
+					"source" : [ "obj-1", 2 ]
 				}
 
 			}

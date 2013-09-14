@@ -4,16 +4,16 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 537.0, 508.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial Bold",
+		"default_fontname" : "Arial",
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
@@ -97,8 +97,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 476.0, 460.0, 22.0 ],
-					"text" : "ajh.wiiremote / aka.wiiremote are NOT compatible with Mac OS 10.8"
+					"patching_rect" : [ 54.0, 481.0, 413.0, 22.0 ],
+					"text" : "Warning : ajh.wiiremote is NOT compatible with Mac OS 10.8"
 				}
 
 			}
@@ -600,16 +600,31 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"hidden" : 1,
-					"id" : "obj-50",
-					"linecount" : 4,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 9.0, 50.0, 35.0, 20.0 ],
+					"text" : "shell"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"hidden" : 1,
+					"id" : "obj-6",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 50.0, 118.0, 49.0 ],
-					"text" : ";\rmax launchbrowser \\\"file:////Applications/OSCulator/OSCulator.app\\\""
+					"patching_rect" : [ 9.0, 49.0, 139.0, 48.0 ],
+					"text" : "open \\\"/Applications/OSCulator ƒ/OSCulator.app\\\""
 				}
 
 			}
@@ -682,9 +697,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -800,6 +815,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -817,7 +841,11 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }

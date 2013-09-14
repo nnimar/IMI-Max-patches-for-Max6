@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 651.0, 538.0 ],
+		"rect" : [ 0.0, 44.0, 652.0, 572.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.0, 506.0, 572.0, 27.0 ],
+					"text" : "Updates available on https://github.com/imi/IMI-Max-patches-for-Max6"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -73,7 +87,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 5.0, 633.0, 147.0 ],
+									"patching_rect" : [ 6.0, 5.0, 637.0, 147.0 ],
 									"text" : "The plugins installed belongs to their respective authors: Adam Murray (ajm), Masayuki Akamatsu (aka), Leo Vanderveen (c74), Michael Zbysynski (CNMAT - University of Berkley), Miller Puckette (CRCA - UC San Diego), Mathieu Champagne, Charles Bascou, Erin Catto (box2d), Joseph Malloch - Stephen Sinclair - Marlon Schumacher (dot, IDMIL), Fredrik Olofsson (f0), Jakob Riis (jr), Pelado, Karlheinz Essl (RTC), Vade (shaders), Zachary Seldess (z), Emmanuel Jourdan (ej, zsa), Wes (textcoordmagic), ..."
 								}
 
@@ -82,7 +96,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 500.0, 507.849854, 141.0, 27.0 ],
+					"patching_rect" : [ 500.0, 541.849854, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -157,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 119.0, 638.0, 107.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tildas (~)"
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tildas ~."
 				}
 
 			}

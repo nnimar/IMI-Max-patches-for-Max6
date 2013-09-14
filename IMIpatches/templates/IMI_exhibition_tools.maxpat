@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 735.0, 457.0 ],
+		"rect" : [ 1.0, 44.0, 735.0, 457.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -87,7 +87,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 686.0, 99.0, 452.0, 230.0 ],
+						"rect" : [ 748.0, 44.0, 452.0, 230.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -284,7 +284,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-46",
-													"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+													"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "M-Audio Fast Track Pro USB", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -884,7 +884,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.0, 235.0, 125.0, 18.0 ],
-					"text" : "usbmodem1a1221"
+					"text" : "no arduino"
 				}
 
 			}
@@ -906,7 +906,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 697.0, 114.0, 197.0, 365.0 ],
+						"rect" : [ 743.0, 44.0, 197.0, 365.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2414,7 +2414,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.oneint.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"patcherrelativepath" : "../patchers/Toolbox/_imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
