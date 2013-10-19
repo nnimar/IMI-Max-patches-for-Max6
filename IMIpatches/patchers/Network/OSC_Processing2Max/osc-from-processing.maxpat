@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 553.0, 44.0, 356.0, 208.0 ],
+		"rect" : [ 525.0, 44.0, 400.0, 208.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,19 +29,76 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"id" : "obj-66",
+					"id" : "obj-12",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 218.0, 182.0, 131.0, 20.0 ],
+					"patching_rect" : [ 259.0, 154.0, 135.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 432.0, 100.0, 20.0 ],
-					"text" : "launch OSC to Max"
+					"presentation_rect" : [ 221.0, 105.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "launch OSC to Max",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-11",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 223.0, 181.0, 171.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 254.0, 309.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "launch Processing source",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 223.0, 180.5, 100.0, 18.0 ],
+					"text" : "osc_to_Max.pde"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 223.0, 180.5, 82.0, 20.0 ],
+					"text" : "imi.docloader"
 				}
 
 			}
@@ -63,7 +120,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
@@ -171,7 +228,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 225.0, 182.0, 45.0, 20.0 ],
+					"patching_rect" : [ 261.0, 155.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -199,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 234.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 234.0, 30.0 ],
 					"text" : "OSC from processing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -215,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 187.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 187.0, 21.0 ],
 					"text" : "receives osc from processing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -231,7 +288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 179.0, 19.0, 20.0 ],
+					"patching_rect" : [ 161.0, 180.0, 19.0, 20.0 ],
 					"text" : "y"
 				}
 
@@ -245,7 +302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 180.0, 19.0, 20.0 ],
+					"patching_rect" : [ 34.0, 181.0, 19.0, 20.0 ],
 					"text" : "x"
 				}
 
@@ -260,7 +317,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 110.0, 180.0, 50.0, 20.0 ]
+					"patching_rect" : [ 110.0, 181.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -274,7 +331,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 53.0, 180.0, 50.0, 20.0 ]
+					"patching_rect" : [ 53.0, 181.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -287,7 +344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 53.0, 121.0, 94.0, 20.0 ],
+					"patching_rect" : [ 53.0, 122.0, 94.0, 20.0 ],
 					"text" : "OSC-route /test"
 				}
 
@@ -301,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 53.0, 151.0, 76.0, 20.0 ],
+					"patching_rect" : [ 53.0, 152.0, 76.0, 20.0 ],
 					"text" : "unpack 0. 0."
 				}
 
@@ -315,7 +372,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 9.0, 90.0, 106.0, 20.0 ],
+					"patching_rect" : [ 9.0, 91.0, 106.0, 20.0 ],
 					"text" : "opensoundcontrol"
 				}
 
@@ -329,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 61.0, 145.0, 20.0 ],
+					"patching_rect" : [ 9.0, 62.0, 145.0, 20.0 ],
 					"text" : "udpreceive 7474 CNMAT"
 				}
 
@@ -345,7 +402,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 353.0, 51.0 ]
+					"patching_rect" : [ 2.0, 2.0, 395.0, 51.0 ]
 				}
 
 			}
@@ -356,6 +413,33 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -395,17 +479,15 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.docloader.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OpenSoundControl.mxo",
 				"type" : "iLaX"
 			}

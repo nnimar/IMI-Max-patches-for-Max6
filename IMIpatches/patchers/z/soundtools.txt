@@ -1,7 +1,7 @@
 +CNMAT_MMJD_Overview, "A depot of patches for Max/MSP/Jitter (CNMAT)";
 forbidden~planet, "White, pink noise + filters";
 ajm.overview, "Music composition (AJM tools)";
-ajm.midi.programs, "Midi programs for the AJM tools";
+midi_sounds, "make sounds with midi";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 spectral_transformation, "J-F Charles' tutorials";
 01-sinewaves, "CNMAT Spectral Synthesis Tutorials";

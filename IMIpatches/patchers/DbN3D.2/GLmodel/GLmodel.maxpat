@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 437.0, 268.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 255.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 329.0, 243.0, 105.0, 20.0 ],
+					"patching_rect" : [ 329.0, 232.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 299.0, 416.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 326.0, 243.0, 79.0, 16.0 ],
+					"patching_rect" : [ 326.0, 232.0, 79.0, 16.0 ],
 					"text" : "help jit.gl.model"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 246.0, 43.0, 17.0 ],
+					"patching_rect" : [ 328.0, 235.0, 43.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 148.0, 156.0, 22.0 ],
+					"patching_rect" : [ 224.0, 155.0, 156.0, 22.0 ],
 					"text" : "GLmodel to GLmesh"
 				}
 
@@ -108,7 +108,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 148.0, 131.0, 20.0 ],
+					"patching_rect" : [ 7.0, 155.0, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.0, 295.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -141,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 176.0, 156.0, 22.0 ],
+					"patching_rect" : [ 224.0, 185.333328, 156.0, 22.0 ],
 					"text" : "GLmodel with particles"
 				}
 
@@ -160,7 +160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 91.0, 152.0, 20.0 ],
+					"patching_rect" : [ 8.0, 94.333336, 152.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -236,7 +236,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 176.0, 131.0, 20.0 ],
+					"patching_rect" : [ 8.0, 185.333328, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 458.0, 385.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -259,7 +259,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 119.0, 161.0, 20.0 ],
+					"patching_rect" : [ 8.0, 124.666664, 161.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 521.0, 388.078186, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -323,7 +323,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 224.0, 95.0, 181.0, 38.0 ],
+					"patching_rect" : [ 224.0, 99.0, 181.0, 38.0 ],
 					"text" : "use matrixoutput to morph between model shapes"
 				}
 

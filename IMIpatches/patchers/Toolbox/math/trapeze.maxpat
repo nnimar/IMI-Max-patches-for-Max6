@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1357.0, 44.0, 382.0, 568.0 ],
+		"rect" : [ 2.0, 44.0, 382.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 207.0, 4.0, 171.0, 33.0 ],
-					"presentation_rect" : [ 192.0, 24.0, 0.0, 0.0 ],
 					"text" : "\"How determine if a trapezoid contains an x,y pair?\""
 				}
 

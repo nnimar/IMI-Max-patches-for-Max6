@@ -155,8 +155,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 449.849884, 635.0, 47.0 ],
-					"text" : "Medias : James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
+					"patching_rect" : [ 4.0, 449.849884, 603.0, 47.0 ],
+					"text" : "Medias: James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
 
 			}
@@ -171,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 119.0, 638.0, 107.0 ],
-					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tildas ~."
+					"text" : "The patches that start with IMI were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tildas~ users."
 				}
 
 			}
@@ -185,8 +185,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 234.0, 637.0, 208.0 ],
-					"text" : "Credits also goes to the IMI students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to : Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust, Andres Ayerbe (2012), Alan Hong, Catiana Becker (2013)."
+					"patching_rect" : [ 4.0, 234.0, 639.0, 208.0 ],
+					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), Alan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat (2013)."
 				}
 
 			}

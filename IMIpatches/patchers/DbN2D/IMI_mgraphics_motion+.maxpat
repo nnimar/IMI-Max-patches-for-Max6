@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 257.0, 268.0, 148.0, 47.0 ],
+					"text" : "clear (paint background)\nchoose colour (RGBA)\ndraw ellipse"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -47,12 +62,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 274.0, 313.0, 31.0 ],
+					"patching_rect" : [ 76.0, 270.0, 175.0, 45.0 ],
 					"text" : "set_source_rgba 1 1 1 1, paint, set_source_rgba 0 0 0 1, ellipse $1 $2 $3 $4, fill"
 				}
 
@@ -66,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 462.0, 21.0 ],
+					"patching_rect" : [ 2.0, 31.0, 462.0, 21.0 ],
 					"text" : "use slide to add some motion blur to the movement",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -83,7 +98,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 303.0, 30.0 ],
+					"patching_rect" : [ 2.0, 3.0, 303.0, 30.0 ],
 					"text" : "IMI mgraphics motion + slide",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -369,7 +384,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 482.0, 51.0 ]
+					"patching_rect" : [ 1.0, 2.0, 482.0, 51.0 ]
 				}
 
 			}

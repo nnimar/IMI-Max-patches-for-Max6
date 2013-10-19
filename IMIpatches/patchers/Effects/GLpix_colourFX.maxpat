@@ -81,7 +81,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 247.0, 150.0, 20.0 ]
+					"patching_rect" : [ 193.0, 239.0, 91.0, 20.0 ],
+					"text_width" : 48.0
 				}
 
 			}
@@ -94,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 172.0, 131.0, 18.0 ],
+					"patching_rect" : [ 179.0, 172.0, 131.0, 18.0 ],
 					"text" : "gen technicolor3.genjit"
 				}
 
@@ -108,7 +109,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 154.0, 131.0, 18.0 ],
+					"patching_rect" : [ 179.0, 154.0, 131.0, 18.0 ],
 					"text" : "gen technicolor2.genjit"
 				}
 
@@ -122,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 209.0, 169.0, 18.0 ],
+					"patching_rect" : [ 179.0, 209.0, 169.0, 18.0 ],
 					"text" : "gen bleach.bypass.mod.genjit"
 				}
 
@@ -136,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 190.0, 111.0, 18.0 ],
+					"patching_rect" : [ 179.0, 190.0, 111.0, 18.0 ],
 					"text" : "gen bleach.bypass"
 				}
 
@@ -150,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.0, 137.0, 131.0, 18.0 ],
+					"patching_rect" : [ 179.0, 137.0, 131.0, 18.0 ],
 					"text" : "gen technicolor1.genjit"
 				}
 
@@ -178,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 179.0, 284.0, 54.0, 20.0 ],
+					"patching_rect" : [ 179.0, 269.0, 54.0, 20.0 ],
 					"text" : "jit.gl.pix"
 				}
 
@@ -192,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 179.0, 314.0, 203.0, 20.0 ],
+					"patching_rect" : [ 179.0, 299.0, 203.0, 20.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -1089,7 +1090,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "technicolor1.genjit",
+				"name" : "bleach.bypass.mod.genjit",
 				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/gen",
 				"patcherrelativepath" : "../../../../examples/jitter-examples/gen",
 				"type" : "gJIT",
@@ -1097,8 +1098,8 @@
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

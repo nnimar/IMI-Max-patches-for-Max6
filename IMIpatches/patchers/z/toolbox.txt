@@ -18,6 +18,7 @@ vector_practice, "see how to work with vectors";
 polar_cartesian, "2d poltocar, 3d cartopol";
 tweening, "simple tweening";
 function_interpolation, "tweening using a function";
+cataDelaunay, "Delaunay Triangulation of a given set P of n points in 2 dim space";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 timeline, "easy to use timeline";
 dataatintervals, "records any type of data to disk";

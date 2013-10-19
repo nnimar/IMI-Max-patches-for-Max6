@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 429.0, 402.0 ],
+		"rect" : [ 1.0, 44.0, 427.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 229.0, 131.0, 59.0, 20.0 ],
+					"patching_rect" : [ 228.0, 130.0, 59.0, 20.0 ],
 					"text" : "zygotes"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.0, 130.0, 40.0, 20.0 ],
+					"patching_rect" : [ 181.0, 129.0, 40.0, 20.0 ],
 					"text" : "velo"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 73.0, 40.0, 20.0 ],
+					"patching_rect" : [ 149.0, 72.0, 40.0, 20.0 ],
 					"text" : "hello"
 				}
 
@@ -77,7 +77,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 36.0, 202.0, 23.0, 23.0 ]
+					"patching_rect" : [ 35.0, 201.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -91,7 +91,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 287.0, 196.0, 45.0, 33.0 ],
+					"patching_rect" : [ 286.0, 195.0, 45.0, 33.0 ],
 					"text" : "query result"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 202.0, 82.0, 20.0 ],
+					"patching_rect" : [ 199.0, 201.0, 82.0, 20.0 ],
 					"text" : "bandanna"
 				}
 
@@ -119,13 +119,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 203.0, 53.0, 20.0 ],
+					"patching_rect" : [ 60.0, 202.0, 53.0, 20.0 ],
 					"text" : "exists ?"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -133,13 +134,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 275.0, 82.0, 20.0 ],
+					"patching_rect" : [ 184.0, 273.0, 99.0, 24.0 ],
 					"text" : "query line + 7"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -147,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 243.0, 76.0, 20.0 ],
+					"patching_rect" : [ 209.0, 241.0, 91.0, 24.0 ],
 					"text" : "line position "
 				}
 
@@ -881,7 +883,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 36.0, 168.0, 246.0, 22.0 ],
+					"patching_rect" : [ 35.0, 167.0, 246.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -909,7 +911,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 341.0, 393.0, 53.0 ],
+					"patching_rect" : [ 10.0, 340.0, 393.0, 53.0 ],
 					"text" : "The 2of4brif dictionary is a free British-English dictionnary. It contains 60387 words. Copyright 2000 by Kevin Atkinson <kevina@users.sourceforge.net>"
 				}
 
@@ -923,7 +925,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 135.0, 108.0, 20.0 ],
+					"patching_rect" : [ 35.0, 134.0, 108.0, 20.0 ],
 					"text" : "read 2of4brif.txt"
 				}
 
@@ -938,7 +940,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 5.0, 179.0, 30.0 ],
+					"patching_rect" : [ 2.0, 4.0, 179.0, 30.0 ],
 					"text" : "IMI text search",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -954,7 +956,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 33.0, 411.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 411.0, 21.0 ],
 					"text" : "fastest way to search for a text in a database (such as a word list)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -971,7 +973,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 101.0, 62.0, 33.0 ],
+					"patching_rect" : [ 35.0, 100.0, 62.0, 33.0 ],
 					"text" : "open dictionary"
 				}
 
@@ -985,7 +987,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 100.0, 57.0, 20.0 ],
+					"patching_rect" : [ 164.0, 99.0, 57.0, 20.0 ],
 					"text" : "banana"
 				}
 
@@ -999,7 +1001,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 150.0, 275.0, 32.5, 22.0 ],
+					"patching_rect" : [ 149.0, 274.0, 32.5, 22.0 ],
 					"text" : "+ 7"
 				}
 
@@ -1014,7 +1016,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 242.0, 57.0, 22.0 ]
+					"patching_rect" : [ 149.0, 241.0, 57.0, 22.0 ]
 				}
 
 			}
@@ -1029,7 +1031,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 422.0, 51.0 ]
+					"patching_rect" : [ 2.0, 3.0, 422.0, 51.0 ]
 				}
 
 			}
@@ -1057,7 +1059,7 @@
 					"destination" : [ "obj-21", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 159.5, 305.0, 348.0, 305.0, 348.0, 162.0, 272.5, 162.0 ],
+					"midpoints" : [ 158.5, 304.0, 347.0, 304.0, 347.0, 161.0, 271.5, 161.0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 

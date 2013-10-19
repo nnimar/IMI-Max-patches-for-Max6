@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 603.0, 370.0, 398.0, 274.0 ],
+						"rect" : [ 603.0, 370.0, 408.0, 256.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -74,7 +74,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 130.0, 60.0, 246.0, 51.0 ],
+									"patching_rect" : [ 127.0, 47.0, 246.0, 51.0 ],
 									"text" : "to understand, we use the jit.matrix (dimension of 1, filled with 0.5) rather than jit.noise (dim 100, random numbers)"
 								}
 
@@ -82,13 +82,13 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 11.0, 344.0, 20.0 ],
+									"patching_rect" : [ 5.0, 3.0, 393.0, 22.0 ],
 									"text" : "GLmultiple will place and scale your images (or graphic here). "
 								}
 
@@ -104,7 +104,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 148.0, 166.0, 254.0, 51.0 ],
+									"patching_rect" : [ 144.0, 151.0, 254.0, 51.0 ],
 									"text" : "take the value from the matrix (in[0]), then multiply by 2 and substract 1. :\nexample : 0.5 * 2 - 1. = 0."
 								}
 
@@ -128,7 +128,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"outmode" : 2,
-									"patching_rect" : [ 31.0, 140.0, 104.0, 21.0 ],
+									"patching_rect" : [ 28.0, 127.0, 104.0, 21.0 ],
 									"rowheight" : 20,
 									"rows" : 1,
 									"savemode" : 1,
@@ -147,7 +147,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 108.0, 87.0, 20.0 ],
+									"patching_rect" : [ 28.0, 95.0, 87.0, 20.0 ],
 									"text" : "imi.matrix2cell"
 								}
 
@@ -171,7 +171,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"outmode" : 2,
-									"patching_rect" : [ 10.0, 244.0, 103.0, 20.0 ],
+									"patching_rect" : [ 7.0, 231.0, 103.0, 20.0 ],
 									"rowheight" : 20,
 									"rows" : 1,
 									"savemode" : 1,
@@ -190,7 +190,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 212.0, 87.0, 20.0 ],
+									"patching_rect" : [ 7.0, 199.0, 87.0, 20.0 ],
 									"text" : "imi.matrix2cell"
 								}
 
@@ -204,7 +204,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 10.0, 180.0, 133.0, 20.0 ],
+									"patching_rect" : [ 7.0, 167.0, 133.0, 20.0 ],
 									"text" : "jit.expr @expr in[0]*2-1"
 								}
 
@@ -218,7 +218,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 10.0, 77.0, 115.0, 20.0 ],
+									"patching_rect" : [ 7.0, 64.0, 115.0, 20.0 ],
 									"text" : "jit.matrix 3 float32 1"
 								}
 
@@ -232,7 +232,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 47.0, 93.0, 18.0 ],
+									"patching_rect" : [ 7.0, 34.0, 93.0, 18.0 ],
 									"text" : "setall 0.5, bang"
 								}
 
@@ -1154,7 +1154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 100.0, 159.0, 31.0 ],
+					"patching_rect" : [ 144.0, 100.0, 147.0, 31.0 ],
 					"text" : "set_source_rgba 1 1 1 1, ellipse 20 20 280 200, fill"
 				}
 
@@ -1516,8 +1516,8 @@
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

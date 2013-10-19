@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 438.0, 337.0 ],
+		"rect" : [ 1.0, 44.0, 438.0, 326.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -192,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 295.0, 138.0, 22.0 ],
+					"patching_rect" : [ 189.0, 291.0, 138.0, 22.0 ],
 					"text" : "psychedelic shapes"
 				}
 
@@ -211,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 295.0, 104.0, 20.0 ],
+					"patching_rect" : [ 14.0, 291.0, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 247.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 295.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 291.0, 99.0, 16.0 ],
 					"text" : "load 25.RagingSwirl"
 				}
 
@@ -258,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 266.0, 109.0, 22.0 ],
+					"patching_rect" : [ 189.0, 262.0, 109.0, 22.0 ],
 					"text" : "visual blobs"
 				}
 
@@ -287,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 236.0, 212.0, 22.0 ],
+					"patching_rect" : [ 189.0, 232.0, 212.0, 22.0 ],
 					"text" : "a fortress made of moving image"
 				}
 
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 266.0, 102.0, 20.0 ],
+					"patching_rect" : [ 13.0, 262.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -325,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 266.0, 97.0, 16.0 ],
+					"patching_rect" : [ 13.0, 262.0, 97.0, 16.0 ],
 					"text" : "load 08.VideoBlobs"
 				}
 
@@ -344,7 +344,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 236.0, 159.0, 20.0 ],
+					"patching_rect" : [ 13.0, 232.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -363,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 236.0, 139.0, 16.0 ],
+					"patching_rect" : [ 13.0, 232.0, 139.0, 16.0 ],
 					"text" : "load 03.CrumblingFortresses"
 				}
 

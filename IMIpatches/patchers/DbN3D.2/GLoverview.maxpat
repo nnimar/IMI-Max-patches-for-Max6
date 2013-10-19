@@ -11,7 +11,7 @@
 		"rect" : [ 1.0, 44.0, 457.0, 383.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -30,13 +30,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 358.0, 269.0, 18.0 ],
+					"patching_rect" : [ 109.0, 358.0, 322.0, 20.0 ],
 					"text" : "read and draw Wavefront .obj, collada and blender models"
 				}
 
@@ -59,13 +59,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 294.0, 85.0, 18.0 ],
+					"patching_rect" : [ 109.0, 294.0, 101.0, 20.0 ],
 					"text" : "data visualisation"
 				}
 
@@ -117,13 +117,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 155.0, 81.0, 18.0 ],
+					"patching_rect" : [ 106.0, 151.0, 96.0, 20.0 ],
 					"text" : "NURBS surface"
 				}
 
@@ -131,13 +131,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 91.0, 71.0, 18.0 ],
+					"patching_rect" : [ 216.0, 91.0, 84.0, 20.0 ],
 					"text" : "platonic solids"
 				}
 
@@ -145,13 +145,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 91.0, 77.0, 18.0 ],
+					"patching_rect" : [ 109.0, 91.0, 91.0, 20.0 ],
 					"text" : "simple shapes"
 				}
 
@@ -159,13 +159,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 294.0, 100.0, 18.0 ],
+					"patching_rect" : [ 216.0, 294.0, 119.0, 20.0 ],
 					"text" : "volume visualisation"
 				}
 
@@ -173,14 +173,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-40",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 155.0, 100.0, 29.0 ],
+					"patching_rect" : [ 216.0, 151.0, 119.0, 33.0 ],
 					"text" : "generates geometry from existing data"
 				}
 
@@ -188,28 +188,28 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 91.0, 71.0, 18.0 ],
-					"text" : "draws shapes"
+					"patching_rect" : [ 326.0, 91.0, 85.0, 20.0 ],
+					"text" : "draw shapes"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-38",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 218.0, 106.0, 29.0 ],
+					"patching_rect" : [ 216.0, 218.0, 120.0, 33.0 ],
 					"text" : "replicate a 3D shape \nin space"
 				}
 
@@ -415,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 132.5, 80.0, 22.0 ],
+					"patching_rect" : [ 5.0, 127.5, 80.0, 22.0 ],
 					"text" : "Advanced"
 				}
 
@@ -434,7 +434,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 275.0, 132.5, 68.910156, 21.0 ],
+					"patching_rect" : [ 216.0, 127.5, 68.910156, 21.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 68.910156, 23.640625 ],
 					"rounded" : 20.0,
 					"text" : "GLmesh",
@@ -499,7 +499,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 171.0, 132.5, 69.696289, 21.0 ],
+					"patching_rect" : [ 108.0, 127.5, 69.696289, 21.0 ],
 					"rounded" : 20.0,
 					"text" : "GLnurbs",
 					"texton" : "Stop"
@@ -566,7 +566,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 32.0, 434.0, 20.0 ],
-					"text" : "the GL objects in Max are a great gateway to your graphic card's ability to draw",
+					"text" : "GL objects in Max as interface to OpenGL",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

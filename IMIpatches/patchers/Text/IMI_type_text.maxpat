@@ -852,7 +852,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 61.0, 194.0, 24.0 ],
+					"patching_rect" : [ 217.0, 60.0, 194.0, 24.0 ],
 					"text" : "select the text at patch opening"
 				}
 
@@ -1050,7 +1050,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 477.0, 208.0, 124.0, 37.0 ],
+					"patching_rect" : [ 477.0, 208.0, 127.0, 37.0 ],
 					"text" : "send a bang when text is typed"
 				}
 
@@ -1065,7 +1065,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.0, 89.0, 197.0, 24.0 ],
+					"patching_rect" : [ 273.0, 88.0, 197.0, 24.0 ],
 					"text" : "bangmode 0 = output typed text"
 				}
 
@@ -1112,7 +1112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 64.0, 44.0, 18.0 ],
+					"patching_rect" : [ 169.0, 63.0, 44.0, 18.0 ],
 					"text" : "select"
 				}
 
@@ -1127,7 +1127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 169.0, 64.0, 64.0, 20.0 ],
+					"patching_rect" : [ 169.0, 63.0, 64.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1141,7 +1141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 92.0, 79.0, 18.0 ],
+					"patching_rect" : [ 190.0, 91.0, 79.0, 18.0 ],
 					"text" : "bangmode 0"
 				}
 
@@ -1172,7 +1172,8 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 169.0, 127.0, 215.0, 71.0 ],
-					"text" : "hello how are you ? Type sometihn "
+					"readonly" : 1,
+					"text" : "hello how are you"
 				}
 
 			}
@@ -1357,7 +1358,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 169.0, 64.0, 70.0, 20.0 ],
+					"patching_rect" : [ 169.0, 63.0, 70.0, 20.0 ],
 					"text" : "delay 2000"
 				}
 
@@ -1566,7 +1567,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 245.5, 117.0, 178.5, 117.0 ],
+					"midpoints" : [ 199.5, 117.0, 178.5, 117.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1576,7 +1577,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 178.5, 61.5, 178.5, 61.5 ],
+					"midpoints" : [ 178.5, 60.5, 178.5, 60.5 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1586,7 +1587,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 178.5, 86.5, 245.5, 86.5 ],
+					"midpoints" : [ 178.5, 85.5, 199.5, 85.5 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1650,8 +1651,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.text_counter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

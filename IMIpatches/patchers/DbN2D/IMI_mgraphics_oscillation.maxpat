@@ -345,7 +345,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 267.0, 343.0, 204.0, 52.0 ],
-					"text" : "set colour white, paint (background)\nset colour red, draw ellipse, fill"
+					"text" : "clear (paint background in white)\nset colour red, draw ellipse, fill"
 				}
 
 			}

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 421.0, 467.0 ],
+		"rect" : [ 1.0, 44.0, 421.0, 467.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -50,7 +50,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 404.0, 98.0, 39.0 ],
+					"patching_rect" : [ 297.0, 405.0, 98.0, 39.0 ],
 					"text" : "alias + file name"
 				}
 
@@ -67,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 66.0, 89.0, 24.0 ],
+					"patching_rect" : [ 53.0, 60.0, 83.0, 24.0 ],
 					"text" : "press \"e\""
 				}
 
@@ -82,7 +82,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.0, 437.5, 100.0, 20.0 ],
+					"patching_rect" : [ 9.0, 440.5, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 170.0, 100.0, 20.0 ],
 					"text" : "Audio driver"
@@ -99,7 +99,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 441.5, 35.0, 16.0 ],
+					"patching_rect" : [ 10.0, 444.5, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.0, 438.5, 48.0, 18.0 ],
+					"patching_rect" : [ 11.0, 441.5, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -478,7 +478,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 22.0, 436.5, 51.0, 18.0 ],
+					"patching_rect" : [ 10.0, 439.5, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -538,7 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 248.0, 441.0, 167.0, 20.0 ],
+					"patching_rect" : [ 248.0, 442.0, 167.0, 20.0 ],
 					"text" : "buffer~ soundzzz sho0630.aif"
 				}
 
@@ -586,7 +586,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 117.0, 106.0, 24.0 ],
+					"patching_rect" : [ 32.0, 121.0, 106.0, 24.0 ],
 					"text" : "keyboard ascii"
 				}
 
@@ -656,7 +656,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 270.0, 119.0, 65.0, 20.0 ],
+					"patching_rect" : [ 270.0, 123.0, 65.0, 20.0 ],
 					"text" : "select 101"
 				}
 
@@ -684,7 +684,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 270.0, 68.0, 65.5, 20.0 ],
+					"patching_rect" : [ 270.0, 62.0, 65.5, 20.0 ],
 					"text" : "keyup"
 				}
 
@@ -778,7 +778,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 142.0, 119.0, 65.0, 20.0 ],
+					"patching_rect" : [ 142.0, 123.0, 65.0, 20.0 ],
 					"text" : "select 101"
 				}
 
@@ -806,7 +806,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 142.0, 68.0, 59.5, 20.0 ],
+					"patching_rect" : [ 142.0, 62.0, 59.5, 20.0 ],
 					"text" : "key"
 				}
 

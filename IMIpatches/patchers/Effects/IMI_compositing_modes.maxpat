@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 516.0, 380.0 ],
+		"rect" : [ 0.0, 44.0, 516.0, 440.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,12 +32,118 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 192.0, 319.5, 204.0, 22.0 ],
+					"presentation_rect" : [ 248.0, 291.0, 0.0, 0.0 ],
+					"text" : "mgraphics with GL (multiple)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-34",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 4.0, 320.200012, 154.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 62.0, 290.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "mgraphics2GLmultiple",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 318.0, 132.0, 16.0 ],
+					"presentation_rect" : [ 62.0, 291.0, 0.0, 0.0 ],
+					"text" : "load mgraphics2GLmultiple"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-56",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 192.0, 194.0, 251.0, 22.0 ],
+					"text" : "use jit.mgraphics with text and video"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-57",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 194.0, 145.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 194.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "mgraphics_text_alpha",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5.0, 197.0, 130.0, 16.0 ],
+					"text" : "load mgraphics_text_alpha"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 259.0, 204.0, 22.0 ],
-					"text" : "using a video as a mask (Gen)"
+					"patching_rect" : [ 191.0, 291.5, 204.0, 22.0 ],
+					"text" : "ideo as a mask (Gen)"
 				}
 
 			}
@@ -55,7 +161,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 259.0, 115.0, 20.0 ],
+					"patching_rect" : [ 5.0, 292.299988, 115.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 285.0, 372.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -87,8 +193,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 232.5, 288.0, 22.0 ],
-					"text" : "using a video as a mask (GLslab : scalebias)"
+					"patching_rect" : [ 191.0, 263.5, 288.0, 22.0 ],
+					"text" : "video as a mask (GLslab : scalebias)"
 				}
 
 			}
@@ -106,7 +212,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 232.5, 142.0, 20.0 ],
+					"patching_rect" : [ 5.0, 264.399994, 142.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 88.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -162,8 +268,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 206.5, 147.0, 22.0 ],
-					"text" : "simple blending (GL)"
+					"patching_rect" : [ 191.0, 235.5, 177.0, 22.0 ],
+					"text" : "simple blending in openGL"
 				}
 
 			}
@@ -181,7 +287,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 206.5, 104.0, 20.0 ],
+					"patching_rect" : [ 5.0, 236.5, 104.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 207.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -199,8 +305,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 357.0, 508.0, 20.0 ],
-					"text" : "use the GL objects (GL.slabs and GL.imageunit) if you have a GL pipeline (see Max 103)"
+					"patching_rect" : [ 5.0, 416.0, 508.0, 20.0 ],
+					"text" : "use the GL objects (GL.slabs and GL.imageunit) if you have a GL pipeline"
 				}
 
 			}
@@ -213,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 141.0, 251.0, 22.0 ],
+					"patching_rect" : [ 192.0, 141.399994, 251.0, 22.0 ],
 					"text" : "compositing with LCD and video (jit.op)"
 				}
 
@@ -232,7 +338,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 141.0, 134.0, 20.0 ],
+					"patching_rect" : [ 7.0, 141.399994, 134.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 90.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -250,7 +356,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 311.5, 313.0, 22.0 ],
+					"patching_rect" : [ 191.0, 376.0, 313.0, 22.0 ],
 					"text" : "advanced compositing with apple imageunit (GL)"
 				}
 
@@ -264,7 +370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 88.5, 310.0, 22.0 ],
+					"patching_rect" : [ 193.0, 88.800003, 310.0, 22.0 ],
 					"text" : "compositing with alpha channels (jit.alphablend)"
 				}
 
@@ -283,7 +389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 88.5, 131.0, 20.0 ],
+					"patching_rect" : [ 7.0, 88.800003, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 318.0, 325.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -301,7 +407,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 115.0, 312.0, 22.0 ],
+					"patching_rect" : [ 193.0, 115.099998, 312.0, 22.0 ],
 					"text" : "math operation between movies with jitter (jit.op)"
 				}
 
@@ -315,7 +421,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 192.0, 167.0, 251.0, 22.0 ],
+					"patching_rect" : [ 192.0, 167.699997, 251.0, 22.0 ],
 					"text" : "compositing with the LCD object (jit.op)"
 				}
 
@@ -329,7 +435,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 285.5, 303.0, 22.0 ],
+					"patching_rect" : [ 191.0, 347.5, 303.0, 22.0 ],
 					"text" : "transfer modes a la photoshop (GLslab : co...)"
 				}
 
@@ -348,7 +454,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 310.5, 120.0, 20.5 ],
+					"patching_rect" : [ 5.0, 376.0, 120.0, 20.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 197.0, 613.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -371,7 +477,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 115.0, 86.0, 20.0 ],
+					"patching_rect" : [ 7.0, 115.099998, 86.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "jit.op object",
 					"texton" : "Stop"
@@ -392,7 +498,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 284.5, 97.0, 20.0 ],
+					"patching_rect" : [ 5.0, 348.100006, 97.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -415,7 +521,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 167.0, 87.0, 20.0 ],
+					"patching_rect" : [ 7.0, 167.699997, 87.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -449,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 314.0, 110.0, 17.0 ],
+					"patching_rect" : [ 5.0, 376.0, 110.0, 17.0 ],
 					"text" : "help jit.gl.imageunit"
 				}
 
@@ -479,7 +585,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 287.0, 116.0, 17.0 ],
+					"patching_rect" : [ 5.0, 350.0, 116.0, 17.0 ],
 					"text" : "load transfer_modes"
 				}
 
@@ -509,7 +615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 335.0, 52.0, 19.0 ],
+					"patching_rect" : [ 5.0, 394.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -556,7 +662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 259.0, 106.0, 16.0 ],
+					"patching_rect" : [ 5.0, 291.0, 106.0, 16.0 ],
 					"text" : "load Gen_alphablend"
 				}
 
@@ -571,7 +677,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 237.0, 118.0, 16.0 ],
+					"patching_rect" : [ 5.0, 267.0, 118.0, 16.0 ],
 					"text" : "load video_mask_layers"
 				}
 
@@ -586,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 209.0, 83.0, 16.0 ],
+					"patching_rect" : [ 5.0, 239.0, 83.0, 16.0 ],
 					"text" : "load GLblending"
 				}
 
@@ -617,7 +723,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 195.0, 511.0, 4.0 ],
+					"patching_rect" : [ 0.0, 225.0, 511.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -766,6 +872,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -806,6 +930,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}

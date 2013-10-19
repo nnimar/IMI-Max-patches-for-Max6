@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 227.0, 309.0, 126.0, 22.0 ],
-					"presentation_rect" : [ 226.0, 308.0, 0.0, 0.0 ],
 					"text" : "Phidget Servo (8)"
 				}
 
@@ -51,8 +50,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 283.0, 126.0, 22.0 ],
-					"presentation_rect" : [ 226.0, 283.0, 0.0, 0.0 ],
+					"patching_rect" : [ 227.0, 281.600006, 126.0, 22.0 ],
 					"text" : "Phidget LED (64)"
 				}
 
@@ -67,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 310.0, 171.0, 20.0 ],
+					"patching_rect" : [ 12.0, 312.620239, 171.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 389.0, 283.0, 100.0, 20.0 ],
 					"text" : "PhidgetAdvancedServo 8"
@@ -85,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 310.0, 163.0, 18.0 ],
-					"presentation_rect" : [ 233.0, 300.0, 0.0, 0.0 ],
 					"text" : "help PhidgetAdvancedServo"
 				}
 
@@ -100,7 +97,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 283.0, 107.0, 20.0 ],
+					"patching_rect" : [ 12.0, 284.496185, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 294.0, 100.0, 20.0 ],
 					"text" : "PhidgetLED-64"
@@ -118,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 283.0, 53.0, 20.0 ],
-					"presentation_rect" : [ 33.0, 294.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -134,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.0, 283.0, 94.0, 18.0 ],
-					"presentation_rect" : [ 35.0, 294.0, 0.0, 0.0 ],
 					"text" : "help Phidgetled"
 				}
 
@@ -149,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 256.0, 83.0, 20.0 ],
+					"patching_rect" : [ 12.0, 256.372162, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 256.0, 100.0, 20.0 ],
 					"text" : "PhilipsHue"
@@ -195,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 256.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 254.199997, 175.0, 22.0 ],
 					"text" : "PhilipsHue control"
 				}
 
@@ -271,10 +266,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 228.0, 86.0, 20.0 ],
+					"patching_rect" : [ 12.0, 200.124054, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 248.0, 100.0, 20.0 ],
-					"text" : "Movie2LED"
+					"text" : "Enttec_simple"
 				}
 
 			}
@@ -288,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 228.0, 53.0, 20.0 ],
+					"patching_rect" : [ 15.0, 199.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -303,8 +298,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 228.0, 99.0, 18.0 ],
-					"text" : "load Movie2LED"
+					"patching_rect" : [ 14.0, 201.0, 113.0, 18.0 ],
+					"text" : "load Enttec_simple"
 				}
 
 			}
@@ -317,8 +312,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 228.0, 175.0, 22.0 ],
-					"text" : "Movie 2 LED (WS2801)"
+					"patching_rect" : [ 227.0, 199.399994, 175.0, 22.0 ],
+					"text" : "Enttec DMX"
 				}
 
 			}
@@ -409,7 +404,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 557.0, 73.0, 20.0 ],
+					"patching_rect" : [ 11.0, 557.0, 52.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 75.0, 417.0, 100.0, 20.0 ],
 					"text" : "IanniX"
@@ -613,7 +608,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.0, 71.0, 111.0, 20.0 ],
+					"patching_rect" : [ 97.0, 72.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 58.0, 100.0, 20.0 ],
 					"text" : "MMF-Fantastick"
@@ -630,7 +625,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 71.0, 119.0, 17.0 ],
+					"patching_rect" : [ 87.0, 72.0, 119.0, 17.0 ],
 					"text" : "help MMF-Fantastick"
 				}
 
@@ -645,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 71.0, 52.0, 19.0 ],
+					"patching_rect" : [ 84.0, 72.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -674,7 +669,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 71.0, 78.0, 20.0 ],
+					"patching_rect" : [ 12.0, 72.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 88.0, 100.0, 20.0 ],
 					"text" : "Fantastick"
@@ -691,7 +686,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 71.0, 138.0, 17.0 ],
+					"patching_rect" : [ 10.0, 72.0, 138.0, 17.0 ],
 					"text" : "load FantaStickv2.3-help"
 				}
 
@@ -706,7 +701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 71.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 72.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -817,7 +812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 378.0, 236.0, 22.0 ],
+					"patching_rect" : [ 227.0, 377.5, 236.0, 22.0 ],
 					"text" : "GPS reading and parsing bluetooth"
 				}
 
@@ -911,7 +906,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 200.0, 84.0, 20.0 ],
+					"patching_rect" : [ 12.0, 228.248093, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 197.0, 100.0, 20.0 ],
 					"text" : "Jitter2DMX"
@@ -927,7 +922,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 199.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 226.800003, 175.0, 22.0 ],
 					"text" : "using Jitter for DMX"
 				}
 
@@ -1168,10 +1163,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 172.0, 83.0, 20.0 ],
+					"patching_rect" : [ 12.0, 172.0, 96.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
-					"text" : "DMX"
+					"text" : "Buttler's DMX"
 				}
 
 			}
@@ -1185,7 +1180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 172.0, 79.0, 17.0 ],
+					"patching_rect" : [ 11.0, 172.0, 79.0, 17.0 ],
 					"text" : "load imp.dmx"
 				}
 
@@ -1292,7 +1287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 172.0, 93.0, 17.0 ],
+					"patching_rect" : [ 12.0, 230.0, 93.0, 17.0 ],
 					"text" : "load Jitter2DMX"
 				}
 
@@ -1309,6 +1304,21 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 612.0, 103.0, 47.0 ],
 					"text" : "imi.apploader OSC OSCTestApp.app"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 229.0, 52.0, 19.0 ],
+					"text" : "pcontrol"
 				}
 
 			}
@@ -1460,7 +1470,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-88", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-21", 0 ]
@@ -1481,7 +1491,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 19.5, 72.0, 21.5, 72.0 ],
+					"midpoints" : [ 19.5, 73.0, 21.5, 73.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1574,7 +1584,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 96.5, 75.0, 93.5, 75.0 ],
+					"midpoints" : [ 96.5, 76.0, 93.5, 76.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -1791,8 +1801,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.apploader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

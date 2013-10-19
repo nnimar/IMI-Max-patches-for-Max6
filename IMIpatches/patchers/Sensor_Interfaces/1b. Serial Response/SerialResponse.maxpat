@@ -633,7 +633,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 61.0, 351.0, 283.0, 37.0 ],
-					"text" : "when this trigger fires, it sends a 65 (A in ASCII) to ask Arduino for new values."
+					"text" : "when this trigger fires, it sends a 65 (A in ASCII) to ask the Arduino for new values."
 				}
 
 			}
@@ -2280,8 +2280,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 4.0, 384.0, 30.0 ],
-					"text" : "Serial Call-Response (ASCII version)",
+					"patching_rect" : [ 4.0, 4.0, 467.0, 30.0 ],
+					"text" : "arduino handshake (serial call-response ascii)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}

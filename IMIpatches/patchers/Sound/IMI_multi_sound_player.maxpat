@@ -578,7 +578,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 31.0, 331.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 251.0, 21.0 ],
 									"text" : "fade a sound using one input (togedge)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -596,7 +596,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 2.0, 626.0, 51.0 ],
+									"patching_rect" : [ 2.0, 2.0, 629.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -1108,7 +1108,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 2.0, 626.0, 51.0 ],
+									"patching_rect" : [ 2.0, 2.0, 629.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -2079,7 +2079,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 572.0, 21.0 ],
+									"patching_rect" : [ 4.0, 31.0, 572.0, 21.0 ],
 									"text" : "play 6 synch sounds at the same time, (un)mute upon interaction  - use poly~ with polybuffer~",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest"
@@ -2097,7 +2097,8 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 2.0, 626.0, 51.0 ]
+									"patching_rect" : [ 2.0, 2.0, 629.0, 51.0 ],
+									"varname" : "autohelp_top_panel[1]"
 								}
 
 							}
@@ -4201,7 +4202,8 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 2.0, 626.0, 51.0 ]
+									"patching_rect" : [ 2.0, 2.0, 629.0, 51.0 ],
+									"varname" : "autohelp_top_panel[1]"
 								}
 
 							}
@@ -5366,7 +5368,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 2.0, 626.0, 51.0 ],
+									"patching_rect" : [ 2.0, 2.0, 629.0, 51.0 ],
 									"varname" : "autohelp_top_panel[1]"
 								}
 
@@ -5620,8 +5622,8 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,

@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 438.0, 584.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -61,7 +61,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 91.0, 133.0, 16.0 ],
-					"presentation_rect" : [ 45.0, 101.0, 0.0, 0.0 ],
 					"text" : "load GLmesh_transparency"
 				}
 
@@ -76,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 193.0, 88.0, 196.0, 22.0 ],
-					"presentation_rect" : [ 227.0, 101.0, 0.0, 0.0 ],
 					"text" : "use of transparency"
 				}
 
