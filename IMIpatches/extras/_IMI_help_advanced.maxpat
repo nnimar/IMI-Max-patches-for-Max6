@@ -239,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.31 (10/2013)",
+					"text" : "Nicolas Marechal, v2.32 (01/2014)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 

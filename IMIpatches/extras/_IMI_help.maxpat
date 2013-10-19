@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 771.0, 548.0 ],
+		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -223,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.31 (10/2013)",
+					"text" : "Nicolas Marechal, v2.32 (01/2014)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -583,7 +583,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "CV_Objects",
+					"items" : "DbN3D.2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -605,7 +605,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "cv face find & replace", ",", "basic gesture interface", ",", "return the center mass (and the mass)", ",", "blob detections", ",", "miscellaneous cv", ",", "tools to use the kinect" ],
+					"items" : [ ",", "basic jit.expr", ",", "matrix to GL Nurbs", ",", "control multiple gridshape", ",", "create an isosurf", ",", "use 3D models", ",", "an overview of GL world" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -637,7 +637,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "cv_faces.findreplace", "cv_HSflow", "cv_centroid", "cv_jit.blobs", "cv_misc", "kinect" ],
+					"tabs" : [ "IMI_jitexpr", "GLnurbs", "GLmultiple", "GLisosurf", "GLmodel", "GLoverview" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -998,7 +998,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Computer_Vision",
+					"items" : "DbN3D",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1020,7 +1020,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "track a colour with jit.findbounds", ",", "frame differencing and silhouette", ",", "background removal", ",", "softVNS v.region object", ",", "an interface to faceOSC", ",", "an interface to TSPS" ],
+					"items" : [ ",", "2d vs 3d world", ",", "ez shapes in 3D", ",", "gridshape tricks", ",", "intro to GLSketch", ",", "intro to GLmesh", ",", "apply a texture to a 3D shape" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1052,7 +1052,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_colourtrack", "c74_camera_data", "background_removal", "v.regions", "faceOSC", "openTSPS" ],
+					"tabs" : [ "jittervsGL", "GLgridshape", "GLgeometry", "GLsketch", "GLmesh", "GLtexture" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1413,7 +1413,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "Grab",
+					"items" : "DbN2D",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1435,7 +1435,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "simple video grab", ",", "video grab for 2 to 4 cameras", ",", "timelapse", ",", "use webcam, netcam and dslr", ",", "return the position of a light", ",", "return the position of movements" ],
+					"items" : [ ",", "motion using counter", ",", "oscillation using sin/cos", ",", "noise to mgraphics position", ",", "using the jit.mgraphics space", ",", "drawagent" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1467,7 +1467,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_videograb", "IMI_videograb_(4cam)", "IMI_timelapse", "grab2syphon", "grab_position", "grab_hotspot" ],
+					"tabs" : [ "IMI_mgraphics_motion", "IMI_mgraphics_oscillation", "IMI_noise2mgraphics", "IMI_mgraphics_space", "Drawagent" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1828,7 +1828,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Internet",
+					"items" : "Effect",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1850,7 +1850,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "using XML in Max", ",", "an example with detox", ",", "read a COSM feed", ",", "read the BBCnews", ",", "read the twitter api", ",", "read a facebook file", ",", "regular expression" ],
+					"items" : [ ",", "methods for compositing", ",", "video delay", ",", "easy to use shaders", ",", "various colour effects", ",", "badTV effect", ",", "generate a mesh of lines from a movie" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1884,7 +1884,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_xml", "IMI_weather_report", "IMI_cosm2OSC", "BBCnews", "twitter_read", "facebook", "regexp_tutorial" ],
+					"tabs" : [ "IMI_compositing_modes", "IMI_video_delay", "GLslab_collection", "GLpix_colourFX", "BadTV", "h.lines" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -2245,7 +2245,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Text",
+					"items" : "Exhibition",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2267,7 +2267,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "text basics", ",", "text + alpha layer", ",", "typing text in a window", ",", "compare text against a database", ",", "a simple patch to place text", ",", "interactive text patch" ],
+					"items" : [ ",", "using the triplehead2go", ",", "video player for multi screens", ",", "multi-layered video", ",", "space mapping for multi screens", ",", "iCinema", ",", "control VPT/Resolume from Max" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2299,7 +2299,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_text_basics", "IMI_text_alpha", "IMI_type_text", "IMI_text_compare", "IMI_coll2text2d", "IMI_text_passingtime" ],
+					"tabs" : [ "IMI_triplehead2go", "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_space_mapping", "IMI_iCinema", "IMI_OSControl" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2660,7 +2660,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Matrix",
+					"items" : "Projection",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2682,7 +2682,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "introduction to the jit Matrix", ",", "matrix and friends", ",", "matrix positioning", ",", "matrix lookup data", ",", "matrix feedback" ],
+					"items" : [ ",", "simple GL video player", ",", "optimised GL video player", ",", "mask over a video", ",", "using GLrender and GLcamera", ",", "keystone for GL objects" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2714,7 +2714,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_jit_matrix_introduction", "IMI_jit_matrix_and_friends", "IMI_matrix_positioning", "matrix_lookup", "matrix_feedback" ],
+					"tabs" : [ "IMI_simple_video_player", "GLsmooth_slab", "GLslab_video_mask", "GLcamera_render", "GLcornerpin+" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -4904,6 +4904,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "IMIMax103.txt",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "IMIMax102.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
@@ -4912,13 +4919,6 @@
 			}
 , 			{
 				"name" : "IMIMax101.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "IMIMax103.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",

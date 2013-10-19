@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 538.0, 397.0 ],
+		"rect" : [ 0.0, 44.0, 539.0, 374.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,78 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.04,
+					"bubbleside" : 2,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 453.0, 284.0, 75.0, 39.0 ],
+					"presentation_rect" : [ 324.0, 225.0, 0.0, 0.0 ],
+					"text" : "more LEDs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-26",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 412.0, 322.0, 118.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 377.0, 291.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "IMI_movie2LED",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 413.0, 323.5, 118.0, 17.0 ],
+					"text" : "load IMI_movie2LED"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 415.0, 321.5, 52.0, 19.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -41,7 +113,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 378.0, 372.0, 154.0, 20.0 ],
+					"patching_rect" : [ 380.0, 349.0, 154.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.0, 370.5, 99.0, 18.0 ],
+					"patching_rect" : [ 380.0, 347.5, 99.0, 18.0 ],
 					"text" : "max2arduino.ino"
 				}
 
@@ -74,7 +146,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.0, 369.5, 82.0, 20.0 ],
+					"patching_rect" : [ 380.0, 346.5, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -89,7 +161,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 250.0, 68.0, 24.0 ],
+					"patching_rect" : [ 114.0, 230.0, 68.0, 24.0 ],
 					"text" : "re-scan"
 				}
 
@@ -101,7 +173,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 99.0, 252.0, 20.0, 20.0 ]
+					"patching_rect" : [ 92.0, 232.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -117,7 +189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 357.0, 142.0, 34.0 ],
+					"patching_rect" : [ 129.0, 337.0, 142.0, 34.0 ],
 					"text" : "serial communication\nport a, at 9600 bauds"
 				}
 
@@ -133,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 314.0, 105.0, 24.0 ],
+					"patching_rect" : [ 208.0, 294.0, 105.0, 24.0 ],
 					"text" : "choose a port"
 				}
 
@@ -152,7 +224,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -226,7 +298,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -568,7 +640,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 31.0, 279.0, 87.0, 20.0 ],
+					"patching_rect" : [ 24.0, 259.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -591,13 +663,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 31.0, 316.0, 179.0, 20.0 ],
+					"patching_rect" : [ 24.0, 296.0, 179.0, 20.0 ],
 					"pattrmode" : 1
 				}
 
@@ -612,7 +684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 15.0, 361.0, 118.0, 27.0 ],
+					"patching_rect" : [ 8.0, 341.0, 118.0, 27.0 ],
 					"text" : "serial a 9600"
 				}
 
@@ -627,7 +699,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 207.0, 154.0, 24.0 ],
+					"patching_rect" : [ 59.0, 187.0, 154.0, 24.0 ],
 					"text" : "convert ascii to integers"
 				}
 
@@ -673,7 +745,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 15.0, 96.0, 32.5, 20.0 ],
+					"patching_rect" : [ 8.0, 93.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -687,7 +759,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 106.0, 96.0, 32.5, 20.0 ],
+					"patching_rect" : [ 99.0, 93.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -701,7 +773,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 220.0, 96.0, 32.5, 20.0 ],
+					"patching_rect" : [ 213.0, 93.0, 32.5, 20.0 ],
 					"text" : "t i b"
 				}
 
@@ -718,7 +790,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 220.0, 64.0, 50.0, 20.0 ]
+					"patching_rect" : [ 213.0, 65.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -734,7 +806,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.0, 64.0, 50.0, 20.0 ]
+					"patching_rect" : [ 99.0, 65.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -750,7 +822,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 64.0, 50.0, 20.0 ]
+					"patching_rect" : [ 8.0, 65.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -763,7 +835,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 15.0, 210.0, 46.0, 20.0 ],
+					"patching_rect" : [ 8.0, 190.0, 46.0, 20.0 ],
 					"text" : "atoi"
 				}
 
@@ -777,7 +849,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 236.0, 125.0, 19.0, 18.0 ],
+					"patching_rect" : [ 229.0, 122.0, 19.0, 18.0 ],
 					"text" : "c"
 				}
 
@@ -791,7 +863,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.0, 125.0, 19.0, 18.0 ],
+					"patching_rect" : [ 115.0, 122.0, 19.0, 18.0 ],
 					"text" : "b"
 				}
 
@@ -805,7 +877,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 125.0, 19.0, 18.0 ],
+					"patching_rect" : [ 24.0, 122.0, 19.0, 18.0 ],
 					"text" : "a"
 				}
 
@@ -877,7 +949,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 229.5, 173.5, 24.5, 173.5 ],
+					"midpoints" : [ 222.5, 153.5, 17.5, 153.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -896,7 +968,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 115.5, 173.5, 24.5, 173.5 ],
+					"midpoints" : [ 108.5, 153.5, 17.5, 153.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -939,6 +1011,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -948,10 +1029,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 40.5, 172.0, 24.5, 172.0 ],
+					"midpoints" : [ 33.5, 152.0, 17.5, 152.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -970,7 +1060,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 108.5, 307.5, 24.5, 307.5 ],
+					"midpoints" : [ 101.5, 287.5, 17.5, 287.5 ],
 					"source" : [ "obj-64", 1 ]
 				}
 
@@ -980,7 +1070,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.5, 191.0, 24.5, 191.0 ],
+					"midpoints" : [ 124.5, 171.0, 17.5, 171.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -990,7 +1080,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 245.5, 191.0, 24.5, 191.0 ],
+					"midpoints" : [ 238.5, 171.0, 17.5, 171.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1007,8 +1097,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

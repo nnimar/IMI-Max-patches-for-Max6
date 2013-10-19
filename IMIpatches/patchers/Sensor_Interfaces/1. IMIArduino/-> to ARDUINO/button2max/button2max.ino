@@ -12,7 +12,7 @@ Button button = Button(buttonPin,BUTTON_PULLUP_INTERNAL);
 void setup() 
 { 
 	Serial.begin(9600);
-	pinMode (ledPin, OUTPUT);
+	PinMode (ledPin, OUTPUT);
 	digitalWrite (ledPin, LOW);
 } 
 
