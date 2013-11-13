@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -86,7 +86,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 158.5, 103.0, 20.0 ],
+					"patching_rect" : [ 133.0, 135.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.0, 434.0, 100.0, 20.0 ],
 					"text" : "mini maxuimi"
@@ -103,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 160.5, 107.0, 17.0 ],
+					"patching_rect" : [ 133.0, 135.0, 107.0, 17.0 ],
 					"text" : "load mini_maxuimi"
 				}
 
@@ -240,10 +240,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 133.0, 103.0, 20.0 ],
+					"patching_rect" : [ 133.0, 162.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 307.0, 100.0, 20.0 ],
-					"text" : "Maxuimi"
+					"text" : "ez-servo"
 				}
 
 			}
@@ -257,8 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 137.0, 79.0, 17.0 ],
-					"text" : "load maxuimi"
+					"patching_rect" : [ 133.0, 164.0, 80.0, 17.0 ],
+					"text" : "load ez-servo"
 				}
 
 			}
@@ -557,7 +557,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 134.0, 108.0, 20.0 ],
+					"patching_rect" : [ 15.0, 135.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "3. Maxuino 016"
@@ -574,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 136.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 135.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -636,7 +636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 136.0, 71.0, 17.0 ],
+					"patching_rect" : [ 15.0, 135.0, 71.0, 17.0 ],
 					"text" : "help maxuin"
 				}
 
@@ -655,7 +655,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,

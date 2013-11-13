@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 553.0, 44.0, 429.0, 230.0 ],
+		"rect" : [ 553.0, 44.0, 431.0, 230.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 221.0, 201.5, 101.0, 21.0 ],
+					"patching_rect" : [ 222.0, 201.5, 101.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 240.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 200.5, 71.0, 16.0 ],
+					"patching_rect" : [ 227.0, 200.5, 71.0, 16.0 ],
 					"text" : "load 303Loop"
 				}
 
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.0, 201.5, 98.0, 21.0 ],
+					"patching_rect" : [ 328.0, 201.5, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 196.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -97,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 157.5, 261.0, 22.0 ],
+					"patching_rect" : [ 115.0, 157.5, 261.0, 22.0 ],
 					"text" : "Publish an OSC device on the network"
 				}
 
@@ -111,7 +111,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 125.5, 229.0, 22.0 ],
+					"patching_rect" : [ 115.0, 125.5, 229.0, 22.0 ],
 					"text" : "sends OSC messages"
 				}
 
@@ -130,7 +130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 157.5, 85.0, 21.0 ],
+					"patching_rect" : [ 7.0, 157.5, 85.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 318.0, 199.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -153,7 +153,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 125.5, 71.0, 21.0 ],
+					"patching_rect" : [ 7.0, 125.5, 71.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 294.0, 156.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 200.5, 91.0, 16.0 ],
+					"patching_rect" : [ 227.0, 200.5, 91.0, 16.0 ],
 					"text" : "load SendingOSC"
 				}
 
@@ -187,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 187.5, 83.0, 16.0 ],
+					"patching_rect" : [ 7.0, 187.5, 83.0, 16.0 ],
 					"text" : "help OscService"
 				}
 
@@ -202,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 187.5, 73.0, 16.0 ],
+					"patching_rect" : [ 9.0, 187.5, 73.0, 16.0 ],
 					"text" : "help OscSend"
 				}
 
@@ -217,7 +217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 188.5, 86.0, 16.0 ],
+					"patching_rect" : [ 8.0, 188.5, 86.0, 16.0 ],
 					"text" : "help OscReceive"
 				}
 
@@ -236,7 +236,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 93.5, 89.0, 21.0 ],
+					"patching_rect" : [ 7.0, 93.5, 89.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -259,7 +259,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 61.5, 84.0, 21.0 ],
+					"patching_rect" : [ 7.0, 61.5, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -278,7 +278,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 188.5, 83.0, 16.0 ],
+					"patching_rect" : [ 7.0, 188.5, 83.0, 16.0 ],
 					"text" : "help OscBrowse"
 				}
 
@@ -292,7 +292,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 265.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 265.0, 21.0 ],
 					"text" : "a few OSC tools",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -308,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 93.5, 229.0, 22.0 ],
+					"patching_rect" : [ 115.0, 93.5, 229.0, 22.0 ],
 					"text" : "receives OSC messages"
 				}
 
@@ -322,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 60.5, 263.0, 22.0 ],
+					"patching_rect" : [ 115.0, 60.5, 263.0, 22.0 ],
 					"text" : "search for OSC devices on the network"
 				}
 
@@ -337,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 200.5, 52.0, 19.0 ],
+					"patching_rect" : [ 7.0, 200.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -352,7 +352,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 387.0, 30.0 ],
+					"patching_rect" : [ 2.0, 1.0, 387.0, 30.0 ],
 					"text" : "OSC tools for Max (Mattijs Kneppers)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -370,7 +370,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 426.0, 51.0 ],
+					"patching_rect" : [ 2.0, 1.0, 426.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

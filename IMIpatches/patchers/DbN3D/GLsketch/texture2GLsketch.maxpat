@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -115,7 +115,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -385,7 +385,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 185.0, 69.0, 20.0 ],
+					"patching_rect" : [ 26.0, 194.0, 69.0, 20.0 ],
 					"text" : "r to_render"
 				}
 
@@ -418,7 +418,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1135,7 +1135,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 159.0, 48.0, 20.0 ],
+					"patching_rect" : [ 43.0, 154.0, 48.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -1161,7 +1161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 211.0, 86.0, 20.0 ],
+					"patching_rect" : [ 10.0, 220.0, 86.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -1313,7 +1313,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.5, 149.5, 19.5, 149.5 ],
+					"midpoints" : [ 84.5, 146.5, 19.5, 146.5 ],
 					"source" : [ "obj-15", 2 ]
 				}
 
@@ -1486,8 +1486,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

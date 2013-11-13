@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 556.0, 716.0 ],
+		"rect" : [ 1.0, 44.0, 556.0, 708.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.5, 379.0, 62.0, 18.0 ],
+					"patching_rect" : [ 92.5, 402.0, 62.0, 18.0 ],
 					"text" : "loadmess 3"
 				}
 
@@ -81,7 +81,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 450.0, 688.0, 100.0, 20.0 ],
+					"patching_rect" : [ 450.0, 682.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 357.0, 140.0, 100.0, 20.0 ],
 					"text" : "Audio driver"
@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 690.0, 35.0, 16.0 ],
+					"patching_rect" : [ 450.0, 684.0, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 689.0, 48.0, 18.0 ],
+					"patching_rect" : [ 450.0, 683.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -133,7 +133,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -177,7 +177,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
 									"id" : "obj-36",
-									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "M-Audio Fast Track Pro USB", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -600,7 +600,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 450.0, 688.0, 51.0, 18.0 ],
+					"patching_rect" : [ 450.0, 682.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -632,7 +632,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1077,7 +1077,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 461.0, 104.0, 43.0, 24.0 ],
+					"patching_rect" : [ 454.0, 104.0, 43.0, 24.0 ],
 					"text" : "try"
 				}
 
@@ -1104,11 +1104,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-20",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 557.0, 115.0, 24.0 ],
-					"text" : "external window "
+					"patching_rect" : [ 386.0, 549.0, 118.0, 37.0 ],
+					"text" : "external window \n(jit.window)"
 				}
 
 			}
@@ -1123,8 +1124,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 393.0, 142.0, 37.0 ],
-					"text" : "go to a certain frame, then play it (bang)"
+					"patching_rect" : [ 284.0, 393.0, 149.0, 37.0 ],
+					"text" : "go to a specific frame, then play it (bang)"
 				}
 
 			}
@@ -1137,7 +1138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 688.0, 242.0, 20.0 ],
+					"patching_rect" : [ 6.0, 684.0, 242.0, 20.0 ],
 					"text" : "NM / movie by Maximo Reccio (IMI 2009)"
 				}
 
@@ -1166,8 +1167,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 132.0, 142.0, 18.0 ],
-					"text" : "attack 300, release 1200"
+					"patching_rect" : [ 334.0, 132.0, 142.0, 18.0 ],
+					"text" : "attack 300, release 2500"
 				}
 
 			}
@@ -1212,7 +1213,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 262.0, 112.0, 24.0 ],
+					"patching_rect" : [ 233.0, 261.0, 112.0, 24.0 ],
 					"text" : "sound level (dB)"
 				}
 
@@ -1243,7 +1244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 319.0, 107.0, 137.0, 18.0 ],
+					"patching_rect" : [ 312.0, 107.0, 137.0, 18.0 ],
 					"text" : "attack 300, release 300"
 				}
 
@@ -1274,8 +1275,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 356.0, 301.0, 183.0, 33.0 ],
-					"text" : "map the sound (-35dB to 10 dB)\nto a frame number (0 to 240)"
+					"patching_rect" : [ 354.0, 301.0, 198.0, 33.0 ],
+					"text" : "map the sound range (-35 to 0 dB)\nto a frame number (0 to 130)"
 				}
 
 			}
@@ -1357,8 +1358,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 304.0, 145.0, 24.0 ],
-					"text" : "zmap -35 10 0 240"
+					"patching_rect" : [ 188.0, 304.0, 140.0, 24.0 ],
+					"text" : "zmap -35 0 0 130"
 				}
 
 			}
@@ -1385,8 +1386,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.0, 107.0, 78.0, 18.0 ],
-					"text" : "range -50 12"
+					"patching_rect" : [ 233.0, 107.0, 73.0, 18.0 ],
+					"text" : "range -50 0"
 				}
 
 			}
@@ -1404,8 +1405,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 188.0, 172.0, 128.0, 64.0 ],
-					"range" : [ -50, 12 ],
-					"release" : 1200,
+					"range" : [ -50, 0 ],
+					"release" : 2500,
 					"rounded" : 0,
 					"tepidcolor" : [ 0.862745, 0.784314, 0.392157, 1.0 ],
 					"warmcolor" : [ 0.862745, 0.588235, 0.313726, 1.0 ]
@@ -1487,7 +1488,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 328.5, 142.5, 197.5, 142.5 ],
+					"midpoints" : [ 321.5, 142.5, 197.5, 142.5 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1506,7 +1507,7 @@
 					"destination" : [ "obj-117", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 197.5, 498.0, 17.5, 498.0 ],
+					"midpoints" : [ 197.5, 506.0, 17.5, 506.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1516,7 +1517,7 @@
 					"destination" : [ "obj-142", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 197.5, 498.819214, 284.074097, 498.819214 ],
+					"midpoints" : [ 197.5, 506.819214, 284.074097, 506.819214 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1536,7 +1537,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 350.5, 157.5, 197.5, 157.5 ],
+					"midpoints" : [ 343.5, 157.5, 197.5, 157.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1655,7 +1656,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 242.5, 97.5, 328.5, 97.5 ],
+					"midpoints" : [ 242.5, 97.5, 321.5, 97.5 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

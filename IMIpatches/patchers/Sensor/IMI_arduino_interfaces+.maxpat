@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 538.0, 199.0 ],
+		"rect" : [ 543.0, 44.0, 432.0, 195.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 165.5, 109.0, 22.0 ],
+					"patching_rect" : [ 216.0, 165.5, 109.0, 22.0 ],
 					"text" : "Max >> BlinkM"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 135.5, 206.0, 22.0 ],
+					"patching_rect" : [ 216.0, 135.5, 206.0, 22.0 ],
 					"text" : "Max >> Arduino (Capsense Lib)"
 				}
 
@@ -96,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 105.5, 121.0, 22.0 ],
+					"patching_rect" : [ 216.0, 105.5, 121.0, 22.0 ],
 					"text" : "Max >> Lightuino"
 				}
 
@@ -127,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 75.5, 199.0, 22.0 ],
+					"patching_rect" : [ 216.0, 75.5, 199.0, 22.0 ],
 					"text" : "Arduino >> Max (compressed)"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 45.5, 204.0, 22.0 ],
+					"patching_rect" : [ 216.0, 45.5, 204.0, 22.0 ],
 					"text" : "Arduino >> Max (call-response)"
 				}
 
@@ -359,7 +359,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 533.0, 31.0 ],
+					"patching_rect" : [ 2.0, 2.0, 428.0, 31.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

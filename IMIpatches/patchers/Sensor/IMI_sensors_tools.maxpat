@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 578.0, 642.0 ],
+		"rect" : [ 0.0, 44.0, 578.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -117,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -375,7 +375,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 31,
+						"count" : 32,
 						"data" : [ 							{
 								"key" : "IMI_simple_triggers",
 								"value" : [ "simple triggering options" ]
@@ -395,6 +395,14 @@
 , 							{
 								"key" : "smoother_derivitive",
 								"value" : [ "smooth, get speed and acceleration" ]
+							}
+, 							{
+								"key" : "tweening",
+								"value" : [ "a variety of equations for smooth transitions" ]
+							}
+, 							{
+								"key" : "delta_detect",
+								"value" : [ "detect direction and speed of delta" ]
 							}
 , 							{
 								"key" : "–––––––––––––––––––––––",
@@ -421,6 +429,10 @@
 								"value" : [ "exponential moving average" ]
 							}
 , 							{
+								"key" : "dot.emd",
+								"value" : [ "exponential moving deviation of a stream of numbers" ]
+							}
+, 							{
 								"key" : "dot.extrema",
 								"value" : [ "outputs maxima and minima" ]
 							}
@@ -443,14 +455,6 @@
 , 							{
 								"key" : "dot.squeuedlim",
 								"value" : [ "limits the speed of messages passing through (a speedlim queued like zl queue)" ]
-							}
-, 							{
-								"key" : "dot.threshtrig",
-								"value" : [ "output a value only once after passing the threshold in the pos or negative" ]
-							}
-, 							{
-								"key" : "dot.urn",
-								"value" : [ "just like urn, but you can put numbers back in the pot" ]
 							}
 , 							{
 								"key" : "dot.wait",
@@ -537,7 +541,7 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 4.0, 59.0, 567.0, 579.0 ],
 					"rowhead" : 1,
-					"rows" : 31,
+					"rows" : 32,
 					"savemode" : 1,
 					"vscroll" : 0
 				}

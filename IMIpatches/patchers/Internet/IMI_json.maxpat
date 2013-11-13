@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 581.0, 351.0, 101.0, 24.0 ],
-					"presentation_rect" : [ 520.0, 429.0, 0.0, 0.0 ],
 					"text" : "remove \"Title\""
 				}
 
@@ -89,13 +88,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 541.0, 308.0, 117.0, 31.0 ],
-					"text" : "Title \"The Cuckoo's Calling\""
+					"patching_rect" : [ 541.0, 308.0, 117.0, 18.0 ]
 				}
 
 			}
@@ -113,7 +110,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 724.0, 480.5, 87.0, 22.0 ],
+					"patching_rect" : [ 858.0, 480.5, 87.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 551.0, 389.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -133,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.0, 482.0, 89.0, 18.0 ],
+					"patching_rect" : [ 857.0, 482.0, 89.0, 18.0 ],
 					"text" : "load IMI_json+"
 				}
 
@@ -148,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 724.0, 482.0, 53.0, 20.0 ],
+					"patching_rect" : [ 858.0, 482.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -505,13 +502,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-62",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.0, 382.0, 87.0, 31.0 ],
-					"text" : "\"The Cuckoo's Calling\""
+					"patching_rect" : [ 491.0, 382.0, 89.0, 18.0 ]
 				}
 
 			}
@@ -559,30 +554,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-55",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 819.0, 480.5, 123.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "IMI_xively_report",
-					"texton" : "Stop",
-					"varname" : "textbutton[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
@@ -610,36 +581,6 @@
 					"patching_rect" : [ 3.0, 31.0, 692.0, 21.0 ],
 					"text" : "json is an alternative to xml, but much easier thanks to the new dict functionality in Max 6.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-59",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 818.0, 482.0, 128.0, 18.0 ],
-					"text" : "load IMI_xively_report"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-57",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 826.0, 481.0, 53.0, 20.0 ],
-					"text" : "pcontrol"
 				}
 
 			}
@@ -747,15 +688,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -770,15 +702,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 530.5, 298.5, 648.5, 298.5 ],
 					"source" : [ "obj-58", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -885,8 +808,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.dict.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

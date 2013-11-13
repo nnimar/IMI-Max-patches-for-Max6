@@ -2,7 +2,7 @@
 2, <category> 1 Introduction;
 3, IMI_introduction "intro to Max";
 4, IMI_max_sandpit "max sandpit";
-5, IMI_maxhelp_a_day "patch a day, healthy everyday";
+5, IMI_max_messaging "max message demystified";
 6, IMI_credits "credits";
 10, -----------------------;
 11, <category> 2 Video;
@@ -28,12 +28,14 @@
 43, IMI_wii_interfaces "wii interfaces";
 44, IMI_xbee_interfaces "wireless interfaces";
 45, IMI_misc_interfaces "misc interfaces and protocols";
-46, IMI_sensors_tools "sensor tools";
+46, IMI_osc_protocol "introduction to open sound control (OSC)";
+47, IMI_sensors_tools "sensor tools";
 50, -----------------------;
 51, <category> 6 Global;
 52, IMI_toolbox "useful objects for Max";
 53, list_toolbox "useful objects to handle lists";
 54, Max_patching_rules "a few rules to help you patching";
 55, Max_style_guide "a visual guide for visual programming";
+56, IMI_maxhelp_a_day "patch a day, healthy everyday";
 60, -----------------------;
 

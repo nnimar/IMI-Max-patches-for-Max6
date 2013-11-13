@@ -18,10 +18,10 @@
 21, <category> 3 Internet;
 22, IMI_xml "use XML with Max";
 23, IMI_json "use JSON with Max";
-24, IMI_xively_report "read a xively feed";
-25, BBCnews "read the BBCnews";
-26, twitter_read "read the twitter api"; 
-27, facebook "read a facebook file"; 
+24, IMI_openWeather "access openWeather";
+25, IMI_xively_report "access xively feed";
+26, BBCnews "read the BBCnews";
+27, twitter_read "read the twitter api"; 
 28, regexp_tutorial "regular expression";
 30, -----------------------;
 

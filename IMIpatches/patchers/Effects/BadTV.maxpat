@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -184,7 +184,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -707,7 +707,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 559.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 418.0, 21.0 ],
 					"text" : "jit.poke writes an audio signal into a matrix / jit.rrepos reposition pixels",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest[2]"
@@ -724,8 +724,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 462.0, 30.0 ],
-					"text" : "BadTV : using sound to manipulate an image",
+					"patching_rect" : [ 2.0, 2.0, 511.0, 30.0 ],
+					"text" : "BadTV : using sound to manipulate an image (c74)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -989,7 +989,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 13.0, 175.0, 86.0, 38.0 ],
+					"patching_rect" : [ 13.0, 175.0, 84.0, 38.0 ],
 					"text" : "jit.qt.grab @unique 1"
 				}
 

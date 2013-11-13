@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -55,11 +55,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 549.0, 44.0, 116.0, 260.0 ],
+						"rect" : [ 547.0, 359.0, 116.0, 260.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -129,8 +129,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 48.0, 49.0, 20.0 ],
-									"text" : "r synch"
+									"patching_rect" : [ 35.0, 49.0, 45.0, 20.0 ],
+									"text" : "r bang"
 								}
 
 							}
@@ -158,7 +158,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 17.0, 157.0, 74.0, 20.0 ]
+									"patching_rect" : [ 17.0, 157.0, 55.0, 20.0 ]
 								}
 
 							}
@@ -284,7 +284,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -825,7 +825,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 427.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 359.0, 30.0 ],
 					"text" : "GLmesh_procedural (Luke Dubois)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -841,7 +841,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 399.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 271.0, 21.0 ],
 					"text" : "make shapes using formulaes in javascript",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -861,7 +861,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1185,8 +1185,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.5, 152.0, 51.0, 20.0 ],
-					"text" : "s synch"
+					"patching_rect" : [ 33.5, 152.0, 47.0, 20.0 ],
+					"text" : "s bang"
 				}
 
 			}
@@ -1214,7 +1214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 9.0, 116.0, 89.0, 20.0 ],
+					"patching_rect" : [ 9.0, 116.0, 69.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1429,7 +1429,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 88.5, 144.5, 18.5, 144.5 ],
+					"midpoints" : [ 68.5, 144.5, 18.5, 144.5 ],
 					"source" : [ "obj-4", 2 ]
 				}
 
@@ -1509,14 +1509,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "makemeashape.js",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/DbN3D/GLMesh",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/DbN3D/GLmesh",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "makemeashape2.js",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/DbN3D/GLMesh",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/DbN3D/GLmesh",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
