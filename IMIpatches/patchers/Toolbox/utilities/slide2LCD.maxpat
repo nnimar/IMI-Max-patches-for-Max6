@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -29,12 +29,26 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.0, 237.0, 50.0, 16.0 ],
+					"text" : "lineto 0 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 161.0, 411.0, 80.0, 80.0 ]
+					"patching_rect" : [ 161.0, 433.0, 80.0, 80.0 ]
 				}
 
 			}
@@ -102,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 161.0, 376.0, 253.0, 22.0 ],
+					"patching_rect" : [ 161.0, 398.0, 253.0, 22.0 ],
 					"text" : "jit.slide @slide_up 1 @slide_down 3"
 				}
 
@@ -159,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 187.0, 104.0, 31.0 ],
+					"patching_rect" : [ 225.0, 187.0, 117.0, 31.0 ],
 					"text" : "clear, moveto $1 $2, lineto $1 $2"
 				}
 
@@ -173,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 161.0, 248.0, 119.0, 22.0 ],
+					"patching_rect" : [ 161.0, 270.0, 119.0, 22.0 ],
 					"text" : "jit.lcd 4 char 8 8"
 				}
 
@@ -185,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 204.0, 282.0, 80.0, 80.0 ]
+					"patching_rect" : [ 179.0, 306.0, 80.0, 80.0 ]
 				}
 
 			}
@@ -258,10 +272,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 170.5, 404.5, 170.5, 404.5 ],
+					"midpoints" : [ 170.5, 426.5, 170.5, 426.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -280,7 +303,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 170.5, 276.0, 213.5, 276.0 ],
+					"midpoints" : [ 170.5, 298.0, 188.5, 298.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

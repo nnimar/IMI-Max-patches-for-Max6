@@ -76,7 +76,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 217.0, 393.0, 192.0, 108.0 ],
+									"patching_rect" : [ 14.0, 442.0, 192.0, 108.0 ],
 									"text" : "Use the imi.dict to simplify your workflow\n\n1. import the data in a named dictionnary (dict text)\n\n2. use the data with imi.dict text"
 								}
 
@@ -90,8 +90,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 445.0, 484.0, 91.0, 19.0 ],
-									"text" : "very long text"
+									"patching_rect" : [ 242.0, 533.0, 91.0, 19.0 ],
+									"text" : "hello"
 								}
 
 							}
@@ -105,7 +105,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 479.0, 389.0, 63.0, 25.0 ],
+									"patching_rect" : [ 276.0, 438.0, 63.0, 25.0 ],
 									"text" : "iterate"
 								}
 
@@ -120,7 +120,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 442.0, 391.0, 34.0, 21.0 ]
+									"patching_rect" : [ 239.0, 440.0, 34.0, 21.0 ]
 								}
 
 							}
@@ -133,7 +133,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 442.0, 419.0, 106.0, 21.0 ],
+									"patching_rect" : [ 239.0, 468.0, 106.0, 21.0 ],
 									"text" : "sprintf get \\\"%d\\\""
 								}
 
@@ -147,7 +147,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 442.0, 448.0, 76.0, 21.0 ],
+									"patching_rect" : [ 239.0, 497.0, 76.0, 21.0 ],
 									"text" : "imi.dict text"
 								}
 
@@ -430,7 +430,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 73.0, 136.0, 40.0 ],
+									"patching_rect" : [ 12.0, 73.0, 137.0, 40.0 ],
 									"text" : "copy coll \"text\" to dict "
 								}
 
@@ -586,7 +586,7 @@
 									"destination" : [ "obj-38", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 451.5, 476.0, 526.5, 476.0 ],
+									"midpoints" : [ 248.5, 525.0, 323.5, 525.0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
@@ -903,8 +903,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 450.0, 213.0, 20.0 ],
-									"text" : "show_text hello"
+									"patching_rect" : [ 41.0, 450.0, 213.0, 20.0 ]
 								}
 
 							}
@@ -1287,7 +1286,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 70.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1471,8 +1470,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ],
-									"text" : "move_to 38 32"
+									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ]
 								}
 
 							}
@@ -1636,8 +1634,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ],
-									"text" : "move_to 11 12"
+									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ]
 								}
 
 							}
@@ -2379,8 +2376,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 34.0, 453.0, 119.0, 20.0 ],
-									"text" : "move_to 60 100"
+									"patching_rect" : [ 34.0, 453.0, 119.0, 20.0 ]
 								}
 
 							}
@@ -2421,8 +2417,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 179.0, 119.0, 20.0 ],
-									"text" : "move_to 100 120"
+									"patching_rect" : [ 29.0, 179.0, 119.0, 20.0 ]
 								}
 
 							}
@@ -2962,8 +2957,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 42.0, 334.0, 109.0, 20.0 ],
-									"text" : "move_to 50 50"
+									"patching_rect" : [ 42.0, 334.0, 109.0, 20.0 ]
 								}
 
 							}
@@ -3004,8 +2998,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 24.0, 234.0, 109.0, 20.0 ],
-									"text" : "move_to 30 30"
+									"patching_rect" : [ 24.0, 234.0, 109.0, 20.0 ]
 								}
 
 							}
@@ -3046,8 +3039,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 24.0, 136.0, 109.0, 20.0 ],
-									"text" : "move_to 30 50"
+									"patching_rect" : [ 24.0, 136.0, 109.0, 20.0 ]
 								}
 
 							}
@@ -3358,7 +3350,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
+						"rect" : [ 2.0, 70.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3403,8 +3395,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 227.0, 119.0, 131.0, 40.0 ],
-									"text" : "white background\nblack paint"
+									"patching_rect" : [ 227.0, 119.0, 164.0, 40.0 ],
+									"text" : "white background, paint\nblack foreground"
 								}
 
 							}
@@ -3448,7 +3440,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 430.0, 194.0, 148.0, 25.0 ],
+									"patching_rect" : [ 429.0, 194.0, 148.0, 25.0 ],
 									"text" : "command + int1  int2"
 								}
 
@@ -3630,8 +3622,26 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -3714,13 +3724,6 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "max_message_coll",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Introduction/docs",
-				"patcherrelativepath" : "./docs",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "text.maxref.xml",
 				"bootpath" : "/Applications/Max 6.1/patches/docs/refpages/max-ref",
 				"patcherrelativepath" : "../../../../patches/docs/refpages/max-ref",

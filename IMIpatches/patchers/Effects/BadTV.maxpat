@@ -693,7 +693,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 145.0, 39.0, 18.0 ],
+					"patching_rect" : [ 73.0, 143.0, 39.0, 18.0 ],
 					"text" : "close"
 				}
 
@@ -974,7 +974,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 145.0, 37.0, 18.0 ],
+					"patching_rect" : [ 29.0, 143.0, 37.0, 18.0 ],
 					"text" : "open"
 				}
 
@@ -1025,7 +1025,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 117.0, 144.0, 20.0, 20.0 ],
+					"patching_rect" : [ 117.0, 142.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

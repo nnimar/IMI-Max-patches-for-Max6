@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 453.0, 284.0, 75.0, 39.0 ],
-					"presentation_rect" : [ 324.0, 225.0, 0.0, 0.0 ],
 					"text" : "more LEDs"
 				}
 
@@ -60,11 +59,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 322.0, 118.0, 20.0 ],
+					"patching_rect" : [ 437.0, 322.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 377.0, 291.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "IMI_movie2LED",
+					"text" : "movie2LED",
 					"texton" : "Stop"
 				}
 
@@ -224,7 +223,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -298,7 +297,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,

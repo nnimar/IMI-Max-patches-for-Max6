@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 5,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 735.0, 344.0 ],
@@ -31,12 +32,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 152.0, 31.0 ],
+					"patching_rect" : [ 4.0, 3.0, 152.0, 30.0 ],
 					"text" : "Sending data ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -47,13 +48,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 31.0, 399.0, 21.0 ],
-					"text" : "use forward, sprintf, send (including ;) and receive",
+					"text" : "use forward, sprintf, send (;) and receive",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -85,7 +86,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 628.0, 311.0, 80.0, 23.0 ],
+					"patching_rect" : [ 628.0, 311.0, 80.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -114,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 550.0, 202.0, 59.0, 33.0 ],
+					"patching_rect" : [ 550.0, 202.0, 59.0, 31.0 ],
 					"text" : ";\rduck 64"
 				}
 
@@ -182,12 +183,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 549.0, 64.0, 163.0, 34.0 ],
+					"patching_rect" : [ 549.0, 64.0, 163.0, 33.0 ],
 					"text" : "why not using the send feature of the message box?"
 				}
 
@@ -254,12 +256,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 64.0, 161.0, 34.0 ],
+					"patching_rect" : [ 158.0, 64.0, 161.0, 33.0 ],
 					"text" : "change the contents of the message box, and trigger it !"
 				}
 
@@ -435,7 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 522.0, 311.0, 80.0, 23.0 ],
+					"patching_rect" : [ 522.0, 311.0, 80.0, 22.0 ],
 					"triscale" : 0.9
 				}
 
@@ -485,12 +488,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 64.0, 162.0, 34.0 ],
+					"patching_rect" : [ 344.0, 64.0, 162.0, 33.0 ],
 					"text" : "change the contents of the message box, and trigger it !"
 				}
 
@@ -500,7 +504,6 @@
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
 					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-35",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -516,7 +519,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

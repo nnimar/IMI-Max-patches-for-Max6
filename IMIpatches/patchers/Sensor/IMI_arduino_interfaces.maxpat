@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 537.0, 475.0 ],
+		"rect" : [ 1.0, 44.0, 537.0, 484.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,13 +31,60 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-43",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 133.0, 182.0, 105.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 272.0, 184.0, 100.0, 20.0 ],
+					"text" : "movie2led"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 131.0, 183.0, 118.0, 17.0 ],
+					"text" : "load IMI_movie2LED"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 133.0, 181.0, 52.0, 19.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-1",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 466.0, 449.0, 58.0, 20.0 ],
+					"patching_rect" : [ 466.0, 459.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 445.0, 100.0, 20.0 ],
 					"text" : "more"
@@ -54,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 451.0, 52.0, 19.0 ],
+					"patching_rect" : [ 467.0, 461.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -69,7 +116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 449.0, 155.0, 20.0 ],
+					"patching_rect" : [ 303.0, 459.0, 155.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 119.0, 322.0, 100.0, 20.0 ],
 					"text" : "Sensor interface folder"
@@ -86,7 +133,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 135.0, 103.0, 20.0 ],
+					"patching_rect" : [ 133.0, 129.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 55.0, 434.0, 100.0, 20.0 ],
 					"text" : "mini maxuimi"
@@ -103,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 135.0, 107.0, 17.0 ],
+					"patching_rect" : [ 133.0, 129.0, 107.0, 17.0 ],
 					"text" : "load mini_maxuimi"
 				}
 
@@ -117,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 380.0, 238.0, 22.0 ],
+					"patching_rect" : [ 259.0, 401.0, 238.0, 22.0 ],
 					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
@@ -131,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 357.0, 257.0, 22.0 ],
+					"patching_rect" : [ 259.0, 378.0, 257.0, 22.0 ],
 					"text" : "Install the OSCuino library on Arduino"
 				}
 
@@ -146,7 +193,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 370.0, 86.0, 20.0 ],
+					"patching_rect" : [ 15.0, 391.0, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 393.0, 100.0, 20.0 ],
 					"text" : "6. OSCuino"
@@ -163,7 +210,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 372.0, 105.0, 17.0 ],
+					"patching_rect" : [ 15.0, 393.0, 105.0, 17.0 ],
 					"text" : "load oscuinoSerial"
 				}
 
@@ -178,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 371.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 392.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -193,7 +240,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 167.0, 449.0, 128.0, 20.0 ],
+					"patching_rect" : [ 167.0, 459.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 551.0, 100.0, 20.0 ],
 					"text" : "IMI_sensors_tools"
@@ -210,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 449.0, 130.0, 17.0 ],
+					"patching_rect" : [ 170.0, 459.0, 130.0, 17.0 ],
 					"text" : "load IMI_sensors_tools"
 				}
 
@@ -225,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 450.0, 52.0, 19.0 ],
+					"patching_rect" : [ 168.0, 460.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -240,7 +287,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 162.0, 105.0, 20.0 ],
+					"patching_rect" : [ 133.0, 155.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 307.0, 100.0, 20.0 ],
 					"text" : "ez-servo"
@@ -257,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 164.0, 80.0, 17.0 ],
+					"patching_rect" : [ 133.0, 155.0, 80.0, 17.0 ],
 					"text" : "load ez-servo"
 				}
 
@@ -271,7 +318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 307.0, 231.0, 22.0 ],
+					"patching_rect" : [ 259.0, 328.0, 231.0, 22.0 ],
 					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
@@ -285,7 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 284.0, 257.0, 22.0 ],
+					"patching_rect" : [ 259.0, 305.0, 257.0, 22.0 ],
 					"text" : "Install the messenger library on Arduino"
 				}
 
@@ -300,7 +347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 297.0, 97.0, 20.0 ],
+					"patching_rect" : [ 15.0, 318.0, 97.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 494.0, 100.0, 20.0 ],
 					"text" : "5. messenger"
@@ -317,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 297.0, 140.0, 17.0 ],
+					"patching_rect" : [ 15.0, 318.0, 140.0, 17.0 ],
 					"text" : "load messenger.maxhelp"
 				}
 
@@ -332,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 298.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 319.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -394,7 +441,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 156.0, 230.0, 22.0 ],
+					"patching_rect" : [ 259.0, 164.0, 230.0, 22.0 ],
 					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
@@ -452,7 +499,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 234.0, 151.0, 22.0 ],
+					"patching_rect" : [ 259.0, 255.0, 151.0, 22.0 ],
 					"text" : "Max >> Arduino "
 				}
 
@@ -466,7 +513,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 212.0, 258.0, 22.0 ],
+					"patching_rect" : [ 259.0, 233.0, 258.0, 22.0 ],
 					"text" : "Install max2arduino.ino on the Arduino"
 				}
 
@@ -481,7 +528,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 223.0, 109.0, 20.0 ],
+					"patching_rect" : [ 15.0, 244.0, 109.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 404.0, 100.0, 20.0 ],
 					"text" : "4. max2arduino"
@@ -498,7 +545,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 223.0, 103.0, 17.0 ],
+					"patching_rect" : [ 15.0, 244.0, 103.0, 17.0 ],
 					"text" : "load max2arduino"
 				}
 
@@ -513,7 +560,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 225.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 246.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -528,7 +575,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 224.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 245.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -542,7 +589,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 133.0, 270.0, 22.0 ],
+					"patching_rect" : [ 259.0, 141.0, 270.0, 22.0 ],
 					"text" : "Install ConfigurableFirmata on the Arduino"
 				}
 
@@ -557,7 +604,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 135.0, 108.0, 20.0 ],
+					"patching_rect" : [ 15.0, 155.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "3. Maxuino 016"
@@ -574,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 156.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -636,7 +683,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 71.0, 17.0 ],
+					"patching_rect" : [ 15.0, 156.0, 71.0, 17.0 ],
 					"text" : "help maxuin"
 				}
 
@@ -655,7 +702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -786,7 +833,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 302.5, 449.0, 76.0, 20.0 ],
+					"patching_rect" : [ 302.5, 459.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -814,7 +861,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.5, 428.0, 94.0, 19.0 ],
+					"patching_rect" : [ 302.5, 438.0, 94.0, 19.0 ],
 					"text" : "SSensors.scpt"
 				}
 
@@ -829,7 +876,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 369.0, 451.0, 165.0, 17.0 ],
+					"patching_rect" : [ 369.0, 461.0, 165.0, 17.0 ],
 					"text" : "load IMI_arduino_interfaces+"
 				}
 
@@ -845,7 +892,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 341.0, 530.0, 4.0 ],
+					"patching_rect" : [ 2.0, 362.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[6]"
 				}
 
@@ -861,7 +908,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 268.0, 530.0, 4.0 ],
+					"patching_rect" : [ 2.0, 289.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -877,7 +924,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 194.0, 530.0, 4.0 ],
+					"patching_rect" : [ 4.0, 215.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -910,22 +957,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 533.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-56",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 413.0, 530.0, 4.0 ],
-					"varname" : "autohelp_top_panel[7]"
 				}
 
 			}
@@ -1035,6 +1066,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}

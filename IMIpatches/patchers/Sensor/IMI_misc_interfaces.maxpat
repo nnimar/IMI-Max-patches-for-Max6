@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 516.0, 514.0 ],
+		"rect" : [ 1.0, 44.0, 517.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,11 +32,72 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 227.0, 196.0, 138.0, 22.0 ],
+					"text" : "imp.artnet DMX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-36",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 12.0, 196.0, 110.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.0, 198.0, 100.0, 20.0 ],
+					"text" : "Artnet controller"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.0, 196.0, 139.0, 17.0 ],
+					"text" : "help imp.artnet.controller"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 12.0, 196.0, 52.0, 19.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-24",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 481.0, 236.0, 22.0 ],
+					"patching_rect" : [ 227.0, 510.0, 236.0, 22.0 ],
 					"text" : "use a piezo tuning clip as a sensor"
 				}
 
@@ -51,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 481.0, 117.0, 19.0 ],
+					"patching_rect" : [ 12.0, 510.0, 117.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 537.0, 100.0, 20.0 ],
 					"text" : "Piezo translator"
@@ -68,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 481.0, 70.0, 17.0 ],
+					"patching_rect" : [ 10.0, 510.0, 70.0, 17.0 ],
 					"text" : "load _piezo"
 				}
 
@@ -83,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 481.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 510.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -97,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 453.0, 194.0, 22.0 ],
+					"patching_rect" : [ 227.0, 482.0, 194.0, 22.0 ],
 					"text" : "use sound leads as a sensor"
 				}
 
@@ -112,7 +173,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 453.0, 117.0, 19.0 ],
+					"patching_rect" : [ 12.0, 482.0, 117.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 453.0, 100.0, 20.0 ],
 					"text" : "Conductive_tea"
@@ -129,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 453.0, 114.0, 17.0 ],
+					"patching_rect" : [ 12.0, 482.0, 114.0, 17.0 ],
 					"text" : "load conductive_tea"
 				}
 
@@ -144,7 +205,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 453.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 482.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -158,7 +219,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 309.0, 126.0, 22.0 ],
+					"patching_rect" : [ 227.0, 333.0, 126.0, 22.0 ],
 					"text" : "Phidget Servo (8)"
 				}
 
@@ -172,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 281.600006, 126.0, 22.0 ],
+					"patching_rect" : [ 227.0, 305.600006, 126.0, 22.0 ],
 					"text" : "Phidget LED (64)"
 				}
 
@@ -187,7 +248,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 312.620239, 171.0, 20.0 ],
+					"patching_rect" : [ 12.0, 336.620239, 171.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 389.0, 283.0, 100.0, 20.0 ],
 					"text" : "PhidgetAdvancedServo 8"
@@ -204,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 310.0, 163.0, 18.0 ],
+					"patching_rect" : [ 12.0, 339.0, 163.0, 18.0 ],
 					"text" : "help PhidgetAdvancedServo"
 				}
 
@@ -219,7 +280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 284.496185, 107.0, 20.0 ],
+					"patching_rect" : [ 12.0, 308.496185, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 294.0, 100.0, 20.0 ],
 					"text" : "PhidgetLED-64"
@@ -236,7 +297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 283.0, 53.0, 20.0 ],
+					"patching_rect" : [ 12.0, 307.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -251,7 +312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 283.0, 94.0, 18.0 ],
+					"patching_rect" : [ 12.0, 307.0, 94.0, 18.0 ],
 					"text" : "help Phidgetled"
 				}
 
@@ -266,7 +327,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 256.372162, 83.0, 20.0 ],
+					"patching_rect" : [ 12.0, 280.372162, 83.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 256.0, 100.0, 20.0 ],
 					"text" : "PhilipsHue"
@@ -283,7 +344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 256.0, 53.0, 20.0 ],
+					"patching_rect" : [ 12.0, 280.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -298,7 +359,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 256.0, 94.0, 18.0 ],
+					"patching_rect" : [ 12.0, 280.0, 94.0, 18.0 ],
 					"text" : "load PhilipsHue"
 				}
 
@@ -312,7 +373,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 254.199997, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 278.200012, 138.0, 22.0 ],
 					"text" : "PhilipsHue control"
 				}
 
@@ -326,7 +387,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 351.0, 266.0, 22.0 ],
+					"patching_rect" : [ 227.0, 381.0, 266.0, 22.0 ],
 					"text" : "interface for the leap motion (version 0.2)"
 				}
 
@@ -341,7 +402,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 352.0, 108.0, 20.0 ],
+					"patching_rect" : [ 12.0, 382.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 315.0, 100.0, 20.0 ],
 					"text" : "aka.leapmotion"
@@ -358,7 +419,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 354.0, 114.0, 17.0 ],
+					"patching_rect" : [ 12.0, 384.0, 114.0, 17.0 ],
 					"text" : "help aka.leapmotion"
 				}
 
@@ -373,7 +434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 354.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 384.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -388,7 +449,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 200.124054, 98.0, 20.0 ],
+					"patching_rect" : [ 12.0, 224.124054, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 248.0, 100.0, 20.0 ],
 					"text" : "Enttec_simple"
@@ -405,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 199.0, 53.0, 20.0 ],
+					"patching_rect" : [ 15.0, 223.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -420,7 +481,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 201.0, 113.0, 18.0 ],
+					"patching_rect" : [ 14.0, 225.0, 113.0, 18.0 ],
 					"text" : "load Enttec_simple"
 				}
 
@@ -434,7 +495,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 199.399994, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 223.399994, 138.0, 22.0 ],
 					"text" : "Enttec DMX"
 				}
 
@@ -448,7 +509,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 98.0, 177.0, 22.0 ],
+					"patching_rect" : [ 227.0, 96.0, 177.0, 22.0 ],
 					"text" : "Touch OSC (iPhone / iPad)"
 				}
 
@@ -463,7 +524,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 98.0, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 96.0, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.0, 212.0, 100.0, 20.0 ],
 					"text" : "Touch OSC"
@@ -480,7 +541,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 98.0, 122.0, 17.0 ],
+					"patching_rect" : [ 12.0, 96.0, 122.0, 17.0 ],
 					"text" : "load 0.getting_started"
 				}
 
@@ -495,7 +556,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 98.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 96.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -510,7 +571,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 101.0, 125.0, 72.0, 20.0 ],
+					"patching_rect" : [ 101.0, 123.0, 72.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 131.0, 112.0, 100.0, 20.0 ],
 					"text" : "TuioClient"
@@ -527,7 +588,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.0, 72.0, 111.0, 20.0 ],
+					"patching_rect" : [ 97.0, 70.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 58.0, 100.0, 20.0 ],
 					"text" : "MMF-Fantastick"
@@ -544,7 +605,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 87.0, 72.0, 119.0, 17.0 ],
+					"patching_rect" : [ 87.0, 70.0, 119.0, 17.0 ],
 					"text" : "help MMF-Fantastick"
 				}
 
@@ -559,7 +620,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 72.0, 52.0, 19.0 ],
+					"patching_rect" : [ 84.0, 70.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -573,7 +634,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 71.0, 155.0, 22.0 ],
+					"patching_rect" : [ 227.0, 69.0, 155.0, 22.0 ],
 					"text" : "Fantastick (iPhone)"
 				}
 
@@ -588,7 +649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 72.0, 78.0, 20.0 ],
+					"patching_rect" : [ 12.0, 70.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 88.0, 100.0, 20.0 ],
 					"text" : "Fantastick"
@@ -605,7 +666,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 72.0, 138.0, 17.0 ],
+					"patching_rect" : [ 10.0, 70.0, 138.0, 17.0 ],
 					"text" : "load FantaStickv2.3-help"
 				}
 
@@ -620,7 +681,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 72.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 70.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -634,7 +695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 404.0, 110.0, 22.0 ],
+					"patching_rect" : [ 227.0, 434.0, 110.0, 22.0 ],
 					"text" : "Bluetooth Witilt"
 				}
 
@@ -649,7 +710,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 404.0, 71.0, 20.0 ],
+					"patching_rect" : [ 12.0, 434.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 526.0, 100.0, 20.0 ],
 					"text" : "Witilt"
@@ -666,7 +727,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 404.0, 58.0, 17.0 ],
+					"patching_rect" : [ 12.0, 434.0, 58.0, 17.0 ],
 					"text" : "load witilt"
 				}
 
@@ -681,7 +742,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 407.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 437.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -695,7 +756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 377.5, 236.0, 22.0 ],
+					"patching_rect" : [ 227.0, 407.5, 236.0, 22.0 ],
 					"text" : "GPS reading and parsing bluetooth"
 				}
 
@@ -710,7 +771,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 378.0, 71.0, 20.0 ],
+					"patching_rect" : [ 12.0, 408.0, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 490.0, 100.0, 20.0 ],
 					"text" : "GPS"
@@ -727,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 378.0, 100.0, 17.0 ],
+					"patching_rect" : [ 12.0, 408.0, 100.0, 17.0 ],
 					"text" : "load GPS_simple"
 				}
 
@@ -742,7 +803,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 378.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 408.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -757,7 +818,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 228.248093, 84.0, 20.0 ],
+					"patching_rect" : [ 12.0, 252.248108, 84.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 122.0, 197.0, 100.0, 20.0 ],
 					"text" : "Jitter2DMX"
@@ -773,7 +834,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 226.800003, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 250.799988, 138.0, 22.0 ],
 					"text" : "using Jitter for DMX"
 				}
 
@@ -788,7 +849,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 45.0, 77.0, 20.0 ],
+					"patching_rect" : [ 11.0, 43.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "Mira"
@@ -805,7 +866,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 125.0, 79.0, 20.0 ],
+					"patching_rect" : [ 12.0, 123.0, 79.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
 					"text" : "TuioDemo"
@@ -821,7 +882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 125.0, 210.0, 22.0 ],
+					"patching_rect" : [ 227.0, 123.0, 210.0, 22.0 ],
 					"text" : "Tuio (tangible user interfaces)"
 				}
 
@@ -835,7 +896,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 172.0, 175.0, 22.0 ],
+					"patching_rect" : [ 227.0, 170.0, 175.0, 22.0 ],
 					"text" : "DMX protocol (lighting, ...)"
 				}
 
@@ -849,7 +910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 45.0, 253.0, 22.0 ],
+					"patching_rect" : [ 227.0, 43.0, 253.0, 22.0 ],
 					"text" : "Mira (needs the Mira app on an iPad)"
 				}
 
@@ -864,7 +925,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 125.0, 88.0, 17.0 ],
+					"patching_rect" : [ 12.0, 123.0, 88.0, 17.0 ],
 					"text" : "load TuioDemo"
 				}
 
@@ -879,7 +940,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 125.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 123.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -894,7 +955,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 172.0, 96.0, 20.0 ],
+					"patching_rect" : [ 12.0, 170.0, 96.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "Buttler's DMX"
@@ -911,7 +972,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 172.0, 79.0, 17.0 ],
+					"patching_rect" : [ 11.0, 170.0, 79.0, 17.0 ],
 					"text" : "load imp.dmx"
 				}
 
@@ -926,7 +987,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 172.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 170.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -941,7 +1002,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 45.0, 92.0, 17.0 ],
+					"patching_rect" : [ 12.0, 43.0, 92.0, 17.0 ],
 					"text" : "help mira.frame"
 				}
 
@@ -956,7 +1017,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 45.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 43.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -988,7 +1049,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 125.0, 87.0, 17.0 ],
+					"patching_rect" : [ 12.0, 123.0, 87.0, 17.0 ],
 					"text" : "load TuioClient"
 				}
 
@@ -1003,7 +1064,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 230.0, 93.0, 17.0 ],
+					"patching_rect" : [ 12.0, 254.0, 93.0, 17.0 ],
 					"text" : "load Jitter2DMX"
 				}
 
@@ -1018,7 +1079,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 229.0, 52.0, 19.0 ],
+					"patching_rect" : [ 13.0, 253.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1034,7 +1095,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 436.0, 496.0, 4.0 ],
+					"patching_rect" : [ 12.0, 465.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -1050,7 +1111,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 339.0, 496.0, 4.0 ],
+					"patching_rect" : [ 12.0, 368.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -1066,7 +1127,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 158.0, 496.0, 4.0 ],
+					"patching_rect" : [ 12.0, 156.0, 496.0, 4.0 ],
 					"varname" : "autohelp_top_panel[5]"
 				}
 
@@ -1165,7 +1226,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 19.5, 73.0, 21.5, 73.0 ],
+					"midpoints" : [ 19.5, 71.0, 21.5, 71.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1184,7 +1245,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 357.0, 21.5, 357.0 ],
+					"midpoints" : [ 21.5, 387.0, 21.5, 387.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1195,6 +1256,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -1221,7 +1300,7 @@
 					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 381.0, 21.5, 381.0 ],
+					"midpoints" : [ 21.5, 411.0, 21.5, 411.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -1240,7 +1319,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 96.5, 76.0, 93.5, 76.0 ],
+					"midpoints" : [ 96.5, 74.0, 93.5, 74.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -1250,7 +1329,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 47.0, 21.5, 47.0 ],
+					"midpoints" : [ 21.5, 45.0, 21.5, 45.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1269,7 +1348,7 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 410.0, 21.5, 410.0 ],
+					"midpoints" : [ 21.5, 440.0, 21.5, 440.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1306,7 +1385,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 455.0, 21.5, 455.0 ],
+					"midpoints" : [ 21.5, 484.0, 21.5, 484.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 672.0, 714.0 ],
+		"rect" : [ 0.0, 44.0, 644.0, 712.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,48 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 364.0, 556.0, 181.0, 20.0 ],
+					"text" : "group 48 values before sending"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 338.0, 598.0, 201.0, 20.0 ],
+					"text" : "interleave two lists (pins and values)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 396.0, 122.5, 87.0, 20.0 ],
+					"text" : "pin 3 to pin 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -37,7 +79,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 328.0, 524.0, 93.0, 24.0 ],
+					"patching_rect" : [ 323.0, 525.0, 93.0, 24.0 ],
 					"text" : "start a pin 2"
 				}
 
@@ -51,7 +93,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 317.0, 209.0, 73.0, 20.0 ],
+					"patching_rect" : [ 290.0, 180.0, 73.0, 20.0 ],
 					"text" : "r toMaxuino"
 				}
 
@@ -80,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 416.0, 30.0 ],
-					"text" : "IMI_movie2LED",
+					"text" : "IMI movie2LED",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -96,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 31.0, 551.0, 21.0 ],
-					"text" : "read a movie, translate into a matrix of numbers and send to Maxuino to lights so LED",
+					"text" : "read a movie, translate into a matrix of numbers and send through Maxuino to control LEDs",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -144,7 +186,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -249,7 +291,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 405.721863, 209.0, 60.0, 20.0 ],
+					"patching_rect" : [ 378.721863, 180.0, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -276,7 +318,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 244.0, 460.177979, 111.0, 20.0 ],
+					"patching_rect" : [ 244.0, 460.177979, 68.0, 20.0 ],
 					"text" : "t b b"
 				}
 
@@ -344,7 +386,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.0, 627.0, 63.0, 20.0 ],
+					"patching_rect" : [ 292.0, 628.0, 63.0, 20.0 ],
 					"text" : "zl.group 2"
 				}
 
@@ -358,7 +400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 292.0, 527.0, 32.5, 20.0 ],
+					"patching_rect" : [ 292.0, 527.0, 28.5, 20.0 ],
 					"text" : "+ 2"
 				}
 
@@ -374,20 +416,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 292.0, 556.0, 70.0, 20.0 ],
 					"text" : "zl.group 48"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-72",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 272.5, 432.0, 41.0, 20.0 ],
-					"text" : "init"
 				}
 
 			}
@@ -536,7 +564,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 387.5, 125.5, 32.5, 20.0 ],
+					"patching_rect" : [ 360.5, 122.5, 32.5, 20.0 ],
 					"text" : "+ 2"
 				}
 
@@ -551,8 +579,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.0, 62.5, 114.0, 24.0 ],
-					"text" : "initialise the pins"
+					"patching_rect" : [ 336.0, 59.5, 194.0, 24.0 ],
+					"text" : "initialise the pins (digital output)"
 				}
 
 			}
@@ -565,7 +593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.5, 154.5, 123.0, 20.0 ],
+					"patching_rect" : [ 360.5, 151.5, 123.0, 20.0 ],
 					"text" : "sprintf pinMode %d 1"
 				}
 
@@ -577,7 +605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 339.5, 64.5, 20.0, 20.0 ]
+					"patching_rect" : [ 312.5, 61.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -590,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 339.5, 95.5, 67.0, 20.0 ],
+					"patching_rect" : [ 312.5, 92.5, 67.0, 20.0 ],
 					"text" : "uzi 48"
 				}
 
@@ -657,7 +685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 551.5, 152.5, 63.0, 24.0 ],
+					"patching_rect" : [ 524.5, 120.5, 63.0, 24.0 ],
 					"text" : "rescan"
 				}
 
@@ -669,7 +697,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 528.5, 154.5, 20.0, 20.0 ]
+					"patching_rect" : [ 501.5, 122.5, 20.0, 20.0 ]
 				}
 
 			}
@@ -682,7 +710,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.5, 208.838989, 37.0, 18.0 ],
+					"patching_rect" : [ 440.5, 179.838989, 37.0, 18.0 ],
 					"text" : "reset"
 				}
 
@@ -696,7 +724,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.5, 208.838989, 63.0, 17.0 ],
+					"patching_rect" : [ 559.5, 185.838989, 63.0, 17.0 ],
 					"text" : "prepend port"
 				}
 
@@ -716,7 +744,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -924,7 +952,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 528.5, 156.838989, 49.0, 17.0 ],
+					"patching_rect" : [ 501.5, 122.5, 49.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -952,7 +980,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 528.5, 155.838989, 50.0, 17.0 ],
+					"patching_rect" : [ 501.5, 122.5, 50.0, 17.0 ],
 					"text" : "loadbang"
 				}
 
@@ -967,7 +995,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 528.5, 154.5, 37.0, 14.0 ],
+					"patching_rect" : [ 501.5, 122.5, 37.0, 14.0 ],
 					"text" : "update"
 				}
 
@@ -984,7 +1012,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 528.5, 181.177979, 135.0, 20.0 ],
+					"patching_rect" : [ 501.5, 152.177979, 135.0, 20.0 ],
 					"pattrmode" : 1
 				}
 
@@ -998,7 +1026,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 387.5, 245.5, 218.0, 23.0 ],
+					"patching_rect" : [ 360.5, 216.5, 218.0, 23.0 ],
 					"text" : "maxuino c",
 					"varname" : "maxuino"
 				}
@@ -1070,7 +1098,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 483.0, 64.0, 20.0, 20.0 ],
+					"patching_rect" : [ 290.0, 62.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1090,7 +1118,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 668.0, 51.0 ]
+					"patching_rect" : [ 2.0, 2.0, 641.0, 51.0 ]
 				}
 
 			}
@@ -1145,7 +1173,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 477.0, 236.169495, 397.0, 236.169495 ],
+					"midpoints" : [ 450.0, 207.169495, 370.0, 207.169495 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1173,7 +1201,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 326.5, 236.75, 397.0, 236.75 ],
+					"midpoints" : [ 299.5, 207.75, 370.0, 207.75 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1228,7 +1256,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 415.221863, 236.75, 397.0, 236.75 ],
+					"midpoints" : [ 388.221863, 207.75, 370.0, 207.75 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1386,7 +1414,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 538.0, 177.838989, 538.0, 177.838989 ],
+					"midpoints" : [ 511.0, 148.838989, 511.0, 148.838989 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -1423,7 +1451,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 345.5, 490.25, 30.5, 490.25 ],
+					"midpoints" : [ 302.5, 490.25, 30.5, 490.25 ],
 					"source" : [ "obj-94", 1 ]
 				}
 
@@ -1439,132 +1467,132 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-53::obj-125::obj-648::obj-126" : [ "value[8]", "value", 0 ],
-			"obj-53::obj-125::obj-678::obj-126" : [ "value[21]", "value", 0 ],
-			"obj-53::obj-125::obj-656::obj-126" : [ "value[13]", "value", 0 ],
-			"obj-53::obj-125::obj-673::obj-126" : [ "value[26]", "value", 0 ],
-			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
-			"obj-53::obj-125::obj-698::obj-126" : [ "value[31]", "value", 0 ],
-			"obj-53::obj-125::obj-693::obj-126" : [ "value[36]", "value", 0 ],
-			"obj-53::obj-125::obj-718::obj-126" : [ "value[41]", "value", 0 ],
-			"obj-53::obj-125::obj-713::obj-126" : [ "value[46]", "value", 0 ],
-			"obj-53::obj-125::obj-759::obj-126" : [ "value[51]", "value", 0 ],
-			"obj-53::obj-125::obj-33::obj-126" : [ "value[56]", "value", 0 ],
-			"obj-53::obj-125::obj-27::obj-126" : [ "value[61]", "value", 0 ],
-			"obj-53::obj-125::obj-17::obj-126" : [ "value[66]", "value", 0 ],
-			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
-			"obj-53::obj-125::obj-652::obj-126" : [ "value[17]", "value", 0 ],
-			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
-			"obj-53::obj-125::obj-677::obj-126" : [ "value[22]", "value", 0 ],
-			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
-			"obj-53::obj-125::obj-672::obj-126" : [ "value[27]", "value", 0 ],
-			"obj-53::obj-125::obj-697::obj-126" : [ "value[32]", "value", 0 ],
-			"obj-53::obj-125::obj-692::obj-126" : [ "value[37]", "value", 0 ],
-			"obj-53::obj-125::obj-717::obj-126" : [ "value[42]", "value", 0 ],
-			"obj-53::obj-125::obj-712::obj-126" : [ "value[47]", "value", 0 ],
-			"obj-53::obj-125::obj-758::obj-126" : [ "value[52]", "value", 0 ],
-			"obj-53::obj-125::obj-32::obj-126" : [ "value[57]", "value", 0 ],
-			"obj-53::obj-125::obj-24::obj-126" : [ "value[62]", "value", 0 ],
-			"obj-53::obj-125::obj-11::obj-126" : [ "value[67]", "value", 0 ],
-			"obj-53::obj-125::obj-645::obj-126" : [ "value[5]", "value", 0 ],
-			"obj-53::obj-125::obj-651::obj-126" : [ "value[18]", "value", 0 ],
-			"obj-53::obj-125::obj-667::obj-126" : [ "value[10]", "value", 0 ],
-			"obj-53::obj-125::obj-676::obj-126" : [ "value[23]", "value", 0 ],
-			"obj-53::obj-125::obj-654::obj-126" : [ "value[15]", "value", 0 ],
-			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ],
-			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
-			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
-			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
-			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
-			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
-			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
-			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
-			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
-			"obj-53::obj-125::obj-641::obj-126" : [ "value[1]", "value", 0 ],
-			"obj-53::obj-125::obj-646::obj-126" : [ "value[6]", "value", 0 ],
-			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
-			"obj-53::obj-125::obj-658::obj-126" : [ "value[11]", "value", 0 ],
-			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
-			"obj-53::obj-125::obj-653::obj-126" : [ "value[16]", "value", 0 ],
-			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ],
-			"obj-53::obj-125::obj-695::obj-126" : [ "value[34]", "value", 0 ],
-			"obj-53::obj-125::obj-690::obj-126" : [ "value[39]", "value", 0 ],
-			"obj-53::obj-125::obj-715::obj-126" : [ "value[44]", "value", 0 ],
-			"obj-53::obj-125::obj-710::obj-126" : [ "value[49]", "value", 0 ],
-			"obj-53::obj-125::obj-36::obj-126" : [ "value[54]", "value", 0 ],
-			"obj-53::obj-125::obj-29::obj-126" : [ "value[59]", "value", 0 ],
-			"obj-53::obj-125::obj-19::obj-126" : [ "value[64]", "value", 0 ],
-			"obj-53::obj-125::obj-8::obj-126" : [ "value[69]", "value", 0 ],
-			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
-			"obj-53::obj-125::obj-642::obj-126" : [ "value[2]", "value", 0 ],
-			"obj-53::obj-125::obj-647::obj-126" : [ "value[7]", "value", 0 ],
 			"obj-53::obj-125::obj-687::obj-126" : [ "value[20]", "value", 0 ],
-			"obj-53::obj-125::obj-657::obj-126" : [ "value[12]", "value", 0 ],
+			"obj-53::obj-125::obj-33::obj-126" : [ "value[56]", "value", 0 ],
 			"obj-53::obj-125::obj-674::obj-126" : [ "value[25]", "value", 0 ],
+			"obj-53::obj-125::obj-27::obj-126" : [ "value[61]", "value", 0 ],
 			"obj-53::obj-125::obj-707::obj-126" : [ "value[30]", "value", 0 ],
+			"obj-53::obj-125::obj-17::obj-126" : [ "value[66]", "value", 0 ],
 			"obj-53::obj-125::obj-694::obj-126" : [ "value[35]", "value", 0 ],
 			"obj-53::obj-125::obj-727::obj-126" : [ "value[40]", "value", 0 ],
 			"obj-53::obj-125::obj-714::obj-126" : [ "value[45]", "value", 0 ],
+			"obj-53::obj-125::obj-641::obj-126" : [ "value[1]", "value", 0 ],
+			"obj-53::obj-125::obj-646::obj-126" : [ "value[6]", "value", 0 ],
+			"obj-53::obj-125::obj-658::obj-126" : [ "value[11]", "value", 0 ],
+			"obj-53::obj-125::obj-653::obj-126" : [ "value[16]", "value", 0 ],
+			"obj-53::obj-125::obj-758::obj-126" : [ "value[52]", "value", 0 ],
+			"obj-53::obj-125::obj-678::obj-126" : [ "value[21]", "value", 0 ],
+			"obj-53::obj-125::obj-32::obj-126" : [ "value[57]", "value", 0 ],
+			"obj-53::obj-125::obj-673::obj-126" : [ "value[26]", "value", 0 ],
+			"obj-53::obj-125::obj-24::obj-126" : [ "value[62]", "value", 0 ],
+			"obj-53::obj-125::obj-698::obj-126" : [ "value[31]", "value", 0 ],
+			"obj-53::obj-125::obj-11::obj-126" : [ "value[67]", "value", 0 ],
+			"obj-53::obj-125::obj-693::obj-126" : [ "value[36]", "value", 0 ],
+			"obj-53::obj-125::obj-718::obj-126" : [ "value[41]", "value", 0 ],
+			"obj-53::obj-125::obj-713::obj-126" : [ "value[46]", "value", 0 ],
+			"obj-53::obj-125::obj-642::obj-126" : [ "value[2]", "value", 0 ],
+			"obj-53::obj-125::obj-647::obj-126" : [ "value[7]", "value", 0 ],
+			"obj-53::obj-125::obj-657::obj-126" : [ "value[12]", "value", 0 ],
+			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
+			"obj-53::obj-125::obj-652::obj-126" : [ "value[17]", "value", 0 ],
+			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
+			"obj-53::obj-125::obj-677::obj-126" : [ "value[22]", "value", 0 ],
+			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
+			"obj-53::obj-125::obj-672::obj-126" : [ "value[27]", "value", 0 ],
+			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
+			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-125::obj-697::obj-126" : [ "value[32]", "value", 0 ],
+			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
+			"obj-53::obj-125::obj-692::obj-126" : [ "value[37]", "value", 0 ],
+			"obj-53::obj-125::obj-717::obj-126" : [ "value[42]", "value", 0 ],
+			"obj-53::obj-125::obj-712::obj-126" : [ "value[47]", "value", 0 ],
+			"obj-53::obj-125::obj-643::obj-126" : [ "value[3]", "value", 0 ],
+			"obj-53::obj-125::obj-648::obj-126" : [ "value[8]", "value", 0 ],
+			"obj-53::obj-125::obj-656::obj-126" : [ "value[13]", "value", 0 ],
+			"obj-53::obj-125::obj-710::obj-126" : [ "value[49]", "value", 0 ],
+			"obj-53::obj-125::obj-651::obj-126" : [ "value[18]", "value", 0 ],
+			"obj-53::obj-125::obj-36::obj-126" : [ "value[54]", "value", 0 ],
+			"obj-53::obj-125::obj-676::obj-126" : [ "value[23]", "value", 0 ],
+			"obj-53::obj-125::obj-29::obj-126" : [ "value[59]", "value", 0 ],
+			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ],
+			"obj-53::obj-125::obj-19::obj-126" : [ "value[64]", "value", 0 ],
+			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
+			"obj-53::obj-125::obj-8::obj-126" : [ "value[69]", "value", 0 ],
+			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
+			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
+			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
+			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
+			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
+			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
 			"obj-53::obj-125::obj-768::obj-126" : [ "value[50]", "value", 0 ],
+			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
 			"obj-53::obj-125::obj-34::obj-126" : [ "value[55]", "value", 0 ],
+			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
 			"obj-53::obj-125::obj-28::obj-126" : [ "value[60]", "value", 0 ],
+			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ],
 			"obj-53::obj-125::obj-18::obj-126" : [ "value[65]", "value", 0 ],
-			"obj-53::obj-125::obj-643::obj-126" : [ "value[3]", "value", 0 ]
+			"obj-53::obj-125::obj-695::obj-126" : [ "value[34]", "value", 0 ],
+			"obj-53::obj-125::obj-690::obj-126" : [ "value[39]", "value", 0 ],
+			"obj-53::obj-125::obj-715::obj-126" : [ "value[44]", "value", 0 ],
+			"obj-53::obj-125::obj-645::obj-126" : [ "value[5]", "value", 0 ],
+			"obj-53::obj-125::obj-667::obj-126" : [ "value[10]", "value", 0 ],
+			"obj-53::obj-125::obj-654::obj-126" : [ "value[15]", "value", 0 ],
+			"obj-53::obj-125::obj-759::obj-126" : [ "value[51]", "value", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "maxuino.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxuino.js",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
+				"patcherrelativepath" : "./support",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxuino-gui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
+				"patcherrelativepath" : "./support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxuino-Dpin-gui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
+				"patcherrelativepath" : "./support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Teensy++.png",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/hardware",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/hardware",
+				"patcherrelativepath" : "./hardware",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxuino-hardware.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/hardware",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/hardware",
+				"patcherrelativepath" : "./hardware",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maxuino-debug.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
-				"patcherrelativepath" : "../Sensor_Interfaces/2. Maxuino/maxuino_b016/support",
+				"patcherrelativepath" : "./support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
+				"patcherrelativepath" : "../../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
