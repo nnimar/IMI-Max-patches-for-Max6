@@ -70,13 +70,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"id" : "obj-1",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 373.0, 139.0, 121.0, 17.0 ],
+									"text" : "looppoints 15 50 go 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
 									"id" : "obj-2",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 141.0, 118.0, 17.0 ],
-									"text" : "read hapticanna.mov"
+									"patching_rect" : [ 98.0, 141.0, 94.0, 17.0 ],
+									"text" : "read sophie.mov"
 								}
 
 							}
@@ -90,8 +104,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 118.0, 65.0, 18.0 ],
-									"text" : "loadmess 2"
+									"patching_rect" : [ 98.0, 118.0, 62.0, 18.0 ],
+									"text" : "loadmess 1"
 								}
 
 							}
@@ -158,7 +172,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 222.5, 139.0, 100.0, 20.0 ],
+									"patching_rect" : [ 199.5, 141.0, 100.0, 20.0 ],
 									"text" : "r imi.looptheloop"
 								}
 
@@ -172,8 +186,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 402.0, 212.0, 143.0, 17.0 ],
-									"text" : "looppoints 100 150 wait 2"
+									"patching_rect" : [ 388.0, 212.0, 143.0, 17.0 ],
+									"text" : "looppoints 180 220 wait 2"
 								}
 
 							}
@@ -186,7 +200,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 373.0, 163.0, 122.0, 17.0 ],
+									"patching_rect" : [ 373.0, 161.0, 122.0, 17.0 ],
 									"text" : "looppoints 15 50 go 2"
 								}
 
@@ -383,6 +397,16 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-75", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 382.5, 241.0, 474.5, 241.0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-114", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -460,7 +484,7 @@
 									"destination" : [ "obj-75", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 411.5, 241.5, 474.5, 241.5 ],
+									"midpoints" : [ 397.5, 241.5, 474.5, 241.5 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -488,7 +512,7 @@
 									"destination" : [ "obj-116", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 232.0, 170.0, 17.5, 170.0 ],
+									"midpoints" : [ 209.0, 170.0, 17.5, 170.0 ],
 									"source" : [ "obj-36", 0 ]
 								}
 
@@ -3684,35 +3708,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
-				"patcherrelativepath" : "../z",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly_movie.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Video",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Video",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.looptheloop.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
