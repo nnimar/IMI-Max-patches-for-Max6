@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 144.0, 271.0, 256.0, 128.0 ],
+					"patching_rect" : [ 144.0, 281.0, 256.0, 128.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 256.0, 128.0 ]
 				}
 
@@ -49,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 144.0, 241.0, 361.0, 20.0 ],
+					"patching_rect" : [ 144.0, 251.0, 361.0, 20.0 ],
 					"text" : "jscope~ @calccount 64 @dim 256 128 @range -1. 1. @decay 0.8"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 96.0, 63.0, 17.0 ],
+					"patching_rect" : [ 360.0, 96.0, 63.0, 17.0 ],
 					"text" : "range -1 1"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 72.0, 76.0, 17.0 ],
+					"patching_rect" : [ 360.0, 72.0, 76.0, 17.0 ],
 					"text" : "range -10 10"
 				}
 
@@ -192,7 +192,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 444.0, 196.0, 50.0, 19.0 ],
+					"patching_rect" : [ 454.0, 221.0, 50.0, 19.0 ],
 					"presentation_rect" : [ 45.0, 45.0, 50.0, 22.0 ],
 					"triscale" : 0.9
 				}
@@ -285,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 384.0, 151.0, 143.0, 45.0 ],
+					"patching_rect" : [ 384.0, 190.0, 143.0, 45.0 ],
 					"text" : "int in right inlet changes samples per buffer (width of matrix)"
 				}
 
@@ -328,7 +328,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 72.0, 106.0, 71.0 ],
+					"patching_rect" : [ 438.0, 71.0, 103.0, 71.0 ],
 					"text" : "The range message changes the min and max displayed y value (default -1 to 1)."
 				}
 
@@ -387,7 +387,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 377.5, 235.5, 153.5, 235.5 ],
+					"midpoints" : [ 369.5, 235.5, 153.5, 235.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -397,7 +397,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 362.5, 235.5, 153.5, 235.5 ],
+					"midpoints" : [ 369.5, 235.5, 153.5, 235.5 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -443,7 +443,6 @@
 					"destination" : [ "obj-3", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 453.5, 225.5, 495.5, 225.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

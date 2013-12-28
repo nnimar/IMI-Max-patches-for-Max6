@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -88,7 +88,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -462,7 +462,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1074,9 +1074,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"ongradcolor1" : [ 0.929412, 0.52765, 0.538609, 1.0 ],
-					"patching_rect" : [ 227.0, 521.0, 45.0, 45.0 ],
-					"varname" : "autohelp_dac"
+					"offgradcolor1" : [ 0.870588, 0.564706, 0.537255, 1.0 ],
+					"ongradcolor1" : [ 0.118737, 0.811765, 0.274668, 1.0 ],
+					"patching_rect" : [ 227.0, 521.0, 45.0, 45.0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 539.0, 157.0, 85.0, 20.0 ],
+					"patching_rect" : [ 539.0, 137.0, 85.0, 20.0 ],
 					"text" : "loadmess 128"
 				}
 
@@ -199,7 +199,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.0, 527.0, 100.0, 20.0 ],
+					"patching_rect" : [ 59.0, 527.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 357.0, 140.0, 100.0, 20.0 ],
 					"text" : "Audio driver"
@@ -216,7 +216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 529.0, 35.0, 16.0 ],
+					"patching_rect" : [ 59.0, 529.0, 35.0, 16.0 ],
 					"text" : "open"
 				}
 
@@ -231,7 +231,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 528.0, 48.0, 18.0 ],
+					"patching_rect" : [ 59.0, 528.0, 48.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -251,7 +251,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -718,7 +718,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 70.0, 527.0, 51.0, 18.0 ],
+					"patching_rect" : [ 59.0, 527.0, 51.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -742,8 +742,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"patching_rect" : [ 9.0, 495.0, 53.0, 53.0 ]
+					"offgradcolor1" : [ 0.870588, 0.564706, 0.537255, 1.0 ],
+					"ongradcolor1" : [ 0.118737, 0.811765, 0.274668, 1.0 ],
+					"patching_rect" : [ 9.0, 504.0, 44.0, 44.0 ]
 				}
 
 			}
@@ -949,7 +950,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 390.0, 147.0, 47.0 ],
+					"patching_rect" : [ 6.0, 394.0, 147.0, 47.0 ],
 					"text" : "jit.window zscope2 @rect 600 300 1200 550 @pos 1080 320"
 				}
 
@@ -1251,7 +1252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 290.0, 384.0, 120.0, 85.0 ]
+					"patching_rect" : [ 291.0, 384.0, 120.0, 85.0 ]
 				}
 
 			}
@@ -1395,7 +1396,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.5, 495.0, 20.0, 20.0 ],
+					"patching_rect" : [ 265.5, 62.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1420,7 +1421,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 265.5, 61.0, 20.0, 20.0 ],
+					"patching_rect" : [ 55.5, 61.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1445,7 +1446,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 54.0, 60.0, 20.0, 20.0 ],
+					"patching_rect" : [ 60.0, 503.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],

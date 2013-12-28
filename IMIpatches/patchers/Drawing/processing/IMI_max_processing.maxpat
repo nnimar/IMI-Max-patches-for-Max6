@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 248.58548, 124.0, 22.0 ],
-					"presentation_rect" : [ 258.0, 250.5, 0.0, 0.0 ],
 					"text" : "bouncy balls"
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 246.58548, 91.0, 16.0 ],
-					"presentation_rect" : [ 112.0, 250.5, 0.0, 0.0 ],
 					"text" : "load bouncy_balls"
 				}
 
@@ -545,7 +543,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 142.5, 52.0, 19.0 ],
+					"patching_rect" : [ 101.0, 273.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 

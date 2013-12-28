@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 537.0, 508.0 ],
+		"rect" : [ 1.0, 44.0, 536.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -97,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 481.0, 413.0, 22.0 ],
+					"patching_rect" : [ 54.0, 462.0, 413.0, 22.0 ],
 					"text" : "Warning : ajh.wiiremote is NOT compatible with Mac OS 10.8"
 				}
 
@@ -234,7 +234,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 422.0, 120.0, 20.0 ],
+					"patching_rect" : [ 10.0, 403.0, 120.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 405.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav_quad"
@@ -251,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 422.0, 123.0, 17.0 ],
+					"patching_rect" : [ 10.0, 403.0, 123.0, 17.0 ],
 					"text" : "help z.wii.glNav_quad"
 				}
 
@@ -266,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 424.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 405.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -281,7 +281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 423.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 404.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -296,7 +296,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 362.0, 88.0, 20.0 ],
+					"patching_rect" : [ 10.0, 343.0, 88.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 345.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav1"
@@ -313,7 +313,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 362.0, 100.0, 17.0 ],
+					"patching_rect" : [ 10.0, 343.0, 100.0, 17.0 ],
 					"text" : "help z.wii.glNav1"
 				}
 
@@ -328,7 +328,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 364.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 345.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -343,7 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 363.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 344.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -358,7 +358,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 249.0, 157.0, 20.0 ],
+					"patching_rect" : [ 10.0, 233.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "ajh.wiiremote alpha 1.6"
@@ -374,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 249.0, 257.0, 22.0 ],
+					"patching_rect" : [ 260.0, 233.0, 257.0, 22.0 ],
 					"text" : "ajh wiiremote (not compatible with 10.8)"
 				}
 
@@ -404,7 +404,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 376.0, 258.0, 38.0 ],
+					"patching_rect" : [ 260.0, 357.0, 258.0, 38.0 ],
 					"text" : "use the  z.wii patches for 3d navigation\n(not compatible with 10.8)"
 				}
 
@@ -419,7 +419,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 392.0, 88.0, 20.0 ],
+					"patching_rect" : [ 10.0, 373.0, 88.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 404.0, 100.0, 20.0 ],
 					"text" : "z.wii.glNav2"
@@ -436,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 392.0, 98.0, 17.0 ],
+					"patching_rect" : [ 10.0, 373.0, 98.0, 17.0 ],
 					"text" : "help z.wii.glNav2"
 				}
 
@@ -451,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 394.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 375.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -466,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 393.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 374.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -481,7 +481,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 286.0, 166.0, 38.0 ],
+					"patching_rect" : [ 260.0, 270.0, 166.0, 38.0 ],
 					"text" : "CNMAT OSC-Wiiremote (uses ajh.wiiremote)"
 				}
 
@@ -496,7 +496,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 293.0, 112.0, 20.0 ],
+					"patching_rect" : [ 10.0, 277.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 326.0, 100.0, 20.0 ],
 					"text" : "OSC-Wiiremote"
@@ -513,7 +513,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 293.0, 117.0, 17.0 ],
+					"patching_rect" : [ 10.0, 277.0, 117.0, 17.0 ],
 					"text" : "help OSC-Wiiremote"
 				}
 
@@ -528,7 +528,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 291.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 275.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -543,7 +543,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 252.0, 104.0, 17.0 ],
+					"patching_rect" : [ 10.0, 236.0, 104.0, 17.0 ],
 					"text" : "help ajh.wiiremote"
 				}
 
@@ -558,7 +558,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 250.0, 52.0, 19.0 ],
+					"patching_rect" : [ 10.0, 234.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -639,7 +639,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 342.0, 530.0, 4.0 ],
+					"patching_rect" : [ 5.0, 323.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -655,7 +655,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 218.0, 529.0, 9.0 ],
+					"patching_rect" : [ 5.0, 212.0, 529.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -808,7 +808,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 19.5, 252.0, 19.5, 252.0 ],
+					"midpoints" : [ 19.5, 236.0, 19.5, 236.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

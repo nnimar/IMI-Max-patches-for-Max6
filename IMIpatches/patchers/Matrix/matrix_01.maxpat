@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -217,7 +217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 174.0, 481.0, 72.0, 25.0 ],
-					"text" : "2 0 3"
+					"text" : "8 2 27"
 				}
 
 			}
@@ -234,7 +234,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -474,7 +474,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -703,7 +703,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 79.0, 164.0, 61.0, 20.0 ],
+					"patching_rect" : [ 9.0, 213.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -718,7 +718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 79.0, 186.0, 112.0, 20.0 ],
+					"patching_rect" : [ 9.0, 235.0, 112.0, 20.0 ],
 					"text" : "jit.noise 1 char 9 9"
 				}
 
@@ -736,6 +736,7 @@
 					"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
 					"hscroll" : 0,
 					"id" : "obj-4",
+					"just" : 1,
 					"maxclass" : "jit.cellblock",
 					"numinlets" : 2,
 					"numoutlets" : 4,
@@ -762,6 +763,7 @@
 					"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
 					"hscroll" : 0,
 					"id" : "obj-5",
+					"just" : 1,
 					"maxclass" : "jit.cellblock",
 					"numinlets" : 2,
 					"numoutlets" : 4,
@@ -788,6 +790,7 @@
 					"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
 					"hscroll" : 0,
 					"id" : "obj-7",
+					"just" : 1,
 					"maxclass" : "jit.cellblock",
 					"numinlets" : 2,
 					"numoutlets" : 4,
@@ -814,6 +817,7 @@
 					"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
 					"hscroll" : 0,
 					"id" : "obj-8",
+					"just" : 1,
 					"maxclass" : "jit.cellblock",
 					"numinlets" : 2,
 					"numoutlets" : 4,
@@ -909,7 +913,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 341.0, 172.0, 57.0 ],
+					"patching_rect" : [ 371.0, 341.0, 176.0, 57.0 ],
 					"text" : "A cell is referred to by its position in the matrix (column then row). "
 				}
 

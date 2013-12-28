@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1182,7 +1182,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1886,7 +1886,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 773.0, 610.0, 65.0, 18.0 ],
+					"patching_rect" : [ 773.0, 607.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2282,7 +2282,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2423,7 +2423,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 841.0, 610.0, 41.0, 18.0 ],
+					"patching_rect" : [ 841.0, 607.0, 41.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3145,7 +3145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 695.0, 610.0, 77.0, 18.0 ],
+					"patching_rect" : [ 695.0, 607.0, 77.0, 18.0 ],
 					"text" : "Documentation"
 				}
 

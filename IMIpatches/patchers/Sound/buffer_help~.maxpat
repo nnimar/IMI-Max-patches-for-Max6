@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -134,7 +134,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -554,7 +554,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 381.0, 117.0, 24.0 ],
+					"patching_rect" : [ 22.0, 376.0, 117.0, 24.0 ],
 					"text" : "control amplitude"
 				}
 
@@ -698,7 +698,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 327.0, 44.0, 18.0 ],
+					"patching_rect" : [ 335.0, 310.0, 44.0, 18.0 ],
 					"text" : "0. 500"
 				}
 
@@ -712,7 +712,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 327.0, 37.0, 18.0 ],
+					"patching_rect" : [ 244.0, 310.0, 37.0, 18.0 ],
 					"text" : "1. 30"
 				}
 
@@ -726,7 +726,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 158.0, 359.0, 50.0, 20.0 ],
+					"patching_rect" : [ 158.0, 348.0, 50.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -740,7 +740,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 142.0, 383.0, 34.5, 20.0 ],
+					"patching_rect" : [ 142.0, 378.0, 34.5, 20.0 ],
 					"text" : "*~"
 				}
 
@@ -751,7 +751,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 415.0, 45.0, 45.0 ]
+					"offgradcolor1" : [ 0.870588, 0.564706, 0.537255, 1.0 ],
+					"ongradcolor1" : [ 0.118737, 0.811765, 0.274668, 1.0 ],
+					"patching_rect" : [ 142.0, 417.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -878,7 +880,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 253.5, 351.0, 167.5, 351.0 ],
+					"midpoints" : [ 253.5, 338.0, 167.5, 338.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -897,7 +899,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 344.5, 351.5, 167.5, 351.5 ],
+					"midpoints" : [ 344.5, 338.5, 167.5, 338.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 

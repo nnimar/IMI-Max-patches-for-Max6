@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -504,8 +504,9 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"patching_rect" : [ 9.0, 129.0, 53.0, 53.0 ]
+					"offgradcolor1" : [ 0.870588, 0.564706, 0.537255, 1.0 ],
+					"ongradcolor1" : [ 0.118737, 0.811765, 0.274668, 1.0 ],
+					"patching_rect" : [ 9.0, 129.0, 44.0, 44.0 ]
 				}
 
 			}
@@ -624,7 +625,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
