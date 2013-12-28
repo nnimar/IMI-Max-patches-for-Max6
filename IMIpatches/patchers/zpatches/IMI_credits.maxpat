@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 652.0, 572.0 ],
+		"rect" : [ 0.0, 44.0, 652.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -200,8 +200,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 42.0, 638.0, 67.0 ],
-					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image  at the London College of Communication (United Kingdom)."
+					"patching_rect" : [ 4.0, 42.0, 642.0, 67.0 ],
+					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used at the BA design for interaction and moving image (IMI) at the London College of Communication (United Kingdom)."
 				}
 
 			}

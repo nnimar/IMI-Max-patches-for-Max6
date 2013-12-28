@@ -37,6 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.0, 106.0, 121.0, 17.0 ],
+					"presentation_rect" : [ 374.0, 106.0, 0.0, 0.0 ],
 					"text" : "looppoints 15 50 go 1"
 				}
 

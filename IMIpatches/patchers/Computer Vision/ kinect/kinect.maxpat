@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -75,7 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 139.0, 625.5, 293.0, 38.0 ],
-					"text" : "jit.openni (OpenNI) is a native jitter object. \nIt uses the Osceleton OSC format (port 7120)"
+					"text" : "jit.openni (OpenNI 1) is a native jitter object. \nIt uses the Osceleton OSC format (port 7120)"
 				}
 
 			}
@@ -161,7 +161,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -210,7 +210,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 8.0, 5.0, 484.0, 491.0 ],
-									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). All of these aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
+									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). All of these aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work. Unfortunately, it's limited to version 1 of the OpenNI.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
 								}
 
 							}
@@ -521,7 +521,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,

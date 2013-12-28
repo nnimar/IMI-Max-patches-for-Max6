@@ -2,7 +2,7 @@
 2, <category> 1 Introduction;
 3, IMI_introduction "intro to Max";
 4, IMI_max_sandpit "max sandpit";
-5, IMI_max_messaging "max message demystified";
+5, IMI_maxhelp_a_day "patch a day, healthy everyday";
 6, IMI_credits "credits";
 10, -----------------------;
 11, <category> 2 Video;
@@ -12,7 +12,7 @@
 20, -----------------------;
 21, <category> 3 Sound;
 22, IMI_sound_player_qtmovie "sound player using jit.qt.movie";
-23, IMI_sound_player_sfplay "sound player using sfplay";
+23, IMI_simple_sound_player "sound players (sfplay, play, groove)";
 24, IMI_multi_sound_player "multi sound player using sfplay";
 25, loop_maker "simple loop maker";
 26, sound_toolbox "sound toolbox";
@@ -33,9 +33,9 @@
 50, -----------------------;
 51, <category> 6 Global;
 52, IMI_toolbox "useful objects for Max";
-53, list_toolbox "useful objects to handle lists";
-54, Max_patching_rules "a few rules to help you patching";
-55, Max_style_guide "a visual guide for visual programming";
-56, IMI_maxhelp_a_day "patch a day, healthy everyday";
+53, IMI_max_messaging "max message demystified";
+54, list_toolbox "useful objects to handle lists";
+55, Max_patching_rules "a few rules to help you patching";
+56, Max_style_guide "a visual guide for visual programming";
 60, -----------------------;
 

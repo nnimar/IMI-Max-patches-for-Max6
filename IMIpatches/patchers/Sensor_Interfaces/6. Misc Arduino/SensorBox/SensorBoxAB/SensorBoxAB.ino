@@ -1,6 +1,6 @@
 // Code for Getting all the Arduino inputs into MaxMSP
-//Andrew Benson
-//http://pixlpa.com
+// Andrew Benson
+// http://pixlpa.com
 
 char analogValue[12]; //array of analog values
 char current=0; //current position of analog value in array

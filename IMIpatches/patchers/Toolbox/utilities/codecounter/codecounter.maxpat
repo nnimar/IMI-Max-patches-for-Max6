@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 0
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 881.0, 472.0, 762.0, 465.0 ],
+		"rect" : [ 5.0, 44.0, 606.0, 427.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -33,7 +34,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 382.0, 376.0, 20.0, 20.0 ]
+					"patching_rect" : [ 382.0, 371.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -47,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 501.5, 245.0, 24.0, 20.0 ],
+					"patching_rect" : [ 416.5, 206.0, 24.0, 20.0 ],
 					"text" : "t 0"
 				}
 
@@ -56,11 +57,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 402.0, 376.0, 70.0, 20.0 ],
+					"patching_rect" : [ 402.0, 371.0, 70.0, 20.0 ],
 					"text" : "reset count"
 				}
 
@@ -69,11 +71,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.0, 28.0, 212.0, 20.0 ],
+					"patching_rect" : [ 380.0, 13.0, 212.0, 20.0 ],
 					"text" : "drop one or more textbased code files"
 				}
 
@@ -82,11 +85,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.5, 347.0, 78.0, 20.0 ],
+					"patching_rect" : [ 450.5, 342.0, 78.0, 20.0 ],
 					"text" : "lines of code"
 				}
 
@@ -95,6 +99,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -108,6 +113,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -147,6 +153,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -160,11 +167,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 28.0, 173.0, 20.0 ],
+					"patching_rect" : [ 54.0, 13.0, 173.0, 20.0 ],
 					"text" : "drop one or more .maxpat files"
 				}
 
@@ -178,7 +186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 380.0, 204.0, 66.0, 20.0 ],
+					"patching_rect" : [ 380.0, 164.0, 66.0, 20.0 ],
 					"text" : "route lines"
 				}
 
@@ -193,7 +201,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 380.0, 347.0, 61.0, 20.0 ]
+					"patching_rect" : [ 380.0, 342.0, 61.0, 20.0 ]
 				}
 
 			}
@@ -232,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 380.0, 54.0, 129.0, 64.0 ]
+					"patching_rect" : [ 380.0, 39.0, 129.0, 64.0 ]
 				}
 
 			}
@@ -245,7 +253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 125.0, 81.0, 20.0 ],
+					"patching_rect" : [ 380.0, 110.0, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -259,8 +267,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 180.0, 93.0, 20.0 ],
+					"patching_rect" : [ 380.0, 137.0, 93.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "linecounter.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -345,7 +354,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 54.0, 54.0, 129.0, 64.0 ]
+					"patching_rect" : [ 54.0, 39.0, 129.0, 64.0 ]
 				}
 
 			}
@@ -372,7 +381,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 125.0, 81.0, 20.0 ],
+					"patching_rect" : [ 54.0, 110.0, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -386,7 +395,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 54.0, 204.0, 112.0, 20.0 ],
+					"patching_rect" : [ 54.0, 164.0, 112.0, 20.0 ],
 					"text" : "route objects cords"
 				}
 
@@ -400,8 +409,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.0, 180.0, 106.0, 20.0 ],
+					"patching_rect" : [ 54.0, 137.0, 106.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "objectcounter.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -451,7 +461,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 391.5, 404.0, 606.0, 404.0, 606.0, 235.0, 511.0, 235.0 ],
+					"midpoints" : [ 391.5, 404.0, 533.0, 404.0, 533.0, 198.0, 426.0, 198.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -479,6 +489,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"midpoints" : [ 426.0, 330.5, 389.5, 330.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -560,6 +571,7 @@
 					"destination" : [ "obj-36", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 403.0, 291.0, 418.0, 291.0, 418.0, 236.0, 403.0, 236.0 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -649,15 +661,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "objectcounter.js",
-				"bootpath" : "/Volumes/PROJECTS/Projects/Cycling '74 presentation/codecounter",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/utilities/codecounter",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "linecounter.js",
-				"bootpath" : "/Volumes/PROJECTS/Projects/Cycling '74 presentation/codecounter",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/utilities/codecounter",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

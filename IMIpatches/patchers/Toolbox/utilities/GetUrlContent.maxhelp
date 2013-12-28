@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 294.0, 44.0, 547.0, 315.0 ],
+		"rect" : [ 3.0, 44.0, 547.0, 315.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.5, 115.0, 490.0, 18.0 ],
+					"patching_rect" : [ 52.5, 100.0, 491.0, 18.0 ],
 					"text" : "url https://raw.github.com/natcl/max_package_downloader/master/package-info.json, bang"
 				}
 
@@ -94,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.0, 161.0, 150.0, 20.0 ],
+					"patching_rect" : [ 90.0, 155.0, 150.0, 20.0 ],
 					"text" : "url message sets the url"
 				}
 
@@ -168,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 143.0, 402.0, 18.0 ],
+					"patching_rect" : [ 78.0, 137.0, 402.0, 18.0 ],
 					"text" : "url https://raw.github.com/theonion/fartscroll.js/master/README.md, bang"
 				}
 
@@ -180,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 22.0, 117.0, 20.0, 20.0 ]
+					"patching_rect" : [ 22.0, 100.0, 20.0, 20.0 ]
 				}
 
 			}

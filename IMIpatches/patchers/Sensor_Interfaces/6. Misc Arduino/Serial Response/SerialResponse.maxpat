@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -93,7 +93,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -167,7 +167,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -778,7 +778,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -851,7 +851,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1659,7 +1659,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-3",
-					"items" : [ "no", "arduino", "connected", ",", "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
+					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem", ",", "usbmodem1411" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1684,7 +1684,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1891,7 +1891,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2169,7 +2169,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2203,7 +2203,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 5.0, 325.0, 137.0 ],
-									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n4. Click on the toggle to turn the qmetro on (1)\n\n5. Press the button to scan the serial (2)"
+									"text" : "1. Install the program on the Arduino. \n\n2. Check the sensor using the arduino serial monitor.\n\n3. Quit the arduino application\n\n5. Press the button to scan the serial (1)\n\n4. Click on the toggle to turn the qmetro on (2)"
 								}
 
 							}
@@ -2218,7 +2218,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 150.0, 343.0, 60.0 ],
-									"text" : "You can install the following programs :\nSerial Call Response (ASCII version)\n\nThis patch works with  three sensors at a time."
+									"text" : "Install the following sketch on the Arduino :\nSerial Call Response (ASCII version)\n\nThis patch works with three sensors at a time."
 								}
 
 							}
@@ -2585,7 +2585,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
+				"patcherrelativepath" : "../../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

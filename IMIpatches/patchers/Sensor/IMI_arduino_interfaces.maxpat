@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -210,8 +210,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 393.0, 105.0, 17.0 ],
-					"text" : "load oscuinoSerial"
+					"patching_rect" : [ 15.0, 392.0, 121.0, 17.0 ],
+					"text" : "load IMIoscuinoSerial"
 				}
 
 			}
@@ -702,7 +702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,

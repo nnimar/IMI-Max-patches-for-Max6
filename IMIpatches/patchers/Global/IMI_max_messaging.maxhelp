@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 630.0, 590.0 ],
+		"rect" : [ 100.0, 100.0, 630.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -719,7 +719,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1282,7 +1282,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2104,11 +2104,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
+						"rect" : [ 100.0, 126.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2417,7 +2417,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 179.0, 119.0, 20.0 ]
+									"patching_rect" : [ 29.0, 179.0, 119.0, 20.0 ],
+									"text" : "move_to 100 120"
 								}
 
 							}
@@ -2797,7 +2798,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2913,7 +2914,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 197.0, 293.0, 333.0, 53.0 ],
+									"patching_rect" : [ 197.0, 293.0, 299.0, 53.0 ],
 									"text" : "with a comma between the values, the first one (30) is sent first then the second one (50), see the Max window"
 								}
 
@@ -3346,11 +3347,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 70.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3395,7 +3396,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 227.0, 119.0, 164.0, 40.0 ],
+									"patching_rect" : [ 227.0, 119.0, 166.0, 40.0 ],
 									"text" : "white background, paint\nblack foreground"
 								}
 
@@ -3724,6 +3725,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "max_message_coll",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/max_message",
+				"patcherrelativepath" : "./max_message",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "text.maxref.xml",
 				"bootpath" : "/Applications/Max 6.1/patches/docs/refpages/max-ref",
 				"patcherrelativepath" : "../../../../patches/docs/refpages/max-ref",

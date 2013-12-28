@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 537.0, 451.0 ],
+		"rect" : [ 1.0, 44.0, 536.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -232,7 +232,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.0, 292.0, 82.0, 20.0 ],
+					"patching_rect" : [ 109.0, 269.0, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 142.0, 292.0, 100.0, 20.0 ],
 					"text" : "Xbee4Max"
@@ -249,7 +249,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 293.0, 91.0, 17.0 ],
+					"patching_rect" : [ 111.0, 270.0, 91.0, 17.0 ],
 					"text" : "help Xbee4Max"
 				}
 
@@ -264,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 292.0, 52.0, 19.0 ],
+					"patching_rect" : [ 111.0, 269.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -296,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 384.0, 306.0, 29.0 ],
+					"patching_rect" : [ 18.0, 361.0, 306.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://blog.lib.umn.edu/ali/2009xbee/"
 				}
 
@@ -315,7 +315,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 309.0, 392.0, 85.0, 20.0 ],
+					"patching_rect" : [ 309.0, 369.0, 85.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.0, 418.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -335,7 +335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 386.0, 295.0, 29.0 ],
+					"patching_rect" : [ 17.0, 363.0, 295.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-api/"
 				}
 
@@ -354,7 +354,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 392.0, 64.0, 20.0 ],
+					"patching_rect" : [ 235.0, 369.0, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 419.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -377,7 +377,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.0, 392.0, 132.0, 20.0 ],
+					"patching_rect" : [ 94.0, 369.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -397,7 +397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 385.0, 318.0, 29.0 ],
+					"patching_rect" : [ 16.0, 362.0, 318.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-arduino/"
 				}
 
@@ -411,7 +411,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 313.0, 263.0, 22.0 ],
+					"patching_rect" : [ 249.0, 290.0, 263.0, 22.0 ],
 					"text" : "use the Xbee Arduino library (series 2)"
 				}
 
@@ -426,7 +426,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 292.0, 82.0, 20.0 ],
+					"patching_rect" : [ 15.0, 269.0, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"text" : "2. xbee_api"
@@ -443,7 +443,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 193.0, 77.0, 20.0 ],
+					"patching_rect" : [ 15.0, 184.0, 77.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
 					"text" : "1. xbee_at"
@@ -459,22 +459,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 421.0, 421.0, 22.0 ],
+					"patching_rect" : [ 41.0, 398.0, 421.0, 22.0 ],
 					"text" : "It is recommended to read the article on the Xbee in the IMI Wiki !"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 214.0, 242.0, 22.0 ],
-					"text" : "install xbee_at.pde"
 				}
 
 			}
@@ -488,7 +474,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 167.0, 229.0, 38.0 ],
+					"patching_rect" : [ 249.0, 175.0, 229.0, 38.0 ],
 					"text" : "The AT mode is the transparent / program mode (human readable)"
 				}
 
@@ -503,7 +489,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 194.0, 118.0, 17.0 ],
+					"patching_rect" : [ 15.0, 185.0, 118.0, 17.0 ],
 					"text" : "load xbee_at.maxpat"
 				}
 
@@ -518,7 +504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 193.0, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 184.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -562,7 +548,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 249.0, 268.0, 264.0, 38.0 ],
+					"patching_rect" : [ 249.0, 245.0, 264.0, 38.0 ],
 					"text" : "The API is the more robust mode \n(not easy, advanced only !)"
 				}
 
@@ -577,7 +563,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 292.0, 124.0, 17.0 ],
+					"patching_rect" : [ 17.0, 269.0, 124.0, 17.0 ],
 					"text" : "load xbee_api.maxpat"
 				}
 
@@ -592,7 +578,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 292.0, 52.0, 19.0 ],
+					"patching_rect" : [ 17.0, 269.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -625,7 +611,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 350.0, 530.0, 4.0 ],
+					"patching_rect" : [ 4.0, 327.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -641,7 +627,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 253.0, 530.0, 4.0 ],
+					"patching_rect" : [ 5.0, 230.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[5]"
 				}
 
@@ -737,7 +723,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 120.5, 294.0, 120.5, 294.0 ],
+					"midpoints" : [ 120.5, 271.0, 120.5, 271.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -747,7 +733,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 26.5, 294.0, 26.5, 294.0 ],
+					"midpoints" : [ 26.5, 271.0, 26.5, 271.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 

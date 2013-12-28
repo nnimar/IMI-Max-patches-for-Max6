@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 438.015045, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 416.015045, 193.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 399.015045, 172.0, 20.0, 20.0 ]
+					"patching_rect" : [ 377.015045, 193.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 399.015045, 138.0, 58.0, 21.0 ],
+					"patching_rect" : [ 377.015045, 165.0, 58.0, 21.0 ],
 					"text" : "togedge"
 				}
 
@@ -558,7 +558,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,

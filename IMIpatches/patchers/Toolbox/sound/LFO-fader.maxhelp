@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -223,7 +223,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -328,7 +328,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1029,7 +1029,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 197.0, 61.0, 20.0 ],
+					"patching_rect" : [ 223.0, 197.0, 61.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 173.0, 150.0, 20.0 ],
 					"text" : "amplitude"
@@ -1412,7 +1412,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2145,7 +2145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 196.0, 197.0, 20.0, 80.0 ],
+					"patching_rect" : [ 196.0, 197.0, 25.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 78.0, 20.0, 80.0 ],
 					"prototypename" : "ML.vertical-yellow",
@@ -2218,7 +2218,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 226.5, 190.0, 208.0, 190.0 ],
+					"midpoints" : [ 226.5, 190.0, 211.5, 190.0 ],
 					"source" : [ "obj-109", 1 ]
 				}
 
@@ -2366,7 +2366,7 @@
 					"destination" : [ "obj-27", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 208.0, 286.0, 168.25, 286.0, 168.25, 224.0, 63.5, 224.0 ],
+					"midpoints" : [ 211.5, 286.0, 168.25, 286.0, 168.25, 224.0, 63.5, 224.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -2376,7 +2376,7 @@
 					"destination" : [ "obj-27", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 204.0, 286.0, 142.5, 286.0, 142.5, 224.0, 48.5, 224.0 ],
+					"midpoints" : [ 205.5, 286.0, 142.5, 286.0, 142.5, 224.0, 48.5, 224.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -2423,7 +2423,7 @@
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 63.5, 260.0, 168.25, 260.0, 168.25, 191.0, 208.0, 191.0 ],
+					"midpoints" : [ 63.5, 260.0, 168.25, 260.0, 168.25, 191.0, 211.5, 191.0 ],
 					"source" : [ "obj-27", 2 ]
 				}
 
@@ -2433,7 +2433,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 260.0, 142.5, 260.0, 142.5, 191.0, 204.0, 191.0 ],
+					"midpoints" : [ 48.5, 260.0, 142.5, 260.0, 142.5, 191.0, 205.5, 191.0 ],
 					"source" : [ "obj-27", 1 ]
 				}
 

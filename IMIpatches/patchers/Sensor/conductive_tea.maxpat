@@ -44,7 +44,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 575.0, 44.0, 393.0, 139.0 ],
+						"rect" : [ 490.0, 44.0, 393.0, 139.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 18.0,
@@ -110,8 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 528.0, 122.0, 20.0 ],
-					"presentation_rect" : [ 226.0, 542.0, 0.0, 0.0 ],
+					"patching_rect" : [ 60.0, 529.0, 122.0, 20.0 ],
 					"text" : "linearize response",
 					"varname" : "autohelp_top_title[6]"
 				}
@@ -128,7 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 181.0, 125.0, 20.0 ],
-					"presentation_rect" : [ 230.0, 184.0, 0.0, 0.0 ],
 					"text" : "smooth signal 20ms",
 					"varname" : "autohelp_top_title[4]"
 				}
@@ -177,7 +175,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.0, 402.0, 133.0, 24.0 ],
-					"presentation_rect" : [ 394.0, 253.0, 0.0, 0.0 ],
 					"text" : "2. set up Hand OUT"
 				}
 

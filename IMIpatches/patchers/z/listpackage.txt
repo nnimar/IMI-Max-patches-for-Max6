@@ -1,3 +1,4 @@
+IMI_max_messaging, "max message demystified";
 list_in_max, "a list overview";
 imi_zl, "graphic overview of the ZL object";
 zlhelp, "list overview of the ZL object";
