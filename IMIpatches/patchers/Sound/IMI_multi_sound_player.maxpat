@@ -1300,7 +1300,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 633.0, 408.0 ],
+						"rect" : [ 0.0, 70.0, 633.0, 408.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1741,7 +1741,8 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"ongradcolor1" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
+									"offgradcolor1" : [ 0.870588, 0.564706, 0.537255, 1.0 ],
+									"ongradcolor1" : [ 0.118737, 0.811765, 0.274668, 1.0 ],
 									"patching_rect" : [ 204.0, 356.0, 46.0, 46.0 ]
 								}
 
@@ -4616,7 +4617,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 633.0, 408.0 ],
+						"rect" : [ 0.0, 26.0, 633.0, 408.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5750,10 +5751,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ]
+			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
