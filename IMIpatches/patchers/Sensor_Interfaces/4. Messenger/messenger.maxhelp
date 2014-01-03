@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -327,7 +327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 140.0, 315.0, 131.0, 33.0 ],
+					"patching_rect" : [ 164.0, 315.0, 131.0, 33.0 ],
 					"text" : "argument 1: port.\nargument 2: baud rate"
 				}
 
@@ -405,14 +405,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 11.0, 322.0, 122.0, 20.0 ],
+					"patching_rect" : [ 11.0, 322.0, 148.0, 22.0 ],
 					"text" : "messenger c 115200"
 				}
 
@@ -591,8 +591,8 @@
 			}
 , 			{
 				"name" : "imi.docloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

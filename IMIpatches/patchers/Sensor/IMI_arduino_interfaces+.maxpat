@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 135.5, 109.0, 22.0 ],
+					"patching_rect" : [ 216.0, 133.5, 109.0, 22.0 ],
 					"text" : "Max >> BlinkM"
 				}
 
@@ -51,7 +51,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 135.5, 71.0, 20.0 ],
+					"patching_rect" : [ 14.0, 133.5, 71.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 167.5, 100.0, 20.0 ],
 					"text" : "BlinkM"
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 135.5, 75.0, 17.0 ],
+					"patching_rect" : [ 14.0, 133.5, 75.0, 17.0 ],
 					"text" : "load Blinkm"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 105.5, 121.0, 22.0 ],
+					"patching_rect" : [ 216.0, 103.5, 121.0, 22.0 ],
 					"text" : "Max >> Lightuino"
 				}
 
@@ -97,7 +97,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 75.5, 139.0, 20.0 ],
+					"patching_rect" : [ 14.0, 73.5, 139.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 145.0, 100.0, 20.0 ],
 					"text" : "Benson's sensorBox"
@@ -113,7 +113,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 75.5, 199.0, 22.0 ],
+					"patching_rect" : [ 216.0, 73.5, 199.0, 22.0 ],
 					"text" : "Arduino >> Max (compressed)"
 				}
 
@@ -128,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 75.5, 108.0, 17.0 ],
+					"patching_rect" : [ 14.0, 73.5, 108.0, 17.0 ],
 					"text" : "load SensorBoxAB"
 				}
 
@@ -143,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 77.5, 52.0, 19.0 ],
+					"patching_rect" : [ 16.0, 75.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -158,7 +158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 45.5, 133.0, 20.0 ],
+					"patching_rect" : [ 14.0, 43.5, 133.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 145.0, 100.0, 20.0 ],
 					"text" : "arduino handshake"
@@ -174,7 +174,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 45.5, 204.0, 22.0 ],
+					"patching_rect" : [ 216.0, 43.5, 204.0, 22.0 ],
 					"text" : "Arduino >> Max (call-response)"
 				}
 
@@ -189,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 45.5, 118.0, 17.0 ],
+					"patching_rect" : [ 14.0, 43.5, 118.0, 17.0 ],
 					"text" : "load SerialResponse"
 				}
 
@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 45.5, 52.0, 19.0 ],
+					"patching_rect" : [ 15.0, 43.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -219,7 +219,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 105.5, 101.0, 20.0 ],
+					"patching_rect" : [ 14.0, 103.5, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 564.0, 100.0, 20.0 ],
 					"text" : "Max4Lightuino"
@@ -236,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 107.5, 131.0, 17.0 ],
+					"patching_rect" : [ 14.0, 105.5, 131.0, 17.0 ],
 					"text" : "load IMI_max4lightuino"
 				}
 
@@ -251,7 +251,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 107.5, 52.0, 19.0 ],
+					"patching_rect" : [ 14.0, 105.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -282,7 +282,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 135.5, 53.0, 20.0 ],
+					"patching_rect" : [ 14.0, 133.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 

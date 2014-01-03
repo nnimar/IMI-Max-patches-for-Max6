@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 646.0, 714.0 ],
+		"rect" : [ 544.0, 44.0, 644.0, 714.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 357.0, 628.0, 67.0, 20.0 ],
-					"presentation_rect" : [ 364.0, 433.0, 0.0, 0.0 ],
 					"text" : "group by 2"
 				}
 
@@ -725,7 +724,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.5, 179.838989, 26.5, 18.0 ],
+					"patching_rect" : [ 442.5, 180.0, 24.5, 18.0 ],
 					"text" : "init"
 				}
 
@@ -1064,7 +1063,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 31.5, 60.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 31.5, 60.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1090,7 +1088,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 290.5, 62.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 30.5, 60.0, 0.0, 0.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1239,7 +1236,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 450.0, 207.169495, 370.0, 207.169495 ],
+					"midpoints" : [ 452.0, 207.169495, 370.0, 207.169495 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1533,27 +1530,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-53::obj-125::obj-648::obj-126" : [ "value[8]", "value", 0 ],
-			"obj-53::obj-125::obj-11::obj-126" : [ "value[67]", "value", 0 ],
-			"obj-53::obj-125::obj-656::obj-126" : [ "value[13]", "value", 0 ],
-			"obj-53::obj-125::obj-651::obj-126" : [ "value[18]", "value", 0 ],
-			"obj-53::obj-125::obj-676::obj-126" : [ "value[23]", "value", 0 ],
-			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ],
-			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
-			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
-			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
-			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
-			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
-			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
-			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
-			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
-			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
-			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
-			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
-			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
-			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
-			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
-			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ],
 			"obj-53::obj-125::obj-695::obj-126" : [ "value[34]", "value", 0 ],
 			"obj-53::obj-125::obj-690::obj-126" : [ "value[39]", "value", 0 ],
 			"obj-53::obj-125::obj-715::obj-126" : [ "value[44]", "value", 0 ],
@@ -1568,6 +1544,7 @@
 			"obj-53::obj-125::obj-687::obj-126" : [ "value[20]", "value", 0 ],
 			"obj-53::obj-125::obj-674::obj-126" : [ "value[25]", "value", 0 ],
 			"obj-53::obj-125::obj-707::obj-126" : [ "value[30]", "value", 0 ],
+			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
 			"obj-53::obj-125::obj-694::obj-126" : [ "value[35]", "value", 0 ],
 			"obj-53::obj-125::obj-727::obj-126" : [ "value[40]", "value", 0 ],
 			"obj-53::obj-125::obj-714::obj-126" : [ "value[45]", "value", 0 ],
@@ -1579,7 +1556,6 @@
 			"obj-53::obj-125::obj-18::obj-126" : [ "value[65]", "value", 0 ],
 			"obj-53::obj-125::obj-658::obj-126" : [ "value[11]", "value", 0 ],
 			"obj-53::obj-125::obj-653::obj-126" : [ "value[16]", "value", 0 ],
-			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
 			"obj-53::obj-125::obj-678::obj-126" : [ "value[21]", "value", 0 ],
 			"obj-53::obj-125::obj-673::obj-126" : [ "value[26]", "value", 0 ],
 			"obj-53::obj-125::obj-698::obj-126" : [ "value[31]", "value", 0 ],
@@ -1603,7 +1579,28 @@
 			"obj-53::obj-125::obj-758::obj-126" : [ "value[52]", "value", 0 ],
 			"obj-53::obj-125::obj-32::obj-126" : [ "value[57]", "value", 0 ],
 			"obj-53::obj-125::obj-643::obj-126" : [ "value[3]", "value", 0 ],
-			"obj-53::obj-125::obj-24::obj-126" : [ "value[62]", "value", 0 ]
+			"obj-53::obj-125::obj-24::obj-126" : [ "value[62]", "value", 0 ],
+			"obj-53::obj-125::obj-648::obj-126" : [ "value[8]", "value", 0 ],
+			"obj-53::obj-125::obj-11::obj-126" : [ "value[67]", "value", 0 ],
+			"obj-53::obj-125::obj-656::obj-126" : [ "value[13]", "value", 0 ],
+			"obj-53::obj-125::obj-651::obj-126" : [ "value[18]", "value", 0 ],
+			"obj-53::obj-125::obj-676::obj-126" : [ "value[23]", "value", 0 ],
+			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
+			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ],
+			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
+			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
+			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
+			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
+			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
+			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
+			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
+			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
+			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
+			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
+			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
+			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
+			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
+			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
