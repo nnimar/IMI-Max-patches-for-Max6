@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 548.0, 499.0 ],
+		"rect" : [ 0.0, 44.0, 548.0, 499.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -437,8 +437,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 8.5, 407.0, 196.0, 20.0 ],
-					"text" : "jit.gl.node @name sub @capture 1"
+					"patching_rect" : [ 8.5, 407.0, 202.0, 20.0 ],
+					"text" : "jit.gl.node @name sub2 @capture 1"
 				}
 
 			}
@@ -1370,7 +1370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 283.5, 336.0, 123.0, 33.0 ],
+					"patching_rect" : [ 283.5, 336.0, 124.0, 33.0 ],
 					"text" : "jit.gl.videoplane sub2 @scale 1.3333 1."
 				}
 
@@ -1410,7 +1410,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 155.5, 336.0, 123.0, 33.0 ],
+					"patching_rect" : [ 155.5, 336.0, 124.0, 33.0 ],
 					"text" : "jit.gl.videoplane sub2 @scale 1.3333 1."
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -161,8 +161,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 915.833374, 65.0, 74.0, 46.0 ],
-					"text" : "translation",
+					"patching_rect" : [ 922.833374, 65.0, 74.0, 46.0 ],
+					"text" : "transition",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

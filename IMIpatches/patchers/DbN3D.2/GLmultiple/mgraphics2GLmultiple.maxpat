@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 591.0, 508.0 ],
+		"rect" : [ 1.0, 44.0, 590.0, 546.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,7 +30,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -88,7 +88,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 3.0, 393.0, 22.0 ],
+									"patching_rect" : [ 5.0, 3.0, 395.0, 22.0 ],
 									"text" : "GLmultiple will place and scale your images (or graphic here). "
 								}
 
@@ -295,7 +295,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 538.0, 32.0, 49.0, 18.0 ],
+					"patching_rect" : [ 542.0, 34.0, 45.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -390,7 +390,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.0, 433.5, 170.0, 20.0 ]
+					"patching_rect" : [ 143.0, 425.5, 170.0, 20.0 ]
 				}
 
 			}
@@ -404,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.0, 452.5, 170.0, 20.0 ]
+					"patching_rect" : [ 143.0, 444.5, 170.0, 20.0 ]
 				}
 
 			}
@@ -437,7 +437,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -978,7 +978,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 433.5, 231.0, 37.0 ],
+					"patching_rect" : [ 318.0, 425.5, 231.0, 37.0 ],
 					"text" : "to remove the black background, use\n@blend_enable 1 and  @blend screen"
 				}
 
@@ -1093,15 +1093,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-14",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 144.0, 480.5, 373.0, 20.0 ],
-					"text" : "jit.gl.videoplane @blend screen @blend_enable 1 @depth_enable 0"
+					"patching_rect" : [ 143.0, 472.5, 133.0, 69.0 ],
+					"text" : "jit.gl.videoplane @blend_enable 1 @blend screen @depth_enable 0"
 				}
 
 			}
@@ -1140,7 +1141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 166.5, 211.0, 80.0, 60.0 ]
+					"patching_rect" : [ 162.5, 207.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -1161,14 +1162,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 144.0, 175.0, 125.0, 20.0 ],
+					"patching_rect" : [ 144.0, 175.0, 154.0, 22.0 ],
 					"text" : "jit.mgraphics 320 240"
 				}
 
@@ -1290,7 +1291,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 329.5, 411.5, 153.5, 411.5 ],
+					"midpoints" : [ 329.5, 411.5, 152.5, 411.5 ],
 					"source" : [ "obj-11", 0 ]
 				}
 

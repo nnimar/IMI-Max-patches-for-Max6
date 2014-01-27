@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 182.0, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 184.0, 81.0, 20.0 ],
 					"text" : "prepend load"
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 181.0, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 183.0, 81.0, 20.0 ],
 					"text" : "prepend help"
 				}
 
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 182.0, 54.0, 20.0 ],
+					"patching_rect" : [ 12.0, 184.0, 54.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -86,7 +86,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 155.5, 103.0, 21.0 ],
+					"patching_rect" : [ 11.0, 157.5, 103.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 136.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -104,8 +104,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 155.5, 184.0, 22.0 ],
-					"text" : "generative poetry in french"
+					"patching_rect" : [ 196.0, 157.5, 184.0, 22.0 ],
+					"text" : "generative poetry (in french)"
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 124.833336, 112.0, 21.0 ],
+					"patching_rect" : [ 11.0, 126.833336, 112.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 121.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -146,7 +146,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 94.166664, 124.0, 21.0 ],
+					"patching_rect" : [ 11.0, 96.166664, 124.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 91.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 124.5, 218.0, 22.0 ],
+					"patching_rect" : [ 196.0, 126.5, 218.0, 22.0 ],
 					"text" : "fast text compare using dictionary"
 				}
 
@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 93.5, 183.0, 22.0 ],
+					"patching_rect" : [ 196.0, 95.5, 183.0, 22.0 ],
 					"text" : "simple text compare"
 				}
 
@@ -192,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 63.5, 176.0, 22.0 ],
+					"patching_rect" : [ 196.0, 65.5, 176.0, 22.0 ],
 					"text" : "learn about randomness"
 				}
 
@@ -227,7 +227,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 63.5, 96.0, 21.0 ],
+					"patching_rect" : [ 11.0, 65.5, 96.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -262,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 155.5, 89.0, 18.0 ],
+					"patching_rect" : [ 11.0, 157.5, 89.0, 18.0 ],
 					"text" : "IMI_Oulipo_01"
 				}
 
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 125.0, 96.0, 18.0 ],
+					"patching_rect" : [ 11.0, 127.0, 96.0, 18.0 ],
 					"text" : "IMI_text_search"
 				}
 
@@ -290,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 96.0, 107.0, 18.0 ],
+					"patching_rect" : [ 11.0, 98.0, 107.0, 18.0 ],
 					"text" : "IMI_text_compare"
 				}
 
@@ -304,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 65.0, 77.0, 18.0 ],
+					"patching_rect" : [ 11.0, 67.0, 77.0, 18.0 ],
 					"text" : "randomness"
 				}
 

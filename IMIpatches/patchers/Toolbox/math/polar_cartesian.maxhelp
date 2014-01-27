@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -185,8 +185,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 315.0, 274.0, 85.0 ],
-					"text" : "The polar coordinate system is a two-dimensional coordinate system in which each point on a plane is determined by a distance from a fixed point and an angle from a fixed direction."
+					"patching_rect" : [ 258.0, 315.0, 263.0, 85.0 ],
+					"text" : "The Polar coordinate system is a two-dimensional coordinate system in which each point on a plane is determined by a distance from a fixed point and an angle from a fixed direction."
 				}
 
 			}
@@ -278,8 +278,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "500px-CircularCoordinates.png",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/ images",
-				"patcherrelativepath" : "../../z/ images",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
+				"patcherrelativepath" : "../../z/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

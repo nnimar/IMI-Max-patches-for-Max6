@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -261,8 +261,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 74.0, 159.0, 99.0, 20.0 ],
-					"text" : "counter 2 0 200"
+					"patching_rect" : [ 74.0, 159.0, 98.0, 20.0 ],
+					"text" : "counter 2 -5 190"
 				}
 
 			}
@@ -289,8 +289,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 176.0, 159.0, 96.0, 20.0 ],
-					"text" : "counter 2 0 200"
+					"patching_rect" : [ 176.0, 159.0, 98.0, 20.0 ],
+					"text" : "counter 2 -5 190"
 				}
 
 			}

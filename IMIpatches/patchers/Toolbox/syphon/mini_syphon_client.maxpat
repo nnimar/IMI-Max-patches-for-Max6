@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -79,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 198.023987, 54.0, 34.0 ]
+					"patching_rect" : [ 10.0, 198.023987, 70.0, 34.0 ]
 				}
 
 			}
@@ -151,7 +151,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -692,7 +692,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 268.638458, 110.0, 33.0 ],
+					"patching_rect" : [ 10.0, 268.638458, 112.0, 33.0 ],
 					"text" : "jit.window syphons @fsmenubar 0"
 				}
 

@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 95.0, 137.0, 22.0 ],
-					"presentation_rect" : [ 225.0, 95.0, 0.0, 0.0 ],
+					"patching_rect" : [ 225.0, 93.0, 137.0, 22.0 ],
 					"text" : "official specifications"
 				}
 
@@ -53,7 +52,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 95.0, 96.0, 20.0 ],
+					"patching_rect" : [ 8.0, 93.0, 96.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.0, 115.0, 100.0, 20.0 ],
 					"text" : "OSC specs"
@@ -225,7 +224,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 220.5, 52.0, 20.0 ],
+					"patching_rect" : [ 9.0, 220.5, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 432.0, 100.0, 20.0 ],
 					"text" : "IanniX"
@@ -319,7 +318,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 166.25, 63.0, 20.0 ],
+					"patching_rect" : [ 9.0, 166.25, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 156.0, 423.0, 100.0, 20.0 ],
 					"text" : "OSCseq"
@@ -587,7 +586,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 62.0, 131.0, 49.0 ],
+					"patching_rect" : [ 7.0, 60.0, 131.0, 49.0 ],
 					"text" : ";\rmax launchbrowser http://opensoundcontrol.org/spec-1_0"
 				}
 
@@ -604,7 +603,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 125.0, 506.0, 4.0 ],
-					"presentation_rect" : [ 3.0, 85.0, 0.0, 0.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 

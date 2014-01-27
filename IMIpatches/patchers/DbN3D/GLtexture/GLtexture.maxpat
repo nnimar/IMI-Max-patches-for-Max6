@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -296,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 132.0, 197.0, 22.0 ],
+					"patching_rect" : [ 213.0, 132.996521, 197.0, 22.0 ],
 					"text" : "mix textures with slab"
 				}
 
@@ -315,7 +315,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 132.0, 152.0, 20.0 ],
+					"patching_rect" : [ 10.0, 133.542862, 152.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.0, 246.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -353,7 +353,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 108.0, 149.0, 20.0 ],
+					"patching_rect" : [ 10.0, 109.028572, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 108.0, 197.0, 22.0 ],
+					"patching_rect" : [ 213.0, 108.662018, 197.0, 22.0 ],
 					"text" : "multiple textures with GLmesh"
 				}
 
@@ -415,7 +415,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 180.0, 177.0, 22.0 ],
+					"patching_rect" : [ 213.0, 183.693375, 177.0, 22.0 ],
 					"text" : "cubemap texture target"
 				}
 
@@ -429,7 +429,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 156.5, 177.0, 22.0 ],
+					"patching_rect" : [ 213.0, 157.837982, 177.0, 22.0 ],
 					"text" : "apply a texture on a model"
 				}
 
@@ -562,7 +562,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 156.0, 117.0, 20.0 ],
+					"patching_rect" : [ 10.0, 158.057144, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 261.0, 576.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -600,7 +600,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 84.0, 82.0, 20.0 ],
+					"patching_rect" : [ 10.0, 84.514282, 82.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -623,7 +623,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 180.0, 90.0, 20.0 ],
+					"patching_rect" : [ 10.0, 182.571426, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 432.0, 307.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -800,7 +800,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 83.5, 219.0, 22.0 ],
+					"patching_rect" : [ 213.0, 83.820557, 219.0, 22.0 ],
 					"text" : "more options and multiple images"
 				}
 

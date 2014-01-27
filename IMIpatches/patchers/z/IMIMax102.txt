@@ -10,7 +10,7 @@
 12, IMI_text_basics "text basics";
 13, IMI_text_alpha "text + alpha layer";
 14, IMI_type_text "typing text in a window";
-15, IMI_text_Oulipo "max and litterature";
+15, IMI_text_oulipo "max and litterature";
 16, IMI_coll2text2d "a simple patch to place text";
 17, IMI_text_passingtime "interactive text patch";
 20, -----------------------;

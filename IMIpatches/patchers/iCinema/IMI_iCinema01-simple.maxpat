@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 802.0, 621.0 ],
+		"rect" : [ 1.0, 44.0, 800.0, 599.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 685.0, 594.0, 108.0, 20.0 ],
+					"patching_rect" : [ 688.0, 574.0, 108.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 685.0, 596.0, 55.0, 17.0 ],
+					"patching_rect" : [ 688.0, 576.0, 55.0, 17.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -125,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -278,7 +278,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 685.0, 596.0, 65.0, 18.0 ],
+					"patching_rect" : [ 688.0, 576.0, 65.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -404,11 +404,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 812.0, 44.0, 111.0, 102.0 ],
+						"rect" : [ 812.0, 44.0, 90.0, 107.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -437,7 +437,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 8.0, 38.0, 63.0, 45.0 ],
+									"patching_rect" : [ 8.0, 41.0, 63.0, 45.0 ],
 									"text" : ";\rmovie 1;\rinit bang;\r"
 								}
 
@@ -540,8 +540,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 131.0, 139.0, 18.0 ],
-					"text" : "receiving data from sensor"
+					"patching_rect" : [ 697.0, 134.0, 55.0, 18.0 ],
+					"text" : "arduino >"
 				}
 
 			}
@@ -586,14 +586,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 483.0, 129.0, 20.0, 20.0 ]
+					"patching_rect" : [ 753.0, 132.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -604,7 +604,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -652,7 +652,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -971,7 +971,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1056,7 +1056,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 6,
 															"architecture" : "x86"
 														}
 ,
@@ -1427,7 +1427,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-9",
-									"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+									"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1716,7 +1716,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 390.0, 104.0, 112.0, 20.0 ],
+					"patching_rect" : [ 390.0, 104.0, 382.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1743,7 +1743,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 692.0, 389.0, 38.0, 18.0 ],
+					"patching_rect" : [ 663.0, 389.0, 38.0, 18.0 ],
 					"text" : "r time"
 				}
 
@@ -1755,7 +1755,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 692.0, 459.0, 20.0, 20.0 ]
+					"patching_rect" : [ 663.0, 459.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1768,8 +1768,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 692.0, 418.0, 57.0, 20.0 ],
-					"text" : "past 380"
+					"patching_rect" : [ 663.0, 418.0, 57.0, 20.0 ],
+					"text" : "past 300"
 				}
 
 			}
@@ -1824,7 +1824,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.0, 341.0, 62.0, 22.0 ],
+					"patching_rect" : [ 721.0, 341.0, 62.0, 22.0 ],
 					"text" : "SCRIPT"
 				}
 
@@ -1839,7 +1839,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.0, 75.0, 68.0, 22.0 ],
+					"patching_rect" : [ 721.0, 63.0, 68.0, 22.0 ],
 					"text" : "SENSOR"
 				}
 
@@ -1854,7 +1854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 301.0, 75.0, 53.0, 22.0 ],
+					"patching_rect" : [ 301.0, 63.0, 53.0, 22.0 ],
 					"text" : "VIDEO"
 				}
 
@@ -1868,7 +1868,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 594.0, 233.0, 20.0 ],
+					"patching_rect" : [ 449.0, 574.0, 233.0, 20.0 ],
 					"text" : "NM / movie by Anna Szumiec (IMI 2011)"
 				}
 
@@ -1908,7 +1908,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 389.0, 41.0, 18.0 ],
+					"patching_rect" : [ 565.0, 389.0, 41.0, 18.0 ],
 					"text" : "r loop2"
 				}
 
@@ -1921,7 +1921,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.0, 459.0, 37.0, 18.0 ],
+					"patching_rect" : [ 565.0, 459.0, 37.0, 18.0 ],
 					"text" : "s loop"
 				}
 
@@ -1937,7 +1937,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 418.0, 78.0, 30.0 ],
+					"patching_rect" : [ 565.0, 418.0, 78.0, 30.0 ],
 					"text" : "looppoints 140 395 go 1"
 				}
 
@@ -2066,7 +2066,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 17.0, 560.0, 54.0, 34.0 ]
+					"patching_rect" : [ 17.0, 560.0, 63.0, 34.0 ]
 				}
 
 			}
@@ -2109,7 +2109,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 58.0, 4.0, 559.0 ],
+					"patching_rect" : [ 362.0, 58.0, 4.0, 534.0 ],
 					"rounded" : 52
 				}
 
@@ -2320,7 +2320,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 446.0, 154.0, 581.5, 154.0 ],
+					"midpoints" : [ 581.0, 154.0, 581.5, 154.0 ],
 					"source" : [ "obj-34", 1 ]
 				}
 
@@ -2418,15 +2418,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.looptheloop.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "past2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2439,8 +2439,8 @@
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

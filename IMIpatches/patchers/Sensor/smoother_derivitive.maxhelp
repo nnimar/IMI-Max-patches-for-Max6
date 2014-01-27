@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -31,13 +31,62 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 573.0, 543.5, 100.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 546.0, 489.5, 100.0, 20.0 ],
+					"text" : "can_smoother"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 573.0, 538.5, 96.0, 16.0 ],
+					"presentation_rect" : [ 547.0, 492.5, 0.0, 0.0 ],
+					"text" : "load can_smoother"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 573.0, 543.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 544.0, 490.0, 0.0, 0.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 588.0, 542.5, 82.0, 19.0 ],
+					"patching_rect" : [ 590.0, 516.5, 82.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 548.0, 434.0, 100.0, 20.0 ],
 					"text" : "dot.smooth"
@@ -54,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 589.0, 545.5, 82.0, 16.0 ],
+					"patching_rect" : [ 591.0, 519.5, 82.0, 16.0 ],
 					"text" : "help dot.smooth"
 				}
 
@@ -87,7 +136,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -193,7 +242,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -319,11 +368,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 693.0, 388.0, 84.0, 285.0 ],
+						"rect" : [ 788.0, 386.0, 133.0, 286.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -351,7 +400,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 14.0, 101.0, 32.5, 20.0 ],
+									"patching_rect" : [ 14.0, 101.0, 33.0, 20.0 ],
 									"text" : "t i i"
 								}
 
@@ -365,7 +414,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 211.0, 46.0, 20.0 ],
+									"patching_rect" : [ 28.0, 211.0, 48.0, 20.0 ],
 									"text" : "gate"
 								}
 
@@ -380,7 +429,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 14.0, 77.0, 50.0, 20.0 ]
+									"patching_rect" : [ 14.0, 75.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -406,7 +455,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 14.0, 182.0, 20.0, 20.0 ]
+									"patching_rect" : [ 28.0, 182.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -419,7 +468,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 14.0, 148.0, 32.5, 20.0 ],
+									"patching_rect" : [ 28.0, 148.0, 32.5, 20.0 ],
 									"text" : "> 8"
 								}
 
@@ -443,7 +492,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 242.0, 25.0, 25.0 ]
+									"patching_rect" : [ 28.0, 242.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -516,7 +565,7 @@
 									"destination" : [ "obj-41", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 23.5, 137.0, 50.5, 137.0 ],
+									"midpoints" : [ 23.5, 137.0, 66.5, 137.0 ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -835,7 +884,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 586.0, 543.0, 53.0, 20.0 ],
+					"patching_rect" : [ 588.0, 517.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -872,6 +921,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1004,6 +1062,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1014,36 +1081,36 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/basic_programming",
-				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/basic_programming",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
+				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
-				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/depot_support",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onepole.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT-MMJ-Depot/modules/data_transformation",
-				"patcherrelativepath" : "../../externals/sound/CNMAT-MMJ-Depot/modules/data_transformation",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
+				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
 				"type" : "JSON",
 				"implicit" : 1
 			}

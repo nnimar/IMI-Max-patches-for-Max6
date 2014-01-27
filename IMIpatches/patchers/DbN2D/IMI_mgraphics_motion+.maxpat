@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -67,7 +67,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 270.0, 175.0, 45.0 ],
+					"patching_rect" : [ 76.0, 270.0, 177.0, 45.0 ],
 					"text" : "set_source_rgba 1 1 1 1, paint, set_source_rgba 0 0 0 1, ellipse $1 $2 $3 $4, fill"
 				}
 
@@ -229,8 +229,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 76.0, 162.0, 95.0, 20.0 ],
-					"text" : "counter 2 0 200"
+					"patching_rect" : [ 76.0, 162.0, 98.0, 20.0 ],
+					"text" : "counter 2 -5 190"
 				}
 
 			}
@@ -257,8 +257,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 179.0, 162.0, 95.0, 20.0 ],
-					"text" : "counter 2 0 200"
+					"patching_rect" : [ 179.0, 162.0, 99.0, 20.0 ],
+					"text" : "counter 2 -5 190"
 				}
 
 			}

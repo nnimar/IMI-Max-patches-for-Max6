@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 647.0, 44.0, 669.0, 713.0 ],
+		"rect" : [ 647.0, 44.0, 689.0, 716.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 352.0, 680.0, 217.0, 24.0 ],
-					"text" : "jit.op @op * is the full version of jit.*"
+					"patching_rect" : [ 373.0, 680.0, 226.0, 24.0 ],
+					"text" : "jit.* is the short version of jit.op @op *  "
 				}
 
 			}
@@ -52,7 +52,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 573.0, 681.0, 83.0, 22.0 ],
+					"patching_rect" : [ 602.0, 681.0, 83.0, 22.0 ],
 					"text" : "jit.op @op *"
 				}
 
@@ -137,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 224.0, 21.0 ],
+					"patching_rect" : [ 3.0, 30.0, 224.0, 21.0 ],
 					"text" : "unpack quicktime video into A R G B",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -243,7 +243,7 @@
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "flonum",
-					"maximum" : 1.0,
+					"maximum" : 3.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -310,7 +310,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 10.0, 552.0, 113.0, 22.0 ],
+					"patching_rect" : [ 10.0, 552.0, 511.0, 22.0 ],
 					"text" : "jit.pack 4"
 				}
 
@@ -406,7 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 10.0, 300.0, 138.0, 22.0 ],
+					"patching_rect" : [ 10.0, 300.0, 675.0, 22.0 ],
 					"text" : "jit.unpack 4"
 				}
 
@@ -502,8 +502,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 176.0, 279.0, 100.0 ],
-					"text" : "In Jitter, a video/image has four planes: alpha, red, green, blue (ARGB)\n\nThis single four plane matrix may be split into four single plane matrices, processed then recombined."
+					"patching_rect" : [ 182.0, 176.0, 290.0, 100.0 ],
+					"text" : "In Jitter, a video/image has four planes: alpha, red, green, blue (ARGB)\n\nThis single four plane matrix may be split into four single plane matrices, processed (jit.*) then recombined (jit.pack)."
 				}
 
 			}
@@ -533,7 +533,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 665.0, 48.0 ],
+					"patching_rect" : [ 2.0, 2.0, 685.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -613,7 +613,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 108.75, 341.0, 511.5, 341.0 ],
+					"midpoints" : [ 511.5, 341.0, 511.5, 341.0 ],
 					"source" : [ "obj-19", 3 ]
 				}
 
@@ -623,7 +623,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 79.0, 341.0, 347.5, 341.0 ],
+					"midpoints" : [ 347.5, 341.0, 347.5, 341.0 ],
 					"source" : [ "obj-19", 2 ]
 				}
 
@@ -634,7 +634,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 49.25, 341.0, 183.5, 341.0 ],
+					"midpoints" : [ 183.5, 341.0, 183.5, 341.0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -757,7 +757,7 @@
 					"destination" : [ "obj-11", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 511.5, 541.0, 113.5, 541.0 ],
+					"midpoints" : [ 511.5, 541.0, 511.5, 541.0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -786,7 +786,7 @@
 					"destination" : [ "obj-11", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 347.5, 541.0, 82.166664, 541.0 ],
+					"midpoints" : [ 347.5, 541.0, 347.5, 541.0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -806,7 +806,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 183.5, 540.0, 50.833332, 540.0 ],
+					"midpoints" : [ 183.5, 540.0, 183.5, 540.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
