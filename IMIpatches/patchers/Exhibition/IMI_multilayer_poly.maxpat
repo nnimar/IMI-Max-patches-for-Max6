@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -98,7 +98,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 213.0, 62.0, 53.0, 20.0 ],
+					"patching_rect" : [ 213.0, 63.0, 53.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -320,7 +320,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -354,8 +354,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 211.0, 206.0, 183.0, 33.0 ],
-									"text" : "uzi -2 because the initial position is at -1. in GL (1 - 2 = -1)"
+									"patching_rect" : [ 211.0, 206.0, 185.0, 33.0 ],
+									"text" : "uzi -2 because the initial position is at -1 in GL (1 - 2 = -1)"
 								}
 
 							}
@@ -715,7 +715,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 362.0, 279.0, 99.0, 18.0 ],
+					"patching_rect" : [ 362.0, 282.0, 99.0, 18.0 ],
 					"text" : "position $1 $2 0."
 				}
 
@@ -843,7 +843,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1153,7 +1153,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1323,7 +1323,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1984,14 +1984,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 173.0, 82.0, 20.0 ],
+					"patching_rect" : [ 495.0, 174.0, 70.0, 18.0 ],
 					"text" : "loadmess 0.3"
 				}
 
@@ -2231,7 +2231,7 @@
 					"destination" : [ "obj-11", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 433.5, 305.060242, 371.5, 305.060242 ],
+					"midpoints" : [ 433.5, 312.060242, 371.5, 312.060242 ],
 					"source" : [ "obj-22", 0 ]
 				}
 

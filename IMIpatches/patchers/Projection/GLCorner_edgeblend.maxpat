@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 501.0, 457.0 ],
+		"rect" : [ 1.0, 44.0, 501.0, 491.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,11 +85,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 507.0, 436.0, 194.0, 280.0 ],
+						"rect" : [ 508.0, 357.0, 194.0, 280.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -314,7 +314,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 196.0, 401.0, 91.0, 20.0 ],
+					"patching_rect" : [ 202.0, 380.0, 91.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -342,7 +342,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 359.0, 150.0, 20.0 ]
+					"patching_rect" : [ 202.0, 335.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -356,7 +356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 377.0, 150.0, 20.0 ]
+					"patching_rect" : [ 202.0, 353.0, 150.0, 20.0 ]
 				}
 
 			}
@@ -374,7 +374,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -945,7 +945,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 233.0, 80.0, 35.0 ]
+					"patching_rect" : [ 11.0, 233.0, 63.0, 35.0 ]
 				}
 
 			}
@@ -974,7 +974,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 208.0, 43.0, 20.0 ]
+					"patching_rect" : [ 397.0, 208.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -988,7 +988,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 208.0, 43.0, 20.0 ]
+					"patching_rect" : [ 347.0, 208.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -1002,7 +1002,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 307.0, 208.0, 43.0, 20.0 ]
+					"patching_rect" : [ 299.0, 208.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -1015,7 +1015,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 234.0, 214.0, 20.0 ],
+					"patching_rect" : [ 202.0, 234.0, 214.0, 20.0 ],
 					"text" : "pak fade 0. 0. 0. 0."
 				}
 
@@ -1030,7 +1030,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 259.0, 208.0, 43.0, 20.0 ]
+					"patching_rect" : [ 251.0, 208.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -1057,7 +1057,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 262.0, 95.0, 20.0 ],
+					"patching_rect" : [ 202.0, 262.0, 95.0, 20.0 ],
 					"text" : "prepend param"
 				}
 
@@ -1075,15 +1075,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-61",
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 178.0, 426.0, 234.0, 20.0 ],
-					"text" : "jit.gl.cornerpin @blend_enable 1 @layer 2"
+					"patching_rect" : [ 178.0, 414.0, 136.0, 69.0 ],
+					"text" : "jit.gl.cornerpin @blend_enable 1 @corner_radius 15 @layer 2"
 				}
 
 			}
@@ -1235,6 +1236,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 211.5, 408.0, 187.5, 408.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1244,7 +1246,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 258.0, 219.5, 258.0 ],
+					"midpoints" : [ 211.5, 258.0, 211.5, 258.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1272,6 +1274,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 211.5, 408.0, 187.5, 408.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1299,6 +1302,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 211.5, 409.0, 187.5, 409.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1344,7 +1348,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 219.5, 290.0, 187.5, 290.0 ],
+					"midpoints" : [ 211.5, 290.0, 187.5, 290.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1426,8 +1430,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

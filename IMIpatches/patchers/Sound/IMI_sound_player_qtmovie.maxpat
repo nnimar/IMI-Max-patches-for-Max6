@@ -255,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.0, 65.0, 102.0, 24.0 ],
+					"patching_rect" : [ 60.0, 64.0, 102.0, 24.0 ],
 					"text" : "sensor value"
 				}
 

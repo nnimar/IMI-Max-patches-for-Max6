@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 328.5, 93.0, 20.0 ],
+					"patching_rect" : [ 9.0, 328.5, 93.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 408.0, 100.0, 20.0 ],
 					"text" : "OSCuino"
@@ -224,7 +224,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 220.5, 74.0, 21.0 ],
+					"patching_rect" : [ 9.0, 220.5, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 432.0, 100.0, 20.0 ],
 					"text" : "IanniX"

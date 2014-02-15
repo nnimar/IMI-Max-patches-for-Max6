@@ -1454,7 +1454,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 635.0, 44.0, 467.0, 158.0 ],
+										"rect" : [ 638.0, 44.0, 467.0, 158.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2064,15 +2064,6 @@
 							}
 , 							{
 								"box" : 								{
-									"embed_buffers" : 									{
-										"audio.1" : "bell.aif",
-										"audio.2" : "children.aif",
-										"audio.3" : "dog.aif",
-										"audio.4" : "evening.aif",
-										"audio.5" : "footstep.aif",
-										"audio.6" : "traffic.aif"
-									}
-,
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"id" : "obj-4",
@@ -2080,12 +2071,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 425.0, 382.0, 205.0, 22.0 ],
+									"patching_rect" : [ 425.0, 382.0, 197.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
-									"text" : "polybuffer~ audio @embed 1"
+									"text" : "polybuffer~ psss @embed 1"
 								}
 
 							}
@@ -2670,7 +2661,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 479.0, 44.0, 490.0, 434.0 ],
+										"rect" : [ 641.0, 44.0, 490.0, 434.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5832,9 +5823,9 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,

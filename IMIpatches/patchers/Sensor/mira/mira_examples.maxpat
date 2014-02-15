@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 524.0, 44.0, 302.0, 152.0 ],
+		"rect" : [ 524.0, 44.0, 302.0, 184.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -32,11 +32,73 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.0, 143.522949, 118.0, 22.0 ],
+					"presentation_rect" : [ 165.0, 143.522949, 0.0, 0.0 ],
+					"text" : "space mapping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-2",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6.0, 145.522949, 145.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 53.0, 188.522949, 100.0, 20.0 ],
+					"text" : "mira_space_mapping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 11.0, 146.5, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-65",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6.0, 146.5, 173.0, 18.0 ],
+					"text" : "load IMI_mira_space_mapping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 80.234306, 121.0, 22.0 ],
+					"patching_rect" : [ 175.0, 80.234306, 118.0, 22.0 ],
 					"text" : "simple sequencer"
 				}
 
@@ -51,7 +113,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 80.234306, 118.0, 21.0 ],
+					"patching_rect" : [ 6.0, 80.234306, 118.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 287.0, 227.0, 100.0, 20.0 ],
 					"text" : "mira grid"
@@ -68,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 83.0, 84.0, 17.0 ],
+					"patching_rect" : [ 6.0, 83.0, 84.0, 17.0 ],
 					"text" : "load mira_grid"
 				}
 
@@ -98,7 +160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 48.0, 119.0, 21.0 ],
+					"patching_rect" : [ 6.0, 48.0, 119.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.0, 222.0, 100.0, 20.0 ],
 					"text" : "mira sound mixer"
@@ -115,7 +177,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 112.522957, 118.0, 21.0 ],
+					"patching_rect" : [ 6.0, 112.522957, 118.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.0, 195.0, 100.0, 20.0 ],
 					"text" : "mira camera"
@@ -131,7 +193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 112.522957, 121.0, 22.0 ],
+					"patching_rect" : [ 175.0, 112.522957, 118.0, 22.0 ],
 					"text" : "camera control"
 				}
 
@@ -145,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 48.0, 121.0, 22.0 ],
+					"patching_rect" : [ 175.0, 48.0, 118.0, 22.0 ],
 					"text" : "sound mixer"
 				}
 
@@ -160,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 115.0, 103.0, 17.0 ],
+					"patching_rect" : [ 6.0, 115.0, 103.0, 17.0 ],
 					"text" : "load mira_camera"
 				}
 
@@ -190,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 52.0, 131.0, 17.0 ],
+					"patching_rect" : [ 6.0, 52.0, 131.0, 17.0 ],
 					"text" : "load mira_sound_mixer"
 				}
 
@@ -255,10 +317,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 20.5, 50.0, 20.5, 50.0 ],
+					"midpoints" : [ 15.5, 50.0, 20.5, 50.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -278,6 +349,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-65", 0 ]
 				}
 
 			}

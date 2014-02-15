@@ -48,7 +48,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 71.0, 521.0, 36.0, 20.0 ],
-					"text" : "sel 9"
+					"text" : "sel 3"
 				}
 
 			}
@@ -907,16 +907,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-20" : [ "number[6]", "number", 0 ],
-			"obj-8" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-19" : [ "number[5]", "number", 0 ],
-			"obj-18" : [ "number[4]", "number", 0 ],
 			"obj-16" : [ "number[2]", "number", 0 ],
-			"obj-17" : [ "number[3]", "number", 0 ],
 			"obj-5" : [ "number[1]", "number[1]", 0 ],
+			"obj-17" : [ "number[3]", "number", 0 ],
+			"obj-8" : [ "toggle[1]", "toggle[1]", 0 ],
 			"obj-6" : [ "live.grid[5]", "live.grid", 0 ],
+			"obj-20" : [ "number[6]", "number", 0 ],
+			"obj-19" : [ "number[5]", "number", 0 ],
 			"obj-7" : [ "toggle", "toggle", 0 ],
-			"obj-15" : [ "number", "number", 0 ]
+			"obj-15" : [ "number", "number", 0 ],
+			"obj-18" : [ "number[4]", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

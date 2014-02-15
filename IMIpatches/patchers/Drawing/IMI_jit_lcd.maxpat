@@ -1342,7 +1342,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 559.0, 93.0, 18.0 ],
+					"patching_rect" : [ 32.0, 565.0, 93.0, 18.0 ],
 					"text" : "moveto 50 40"
 				}
 
@@ -1365,7 +1365,7 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 55.0, 494.0, 321.0, 25.0 ],
+					"patching_rect" : [ 54.0, 496.0, 321.0, 25.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 320.0 ],
 					"settype" : 0
@@ -1406,7 +1406,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 556.0, 117.0, 24.0 ],
+					"patching_rect" : [ 128.0, 562.0, 117.0, 24.0 ],
 					"text" : "absolute position"
 				}
 
@@ -1580,7 +1580,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 55.0, 255.0, 320.0, 240.0 ]
+					"patching_rect" : [ 54.0, 255.0, 320.0, 242.0 ]
 				}
 
 			}
@@ -1633,7 +1633,7 @@
 					"destination" : [ "obj-24", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 64.5, 525.5, 114.5, 525.5 ],
+					"midpoints" : [ 63.5, 525.5, 114.5, 525.5 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1689,7 +1689,7 @@
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.5, 554.5, 115.5, 554.5 ],
+					"midpoints" : [ 41.5, 557.5, 115.5, 557.5 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

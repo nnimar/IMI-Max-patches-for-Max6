@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 652.0, 571.0 ],
+		"rect" : [ 0.0, 44.0, 652.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 506.0, 572.0, 27.0 ],
+					"patching_rect" : [ 4.0, 526.0, 572.0, 27.0 ],
 					"text" : "Updates available on https://github.com/imi/IMI-Max-patches-for-Max6"
 				}
 
@@ -54,7 +54,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -96,7 +96,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 500.0, 541.849854, 141.0, 27.0 ],
+					"patching_rect" : [ 500.0, 561.849854, 141.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -155,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 449.849884, 603.0, 47.0 ],
+					"patching_rect" : [ 4.0, 469.849884, 603.0, 47.0 ],
 					"text" : "Medias: James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
 
@@ -181,12 +181,12 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-3",
-					"linecount" : 10,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 234.0, 639.0, 208.0 ],
-					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), Alan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013)."
+					"patching_rect" : [ 4.0, 234.0, 639.0, 228.0 ],
+					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), Alan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013),\nMasato Seki (2014)"
 				}
 
 			}
