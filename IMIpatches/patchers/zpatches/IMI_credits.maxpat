@@ -186,7 +186,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 234.0, 639.0, 228.0 ],
-					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), Alan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013),\nMasato Seki (2014)"
+					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), Alan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013),\nMasato Seki, Miyu Hayashi, Maisie Bowes (2014)"
 				}
 
 			}

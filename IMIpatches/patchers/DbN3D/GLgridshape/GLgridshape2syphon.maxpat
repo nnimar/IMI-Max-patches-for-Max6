@@ -29,6 +29,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 463.0, 381.5, 122.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 836.0, 388.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Syphon Recorder",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 432.0, 369.5, 153.0, 33.0 ],
+					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
@@ -671,7 +709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 359.0, 111.0, 33.0 ],
+					"patching_rect" : [ 473.0, 318.0, 111.0, 33.0 ],
 					"text" : "send the texture to the syphon server"
 				}
 
@@ -686,7 +724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 173.0, 119.0, 33.0 ],
+					"patching_rect" : [ 420.0, 156.0, 119.0, 33.0 ],
 					"text" : "capture the 3D context to a texture"
 				}
 
@@ -701,22 +739,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 326.0, 290.0, 139.0, 60.0 ],
+					"patching_rect" : [ 326.0, 248.0, 139.0, 60.0 ],
 					"text" : "jit.gl.videoplane syphon @transform_reset 2 @blend_enable 1 @depth_enable 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 220.0, 167.5, 129.0, 47.0 ],
+					"patching_rect" : [ 220.0, 150.5, 156.0, 53.0 ],
 					"text" : "jit.gl.node syphon @capture 1 @erase_color 0 0 0 1"
 				}
 
@@ -759,7 +797,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 164.0, 281.0, 123.0, 60.0 ],
+					"patching_rect" : [ 164.0, 243.0, 123.0, 60.0 ],
 					"text" : "jit.gl.gridshape cube @shape cube @scale 0.33 @lighting_enable 1"
 				}
 
@@ -775,7 +813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.0, 360.0, 160.0, 33.0 ],
+					"patching_rect" : [ 305.0, 318.0, 160.0, 33.0 ],
 					"text" : "jit.gl.syphonserver syphon @servername JitterSyphon"
 				}
 
@@ -810,7 +848,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 229.5, 228.75, 335.5, 228.75 ],
+					"midpoints" : [ 229.5, 215.75, 335.5, 215.75 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -820,7 +858,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 284.5, 273.25, 173.5, 273.25 ],
+					"midpoints" : [ 298.0, 235.25, 173.5, 235.25 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -830,7 +868,7 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 229.5, 235.75, 314.5, 235.75 ],
+					"midpoints" : [ 229.5, 224.75, 314.5, 224.75 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -926,8 +964,24 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "imi.apploader2.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}

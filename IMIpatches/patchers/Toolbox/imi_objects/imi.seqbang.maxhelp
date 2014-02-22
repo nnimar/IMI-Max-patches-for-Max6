@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 363.0, 173.0 ],
+		"rect" : [ 1.0, 44.0, 268.0, 167.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -29,37 +29,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 267.0, 136.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 238.0, 136.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 181.0, 90.0, 104.5, 22.0 ],
-					"text" : "cycle 4"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 181.0, 93.0, 54.0, 22.0 ],
+					"text" : "cycle 2"
 				}
 
 			}
@@ -70,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 181.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 181.0, 63.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -81,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 210.0, 136.0, 20.0, 20.0 ]
+					"patching_rect" : [ 216.0, 130.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -92,7 +70,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 181.0, 136.0, 20.0, 20.0 ]
+					"patching_rect" : [ 181.0, 130.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -107,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 2.0, 180.0, 30.0 ],
-					"text" : "IMI seqbang",
+					"text" : "imi.seqbang",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -138,7 +116,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 90.0, 86.0, 22.0 ],
+					"patching_rect" : [ 10.0, 93.0, 86.0, 22.0 ],
 					"text" : "imi.seqbang"
 				}
 
@@ -150,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 63.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -161,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 77.0, 136.0, 20.0, 20.0 ]
+					"patching_rect" : [ 77.0, 130.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -172,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 136.0, 20.0, 20.0 ]
+					"patching_rect" : [ 10.0, 130.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -187,21 +165,12 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 360.0, 51.0 ]
+					"patching_rect" : [ 1.0, 1.0, 265.0, 51.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
@@ -216,15 +185,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 3 ]
 				}
 
 			}
@@ -267,7 +227,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.seqbang.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -6,10 +6,10 @@
 5, GLcornerpin+ "keystone for GL objects";
 10, -----------------------;
 11, <category> 2 Exhibition;
-12, IMI_triplehead2go "using the triplehead2go";
-13, IMI_multi-layered_video "multi-layered video";
-14, IMI_video_twoscreens "video player for multi screens";
-15, IMI_mira_space_mapping "space mapping for multi screens";
+12, IMI_GLsyphon "examples using Syphon";
+13, IMI_triplehead2go "using the triplehead2go";
+14, IMI_multi-layered_video "multi-layered video";
+15, IMI_video_twoscreens "video player for multi screens";
 16, IMI_iCinema "iCinema";
 17, IMI_OSControl "control VPT/Resolume from Max";
 20, -----------------------;

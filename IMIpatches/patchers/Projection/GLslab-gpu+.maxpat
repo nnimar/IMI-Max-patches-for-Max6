@@ -35,8 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 490.0, 164.0, 80.0, 60.0 ],
-					"presentation_rect" : [ 522.0, 183.0, 0.0, 0.0 ]
+					"patching_rect" : [ 490.0, 164.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -635,7 +634,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 219.0, 30.0 ],
-					"text" : "Gl.slab+ (uyvy gpu)",
+					"text" : "GLslab+ (uyvy gpu)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 299.0, 53.0, 20.0 ],
+					"patching_rect" : [ 270.0, 297.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.0, 300.5, 113.0, 16.0 ],
+					"patching_rect" : [ 274.0, 297.5, 113.0, 16.0 ],
 					"text" : "load quicktime_smooth"
 				}
 
@@ -209,8 +209,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 534.0, 297.5, 87.0, 16.0 ],
-					"text" : "load gl-slab-gpu+"
+					"patching_rect" : [ 542.0, 297.5, 91.0, 16.0 ],
+					"text" : "load GLslab-gpu+"
 				}
 
 			}
@@ -362,7 +362,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1258,8 +1258,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 3.0, 179.0, 30.0 ],
-					"text" : "imi matrixinfo",
+					"text" : "imi.matrixinfo",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -227,7 +227,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrixinfo.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

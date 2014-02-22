@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 507.0, 378.0 ],
+		"rect" : [ 1.0, 44.0, 506.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 155.0, 190.0, 24.0 ],
+					"patching_rect" : [ 236.0, 148.0, 190.0, 24.0 ],
 					"text" : "brightness, contrast, saturation"
 				}
 
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -645,7 +645,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 167.0, 155.0, 67.0, 22.0 ],
+					"patching_rect" : [ 167.0, 148.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -677,7 +677,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 409.0, 352.0, 90.0, 20.0 ],
+					"patching_rect" : [ 409.0, 325.0, 90.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 734.0, 574.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -696,7 +696,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 352.0, 52.0, 19.0 ],
+					"patching_rect" : [ 408.0, 325.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -711,7 +711,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 408.0, 352.0, 62.0, 16.0 ],
+					"patching_rect" : [ 408.0, 325.0, 62.0, 16.0 ],
 					"text" : "load GLcpu"
 				}
 
@@ -730,7 +730,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1323,7 +1323,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 10.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1333,7 +1333,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1375,7 +1375,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 348.0, 65.0, 22.0 ],
+					"patching_rect" : [ 453.0, 32.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1430,7 +1430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 277.0, 190.0, 168.0, 24.0 ],
+					"patching_rect" : [ 277.0, 183.0, 168.0, 24.0 ],
 					"text" : "exponent and light version"
 				}
 
@@ -1449,7 +1449,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1640,7 +1640,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 193.0, 191.0, 80.0, 22.0 ],
+					"patching_rect" : [ 193.0, 184.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1667,7 +1667,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 149.0, 285.0, 252.0, 22.0 ],
+					"patching_rect" : [ 149.0, 272.0, 252.0, 22.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -1681,7 +1681,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 149.0, 245.0, 314.0, 22.0 ],
+					"patching_rect" : [ 149.0, 238.0, 314.0, 22.0 ],
 					"text" : "jit.gl.slab @file cc.uyvy2rgba.jxs @dimscale 2. 1."
 				}
 
@@ -1695,7 +1695,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 149.0, 118.0, 279.0, 22.0 ],
+					"patching_rect" : [ 149.0, 111.0, 279.0, 22.0 ],
 					"text" : "jit.qt.movie @adapt 1 @colormode uyvy"
 				}
 
@@ -1832,7 +1832,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.348022, 53.251862, 62.0, 18.0 ],
+					"patching_rect" : [ 305.348022, 75.0, 62.0, 18.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1919,7 +1919,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 176.5, 233.0, 158.5, 233.0 ],
+					"midpoints" : [ 176.5, 226.0, 158.5, 226.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1975,7 +1975,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 202.5, 233.0, 158.5, 233.0 ],
+					"midpoints" : [ 202.5, 226.0, 158.5, 226.0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -2058,8 +2058,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

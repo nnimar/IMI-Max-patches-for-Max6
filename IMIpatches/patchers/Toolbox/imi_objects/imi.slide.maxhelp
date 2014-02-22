@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 340.0, 434.0, 72.0, 20.0 ],
+					"patching_rect" : [ 349.0, 434.0, 72.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 626.0, 178.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 434.0, 72.0, 16.0 ],
+					"patching_rect" : [ 350.0, 434.0, 72.0, 16.0 ],
 					"text" : "load GLNurbs"
 				}
 
@@ -89,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 434.0, 52.0, 19.0 ],
+					"patching_rect" : [ 348.0, 434.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -161,14 +161,14 @@
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-83",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 149.0, 176.0, 42.0 ],
+					"patching_rect" : [ 136.0, 150.0, 155.0, 37.0 ],
 					"text" : "random matrix\n2 planes / 5 dimensions"
 				}
 
@@ -176,13 +176,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 274.0, 51.0, 22.0 ],
+					"patching_rect" : [ 11.0, 278.0, 45.0, 20.0 ],
 					"text" : "jit.spill"
 				}
 
@@ -244,13 +244,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 159.0, 135.0, 22.0 ],
+					"patching_rect" : [ 11.0, 159.0, 118.0, 20.0 ],
 					"text" : "jit.noise 2 float32 5"
 				}
 
@@ -381,7 +381,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.slide.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

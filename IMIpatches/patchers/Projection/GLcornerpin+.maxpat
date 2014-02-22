@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -35,13 +35,66 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-74",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 497.0, 346.0, 172.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 823.0, 423.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "IMI_mira_space_mapping",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-76",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 498.0, 349.0, 151.0, 16.0 ],
+					"text" : "load IMI_mira_space_mapping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 498.0, 347.0, 52.0, 19.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 370.0, 345.5, 151.0, 20.0 ],
+					"patching_rect" : [ 199.0, 345.5, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 409.0, 296.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 346.0, 53.0, 20.0 ],
+					"patching_rect" : [ 199.0, 346.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 372.0, 347.5, 128.0, 16.0 ],
+					"patching_rect" : [ 201.0, 347.5, 128.0, 16.0 ],
 					"text" : "load GLCorner_edgeblend"
 				}
 
@@ -94,7 +147,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 526.0, 345.5, 138.0, 20.0 ],
+					"patching_rect" : [ 355.0, 345.5, 138.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 426.0, 317.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -113,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 348.0, 53.0, 20.0 ],
+					"patching_rect" : [ 355.0, 348.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -128,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.0, 348.5, 122.0, 16.0 ],
+					"patching_rect" : [ 355.0, 348.5, 122.0, 16.0 ],
 					"text" : "load imi_space_mapping"
 				}
 
@@ -178,7 +231,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -214,7 +267,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1411,6 +1464,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}

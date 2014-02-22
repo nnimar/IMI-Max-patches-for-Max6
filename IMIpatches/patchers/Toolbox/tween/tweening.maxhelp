@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -150,7 +150,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -266,7 +266,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 58.0, 281.0, 89.0, 22.0 ],
+									"patching_rect" : [ 58.0, 281.0, 77.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "tween.js",
 										"parameter_enable" : 0

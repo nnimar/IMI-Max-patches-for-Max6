@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 580.0, 438.0 ],
+		"rect" : [ 2.0, 44.0, 578.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.5, 321.5, 96.0, 17.0 ],
+					"patching_rect" : [ 216.5, 321.5, 96.0, 17.0 ],
 					"text" : "read dozer.mov"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.5, 297.5, 62.0, 18.0 ],
+					"patching_rect" : [ 216.5, 320.5, 62.0, 18.0 ],
 					"text" : "loadmess 8"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 228.5, 321.5, 81.0, 18.0 ],
+					"patching_rect" : [ 216.5, 321.5, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -98,7 +98,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 433.0, 413.0, 143.0, 20.0 ],
+					"patching_rect" : [ 430.0, 414.0, 143.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 401.0, 323.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 415.0, 127.0, 16.0 ],
+					"patching_rect" : [ 429.0, 416.0, 127.0, 16.0 ],
 					"text" : "load GLnode_video_mask"
 				}
 
@@ -132,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 414.0, 44.0, 17.0 ],
+					"patching_rect" : [ 429.0, 415.0, 44.0, 17.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -146,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 158.0, 47.0, 18.0 ],
+					"patching_rect" : [ 309.0, 158.0, 47.0, 18.0 ],
 					"text" : "0.5 0.5"
 				}
 
@@ -161,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 205.0, 203.0, 20.0 ]
+					"patching_rect" : [ 309.0, 205.0, 203.0, 20.0 ]
 				}
 
 			}
@@ -175,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 181.0, 203.0, 20.0 ]
+					"patching_rect" : [ 309.0, 181.0, 203.0, 20.0 ]
 				}
 
 			}
@@ -226,7 +226,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -363,7 +363,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 176.0, 170.0, 100.0, 20.0 ],
+					"patching_rect" : [ 165.0, 170.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -390,7 +390,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 321.0, 45.0, 20.0 ],
+					"patching_rect" : [ 166.0, 321.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -404,7 +404,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 290.0, 45.0, 20.0 ],
+					"patching_rect" : [ 356.0, 294.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -423,7 +423,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -964,7 +964,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.0, 321.0, 50.0, 20.0 ]
+					"patching_rect" : [ 502.0, 325.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -977,7 +977,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 368.0, 354.0, 165.0, 20.0 ],
+					"patching_rect" : [ 356.0, 354.0, 165.0, 20.0 ],
 					"text" : "jit.gl.slab.gauss6x"
 				}
 
@@ -991,21 +991,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 368.0, 321.0, 140.0, 20.0 ],
+					"patching_rect" : [ 356.0, 325.0, 140.0, 20.0 ],
 					"text" : "jit.gl.texture @name cap"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.0, 413.0, 197.0, 20.0 ],
+					"patching_rect" : [ 166.0, 413.0, 241.0, 22.0 ],
 					"text" : "jit.gl.videoplane @scale 1.333 1. 1."
 				}
 
@@ -1019,7 +1019,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.0, 354.0, 115.0, 20.0 ],
+					"patching_rect" : [ 166.0, 354.0, 115.0, 20.0 ],
 					"text" : "jit.qt.movie 320 240"
 				}
 
@@ -1033,7 +1033,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 178.0, 383.0, 209.0, 20.0 ],
+					"patching_rect" : [ 166.0, 383.0, 209.0, 20.0 ],
 					"text" : "jit.gl.slab @file co.multiply.jxs"
 				}
 
@@ -1060,7 +1060,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 176.0, 205.0, 114.5, 20.0 ],
+					"patching_rect" : [ 165.0, 205.0, 114.5, 20.0 ],
 					"text" : "pak position 0. 0. 0."
 				}
 
@@ -1090,7 +1090,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.0, 61.0, 100.0, 100.0 ],
+					"patching_rect" : [ 165.0, 61.0, 100.0, 100.0 ],
 					"rightvalue" : 100,
 					"topvalue" : 100
 				}
@@ -1153,16 +1153,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 176.0, 240.0, 267.0, 33.0 ],
-					"text" : "jit.gl.gridshape @shape circle @scale 0.3 0.3 0. @antialias 1 @blend_enable 1 @capture cap"
+					"patching_rect" : [ 165.0, 240.0, 408.0, 38.0 ],
+					"text" : "jit.gl.gridshape @shape circle @scale 0.3 0.3 0. @color 1 1 1 @antialias 1 @blend_enable 1 @capture cap"
 				}
 
 			}
@@ -1272,7 +1272,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 329.5, 232.0, 185.5, 232.0 ],
+					"midpoints" : [ 318.5, 232.0, 174.5, 232.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1291,7 +1291,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 329.5, 232.5, 185.5, 232.5 ],
+					"midpoints" : [ 318.5, 232.5, 174.5, 232.5 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1301,7 +1301,7 @@
 					"destination" : [ "obj-9", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 266.5, 197.0, 249.166672, 197.0 ],
+					"midpoints" : [ 255.5, 197.0, 238.166672, 197.0 ],
 					"source" : [ "obj-28", 1 ]
 				}
 
@@ -1311,7 +1311,7 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 185.5, 197.0, 217.333328, 197.0 ],
+					"midpoints" : [ 174.5, 197.0, 206.333328, 197.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1339,7 +1339,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 238.0, 347.25, 187.5, 347.25 ],
+					"midpoints" : [ 226.0, 347.25, 175.5, 347.25 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1463,8 +1463,8 @@
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

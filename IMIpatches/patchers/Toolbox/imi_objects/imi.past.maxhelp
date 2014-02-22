@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 117.0, 23.0, 20.0 ],
+					"patching_rect" : [ 120.0, 117.0, 23.0, 20.0 ],
 					"text" : "vs"
 				}
 
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 156.0, 154.0, 24.0, 24.0 ]
+					"patching_rect" : [ 164.0, 154.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 73.0, 58.0, 22.0 ]
+					"patching_rect" : [ 164.0, 73.0, 58.0, 22.0 ]
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 156.0, 114.0, 67.0, 22.0 ],
+					"patching_rect" : [ 164.0, 114.0, 67.0, 22.0 ],
 					"text" : "past 100"
 				}
 
@@ -141,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 66.0, 154.0, 24.0, 24.0 ]
+					"patching_rect" : [ 81.0, 154.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -181,7 +181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.510893, 2.332659, 108.0, 30.0 ],
-					"text" : "imi.past2",
+					"text" : "imi.past",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -212,8 +212,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 9.0, 114.0, 76.0, 22.0 ],
-					"text" : "past2 100"
+					"patching_rect" : [ 9.0, 114.0, 91.0, 22.0 ],
+					"text" : "imi.past 100"
 				}
 
 			}
@@ -299,7 +299,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "past2.maxpat",
+				"name" : "imi.past.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

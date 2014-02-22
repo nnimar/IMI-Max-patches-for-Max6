@@ -41,8 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 386.0, 457.0, 153.0, 20.0 ],
-					"presentation_rect" : [ 378.0, 413.0, 0.0, 0.0 ],
+					"patching_rect" : [ 386.0, 460.0, 153.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "triplehead2go (dtr)",
 					"texton" : "Stop"
@@ -59,8 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 457.0, 46.0, 18.0 ],
-					"presentation_rect" : [ 379.0, 414.0, 0.0, 0.0 ],
+					"patching_rect" : [ 386.0, 460.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,8 +73,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 462.0, 102.0, 15.0 ],
-					"presentation_rect" : [ 381.0, 414.0, 0.0, 0.0 ],
+					"patching_rect" : [ 386.0, 465.0, 102.0, 15.0 ],
 					"text" : "load triplehead2go"
 				}
 
@@ -90,7 +87,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 434.0, 82.0, 18.0 ],
+					"patching_rect" : [ 178.0, 437.0, 82.0, 18.0 ],
 					"text" : "position $1 0."
 				}
 
@@ -105,7 +102,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 178.0, 404.0, 64.0, 20.0 ]
+					"patching_rect" : [ 178.0, 407.0, 64.0, 20.0 ]
 				}
 
 			}
@@ -118,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 158.5, 378.0, 196.0, 20.0 ],
+					"patching_rect" : [ 158.5, 381.0, 196.0, 20.0 ],
 					"text" : "jit.gl.node @name sub @capture 1"
 				}
 
@@ -132,7 +129,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 158.5, 458.0, 203.0, 20.0 ],
+					"patching_rect" : [ 158.5, 461.0, 203.0, 20.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -151,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 386.0, 433.0, 154.0, 20.0 ],
+					"patching_rect" : [ 386.0, 436.0, 154.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "triplehead2go (syphon)",
 					"texton" : "Stop"
@@ -168,7 +165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.0, 434.0, 46.0, 18.0 ],
+					"patching_rect" : [ 387.0, 437.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -183,7 +180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 434.0, 136.0, 15.0 ],
+					"patching_rect" : [ 389.0, 437.0, 136.0, 15.0 ],
 					"text" : "load IMI_triplehead2go_syphon"
 				}
 
