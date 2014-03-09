@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -72,11 +72,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 610.0, 44.0, 555.0, 316.0 ],
+						"rect" : [ 608.0, 44.0, 616.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -101,12 +101,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 22,
+									"linecount" : 20,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 7.0, 549.0, 301.0 ],
-									"text" : "It's recommended running it as a standalone. Edit the client ip and port you want to send to in 'kinect_tracker_config.json' (again as Medd wrote). If you want to run the KVL Kinect Tracker on the same machine as you're doing your max patching, just use \"127.0.0.1\" is the ip (use the quotes), and any port you want to listen on.\n\nLet's say you're sending to port 7300. You'll receive a variable length list in multiples of 6 elements, depending on how many blobs are detected by the tracker.\n\n<OSC url> <label1 i1 j1 x1 y1 z1 label2 i2 j2 x2 y2 z2…>\n\nWhere i and j are in pixel space - x, y, z are in real space (dist in meters)\n\nAfter routing the OSC url (by the way you can alter this url in the JSON config file), you need to pass the list through a [zl iter 6] to chop it up into chunks per blob. Then use unpack, route, zl, etc. to get the data you want. \n\n{\"127.0.0.1\" : 7300} - send messages locally via port 7300\n{\"192.168.1.92\" : 8080} - send messages to any other IP/port\n\nMake sure you turn on OSC sending with the textbutton included in the interface, and use [unpack] or a $1 etc. message box to parse the data after the [route] object.\n\n"
+									"patching_rect" : [ 4.0, 6.0, 600.0, 275.0 ],
+									"text" : "Launch the KVL Kinect Tracker (Max standalone app). You cand edit the client ip and port you want to send to in 'kinect_tracker_config.json' if you are using a separate computer.. If you want to run the KVL Kinect Tracker on the same machine as you're doing your max patching, just use \"127.0.0.1\" is the ip (use the quotes), and any port you want to listen on (currently 7300).\n\nIn the Tracker app, turn the OSC Send on option in the reporting category. You'll receive a variable length list in multiples of 6 elements, depending on how many blobs are detected by the tracker.\n\n<OSC url> <label1 i1 j1 x1 y1 z1 label2 i2 j2 x2 y2 z2…>\n\nWhere i and j are in pixel space - x, y, z are in real space (dist in meters)\n\nAfter routing the OSC url (by the way you can alter this url in the JSON config file), you need to pass the list through a [zl iter 6] to chop it up into chunks per blob. Then use unpack, route, zl, etc. to get the data you want. \n\n{\"127.0.0.1\" : 7300} - send messages locally via port 7300\n{\"192.168.1.92\" : 8080} - send messages to any other IP/port\n\nMake sure you turn on OSC sending with the textbutton included in the interface, and use [unpack] or a $1 etc. message box to parse the data after the [route] object."
 								}
 
 							}
@@ -648,7 +648,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 85.0, 108.0, 20.0 ],
+					"patching_rect" : [ 6.0, 87.0, 108.0, 20.0 ],
 					"text" : "route /kinect/blobs"
 				}
 
@@ -922,8 +922,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.apploader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

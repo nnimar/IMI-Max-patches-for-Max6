@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 580.0, 350.0 ],
+		"rect" : [ 2.0, 44.0, 580.0, 313.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +46,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 8.0, 224.0, 344.0, 98.0 ],
+					"patching_rect" : [ 8.0, 204.0, 344.0, 98.0 ],
 					"rowheight" : 20,
 					"rows" : 1,
 					"savemode" : 1,
@@ -64,7 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 176.0, 87.0, 20.0 ],
+					"patching_rect" : [ 8.0, 171.0, 87.0, 20.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -96,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 481.0, 35.0 ],
+					"patching_rect" : [ 4.0, 29.0, 481.0, 35.0 ],
 					"text" : "the dot product (or scalar product) is very useful for finding out how much two sets of numbers are similar to each other : dot (XYZ1, XYZ2) = X1*X2 + Y1*Y2 + Z1*Z2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -174,11 +175,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 591.0, 44.0, 378.0, 332.0 ],
+						"rect" : [ 591.0, 44.0, 174.0, 148.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -207,7 +209,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 116.0, 22.0, 30.0, 20.0 ],
+									"patching_rect" : [ 114.0, 22.0, 30.0, 20.0 ],
 									"text" : "in 2"
 								}
 
@@ -221,7 +223,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 63.0, 211.0, 20.0 ],
+									"patching_rect" : [ 20.0, 63.0, 113.0, 20.0 ],
 									"text" : "concat"
 								}
 
@@ -300,7 +302,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 575.0, 63.0 ],
+					"patching_rect" : [ 3.0, 2.0, 575.0, 61.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -363,8 +365,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

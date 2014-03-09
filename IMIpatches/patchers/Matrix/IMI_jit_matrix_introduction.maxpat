@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -35,13 +35,49 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-29",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 163.0, 283.0, 159.0, 20.0 ],
+					"rounded" : 20.0,
+					"text" : "IMI_compositing_modes",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 161.0, 283.0, 139.0, 16.0 ],
+					"text" : "load IMI_compositing_modes"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-28",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 330.0, 277.0, 113.0, 22.0 ],
+					"patching_rect" : [ 330.0, 283.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 222.0, 277.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +96,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 329.0, 279.0, 46.0, 18.0 ],
+					"patching_rect" : [ 329.0, 283.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 281.0, 134.0, 16.0 ],
+					"patching_rect" : [ 307.0, 283.0, 134.0, 16.0 ],
 					"text" : "load IMI_jit_matrix_workflow"
 				}
 
@@ -122,7 +158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 579.0, 277.0, 51.0, 22.0 ],
+					"patching_rect" : [ 579.0, 283.0, 51.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 469.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -145,7 +181,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 448.0, 277.0, 126.0, 22.0 ],
+					"patching_rect" : [ 448.0, 283.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 281.0, 126.0, 16.0 ],
+					"patching_rect" : [ 447.0, 283.0, 126.0, 16.0 ],
 					"text" : "IMI_jit_matrix_and_friends"
 				}
 
@@ -492,8 +528,23 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, 281.0, 98.0, 16.0 ],
+					"patching_rect" : [ 535.0, 283.0, 98.0, 16.0 ],
 					"text" : "IMI_jit_matrix_tools"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 162.0, 283.0, 46.0, 18.0 ],
+					"text" : "pcontrol"
 				}
 
 			}
@@ -668,6 +719,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -681,6 +741,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 548.0, 272.0 ],
@@ -136,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 539.0, 35.0 ],
+					"patching_rect" : [ 4.0, 29.0, 539.0, 35.0 ],
 					"text" : "results in a vector which is perpendicular to both of the vectors being multiplied and therefore normal to the plane containing them : a x b = |a||b| sin t (sin 0 = 0 and sin 90 = 1)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -287,8 +288,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 554.0, 47.0, 166.0, 151.0 ],
@@ -527,8 +529,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "z.crossP.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
-				"patcherrelativepath" : "../../../Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.crossP",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.crossP",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.crossP",
 				"type" : "JSON",
 				"implicit" : 1
 			}

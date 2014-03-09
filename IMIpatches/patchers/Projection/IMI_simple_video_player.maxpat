@@ -231,9 +231,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 317.848022, 356.0, 84.0, 20.0 ],
+					"patching_rect" : [ 110.848022, 356.0, 159.0, 20.0 ],
 					"rounded" : 20.0,
-					"text" : "video blend",
+					"text" : "IMI_compositing_modes",
 					"texton" : "Stop"
 				}
 
@@ -248,8 +248,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.848022, 356.0, 83.0, 16.0 ],
-					"text" : "load GLblending"
+					"patching_rect" : [ 127.848022, 360.0, 139.0, 16.0 ],
+					"text" : "load IMI_compositing_modes"
 				}
 
 			}
@@ -811,7 +811,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 178.848022, 356.0, 128.0, 20.0 ],
+					"patching_rect" : [ 274.848022, 356.0, 128.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "IMI_video_player+",
 					"texton" : "Stop"
@@ -985,7 +985,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.848022, 356.0, 136.0, 15.0 ],
+					"patching_rect" : [ 276.848022, 356.0, 136.0, 15.0 ],
 					"text" : "load IMI_simple_video_player+"
 				}
 
@@ -1013,7 +1013,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 324.0, 356.0, 53.0, 20.0 ],
+					"patching_rect" : [ 278.0, 357.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 

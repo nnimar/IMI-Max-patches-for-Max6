@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,37 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 426.0, 317.0, 142.0, 24.0 ],
+					"presentation_rect" : [ 430.0, 317.0, 0.0, 0.0 ],
+					"text" : "short for  jit.op @op +"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 344.0, 164.0, 138.0, 24.0 ],
+					"text" : "short for jit.op @op *"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
@@ -40,11 +71,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 766.0, 44.0, 418.0, 287.0 ],
+						"rect" : [ 685.0, 44.0, 418.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -73,7 +104,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 12.0, 7.0, 391.0, 272.0 ],
+									"patching_rect" : [ 12.0, 8.0, 391.0, 272.0 ],
 									"text" : "A few interesting jit.op :\n\npass : original image\n\nmultiply (*) : The product of two numbers that are less than 1.0 is smaller than either (need process)\n\ndivide (/) : Dividing usually gives black unless the B image is very dim. To get this, multiply  the bars by 0.01.\n\nplus (+) : Addition gives a mix. This works as well as keying if your images contain a lot of black\n\nmin : minimum lets the lesser values through and max works \nthe other way\n\naverage : the average of pixel values is a washed out mix"
 								}
 
@@ -91,11 +122,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 767.0, 44.0, 463.0, 608.0 ],
+										"rect" : [ 687.0, 44.0, 463.0, 608.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -327,7 +358,7 @@
 										"lines" : [  ]
 									}
 ,
-									"patching_rect" : [ 186.0, 9.0, 68.0, 22.0 ],
+									"patching_rect" : [ 170.0, 9.0, 68.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -390,8 +421,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 221.0, 173.0, 120.0, 20.0 ],
-					"text" : "jit.op @op * @val 1."
+					"patching_rect" : [ 221.0, 166.0, 120.0, 20.0 ],
+					"text" : "jit.* @val 1."
 				}
 
 			}
@@ -416,8 +447,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 347.0, 318.0, 218.0, 22.0 ],
-					"text" : "jit.op @op +"
+					"patching_rect" : [ 347.0, 318.0, 77.0, 22.0 ],
+					"text" : "jit.+"
 				}
 
 			}
@@ -430,8 +461,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 540.0, 20.0 ],
-					"text" : "apply binary operators to matrixes, if the input matrix is char (0-255) the values will mapped to  0. 1.",
+					"patching_rect" : [ 2.0, 32.0, 556.0, 20.0 ],
+					"text" : "apply binary operators to matrixes, if the input matrix is char (0-255) the values will be mapped to  0. 1.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -446,8 +477,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 103.0, 30.0 ],
-					"text" : "IMI jit-op",
+					"patching_rect" : [ 2.0, 4.0, 325.0, 30.0 ],
+					"text" : "jit.op @op and jit.+ / jit.*",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -504,7 +535,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 9.0, 318.0, 231.0, 22.0 ],
-					"text" : "jit.op @op +"
+					"text" : "jit.+"
 				}
 
 			}
@@ -583,7 +614,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.5, 94.0, 95.0, 18.0 ],
+					"patching_rect" : [ 73.5, 94.0, 95.0, 18.0 ],
 					"text" : "read wheel.mov"
 				}
 
@@ -667,7 +698,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 93.0, 126.0, 18.5, 126.0 ],
+					"midpoints" : [ 83.0, 126.0, 18.5, 126.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -677,7 +708,7 @@
 					"destination" : [ "obj-26", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 18.5, 303.0, 555.5, 303.0 ],
+					"midpoints" : [ 18.5, 303.0, 414.5, 303.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -753,6 +784,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 230.5, 302.0, 230.5, 302.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

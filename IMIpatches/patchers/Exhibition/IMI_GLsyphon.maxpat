@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 515.0, 289.0 ],
+		"rect" : [ 1.0, 44.0, 515.0, 287.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 143.5, 116.0, 21.0 ],
+					"patching_rect" : [ 8.0, 149.175156, 116.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 118.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 143.5, 178.0, 22.0 ],
+					"patching_rect" : [ 187.0, 147.550003, 178.0, 22.0 ],
 					"text" : "GLvideoplane to syphon"
 				}
 
@@ -256,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 173.5, 224.0, 22.0 ],
+					"patching_rect" : [ 187.0, 177.050003, 224.0, 22.0 ],
 					"text" : "GLvideoplane to triplehead2go"
 				}
 
@@ -275,7 +275,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 116.5, 98.0, 21.0 ],
+					"patching_rect" : [ 8.0, 120.28344, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -308,7 +308,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 115.5, 112.0, 22.0 ],
+					"patching_rect" : [ 187.0, 119.150002, 112.0, 22.0 ],
 					"text" : "video to syphon"
 				}
 
@@ -327,7 +327,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 198.5, 98.0, 21.0 ],
+					"patching_rect" : [ 8.0, 208.028656, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 178.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -365,7 +365,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 170.5, 148.0, 21.0 ],
+					"patching_rect" : [ 8.0, 178.066879, 148.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -426,7 +426,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 89.5, 144.0, 21.0 ],
+					"patching_rect" : [ 8.0, 91.391716, 144.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 206.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -459,7 +459,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 200.5, 178.0, 22.0 ],
+					"patching_rect" : [ 187.0, 207.399994, 178.0, 22.0 ],
 					"text" : "video grab using syphon"
 				}
 
@@ -489,8 +489,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 62.5, 184.0, 22.0 ],
-					"text" : "GLgridshape > GLsyphon"
+					"patching_rect" : [ 187.0, 62.5, 253.0, 22.0 ],
+					"text" : "GLgridshape > GLsyphon (old method)"
 				}
 
 			}
@@ -503,8 +503,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 89.5, 235.0, 22.0 ],
-					"text" : "GLnode to capture a gridshape"
+					"patching_rect" : [ 187.0, 90.849998, 292.0, 22.0 ],
+					"text" : "GLnode to capture a gridshape (new method)"
 				}
 
 			}

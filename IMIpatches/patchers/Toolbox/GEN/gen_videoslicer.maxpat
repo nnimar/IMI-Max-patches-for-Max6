@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 44.0, 386.0, 565.0 ],
@@ -28,8 +29,8 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 394.0, 44.0, 321.0, 446.0 ],
@@ -184,7 +186,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 332.0, 63.0, 20.0 ],
+									"patching_rect" : [ 66.0, 332.0, 63.0, 20.0 ],
 									"text" : "vec x y"
 								}
 
@@ -212,7 +214,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 151.0, 43.0, 20.0 ],
+									"patching_rect" : [ 66.0, 151.0, 43.0, 20.0 ],
 									"text" : "swiz x"
 								}
 
@@ -226,7 +228,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 87.0, 38.0, 20.0 ],
+									"patching_rect" : [ 66.0, 111.0, 38.0, 20.0 ],
 									"text" : "norm"
 								}
 
@@ -341,7 +343,7 @@
 									"destination" : [ "obj-13", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 73.5, 367.0, 183.5, 367.0 ],
+									"midpoints" : [ 75.5, 367.0, 183.5, 367.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -385,7 +387,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 261.0, 43.0, 20.0 ],
+					"patching_rect" : [ 8.0, 261.0, 54.0, 22.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -454,7 +456,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 232.0, 150.0, 20.0 ]
+					"patching_rect" : [ 8.0, 232.0, 110.0, 20.0 ],
+					"text_width" : 62.0
 				}
 
 			}
@@ -468,7 +471,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 214.0, 150.0, 20.0 ]
+					"patching_rect" : [ 8.0, 214.0, 110.0, 20.0 ],
+					"text_width" : 62.0
 				}
 
 			}
@@ -536,15 +540,15 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
-			"obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
-			"obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
+			"obj-3::obj-4::obj-21" : [ "number", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demovideo.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../Applications/Max6/Cycling '74/jitter-help",
+				"bootpath" : "/Applications/Max 6.1/Cycling '74/jitter-help",
+				"patcherrelativepath" : "../../../../../Cycling '74/jitter-help",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 502.0, 212.0 ],
@@ -31,11 +32,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 139.0, 136.0, 24.0 ],
+					"patching_rect" : [ 359.0, 137.0, 136.0, 24.0 ],
 					"text" : "vector magnitude (2)"
 				}
 
@@ -45,11 +47,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 168.0, 141.0, 24.0 ],
+					"patching_rect" : [ 67.0, 174.0, 141.0, 24.0 ],
 					"text" : "vector magnitude (1)"
 				}
 
@@ -63,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 377.0, 67.0, 34.0, 18.0 ],
+					"patching_rect" : [ 306.0, 64.0, 34.0, 18.0 ],
 					"text" : "1. 1."
 				}
 
@@ -78,7 +81,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 306.0, 140.0, 55.0, 23.0 ]
+					"patching_rect" : [ 306.0, 138.0, 55.0, 22.0 ]
 				}
 
 			}
@@ -91,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 67.0, 65.0, 18.0 ],
+					"patching_rect" : [ 351.0, 64.0, 65.0, 18.0 ],
 					"text" : "0. 1.2 -3.5"
 				}
 
@@ -105,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 99.998291, 62.0, 20.0 ],
+					"patching_rect" : [ 306.0, 97.998291, 62.0, 20.0 ],
 					"text" : "z.vecMag"
 				}
 
@@ -115,12 +118,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 323.0, 31.0 ],
+					"patching_rect" : [ 2.0, 1.0, 323.0, 30.0 ],
 					"text" : "Gen_length (vector magnitude)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -131,7 +134,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -152,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 67.0, 65.0, 18.0 ],
+					"patching_rect" : [ 133.0, 64.0, 65.0, 18.0 ],
 					"text" : "0. 1.2 -3.5"
 				}
 
@@ -166,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 67.0, 32.5, 18.0 ],
+					"patching_rect" : [ 7.0, 64.0, 30.5, 18.0 ],
 					"text" : "1 1"
 				}
 
@@ -181,7 +184,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 99.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 133.0, 97.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -197,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 7.0, 170.0, 69.0, 21.0 ],
+					"patching_rect" : [ 7.0, 176.0, 69.0, 21.0 ],
 					"rows" : 1,
 					"vscroll" : 0
 				}
@@ -213,15 +216,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 99.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 7.0, 97.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -231,8 +234,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 514.0, 44.0, 166.0, 151.0 ],
@@ -315,15 +319,10 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "length.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 140.0, 145.0, 20.0 ],
+					"patching_rect" : [ 7.0, 142.0, 63.0, 22.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -335,7 +334,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -369,6 +367,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 360.5, 90.999146, 315.5, 90.999146 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -378,7 +377,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 386.5, 92.5, 315.5, 92.5 ],
+					"midpoints" : [ 315.5, 90.5, 315.5, 90.5 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -397,7 +396,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 142.5, 132.999146, 16.5, 132.999146 ],
+					"midpoints" : [ 142.5, 130.999146, 16.5, 130.999146 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -423,8 +422,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "z.vecMag.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.vecMag",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.vecMag",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.vecMag",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.vecMag",
 				"type" : "JSON",
 				"implicit" : 1
 			}

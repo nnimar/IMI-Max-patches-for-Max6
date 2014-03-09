@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -62,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 24.0, 141.0, 126.0, 22.0 ],
+					"patching_rect" : [ 24.0, 148.0, 126.0, 22.0 ],
 					"text" : "jit.window noname"
 				}
 
@@ -109,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 111.0, 193.0, 22.0 ],
+					"patching_rect" : [ 24.0, 112.0, 193.0, 22.0 ],
 					"text" : "imi.fullscreen 420 45 320 240"
 				}
 
@@ -152,7 +152,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.fullscreen.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

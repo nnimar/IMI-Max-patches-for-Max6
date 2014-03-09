@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -76,7 +76,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 223.0, 378.0, 94.0, 18.0 ],
-					"text" : "broken clouds"
+					"text" : "Sky is Clear"
 				}
 
 			}
@@ -260,7 +260,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.5, 428.0, 95.0, 18.0 ],
-					"text" : "5.7"
+					"text" : "1394122800"
 				}
 
 			}
@@ -552,7 +552,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 223.0, 75.0, 20.0 ],
+					"patching_rect" : [ 223.0, 226.0, 75.0, 20.0 ],
 					"text" : "imi.dict feed"
 				}
 
@@ -595,7 +595,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 106.0, 304.0, 95.0, 18.0 ],
-					"text" : "1383150988"
+					"text" : "1394127153"
 				}
 
 			}
@@ -609,7 +609,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 304.0, 83.0, 18.0 ],
-					"text" : "4.3488"
+					"text" : "50.85"
 				}
 
 			}
@@ -679,7 +679,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 366.5, 384.0, 108.0, 18.0 ],
-					"text" : "284.15"
+					"text" : "286.15"
 				}
 
 			}
@@ -735,7 +735,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 31.0, 44.0, 18.0 ],
+					"patching_rect" : [ 571.0, 31.0, 44.0, 18.0 ],
 					"text" : "rev 001",
 					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
@@ -756,7 +756,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -851,7 +851,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1306,7 +1306,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 249.0, 30.0 ],
+					"patching_rect" : [ 2.0, 2.0, 249.0, 30.0 ],
 					"text" : "Open Weather Map",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
@@ -1322,7 +1322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 221.0, 21.0 ],
+					"patching_rect" : [ 2.0, 29.0, 221.0, 21.0 ],
 					"text" : "access the Open Weather Map API",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -1340,7 +1340,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 615.0, 47.0 ],
+					"patching_rect" : [ 2.0, 2.0, 615.0, 47.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

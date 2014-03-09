@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 503.0, 218.0 ],
@@ -33,6 +34,7 @@
 					"bubbleside" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-32",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -47,11 +49,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 184.0, 116.0, 24.0 ],
+					"patching_rect" : [ 112.0, 189.0, 116.0, 24.0 ],
 					"text" : "normalisation (1)"
 				}
 
@@ -68,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 7.0, 185.0, 106.0, 23.0 ],
+					"patching_rect" : [ 7.0, 190.0, 106.0, 23.0 ],
 					"rows" : 1,
 					"vscroll" : 0
 				}
@@ -83,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 157.0, 87.0, 20.0 ],
+					"patching_rect" : [ 7.0, 162.0, 87.0, 20.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -140,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 89.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 133.0, 91.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -155,15 +158,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 89.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 7.0, 91.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -173,8 +176,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 518.0, 44.0, 166.0, 151.0 ],
@@ -257,15 +261,10 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "normalize.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 130.0, 145.0, 20.0 ],
+					"patching_rect" : [ 7.0, 130.0, 86.0, 22.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -307,7 +306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 301.0, 89.998291, 68.0, 20.0 ],
+					"patching_rect" : [ 301.0, 91.998291, 68.0, 20.0 ],
 					"text" : "z.vecNorm"
 				}
 
@@ -317,12 +316,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 323.0, 31.0 ],
+					"patching_rect" : [ 2.0, 1.0, 323.0, 30.0 ],
 					"text" : "Gen_normalisation",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -333,7 +332,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -352,7 +351,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -368,7 +366,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 347.5, 84.499146, 310.5, 84.499146 ],
+					"midpoints" : [ 347.5, 86.499146, 310.5, 86.499146 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -442,7 +440,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 142.5, 122.999146, 16.5, 122.999146 ],
+					"midpoints" : [ 142.5, 120.999146, 16.5, 120.999146 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -450,15 +448,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "z.vecNorm.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.vecNorm",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.vecNorm",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.vecNorm",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.vecNorm",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

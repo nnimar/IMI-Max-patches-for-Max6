@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 550.0, 48.0, 842.0, 500.0 ],
@@ -45,11 +46,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 669.0, 380.0, 142.0, 34.0 ],
+					"patching_rect" : [ 669.0, 380.0, 142.0, 33.0 ],
 					"text" : "CatchNurbs"
 				}
 
@@ -255,7 +257,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 110.0, 353.0, 80.0, 60.0 ]
+					"patching_rect" : [ 200.0, 377.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -279,7 +281,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 200.0, 309.0, 82.0, 17.0 ],
+					"patching_rect" : [ 200.0, 316.0, 85.0, 17.0 ],
 					"text" : "jit.pack 3"
 				}
 
@@ -293,7 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 200.0, 270.0, 118.0, 17.0 ],
+					"patching_rect" : [ 200.0, 277.0, 118.0, 17.0 ],
 					"text" : "jit.scissors @columns 3"
 				}
 
@@ -330,6 +332,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -362,7 +365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 200.0, 330.0, 176.0, 17.0 ],
+					"patching_rect" : [ 200.0, 342.0, 176.0, 17.0 ],
 					"text" : "jit.matrix soundgrid 3 float32 10 10"
 				}
 
@@ -482,6 +485,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -495,6 +499,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -651,7 +656,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 209.5, 351.0, 119.5, 351.0 ],
+					"midpoints" : [ 209.5, 373.5, 209.5, 373.5 ],
 					"source" : [ "obj-25", 0 ]
 				}
 

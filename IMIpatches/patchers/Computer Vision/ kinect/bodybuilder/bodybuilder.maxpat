@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 418.0, 370.0 ],
+		"rect" : [ 1.0, 44.0, 417.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 302.0, 342.0, 111.0, 22.0 ],
+					"patching_rect" : [ 302.0, 293.0, 111.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 791.0, 343.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 302.0, 318.5, 87.0, 47.0 ],
+					"patching_rect" : [ 302.0, 269.5, 87.0, 47.0 ],
 					"text" : "imi.apploader Synapse Synapse.app"
 				}
 
@@ -78,7 +78,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -257,7 +257,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.25, 297.0, 87.0, 20.0 ],
+					"patching_rect" : [ 7.25, 295.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -289,7 +289,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 203.0, 342.0, 93.0, 22.0 ],
+					"patching_rect" : [ 203.0, 293.0, 93.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 265.0, 225.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -308,7 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 342.5, 53.0, 20.0 ],
+					"patching_rect" : [ 206.0, 293.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -323,7 +323,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.0, 344.0, 102.0, 17.0 ],
+					"patching_rect" : [ 206.0, 295.0, 102.0, 17.0 ],
 					"text" : "load bodybuilder+"
 				}
 
@@ -402,7 +402,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1221,8 +1221,8 @@
 			}
 , 			{
 				"name" : "imi.apploader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

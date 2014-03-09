@@ -583,7 +583,7 @@
 							}
 , 							{
 								"box" : 								{
-									"cols" : 4,
+									"cols" : 1,
 									"colwidth" : 99,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -594,7 +594,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
 									"patching_rect" : [ 52.0, 519.0, 133.0, 55.0 ],
-									"rows" : 3,
+									"rows" : 1,
 									"vscroll" : 0
 								}
 
@@ -1006,7 +1006,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 644.0, 70.0, 397.0, 588.0 ],
+						"rect" : [ 0.0, 26.0, 397.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2122,7 +2122,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 397.0, 588.0 ],
+						"rect" : [ 644.0, 70.0, 397.0, 588.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2904,14 +2904,14 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-									"fontname" : "Arial Bold",
+									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-22",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 8.820007, 546.0, 153.0, 22.0 ],
+									"patching_rect" : [ 8.820007, 546.0, 144.0, 22.0 ],
 									"text" : "jit.matrix 2 float32 3 5"
 								}
 
@@ -2919,14 +2919,14 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-									"fontname" : "Arial Bold",
+									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 8.820007, 500.0, 182.0, 22.0 ],
+									"patching_rect" : [ 8.820007, 500.0, 171.0, 22.0 ],
 									"text" : "jit.matrix dup 2 float32 1 5"
 								}
 
@@ -3272,14 +3272,14 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-									"fontname" : "Arial Bold",
+									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-81",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 7.820007, 175.0, 177.0, 22.0 ],
+									"patching_rect" : [ 7.820007, 175.0, 167.0, 22.0 ],
 									"text" : "jit.matrix me 2 float32 3 5"
 								}
 

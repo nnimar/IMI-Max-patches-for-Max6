@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 689.0, 865.0 ],
+		"rect" : [ 0.0, 44.0, 688.0, 834.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 697.0, 481.0, 192.0, 78.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 184.0, 69.0 ],
+									"patching_rect" : [ 2.0, 3.0, 184.0, 69.0 ],
 									"text" : "UpperArmAx, UpperArmAy, UpperArmBx, UpperArmBy, LowerArmAx, LowerArmAy, LowerArmBx, LowerArmBy"
 								}
 
@@ -113,11 +113,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 695.0, 313.0, 238.0, 98.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -146,7 +146,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 100.0, 222.0, 85.0 ],
+									"patching_rect" : [ 7.0, 4.0, 222.0, 85.0 ],
 									"text" : "neckAx, neckAy, neckBx, neckBy, leftShoulderAx, leftShoulderAy, leftShoulderBx, leftShoulderBy, rightShoulderAx, rightShoulderAy, rightShoulderBx, rightShoulderBy"
 								}
 
@@ -182,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 691.0, 89.0, 20.0 ],
+					"patching_rect" : [ 364.0, 690.0, 89.0, 20.0 ],
 					"text" : "RIGHT LEG"
 				}
 
@@ -331,14 +331,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-141",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 249.0, 691.0, 88.0, 20.0 ],
+					"patching_rect" : [ 249.0, 689.0, 111.0, 22.0 ],
 					"text" : "route /rightLeg"
 				}
 
@@ -352,7 +352,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 691.0, 77.0, 20.0 ],
+					"patching_rect" : [ 111.0, 690.0, 77.0, 20.0 ],
 					"text" : "LEFT LEG"
 				}
 
@@ -501,14 +501,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-152",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 691.0, 81.0, 20.0 ],
+					"patching_rect" : [ 6.0, 689.0, 101.0, 22.0 ],
 					"text" : "route /leftLeg"
 				}
 
@@ -526,11 +526,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 732.0, 262.0, 307.0, 172.0 ],
+						"rect" : [ 698.0, 597.0, 268.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -723,7 +723,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 537.0, 53.0, 20.0 ],
+					"patching_rect" : [ 120.0, 535.0, 53.0, 20.0 ],
 					"text" : "TORSO"
 				}
 
@@ -936,14 +936,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-119",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 537.0, 89.0, 20.0 ],
+					"patching_rect" : [ 6.0, 534.0, 113.0, 22.0 ],
 					"text" : "route /torsoHip"
 				}
 
@@ -975,7 +975,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1059,7 +1059,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 386.0, 89.0, 20.0 ],
+					"patching_rect" : [ 367.0, 386.0, 89.0, 20.0 ],
 					"text" : "RIGHT ARM"
 				}
 
@@ -1208,14 +1208,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 249.0, 386.0, 90.0, 20.0 ],
+					"patching_rect" : [ 249.0, 386.0, 114.0, 22.0 ],
 					"text" : "route /rightArm"
 				}
 
@@ -1229,7 +1229,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 386.0, 77.0, 20.0 ],
+					"patching_rect" : [ 110.0, 387.0, 77.0, 20.0 ],
 					"text" : "LEFT ARM"
 				}
 
@@ -1378,14 +1378,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-88",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 386.0, 83.0, 20.0 ],
+					"patching_rect" : [ 6.0, 386.0, 104.0, 22.0 ],
 					"text" : "route /leftArm"
 				}
 
@@ -1716,7 +1716,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 574.0, 839.5, 109.0, 22.0 ],
+					"patching_rect" : [ 574.0, 806.5, 109.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 791.0, 343.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -1728,7 +1728,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-79",
 					"linecount" : 4,
@@ -1736,7 +1736,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 804.0, 257.0, 58.0 ],
+					"patching_rect" : [ 468.0, 780.0, 215.0, 49.0 ],
 					"text" : ";\rmax launchbrowser \\\"file:////Applications/Max%206.1/packages/IMIpatches/apps/KinectA_Mac_0.2/KinectA.app\\\""
 				}
 

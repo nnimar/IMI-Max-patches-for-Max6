@@ -965,8 +965,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 201.0, 30.0 ],
-					"text" : "GL cornerpin+",
+					"patching_rect" : [ 3.0, 3.0, 424.0, 30.0 ],
+					"text" : "GL cornerpin+ (digitalFX)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

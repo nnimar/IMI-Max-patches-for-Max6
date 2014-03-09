@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 548.0, 235.0 ],
@@ -30,11 +31,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 79.0, 32.0, 20.0 ],
+					"patching_rect" : [ 176.0, 76.0, 32.0, 20.0 ],
 					"text" : "N"
 				}
 
@@ -43,11 +45,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 79.0, 32.0, 20.0 ],
+					"patching_rect" : [ 49.0, 76.0, 32.0, 20.0 ],
 					"text" : "V"
 				}
 
@@ -71,7 +74,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 7.0, 206.0, 96.0, 22.0 ],
+					"patching_rect" : [ 7.0, 203.0, 96.0, 22.0 ],
 					"rowheight" : 20,
 					"rows" : 1,
 					"savemode" : 1,
@@ -90,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 172.0, 87.0, 20.0 ],
+					"patching_rect" : [ 7.0, 169.0, 87.0, 20.0 ],
 					"text" : "imi.matrix2cell"
 				}
 
@@ -100,12 +103,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 248.0, 31.0 ],
+					"patching_rect" : [ 2.0, 1.0, 248.0, 30.0 ],
 					"text" : "Gen_reflexion",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -116,13 +119,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 543.0, 36.0 ],
+					"patching_rect" : [ 3.0, 28.0, 543.0, 35.0 ],
 					"text" : "gives you the relfected vector (R) :  R = V - 2 * dot (V, N) * N where V is the incoming vector \n(a ball for example) and N is deflecting vector (a wall)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -138,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 80.0, 37.0, 18.0 ],
+					"patching_rect" : [ 133.0, 77.0, 37.0, 18.0 ],
 					"text" : "0 0 1"
 				}
 
@@ -152,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 80.0, 37.0, 18.0 ],
+					"patching_rect" : [ 7.0, 77.0, 37.0, 18.0 ],
 					"text" : "0 1 1"
 				}
 
@@ -167,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 133.0, 104.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -182,15 +185,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 7.0, 104.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -200,8 +203,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 557.0, 44.0, 166.0, 151.0 ],
@@ -307,15 +311,10 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "reflect.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 139.0, 145.0, 20.0 ],
+					"patching_rect" : [ 7.0, 136.0, 145.0, 22.0 ],
 					"text" : "jit.gen"
 				}
 
@@ -327,7 +326,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -395,8 +393,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

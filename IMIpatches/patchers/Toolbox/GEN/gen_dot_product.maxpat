@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 1.0, 44.0, 580.0, 350.0 ],
@@ -30,6 +31,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -44,6 +46,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -58,6 +61,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -72,6 +76,7 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -86,12 +91,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.899994,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 102.0, 31.0 ],
+					"patching_rect" : [ 3.0, 1.0, 102.0, 30.0 ],
 					"text" : "Gen_dot",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -102,13 +107,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 28.0, 481.0, 36.0 ],
+					"patching_rect" : [ 4.0, 28.0, 481.0, 35.0 ],
 					"text" : "the dot product (or scalar product) is very useful for finding out how much two sets of numbers are similar to each other : dot (XYZ1, XYZ2) = X1*X2 + Y1*Y2 + Z1*Z2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -128,11 +133,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 590.0, 44.0, 279.0, 248.0 ],
+						"rect" : [ 590.0, 44.0, 279.0, 204.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -155,6 +161,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-63",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -215,7 +222,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 14.0, 68.0, 46.0, 20.0 ],
+									"patching_rect" : [ 14.0, 56.0, 46.0, 20.0 ],
 									"text" : "jit.iter"
 								}
 
@@ -251,7 +258,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 213.0, 25.0, 25.0 ]
+									"patching_rect" : [ 14.0, 170.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -319,22 +326,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 270.0, 243.0, 77.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p matrix-add"
@@ -351,7 +357,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 270.0, 273.0, 50.0, 23.0 ]
+					"patching_rect" : [ 270.0, 273.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -421,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 451.0, 107.998291, 43.0, 20.0 ],
+					"patching_rect" : [ 451.0, 107.998291, 43.0, 19.0 ],
 					"text" : "jit.fill b"
 				}
 
@@ -436,7 +442,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 270.0, 107.998291, 43.0, 20.0 ],
+					"patching_rect" : [ 270.0, 107.998291, 43.0, 19.0 ],
 					"text" : "jit.fill a"
 				}
 
@@ -451,7 +457,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 273.0, 50.0, 23.0 ]
+					"patching_rect" : [ 8.0, 273.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -524,7 +530,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 451.0, 139.0, 121.0, 20.0 ],
+					"patching_rect" : [ 451.0, 139.0, 121.0, 19.0 ],
 					"text" : "jit.matrix b 1 float32 3"
 				}
 
@@ -539,7 +545,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 270.0, 139.0, 121.0, 20.0 ],
+					"patching_rect" : [ 270.0, 139.0, 121.0, 19.0 ],
 					"text" : "jit.matrix a 1 float32 3"
 				}
 
@@ -568,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 134.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -600,7 +606,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 8.0, 107.998291, 111.0, 20.0 ],
+					"patching_rect" : [ 8.0, 107.998291, 111.0, 19.0 ],
 					"text" : "jit.matrix 3 float32 1"
 				}
 
@@ -618,8 +624,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 589.0, 44.0, 166.0, 151.0 ],
@@ -725,11 +732,6 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "dot.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
@@ -745,12 +747,11 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 575.0, 63.0 ],
+					"patching_rect" : [ 3.0, 2.0, 574.0, 61.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -921,8 +922,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "z.dotP.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/z.abstractions/z.abstractions_patches/z.dotP",
-				"patcherrelativepath" : "../../Plugins_tools/z.abstractions/z.abstractions_patches/z.dotP",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/z.abstractions/z.abstractions_patches/z.dotP",
+				"patcherrelativepath" : "../../../externals/tools/z.abstractions/z.abstractions_patches/z.dotP",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -724,7 +724,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 156.0, 119.0, 33.0 ],
+					"patching_rect" : [ 384.0, 159.0, 119.0, 33.0 ],
 					"text" : "capture the 3D context to a texture"
 				}
 

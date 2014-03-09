@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 54.0, 168.0, 37.0 ],
+					"patching_rect" : [ 227.0, 54.0, 176.0, 37.0 ],
 					"text" : "mode 2 : normalised with 0. as white and 1. as black"
 				}
 
@@ -171,11 +171,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 536.0, 44.0, 297.0, 311.0 ],
+						"rect" : [ 539.0, 44.0, 297.0, 311.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -217,7 +217,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 153.0, 75.0, 132.0, 20.0 ],
+									"patching_rect" : [ 153.0, 62.0, 132.0, 20.0 ],
 									"text" : "scale 0. 255. 0.48 0.82"
 								}
 
@@ -245,7 +245,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 75.0, 132.0, 20.0 ],
+									"patching_rect" : [ 19.0, 62.0, 132.0, 20.0 ],
 									"text" : "scale 0. 255. 0.48 0.82"
 								}
 
@@ -364,7 +364,7 @@
 									"destination" : [ "obj-24", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 162.5, 137.5, 84.5, 137.5 ],
+									"midpoints" : [ 162.5, 148.5, 84.5, 148.5 ],
 									"source" : [ "obj-15", 0 ]
 								}
 

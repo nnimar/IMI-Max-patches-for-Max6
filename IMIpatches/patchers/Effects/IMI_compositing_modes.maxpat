@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 319.5, 204.0, 22.0 ],
-					"presentation_rect" : [ 248.0, 291.0, 0.0, 0.0 ],
 					"text" : "mgraphics with GL (multiple)"
 				}
 
@@ -76,7 +75,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 318.0, 132.0, 16.0 ],
-					"presentation_rect" : [ 62.0, 291.0, 0.0, 0.0 ],
 					"text" : "load mgraphics2GLmultiple"
 				}
 
@@ -306,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5.0, 416.0, 508.0, 20.0 ],
-					"text" : "use the GL objects (GL.slabs and GL.imageunit) if you have a GL pipeline"
+					"text" : "use the GL objects (GL.slab and GL.imageunit) if you have a GL pipeline"
 				}
 
 			}

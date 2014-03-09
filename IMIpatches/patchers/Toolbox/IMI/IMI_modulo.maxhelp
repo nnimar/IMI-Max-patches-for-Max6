@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -159,8 +159,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 81.0, 78.0, 21.0 ],
-					"text" : "qmetro 100"
+					"patching_rect" : [ 15.0, 81.0, 71.0, 21.0 ],
+					"text" : "metro 100"
 				}
 
 			}

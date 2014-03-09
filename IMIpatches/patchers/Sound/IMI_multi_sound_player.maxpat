@@ -113,7 +113,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 635.0, 190.0, 159.0, 209.0 ],
+										"rect" : [ 380.0, 196.0, 159.0, 209.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -990,7 +990,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 178.0, 194.0, 76.0, 18.0 ],
-									"text" : "play 9"
+									"text" : "play 8"
 								}
 
 							}
@@ -1348,6 +1348,24 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.06,
+									"bubbleside" : 2,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 488.0, 336.0, 110.0, 52.0 ],
+									"text" : "polysound is the name of the buffer"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2064,6 +2082,15 @@
 							}
 , 							{
 								"box" : 								{
+									"embed_buffers" : 									{
+										"polysound.1" : "bell.aif",
+										"polysound.2" : "children.aif",
+										"polysound.3" : "dog.aif",
+										"polysound.4" : "evening.aif",
+										"polysound.5" : "footstep.aif",
+										"polysound.6" : "traffic.aif"
+									}
+,
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"id" : "obj-4",
@@ -2071,12 +2098,12 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 425.0, 382.0, 197.0, 22.0 ],
+									"patching_rect" : [ 388.0, 382.0, 236.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
 ,
-									"text" : "polybuffer~ psss @embed 1"
+									"text" : "polybuffer~ polysound @embed 1"
 								}
 
 							}
@@ -5824,9 +5851,9 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ]
+			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

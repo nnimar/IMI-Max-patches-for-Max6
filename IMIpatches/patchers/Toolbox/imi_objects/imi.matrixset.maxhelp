@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 475.0, 469.0 ],
+		"rect" : [ 100.0, 100.0, 475.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -502,7 +502,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrixset.maxpat",
-				"bootpath" : "/Users/nimar/Desktop/ess",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

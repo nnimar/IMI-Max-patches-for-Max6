@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -52,7 +52,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -668,7 +668,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -700,7 +700,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 32.0, 116.0, 113.0, 20.0 ],
+									"patching_rect" : [ 32.0, 116.0, 96.0, 20.0 ],
 									"text" : "cv.jit.blobs.color"
 								}
 
@@ -733,7 +733,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -928,7 +928,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 92.0, 57.0, 111.0, 20.0 ],
+									"patching_rect" : [ 92.0, 57.0, 102.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1538,7 +1538,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2017,8 +2017,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.063416, 192.0, 101.0, 24.0 ],
-					"text" : "high threshold"
+					"patching_rect" : [ 273.063416, 192.0, 85.0, 24.0 ],
+					"text" : "foreground"
 				}
 
 			}
@@ -2032,8 +2032,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.5, 162.5, 97.218292, 24.0 ],
-					"text" : "low threshold"
+					"patching_rect" : [ 242.5, 162.5, 89.218292, 24.0 ],
+					"text" : "background"
 				}
 
 			}

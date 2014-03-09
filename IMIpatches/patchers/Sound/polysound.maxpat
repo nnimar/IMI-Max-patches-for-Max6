@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 501.0, 44.0, 269.0, 256.0 ],
+		"rect" : [ 642.0, 44.0, 269.0, 256.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -72,15 +72,15 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.745678, 0.742082, 0.764569, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 128.0, 113.0, 20.0 ],
-					"text" : "sprintf set audio.%i"
+					"patching_rect" : [ 11.0, 128.0, 152.0, 20.0 ],
+					"text" : "sprintf set polysound.%i"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 128.0, 44.0, 18.0 ],
+					"patching_rect" : [ 170.0, 128.0, 44.0, 18.0 ],
 					"text" : "loop 1"
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 219.0, 125.0, 31.0, 20.0 ],
+					"patching_rect" : [ 219.0, 128.0, 31.0, 20.0 ],
 					"text" : "sig~"
 				}
 
@@ -231,7 +231,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 43.5, 172.5, 43.5 ],
+					"midpoints" : [ 20.5, 43.5, 179.5, 43.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -259,7 +259,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 172.5, 159.0, 20.5, 159.0 ],
+					"midpoints" : [ 179.5, 159.0, 20.5, 159.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

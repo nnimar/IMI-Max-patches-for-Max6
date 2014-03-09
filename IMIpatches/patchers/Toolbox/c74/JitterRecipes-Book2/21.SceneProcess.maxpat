@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 4.0, 44.0, 1140.0, 406.0 ],
@@ -30,12 +31,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 335.0, 371.0, 48.0 ],
+					"patching_rect" : [ 541.0, 335.0, 371.0, 47.0 ],
 					"text" : "This patch demonstrates a technique for doing matrix-style processing on an openGL scene without reading back to the CPU. This allows you to add a variety of processing effects to your live OpenGL patch without encountering much loss of frame rate. Another incentive to look at those shaders..."
 				}
 
@@ -44,6 +46,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -57,11 +60,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 789.0, 279.0, 80.0, 17.0 ],
+					"patching_rect" : [ 843.0, 259.0, 80.0, 17.0 ],
 					"text" : "scale_bias filter"
 				}
 
@@ -70,6 +74,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -83,6 +88,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -96,11 +102,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 601.0, 79.0, 201.0, 17.0 ],
+					"patching_rect" : [ 619.0, 77.0, 180.0, 17.0 ],
 					"text" : "this is our render destination for the nurbs"
 				}
 
@@ -452,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 541.0, 135.0, 38.0, 17.0 ],
+					"patching_rect" : [ 541.0, 135.0, 48.0, 17.0 ],
 					"text" : "gate 2"
 				}
 
@@ -469,7 +476,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1005.0, 210.0, 38.0, 17.0 ],
+					"patching_rect" : [ 1053.0, 195.0, 38.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -486,7 +493,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 966.0, 210.0, 38.0, 17.0 ],
+					"patching_rect" : [ 988.0, 195.0, 38.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -503,7 +510,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 923.0, 210.0, 42.0, 17.0 ],
+					"patching_rect" : [ 923.0, 195.0, 42.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -517,7 +524,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 922.0, 231.0, 135.0, 17.0 ],
+					"patching_rect" : [ 831.0, 231.0, 228.0, 17.0 ],
 					"text" : "pak param scale 1. 1. 1."
 				}
 
@@ -531,7 +538,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 569.0, 260.0, 300.0, 17.0 ],
+					"patching_rect" : [ 569.0, 260.0, 268.0, 17.0 ],
 					"text" : "jit.gl.slab cracks @file cc.scalebias.jxs @dim 320 240 @adapt 0"
 				}
 
@@ -559,7 +566,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 814.0, 94.0, 29.0, 17.0 ],
+					"patching_rect" : [ 814.0, 91.0, 38.0, 17.0 ],
 					"text" : "gate"
 				}
 
@@ -674,7 +681,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 569.0, 288.0, 203.0, 17.0 ],
+					"patching_rect" : [ 569.0, 288.0, 184.0, 17.0 ],
 					"text" : "jit.gl.videoplane cracks @scale 1.333 1. 1."
 				}
 
@@ -688,7 +695,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 569.0, 214.0, 197.0, 17.0 ],
+					"patching_rect" : [ 569.0, 214.0, 176.0, 17.0 ],
 					"text" : "jit.gl.slab cracks @file cf.gaussian.2p.jxs"
 				}
 
@@ -702,7 +709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 569.0, 92.0, 233.0, 17.0 ],
+					"patching_rect" : [ 570.0, 92.0, 233.0, 17.0 ],
 					"text" : "jit.gl.texture cracks @name super @dim 640 480"
 				}
 
@@ -865,12 +872,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"frgb" : 0.0,
 					"id" : "obj-60",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 589.0, 19.0, 57.0, 38.0 ],
+					"patching_rect" : [ 589.0, 19.0, 57.0, 37.0 ],
 					"text" : "turn on/off slab processing"
 				}
 
@@ -879,11 +887,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
+					"frgb" : 0.0,
 					"id" : "obj-61",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 950.0, 320.0, 169.0, 34.0 ],
+					"patching_rect" : [ 950.0, 320.0, 169.0, 33.0 ],
 					"text" : "SceneProcess"
 				}
 
@@ -893,7 +902,6 @@
 					"background" : 1,
 					"bgcolor" : [ 0.588235, 0.854902, 0.439216, 1.0 ],
 					"id" : "obj-62",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -907,7 +915,6 @@
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.980392, 0.878431, 1.0 ],
 					"id" : "obj-63",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1141,7 +1148,7 @@
 					"destination" : [ "obj-35", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1014.5, 227.0, 1047.5, 227.0 ],
+					"midpoints" : [ 1062.5, 221.0, 1049.5, 221.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1151,7 +1158,7 @@
 					"destination" : [ "obj-35", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 975.5, 227.0, 1018.5, 227.0 ],
+					"midpoints" : [ 997.5, 221.0, 997.25, 221.0 ],
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -1161,7 +1168,7 @@
 					"destination" : [ "obj-35", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 932.5, 227.0, 989.5, 227.0 ],
+					"midpoints" : [ 932.5, 221.0, 945.0, 221.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1171,7 +1178,7 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 931.5, 255.0, 578.5, 255.0 ],
+					"midpoints" : [ 840.5, 255.0, 578.5, 255.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -1398,7 +1405,7 @@
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 84.75, 81.0, 578.5, 81.0 ],
+					"midpoints" : [ 84.75, 81.0, 579.5, 81.0 ],
 					"source" : [ "obj-54", 3 ]
 				}
 
