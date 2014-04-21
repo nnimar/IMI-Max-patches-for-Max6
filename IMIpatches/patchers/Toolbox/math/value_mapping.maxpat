@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -73,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -542,7 +542,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -575,7 +575,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 91.0, 432.0, 151.0, 24.0 ],
+									"patching_rect" : [ 104.5, 433.0, 151.0, 24.0 ],
 									"text" : "split range re-mapping "
 								}
 
@@ -608,7 +608,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -999,7 +999,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 22.0, 435.0, 66.0, 20.0 ],
+									"patching_rect" : [ 22.0, 435.0, 79.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1013,7 +1013,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p"
+									"text" : "p range-map"
 								}
 
 							}
@@ -1405,7 +1405,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,

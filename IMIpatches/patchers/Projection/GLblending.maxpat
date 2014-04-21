@@ -766,8 +766,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 270.0, 21.0 ],
-					"text" : "overlay a png image on a movie",
+					"patching_rect" : [ 4.0, 30.0, 417.0, 21.0 ],
+					"text" : "overlay a png image on a movie (blend_enable and layer)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

@@ -32,7 +32,7 @@
 41, <category> 5 DbN3D;
 42, jittervsGL "2d vs 3d world";
 43, GLgridshape "ez shapes in 3D";
-44, GLgeometry "gridshape tricks";
+44, GLanimation "animate GLgridshape";
 45, GLsketch "intro to GLSketch";
 46, GLmesh "intro to GLmesh";
 47, GLtexture "apply a texture to a 3D shape";

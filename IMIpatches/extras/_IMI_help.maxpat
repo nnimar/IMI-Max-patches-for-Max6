@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -145,7 +145,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 302.0, 72.0, 101.0, 15.0 ],
-					"text" : "IMI Max patches v2.31"
+					"text" : "IMI Max patches v2.33"
 				}
 
 			}
@@ -223,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
-					"text" : "Nicolas Marechal, v2.32 (01/2014)",
+					"text" : "Nicolas Marechal, v2.33 (05/2014)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -244,7 +244,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -583,7 +583,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "DbN3D.2",
+					"items" : "Global",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -605,7 +605,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "basic jit.expr", ",", "matrix to GL Nurbs", ",", "control multiple gridshape", ",", "create an isosurf", ",", "use 3D models", ",", "an overview of GL world" ],
+					"items" : [ ",", "useful objects for Max", ",", "max message demystified", ",", "useful objects to handle lists", ",", "a few rules to help you patching", ",", "a visual guide for visual programming" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -637,7 +637,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_jitexpr", "GLnurbs", "GLmultiple", "GLisosurf", "GLmodel", "GLoverview" ],
+					"tabs" : [ "IMI_toolbox", "IMI_max_messaging", "list_toolbox", "Max_patching_rules", "Max_style_guide" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -659,7 +659,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -998,7 +998,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "DbN3D",
+					"items" : "Sensors",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1020,7 +1020,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "2d vs 3d world", ",", "ez shapes in 3D", ",", "gridshape tricks", ",", "intro to GLSketch", ",", "intro to GLmesh", ",", "apply a texture to a 3D shape" ],
+					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "introduction to open sound control (OSC)", ",", "sensor tools" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1052,7 +1052,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "jittervsGL", "GLgridshape", "GLgeometry", "GLsketch", "GLmesh", "GLtexture" ],
+					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_osc_protocol", "IMI_sensors_tools" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1074,7 +1074,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1413,7 +1413,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "DbN2D",
+					"items" : "Drawing",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1435,7 +1435,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "motion using counter", ",", "oscillation using sin/cos", ",", "noise to mgraphics position", ",", "using the jit.mgraphics space", ",", "drawagent" ],
+					"items" : [ ",", "intro to LCD", ",", "intro to jit.mgraphics", ",", "simple drawing with jit.magraphics", ",", "drawing like Processing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1467,7 +1467,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_mgraphics_motion", "IMI_mgraphics_oscillation", "IMI_noise2mgraphics", "IMI_mgraphics_space", "Drawagent" ],
+					"tabs" : [ "IMI_jit_lcd", "IMI_jit_mgraphics", "mgraphics_drawing", "IMI_max_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1489,7 +1489,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1828,7 +1828,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Effect",
+					"items" : "Sound",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1850,7 +1850,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "methods for compositing", ",", "video delay", ",", "easy to use shaders", ",", "various colour effects", ",", "badTV effect", ",", "generate a mesh of lines from a movie" ],
+					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound players (sfplay, play, groove)", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1884,7 +1884,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_compositing_modes", "IMI_video_delay", "GLslab_collection", "GLpix_colourFX", "BadTV", "h.lines" ],
+					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_simple_sound_player", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -1906,7 +1906,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2245,7 +2245,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Exhibition",
+					"items" : "Video",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2267,7 +2267,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "using the triplehead2go", ",", "video player for multi screens", ",", "multi-layered video", ",", "space mapping for multi screens", ",", "iCinema", ",", "control VPT/Resolume from Max" ],
+					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "brightness and colouring" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2299,7 +2299,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_triplehead2go", "IMI_video_twoscreens", "IMI_multi-layered_video", "IMI_space_mapping", "IMI_iCinema", "IMI_OSControl" ],
+					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "image_adjustment" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2321,7 +2321,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2660,7 +2660,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Projection",
+					"items" : "Introduction",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2682,7 +2682,7 @@
 					"framecolor" : [ 0.694118, 0.694118, 0.694118, 0.0 ],
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "simple GL video player", ",", "optimised GL video player", ",", "mask over a video", ",", "using GLrender and GLcamera", ",", "keystone for GL objects" ],
+					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2714,7 +2714,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_simple_video_player", "GLsmooth_slab", "GLslab_video_mask", "GLcamera_render", "GLcornerpin+" ],
+					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "IMI_credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -2855,7 +2855,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -4904,7 +4904,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "IMIMax103.txt",
+				"name" : "IMIMax101.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",
@@ -4918,7 +4918,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax101.txt",
+				"name" : "IMIMax103.txt",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
 				"patcherrelativepath" : "../../packages/IMIpatches/patchers/z",
 				"type" : "TEXT",

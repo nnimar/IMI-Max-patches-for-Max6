@@ -806,7 +806,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 497.0, 35.0, 20.0 ],
+					"patching_rect" : [ 12.0, 492.0, 35.0, 20.0 ],
 					"text" : "Left"
 				}
 
@@ -820,7 +820,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 435.0, 49.0, 20.0 ],
+					"patching_rect" : [ 12.0, 426.0, 49.0, 20.0 ],
 					"text" : "Right"
 				}
 
@@ -834,7 +834,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 374.0, 35.0, 20.0 ],
+					"patching_rect" : [ 12.0, 362.0, 35.0, 20.0 ],
 					"text" : "Main"
 				}
 
@@ -1477,7 +1477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.5, 497.0, 132.0, 20.0 ]
+					"patching_rect" : [ 54.5, 492.0, 132.0, 20.0 ]
 				}
 
 			}
@@ -1505,7 +1505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.5, 435.0, 132.0, 20.0 ]
+					"patching_rect" : [ 54.5, 426.0, 132.0, 20.0 ]
 				}
 
 			}
@@ -1519,7 +1519,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 54.5, 374.0, 132.0, 20.0 ]
+					"patching_rect" : [ 54.5, 362.0, 132.0, 20.0 ]
 				}
 
 			}
@@ -1862,7 +1862,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 54.5, 521.0, 208.0, 33.0 ],
+					"patching_rect" : [ 54.5, 516.0, 208.0, 33.0 ],
 					"text" : "jit.gl.camera @viewport 0 0 0.5 0.5 @position -3.5 0 0 @lookat 0 0 0"
 				}
 
@@ -1892,7 +1892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 54.5, 459.0, 207.0, 33.0 ],
+					"patching_rect" : [ 54.5, 450.0, 207.0, 33.0 ],
 					"text" : "jit.gl.camera @viewport 0.5 0.5 0.5 0.5 @position 3.5 0 0 @lookat 0 0 0"
 				}
 
@@ -1907,7 +1907,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 54.5, 397.0, 207.0, 33.0 ],
+					"patching_rect" : [ 54.5, 385.0, 207.0, 33.0 ],
 					"text" : "jit.gl.camera @viewport 0 0.5 0.5 0.5 @position 0 0 3.5 @lookat 0 0 0"
 				}
 

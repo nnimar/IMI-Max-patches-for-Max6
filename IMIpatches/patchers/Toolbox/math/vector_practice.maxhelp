@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 464.0, 375.0 ],
+		"rect" : [ 100.0, 100.0, 475.0, 462.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -32,17 +32,124 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 120.0, 221.5, 246.0, 20.0 ],
+					"text" : "move a gridshape within bounds (Lobjects)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-39",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 221.5, 103.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 221.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "vectorBouncer",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 221.5, 114.0, 18.0 ],
+					"text" : "load vectorBouncer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-35",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 120.0, 193.5, 171.0, 20.0 ],
+					"text" : "move a gridshape (Lobjects)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-36",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 193.5, 89.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 187.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "vectorMover",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-37",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 193.5, 103.0, 18.0 ],
+					"text" : "load vectorMover"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 348.0, 336.0, 20.0 ],
+					"patching_rect" : [ 128.0, 425.5, 336.0, 20.0 ],
 					"text" : "calculate the perpendicular component of P with respect to Q"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -55,7 +162,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 345.5, 89.0, 22.0 ],
+					"patching_rect" : [ 8.0, 424.5, 89.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 378.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 348.5, 78.0, 18.0 ],
+					"patching_rect" : [ 7.0, 427.5, 78.0, 18.0 ],
 					"text" : "load a-perps"
 				}
 
@@ -88,7 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 274.5, 261.0, 20.0 ],
+					"patching_rect" : [ 120.0, 353.5, 261.0, 20.0 ],
 					"text" : "find the intersection between two lines (lua)"
 				}
 
@@ -102,13 +209,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 246.5, 166.0, 20.0 ],
+					"patching_rect" : [ 120.0, 324.5, 166.0, 20.0 ],
 					"text" : "center of four points  (lua)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -121,7 +229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 273.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 352.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 278.0, 341.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -140,13 +248,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 273.5, 113.0, 18.0 ],
+					"patching_rect" : [ 7.0, 352.5, 113.0, 18.0 ],
 					"text" : "load intersect_lines"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -159,7 +268,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 244.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 323.5, 78.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.0, 270.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -178,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 244.5, 86.0, 18.0 ],
+					"patching_rect" : [ 7.0, 323.5, 86.0, 18.0 ],
 					"text" : "load centroid4"
 				}
 
@@ -192,13 +301,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 218.5, 166.0, 20.0 ],
+					"patching_rect" : [ 120.0, 296.5, 166.0, 20.0 ],
 					"text" : "center of three points (lua)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -211,7 +321,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 216.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 295.5, 78.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 110.0, 267.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -230,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 216.5, 86.0, 18.0 ],
+					"patching_rect" : [ 7.0, 295.5, 86.0, 18.0 ],
 					"text" : "load centroid3"
 				}
 
@@ -244,13 +354,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 188.5, 243.0, 20.0 ],
+					"patching_rect" : [ 120.0, 266.5, 243.0, 20.0 ],
 					"text" : "distance between two points (lua)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -263,7 +374,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 188.5, 103.0, 22.0 ],
+					"patching_rect" : [ 7.0, 267.5, 103.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 48.0, 254.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -282,7 +393,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 188.5, 114.0, 18.0 ],
+					"patching_rect" : [ 7.0, 267.5, 114.0, 18.0 ],
 					"text" : "load point_distance"
 				}
 
@@ -296,13 +407,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 303.5, 267.0, 20.0 ],
+					"patching_rect" : [ 161.0, 382.5, 267.0, 20.0 ],
 					"text" : "intersection between a line and a sphere  (lua)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -315,7 +427,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 301.5, 144.0, 23.0 ],
+					"patching_rect" : [ 7.0, 380.5, 144.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 246.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -334,7 +446,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 301.5, 151.0, 18.0 ],
+					"patching_rect" : [ 7.0, 380.5, 151.0, 18.0 ],
 					"text" : "load intersect_line_sphere"
 				}
 
@@ -348,7 +460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 146.0, 336.0, 20.0 ],
+					"patching_rect" : [ 120.0, 147.5, 336.0, 20.0 ],
 					"text" : "yields a vector that is perpendicular to the original two vectors"
 				}
 
@@ -362,7 +474,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 117.5, 230.0, 20.0 ],
+					"patching_rect" : [ 120.0, 119.0, 230.0, 20.0 ],
 					"text" : "get the angle between two vectors"
 				}
 
@@ -376,7 +488,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 89.5, 246.0, 20.0 ],
+					"patching_rect" : [ 120.0, 91.0, 246.0, 20.0 ],
 					"text" : "gives you the direction between two vectors"
 				}
 
@@ -390,13 +502,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 64.0, 337.0, 20.0 ],
-					"text" : "helps you to  move things around (position, direction, velocity)"
+					"patching_rect" : [ 120.0, 65.5, 337.0, 20.0 ],
+					"text" : "helps you to move things around (position, direction, velocity)"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -435,6 +548,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -473,6 +587,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -511,6 +626,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -557,7 +673,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 374.5, 53.0, 20.0 ],
+					"patching_rect" : [ 7.0, 453.5, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -606,7 +722,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 460.0, 51.0 ]
+					"patching_rect" : [ 1.0, 2.0, 473.0, 51.0 ]
 				}
 
 			}
@@ -757,10 +873,46 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}

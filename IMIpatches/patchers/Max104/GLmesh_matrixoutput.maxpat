@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -169,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.0, 258.0, 104.0, 20.0 ],
+					"patching_rect" : [ 436.0, 258.0, 104.0, 20.0 ],
 					"text" : "5 planes / 60 dim"
 				}
 
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 397.0, 172.0, 135.0, 20.0 ],
+					"patching_rect" : [ 380.0, 172.0, 135.0, 20.0 ],
 					"text" : "12 planes / 20 x 20 dim"
 				}
 
@@ -197,7 +197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 349.0, 99.0, 135.0, 20.0 ],
+					"patching_rect" : [ 336.0, 100.0, 135.0, 20.0 ],
 					"text" : "12 planes / 20 x 20 dim"
 				}
 
@@ -258,7 +258,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1034,7 +1034,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 282.0, 100.0, 62.0, 34.0 ]
+					"patching_rect" : [ 282.0, 100.0, 50.0, 34.0 ]
 				}
 
 			}
@@ -1044,11 +1044,11 @@
 					"fontsize" : 11.595187,
 					"id" : "obj-22",
 					"maxclass" : "jit.fpsgui",
-					"mode" : 2,
+					"mode" : 3,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 382.0, 258.0, 62.0, 34.0 ]
+					"patching_rect" : [ 382.0, 258.0, 47.0, 34.0 ]
 				}
 
 			}
@@ -1062,7 +1062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 331.0, 172.0, 62.0, 34.0 ]
+					"patching_rect" : [ 331.0, 172.0, 44.0, 34.0 ]
 				}
 
 			}

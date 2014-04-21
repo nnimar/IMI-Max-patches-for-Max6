@@ -110,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 226.0, 68.0, 35.0 ]
+					"patching_rect" : [ 7.0, 226.0, 65.0, 35.0 ]
 				}
 
 			}
@@ -1425,7 +1425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 148.244202, 361.142548, 142.0, 53.0 ],
+					"patching_rect" : [ 148.244202, 350.142548, 142.0, 53.0 ],
 					"text" : "jit.gl.videoplane @blend_enable 1 @transform_reset 2"
 				}
 

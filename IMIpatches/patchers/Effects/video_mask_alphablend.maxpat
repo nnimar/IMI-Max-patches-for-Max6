@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.0, 2.0, 343.0, 30.0 ],
-					"text" : "Video mask (using alphablend)",
+					"text" : "Video mask (jit.alphablend)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}

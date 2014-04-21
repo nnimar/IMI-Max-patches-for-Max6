@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -190,11 +190,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 174.097656, 48.21875 ],
+					"patching_rect" : [ 166.0, 435.0, 106.052734, 48.21875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 100.0, 174.097656, 48.21875 ],
+					"presentation_rect" : [ 13.0, 64.0, 106.052734, 48.21875 ],
 					"rounded" : 20.0,
-					"text" : "routepass",
+					"text" : "drunk",
 					"texton" : "Stop"
 				}
 
@@ -237,7 +237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 18.0 ],
-					"text" : "help routepass"
+					"text" : "help drunk"
 				}
 
 			}
@@ -510,7 +510,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 18.0 ],
-					"text" : "help route"
+					"text" : "help random"
 				}
 
 			}
@@ -528,11 +528,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 84.378906, 41.515625 ],
+					"patching_rect" : [ 17.0, 435.0, 117.71875, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 199.0, 84.378906, 41.515625 ],
+					"presentation_rect" : [ 167.0, 199.0, 117.71875, 41.515625 ],
 					"rounded" : 20.0,
-					"text" : "route",
+					"text" : "random",
 					"texton" : "Stop"
 				}
 

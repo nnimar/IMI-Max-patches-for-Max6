@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 447.0, 468.0 ],
+		"rect" : [ 1.0, 44.0, 447.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,11 +130,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 437.0, 360.0, 387.0, 187.0 ],
+						"rect" : [ 459.0, 360.0, 206.0, 180.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -467,13 +467,13 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-73",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 167.0, 426.0, 244.0, 38.0 ],
-					"text" : "jit.gl.gridshape @lighting_enable 1 @smooth_shading 1 @scale 0.05"
+					"patching_rect" : [ 167.0, 426.0, 244.0, 53.0 ],
+					"text" : "jit.gl.gridshape @lighting_enable 1 @smooth_shading 1 @scale 0.05 @color 1 0.5 0 1"
 				}
 
 			}
@@ -507,7 +507,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1062,7 +1062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 3.0, 371.0, 30.0 ],
-					"text" : "GLgridshape & trig-animation",
+					"text" : "anim trigonometry",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -1118,8 +1118,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 184.0, 147.0, 33.0 ],
-					"text" : "jit.gl.render @erase_color 0.5 0.5 1 0.1"
+					"patching_rect" : [ 9.0, 184.0, 137.0, 33.0 ],
+					"text" : "jit.gl.render @erase_color 1 1 1 0.1"
 				}
 
 			}
@@ -1133,7 +1133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 31.0, 363.0, 21.0 ],
-					"text" : "use sin and cos to create easy animations between -1. and 1. ",
+					"text" : "use sin and cos to create easy animations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -1147,7 +1147,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 56.0, 158.147247, 281.0 ],
+					"patching_rect" : [ 3.0, 56.0, 149.147247, 281.0 ],
 					"rounded" : 30
 				}
 

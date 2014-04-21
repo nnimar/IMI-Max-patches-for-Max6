@@ -1803,7 +1803,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7824,7 +7824,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 533.0, 545.0 ],
+						"rect" : [ 0.0, 70.0, 533.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7845,6 +7845,61 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-5",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 240.0, 520.5, 159.0, 21.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 393.0, 232.0, 79.0, 17.0 ],
+									"rounded" : 20.0,
+									"text" : "IMI_compositing_modes",
+									"texton" : "Stop"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
+									"hidden" : 1,
+									"id" : "obj-6",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 240.0, 520.5, 159.0, 17.0 ],
+									"presentation_rect" : [ 387.0, 233.5, 0.0, 0.0 ],
+									"text" : "load IMI_compositing_modes"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
+									"hidden" : 1,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 245.5, 520.5, 52.0, 19.0 ],
+									"presentation_rect" : [ 387.0, 232.5, 0.0, 0.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -7931,7 +7986,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 408.0, 521.0, 117.0, 20.0 ],
+									"patching_rect" : [ 408.0, 520.5, 117.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 									"rounded" : 20.0,
@@ -7979,7 +8034,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 279.0, 495.0, 161.0, 21.0 ],
+									"patching_rect" : [ 279.0, 59.0, 161.0, 21.0 ],
 									"text" : "use the PS3 eye camera :"
 								}
 
@@ -7998,7 +8053,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 438.0, 496.0, 87.0, 20.0 ],
+									"patching_rect" : [ 438.0, 60.0, 87.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 									"rounded" : 20.0,
@@ -8017,7 +8072,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 441.0, 496.0, 83.0, 16.0 ],
+									"patching_rect" : [ 441.0, 60.0, 83.0, 16.0 ],
 									"text" : "load SyphonEye"
 								}
 
@@ -8032,7 +8087,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 441.0, 496.0, 52.0, 19.0 ],
+									"patching_rect" : [ 441.0, 60.0, 52.0, 19.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -8247,11 +8302,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 34.0, 162.0, 17.5, 162.0 ],
 									"source" : [ "obj-59", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}

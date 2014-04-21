@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 862.0, 476.0 ],
+		"rect" : [ 5.0, 374.0, 862.0, 476.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +31,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -43,13 +45,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-7",
-					"linecount" : 19,
+					"linecount" : 17,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.0, 3.0, 156.0, 269.0 ],
-					"text" : "Hey, so the problem you are trying to solve is to find direction between two points in 3D space (or in your case 2D space) as a (signed?) angle (is this the correct term? Angle of slope? Whatever...).\n\nSo basically you need atan2 (which is atan(q)x/y).\n\nyou need to find the slope angle from the last known point to the current point, not just from 0,0 (which I *think* is what cartpol is potentially doing in your patch()."
+					"patching_rect" : [ 699.0, 3.0, 156.0, 234.0 ],
+					"text" : "Find direction between two points in 3D space (or in your case 2D space) as a (signed?) angle (is this the correct term? Angle of slope? Whatever...).\n\nSo basically you need atan2 (which is atan(q)x/y).\n\nyou need to find the slope angle from the last known point to the current point, not just from 0,0 (which I *think* is what cartpol is potentially doing in your patch()."
 				}
 
 			}
@@ -119,7 +122,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.0, 252.0, 36.0, 18.0 ],
-					"text" : "1.15"
+					"text" : "0.37"
 				}
 
 			}
@@ -189,7 +192,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 72.0, 67.0, 18.0 ],
-					"text" : "-0.19 0.84"
+					"text" : "0.53 0.49"
 				}
 
 			}
@@ -422,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 192.0, 430.0, 302.0, 32.0 ],
+					"patching_rect" : [ 192.0, 430.0, 302.0, 31.0 ],
 					"text" : "jit.gl.sketch TrackMIVB @blend_enable 1 @depth_enable 1 @lighting_enable 1 @smooth_shading 1 @scale 1. 1. 1."
 				}
 
@@ -437,7 +440,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.0, 390.0, 258.0, 31.0 ],
+					"patching_rect" : [ 192.0, 390.0, 258.0, 30.0 ],
 					"text" : "reset, glcolor 0.67 0.02 0.2 1., moveto $1 $2 $3, shapeorient $4 $5 $6, cylinder 0 0.07 0.1, bang"
 				}
 

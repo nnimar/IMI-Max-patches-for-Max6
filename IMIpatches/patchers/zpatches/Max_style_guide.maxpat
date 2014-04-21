@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -216,7 +216,7 @@
 					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 690.0, 35.0, 43.0, 18.0 ],
-					"text" : "rev 002",
+					"text" : "rev 003",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
 				}
@@ -285,7 +285,7 @@
 					"name" : "style_guide.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -5324.0, 0.0 ],
+					"offset" : [ -3550.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.274536, 59.0, 593.0, 371.0 ]

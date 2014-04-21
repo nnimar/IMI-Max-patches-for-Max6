@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -28,6 +28,36 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 551.0, 80.868256, 113.0, 24.0 ],
+					"text" : "reset intermode"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 82.868256, 74.0, 18.0 ],
+					"presentation_rect" : [ 515.0, 149.838318, 0.0, 0.0 ],
+					"text" : "calchandles"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
@@ -56,7 +86,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -256,7 +286,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -405,18 +435,30 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 3,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "append", 0.0, -1.678947, 1.314439 ]
+												"value" : [ "append", 0.0, -1.325484, 0.717971 ]
 											}
 , 											{
 												"key" : 1,
-												"value" : [ "append", 1.0, -0.994113, 1.303393 ]
+												"value" : [ "append", 1.0, 0.618559, 0.828428 ]
 											}
 , 											{
 												"key" : 2,
-												"value" : [ "append", 2.0, -1.469078, -0.441828 ]
+												"value" : [ "append", 2.0, 0.618559, -1.170844 ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ "append", 3.0, -1.005159, -1.159799 ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ "append", 4.0, -1.325484, 0.066274 ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "append", 5.0, -1.325484, 0.066274 ]
 											}
  ]
 									}
@@ -825,7 +867,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1152,7 +1194,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1662,7 +1704,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2077,7 +2119,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2946,6 +2988,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 482.5, 177.416168, 307.5, 177.416168 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}

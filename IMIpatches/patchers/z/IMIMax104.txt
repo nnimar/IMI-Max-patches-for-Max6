@@ -31,10 +31,10 @@
 40, -----------------------;
 41, <category> 5 Physics;
 42, phys_basic "basic phys engine";
-43, phys_multiple "use multiple phys";
-44, phys_collision "basic collision";
-45, Grab2Phys2d "realworld and 3D collisions";
-46, Gen_phys2mesh "mesh and phys to create particles";
+43, phys_world2D "multpiple physics";
+44, phys_multiple "use multiple phys";
+45, phys_collision "basic collision";
+46, Grab2Phys2d "realworld and 3D collisions";
 47, phys_patch_day "physics patch a day (c74)";
 
 50, -----------------------;

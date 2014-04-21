@@ -1327,7 +1327,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 633.0, 408.0 ],
+						"rect" : [ 0.0, 26.0, 633.0, 408.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4666,7 +4666,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 633.0, 408.0 ],
+						"rect" : [ 0.0, 70.0, 633.0, 408.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4687,6 +4687,53 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-16",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 421.0, 381.0, 100.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 517.0, 311.0, 100.0, 20.0 ],
+									"text" : "matrix control"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"hidden" : 1,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 421.0, 381.0, 48.0, 18.0 ],
+									"text" : "pcontrol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"hidden" : 1,
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 421.0, 381.0, 95.0, 16.0 ],
+									"text" : "load matrix_control"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -5383,8 +5430,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 268.0, 78.0, 163.0, 38.0 ],
-									"text" : "play sound from using their cue number"
+									"patching_rect" : [ 268.0, 78.0, 162.0, 38.0 ],
+									"text" : "play sound using their cue number (2-7)"
 								}
 
 							}
@@ -5614,6 +5661,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5638,6 +5694,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 421.5, 159.0, 275.5, 159.0 ],
 									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -5850,10 +5915,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-2::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-3::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ]
+			"obj-5::obj-1" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

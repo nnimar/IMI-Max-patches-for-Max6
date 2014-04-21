@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -148,11 +148,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 530.0, 374.0, 227.0, 307.0 ],
+						"rect" : [ 530.0, 372.0, 227.0, 307.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -185,11 +185,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 613.0, 377.0, 144.0, 275.0 ],
+										"rect" : [ 613.0, 374.0, 144.0, 275.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -388,11 +388,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 608.0, 373.0, 198.0, 290.0 ],
+										"rect" : [ 628.0, 373.0, 128.0, 261.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -605,11 +605,11 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 613.0, 378.0, 155.0, 241.0 ],
+										"rect" : [ 530.0, 373.0, 155.0, 241.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -808,7 +808,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1313,11 +1313,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 531.0, 374.0, 276.0, 281.0 ],
+						"rect" : [ 754.0, 371.0, 192.0, 310.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1394,12 +1394,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-46",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 46.0, 180.0, 195.0, 47.0 ],
+									"patching_rect" : [ 46.0, 180.0, 111.0, 74.0 ],
 									"text" : "jit.gl.gridshape @lighting_enable 1 @shape sphere @scale 0.05 @color 1. 0. 0."
 								}
 
@@ -1447,7 +1447,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 239.0, 25.0, 25.0 ]
+									"patching_rect" : [ 25.0, 269.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1559,11 +1559,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 529.0, 374.0, 232.0, 294.0 ],
+						"rect" : [ 529.0, 371.0, 217.0, 277.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1586,12 +1586,27 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"linecount" : 4,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 31.0, 176.5, 116.0, 60.0 ],
+									"text" : "jit.gl.gridshape @lighting_enable 1 @shape sphere @scale 0.08"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 137.0, 82.0, 20.0 ],
+									"patching_rect" : [ 65.0, 120.5, 82.0, 20.0 ],
 									"text" : "value vector1"
 								}
 
@@ -1616,7 +1631,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 170.0, 99.0, 20.0 ],
+									"patching_rect" : [ 31.0, 147.5, 99.0, 20.0 ],
 									"text" : "prepend position"
 								}
 
@@ -1632,21 +1647,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 47.0, 139.0, 20.0 ],
 									"text" : "pak 0. 0. 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-8",
-									"linecount" : 2,
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 29.916687, 197.0, 196.0, 33.0 ],
-									"text" : "jit.gl.gridshape @lighting_enable 1 @shape sphere @scale 0.08"
 								}
 
 							}
@@ -1693,7 +1693,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 246.0, 25.0, 25.0 ]
+									"patching_rect" : [ 10.0, 246.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1817,7 +1817,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2388,7 +2388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 227.0, 60.0, 35.0 ]
+					"patching_rect" : [ 8.0, 227.0, 75.0, 35.0 ]
 				}
 
 			}
@@ -2511,8 +2511,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 292.0, 106.0, 20.0 ],
-					"text" : "jit.window vecAdd"
+					"patching_rect" : [ 7.0, 292.0, 99.0, 20.0 ],
+					"text" : "jit.window vecAd"
 				}
 
 			}
@@ -2566,7 +2566,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 60.0, 113.147247, 257.0 ],
+					"patching_rect" : [ 3.0, 60.0, 116.147247, 261.0 ],
 					"rounded" : 30
 				}
 

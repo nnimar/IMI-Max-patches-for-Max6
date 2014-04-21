@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 630.0, 590.0 ],
+		"rect" : [ 0.0, 44.0, 630.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 70.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -176,7 +176,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.0, 203.0, 71.0, 19.0 ]
+									"patching_rect" : [ 109.0, 203.0, 71.0, 19.0 ],
+									"text" : "\"1\" \"2\" \"3\""
 								}
 
 							}
@@ -754,7 +755,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 323.0, 301.0, 142.0, 25.0 ],
-									"presentation_rect" : [ 344.0, 378.0, 0.0, 0.0 ],
 									"text" : "read text then dump"
 								}
 
@@ -816,7 +816,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.0, 166.0, 208.0, 20.0 ],
-									"text" : "show_text \"very long text\""
+									"text" : "show_text hello"
 								}
 
 							}
@@ -966,8 +966,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 450.0, 213.0, 20.0 ],
-									"text" : "show_text \"hello very long text\""
+									"patching_rect" : [ 30.0, 450.0, 213.0, 20.0 ]
 								}
 
 							}
@@ -1554,7 +1553,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.0, 338.0, 118.0, 19.0 ],
-									"text" : "move_to 148 162"
+									"text" : "move_to 109 105"
 								}
 
 							}
@@ -1722,7 +1721,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 494.0, 155.0, 20.0 ]
+									"patching_rect" : [ 296.0, 494.0, 155.0, 20.0 ],
+									"text" : "move_to 65 81"
 								}
 
 							}
@@ -1763,7 +1763,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ]
+									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ],
+									"text" : "move_to 38 32"
 								}
 
 							}
@@ -1902,7 +1903,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ]
+									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ],
+									"text" : "move_to 53 47"
 								}
 
 							}
@@ -2467,7 +2469,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 387.0, 349.0, 183.0, 25.0 ],
-									"presentation_rect" : [ 387.0, 349.0, 0.0, 0.0 ],
 									"text" : "read message, press dump"
 								}
 
@@ -2483,7 +2484,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 335.0, 60.0, 96.0, 25.0 ],
-									"presentation_rect" : [ 336.0, 60.0, 0.0, 0.0 ],
 									"text" : "press dump"
 								}
 
@@ -2544,7 +2544,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 13.0, 519.0, 86.0, 22.0 ],
-									"presentation_rect" : [ 176.0, 512.0, 0.0, 0.0 ],
 									"text" : "s mgraphics"
 								}
 
@@ -2864,7 +2863,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.0, 170.0, 119.0, 20.0 ],
-									"text" : "line_to 3 120"
+									"text" : "line_to 30 50"
 								}
 
 							}
@@ -3393,8 +3392,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 499.0, 38.0, 22.0 ],
-									"text" : "print"
+									"patching_rect" : [ 24.0, 499.0, 65.0, 22.0 ],
+									"text" : "print ex2"
 								}
 
 							}
@@ -3448,8 +3447,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 363.0, 38.0, 22.0 ],
-									"text" : "print"
+									"patching_rect" : [ 24.0, 363.0, 64.0, 22.0 ],
+									"text" : "print ex1"
 								}
 
 							}
@@ -3903,7 +3902,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 2.0, 70.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4277,6 +4276,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "max_message_coll",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/max_message",
+				"patcherrelativepath" : "./max_message",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "text.maxref.xml",
 				"bootpath" : "/Applications/Max 6.1/patches/docs/refpages/max-ref",
 				"patcherrelativepath" : "../../../../patches/docs/refpages/max-ref",

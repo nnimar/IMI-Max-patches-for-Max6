@@ -165,7 +165,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 503.0, 44.0, 492.0, 349.0 ],
+						"rect" : [ 547.0, 44.0, 492.0, 349.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -184,6 +184,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3414,31 +3415,31 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-106" : [ "a[56]", "a", 0 ],
-			"obj-1::obj-105" : [ "a[57]", "a", 0 ],
-			"obj-1::obj-104" : [ "a[58]", "a", 0 ],
-			"obj-1::obj-103" : [ "a[59]", "a", 0 ],
-			"obj-1::obj-102" : [ "a[60]", "a", 0 ],
-			"obj-1::obj-101" : [ "a[61]", "a", 0 ],
-			"obj-3" : [ "a[1]", "a", 0 ],
+			"obj-42" : [ "a[29]", "a", 0 ],
 			"obj-1::obj-19" : [ "a[50]", "a", 0 ],
+			"obj-1::obj-101" : [ "a[61]", "a", 0 ],
 			"obj-1::obj-20" : [ "a[51]", "a", 0 ],
-			"obj-28" : [ "a[2]", "a", 0 ],
 			"obj-1::obj-21" : [ "a[52]", "a", 0 ],
 			"obj-1::obj-23" : [ "a[53]", "a", 0 ],
 			"obj-1::obj-24" : [ "a[54]", "a", 0 ],
 			"obj-1::obj-25" : [ "a[55]", "a", 0 ],
+			"obj-1::obj-103" : [ "a[59]", "a", 0 ],
+			"obj-1::obj-102" : [ "a[60]", "a", 0 ],
+			"obj-1::obj-104" : [ "a[58]", "a", 0 ],
+			"obj-3" : [ "a[1]", "a", 0 ],
+			"obj-1::obj-106" : [ "a[56]", "a", 0 ],
+			"obj-1::obj-105" : [ "a[57]", "a", 0 ],
+			"obj-29" : [ "a[3]", "a", 0 ],
+			"obj-28" : [ "a[2]", "a", 0 ],
 			"obj-39" : [ "a[26]", "a", 0 ],
 			"obj-40" : [ "a[27]", "a", 0 ],
-			"obj-29" : [ "a[3]", "a", 0 ],
-			"obj-41" : [ "a[28]", "a", 0 ],
-			"obj-42" : [ "a[29]", "a", 0 ]
+			"obj-41" : [ "a[28]", "a", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "o.io.slipserial.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT_Externals/odot/abstractions/io",
-				"patcherrelativepath" : "../../../externals/sound/CNMAT_Externals/odot/abstractions/io",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
+				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3451,8 +3452,8 @@
 			}
 , 			{
 				"name" : "o.io.serial.display.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/sound/CNMAT_Externals/odot/abstractions/io",
-				"patcherrelativepath" : "../../../externals/sound/CNMAT_Externals/odot/abstractions/io",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
+				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.0, 148.0, 30.0 ],
+					"patching_rect" : [ 4.0, 1.0, 148.0, 30.0 ],
 					"text" : "jit.findbounds",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -53,7 +53,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 30.0, 213.0, 21.0 ],
+					"patching_rect" : [ 4.0, 30.0, 213.0, 21.0 ],
 					"text" : "find the darkest element in a matrix",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -281,7 +281,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 1.0, 318.0, 51.0 ]
+					"patching_rect" : [ 2.0, 1.0, 318.0, 51.0 ]
 				}
 
 			}

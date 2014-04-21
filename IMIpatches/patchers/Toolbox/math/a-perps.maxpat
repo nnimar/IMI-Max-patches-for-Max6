@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -554,7 +554,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 47.0, 426.0, 102.0, 20.0 ],
+					"patching_rect" : [ 68.852753, 444.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -583,7 +583,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 278.0, 30.0 ],
-					"text" : "a-perp",
+					"text" : "a-perp (Andre Sier)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title[1]"
 				}
@@ -598,7 +598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 366.0, 21.0 ],
+					"patching_rect" : [ 2.0, 32.0, 366.0, 21.0 ],
 					"text" : "calculate the perpendicular component of P with respect to Q",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest[1]"
@@ -640,7 +640,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 47.0, 452.0, 105.0, 20.0 ],
+					"patching_rect" : [ 68.852753, 470.0, 105.0, 20.0 ],
 					"text" : "jit.window perp3d"
 				}
 
@@ -800,7 +800,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7.0, 277.0, 195.0, 20.0 ],
-					"text" : "0.763723 0.552466 0.697931"
+					"text" : "0.152577 -0.343299 0."
 				}
 
 			}
@@ -1008,7 +1008,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 208.0, 446.0, 137.0, 47.0 ],
+					"patching_rect" : [ 208.0, 446.0, 140.0, 47.0 ],
 					"text" : "jit.gl.render perp3d @erase_color 0. 0. 0. 1. @antialias 1"
 				}
 
@@ -1020,7 +1020,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 418.0, 113.147247, 67.0 ],
+					"patching_rect" : [ 65.852753, 436.0, 113.147247, 67.0 ],
 					"rounded" : 30
 				}
 

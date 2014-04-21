@@ -174,8 +174,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 350.0, 20.0 ],
-					"text" : "the jit.expr object evaluates expressions to fill an output matrix",
+					"patching_rect" : [ 4.0, 31.0, 350.0, 20.0 ],
+					"text" : "evaluates expressions to fill an output matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -234,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 123.0, 30.0 ],
+					"patching_rect" : [ 4.0, 3.0, 123.0, 30.0 ],
 					"text" : "IMI jit.expr",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title[1]"

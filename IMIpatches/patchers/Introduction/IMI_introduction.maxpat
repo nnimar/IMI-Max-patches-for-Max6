@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -1.0, 44.0, 475.0, 498.0 ],
+		"rect" : [ 0.0, 44.0, 475.0, 498.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 261.0, 152.0, 65.0, 20.0 ],
+					"presentation_rect" : [ 267.0, 155.0, 0.0, 0.0 ],
+					"text" : "shift-click"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
@@ -116,7 +131,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -500,7 +515,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.0, 144.0, 65.0, 20.0 ],
-					"text" : "message"
+					"text" : "bang"
 				}
 
 			}
@@ -557,7 +572,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -580,17 +595,21 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"id" : "obj-4",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 118.0, 41.0, 20.0 ],
-									"text" : "0"
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 99.0, 116.0, 160.0, 42.0 ],
+									"presentation_rect" : [ 99.0, 127.0, 0.0, 0.0 ],
+									"text" : "connect the toggle and the select object"
 								}
 
 							}
@@ -656,7 +675,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.0, 81.0, 160.0, 22.0 ],
+									"patching_rect" : [ 99.0, 83.0, 160.0, 22.0 ],
 									"text" : "...or click the toggle box "
 								}
 
@@ -736,7 +755,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 9.0, 80.0, 23.0, 23.0 ]
+									"patching_rect" : [ 9.0, 82.0, 23.0, 23.0 ]
 								}
 
 							}
@@ -769,16 +788,6 @@
 									"hidden" : 0,
 									"midpoints" : [ 58.5, 73.5, 18.5, 73.5 ],
 									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 18.5, 111.5, 60.5, 111.5 ],
-									"source" : [ "obj-40", 0 ]
 								}
 
 							}

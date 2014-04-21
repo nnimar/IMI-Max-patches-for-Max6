@@ -960,8 +960,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 31.0, 304.0, 21.0 ],
-									"text" : "variable rate looping sample playback",
+									"patching_rect" : [ 3.0, 31.0, 424.0, 21.0 ],
+									"text" : "load the audio into the ram (buffer~), variable rate sample playback",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest[1]"
 								}
@@ -3095,8 +3095,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 31.0, 304.0, 21.0 ],
-									"text" : "simple sound player with sfplay~",
+									"patching_rect" : [ 3.0, 31.0, 364.0, 21.0 ],
+									"text" : "simple sound player with sfplay~ (play from hard drive)",
 									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 									"varname" : "autohelp_top_digest[1]"
 								}

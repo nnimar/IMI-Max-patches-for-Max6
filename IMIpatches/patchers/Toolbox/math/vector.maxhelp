@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -220,7 +220,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -253,8 +253,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 500.0, 245.0, 39.0 ],
-									"text" : "search the jit.gl.ua Vector Math\ndocumentation for more formulaes"
+									"patching_rect" : [ 6.0, 500.0, 245.0, 38.0 ],
+									"text" : "search the jit.gl.lua Vector Math\ndocumentation for more formulaes"
 								}
 
 							}
@@ -344,7 +344,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 38.0, 411.0, 140.0, 38.0 ],
+									"patching_rect" : [ 38.0, 411.0, 140.0, 37.0 ],
 									"text" : "intersection between line and sphere ?"
 								}
 
@@ -405,7 +405,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -780,7 +780,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 283.0, 136.0, 18.0 ]
+									"patching_rect" : [ 14.0, 283.0, 136.0, 18.0 ],
+									"text" : "0.333333 0 -0.333333"
 								}
 
 							}
@@ -826,7 +827,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1133,7 +1134,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 207.0, 74.0, 90.0, 18.0 ]
+									"patching_rect" : [ 207.0, 74.0, 90.0, 18.0 ],
+									"text" : "0. -1. -2."
 								}
 
 							}
@@ -1216,7 +1218,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 178.0, 136.0, 18.0 ]
+									"patching_rect" : [ 14.0, 178.0, 136.0, 18.0 ],
+									"text" : "0 0.8 -0.6"
 								}
 
 							}
@@ -1262,7 +1265,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1554,7 +1557,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 74.0, 77.0, 18.0 ]
+									"patching_rect" : [ 14.0, 74.0, 77.0, 18.0 ],
+									"text" : "0 -1 -2"
 								}
 
 							}
@@ -1600,7 +1604,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2305,7 +2309,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2548,7 +2552,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2699,7 +2703,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2937,7 +2941,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 495.0, 75.0, 18.0 ]
+					"patching_rect" : [ 205.0, 495.0, 75.0, 18.0 ],
+					"text" : "-1 0 0"
 				}
 
 			}
@@ -2983,7 +2988,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -3232,7 +3237,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 495.0, 89.0, 18.0 ]
+					"patching_rect" : [ 12.0, 495.0, 89.0, 18.0 ],
+					"text" : "-1. 0. 0."
 				}
 
 			}

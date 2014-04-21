@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.0, 156.0, 72.0, 37.0 ],
+					"patching_rect" : [ 577.0, 159.0, 72.0, 37.0 ],
 					"text" : "multiply and add"
 				}
 
@@ -97,7 +97,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 480.0, 143.0, 54.0, 20.0 ]
+					"patching_rect" : [ 480.0, 146.0, 54.0, 20.0 ]
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 168.0, 87.0, 18.0 ],
+					"patching_rect" : [ 480.0, 171.0, 87.0, 18.0 ],
 					"text" : "param bias $1"
 				}
 
@@ -125,7 +125,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 377.0, 143.0, 54.0, 20.0 ]
+					"patching_rect" : [ 377.0, 146.0, 54.0, 20.0 ]
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 377.0, 168.0, 93.0, 18.0 ],
+					"patching_rect" : [ 377.0, 171.0, 93.0, 18.0 ],
 					"text" : "param scale $1"
 				}
 
@@ -157,7 +157,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -758,8 +758,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 186.0, 21.0 ],
-					"text" : "use GLslab to mix to images",
+					"patching_rect" : [ 3.0, 32.0, 407.0, 21.0 ],
+					"text" : "use GLslab to mix to images (blend modes using GLslab)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -832,7 +832,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 350.0, 202.0, 213.0, 20.0 ],
+					"patching_rect" : [ 350.0, 205.0, 213.0, 20.0 ],
 					"text" : "jit.gl.slab output @file cc.scalebias.jxs"
 				}
 
@@ -1077,7 +1077,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 386.5, 194.5, 359.5, 194.5 ],
+					"midpoints" : [ 386.5, 197.5, 359.5, 197.5 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1087,7 +1087,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 489.5, 194.5, 359.5, 194.5 ],
+					"midpoints" : [ 489.5, 197.5, 359.5, 197.5 ],
 					"source" : [ "obj-22", 0 ]
 				}
 

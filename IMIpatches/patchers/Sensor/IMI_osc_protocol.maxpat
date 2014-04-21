@@ -43,6 +43,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -52,7 +53,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 93.0, 96.0, 20.0 ],
+					"patching_rect" : [ 9.0, 93.0, 96.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 194.0, 115.0, 100.0, 20.0 ],
 					"text" : "OSC specs"
@@ -75,6 +76,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -139,6 +141,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -215,6 +218,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -277,6 +281,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -309,6 +314,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -342,6 +348,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -360,6 +367,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -392,6 +400,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -482,6 +491,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"border" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,

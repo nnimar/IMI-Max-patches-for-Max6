@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 0.0, 44.0, 793.0, 647.0 ],
@@ -39,8 +40,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 297.0, 269.0 ],
@@ -197,8 +199,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 284.0, 373.0 ],
@@ -432,7 +435,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 433.0, 21.0 ],
+					"patching_rect" : [ 3.0, 32.0, 433.0, 21.0 ],
 					"text" : "simple frame difference analysis into sliders",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -523,8 +526,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 264.0, 44.0, 186.0, 129.0 ],
@@ -797,8 +801,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 6,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 445.0, 44.0, 270.0, 244.0 ],
@@ -1429,8 +1434,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "dot.smooth.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Plugins_tools/dot_max5_20111005",
-				"patcherrelativepath" : "../../Plugins_tools/dot_max5_20111005",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/tools/dot_20121204/filters/dot.smooth",
+				"patcherrelativepath" : "../../../externals/tools/dot_20121204/filters/dot.smooth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
