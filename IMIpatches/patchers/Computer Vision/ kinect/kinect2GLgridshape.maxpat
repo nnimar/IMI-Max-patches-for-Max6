@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -150,7 +150,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -706,8 +706,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 332.0, 21.0 ],
-					"text" : "play a video using the gpu (the graphic processing unit)",
+					"patching_rect" : [ 4.0, 30.0, 439.0, 21.0 ],
+					"text" : "use kinect data with a GLgridshape",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -849,7 +849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 305.75, 99.0, 20.0 ],
+					"patching_rect" : [ 445.0, 301.75, 99.0, 20.0 ],
 					"text" : "prepend position"
 				}
 

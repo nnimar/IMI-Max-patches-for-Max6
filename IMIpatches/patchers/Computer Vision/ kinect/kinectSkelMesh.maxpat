@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -359,7 +359,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 559.0, 142.0, 150.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.5, 243.0, 150.0, 17.0 ],
+					"presentation_rect" : [ 282.5, 215.0, 150.0, 17.0 ],
 					"text" : "output skeleton orientation"
 				}
 
@@ -424,7 +424,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 62.0, 145.0, 65.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 99.0, 65.0, 17.0 ],
+					"presentation_rect" : [ 33.0, 94.0, 65.0, 17.0 ],
 					"text" : "preview"
 				}
 
@@ -439,7 +439,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 34.5, 142.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 96.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 5.5, 93.0, 20.0, 20.0 ],
 					"varname" : "PreviewEnable"
 				}
 
@@ -492,7 +492,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.200012, 3.0, 122.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.200012, 58.0, 122.0, 22.0 ],
+					"presentation_rect" : [ 100.0, 62.0, 122.0, 22.0 ],
 					"text" : "start rendering"
 				}
 
@@ -524,7 +524,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.666664, 516.0, 129.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.5, 217.943481, 129.0, 17.0 ],
+					"presentation_rect" : [ 282.5, 189.943481, 129.0, 17.0 ],
 					"text" : "show skeleton joints"
 				}
 
@@ -540,7 +540,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 905.5, 26.0, 100.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.5, 268.943481, 100.0, 17.0 ],
+					"presentation_rect" : [ 282.5, 241.943481, 100.0, 17.0 ],
 					"text" : "print skeleton data"
 				}
 
@@ -556,7 +556,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 594.0, 75.0, 123.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 190.0, 123.0, 17.0 ],
+					"presentation_rect" : [ 314.0, 161.0, 123.0, 17.0 ],
 					"text" : "smoothing factor (0 - 1)"
 				}
 
@@ -709,7 +709,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2061,7 +2061,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 91.166664, 516.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 217.943481, 20.0, 20.0 ],
+					"presentation_rect" : [ 261.0, 188.943481, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "toggle[1]",
@@ -2148,7 +2148,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2185,7 +2185,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -3148,7 +3148,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 414.0, 262.0, 87.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 133.0, 87.0, 20.0 ],
+					"presentation_rect" : [ 314.5, 126.0, 87.0, 20.0 ],
 					"text" : "select user"
 				}
 
@@ -3334,7 +3334,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3590,7 +3590,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3958,7 +3958,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -4388,7 +4388,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -5644,7 +5644,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 886.0, 26.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 268.943481, 20.0, 20.0 ]
+					"presentation_rect" : [ 261.0, 239.943481, 20.0, 20.0 ]
 				}
 
 			}
@@ -5688,7 +5688,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 414.0, 284.0, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 155.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 261.0, 126.0, 50.0, 20.0 ],
 					"varname" : "TrackedUser"
 				}
 
@@ -5786,7 +5786,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 541.0, 142.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 243.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 261.0, 214.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -5831,7 +5831,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 541.0, 75.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 190.0, 50.0, 18.0 ],
+					"presentation_rect" : [ 261.0, 161.0, 50.0, 18.0 ],
 					"varname" : "Smoothing"
 				}
 
@@ -6075,7 +6075,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1160.5, 692.75, 83.25, 41.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.5, 81.0, 212.0, 214.0 ],
+					"presentation_rect" : [ 251.5, 81.0, 198.0, 191.0 ],
 					"rounded" : 20
 				}
 

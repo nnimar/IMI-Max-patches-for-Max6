@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -42,11 +42,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -176,8 +176,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 109.0, 203.0, 71.0, 19.0 ],
-									"text" : "\"1\" \"2\" \"3\""
+									"patching_rect" : [ 109.0, 203.0, 71.0, 19.0 ]
 								}
 
 							}
@@ -720,7 +719,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1435,7 +1434,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1721,8 +1720,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 494.0, 155.0, 20.0 ],
-									"text" : "move_to 65 81"
+									"patching_rect" : [ 296.0, 494.0, 155.0, 20.0 ]
 								}
 
 							}
@@ -1763,8 +1761,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ],
-									"text" : "move_to 38 32"
+									"patching_rect" : [ 296.0, 148.0, 113.0, 20.0 ]
 								}
 
 							}
@@ -1833,8 +1830,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.0, 273.0, 66.0, 20.0 ],
-									"text" : "40 30"
+									"patching_rect" : [ 33.0, 273.0, 66.0, 20.0 ]
 								}
 
 							}
@@ -1903,8 +1899,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ],
-									"text" : "move_to 53 47"
+									"patching_rect" : [ 16.0, 149.0, 119.0, 20.0 ]
 								}
 
 							}
@@ -2434,11 +2429,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 630.0, 564.0 ],
+						"rect" : [ 0.0, 70.0, 630.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2862,8 +2857,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 170.0, 119.0, 20.0 ],
-									"text" : "line_to 30 50"
+									"patching_rect" : [ 29.0, 170.0, 119.0, 20.0 ]
 								}
 
 							}
@@ -3345,7 +3339,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3379,8 +3373,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 197.0, 429.0, 273.0, 38.0 ],
-									"text" : "using pairs with a comma with $1 and $2,\nsee the Max window"
+									"patching_rect" : [ 197.0, 429.0, 284.0, 38.0 ],
+									"text" : "using pairs with a comma and the message with $1 and $2, see the Max window"
 								}
 
 							}
@@ -3898,7 +3892,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -4276,13 +4270,6 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "max_message_coll",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/max_message",
-				"patcherrelativepath" : "./max_message",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "text.maxref.xml",
 				"bootpath" : "/Applications/Max 6.1/patches/docs/refpages/max-ref",
 				"patcherrelativepath" : "../../../../patches/docs/refpages/max-ref",

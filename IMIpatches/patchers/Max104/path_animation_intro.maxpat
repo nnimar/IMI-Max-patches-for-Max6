@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 626.0, 318.0 ],
+		"rect" : [ 0.0, 44.0, 624.0, 320.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 493.0, 67.5, 110.218712, 22.0 ],
+					"patching_rect" : [ 279.0, 137.5, 110.218712, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 384.0, 67.5, 110.218712, 24.098633 ],
 					"rounded" : 20.0,
@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.0, 67.5, 98.0, 16.0 ],
+					"patching_rect" : [ 280.0, 137.5, 98.0, 16.0 ],
 					"text" : "load GLpath_matrix"
 				}
 
@@ -307,7 +307,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 433.0, 137.5, 118.774109, 22.0 ],
+					"patching_rect" : [ 496.0, 67.5, 118.774109, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 388.0, 244.5, 118.774109, 24.098633 ],
 					"rounded" : 20.0,
@@ -326,7 +326,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 137.5, 107.0, 16.0 ],
+					"patching_rect" : [ 498.0, 67.5, 107.0, 16.0 ],
 					"text" : "load GLpath_selector"
 				}
 
@@ -368,7 +368,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.0, 137.5, 149.918182, 22.0 ],
+					"patching_rect" : [ 394.0, 137.5, 149.918182, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 83.5, 149.918182, 24.098633 ],
 					"rounded" : 20.0,
@@ -605,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 34.0, 570.0, 20.0 ],
+					"patching_rect" : [ 4.0, 34.0, 570.0, 20.0 ],
 					"text" : "those two new families of objects are great to create motion paths and basic animations",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -621,7 +621,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 401.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 401.0, 30.0 ],
 					"text" : "path and animation overview",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -638,7 +638,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 137.5, 128.0, 16.0 ],
+					"patching_rect" : [ 394.0, 137.5, 128.0, 16.0 ],
 					"text" : "load GLpath_screen2anim"
 				}
 
@@ -744,7 +744,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 620.0, 51.0 ],
+					"patching_rect" : [ 2.0, 3.0, 620.0, 51.0 ],
 					"varname" : "autohelp_top_panel[1]"
 				}
 

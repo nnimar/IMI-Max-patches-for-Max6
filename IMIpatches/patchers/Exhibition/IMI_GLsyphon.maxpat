@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 515.0, 287.0 ],
+		"rect" : [ 1.0, 44.0, 515.0, 323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,74 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 8.0, 237.0, 149.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 246.028656, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "Syphon_auto_levels",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 238.5, 46.0, 18.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 8.0, 239.5, 122.0, 16.0 ],
+					"presentation_rect" : [ 8.0, 238.5, 0.0, 0.0 ],
+					"text" : "load Syphon_auto_levels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 187.0, 237.0, 309.0, 22.0 ],
+					"presentation_rect" : [ 187.0, 245.399994, 0.0, 0.0 ],
+					"text" : "syphon through with processes in GL and JIT"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -93,7 +161,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 226.0, 263.0, 106.0, 20.0 ],
+					"patching_rect" : [ 226.0, 300.0, 106.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 403.0, 611.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -116,7 +184,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 117.0, 263.0, 103.0, 20.0 ],
+					"patching_rect" : [ 117.0, 300.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 776.0, 328.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -135,7 +203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 264.0, 113.0, 16.0 ],
+					"patching_rect" : [ 226.0, 301.0, 113.0, 16.0 ],
 					"text" : "help jit.gl.syphonserver"
 				}
 
@@ -150,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 264.0, 108.0, 16.0 ],
+					"patching_rect" : [ 117.0, 301.0, 108.0, 16.0 ],
 					"text" : "help jit.gl.syphonclient"
 				}
 
@@ -165,7 +233,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 263.0, 52.0, 19.0 ],
+					"patching_rect" : [ 117.0, 300.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -184,7 +252,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 263.0, 103.0, 20.0 ],
+					"patching_rect" : [ 8.0, 300.0, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 483.0, 687.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -204,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 243.0, 264.0, 38.0 ],
+					"patching_rect" : [ 8.0, 280.0, 264.0, 38.0 ],
 					"text" : ";\rmax launchbrowser \"\\\"file:///////Library/Graphics/Quartz Composer Patches/Syphon Client QC.qtz\\\"\""
 				}
 
@@ -223,7 +291,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.0, 262.0, 118.0, 20.0 ],
+					"patching_rect" : [ 389.0, 299.0, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 851.0, 403.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -242,7 +310,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 248.5, 147.0, 33.0 ],
+					"patching_rect" : [ 358.0, 285.5, 147.0, 33.0 ],
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 
@@ -604,6 +672,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}

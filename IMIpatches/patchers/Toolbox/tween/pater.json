@@ -1,12 +1,11 @@
 {
 	"pattrstorage" : 	{
-		"name" : "u625002692",
+		"name" : "pater",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"numberVal" : [ 10.0 ],
-					"PattrSubpatcher::numberVal" : [  ]
+					"gridshape_scale" : [ 0.5, 0.5, 0.0 ]
 				}
 
 			}
@@ -14,8 +13,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"numberVal" : [ 50.0 ],
-					"PattrSubpatcher::numberVal" : [  ]
+					"gridshape_scale" : [ 0.5, 0.5, 3.0 ]
 				}
 
 			}

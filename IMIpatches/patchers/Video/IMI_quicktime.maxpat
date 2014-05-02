@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -42,11 +42,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -304,7 +304,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 8.0, 489.0, 80.0, 34.0 ]
+									"patching_rect" : [ 8.0, 489.0, 57.0, 34.0 ]
 								}
 
 							}
@@ -361,8 +361,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 33.0, 539.0, 33.0 ],
-									"text" : "universal frame converter to make loop points easier to use. It has two modes wait (wait for the end of the loop to be reached) or go (immediate jump). Accepts normal loop (1) or palindrome (2)",
+									"patching_rect" : [ 3.0, 33.0, 544.0, 33.0 ],
+									"text" : "universal frame converter to make loop points easier to use. It has two modes: wait (wait for the end of the loop to be reached) or go (immediate jump). Accepts normal loop (1) or palindrome (2)",
 									"textcolor" : [ 1.0, 0.999954, 1.0, 1.0 ]
 								}
 
@@ -589,11 +589,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 581.0, 692.0 ],
+						"rect" : [ 0.0, 70.0, 581.0, 692.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -685,7 +685,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 174.0, 76.5, 91.0, 24.0 ],
+									"patching_rect" : [ 116.0, 73.5, 91.0, 24.0 ],
 									"text" : "play a video"
 								}
 
@@ -730,7 +730,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 80.0, 19.0, 18.0 ],
+									"patching_rect" : [ 92.0, 77.0, 19.0, 18.0 ],
 									"text" : "2"
 								}
 
@@ -744,7 +744,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 129.0, 80.0, 19.0, 18.0 ],
+									"patching_rect" : [ 71.0, 77.0, 19.0, 18.0 ],
 									"text" : "1"
 								}
 
@@ -789,7 +789,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1330,7 +1330,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 142.5, 177.0, 69.0, 19.0 ],
+									"patching_rect" : [ 142.5, 177.0, 69.5, 19.0 ],
 									"text" : "int"
 								}
 
@@ -1344,7 +1344,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 129.0, 124.0, 32.5, 19.0 ],
+									"patching_rect" : [ 71.0, 121.0, 32.5, 19.0 ],
 									"text" : "t i b"
 								}
 
@@ -1381,7 +1381,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 105.5, 79.0, 20.0, 20.0 ],
+									"patching_rect" : [ 47.5, 76.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"text" : "2",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
@@ -1455,7 +1455,7 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 159.5, 106.0, 138.5, 106.0 ],
+									"midpoints" : [ 101.5, 108.0, 80.5, 108.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -1519,7 +1519,7 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 138.5, 106.0, 138.5, 106.0 ],
+									"midpoints" : [ 80.5, 103.0, 80.5, 103.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1529,7 +1529,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 138.5, 163.0, 80.5, 163.0 ],
+									"midpoints" : [ 80.5, 163.0, 80.5, 163.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1539,6 +1539,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 94.0, 151.0, 152.0, 151.0 ],
 									"source" : [ "obj-8", 1 ]
 								}
 
@@ -1548,7 +1549,7 @@
 									"destination" : [ "obj-9", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 138.5, 163.0, 202.0, 163.0 ],
+									"midpoints" : [ 80.5, 163.0, 202.5, 163.0 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -1597,7 +1598,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1632,14 +1633,14 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 446.0, 98.0, 80.0, 51.0 ],
+									"patching_rect" : [ 446.0, 98.0, 83.0, 51.0 ],
 									"text" : "attribute\ninspector\n(attrui)"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"attr" : "loop",
+									"attr" : "moviename",
 									"attrfilter" : [ "autostart", "colormode", "deinterlace", "dim", "duration", "framereport", "highquality", "interp", "loop", "loopend", "looppoints", "loopreport", "loopstart", "moviename", "rate", "time", "unique", "vol" ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2017,7 +2018,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.0, 626.0, 80.0, 34.0 ]
+									"patching_rect" : [ 10.0, 626.0, 66.0, 34.0 ]
 								}
 
 							}
@@ -2483,7 +2484,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,

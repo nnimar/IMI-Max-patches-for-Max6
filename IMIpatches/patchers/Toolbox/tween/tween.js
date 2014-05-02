@@ -1,12 +1,31 @@
-////////////////////////////////general settingsinlets =1;outlets =1;
+////////////////////////////////general settings (Max)
+inlets =1;
+outlets =1;
 
+////////////////////////////////
+function easeInBack(t){
+	output= t * t * ((1.70158 + 1) * t - 1.70158);
+	outlet(0,output);
+}
 
-////////////////////////////////Back
-function easeInBack(t){output= t * t * ((1.70158 + 1) * t - 1.70158);outlet(0,output);}////////////////////////////////
-function easeOutBack(t){t= t-1;output= t * t * ((1.70158 + 1) * t + 1.70158)+1;outlet(0,output);}////////////////////////////////
-function easeInOutBack(t){t= t*2;if(t<1)	output= 0.5*(t * t * ((2.5959 + 1) * t - 2.5959));else	output= 0.5*( (t-2) * (t-2)*((2.5959 + 1) * (t-2) + 2.5959)+2);outlet(0,output);}
+////////////////////////////////
+function easeOutBack(t){
+	t= t-1;
+	output= t * t * ((1.70158 + 1) * t + 1.70158)+1;
+	outlet(0,output);
+}
+	
+////////////////////////////////
+function easeInOutBack(t){
+	t= t*2;
+	if(t<1)
+		output= 0.5*(t * t * ((2.5959 + 1) * t - 2.5959));
+	else
+		output= 0.5*( (t-2) * (t-2)*((2.5959 + 1) * (t-2) + 2.5959)+2);
+	outlet(0,output);
+}
 
-////////////////////////////////Bounce
+////////////////////////////////
 function bounce (t){
 		if (t < (1 / 2.75))
 			return  (7.5625 * t * t);
@@ -22,15 +41,15 @@ function bounce (t){
 }
 
 ////////////////////////////////
-function easeInBounce (t){
-output= 1- bounce(1 - t);
-outlet(0,output);
+function easeInBounce(t){
+	output= 1- bounce(1 - t);
+	outlet(0,output);
 }
 
 ////////////////////////////////
-function easeOutBounce (t){
-output= bounce(t);
-outlet(0,output);
+function easeOutBounce(t){
+	output= bounce(t);
+	outlet(0,output);
 }
 
 ////////////////////////////////
@@ -42,16 +61,16 @@ function easeInOutBounce(t){
 outlet(0,output);
 }
 
-////////////////////////////////Circular
+////////////////////////////////
 function easeInCircular(t){
-output= -1 * (Math.sqrt(1 -t* t) - 1);
-outlet(0,output);
+	output= -1 * (Math.sqrt(1 -t* t) - 1);
+	outlet(0,output);
 }
 
 ////////////////////////////////
 function easeOutCircular(t){
-output= Math.sqrt(1 -(t-1)* (t-1));
-outlet(0,output);
+	output= Math.sqrt(1 -(t-1)* (t-1));
+	outlet(0,output);
 }
 
 ////////////////////////////////
@@ -64,14 +83,14 @@ t=t*2;
 outlet(0,output);
 }
 
-////////////////////////////////Cubic
-function easeInCubic (t){
-		output= t *t*t;
+////////////////////////////////
+function easeInCubic(t){
+		output= t*t*t;
 outlet(0,output);
 }
 
 ////////////////////////////////
-function easeOutCubic (t){
+function easeOutCubic(t){
 		output= (t-1)*(t-1)*(t-1)+1;
 outlet(0,output);
 }
@@ -87,37 +106,36 @@ outlet(0,output);
 
 }
 
-////////////////////////////////Elastic
-function easeInElastic (t){
+////////////////////////////////
+function easeInElastic(t){
 	 output = -(Math.pow(2,-10*(1-t)))*Math.sin(((1-t)*100-7.5)*6.283/30.);
 outlet(0,output);
 }
 
 ////////////////////////////////
-function easeOutElastic (t){
+function easeOutElastic(t){
 	 output =  Math.pow(2,-10*t)*Math.sin((t*100-7.5)*6.283/30)+1;
 outlet(0,output);
 }
 
 ////////////////////////////////
-function easeInOutElastic (t){
+function easeInOutElastic(t){
 t= t*2;
 	if(t<1)
-		 output =   -0.5*(Math.pow(2,-10*(1-t)))*Math.sin(((1-t)*100-11.2)*6.283/45.);
+		 output = -0.5*(Math.pow(2,-10*(1-t)))*Math.sin(((1-t)*100-11.2)*6.283/45.);
 	else
-		 output =   Math.pow(2,-10*(t-1))*Math.sin((t*100-11.2)*6.283/45)*0.5+1.;
-
+		 output = Math.pow(2,-10*(t-1))*Math.sin((t*100-11.2)*6.283/45)*0.5+1.;
 outlet(0,output);
 }
 
 ////////////////////////////////Quadratic
-function easeInQuadratic (t){
+function easeInQuadratic(t){
 output= t*t;
 outlet(0,output);
 }
 
 ////////////////////////////////
-function easeOutQuadratic (t){
+function easeOutQuadratic(t){
 output= -1*(t*(t-2));
 outlet(0,output);
 }
@@ -133,13 +151,13 @@ outlet(0,output);
 }
 
 ////////////////////////////////Quintic
-function easeInQuintic (t){
+function easeInQuintic(t){
 output= t*t*t*t*t;
 outlet(0,output);
 }
 
 ////////////////////////////////
-function easeOutQuintic (t){
+function easeOutQuintic(t){
 output= (t-1)*(t-1)*(t-1)*(t-1)*(t-1)+1;
 outlet(0,output);
 }
@@ -153,9 +171,3 @@ t= t*2;
 		output= 0.5*((t-2)*(t-2)*(t-2)*(t-2)*(t-2)+2);
 outlet(0,output);
 }
-
-
-
-
-
-

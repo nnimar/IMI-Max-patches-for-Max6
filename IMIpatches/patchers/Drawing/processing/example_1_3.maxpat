@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -250,7 +250,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -449,7 +449,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 185.5, 227.0, 19.5, 227.0 ],
+					"midpoints" : [ 185.5, 228.0, 19.5, 228.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -495,7 +495,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 78.5, 227.0, 19.5, 227.0 ],
+					"midpoints" : [ 78.5, 228.0, 19.5, 228.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -505,7 +505,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 228.5, 227.0, 19.5, 227.0 ],
+					"midpoints" : [ 228.5, 228.0, 19.5, 228.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -637,8 +637,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.mgra.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.wh_to_center.maxpat",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

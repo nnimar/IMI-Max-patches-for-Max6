@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -156,7 +156,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1048,7 +1048,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1080,8 +1080,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 116.0, 93.0, 20.0 ],
-									"text" : "imi.mgra center"
+									"patching_rect" : [ 12.0, 116.0, 101.0, 20.0 ],
+									"text" : "imi.wh_to_center"
 								}
 
 							}
@@ -1095,7 +1095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 145.0, 174.0, 45.0 ],
+									"patching_rect" : [ 12.0, 145.0, 177.0, 45.0 ],
 									"text" : "set_source_rgba 1 1 1 1, paint, set_source_rgba 1 0 0 1, ellipse $1 $2 20 20, fill, bang"
 								}
 
@@ -1258,8 +1258,8 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"position" : [ 120, 197 ],
-						"velocity" : [ -5, -5 ],
+						"position" : [ 77, 2 ],
+						"velocity" : [ 5, -5 ],
 						"width" : 320,
 						"height" : 240
 					}
@@ -1444,13 +1444,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "imi.mgra.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "imi.wh_to_center.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../../Toolbox/imi_objects",

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 558.0, 713.0 ],
+		"rect" : [ 1.0, 44.0, 558.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,165 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-66",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6.0, 645.0, 159.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 380.0, 343.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "openni_user_selection",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6.0, 644.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 645.0, 152.0, 17.0 ],
+					"text" : "load openni_user_selection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-34",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 313.0, 645.0, 116.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 610.0, 663.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "kinectSkelMesh",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 312.0, 645.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 645.0, 117.0, 17.0 ],
+					"text" : "load kinectSkelMesh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-53",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.0, 645.0, 140.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 203.0, 461.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "kinect2GLgridshape",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 172.0, 645.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-63",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 168.0, 645.0, 139.0, 17.0 ],
+					"text" : "load kinect2GLgridshape"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -122,12 +281,11 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-82",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 139.0, 608.5, 293.0, 38.0 ],
-					"text" : "jit.openni (OpenNI 1) is a native jitter object. \nIt uses the Osceleton OSC format (port 7120)"
+					"patching_rect" : [ 144.0, 614.5, 310.0, 22.0 ],
+					"text" : "jit.openni (OpenNI 1.5.2), a native jitter object. "
 				}
 
 			}
@@ -213,7 +371,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -257,12 +415,12 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-55",
-									"linecount" : 31,
+									"linecount" : 32,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 5.0, 484.0, 491.0 ],
-									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). All of these aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work. Unfortunately, it's limited to version 1 of the OpenNI.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
+									"patching_rect" : [ 8.0, 5.0, 500.0, 507.0 ],
+									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use jit.openni, a native Max object, or any of the ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). The aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work. Unfortunately, it's limited to version 1 of the OpenNI.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
 								}
 
 							}
@@ -421,73 +579,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 335.0, 685.0, 51.0, 22.0 ],
-					"text" : "more :"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-32",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 386.0, 685.5, 160.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 550.0, 319.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "Bellona's Kinect helpers",
-					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"hidden" : 1,
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 687.0, 53.0, 20.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-44",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 689.5, 110.0, 17.0 ],
-					"text" : "load kinect_helpers"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -497,11 +588,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 562.0, 594.0, 645.0, 164.0 ],
+						"rect" : [ 566.0, 556.0, 645.0, 164.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -854,7 +945,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.0, 685.0, 82.0, 22.0 ],
+					"patching_rect" : [ 474.0, 645.0, 82.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -920,7 +1011,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.0, 515.5, 352.0, 38.0 ],
-					"text" : "Kinect-A is a more advanced OF applications that sends choosen information to Max via OSC (port 3333)"
+					"text" : "Kinect-A is a OF applications that sends the choosen information to Max via OSC (port 3333)"
 				}
 
 			}
@@ -1813,10 +1904,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"source" : [ "obj-32", 0 ]
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1826,15 +1926,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -1876,6 +1967,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1903,6 +2003,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1912,10 +2021,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}

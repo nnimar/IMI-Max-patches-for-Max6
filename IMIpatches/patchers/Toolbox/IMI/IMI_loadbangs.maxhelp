@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -566,8 +566,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 155.0, 34.0, 20.0 ],
-					"text" : "print"
+					"patching_rect" : [ 11.0, 155.0, 99.0, 20.0 ],
+					"text" : "print loadmess-1"
 				}
 
 			}

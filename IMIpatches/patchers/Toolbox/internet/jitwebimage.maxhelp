@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 100.0, 100.0, 445.0, 426.0 ],
@@ -35,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 402.0, 84.0, 19.0 ],
+					"patching_rect" : [ 73.0, 402.0, 84.0, 19.0 ],
 					"text" : "Max Mathews"
 				}
 
@@ -48,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 211.0, 315.0, 188.0 ],
+					"patching_rect" : [ 73.0, 214.0, 315.0, 188.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 315.0, 188.0 ]
 				}
 
@@ -210,7 +211,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 164.5, 204.0, 16.5, 204.0 ],
+					"midpoints" : [ 164.5, 204.0, 82.5, 204.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -294,7 +295,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 82.5, 204.0, 16.5, 204.0 ],
+					"midpoints" : [ 82.5, 204.0, 82.5, 204.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 178.0, 150.0, 56.0, 24.0 ],
-					"presentation_rect" : [ 178.0, 150.0, 0.0, 0.0 ],
 					"text" : "reset"
 				}
 
@@ -105,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 195.0, 142.0, 24.0 ],
+					"patching_rect" : [ 112.0, 196.0, 142.0, 24.0 ],
 					"text" : "connect to jit.qt.movie"
 				}
 

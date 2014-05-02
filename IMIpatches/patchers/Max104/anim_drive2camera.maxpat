@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 565.0, 536.0 ],
@@ -150,7 +151,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 161.0, 79.0, 39.0 ],
+					"patching_rect" : [ 427.0, 161.0, 81.0, 39.0 ],
 					"text" : "cam position "
 				}
 
@@ -182,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 181.0, 436.0, 89.0, 39.0 ],
+					"patching_rect" : [ 181.0, 436.0, 91.0, 39.0 ],
 					"text" : "object position "
 				}
 
@@ -342,7 +343,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 489.0, 350.0, 38.0 ],
+					"patching_rect" : [ 9.0, 495.0, 350.0, 38.0 ],
 					"text" : "click on the window, then press w and s to move forward and backward or a and d to move left and right"
 				}
 
@@ -406,8 +407,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 579.0, 362.0, 382.0, 239.0 ],
@@ -649,8 +651,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 577.0, 361.0, 411.0, 282.0 ],
@@ -1612,8 +1615,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

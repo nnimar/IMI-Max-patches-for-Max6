@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -619,15 +619,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-26",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 420.0, 133.0, 100.0, 33.0 ],
+					"patching_rect" : [ 421.5, 145.0, 188.0, 22.0 ],
 					"text" : "jit.anim.drive @turn 0 -1 0"
 				}
 
@@ -694,7 +693,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 404.0, 178.0, 222.0, 47.0 ],
+					"patching_rect" : [ 404.0, 178.0, 223.0, 47.0 ],
 					"text" : "jit.gl.gridshape @shape torus @smooth_shading 1 @rotatexyz 90 0 0 @texture mytex @color 1 1 1 1"
 				}
 
@@ -865,7 +864,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.0, 108.0, 104.0, 20.0 ],
+					"patching_rect" : [ 421.5, 120.0, 104.0, 20.0 ],
 					"text_width" : 61.0
 				}
 

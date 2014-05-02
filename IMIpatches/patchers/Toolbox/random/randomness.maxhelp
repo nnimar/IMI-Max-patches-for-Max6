@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 170.5, 167.0, 22.0 ],
+					"patching_rect" : [ 210.0, 168.5, 167.0, 22.0 ],
 					"text" : "more (by João Menezes)"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 172.5, 111.0, 20.0 ],
+					"patching_rect" : [ 12.0, 170.5, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 169.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -88,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 144.5, 159.0, 22.0 ],
+					"patching_rect" : [ 210.0, 142.5, 159.0, 22.0 ],
 					"text" : "RTC chance help"
 				}
 
@@ -107,7 +107,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 145.0, 92.0, 20.0 ],
+					"patching_rect" : [ 12.0, 143.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 144.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -125,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 116.5, 159.0, 22.0 ],
+					"patching_rect" : [ 210.0, 114.5, 159.0, 22.0 ],
 					"text" : "simple probability"
 				}
 
@@ -159,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 116.5, 121.0, 20.0 ],
+					"patching_rect" : [ 12.0, 114.5, 121.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 471.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -197,7 +197,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 476.5, 139.0, 20.0 ],
+					"patching_rect" : [ 12.0, 474.5, 139.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 397.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -215,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 476.5, 123.0, 22.0 ],
+					"patching_rect" : [ 210.0, 474.5, 123.0, 22.0 ],
 					"text" : "boid for GLmesh"
 				}
 
@@ -264,7 +264,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 450.5, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 448.5, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 401.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -282,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 450.5, 103.0, 22.0 ],
+					"patching_rect" : [ 210.0, 448.5, 103.0, 22.0 ],
 					"text" : "boid3d for jitter"
 				}
 
@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 424.5, 81.0, 20.0 ],
+					"patching_rect" : [ 12.0, 422.5, 81.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.0, 408.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -334,7 +334,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 425.5, 106.0, 22.0 ],
+					"patching_rect" : [ 210.0, 423.5, 106.0, 22.0 ],
 					"text" : "boid2d for jitter"
 				}
 
@@ -398,7 +398,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 398.5, 136.0, 20.0 ],
+					"patching_rect" : [ 12.0, 396.5, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 323.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -416,7 +416,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 398.5, 95.0, 22.0 ],
+					"patching_rect" : [ 210.0, 396.5, 95.0, 22.0 ],
 					"text" : "boidroids #2"
 				}
 
@@ -435,7 +435,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 372.5, 127.0, 20.0 ],
+					"patching_rect" : [ 12.0, 370.5, 127.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 289.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -453,7 +453,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 372.5, 95.0, 22.0 ],
+					"patching_rect" : [ 210.0, 370.5, 95.0, 22.0 ],
 					"text" : "boidroids"
 				}
 
@@ -467,7 +467,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 269.5, 218.0, 22.0 ],
+					"patching_rect" : [ 210.0, 267.5, 218.0, 22.0 ],
 					"text" : "1st order Markov Chains example"
 				}
 
@@ -481,7 +481,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 242.5, 107.0, 22.0 ],
+					"patching_rect" : [ 210.0, 240.5, 107.0, 22.0 ],
 					"text" : "more markov"
 				}
 
@@ -495,7 +495,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 216.5, 210.0, 22.0 ],
+					"patching_rect" : [ 210.0, 214.5, 210.0, 22.0 ],
 					"text" : "predicts the future from the past"
 				}
 
@@ -529,7 +529,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 320.5, 132.0, 20.0 ],
+					"patching_rect" : [ 12.0, 318.5, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 319.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -567,7 +567,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 273.856171, 121.0, 20.0 ],
+					"patching_rect" : [ 12.0, 271.856171, 121.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 163.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -590,7 +590,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 245.178085, 118.0, 20.0 ],
+					"patching_rect" : [ 12.0, 243.178085, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.0, 153.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -643,7 +643,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 216.5, 110.0, 20.0 ],
+					"patching_rect" : [ 12.0, 214.5, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.0, 146.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -706,7 +706,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 319.5, 174.0, 22.0 ],
+					"patching_rect" : [ 210.0, 317.5, 174.0, 22.0 ],
 					"text" : "simulate flocking (cauchy)"
 				}
 
@@ -725,7 +725,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 90.0, 69.0, 20.0 ],
+					"patching_rect" : [ 12.0, 88.0, 69.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 91.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -743,7 +743,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 89.5, 159.0, 22.0 ],
+					"patching_rect" : [ 210.0, 87.5, 159.0, 22.0 ],
 					"text" : "more random functions"
 				}
 
@@ -757,7 +757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 62.5, 152.0, 22.0 ],
+					"patching_rect" : [ 210.0, 60.5, 152.0, 22.0 ],
 					"text" : "introduction to random"
 				}
 
@@ -792,7 +792,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 62.5, 98.0, 20.0 ],
+					"patching_rect" : [ 12.0, 60.5, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -827,7 +827,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 174.0, 82.0, 20.0 ],
+					"patching_rect" : [ 12.0, 172.0, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -842,7 +842,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 174.0, 124.0, 18.0 ],
+					"patching_rect" : [ 15.0, 172.0, 124.0, 18.0 ],
 					"text" : "Parametrical.maxproj"
 				}
 
@@ -858,7 +858,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 355.0, 428.0, 4.0 ],
+					"patching_rect" : [ 12.0, 353.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 
@@ -874,7 +874,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 201.0, 428.0, 4.0 ],
+					"patching_rect" : [ 12.0, 199.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -890,7 +890,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 303.0, 428.0, 4.0 ],
+					"patching_rect" : [ 12.0, 301.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 

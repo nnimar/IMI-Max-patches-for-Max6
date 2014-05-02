@@ -5,8 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"anim_time" : [ 500 ],
-					"videoplane_position" : [ 0.95, -0.6, 0.0 ],
+					"videoplane_position" : [ 0.85, -0.58, 0.0 ],
+					"anim_time" : [ 2000 ],
 					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
 				}
 
@@ -15,8 +15,8 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"anim_time" : [ 500 ],
-					"videoplane_position" : [ -0.98, -0.6, 0.0 ],
+					"videoplane_position" : [ -0.91, -0.58, 0.0 ],
+					"anim_time" : [ 2000 ],
 					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
 				}
 
@@ -25,18 +25,8 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"anim_time" : [ 500 ],
-					"videoplane_position" : [ -0.94, 0.0, 0.0 ],
-					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
-				}
-
-			}
-,
-			"4" : 			{
-				"id" : 4,
-				"data" : 				{
-					"anim_time" : [ 500 ],
-					"videoplane_position" : [ 0.93, 0.6, 0.0 ],
+					"videoplane_position" : [ 0.07, 0.04, 0.0 ],
+					"anim_time" : [ 2000 ],
 					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -61,7 +61,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.0, 586.5, 53.0, 20.0 ],
-					"presentation_rect" : [ 538.0, 461.0, 0.0, 0.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -77,7 +76,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.0, 586.5, 133.0, 18.0 ],
-					"presentation_rect" : [ 480.0, 458.5, 0.0, 0.0 ],
 					"text" : "load phys_forcesystem"
 				}
 
@@ -200,7 +198,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -348,7 +346,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1306,7 +1304,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 207.0, 283.0, 302.0, 20.0 ],
+					"patching_rect" : [ 207.0, 283.0, 331.0, 20.0 ],
 					"text" : "jit.gl.multiple pm-ctx 3 @glparams position rotate scale"
 				}
 
