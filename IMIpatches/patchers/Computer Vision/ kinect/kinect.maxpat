@@ -41,11 +41,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 645.0, 159.0, 21.0 ],
+					"patching_rect" : [ 6.0, 644.0, 130.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 380.0, 343.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "openni_user_selection",
+					"text" : "jit.openni_practice",
 					"texton" : "Stop"
 				}
 
@@ -75,8 +75,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 645.0, 152.0, 17.0 ],
-					"text" : "load openni_user_selection"
+					"patching_rect" : [ 13.0, 645.0, 123.0, 17.0 ],
+					"text" : "load openNI_practice"
 				}
 
 			}
@@ -94,11 +94,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 645.0, 116.0, 21.0 ],
+					"patching_rect" : [ 294.0, 644.0, 126.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 610.0, 663.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "kinectSkelMesh",
+					"text" : "openNI_SkelMesh",
 					"texton" : "Stop"
 				}
 
@@ -113,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 645.0, 53.0, 20.0 ],
+					"patching_rect" : [ 294.0, 644.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -128,8 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.0, 645.0, 117.0, 17.0 ],
-					"text" : "load kinectSkelMesh"
+					"patching_rect" : [ 294.0, 644.0, 131.0, 17.0 ],
+					"text" : "load openNI_SkelMesh"
 				}
 
 			}
@@ -147,11 +147,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 169.0, 645.0, 140.0, 21.0 ],
+					"patching_rect" : [ 140.0, 644.0, 149.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 203.0, 461.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "kinect2GLgridshape",
+					"text" : "openNI_GLgridshape",
 					"texton" : "Stop"
 				}
 
@@ -166,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 645.0, 53.0, 20.0 ],
+					"patching_rect" : [ 170.0, 645.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -181,8 +181,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 645.0, 139.0, 17.0 ],
-					"text" : "load kinect2GLgridshape"
+					"patching_rect" : [ 137.0, 644.0, 146.0, 17.0 ],
+					"text" : "load openNI_GLgridshape"
 				}
 
 			}
@@ -219,8 +219,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 298.5, 110.0, 17.0 ],
-					"text" : "load freenect-touch"
+					"patching_rect" : [ 10.0, 298.5, 112.0, 17.0 ],
+					"text" : "load freenect_touch"
 				}
 
 			}
@@ -233,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 296.5, 344.0, 22.0 ],
+					"patching_rect" : [ 131.0, 295.5, 344.0, 22.0 ],
 					"text" : "ready made patch to use the kinect as a touch screen"
 				}
 
@@ -284,7 +284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 614.5, 310.0, 22.0 ],
+					"patching_rect" : [ 144.0, 613.5, 310.0, 22.0 ],
 					"text" : "jit.openni (OpenNI 1.5.2), a native jitter object. "
 				}
 
@@ -375,7 +375,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 562.0, 44.0, 496.0, 582.0 ],
+						"rect" : [ 562.0, 44.0, 562.0, 595.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -400,12 +400,12 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-40",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 519.0, 396.0, 60.0 ],
-									"text" : "mini glossary :\nOF : openFramework (a C library based on Processing)\nOSC : open sound control (a protocol to send data between application)\nTUIO : framework for multitouch surfaces (example : the reactVision)"
+									"patching_rect" : [ 6.0, 509.0, 396.0, 74.0 ],
+									"text" : "mini glossary\nOF: openFramework (a C library based on Processing)\nOSC: open sound control (a protocol to send data between application)\nSDK: software development kit\nTUIO: framework for multitouch surfaces (example : the reactVision)"
 								}
 
 							}
@@ -415,12 +415,12 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-55",
-									"linecount" : 32,
+									"linecount" : 30,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 5.0, 500.0, 507.0 ],
-									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use jit.openni, a native Max object, or any of the ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). The aplications will send data back to Max using the Open Sound Control protocol (OSC). \n\nJit.openni is a compiled OpenNI library for Max. It's a work in a progress but you need to install the Zigfu installer (Applications>Max6>more) in order to make it work. Unfortunately, it's limited to version 1 of the OpenNI.\n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries vs features (from Jon Bellona)\n\nOSCeleton is good at multi-user skeleton tracking, starting-up and has a pretty low CPU usage. It's not good at auto callbration or real time option support (there is no interface).\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking.\n\nNIMate is very similar to Synapse but has more options such as the \nsupport for gesture and multi user tracking ! It has a pretty high CPU usage.\n\nProcessing also has multi user tracking but since it's not a native environment, is quite slow at rebooting and has a high CPU usage."
+									"patching_rect" : [ 6.0, 5.0, 551.0, 476.0 ],
+									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use jit.openni, a native Max object, or any of the ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). The applications will send data back to Max using the Open Sound Control protocol (OSC). \n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries..\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking and requires the user to use the psy pose in order to make it work (via Jon Bellona)\n\nKinect-A (by Miihoo) is an OF application built using ofxOpenNI wrapper (by Matthew Gingold), it features tracking for skeleton, hands and objects. The object tracking is mainly based on the solution of KinectCoreVision (by Patricio González Vivo).\n\nJit.openni (by Diablodale) is a work in progress. You need to install the OpenNI library in order to use it. We suggest the Zigfu installer (http://zigfu.com/en/downloads/browserplugin/) but you may have to install it manually. Unfortunately, it's limited to version 1 of the OpenNI. \n\nDp.kinect (by Diablodale) is a Max object that is built using version 2 of OpenNI and the Microsoft's Kinect SDK. It is the most recent, fastest solution but only available on PC."
 								}
 
 							}
@@ -577,394 +577,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-69",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
-						}
-,
-						"rect" : [ 566.0, 556.0, 645.0, 164.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-3",
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 41.5, 128.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 170.0, 222.5, 79.0, 17.0 ],
-									"rounded" : 20.0,
-									"text" : "launch OSCeleton",
-									"texton" : "Stop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-2",
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 69.5, 187.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 378.0, 132.5, 79.0, 17.0 ],
-									"rounded" : 20.0,
-									"text" : "OSCeleton - DaVinci viewer",
-									"texton" : "Stop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"frgb" : 0.0,
-									"id" : "obj-66",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 238.0, 57.0, 402.0, 53.0 ],
-									"text" : "OSCeleton small terminal program that takes kinect skeleton data from the OpenNI framework and spits out the coordinates of the skeleton's joints via OSC messages (port 7110)"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-88",
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 137.0, 38.0, 21.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 756.0, 376.5, 79.0, 17.0 ],
-									"rounded" : 20.0,
-									"text" : "wiki",
-									"texton" : "Stop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"hidden" : 1,
-									"id" : "obj-89",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 131.5, 331.0, 29.0 ],
-									"text" : ";\rmax launchbrowser https://github.com/Sensebloom/OSCeleton"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial Bold",
-									"fontsize" : 14.0,
-									"frgb" : 0.0,
-									"id" : "obj-63",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 6.0, 309.0, 22.0 ],
-									"text" : "osceleton (OpenNI) has skeleton and depth"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-									"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 14.0,
-									"id" : "obj-31",
-									"maxclass" : "textbutton",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 7.0, 98.5, 127.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 103.0, 370.5, 79.0, 17.0 ],
-									"rounded" : 20.0,
-									"text" : "OSCeleton viewer",
-									"texton" : "Stop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-32",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 100.0, 80.0, 18.0 ],
-									"text" : "load OpenNI"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"hidden" : 1,
-									"id" : "obj-47",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 44.5, 30.0, 18.0 ],
-									"text" : "print"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"hidden" : 1,
-									"id" : "obj-45",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 7.0, 44.5, 31.0, 18.0 ],
-									"text" : "shell"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.0,
-									"hidden" : 1,
-									"id" : "obj-46",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 42.5, 313.0, 29.0 ],
-									"text" : "osascript /Applications/Max6/examples/IMIpatches/z/SSosceleton.scpt"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-61",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 98.5, 53.0, 20.0 ],
-									"text" : "pcontrol"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 72.0, 53.0, 20.0 ],
-									"text" : "pcontrol"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-4",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 71.0, 154.0, 18.0 ],
-									"text" : "load Kinect-Via-OSCeleton"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"angle" : 180.0,
-									"background" : 1,
-									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"id" : "obj-68",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 28.5, 305.0, 4.0 ],
-									"varname" : "autohelp_top_panel[4]"
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-32", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-31", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-61", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-32", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-47", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-45", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-45", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-46", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-89", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-88", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 474.0, 645.0, 82.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p osceleton"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -996,7 +608,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 482.5, 491.0, 22.0 ],
-					"text" : "kinect-A (OpenNI) has RGB, IR and depth, skeleton, hand, gestures, ..."
+					"text" : "kinect-A (OpenNI) has RGB, IR and depth, skeleton, hand and objects"
 				}
 
 			}
@@ -1577,7 +1189,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 80.0, 30.0 ],
+					"patching_rect" : [ 4.0, 2.0, 80.0, 30.0 ],
 					"text" : "Kinect",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -2074,11 +1686,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }

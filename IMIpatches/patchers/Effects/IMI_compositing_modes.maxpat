@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -209,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 293.5, 204.0, 22.0 ],
+					"patching_rect" : [ 195.0, 321.5, 204.0, 22.0 ],
 					"text" : "mgraphics with GL (multiple)"
 				}
 
@@ -229,7 +229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 294.200012, 154.0, 20.0 ],
+					"patching_rect" : [ 8.0, 322.200012, 154.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 290.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -248,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 292.0, 132.0, 16.0 ],
+					"patching_rect" : [ 10.0, 320.0, 132.0, 16.0 ],
 					"text" : "load mgraphics2GLmultiple"
 				}
 
@@ -315,8 +315,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 265.5, 204.0, 22.0 ],
-					"text" : "ideo as a mask (Gen)"
+					"patching_rect" : [ 194.0, 293.5, 204.0, 22.0 ],
+					"text" : "video as a mask (Gen)"
 				}
 
 			}
@@ -335,7 +335,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 266.299988, 115.0, 20.0 ],
+					"patching_rect" : [ 8.0, 294.299988, 115.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 285.0, 372.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -387,11 +387,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 238.399994, 142.0, 20.0 ],
+					"patching_rect" : [ 8.0, 238.399994, 134.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 88.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLvideo mask layers",
+					"text" : "GLslab mask layers",
 					"texton" : "Stop"
 				}
 
@@ -521,7 +521,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.0, 350.0, 313.0, 22.0 ],
-					"text" : "advanced compositing with apple imageunit (GL)"
+					"text" : "compositing with apple imageunit (GL - old)"
 				}
 
 			}
@@ -600,8 +600,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 321.5, 303.0, 22.0 ],
-					"text" : "transfer modes a la photoshop (GLslab : co...)"
+					"patching_rect" : [ 194.0, 265.399994, 303.0, 22.0 ],
+					"text" : "transfer modes a la photoshop (more GLslab)"
 				}
 
 			}
@@ -666,7 +666,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 322.100006, 97.0, 20.0 ],
+					"patching_rect" : [ 8.0, 266.0, 97.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -754,7 +754,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 324.0, 116.0, 17.0 ],
+					"patching_rect" : [ 8.0, 267.899994, 116.0, 17.0 ],
 					"text" : "load transfer_modes"
 				}
 
@@ -831,7 +831,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 265.0, 106.0, 16.0 ],
+					"patching_rect" : [ 8.0, 293.0, 106.0, 16.0 ],
 					"text" : "load Gen_alphablend"
 				}
 

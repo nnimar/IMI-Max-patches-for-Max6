@@ -40,7 +40,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 517.184326, 264.320618, 44.499969, 39.0 ],
-					"presentation_rect" : [ 502.184296, 259.476135, 0.0, 0.0 ],
 					"text" : "output"
 				}
 
@@ -1363,7 +1362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.184296, 31.0, 569.0, 21.0 ],
-					"text" : "receive. process (using jit and gl objects) and send images through Syphon",
+					"text" : "receive, process (using jit and gl objects) and send images through Syphon",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}
@@ -2045,7 +2044,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 164.0, 238.0 ],
+						"rect" : [ 623.0, 44.0, 164.0, 238.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

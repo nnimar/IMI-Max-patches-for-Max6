@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 689.0, 787.0 ],
@@ -27,6 +28,79 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"linecount" : 33,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 100.0, 150.0, 449.0 ],
+									"text" : "Full list of joints\n\nhead\nneck\ntorso\n\nr_collar #not working yet\n\nr_shoulder\nr_elbow\nr_wrist #not working yet\nr_hand\nr_finger #not working yet\n\nl_collar #not working yet\n\nl_shoulder\nl_elbow\nl_wrist #not working yet\nl_hand\nl_finger #not working yet\n\nr_hip\n\nr_knee\nr_ankle\nr_foot\n\nl_hip\n\nl_knee\nl_ankle\nl_foot\n"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 596.0, 172.0, 87.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p list_of_joints"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
@@ -1307,21 +1381,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 29.0, 86.0, 70.0, 20.0 ],
 					"text" : "udpreceive"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-3",
-					"linecount" : 33,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 532.0, 166.0, 150.0, 449.0 ],
-					"text" : "Full list of joints\n\nhead\nneck\ntorso\n\nr_collar #not working yet\n\nr_shoulder\nr_elbow\nr_wrist #not working yet\nr_hand\nr_finger #not working yet\n\nl_collar #not working yet\n\nl_shoulder\nl_elbow\nl_wrist #not working yet\nl_hand\nl_finger #not working yet\n\nr_hip\n\nr_knee\nr_ankle\nr_foot\n\nl_hip\n\nl_knee\nl_ankle\nl_foot\n"
 				}
 
 			}

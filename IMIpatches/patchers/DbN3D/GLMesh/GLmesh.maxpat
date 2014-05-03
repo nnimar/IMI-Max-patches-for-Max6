@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 437.0, 569.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,58 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-41",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 10.0, 389.0, 115.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.0, 394.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLmesh_catch~",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 389.0, 105.0, 16.0 ],
+					"text" : "load GLmesh_catch~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 193.0, 388.0, 146.0, 22.0 ],
+					"text" : "visualise sound"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -88,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 414.0, 109.0, 22.0 ],
+					"patching_rect" : [ 193.0, 442.0, 109.0, 22.0 ],
 					"text" : "mesh distorter"
 				}
 
@@ -107,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 414.0, 120.0, 20.0 ],
+					"patching_rect" : [ 10.0, 442.0, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 393.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -126,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 414.0, 103.0, 16.0 ],
+					"patching_rect" : [ 11.0, 442.0, 103.0, 16.0 ],
 					"text" : "load TextureDistorter"
 				}
 
@@ -144,7 +196,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -182,7 +234,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 542.0, 100.0, 22.0 ],
+					"patching_rect" : [ 12.0, 569.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -209,7 +261,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 466.0, 165.0, 22.0 ],
+					"patching_rect" : [ 193.0, 494.0, 165.0, 22.0 ],
 					"text" : "use javascript to draw"
 				}
 
@@ -228,7 +280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 467.0, 135.0, 20.0 ],
+					"patching_rect" : [ 10.0, 495.0, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.0, 548.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -247,7 +299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 468.0, 123.0, 16.0 ],
+					"patching_rect" : [ 12.0, 496.0, 123.0, 16.0 ],
 					"text" : "load GLmesh_procedural"
 				}
 
@@ -261,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 440.0, 164.0, 22.0 ],
+					"patching_rect" : [ 193.0, 469.0, 164.0, 22.0 ],
 					"text" : "catch to mesh, use mask"
 				}
 
@@ -280,7 +332,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 440.0, 102.0, 20.0 ],
+					"patching_rect" : [ 10.0, 469.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 501.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -299,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 441.0, 99.0, 16.0 ],
+					"patching_rect" : [ 12.0, 470.0, 99.0, 16.0 ],
 					"text" : "load GLmesh_mask"
 				}
 
@@ -526,7 +578,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 255.0, 543.0, 172.0, 20.0 ],
+					"patching_rect" : [ 257.0, 570.0, 172.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.0, 488.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -544,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 543.0, 108.0, 16.0 ],
+					"patching_rect" : [ 316.0, 570.0, 108.0, 16.0 ],
 					"text" : "load GLmesh_benson"
 				}
 
@@ -610,7 +662,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 245.0, 222.0, 22.0 ],
+					"patching_rect" : [ 193.0, 244.900986, 222.0, 22.0 ],
 					"text" : "practical example (masato tsutsui)"
 				}
 
@@ -629,7 +681,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 494.0, 171.0, 20.0 ],
+					"patching_rect" : [ 10.0, 521.0, 171.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 511.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -648,7 +700,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 495.0, 121.0, 16.0 ],
+					"patching_rect" : [ 12.0, 522.0, 121.0, 16.0 ],
 					"text" : "load cv2draw"
 				}
 
@@ -780,7 +832,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -852,7 +904,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 117.0, 542.0, 90.0, 22.0 ],
+					"patching_rect" : [ 119.0, 569.0, 90.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -922,11 +974,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 362.0, 72.0, 20.0 ],
+					"patching_rect" : [ 10.0, 362.0, 118.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "GLbuffer~",
+					"text" : "GLmesh_buffer~",
 					"texton" : "Stop"
 				}
 
@@ -945,7 +997,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 388.0, 102.0, 20.0 ],
+					"patching_rect" : [ 10.0, 416.0, 102.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.0, 341.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -964,7 +1016,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 390.0, 99.0, 16.0 ],
+					"patching_rect" : [ 12.0, 418.0, 99.0, 16.0 ],
 					"text" : "load GLmesh_video"
 				}
 
@@ -979,8 +1031,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 362.0, 77.0, 16.0 ],
-					"text" : "load GLbuffer~"
+					"patching_rect" : [ 10.0, 362.0, 108.0, 16.0 ],
+					"text" : "load GLmesh_buffer~"
 				}
 
 			}
@@ -1021,7 +1073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 388.0, 208.0, 22.0 ],
+					"patching_rect" : [ 193.0, 416.0, 208.0, 22.0 ],
 					"text" : "transform a video into a 3D grid"
 				}
 
@@ -1035,7 +1087,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 493.0, 171.0, 22.0 ],
+					"patching_rect" : [ 193.0, 520.0, 171.0, 22.0 ],
 					"text" : "drawing using a live feed"
 				}
 
@@ -1049,7 +1101,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 361.0, 146.0, 22.0 ],
+					"patching_rect" : [ 193.0, 362.0, 146.0, 22.0 ],
 					"text" : "visualise a waveform"
 				}
 
@@ -1094,7 +1146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 518.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 545.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -1326,6 +1378,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
