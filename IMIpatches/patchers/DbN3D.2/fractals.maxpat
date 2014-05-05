@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 1057.0, 454.0 ],
+		"rect" : [ 1.0, 44.0, 1057.0, 448.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -112,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 424.5, 52.0, 20.0 ],
+					"patching_rect" : [ 863.0, 424.5, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -122,7 +123,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -138,7 +139,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -170,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 145.0, 467.0, 21.0 ],
+					"patching_rect" : [ 584.0, 145.0, 467.0, 20.0 ],
 					"text" : "setattr basis basis noise.value.cubicspline, setattr basis level -0.1"
 				}
 
@@ -185,7 +186,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 61.0, 50.0, 23.0 ]
+					"patching_rect" : [ 565.0, 61.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -198,7 +199,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, 102.0, 464.0, 23.0 ],
+					"patching_rect" : [ 565.0, 102.0, 464.0, 22.0 ],
 					"text" : "sprintf setattr basis basis noise.value.cubicspline\\, setattr basis level %.2f"
 				}
 
@@ -223,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 566.0, 238.0, 85.0, 23.0 ],
+					"patching_rect" : [ 566.0, 238.0, 85.0, 22.0 ],
 					"text" : "jit.normalize"
 				}
 
@@ -238,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 566.0, 188.0, 194.0, 39.0 ],
+					"patching_rect" : [ 566.0, 188.0, 194.0, 38.0 ],
 					"text" : "jit.bfg 1 float32 256 256 @basis fractal.multi.ridged"
 				}
 
@@ -263,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 286.0, 238.0, 85.0, 23.0 ],
+					"patching_rect" : [ 286.0, 238.0, 85.0, 22.0 ],
 					"text" : "jit.normalize"
 				}
 
@@ -278,7 +279,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 286.0, 188.0, 177.0, 39.0 ],
+					"patching_rect" : [ 286.0, 188.0, 177.0, 38.0 ],
 					"text" : "jit.bfg 1 float32 256 256 @basis noise.voronoi"
 				}
 
@@ -303,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 238.0, 85.0, 23.0 ],
+					"patching_rect" : [ 12.0, 238.0, 85.0, 22.0 ],
 					"text" : "jit.normalize"
 				}
 
@@ -318,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 188.0, 186.0, 39.0 ],
+					"patching_rect" : [ 12.0, 188.0, 186.0, 38.0 ],
 					"text" : "jit.bfg 1 float32 256 256 @basis distance euclidean"
 				}
 
@@ -332,7 +333,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 140.0, 58.0, 23.0 ],
+					"patching_rect" : [ 12.0, 140.0, 58.0, 22.0 ],
 					"text" : "metro 2"
 				}
 
@@ -356,7 +357,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

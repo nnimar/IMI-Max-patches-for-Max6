@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -222,7 +222,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -987,7 +987,7 @@
 					"destination" : [ "obj-74", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 211.0, 18.5, 211.0 ],
+					"midpoints" : [ 139.5, 210.0, 18.5, 210.0 ],
 					"source" : [ "obj-53", 0 ]
 				}
 

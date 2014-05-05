@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 426.0, 317.0, 142.0, 24.0 ],
-					"presentation_rect" : [ 430.0, 317.0, 0.0, 0.0 ],
 					"text" : "short for  jit.op @op +"
 				}
 
@@ -71,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -122,7 +121,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -478,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 4.0, 325.0, 30.0 ],
-					"text" : "jit.op @op and jit.+ / jit.*",
+					"text" : "jit.op @op and jit.+",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -495,7 +494,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 347.0, 233.0, 72.0, 20.0 ]
+					"patching_rect" : [ 320.0, 245.0, 72.0, 20.0 ]
 				}
 
 			}
@@ -508,7 +507,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 263.0, 75.0, 20.0 ],
+					"patching_rect" : [ 347.0, 272.0, 75.0, 20.0 ],
 					"text" : "prepend op"
 				}
 
@@ -669,7 +668,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 383.0, 259.0, 356.5, 259.0 ],
+					"midpoints" : [ 356.0, 265.5, 356.5, 265.5 ],
 					"source" : [ "obj-1", 1 ]
 				}
 

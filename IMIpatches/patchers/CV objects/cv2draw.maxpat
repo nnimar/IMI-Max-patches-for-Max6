@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 628.0, 44.0, 416.0, 309.0 ],
+		"rect" : [ 628.0, 44.0, 415.0, 291.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 230.0, 175.0, 22.0 ],
+					"patching_rect" : [ 167.0, 229.0, 175.0, 22.0 ],
 					"text" : "use the edges of an image"
 				}
 
@@ -122,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 230.0, 94.0, 22.0 ],
+					"patching_rect" : [ 11.0, 229.0, 94.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 249.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -141,7 +141,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 234.0, 109.0, 17.0 ],
+					"patching_rect" : [ 10.0, 233.0, 109.0, 17.0 ],
 					"text" : "load inky_particle"
 				}
 
@@ -274,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.0, 263.0, 203.0, 22.0 ],
+					"patching_rect" : [ 167.0, 257.0, 203.0, 22.0 ],
 					"text" : "use the light to paint the screen"
 				}
 
@@ -353,7 +353,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 263.0, 71.0, 22.0 ],
+					"patching_rect" : [ 10.0, 257.0, 71.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 450.0, 513.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -372,7 +372,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 263.0, 72.0, 16.0 ],
+					"patching_rect" : [ 10.0, 257.0, 72.0, 16.0 ],
 					"text" : "load lightpaint"
 				}
 
@@ -387,7 +387,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.0, 263.0, 46.0, 18.0 ],
+					"patching_rect" : [ 78.0, 257.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -508,7 +508,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 233.0, 46.0, 18.0 ],
+					"patching_rect" : [ 10.0, 232.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -524,7 +524,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 211.0, 403.0, 4.0 ],
+					"patching_rect" : [ 6.0, 210.0, 403.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

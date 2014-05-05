@@ -1292,7 +1292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 27.5, 197.0, 78.0, 33.0 ],
+					"patching_rect" : [ 27.5, 192.0, 78.0, 33.0 ],
 					"text" : "jit.gl.handle @radius 5"
 				}
 

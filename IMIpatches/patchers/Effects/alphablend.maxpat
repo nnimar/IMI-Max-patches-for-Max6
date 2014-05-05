@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 300.0, 443.0, 156.0, 24.0 ],
-					"text" : "foregtound / background"
+					"text" : "foreground / background"
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.0, 337.0, 107.0, 24.0 ],
+					"patching_rect" : [ 281.0, 334.0, 107.0, 24.0 ],
 					"text" : "blend the mask"
 				}
 
@@ -233,7 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 156.0, 339.0, 123.0, 20.0 ],
+					"patching_rect" : [ 156.0, 336.0, 123.0, 20.0 ],
 					"text" : "jit.op @op * @val 1."
 				}
 
@@ -326,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 156.0, 309.0, 150.0, 20.0 ],
+					"patching_rect" : [ 156.0, 306.0, 150.0, 20.0 ],
 					"text" : "jit.matrix 1 char 320 240"
 				}
 

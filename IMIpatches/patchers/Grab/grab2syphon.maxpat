@@ -75,8 +75,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.0, 237.0, 122.0, 16.0 ],
-					"text" : "load Syphon_auto_levels"
+					"patching_rect" : [ 103.0, 237.0, 101.0, 16.0 ],
+					"text" : "load Syphon_client+"
 				}
 
 			}

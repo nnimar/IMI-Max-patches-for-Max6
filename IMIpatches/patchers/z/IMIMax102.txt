@@ -27,11 +27,10 @@
 
 31, <category> 4 Grab;
 32, IMI_videograb "simple video grab";
-33, IMI_videograb_(4cam) "video grab for 2 to 4 cameras";
-34, IMI_timelapse "timelapse";
-35, grab2syphon "use webcam, netcam and dslr";
-36, grab_position "return the position of a light";
-37, grab_hotspot "return the position of movements";
+33, IMI_timelapse "timelapse";
+34, grab2syphon "use webcam, netcam and dslr";
+35, grab_position "return the position of a light";
+36, grab_hotspot "return the position of movements";
 40, -----------------------;
 
 41, <category> 5 Computer_Vision;
