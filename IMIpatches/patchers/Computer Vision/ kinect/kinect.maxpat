@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 558.0, 675.0 ],
+		"rect" : [ 1.0, 44.0, 558.0, 702.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,59 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-32",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 163.0, 673.0, 126.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 415.0, 126.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "openNI_GLmodel",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 163.0, 673.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 163.0, 673.0, 127.0, 17.0 ],
+					"text" : "load openNI2GLmodel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
@@ -94,7 +147,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 294.0, 644.0, 126.0, 21.0 ],
+					"patching_rect" : [ 144.0, 644.0, 126.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 610.0, 663.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -113,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.0, 644.0, 53.0, 20.0 ],
+					"patching_rect" : [ 144.0, 641.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -128,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 294.0, 644.0, 131.0, 17.0 ],
+					"patching_rect" : [ 144.0, 641.0, 131.0, 17.0 ],
 					"text" : "load openNI_SkelMesh"
 				}
 
@@ -147,7 +200,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 644.0, 149.0, 21.0 ],
+					"patching_rect" : [ 6.0, 673.0, 149.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 203.0, 461.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -166,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 645.0, 53.0, 20.0 ],
+					"patching_rect" : [ 36.0, 674.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -181,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 137.0, 644.0, 146.0, 17.0 ],
+					"patching_rect" : [ 3.0, 673.0, 146.0, 17.0 ],
 					"text" : "load openNI_GLgridshape"
 				}
 
@@ -1516,6 +1569,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1538,6 +1600,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -390,7 +390,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 165.5, 18.0, 20.0 ],
+					"patching_rect" : [ 19.0, 165.5, 18.0, 20.0 ],
 					"text" : "0"
 				}
 
@@ -1221,10 +1221,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-27" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-34" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-19" : [ "live.gain~[3]", "live.gain~", 0 ]
+			"obj-7" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-19" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-27" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

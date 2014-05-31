@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -62,7 +62,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 49.0, 39.0, 107.0, 20.0 ],
+					"patching_rect" : [ 58.0, 55.0, 107.0, 20.0 ],
 					"text" : "location as xy pair"
 				}
 
@@ -76,7 +76,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 47.0, 60.0, 41.0, 18.0 ],
+					"patching_rect" : [ 56.0, 76.0, 41.0, 18.0 ],
 					"text" : "10 10"
 				}
 
@@ -90,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 60.0, 47.0, 18.0 ],
+					"patching_rect" : [ 114.0, 76.0, 47.0, 18.0 ],
 					"text" : "29 250"
 				}
 

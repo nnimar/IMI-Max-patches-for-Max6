@@ -39,7 +39,7 @@
 44, background_removal "background removal";
 45, v.regions "softVNS v.region object";
 46, faceOSC "an interface to faceOSC";
-47, openTSPS "an interface to TSPS";
+47, TSPSosc "an interface to TSPS";
 50, -----------------------;
 
 51, <category> 6 CV_Objects;

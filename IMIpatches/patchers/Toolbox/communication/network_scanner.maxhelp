@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -41,11 +41,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 958.0, 147.0, 640.0, 480.0 ],
+						"rect" : [ 710.0, 100.0, 548.0, 369.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 136.0, 265.5, 36.0, 20.0 ],
+									"patching_rect" : [ 98.0, 262.5, 36.0, 20.0 ],
 									"text" : "sel 1"
 								}
 
@@ -87,7 +87,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 136.0, 243.5, 298.0, 20.0 ],
+									"patching_rect" : [ 98.0, 232.5, 298.0, 20.0 ],
 									"text" : "if ($i1==127) && ($i2 == 0) && ($i3 == 0) then 0 else 1"
 								}
 
@@ -101,7 +101,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 153.0, 290.5, 76.0, 18.0 ],
+									"patching_rect" : [ 98.0, 311.5, 76.0, 18.0 ],
 									"text" : "127.0.0.1"
 								}
 
@@ -115,7 +115,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 136.0, 215.5, 89.0, 20.0 ],
+									"patching_rect" : [ 98.0, 192.5, 437.0, 20.0 ],
 									"text" : "unpack 0 0 0 0"
 								}
 
@@ -129,7 +129,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 50.0, 164.5, 185.0, 20.0 ],
+									"patching_rect" : [ 12.0, 130.5, 185.0, 20.0 ],
 									"text" : "regexp ((?:\\\\d{1\\,3}\\\\.){3}\\\\d{1\\,3})"
 								}
 
@@ -143,7 +143,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 135.5, 81.0, 20.0 ],
+									"patching_rect" : [ 12.0, 86.5, 81.0, 20.0 ],
 									"text" : "route append"
 								}
 
@@ -157,7 +157,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 92.0, 190.5, 194.0, 20.0 ],
+									"patching_rect" : [ 54.0, 160.5, 194.0, 20.0 ],
 									"text" : "regexp (\\\\d+)\\\\.(\\\\d+)\\\\.(\\\\d+)\\\\.(\\\\d+)"
 								}
 
@@ -171,7 +171,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 131.0, 136.5, 81.0, 20.0 ],
+									"patching_rect" : [ 98.0, 86.5, 81.0, 20.0 ],
 									"text" : "route append"
 								}
 
@@ -185,7 +185,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 111.5, 77.0, 20.0 ],
+									"patching_rect" : [ 12.0, 47.5, 105.0, 20.0 ],
 									"text" : "mxj net.local"
 								}
 
@@ -198,7 +198,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 12.0, 10.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -209,7 +209,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.0, 368.5, 25.0, 25.0 ]
+									"patching_rect" : [ 98.0, 338.5, 25.0, 25.0 ]
 								}
 
 							}
@@ -219,7 +219,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 140.5, 160.5, 219.0, 160.5, 219.0, 106.5, 59.5, 106.5 ],
+									"midpoints" : [ 107.5, 117.5, 185.0, 117.5, 185.0, 40.5, 21.5, 40.5 ],
 									"source" : [ "obj-10", 0 ]
 								}
 
@@ -247,7 +247,7 @@
 									"destination" : [ "obj-56", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 192.166672, 238.5, 424.5, 238.5 ],
+									"midpoints" : [ 386.166656, 211.5, 386.5, 211.5 ],
 									"source" : [ "obj-40", 2 ]
 								}
 
@@ -257,7 +257,7 @@
 									"destination" : [ "obj-56", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 168.833328, 238.5, 285.0, 238.5 ],
+									"midpoints" : [ 246.833328, 211.5, 247.0, 211.5 ],
 									"source" : [ "obj-40", 1 ]
 								}
 
@@ -285,7 +285,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 117.5, 133.5, 127.0, 133.5, 127.0, 130.5, 140.5, 130.5 ],
+									"midpoints" : [ 107.5, 74.5, 107.5, 74.5 ],
 									"source" : [ "obj-7", 1 ]
 								}
 
@@ -304,7 +304,7 @@
 									"destination" : [ "obj-80", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 145.5, 286.5, 162.5, 286.5 ],
+									"midpoints" : [ 107.5, 290.5, 107.5, 290.5 ],
 									"source" : [ "obj-79", 0 ]
 								}
 
@@ -332,7 +332,7 @@
 									"destination" : [ "obj-80", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 101.0, 184.5, 88.0, 184.5, 88.0, 288.5, 219.5, 288.5 ],
+									"midpoints" : [ 63.0, 154.5, 50.0, 154.5, 50.0, 301.5, 164.5, 301.5 ],
 									"source" : [ "obj-81", 1 ]
 								}
 
@@ -519,7 +519,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 307.0, 508.0, 94.0, 20.0 ],
-					"text" : "192.168.0.4"
+					"text" : "192.168.0.2"
 				}
 
 			}
@@ -676,7 +676,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 133.0, 122.0, 20.0 ],
-					"text" : "192.168.0.4"
+					"text" : "192.168.0.2"
 				}
 
 			}
@@ -754,7 +754,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-6",
-					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%6", ",", "192.168.0.4" ],
+					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -826,7 +826,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1378,7 +1378,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-30",
-					"items" : [ "192.168.0.4", ",", "192.168.0.5" ],
+					"items" : "192.168.0.2",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1397,7 +1397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 8.0, 199.0, 122.0, 27.0 ],
+					"patching_rect" : [ 8.0, 198.0, 57.0, 27.0 ],
 					"text" : "shell"
 				}
 
@@ -1407,7 +1407,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "vnic1", ",", "vnic0", ",", "en1", ",", "lo0" ],
+					"items" : [ "en1", ",", "lo0" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
