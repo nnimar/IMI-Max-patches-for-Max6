@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -452,7 +452,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1055,7 +1055,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1600,11 +1600,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 516.0, 387.0, 323.0, 282.0 ],
+						"rect" : [ 516.0, 387.0, 342.0, 283.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1637,7 +1637,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1809,7 +1809,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 218.0, 118.0, 89.0, 20.0 ],
+									"patching_rect" : [ 244.0, 130.0, 89.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -1834,7 +1834,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 218.0, 149.0, 20.0, 20.0 ]
+									"patching_rect" : [ 244.0, 161.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1847,7 +1847,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "reset", "erase" ],
-									"patching_rect" : [ 193.0, 178.0, 77.0, 20.0 ],
+									"patching_rect" : [ 219.0, 190.0, 77.0, 20.0 ],
 									"text" : "t reset erase"
 								}
 
@@ -1861,7 +1861,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "float" ],
-									"patching_rect" : [ 29.0, 148.0, 60.0, 20.0 ],
+									"patching_rect" : [ 29.0, 160.0, 60.0, 20.0 ],
 									"text" : "t b f"
 								}
 
@@ -1875,7 +1875,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 178.0, 141.0, 20.0 ],
+									"patching_rect" : [ 29.0, 190.0, 141.0, 20.0 ],
 									"text" : "pack screentoworld f f 0."
 								}
 
@@ -1889,7 +1889,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "", "bang" ],
-									"patching_rect" : [ 14.0, 47.0, 48.0, 20.0 ],
+									"patching_rect" : [ 14.0, 47.0, 224.0, 20.0 ],
 									"text" : "t b l b"
 								}
 
@@ -1903,7 +1903,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "float", "float", "float" ],
-									"patching_rect" : [ 29.0, 118.0, 140.0, 20.0 ],
+									"patching_rect" : [ 29.0, 130.0, 181.666672, 20.0 ],
 									"text" : "unpack f f f"
 								}
 
@@ -1917,7 +1917,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 29.0, 80.0, 43.0, 20.0 ],
+									"patching_rect" : [ 29.0, 92.0, 43.0, 20.0 ],
 									"text" : "jit.iter"
 								}
 
@@ -1952,7 +1952,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 193.0, 248.0, 25.0, 25.0 ]
+									"patching_rect" : [ 219.0, 248.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1962,7 +1962,7 @@
 									"destination" : [ "obj-17", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 38.5, 108.0, 227.5, 108.0 ],
+									"midpoints" : [ 38.5, 120.0, 253.5, 120.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -2008,6 +2008,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 126.0, 79.0, 38.5, 79.0 ],
 									"source" : [ "obj-4", 1 ]
 								}
 
@@ -2026,7 +2027,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 52.5, 71.5, 202.5, 71.5 ],
+									"midpoints" : [ 228.5, 122.0, 228.5, 122.0 ],
 									"source" : [ "obj-4", 2 ]
 								}
 
@@ -2073,7 +2074,7 @@
 									"destination" : [ "obj-45", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 260.5, 227.5, 23.5, 227.5 ],
+									"midpoints" : [ 286.5, 227.5, 23.5, 227.5 ],
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -2150,7 +2151,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,

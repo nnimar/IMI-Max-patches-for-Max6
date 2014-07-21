@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -103,14 +103,14 @@
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 14.0,
 					"id" : "obj-49",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 301.0, 201.0, 76.0, 20.0 ],
+					"patching_rect" : [ 301.0, 201.0, 94.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
 					"rounded" : 20.0,

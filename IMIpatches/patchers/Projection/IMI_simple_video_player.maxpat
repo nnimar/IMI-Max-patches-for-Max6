@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 110.848022, 356.0, 159.0, 20.0 ],
+					"patching_rect" : [ 105.348022, 356.0, 164.0, 20.0 ],
 					"rounded" : 20.0,
 					"text" : "IMI_compositing_modes",
 					"texton" : "Stop"

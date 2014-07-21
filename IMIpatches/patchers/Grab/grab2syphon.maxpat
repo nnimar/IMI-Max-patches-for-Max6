@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 103.0, 237.0, 106.0, 21.0 ],
+					"patching_rect" : [ 103.0, 236.0, 106.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 23.0, 261.028656, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 237.0, 46.0, 18.0 ],
+					"patching_rect" : [ 103.0, 236.0, 46.0, 18.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 237.0, 101.0, 16.0 ],
+					"patching_rect" : [ 103.0, 236.0, 101.0, 16.0 ],
 					"text" : "load Syphon_client+"
 				}
 
@@ -255,7 +255,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 216.0, 237.0, 98.0, 20.0 ],
+					"patching_rect" : [ 216.0, 236.0, 98.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -274,7 +274,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 241.0, 108.0, 16.0 ],
+					"patching_rect" : [ 216.0, 240.0, 108.0, 16.0 ],
 					"text" : "help jit.gl.syphonclient"
 				}
 
@@ -289,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 240.0, 52.0, 19.0 ],
+					"patching_rect" : [ 216.0, 239.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -341,7 +341,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 322.0, 237.0, 118.0, 20.0 ],
+					"patching_rect" : [ 322.0, 236.0, 118.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -429,7 +429,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 224.5, 147.0, 33.0 ],
+					"patching_rect" : [ 294.0, 223.5, 147.0, 33.0 ],
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 

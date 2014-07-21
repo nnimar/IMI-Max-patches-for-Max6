@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 227.0, 80.0, 35.0 ]
+					"patching_rect" : [ 5.0, 227.0, 67.0, 35.0 ]
 				}
 
 			}
@@ -973,7 +973,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 41.0, 383.5, 87.625, 18.0 ],
-									"text" : "color 0. 0. 0. 0."
+									"text" : "color 0. 0. 0. 1."
 								}
 
 							}

@@ -3,7 +3,7 @@
 3, GLsmooth_slab "optimised GL video player";
 4, GLslab_video_mask "mask over a video";
 5, GLcamera_render "using GLrender and GLcamera";
-5, GLcornerpin+ "keystone for GL objects";
+5, GLCorner_edgeblend "keystone for GL objects";
 10, -----------------------;
 11, <category> 2 Exhibition;
 12, IMI_GLsyphon "examples using Syphon";

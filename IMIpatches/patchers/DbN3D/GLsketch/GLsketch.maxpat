@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 438.0, 401.0 ],
+		"rect" : [ 0.0, 44.0, 437.0, 425.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,61 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 215.0, 112.5, 184.0, 22.0 ],
+					"presentation_rect" : [ 213.5, 117.5, 0.0, 0.0 ],
+					"text" : "move a group of GL objects"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-13",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 11.0, 112.5, 134.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 60.0, 116.5, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "GLsketch_translate",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 402.0, 136.0, 17.0 ],
+					"presentation_rect" : [ 113.0, 431.0, 0.0, 0.0 ],
+					"text" : "load GLsketch_translate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"hidden" : 1,
 					"id" : "obj-41",
@@ -37,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 377.0, 109.0, 17.0 ],
+					"patching_rect" : [ 11.0, 403.0, 109.0, 17.0 ],
 					"text" : "load GLsketch_join"
 				}
 
@@ -56,7 +111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 138.5, 99.0, 21.0 ],
+					"patching_rect" : [ 10.0, 164.5, 99.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 136.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 138.5, 184.0, 22.0 ],
+					"patching_rect" : [ 214.0, 164.5, 184.0, 22.0 ],
 					"text" : "use join and group to draw"
 				}
 
@@ -93,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 323.0, 115.0, 21.0 ],
+					"patching_rect" : [ 7.0, 349.0, 115.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 426.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -111,7 +166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 319.5, 184.0, 22.0 ],
+					"patching_rect" : [ 214.0, 345.5, 184.0, 22.0 ],
 					"text" : "a practical example"
 				}
 
@@ -126,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 377.0, 127.0, 17.0 ],
+					"patching_rect" : [ 10.0, 403.0, 127.0, 17.0 ],
 					"text" : "load texture2GLsketch"
 				}
 
@@ -145,7 +200,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 273.5, 116.0, 21.0 ],
+					"patching_rect" : [ 10.0, 299.5, 116.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.0, 268.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 376.0, 123.0, 17.0 ],
+					"patching_rect" : [ 8.0, 402.0, 123.0, 17.0 ],
 					"text" : "load GLsketchpad_alt"
 				}
 
@@ -182,7 +237,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -220,7 +275,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 372.0, 100.0, 22.0 ],
+					"patching_rect" : [ 8.0, 398.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -248,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 376.0, 137.0, 17.0 ],
+					"patching_rect" : [ 8.0, 402.0, 137.0, 17.0 ],
 					"text" : "load GLsketch_capture+"
 				}
 
@@ -263,7 +318,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 376.0, 119.0, 17.0 ],
+					"patching_rect" : [ 8.0, 402.0, 119.0, 17.0 ],
 					"text" : "load GLsketch_noise"
 				}
 
@@ -282,7 +337,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 164.5, 112.0, 21.0 ],
+					"patching_rect" : [ 10.0, 190.5, 112.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 277.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -300,7 +355,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 164.5, 183.0, 22.0 ],
+					"patching_rect" : [ 214.0, 190.5, 183.0, 22.0 ],
 					"text" : "noise to position example"
 				}
 
@@ -314,7 +369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 209.5, 136.0, 22.0 ],
+					"patching_rect" : [ 214.0, 235.5, 136.0, 22.0 ],
 					"text" : "GLsketch stroke line"
 				}
 
@@ -329,7 +384,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 377.0, 136.0, 17.0 ],
+					"patching_rect" : [ 8.0, 403.0, 136.0, 17.0 ],
 					"text" : "load GLsketch_twineball"
 				}
 
@@ -348,7 +403,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 209.5, 120.0, 21.0 ],
+					"patching_rect" : [ 10.0, 235.5, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 145.0, 355.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -367,7 +422,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 377.0, 104.0, 17.0 ],
+					"patching_rect" : [ 8.0, 403.0, 104.0, 17.0 ],
 					"text" : "load GLsketchpad"
 				}
 
@@ -386,7 +441,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 246.5, 94.0, 21.0 ],
+					"patching_rect" : [ 10.0, 272.5, 94.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 52.0, 242.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -405,7 +460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 253.5, 137.0, 38.0 ],
+					"patching_rect" : [ 214.0, 279.5, 137.0, 38.0 ],
 					"text" : "GLsketch command environment"
 				}
 
@@ -420,7 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 376.0, 130.0, 17.0 ],
+					"patching_rect" : [ 8.0, 402.0, 130.0, 17.0 ],
 					"text" : "load GLsketch_capture"
 				}
 
@@ -439,7 +494,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 112.5, 137.0, 21.0 ],
+					"patching_rect" : [ 10.0, 138.5, 137.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 121.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -481,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 378.0, 141.0, 17.0 ],
+					"patching_rect" : [ 8.0, 404.0, 141.0, 17.0 ],
 					"text" : "load GLsketch_assemble"
 				}
 
@@ -496,7 +551,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 378.0, 144.0, 17.0 ],
+					"patching_rect" : [ 8.0, 404.0, 144.0, 17.0 ],
 					"text" : "load GLSketch_command"
 				}
 
@@ -510,7 +565,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.5, 112.5, 184.0, 22.0 ],
+					"patching_rect" : [ 213.5, 138.5, 184.0, 22.0 ],
 					"text" : "assemble GLgridshapes"
 				}
 
@@ -524,7 +579,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 373.0, 130.0, 22.0 ],
+					"patching_rect" : [ 214.0, 399.0, 130.0, 22.0 ],
 					"text" : "OpenGL primitives"
 				}
 
@@ -606,7 +661,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 378.0, 119.0, 17.0 ],
+					"patching_rect" : [ 8.0, 404.0, 119.0, 17.0 ],
 					"text" : "load GLSketch_turtle"
 				}
 
@@ -621,7 +676,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 349.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 375.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -653,7 +708,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 323.0, 119.0, 17.0 ],
+					"patching_rect" : [ 7.0, 349.0, 119.0, 17.0 ],
 					"text" : "load noise2GLsketch"
 				}
 
@@ -669,7 +724,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 307.0, 428.0, 4.0 ],
+					"patching_rect" : [ 1.0, 333.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 
@@ -685,7 +740,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 196.0, 428.0, 4.0 ],
+					"patching_rect" : [ 1.0, 222.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[2]"
 				}
 
@@ -713,6 +768,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}

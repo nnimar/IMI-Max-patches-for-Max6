@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.333374, 216.0, 59.0, 34.0 ]
+					"patching_rect" : [ 13.333374, 215.0, 68.0, 34.0 ]
 				}
 
 			}
@@ -60,7 +60,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 163.0, 45.0, 20.0 ],
+					"patching_rect" : [ 37.5, 161.0, 45.0, 20.0 ],
 					"text" : "s bang"
 				}
 
@@ -708,8 +708,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 219.0, 30.0 ],
-					"text" : "GLslab+ (uyvy gpu)",
+					"patching_rect" : [ 2.0, 3.0, 370.0, 30.0 ],
+					"text" : "GLslab webcam + video",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -1048,7 +1048,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 13.0, 123.0, 82.0, 20.0 ],
+					"patching_rect" : [ 13.0, 123.0, 68.0, 20.0 ],
 					"text" : "t b b erase"
 				}
 
@@ -1077,7 +1077,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 13.0, 190.0, 68.0, 20.0 ],
+					"patching_rect" : [ 13.0, 187.0, 68.0, 20.0 ],
 					"text" : "jit.gl.render"
 				}
 
@@ -1279,7 +1279,7 @@
 					"destination" : [ "obj-101", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 85.5, 152.0, 22.5, 152.0 ],
+					"midpoints" : [ 71.5, 152.0, 22.5, 152.0 ],
 					"source" : [ "obj-36", 2 ]
 				}
 

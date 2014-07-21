@@ -309,8 +309,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 293.0, 102.0, 33.0 ],
-					"text" : "jit.window video @fsmenubar 0"
+					"patching_rect" : [ 6.0, 295.0, 99.0, 33.0 ],
+					"text" : "jit.window NIgrid @fsmenubar 0"
 				}
 
 			}
@@ -1294,6 +1294,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 214.699997, 151.0, 147.5, 151.0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 

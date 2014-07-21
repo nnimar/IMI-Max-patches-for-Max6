@@ -38,7 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 57.5, 189.0, 37.0 ],
+					"patching_rect" : [ 115.0, 57.5, 191.0, 37.0 ],
 					"text" : "launch TSPS and receive data on port 12000 (default)"
 				}
 
@@ -190,7 +190,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1020.0, 44.0, 259.0, 112.0 ],
+						"rect" : [ 916.0, 44.0, 259.0, 112.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,

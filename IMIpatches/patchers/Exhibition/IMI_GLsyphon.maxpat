@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 514.0, 270.0 ],
+		"rect" : [ 1.0, 44.0, 515.0, 243.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -42,7 +42,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 149.175156, 119.0, 20.374847 ],
+					"patching_rect" : [ 8.0, 91.175156, 119.0, 20.374847 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 118.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -61,7 +61,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 143.5, 106.0, 16.0 ],
+					"patching_rect" : [ 8.0, 90.5, 106.0, 16.0 ],
 					"text" : "load GLnode2syphon"
 				}
 
@@ -75,7 +75,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 147.550003, 178.0, 22.0 ],
+					"patching_rect" : [ 187.0, 89.550003, 178.0, 22.0 ],
 					"text" : "GLvideoplane to syphon"
 				}
 
@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.0, 246.0, 118.0, 20.0 ],
+					"patching_rect" : [ 389.0, 219.0, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 851.0, 403.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -113,7 +113,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 358.0, 232.5, 147.0, 33.0 ],
+					"patching_rect" : [ 358.0, 205.5, 147.0, 33.0 ],
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 
@@ -127,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 177.050003, 224.0, 22.0 ],
+					"patching_rect" : [ 187.0, 119.050003, 207.0, 22.0 ],
 					"text" : "GLvideoplane to triplehead2go"
 				}
 
@@ -200,7 +200,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 208.028656, 90.0, 21.371338 ],
+					"patching_rect" : [ 8.0, 181.128662, 90.0, 21.371338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 178.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -219,7 +219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 200.5, 90.0, 16.0 ],
+					"patching_rect" : [ 8.0, 181.600006, 90.0, 16.0 ],
 					"text" : "load grab2syphon"
 				}
 
@@ -239,7 +239,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 178.066879, 148.0, 21.0 ],
+					"patching_rect" : [ 8.0, 121.066879, 148.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -258,32 +258,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 172.5, 150.0, 16.0 ],
+					"patching_rect" : [ 8.0, 120.5, 150.0, 16.0 ],
 					"text" : "load IMI_triplehead2go_syphon"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"align" : 0,
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-10",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 89.5, 119.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "GLsyphon_demo",
-					"texton" : "Stop"
 				}
 
 			}
@@ -302,27 +278,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 118.391724, 144.0, 21.0 ],
+					"patching_rect" : [ 8.0, 151.128662, 144.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 206.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
 					"text" : "GLgridshape2syphon",
 					"texton" : "Stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"hidden" : 1,
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 87.5, 109.0, 16.0 ],
-					"text" : "load GLsyphon_demo"
 				}
 
 			}
@@ -335,7 +296,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 207.399994, 178.0, 22.0 ],
+					"patching_rect" : [ 187.0, 179.5, 178.0, 22.0 ],
 					"text" : "video grab using syphon"
 				}
 
@@ -361,26 +322,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 89.5, 253.0, 22.0 ],
-					"text" : "GLgridshape > GLsyphon (old method)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 187.0, 117.850006, 292.0, 22.0 ],
-					"text" : "GLnode to capture a gridshape (new method)"
+					"patching_rect" : [ 187.0, 149.586945, 207.0, 22.0 ],
+					"text" : "GLnode to capture a gridshape"
 				}
 
 			}
@@ -426,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 119.5, 127.0, 16.0 ],
+					"patching_rect" : [ 8.0, 151.236938, 127.0, 16.0 ],
 					"text" : "load GLgridshape2syphon"
 				}
 
@@ -453,15 +400,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -534,15 +472,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

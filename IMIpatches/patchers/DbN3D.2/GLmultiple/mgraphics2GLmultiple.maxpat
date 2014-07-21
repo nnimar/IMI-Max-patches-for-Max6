@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 590.0, 546.0 ],
+		"rect" : [ 1.0, 44.0, 590.0, 514.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1170,12 +1170,12 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-14",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 143.0, 472.5, 133.0, 69.0 ],
+					"patching_rect" : [ 143.0, 472.5, 238.0, 38.0 ],
 					"text" : "jit.gl.videoplane @blend_enable 1 @blend screen @depth_enable 0"
 				}
 

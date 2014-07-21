@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.0, 368.0, 83.0, 20.0 ],
-					"presentation_rect" : [ 126.0, 366.0, 0.0, 0.0 ],
 					"text" : "max reached"
 				}
 

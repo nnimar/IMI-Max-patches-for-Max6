@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -99,11 +99,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 475.0, 439.0, 175.0, 20.0 ],
+					"patching_rect" : [ 477.0, 437.0, 152.568298, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 254.0, 309.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "open ConfigurableFirmata",
+					"text" : "open StandardFirmata",
 					"texton" : "Stop"
 				}
 
@@ -118,8 +118,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.0, 439.0, 139.0, 18.0 ],
-					"text" : "ConfigurableFirmata.ino"
+					"patching_rect" : [ 477.0, 439.0, 119.0, 18.0 ],
+					"text" : "StandardFirmata.ino"
 				}
 
 			}
@@ -151,7 +151,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -188,7 +188,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -615,7 +615,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1283,7 +1283,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1570,7 +1570,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2333,7 +2333,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2370,7 +2370,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -2407,7 +2407,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -2603,7 +2603,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -3691,7 +3691,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -3727,7 +3727,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -4080,7 +4080,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -4117,7 +4117,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -4313,7 +4313,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -4386,7 +4386,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -5426,7 +5426,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -5650,7 +5650,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -5969,7 +5969,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -6230,7 +6230,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -6487,7 +6487,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-65",
-					"items" : [ "select...", ",", "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem", ",", "usbmodem1421" ],
+					"items" : [ "select...", ",", "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6608,7 +6608,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -7234,7 +7234,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -7574,7 +7574,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -8607,7 +8607,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -8658,7 +8658,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -9448,7 +9448,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -9691,7 +9691,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -10356,62 +10356,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-125::obj-667::obj-126" : [ "pwm[45]", "pwm", 0 ],
-			"obj-1::obj-125::obj-8::obj-126" : [ "pwm[54]", "pwm", 0 ],
-			"obj-1::obj-125::obj-654::obj-126" : [ "pwm[40]", "pwm", 0 ],
-			"obj-1::obj-125::obj-687::obj-126" : [ "pwm[35]", "pwm", 0 ],
-			"obj-1::obj-125::obj-674::obj-126" : [ "pwm[30]", "pwm", 0 ],
-			"obj-1::obj-125::obj-707::obj-126" : [ "pwm[25]", "pwm", 0 ],
-			"obj-1::obj-125::obj-694::obj-126" : [ "pwm[20]", "pwm", 0 ],
-			"obj-1::obj-125::obj-727::obj-126" : [ "pwm[15]", "pwm", 0 ],
-			"obj-117::obj-147" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-55::obj-15" : [ "analog[1]", "analog", 0 ],
-			"obj-1::obj-125::obj-714::obj-126" : [ "pwm[11]", "pwm", 0 ],
-			"obj-1::obj-125::obj-768::obj-126" : [ "pwm[6]", "pwm", 0 ],
-			"obj-1::obj-125::obj-34::obj-126" : [ "pwm[68]", "pwm", 0 ],
-			"obj-1::obj-125::obj-504::obj-126" : [ "pwm[2]", "pwm", 0 ],
-			"obj-1::obj-125::obj-28::obj-126" : [ "pwm[63]", "pwm", 0 ],
-			"obj-1::obj-125::obj-646::obj-126" : [ "pwm[49]", "pwm", 0 ],
-			"obj-1::obj-125::obj-18::obj-126" : [ "pwm[58]", "pwm", 0 ],
-			"obj-1::obj-125::obj-658::obj-126" : [ "pwm[44]", "pwm", 0 ],
-			"obj-1::obj-125::obj-653::obj-126" : [ "pwm[39]", "pwm", 0 ],
-			"obj-1::obj-125::obj-678::obj-126" : [ "pwm[34]", "pwm", 0 ],
-			"obj-1::obj-125::obj-673::obj-126" : [ "pwm[29]", "pwm", 0 ],
-			"obj-1::obj-125::obj-698::obj-126" : [ "pwm[24]", "pwm", 0 ],
-			"obj-1::obj-125::obj-693::obj-126" : [ "pwm[19]", "pwm", 0 ],
-			"obj-1::obj-125::obj-718::obj-126" : [ "pwm[1]", "pwm", 0 ],
-			"obj-23::obj-147" : [ "live.slider[4]", "live.slider", 0 ],
-			"obj-1::obj-125::obj-713::obj-126" : [ "pwm[10]", "pwm", 0 ],
-			"obj-1::obj-125::obj-759::obj-126" : [ "pwm[5]", "pwm", 0 ],
-			"obj-1::obj-125::obj-33::obj-126" : [ "pwm[67]", "pwm", 0 ],
-			"obj-1::obj-125::obj-641::obj-126" : [ "pwm[53]", "pwm", 0 ],
-			"obj-1::obj-125::obj-27::obj-126" : [ "pwm[62]", "pwm", 0 ],
-			"obj-1::obj-125::obj-647::obj-126" : [ "pwm[48]", "pwm", 0 ],
-			"obj-1::obj-125::obj-17::obj-126" : [ "pwm[57]", "pwm", 0 ],
-			"obj-1::obj-125::obj-657::obj-126" : [ "pwm[43]", "pwm", 0 ],
-			"obj-1::obj-125::obj-652::obj-126" : [ "pwm[38]", "pwm", 0 ],
-			"obj-1::obj-125::obj-677::obj-126" : [ "pwm[33]", "pwm", 0 ],
-			"obj-1::obj-125::obj-672::obj-126" : [ "pwm[28]", "pwm", 0 ],
-			"obj-1::obj-125::obj-697::obj-126" : [ "pwm[23]", "pwm", 0 ],
-			"obj-1::obj-125::obj-692::obj-126" : [ "pwm[18]", "pwm", 0 ],
-			"obj-1::obj-125::obj-717::obj-126" : [ "pwm[14]", "pwm", 0 ],
-			"obj-1::obj-125::obj-644::obj-126" : [ "pwm", "pwm", 0 ],
-			"obj-1::obj-125::obj-712::obj-126" : [ "pwm[9]", "pwm", 0 ],
 			"obj-1::obj-125::obj-758::obj-126" : [ "pwm[4]", "pwm", 0 ],
 			"obj-1::obj-125::obj-32::obj-126" : [ "pwm[66]", "pwm", 0 ],
 			"obj-1::obj-125::obj-642::obj-126" : [ "pwm[52]", "pwm", 0 ],
 			"obj-1::obj-125::obj-24::obj-126" : [ "pwm[61]", "pwm", 0 ],
-			"obj-55::obj-14" : [ "analog", "analog", 0 ],
 			"obj-1::obj-125::obj-648::obj-126" : [ "pwm[47]", "pwm", 0 ],
 			"obj-1::obj-125::obj-11::obj-126" : [ "pwm[56]", "pwm", 0 ],
 			"obj-1::obj-125::obj-656::obj-126" : [ "pwm[42]", "pwm", 0 ],
 			"obj-1::obj-125::obj-651::obj-126" : [ "pwm[37]", "pwm", 0 ],
-			"obj-1::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
 			"obj-1::obj-125::obj-676::obj-126" : [ "pwm[32]", "pwm", 0 ],
 			"obj-1::obj-125::obj-671::obj-126" : [ "pwm[27]", "pwm", 0 ],
+			"obj-1::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
 			"obj-1::obj-125::obj-696::obj-126" : [ "pwm[22]", "pwm", 0 ],
 			"obj-1::obj-125::obj-691::obj-126" : [ "pwm[17]", "pwm", 0 ],
-			"obj-55::obj-25" : [ "analog[3]", "analog", 0 ],
 			"obj-1::obj-125::obj-716::obj-126" : [ "pwm[13]", "pwm", 0 ],
 			"obj-1::obj-125::obj-711::obj-126" : [ "pwm[8]", "pwm", 0 ],
 			"obj-1::obj-125::obj-757::obj-126" : [ "pwm[3]", "pwm", 0 ],
@@ -10426,13 +10383,56 @@
 			"obj-1::obj-125::obj-670::obj-126" : [ "pwm[26]", "pwm", 0 ],
 			"obj-1::obj-125::obj-695::obj-126" : [ "pwm[21]", "pwm", 0 ],
 			"obj-1::obj-125::obj-690::obj-126" : [ "pwm[16]", "pwm", 0 ],
-			"obj-55::obj-20" : [ "analog[2]", "analog", 0 ],
 			"obj-1::obj-125::obj-715::obj-126" : [ "pwm[12]", "pwm", 0 ],
 			"obj-1::obj-125::obj-710::obj-126" : [ "pwm[7]", "pwm", 0 ],
 			"obj-1::obj-125::obj-36::obj-126" : [ "pwm[69]", "pwm", 0 ],
+			"obj-1::obj-125::obj-504::obj-126" : [ "pwm[2]", "pwm", 0 ],
 			"obj-1::obj-125::obj-29::obj-126" : [ "pwm[64]", "pwm", 0 ],
 			"obj-1::obj-125::obj-645::obj-126" : [ "pwm[50]", "pwm", 0 ],
-			"obj-1::obj-125::obj-19::obj-126" : [ "pwm[59]", "pwm", 0 ]
+			"obj-1::obj-125::obj-19::obj-126" : [ "pwm[59]", "pwm", 0 ],
+			"obj-1::obj-125::obj-667::obj-126" : [ "pwm[45]", "pwm", 0 ],
+			"obj-1::obj-125::obj-8::obj-126" : [ "pwm[54]", "pwm", 0 ],
+			"obj-1::obj-125::obj-654::obj-126" : [ "pwm[40]", "pwm", 0 ],
+			"obj-1::obj-125::obj-687::obj-126" : [ "pwm[35]", "pwm", 0 ],
+			"obj-1::obj-125::obj-674::obj-126" : [ "pwm[30]", "pwm", 0 ],
+			"obj-1::obj-125::obj-707::obj-126" : [ "pwm[25]", "pwm", 0 ],
+			"obj-1::obj-125::obj-694::obj-126" : [ "pwm[20]", "pwm", 0 ],
+			"obj-1::obj-125::obj-727::obj-126" : [ "pwm[15]", "pwm", 0 ],
+			"obj-1::obj-125::obj-714::obj-126" : [ "pwm[11]", "pwm", 0 ],
+			"obj-1::obj-125::obj-768::obj-126" : [ "pwm[6]", "pwm", 0 ],
+			"obj-1::obj-125::obj-34::obj-126" : [ "pwm[68]", "pwm", 0 ],
+			"obj-23::obj-147" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-1::obj-125::obj-28::obj-126" : [ "pwm[63]", "pwm", 0 ],
+			"obj-1::obj-125::obj-646::obj-126" : [ "pwm[49]", "pwm", 0 ],
+			"obj-1::obj-125::obj-18::obj-126" : [ "pwm[58]", "pwm", 0 ],
+			"obj-1::obj-125::obj-658::obj-126" : [ "pwm[44]", "pwm", 0 ],
+			"obj-55::obj-25" : [ "analog[3]", "analog", 0 ],
+			"obj-1::obj-125::obj-653::obj-126" : [ "pwm[39]", "pwm", 0 ],
+			"obj-55::obj-14" : [ "analog", "analog", 0 ],
+			"obj-1::obj-125::obj-678::obj-126" : [ "pwm[34]", "pwm", 0 ],
+			"obj-1::obj-125::obj-673::obj-126" : [ "pwm[29]", "pwm", 0 ],
+			"obj-1::obj-125::obj-698::obj-126" : [ "pwm[24]", "pwm", 0 ],
+			"obj-1::obj-125::obj-693::obj-126" : [ "pwm[19]", "pwm", 0 ],
+			"obj-1::obj-125::obj-718::obj-126" : [ "pwm[1]", "pwm", 0 ],
+			"obj-1::obj-125::obj-713::obj-126" : [ "pwm[10]", "pwm", 0 ],
+			"obj-1::obj-125::obj-759::obj-126" : [ "pwm[5]", "pwm", 0 ],
+			"obj-117::obj-147" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-55::obj-15" : [ "analog[1]", "analog", 0 ],
+			"obj-1::obj-125::obj-33::obj-126" : [ "pwm[67]", "pwm", 0 ],
+			"obj-1::obj-125::obj-641::obj-126" : [ "pwm[53]", "pwm", 0 ],
+			"obj-1::obj-125::obj-27::obj-126" : [ "pwm[62]", "pwm", 0 ],
+			"obj-1::obj-125::obj-647::obj-126" : [ "pwm[48]", "pwm", 0 ],
+			"obj-1::obj-125::obj-17::obj-126" : [ "pwm[57]", "pwm", 0 ],
+			"obj-1::obj-125::obj-657::obj-126" : [ "pwm[43]", "pwm", 0 ],
+			"obj-1::obj-125::obj-652::obj-126" : [ "pwm[38]", "pwm", 0 ],
+			"obj-1::obj-125::obj-677::obj-126" : [ "pwm[33]", "pwm", 0 ],
+			"obj-1::obj-125::obj-644::obj-126" : [ "pwm", "pwm", 0 ],
+			"obj-1::obj-125::obj-672::obj-126" : [ "pwm[28]", "pwm", 0 ],
+			"obj-1::obj-125::obj-697::obj-126" : [ "pwm[23]", "pwm", 0 ],
+			"obj-1::obj-125::obj-692::obj-126" : [ "pwm[18]", "pwm", 0 ],
+			"obj-1::obj-125::obj-717::obj-126" : [ "pwm[14]", "pwm", 0 ],
+			"obj-1::obj-125::obj-712::obj-126" : [ "pwm[9]", "pwm", 0 ],
+			"obj-55::obj-20" : [ "analog[2]", "analog", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

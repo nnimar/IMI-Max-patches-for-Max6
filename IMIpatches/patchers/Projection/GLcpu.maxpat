@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 292.0, 218.0, 63.0, 34.0 ]
+					"patching_rect" : [ 292.0, 218.0, 60.0, 34.0 ]
 				}
 
 			}
@@ -179,7 +179,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -419,11 +419,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 402.0, 201.0 ],
+						"rect" : [ 580.0, 372.0, 402.0, 201.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -456,7 +456,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -641,7 +641,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.0, 264.0, 85.0, 46.0 ],
+													"patching_rect" : [ 150.0, 264.0, 85.0, 45.0 ],
 													"text" : ";\rmax showcursor"
 												}
 
@@ -656,7 +656,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 270.0, 265.0, 80.0, 46.0 ],
+													"patching_rect" : [ 270.0, 265.0, 80.0, 45.0 ],
 													"text" : ";\rmax hidecursor"
 												}
 
@@ -685,7 +685,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.0, 211.0, 102.0, 46.0 ],
+													"patching_rect" : [ 150.0, 211.0, 102.0, 45.0 ],
 													"text" : ";\rmax showmenubar"
 												}
 
@@ -700,7 +700,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 269.0, 212.0, 99.0, 46.0 ],
+													"patching_rect" : [ 269.0, 212.0, 99.0, 45.0 ],
 													"text" : ";\rmax hidemenubar"
 												}
 
@@ -982,7 +982,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 153.0, 350.0, 34.0 ],
+									"patching_rect" : [ 26.0, 153.0, 350.0, 33.0 ],
 									"text" : "as noted in vade's examples, drive the swapping of the window with the master movie frame, as it is output from jit.qt.movie"
 								}
 
@@ -1160,7 +1160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 276.0, 175.0, 186.0, 33.0 ],
+					"patching_rect" : [ 276.0, 175.0, 167.0, 33.0 ],
 					"text" : "jit.qt.movie @adapt 1 @unique 1 @colormode uyvy"
 				}
 
@@ -1192,7 +1192,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1225,7 +1225,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 83.0, 7.0, 298.0, 33.0 ],
+									"patching_rect" : [ 101.0, 7.0, 298.0, 33.0 ],
 									"text" : "In a default simple case like this, I like to use 10 for all throttles, overdrive off, and scheduler slop at 25"
 								}
 
@@ -1237,7 +1237,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "preset", "int", "preset", "int" ],
-									"patching_rect" : [ 7.0, 7.0, 71.0, 66.0 ],
+									"patching_rect" : [ 15.0, 7.0, 76.0, 18.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
 											"data" : [ 5, "obj-38", "toggle", "int", 0, 5, "obj-42", "number", "int", 10, 5, "obj-43", "number", "int", 10, 5, "obj-46", "number", "int", 25, 5, "obj-1", "number", "int", 10 ]
@@ -1256,7 +1256,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 474.0, 68.0, 113.0, 74.0 ],
+									"patching_rect" : [ 458.0, 68.0, 113.0, 74.0 ],
 									"text" : "How much time behing \"wall time\", before the scheduler is forced to be in sync"
 								}
 
@@ -1271,7 +1271,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.0, 68.0, 112.0, 60.0 ],
+									"patching_rect" : [ 322.0, 68.0, 112.0, 60.0 ],
 									"text" : "How many patcher UI objects in a patcher with every patcher refresh"
 								}
 
@@ -1286,7 +1286,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 221.0, 69.0, 111.0, 74.0 ],
+									"patching_rect" : [ 205.0, 69.0, 111.0, 74.0 ],
 									"text" : "How many low priority queue events to process in one queue servicing. "
 								}
 
@@ -1301,7 +1301,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 117.0, 69.0, 106.0, 74.0 ],
+									"patching_rect" : [ 101.0, 69.0, 106.0, 74.0 ],
 									"text" : "How many high priority scheduler events to process in one scheduler \"tick\". "
 								}
 
@@ -1318,7 +1318,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 342.0, 149.0, 50.0, 20.0 ]
+									"patching_rect" : [ 326.0, 149.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -1331,7 +1331,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 342.0, 177.0, 129.0, 18.0 ],
+									"patching_rect" : [ 326.0, 177.0, 129.0, 18.0 ],
 									"text" : "setsysqelemthrottle $1"
 								}
 
@@ -1348,7 +1348,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 478.0, 150.0, 50.0, 20.0 ]
+									"patching_rect" : [ 462.0, 150.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -1361,7 +1361,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 478.0, 177.0, 63.0, 18.0 ],
+									"patching_rect" : [ 462.0, 177.0, 63.0, 18.0 ],
 									"text" : "setslop $1"
 								}
 
@@ -1378,7 +1378,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 224.0, 149.0, 50.0, 20.0 ]
+									"patching_rect" : [ 208.0, 149.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -1391,7 +1391,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 224.0, 177.0, 113.0, 18.0 ],
+									"patching_rect" : [ 208.0, 177.0, 113.0, 18.0 ],
 									"text" : "setqueuethrottle $1"
 								}
 
@@ -1408,7 +1408,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 121.0, 149.0, 50.0, 20.0 ]
+									"patching_rect" : [ 105.0, 149.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -1421,7 +1421,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.0, 177.0, 99.0, 18.0 ],
+									"patching_rect" : [ 105.0, 177.0, 99.0, 18.0 ],
 									"text" : "setpollthrottle $1"
 								}
 
@@ -1434,7 +1434,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 31.0, 149.0, 20.0, 20.0 ]
+									"patching_rect" : [ 15.0, 149.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1446,7 +1446,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 217.0, 77.0, 20.0 ],
+									"patching_rect" : [ 15.0, 217.0, 77.0, 20.0 ],
 									"text" : "forward max"
 								}
 
@@ -1460,7 +1460,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 177.0, 77.0, 18.0 ],
+									"patching_rect" : [ 15.0, 177.0, 77.0, 18.0 ],
 									"text" : "overdrive $1"
 								}
 
@@ -1480,7 +1480,7 @@
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 40.5, 205.5, 40.5, 205.5 ],
+									"midpoints" : [ 24.5, 205.5, 24.5, 205.5 ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -1499,7 +1499,7 @@
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 130.5, 205.5, 40.5, 205.5 ],
+									"midpoints" : [ 114.5, 205.5, 24.5, 205.5 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -1527,7 +1527,7 @@
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 233.5, 205.5, 40.5, 205.5 ],
+									"midpoints" : [ 217.5, 205.5, 24.5, 205.5 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -1537,7 +1537,7 @@
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 487.5, 205.5, 40.5, 205.5 ],
+									"midpoints" : [ 471.5, 205.5, 24.5, 205.5 ],
 									"source" : [ "obj-45", 0 ]
 								}
 
@@ -1556,7 +1556,7 @@
 									"destination" : [ "obj-35", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 351.5, 205.5, 40.5, 205.5 ],
+									"midpoints" : [ 335.5, 205.5, 24.5, 205.5 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -1675,7 +1675,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,

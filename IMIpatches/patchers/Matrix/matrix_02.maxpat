@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -277,8 +277,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.0, 349.0, 170.0, 22.0 ],
-					"text" : "name (video) type (char)"
+					"patching_rect" : [ 493.0, 349.0, 155.0, 22.0 ],
+					"text" : "name (vid) type (char)"
 				}
 
 			}
@@ -295,7 +295,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -391,8 +391,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 440.0, 320.0, 231.0, 27.0 ],
-					"text" : "jit.matrix video 4 char 10 10"
+					"patching_rect" : [ 463.0, 320.0, 210.0, 27.0 ],
+					"text" : "jit.matrix vid 4 char 10 10"
 				}
 
 			}
@@ -462,7 +462,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -792,7 +792,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 44.0, 389.0, 328.0 ],
+					"patching_rect" : [ 5.0, 44.0, 393.0, 328.0 ],
 					"text" : "A digital image is represented as a matrix with numbers representing each pixel.\n\nTypically, images are saved with 8 bits, so there are 256 values to choose from (char).\n\nColours are represented in ARGB where A is the alpha channel (transparency) and RGB is the red, green, blue.\n\nThus to represent a colour image, it is necessary with 4 values for each pixel (planes)\n\nA jitter matrix is 4 planes, x by y dimension (the resolution) with values between 0 and 255 to describe every pixels. "
 				}
 

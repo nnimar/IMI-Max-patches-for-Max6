@@ -2857,7 +2857,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 29.0, 170.0, 119.0, 20.0 ]
+									"patching_rect" : [ 29.0, 170.0, 119.0, 20.0 ],
+									"text" : "line_to 100 120"
 								}
 
 							}
@@ -3941,8 +3942,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 227.0, 119.0, 166.0, 40.0 ],
-									"text" : "white background, paint\nblack foreground"
+									"patching_rect" : [ 227.0, 119.0, 271.0, 40.0 ],
+									"text" : "three commands: white background, paint\nblack foreground"
 								}
 
 							}
@@ -4014,8 +4015,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 229.0, 150.0, 19.0 ],
-									"text" : "show_text \"time for text\""
+									"patching_rect" : [ 330.0, 229.0, 158.0, 19.0 ],
+									"text" : "show_text \"time for text2\""
 								}
 
 							}
@@ -4270,6 +4271,13 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
+				"name" : "max_message_coll",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/max_message",
+				"patcherrelativepath" : "./max_message",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "text.maxref.xml",
 				"bootpath" : "/Applications/Max 6.1/patches/docs/refpages/max-ref",
 				"patcherrelativepath" : "../../../../patches/docs/refpages/max-ref",

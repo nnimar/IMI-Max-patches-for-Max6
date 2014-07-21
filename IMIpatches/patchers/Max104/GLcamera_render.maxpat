@@ -94,7 +94,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 553.0, 365.0, 79.693527, 22.0 ],
+					"patching_rect" : [ 481.0, 361.0, 79.693527, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 412.0, 348.0, 41.693527, 24.098633 ],
 					"rounded" : 20.0,
@@ -117,7 +117,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 365.0, 59.693527, 22.0 ],
+					"patching_rect" : [ 571.667053, 361.0, 59.693527, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 549.0, 346.0, 41.693527, 24.098633 ],
 					"rounded" : 20.0,
@@ -136,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 366.0, 72.0, 17.0 ],
+					"patching_rect" : [ 571.667053, 362.0, 72.0, 17.0 ],
 					"text" : "load GLlight"
 				}
 
@@ -252,7 +252,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 653.0, 360.0, 273.0, 225.0 ],
+						"rect" : [ 648.0, 372.0, 273.0, 225.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1612,7 +1612,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 546.0, 367.0, 90.0, 17.0 ],
+					"patching_rect" : [ 474.0, 363.0, 90.0, 17.0 ],
 					"text" : "load GLcamera"
 				}
 
@@ -1626,7 +1626,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 366.0, 53.0, 20.0 ],
+					"patching_rect" : [ 578.667053, 362.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 

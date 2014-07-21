@@ -51,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 123.0, 67.0, 18.0 ],
+					"patching_rect" : [ 155.0, 144.0, 67.0, 18.0 ],
 					"text" : "loadmess 13"
 				}
 
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 209.0, 80.0, 34.0 ]
+					"patching_rect" : [ 7.0, 209.0, 73.0, 34.0 ]
 				}
 
 			}
@@ -771,7 +771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.5, 233.0, 154.0, 24.0 ],
+					"patching_rect" : [ 420.125, 242.0, 154.0, 24.0 ],
 					"text" : "alphablend with jit.gl.pix"
 				}
 
@@ -794,7 +794,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 594.0, 359.0, 193.0, 220.0 ],
+						"rect" : [ 596.0, 375.0, 193.0, 220.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -1002,21 +1002,21 @@
  ]
 					}
 ,
-					"patching_rect" : [ 141.25, 235.0, 277.0, 20.0 ],
+					"patching_rect" : [ 140.875, 244.0, 277.0, 20.0 ],
 					"text" : "jit.gl.pix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 141.25, 265.0, 208.0, 20.0 ],
+					"patching_rect" : [ 141.25, 283.0, 260.0, 22.0 ],
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
@@ -1127,7 +1127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 141.0, 90.0, 48.0, 20.0 ],
+					"patching_rect" : [ 141.0, 90.0, 276.875, 20.0 ],
 					"text" : "t b b b"
 				}
 
@@ -1231,7 +1231,7 @@
 					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 179.5, 120.25, 408.375, 120.25 ],
+					"midpoints" : [ 408.375, 120.25, 408.375, 120.25 ],
 					"source" : [ "obj-1", 2 ]
 				}
 
@@ -1241,7 +1241,7 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 165.0, 131.75, 279.5, 131.75 ],
+					"midpoints" : [ 279.4375, 131.75, 279.5, 131.75 ],
 					"source" : [ "obj-1", 1 ]
 				}
 

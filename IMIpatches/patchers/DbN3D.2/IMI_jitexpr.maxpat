@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -175,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 31.0, 350.0, 20.0 ],
-					"text" : "evaluates expressions to fill an output matrix",
+					"text" : "evaluates expressions to fill a matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

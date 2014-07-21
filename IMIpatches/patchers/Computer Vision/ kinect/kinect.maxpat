@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 558.0, 702.0 ],
+		"rect" : [ 1.0, 44.0, 558.0, 709.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,13 +35,66 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"id" : "obj-46",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 299.0, 644.0, 130.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.0, 644.0, 79.0, 17.0 ],
+					"rounded" : 20.0,
+					"text" : "openNI_GLmultiple",
+					"texton" : "Stop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 299.0, 644.0, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-72",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 645.0, 110.0, 17.0 ],
+					"text" : "openNI_GLmultiple"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
 					"id" : "obj-32",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 673.0, 126.0, 21.0 ],
+					"patching_rect" : [ 6.0, 673.0, 126.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 415.0, 126.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 673.0, 53.0, 20.0 ],
+					"patching_rect" : [ 6.0, 673.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -75,7 +128,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 673.0, 127.0, 17.0 ],
+					"patching_rect" : [ 6.0, 673.0, 127.0, 17.0 ],
 					"text" : "load openNI2GLmodel"
 				}
 
@@ -147,7 +200,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 144.0, 644.0, 126.0, 21.0 ],
+					"patching_rect" : [ 144.0, 673.0, 126.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 610.0, 663.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -166,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 641.0, 53.0, 20.0 ],
+					"patching_rect" : [ 144.0, 670.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -181,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 144.0, 641.0, 131.0, 17.0 ],
+					"patching_rect" : [ 144.0, 670.0, 131.0, 17.0 ],
 					"text" : "load openNI_SkelMesh"
 				}
 
@@ -200,7 +253,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 673.0, 149.0, 21.0 ],
+					"patching_rect" : [ 144.0, 644.0, 149.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 203.0, 461.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -219,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 674.0, 53.0, 20.0 ],
+					"patching_rect" : [ 174.0, 645.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -234,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 673.0, 146.0, 17.0 ],
+					"patching_rect" : [ 141.0, 644.0, 146.0, 17.0 ],
 					"text" : "load openNI_GLgridshape"
 				}
 
@@ -428,7 +481,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 562.0, 44.0, 562.0, 595.0 ],
+						"rect" : [ 562.0, 44.0, 521.0, 614.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -457,7 +510,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 509.0, 396.0, 74.0 ],
+									"patching_rect" : [ 6.0, 536.0, 396.0, 74.0 ],
 									"text" : "mini glossary\nOF: openFramework (a C library based on Processing)\nOSC: open sound control (a protocol to send data between application)\nSDK: software development kit\nTUIO: framework for multitouch surfaces (example : the reactVision)"
 								}
 
@@ -468,12 +521,12 @@
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-55",
-									"linecount" : 30,
+									"linecount" : 33,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 5.0, 551.0, 476.0 ],
-									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense).\n\nIn order to use the OpenNI library, you can either use jit.openni, a native Max object, or any of the ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). The applications will send data back to Max using the Open Sound Control protocol (OSC). \n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries..\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking and requires the user to use the psy pose in order to make it work (via Jon Bellona)\n\nKinect-A (by Miihoo) is an OF application built using ofxOpenNI wrapper (by Matthew Gingold), it features tracking for skeleton, hands and objects. The object tracking is mainly based on the solution of KinectCoreVision (by Patricio González Vivo).\n\nJit.openni (by Diablodale) is a work in progress. You need to install the OpenNI library in order to use it. We suggest the Zigfu installer (http://zigfu.com/en/downloads/browserplugin/) but you may have to install it manually. Unfortunately, it's limited to version 1 of the OpenNI. \n\nDp.kinect (by Diablodale) is a Max object that is built using version 2 of OpenNI and the Microsoft's Kinect SDK. It is the most recent, fastest solution but only available on PC."
+									"patching_rect" : [ 6.0, 5.0, 521.0, 523.0 ],
+									"text" : "On a Mac, there are only two libraries available to control the Kinect : \nthe libfreenect and the OpenNI. \n\nThe first has been developped as a hack by the community but is quite limited and the second is from OpenNI.org, the organisation supported by the developers of the technology behind the Kinect (PrimeSense... now belongs to Apple).\n\nIn order to use the OpenNI library, you can either use jit.openni, a native Max object, or any of the ready made applications such as synapse (simple), kinect-a (more advanced) or the Delicode NI mate (very complete but payware). These applications will send data back to Max using the Open Sound Control protocol (OSC). \n\nSo, why so many choices ? They all have advantages and inconvenients,\nhere is an overview of the libraries..\n\nSynapse is good at giving relative joint positions, tracking modes, has a good reboot time and is low on CPU usage. It just lacks of auto-tracking and requires the user to use the psy pose in order to make it work (via Jon Bellona)\n\nKinect-A (by Miihoo) is an OF application built using ofxOpenNI wrapper (by Matthew Gingold), it features tracking for skeleton, hands and objects. The object tracking is mainly based on the solution of KinectCoreVision (by Patricio González Vivo).\n\nJit.openni (by Diablodale) is a work in progress. You need to install the OpenNI library in order to use it. We suggest the Zigfu installer (http://zigfu.com/en/downloads/browserplugin/) but you may have to install it manually. Unfortunately, it's limited to version 1 of the OpenNI. \n\nDp.kinect (by Diablodale) is a Max object that is built using version 2 of OpenNI and the Microsoft's Kinect SDK. It is the most recent, fastest solution but only available on PC."
 								}
 
 							}
@@ -675,8 +728,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 515.5, 352.0, 38.0 ],
-					"text" : "Kinect-A is a OF applications that sends the choosen information to Max via OSC (port 3333)"
+					"patching_rect" : [ 143.0, 518.5, 352.0, 38.0 ],
+					"text" : "kinect-A is a OF applications that sends the choosen information to Max via OSC (port 3333)"
 				}
 
 			}
@@ -989,7 +1042,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 415.5, 377.0, 38.0 ],
+					"patching_rect" : [ 135.0, 410.0, 377.0, 38.0 ],
 					"text" : "synapse is a simple OF application that sends the skeleton to Max via OSC (port 12345)"
 				}
 
@@ -1614,6 +1667,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1726,6 +1788,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}

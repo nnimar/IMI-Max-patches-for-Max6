@@ -58,7 +58,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 510.0, 372.0, 400.0, 311.0 ],
+						"rect" : [ 917.0, 478.0, 400.0, 311.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -678,12 +678,12 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
-					"linecount" : 9,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 603.0, 336.0, 127.0 ],
-					"text" : "In Eri Sawatari's installation, you have a model with an underwear. The video is projected onto the underwear and remains in the first loop (mini_loop1) until someone takes the underwear down. \n\nWhen it reaches the end credits (past 1168), it will enter in a second loop (mini_loop2) till someone puts the underwear back up and the credit has been reached (sensor >1024 and frame >1600, see the box above). "
+					"patching_rect" : [ 10.0, 603.0, 408.0, 100.0 ],
+					"text" : "In order to use Eri Sawatari's installation, you have to remove the underwear of a model. The video is projected onto the model and remains in the first loop (mini_loop1) until someone takes the underwear down. \n\nWhen it reaches the end credits (past 1168), it will enter in a second loop (mini_loop2) till someone puts the underwear back up and the credit has been reached (sensor >1024 and frame >1600). "
 				}
 
 			}

@@ -688,13 +688,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.5, 378.0, 84.0, 27.0 ],
+					"patching_rect" : [ 678.0, 378.0, 69.0, 22.0 ],
 					"text" : "Lighting"
 				}
 
@@ -702,13 +702,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-43",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.0, 566.0, 76.0, 27.0 ],
+					"patching_rect" : [ 676.5, 564.625977, 62.0, 22.0 ],
 					"text" : "Syphon"
 				}
 
@@ -716,13 +716,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.0, 59.0, 109.0, 27.0 ],
+					"patching_rect" : [ 659.0, 59.0, 87.0, 22.0 ],
 					"text" : "Gridshape"
 				}
 
@@ -744,13 +744,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.5, 57.0, 118.0, 27.0 ],
+					"patching_rect" : [ 261.0, 57.0, 94.0, 22.0 ],
 					"text" : "Render Area"
 				}
 
@@ -758,13 +758,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 298.5, 346.0, 52.0, 27.0 ],
+					"patching_rect" : [ 298.5, 346.0, 43.0, 22.0 ],
 					"text" : "View"
 				}
 

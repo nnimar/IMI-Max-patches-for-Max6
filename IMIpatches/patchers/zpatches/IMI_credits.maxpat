@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 657.0, 609.0 ],
+		"rect" : [ 0.0, 44.0, 657.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -73,8 +73,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 4.0, 642.0, 107.0 ],
-									"presentation_rect" : [ 57.0, 39.0, 0.0, 0.0 ],
+									"patching_rect" : [ 3.0, 4.0, 643.0, 107.0 ],
 									"text" : "We have chosen the MIT License (MIT) for the patches included in the IMI Max Patches as it is the most permissive license. It doesn't override pre-existing license if there is one. The copyright holder is stated in the header of the patch, in parenthesis next to the name of the patch. if there is no name, the default copyright holder is Nicolas Marechal."
 								}
 
@@ -89,7 +88,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 126.0, 642.0, 449.0 ],
+									"patching_rect" : [ 3.0, 126.0, 645.0, 449.0 ],
 									"text" : "The MIT License (MIT)\n\nCopyright (c) 2009-2014 <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 								}
 
@@ -98,8 +97,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 462.0, 584.849854, 79.0, 22.0 ],
-					"presentation_rect" : [ 439.0, 584.849854, 0.0, 0.0 ],
+					"patching_rect" : [ 462.0, 608.849854, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -126,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 543.0, 572.0, 27.0 ],
+					"patching_rect" : [ 4.0, 567.0, 572.0, 27.0 ],
 					"text" : "Updates available on https://github.com/imi/IMI-Max-patches-for-Max6"
 				}
 
@@ -186,7 +184,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 550.0, 584.849854, 99.0, 22.0 ],
+					"patching_rect" : [ 550.0, 608.849854, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -245,7 +243,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 486.849884, 603.0, 47.0 ],
+					"patching_rect" : [ 4.0, 510.849884, 600.0, 47.0 ],
 					"text" : "Medias: James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
 
@@ -271,12 +269,12 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-3",
-					"linecount" : 11,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 251.0, 653.0, 228.0 ],
-					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), \nAlan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013), Masato Seki, Miyu Hayashi, Maisie Bowes, Sayanee Halder (2014)."
+					"patching_rect" : [ 4.0, 251.0, 657.0, 248.0 ],
+					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), \nAlan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013), Masato Seki, Miyu Hayashi, Maisie Bowes, Sayanee Halder, Sam Aldrige, Jessica Bishops (2014)."
 				}
 
 			}
@@ -291,7 +289,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 42.0, 657.0, 87.0 ],
-					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used on the BA design for interaction and moving image (IMI) and the MA interactive design communication at the London College of Communication (University of the Arts London, United Kingdom)."
+					"text" : "The IMI Max patches is a self-learning tool and a repository for some of the Max patches made or used on the BA design for interaction and moving image (dIMI) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom)."
 				}
 
 			}

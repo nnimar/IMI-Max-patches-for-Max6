@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 592.0, 409.0 ],
+		"rect" : [ 0.0, 44.0, 591.0, 354.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 316.5, 193.0, 133.0, 20.0 ],
+					"text" : "jit.gl.slab @rect 0 0 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -41,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 463.0, 381.5, 122.0, 21.0 ],
+					"patching_rect" : [ 465.0, 330.0, 122.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.0, 388.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,7 +74,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 432.0, 369.5, 153.0, 33.0 ],
+					"patching_rect" : [ 434.0, 318.0, 153.0, 33.0 ],
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 
@@ -74,7 +88,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 64.0, 45.0, 20.0 ],
+					"patching_rect" : [ 166.0, 60.0, 45.0, 20.0 ],
 					"text" : "r bang"
 				}
 
@@ -144,8 +158,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 187.0, 138.0, 33.0 ],
-					"text" : "jit.gl.render syphon @erase_color 0. 0. 0. 1."
+					"patching_rect" : [ 8.0, 186.0, 137.0, 33.0 ],
+					"text" : "jit.gl.render @erase_color 0. 0. 0. 1."
 				}
 
 			}
@@ -830,8 +844,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 323.0, 30.0 ],
-					"text" : "Syphon Cube (brunokruse)",
+					"patching_rect" : [ 3.0, 2.0, 368.0, 30.0 ],
+					"text" : "GLgridshape2syphon (brunokruse)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
 				}
@@ -859,28 +873,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
-					"id" : "obj-15",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 469.0, 309.0, 105.0, 51.0 ],
-					"text" : "send the texture to the syphon server"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.0, 151.0, 108.0, 51.0 ],
+					"patching_rect" : [ 461.0, 58.0, 108.0, 51.0 ],
 					"text" : "capture the 3D context to a texture"
 				}
 
@@ -890,28 +888,27 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 326.0, 248.0, 139.0, 60.0 ],
-					"text" : "jit.gl.videoplane syphon @transform_reset 2 @blend_enable 1 @depth_enable 0"
+					"patching_rect" : [ 337.5, 138.0, 203.0, 20.0 ],
+					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 305.0, 150.5, 156.0, 53.0 ],
-					"text" : "jit.gl.node syphon @capture 1 @erase_color 0 0 0 1"
+					"patching_rect" : [ 316.5, 61.0, 140.0, 47.0 ],
+					"text" : "jit.gl.node @name cube @capture 1 @erase_color 0 0 0 1"
 				}
 
 			}
@@ -924,7 +921,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 125.0, 109.0, 18.0 ],
+					"patching_rect" : [ 166.0, 121.0, 109.0, 18.0 ],
 					"text" : "rotatexyz 45 $1 45"
 				}
 
@@ -938,7 +935,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 165.0, 96.0, 84.0, 20.0 ],
+					"patching_rect" : [ 166.0, 92.0, 84.0, 20.0 ],
 					"text" : "counter 0 360"
 				}
 
@@ -953,7 +950,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 164.0, 243.0, 123.0, 60.0 ],
+					"patching_rect" : [ 166.0, 149.0, 123.0, 60.0 ],
 					"text" : "jit.gl.gridshape cube @shape cube @scale 0.33 @lighting_enable 1"
 				}
 
@@ -961,16 +958,16 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.8, 0.839216, 0.709804, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-75",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.0, 318.0, 160.0, 33.0 ],
-					"text" : "jit.gl.syphonserver syphon @servername JitterSyphon"
+					"patching_rect" : [ 316.5, 226.0, 195.0, 38.0 ],
+					"text" : "jit.gl.syphonserver @servername JitterSyphon"
 				}
 
 			}
@@ -1001,21 +998,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 314.5, 215.75, 335.5, 215.75 ],
+					"midpoints" : [ 326.0, 151.75, 326.0, 151.75 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 383.0, 235.25, 173.5, 235.25 ],
-					"source" : [ "obj-11", 1 ]
+					"midpoints" : [ 326.0, 121.75, 347.0, 121.75 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1024,8 +1021,7 @@
 					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 314.5, 224.75, 314.5, 224.75 ],
-					"source" : [ "obj-11", 0 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}

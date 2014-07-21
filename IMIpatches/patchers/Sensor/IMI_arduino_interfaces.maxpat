@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -164,8 +164,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 401.0, 238.0, 22.0 ],
-					"text" : "Arduino >> Max >> Arduino (any)"
+					"patching_rect" : [ 259.0, 401.0, 215.0, 22.0 ],
+					"text" : "Arduino (analog 10bit) >> Max"
 				}
 
 			}
@@ -179,7 +179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 259.0, 378.0, 257.0, 22.0 ],
-					"text" : "Install the OSCuino library on Arduino"
+					"text" : "Install analog_miller.ino on the Arduino"
 				}
 
 			}
@@ -193,10 +193,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 391.0, 86.0, 20.0 ],
+					"patching_rect" : [ 15.0, 392.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 393.0, 100.0, 20.0 ],
-					"text" : "6. OSCuino"
+					"text" : "6. analog_miller"
 				}
 
 			}
@@ -210,8 +210,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 392.0, 121.0, 17.0 ],
-					"text" : "load IMIoscuinoSerial"
+					"patching_rect" : [ 15.0, 392.0, 105.0, 17.0 ],
+					"text" : "load analog_miller"
 				}
 
 			}
@@ -514,7 +514,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 259.0, 233.0, 258.0, 22.0 ],
-					"text" : "Install max2arduino.ino on the Arduino"
+					"text" : "Install serial_parseint.ino on the Arduino"
 				}
 
 			}
@@ -528,10 +528,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 244.0, 109.0, 20.0 ],
+					"patching_rect" : [ 15.0, 244.0, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 404.0, 100.0, 20.0 ],
-					"text" : "4. max2arduino"
+					"text" : "4. serial_parseint"
 				}
 
 			}
@@ -545,8 +545,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 244.0, 103.0, 17.0 ],
-					"text" : "load max2arduino"
+					"patching_rect" : [ 15.0, 244.0, 112.0, 17.0 ],
+					"text" : "load serial_parseint"
 				}
 
 			}
@@ -702,7 +702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -908,7 +908,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 289.0, 530.0, 4.0 ],
+					"patching_rect" : [ 4.0, 289.0, 530.0, 4.0 ],
 					"varname" : "autohelp_top_panel[4]"
 				}
 

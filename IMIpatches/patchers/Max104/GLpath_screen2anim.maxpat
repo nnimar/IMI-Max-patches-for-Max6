@@ -1559,7 +1559,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 368.0, 149.838318, 51.0, 18.0 ],
+					"patching_rect" : [ 370.0, 149.838318, 51.0, 18.0 ],
 					"text" : "gettime"
 				}
 
@@ -2881,6 +2881,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-44",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -3018,7 +3019,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 377.5, 177.916168, 307.5, 177.916168 ],
+					"midpoints" : [ 379.5, 177.916168, 307.5, 177.916168 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -3175,7 +3176,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 

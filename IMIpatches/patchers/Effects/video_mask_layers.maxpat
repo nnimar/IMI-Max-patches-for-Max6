@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 683.0, 360.0 ],
+		"rect" : [ 0.0, 44.0, 684.0, 357.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -111,7 +111,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 566.0, 306.0, 101.0, 20.0 ],
+					"patching_rect" : [ 566.0, 306.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 756.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -851,7 +851,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 8.0, 225.0, 110.0, 20.0 ],
+					"patching_rect" : [ 8.0, 214.0, 110.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -969,8 +969,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 350.0, 207.0, 270.0, 22.0 ],
-					"text" : "jit.gl.slab output @file cc.scalebias.jxs"
+					"patching_rect" : [ 350.0, 207.0, 219.0, 22.0 ],
+					"text" : "jit.gl.slab @file cc.scalebias.jxs"
 				}
 
 			}
@@ -999,8 +999,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 350.0, 265.0, 132.0, 87.0 ],
-					"text" : "jit.gl.videoplane output @position 0. 0. 0. @blend_enable 1 @blend multiply @layer 2 @transform_reset 2"
+					"patching_rect" : [ 350.0, 265.0, 124.0, 87.0 ],
+					"text" : "jit.gl.videoplane @position 0. 0. 0. @blend_enable 1 @blend multiply @layer 2 @transform_reset 2"
 				}
 
 			}
@@ -1037,13 +1037,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 133.0, 178.0, 131.0, 33.0 ],
-					"text" : "jit.gl.videoplane output @layer 1"
+					"patching_rect" : [ 133.0, 178.0, 145.0, 20.0 ],
+					"text" : "jit.gl.videoplane @layer 1"
 				}
 
 			}
@@ -1092,13 +1091,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 250.0, 75.0, 33.0 ],
-					"text" : "jit.window video_mask"
+					"patching_rect" : [ 8.0, 239.0, 116.0, 20.0 ],
+					"text" : "jit.window scalebias"
 				}
 
 			}
@@ -1107,13 +1105,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 182.0, 110.0, 33.0 ],
-					"text" : "jit.gl.render output @depth_enable 0"
+					"patching_rect" : [ 8.0, 181.0, 70.0, 20.0 ],
+					"text" : "jit.gl.render"
 				}
 
 			}
@@ -1125,7 +1122,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 58.0, 118.147247, 232.0 ],
+					"patching_rect" : [ 6.0, 58.0, 119.0, 209.0 ],
 					"rounded" : 30
 				}
 
