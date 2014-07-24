@@ -43,21 +43,6 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "visible",
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-29",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.0, 244.0, 90.0, 19.0 ],
-					"text_width" : 61.0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -894,13 +879,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-47",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 612.0, 269.0, 106.0, 33.0 ],
-					"text" : "jit.window masker @visible 0"
+					"patching_rect" : [ 612.0, 245.5, 110.0, 47.0 ],
+					"text" : "jit.window windows @fsmenubar 0 @visible 0"
 				}
 
 			}
@@ -2546,7 +2531,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 612.0, 321.0, 62.0, 20.0 ],
+					"patching_rect" : [ 612.0, 304.0, 62.0, 20.0 ],
 					"text" : "(rev 009)"
 				}
 
@@ -3103,7 +3088,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 6.0, 150.147247, 313.0 ],
+					"patching_rect" : [ 607.0, 6.0, 147.0, 292.0 ],
 					"rounded" : 30
 				}
 
@@ -3257,15 +3242,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}

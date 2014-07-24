@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 266.0, 185.0, 24.0 ],
-					"presentation_rect" : [ 73.0, 273.0, 0.0, 0.0 ],
 					"text" : "double click to see the source"
 				}
 
@@ -284,7 +283,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -639,8 +638,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 515.0, 21.0 ],
-					"text" : "generative poetry, 14 pragraphs, 10 sentences per paragraph, billions poetry",
+					"patching_rect" : [ 4.0, 32.0, 585.0, 21.0 ],
+					"text" : "generative poetry, 14 paragraphs, 10 sentences per paragraph, billions poetry",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
 				}

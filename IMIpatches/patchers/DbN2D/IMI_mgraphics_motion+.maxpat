@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -37,8 +37,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 257.0, 268.0, 148.0, 47.0 ],
-					"text" : "clear (paint background)\nchoose colour (RGBA)\ndraw ellipse"
+					"patching_rect" : [ 257.0, 268.0, 154.0, 47.0 ],
+					"text" : "clear, paint (background)\nforeground colour (black)\ndraw ellipse"
 				}
 
 			}
