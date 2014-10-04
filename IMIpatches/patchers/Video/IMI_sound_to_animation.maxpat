@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -71,7 +71,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 26.0, 14.0, 20.0, 20.0 ]
+									"patching_rect" : [ 26.0, 11.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -243,7 +243,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.5, 404.0, 87.0, 17.0 ],
+					"patching_rect" : [ 92.5, 420.0, 87.0, 17.0 ],
 					"text" : "read ears.mov"
 				}
 
@@ -258,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.5, 402.0, 62.0, 18.0 ],
+					"patching_rect" : [ 92.5, 418.0, 62.0, 18.0 ],
 					"text" : "loadmess 3"
 				}
 
@@ -273,7 +273,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 92.5, 404.0, 81.0, 18.0 ],
+					"patching_rect" : [ 92.5, 420.0, 81.0, 18.0 ],
 					"text" : "imi.movieloader"
 				}
 
@@ -340,7 +340,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -839,7 +839,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1480,12 +1480,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-20",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 549.0, 118.0, 37.0 ],
-					"text" : "external window \n(jit.window)"
+					"patching_rect" : [ 386.0, 555.138428, 115.0, 24.0 ],
+					"text" : "external window"
 				}
 
 			}
@@ -1500,7 +1499,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 284.0, 393.0, 149.0, 37.0 ],
+					"patching_rect" : [ 284.0, 409.0, 149.0, 37.0 ],
 					"text" : "go to a specific frame, then play it (bang)"
 				}
 
@@ -1558,7 +1557,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 344.0, 102.0, 24.0 ],
+					"patching_rect" : [ 240.0, 355.0, 102.0, 24.0 ],
 					"text" : "frame number"
 				}
 
@@ -1589,7 +1588,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.0, 261.0, 112.0, 24.0 ],
+					"patching_rect" : [ 233.0, 272.0, 112.0, 24.0 ],
 					"text" : "sound level (dB)"
 				}
 
@@ -1637,7 +1636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 266.0, 641.0, 112.0, 37.0 ],
-					"text" : "patcher window (jit.pwindow)"
+					"text" : "patcher window\n(jit.pwindow)"
 				}
 
 			}
@@ -1651,7 +1650,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 301.0, 198.0, 33.0 ],
+					"patching_rect" : [ 354.0, 312.0, 198.0, 33.0 ],
 					"text" : "map the sound range (-35 to 0 dB)\nto a frame number (0 to 130)"
 				}
 
@@ -1680,7 +1679,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 403.0, 91.0, 18.0 ],
+					"patching_rect" : [ 188.0, 419.0, 91.0, 18.0 ],
 					"text" : "frame $1, bang"
 				}
 
@@ -1695,7 +1694,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.0, 344.0, 50.0, 22.0 ]
+					"patching_rect" : [ 188.0, 355.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1708,7 +1707,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 304.0, 140.0, 24.0 ],
+					"patching_rect" : [ 188.0, 315.0, 140.0, 24.0 ],
 					"text" : "zmap -35 0 0 130"
 				}
 
@@ -1723,7 +1722,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.0, 262.0, 43.0, 20.0 ]
+					"patching_rect" : [ 188.0, 273.0, 43.0, 20.0 ]
 				}
 
 			}
@@ -1756,7 +1755,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 188.0, 176.0, 128.0, 64.0 ],
 					"range" : [ -50, 0 ],
-					"release" : 2500,
+					"release" : 300,
 					"rounded" : 0,
 					"tepidcolor" : [ 0.862745, 0.784314, 0.392157, 1.0 ],
 					"warmcolor" : [ 0.862745, 0.588235, 0.313726, 1.0 ]
@@ -1772,7 +1771,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 188.0, 448.0, 306.0, 27.0 ],
+					"patching_rect" : [ 188.0, 464.0, 306.0, 27.0 ],
 					"text" : "jit.qt.movie @adapt 1 @autostart 0"
 				}
 
@@ -1819,7 +1818,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 179.0, 256.0, 170.0, 120.0 ]
+					"patching_rect" : [ 179.0, 267.0, 170.0, 120.0 ]
 				}
 
 			}
@@ -1868,7 +1867,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 102.0, 433.5, 197.5, 433.5 ],
+					"midpoints" : [ 102.0, 449.5, 197.5, 449.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 

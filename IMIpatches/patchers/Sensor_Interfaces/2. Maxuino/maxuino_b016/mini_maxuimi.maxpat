@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -92,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -231,7 +231,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -464,7 +464,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -564,7 +564,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -672,7 +672,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 404.5, 68.0, 90.0, 20.0 ],
+					"patching_rect" : [ 404.5, 67.0, 90.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -714,7 +714,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 318.5, 275.0, 125.0, 18.0 ],
-					"text" : "no arduino"
+					"text" : "usbmodem1d1141"
 				}
 
 			}
@@ -732,7 +732,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1169,7 +1169,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1672,7 +1672,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1934,7 +1934,7 @@
 					"fontname" : "Trebuchet MS",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
-					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
+					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem", ",", "usbmodem1d1141" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2018,15 +2018,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-235", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-123", 0 ]
 				}
 
 			}
@@ -2305,18 +2296,32 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
+			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
+			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
+			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
+			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
+			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
+			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
+			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
+			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
+			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
+			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
+			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
+			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
+			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ],
+			"obj-53::obj-125::obj-695::obj-126" : [ "value[34]", "value", 0 ],
 			"obj-53::obj-125::obj-690::obj-126" : [ "value[39]", "value", 0 ],
 			"obj-53::obj-125::obj-715::obj-126" : [ "value[44]", "value", 0 ],
 			"obj-53::obj-125::obj-710::obj-126" : [ "value[49]", "value", 0 ],
+			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
 			"obj-53::obj-125::obj-36::obj-126" : [ "value[54]", "value", 0 ],
-			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
 			"obj-53::obj-125::obj-29::obj-126" : [ "value[59]", "value", 0 ],
 			"obj-53::obj-125::obj-645::obj-126" : [ "value[5]", "value", 0 ],
 			"obj-53::obj-125::obj-19::obj-126" : [ "value[64]", "value", 0 ],
 			"obj-53::obj-125::obj-667::obj-126" : [ "value[10]", "value", 0 ],
 			"obj-53::obj-125::obj-8::obj-126" : [ "value[69]", "value", 0 ],
 			"obj-53::obj-125::obj-654::obj-126" : [ "value[15]", "value", 0 ],
-			"obj-53::obj-125::obj-16" : [ "live.text", "live.text", 0 ],
 			"obj-53::obj-125::obj-687::obj-126" : [ "value[20]", "value", 0 ],
 			"obj-53::obj-125::obj-674::obj-126" : [ "value[25]", "value", 0 ],
 			"obj-53::obj-125::obj-707::obj-126" : [ "value[30]", "value", 0 ],
@@ -2335,6 +2340,7 @@
 			"obj-53::obj-125::obj-673::obj-126" : [ "value[26]", "value", 0 ],
 			"obj-53::obj-125::obj-698::obj-126" : [ "value[31]", "value", 0 ],
 			"obj-53::obj-125::obj-693::obj-126" : [ "value[36]", "value", 0 ],
+			"obj-53::obj-125::obj-504::obj-126" : [ "value", "value", 0 ],
 			"obj-53::obj-125::obj-718::obj-126" : [ "value[41]", "value", 0 ],
 			"obj-53::obj-125::obj-713::obj-126" : [ "value[46]", "value", 0 ],
 			"obj-53::obj-125::obj-759::obj-126" : [ "value[51]", "value", 0 ],
@@ -2360,22 +2366,7 @@
 			"obj-53::obj-125::obj-656::obj-126" : [ "value[13]", "value", 0 ],
 			"obj-53::obj-125::obj-651::obj-126" : [ "value[18]", "value", 0 ],
 			"obj-53::obj-125::obj-676::obj-126" : [ "value[23]", "value", 0 ],
-			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ],
-			"obj-53::obj-125::obj-696::obj-126" : [ "value[33]", "value", 0 ],
-			"obj-53::obj-125::obj-691::obj-126" : [ "value[38]", "value", 0 ],
-			"obj-53::obj-125::obj-716::obj-126" : [ "value[43]", "value", 0 ],
-			"obj-53::obj-125::obj-711::obj-126" : [ "value[48]", "value", 0 ],
-			"obj-53::obj-125::obj-757::obj-126" : [ "value[53]", "value", 0 ],
-			"obj-53::obj-125::obj-31::obj-126" : [ "value[58]", "value", 0 ],
-			"obj-53::obj-125::obj-644::obj-126" : [ "value[4]", "value", 0 ],
-			"obj-53::obj-125::obj-20::obj-126" : [ "value[63]", "value", 0 ],
-			"obj-53::obj-125::obj-649::obj-126" : [ "value[9]", "value", 0 ],
-			"obj-53::obj-125::obj-9::obj-126" : [ "value[68]", "value", 0 ],
-			"obj-53::obj-125::obj-655::obj-126" : [ "value[14]", "value", 0 ],
-			"obj-53::obj-125::obj-650::obj-126" : [ "value[19]", "value", 0 ],
-			"obj-53::obj-125::obj-675::obj-126" : [ "value[24]", "value", 0 ],
-			"obj-53::obj-125::obj-670::obj-126" : [ "value[29]", "value", 0 ],
-			"obj-53::obj-125::obj-695::obj-126" : [ "value[34]", "value", 0 ]
+			"obj-53::obj-125::obj-671::obj-126" : [ "value[28]", "value", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 827.0, 97.0, 635.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 0,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "bang" ],
+					"patching_rect" : [ 459.0, 102.0, 49.0, 20.0 ],
+					"text" : "t 1 0 b"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubblepoint" : 0.07,
 					"bubbleside" : 0,
@@ -40,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 192.0, 177.0, 66.0 ],
+					"patching_rect" : [ 455.0, 237.0, 177.0, 66.0 ],
 					"text" : "select en0 to see the IP of this computer, then use it in the\nIMI netSend patch."
 				}
 
@@ -50,13 +64,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-16",
-					"items" : [ "fe80:0:0:0:21b:63ff:fe92:c0f5%4", ",", "195.195.74.183" ],
+					"items" : [ "fe80:0:0:0:12dd:b1ff:fea1:b528%6", ",", "194.80.29.121" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 460.0, 169.0, 163.0, 22.0 ]
+					"patching_rect" : [ 459.0, 213.0, 163.0, 22.0 ]
 				}
 
 			}
@@ -65,13 +79,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-15",
-					"items" : [ "vnic1", ",", "vnic0", ",", "en1", ",", "lo0" ],
+					"items" : [ "en0", ",", "en1", ",", "lo0" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 538.0, 128.0, 65.0, 22.0 ]
+					"patching_rect" : [ 537.0, 172.0, 65.0, 22.0 ]
 				}
 
 			}
@@ -84,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 460.0, 62.0, 68.0, 22.0 ],
+					"patching_rect" : [ 459.0, 69.0, 68.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -98,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 460.0, 99.0, 97.0, 22.0 ],
+					"patching_rect" : [ 459.0, 143.0, 97.0, 22.0 ],
 					"text" : "mxj net.local"
 				}
 
@@ -159,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 321.0, 101.0, 24.0 ],
+					"patching_rect" : [ 407.0, 364.0, 101.0, 24.0 ],
 					"text" : "receive audio"
 				}
 
@@ -177,7 +191,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -378,7 +392,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 521.0, 321.0, 109.0, 22.0 ],
+					"patching_rect" : [ 512.0, 364.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -407,7 +421,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 356.0, 122.0, 24.0 ],
+					"patching_rect" : [ 367.0, 399.0, 122.0, 24.0 ],
 					"text" : "receive messages"
 				}
 
@@ -425,7 +439,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -462,7 +476,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -901,7 +915,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 500.0, 356.0, 132.0, 22.0 ],
+					"patching_rect" : [ 491.0, 399.0, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -928,7 +942,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 387.0, 80.0, 34.0 ]
+					"patching_rect" : [ 23.0, 387.0, 58.0, 34.0 ]
 				}
 
 			}
@@ -1050,7 +1064,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 453.0, 58.0, 177.147247, 142.0 ],
+					"patching_rect" : [ 455.0, 57.0, 177.0, 191.0 ],
 					"rounded" : 30
 				}
 
@@ -1103,10 +1117,39 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 498.5, 135.0, 468.5, 135.0 ],
+					"source" : [ "obj-13", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 483.5, 135.5, 546.5, 135.5 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1124,7 +1167,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 570.5, 158.0, 611.25, 158.0, 611.25, 91.0, 469.5, 91.0 ],
+					"midpoints" : [ 569.5, 202.0, 610.25, 202.0, 610.25, 135.0, 468.5, 135.0 ],
 					"source" : [ "obj-15", 1 ]
 				}
 

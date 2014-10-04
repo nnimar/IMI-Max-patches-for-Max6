@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -116,11 +116,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 703.0, 44.0, 431.0, 310.0 ],
+						"rect" : [ 675.0, 45.0, 266.0, 308.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -148,7 +148,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 329.0, 164.0, 24.0, 20.0 ],
+									"patching_rect" : [ 169.0, 161.0, 24.0, 20.0 ],
 									"text" : "t b"
 								}
 
@@ -162,7 +162,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "clear" ],
-									"patching_rect" : [ 286.0, 103.0, 46.0, 20.0 ],
+									"patching_rect" : [ 126.0, 100.0, 46.0, 20.0 ],
 									"text" : "t clear"
 								}
 
@@ -176,7 +176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 329.0, 135.0, 87.0, 20.0 ],
+									"patching_rect" : [ 169.0, 132.0, 87.0, 20.0 ],
 									"text" : "match 10 13"
 								}
 
@@ -190,7 +190,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 329.0, 70.0, 61.0, 20.0 ],
+									"patching_rect" : [ 169.0, 67.0, 61.0, 20.0 ],
 									"text" : "bucket 2"
 								}
 
@@ -198,13 +198,13 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 14.0,
+									"fontsize" : 12.0,
 									"id" : "obj-36",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 24.0, 177.0, 236.0, 22.0 ],
+									"patching_rect" : [ 20.0, 234.0, 204.0, 20.0 ],
 									"text" : "regexp .*X=(\\\\d+).*Y=(\\\\d+).*Z=(\\\\d+)"
 								}
 
@@ -218,7 +218,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 104.0, 143.0, 49.0, 20.0 ],
+									"patching_rect" : [ 20.0, 202.0, 49.0, 20.0 ],
 									"text" : "itoa"
 								}
 
@@ -232,7 +232,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 104.0, 117.0, 87.0, 20.0 ],
+									"patching_rect" : [ 20.0, 176.0, 87.0, 20.0 ],
 									"text" : "zl group 240"
 								}
 
@@ -245,7 +245,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 103.5, 14.0, 25.0, 25.0 ]
+									"patching_rect" : [ 19.5, 11.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -256,7 +256,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 78.0, 260.0, 25.0, 25.0 ]
+									"patching_rect" : [ 66.25, 267.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -266,7 +266,7 @@
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 338.5, 191.0, 267.0, 191.0, 267.0, 104.0, 113.5, 104.0 ],
+									"midpoints" : [ 178.5, 188.0, 116.0, 188.0, 116.0, 101.0, 29.5, 101.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -303,7 +303,7 @@
 									"destination" : [ "obj-33", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 380.5, 112.0, 338.5, 112.0 ],
+									"midpoints" : [ 220.5, 109.0, 178.5, 109.0 ],
 									"source" : [ "obj-34", 1 ]
 								}
 
@@ -331,7 +331,7 @@
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 113.5, 168.0, 33.5, 168.0 ],
+									"midpoints" : [ 29.5, 227.5, 29.5, 227.5 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -350,7 +350,7 @@
 									"destination" : [ "obj-34", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 113.0, 58.0, 338.5, 58.0 ],
+									"midpoints" : [ 29.0, 55.0, 178.5, 55.0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -360,6 +360,7 @@
 									"destination" : [ "obj-38", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 29.0, 105.5, 29.5, 105.5 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -424,7 +425,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -486,7 +487,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -839,7 +840,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
-					"items" : [ "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "FireFly-2573-SPP" ],
+					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP", ",", "Bluetooth-Modem" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -920,7 +921,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,

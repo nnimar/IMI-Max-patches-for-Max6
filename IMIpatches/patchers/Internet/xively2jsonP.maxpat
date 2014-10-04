@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -309,7 +309,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -722,7 +722,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -752,7 +752,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 319.0, 547.0, 21.0, 21.0 ]
+									"patching_rect" : [ 318.0, 547.0, 21.0, 21.0 ]
 								}
 
 							}
@@ -765,7 +765,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 319.0, 521.0, 86.0, 20.0 ],
+									"patching_rect" : [ 318.0, 521.0, 86.0, 20.0 ],
 									"text" : "sel Forbidden"
 								}
 
@@ -779,7 +779,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 319.0, 495.0, 60.0, 20.0 ],
+									"patching_rect" : [ 318.0, 495.0, 60.0, 20.0 ],
 									"text" : "route title"
 								}
 
@@ -873,7 +873,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1199,7 +1199,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 290.0, 51.0, 62.0, 20.0 ],
+									"patching_rect" : [ 290.0, 52.0, 62.0, 20.0 ],
 									"text" : "route text"
 								}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -42,11 +42,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 437.0, 468.0 ],
+						"rect" : [ 0.0, 70.0, 437.0, 468.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -109,7 +109,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -396,7 +396,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -785,7 +785,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 329.0, 371.0, 98.0, 39.0 ],
+									"patching_rect" : [ 304.5, 370.0, 98.0, 39.0 ],
 									"text" : "alias + file name"
 								}
 
@@ -799,8 +799,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 295.0, 409.0, 134.0, 20.0 ],
-									"text" : "buffer~ soundz talk.aiff"
+									"patching_rect" : [ 270.5, 408.0, 159.0, 20.0 ],
+									"text" : "buffer~ soundz cherokee.aif"
 								}
 
 							}
@@ -1208,11 +1208,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 70.0, 437.0, 468.0 ],
+						"rect" : [ 0.0, 26.0, 437.0, 468.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1283,7 +1283,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1594,7 +1594,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -2322,7 +2322,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -2584,7 +2584,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -3589,8 +3589,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-5::obj-3" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-5::obj-3" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-1::obj-7" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

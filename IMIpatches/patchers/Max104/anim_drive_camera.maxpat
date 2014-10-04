@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -69,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 555.0, 68.0, 24.0 ],
+					"patching_rect" : [ 382.0, 568.0, 68.0, 24.0 ],
 					"text" : "ground"
 				}
 
@@ -82,7 +82,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 150.0, 45.0, 19.0 ],
+					"patching_rect" : [ 47.0, 159.0, 45.0, 19.0 ],
 					"text" : "s draw"
 				}
 
@@ -168,7 +168,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -815,7 +815,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 22.0, 554.0, 355.0, 47.0 ],
+					"patching_rect" : [ 18.0, 567.0, 355.0, 47.0 ],
 					"text" : "jit.gl.gridshape @shape plane @color 0 0 0 1 @rotatexyz 90 0 0 @position 0 -0.5 0 @scale 100 100 100 @poly_mode 1 1 @dim 100 100 @line_width 3 @antialias 1"
 				}
 
@@ -834,7 +834,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -942,7 +942,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1722,7 +1722,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 364.0, 156.0, 135.0, 40.0 ],
+					"patching_rect" : [ 382.0, 159.0, 135.0, 40.0 ],
 					"text" : "double click to open ui-map editor"
 				}
 
@@ -1910,14 +1910,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 506.0, 530.0, 230.0, 20.0 ],
+					"patching_rect" : [ 506.0, 526.0, 286.0, 22.0 ],
 					"text" : "jit.gl.mesh @fog 1 @draw_mode polygon"
 				}
 
@@ -2047,14 +2047,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 18.0, 511.0, 208.0, 20.0 ],
+					"patching_rect" : [ 18.0, 526.0, 260.0, 22.0 ],
 					"text" : "jit.gl.gridshape @shape torus @fog 1"
 				}
 
@@ -2076,7 +2076,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"linecount" : 2,
@@ -2084,7 +2084,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 143.0, 159.0, 217.0, 33.0 ],
+					"patching_rect" : [ 143.0, 163.0, 234.0, 33.0 ],
 					"text" : "jit.anim.drive @ui_listen 1 @speed 10. @targetname myCam"
 				}
 
@@ -2167,6 +2167,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 168.5, 155.0, 152.5, 155.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -2185,7 +2186,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 93.5, 175.0, 19.5, 175.0 ],
+					"midpoints" : [ 93.5, 147.0, 19.5, 147.0 ],
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -2507,6 +2508,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 246.0, 156.0, 152.5, 156.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 

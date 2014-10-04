@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -260,7 +260,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -904,7 +904,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1580,7 +1580,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1890,7 +1890,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 558.0, 119.0, 59.0, 19.0 ],
+					"patching_rect" : [ 497.0, 120.0, 59.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 703.0, 143.0, 70.0, 19.0 ],
 					"text" : "loadbang"
@@ -2319,7 +2319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 256.0, 30.0 ],
+					"patching_rect" : [ 3.0, 3.0, 256.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 5.0, 256.0, 30.0 ],
 					"text" : "IMI GLslab+",
@@ -2497,7 +2497,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 722.0, 21.0 ],
+					"patching_rect" : [ 3.0, 31.0, 722.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 36.0, 628.0, 21.0 ],
 					"text" : "performs a GL accelerated grid-based evaluation using a shader. ",
@@ -2549,7 +2549,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 797.0, 51.0 ],
+					"patching_rect" : [ 2.0, 2.0, 797.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 3.0, 792.0, 55.0 ]
 				}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 328.630249, 152.0, 22.0 ],
+					"patching_rect" : [ 213.0, 324.630249, 152.0, 22.0 ],
 					"text" : "texture with GLmultiple"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 327.829071, 125.0, 20.0 ],
+					"patching_rect" : [ 9.0, 323.829071, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -74,7 +74,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 327.0, 133.0, 17.0 ],
+					"patching_rect" : [ 9.0, 323.0, 133.0, 17.0 ],
 					"text" : "load GLmultiple_textures"
 				}
 
@@ -93,7 +93,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 303.371796, 111.0, 20.0 ],
+					"patching_rect" : [ 9.0, 299.371796, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 432.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -112,7 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 306.0, 106.0, 16.0 ],
+					"patching_rect" : [ 9.0, 302.0, 106.0, 16.0 ],
 					"text" : "load GLmesh_shatter"
 				}
 
@@ -126,7 +126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 303.972687, 188.0, 22.0 ],
+					"patching_rect" : [ 213.0, 299.972687, 188.0, 22.0 ],
 					"text" : "shatters an image"
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 230.0, 119.0, 20.0 ],
+					"patching_rect" : [ 9.0, 226.0, 119.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 249.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -164,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 230.0, 141.0, 17.0 ],
+					"patching_rect" : [ 9.0, 226.0, 141.0, 17.0 ],
 					"text" : "load GLmesh_bfg-texture"
 				}
 
@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 230.0, 197.0, 22.0 ],
+					"patching_rect" : [ 213.0, 226.0, 197.0, 22.0 ],
 					"text" : "texture mapping with GLmesh"
 				}
 
@@ -192,7 +192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 279.315125, 190.0, 22.0 ],
+					"patching_rect" : [ 213.0, 275.315125, 190.0, 22.0 ],
 					"text" : "create texture coordinates"
 				}
 
@@ -211,7 +211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 278.91452, 164.0, 20.0 ],
+					"patching_rect" : [ 9.0, 274.91452, 164.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.0, 285.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -230,7 +230,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 279.0, 141.0, 16.0 ],
+					"patching_rect" : [ 9.0, 275.0, 141.0, 16.0 ],
 					"text" : "load GLmesh_texcoordinates"
 				}
 
@@ -249,7 +249,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 254.45726, 136.0, 20.0 ],
+					"patching_rect" : [ 9.0, 250.45726, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.0, 510.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -268,7 +268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 255.0, 124.0, 16.0 ],
+					"patching_rect" : [ 9.0, 251.0, 124.0, 16.0 ],
 					"text" : "load GLmesh_videoplane"
 				}
 
@@ -282,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 254.657562, 180.0, 22.0 ],
+					"patching_rect" : [ 213.0, 250.657562, 180.0, 22.0 ],
 					"text" : "set coordinates for a video"
 				}
 
@@ -401,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 377.5, 174.0, 38.0 ],
+					"patching_rect" : [ 213.0, 362.5, 174.0, 38.0 ],
 					"text" : "use sketch commands to \ncapture a texture"
 				}
 
@@ -486,7 +486,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 491.0, 181.0, 21.0 ],
+					"patching_rect" : [ 10.0, 476.0, 181.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 567.0, 242.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -505,7 +505,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 490.5, 173.0, 20.0 ],
+					"patching_rect" : [ 10.0, 475.5, 173.0, 20.0 ],
 					"text" : "load GLsketchtex_capture"
 				}
 
@@ -524,7 +524,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 516.0, 124.0, 20.0 ],
+					"patching_rect" : [ 10.0, 501.0, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 316.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -543,7 +543,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 515.5, 153.0, 20.0 ],
+					"patching_rect" : [ 10.0, 500.5, 153.0, 20.0 ],
 					"text" : "load GLnode_capture+"
 				}
 
@@ -672,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 491.5, 175.0, 38.0 ],
+					"patching_rect" : [ 213.0, 476.5, 175.0, 38.0 ],
 					"text" : "render multiple GL objects to a single texture"
 				}
 
@@ -691,7 +691,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 386.5, 122.0, 20.0 ],
+					"patching_rect" : [ 10.0, 371.5, 122.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 32.0, 158.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -714,7 +714,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 452.5, 133.0, 21.0 ],
+					"patching_rect" : [ 10.0, 437.5, 133.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 271.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -733,7 +733,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 453.0, 137.0, 17.0 ],
+					"patching_rect" : [ 10.0, 438.0, 137.0, 17.0 ],
 					"text" : "load GLsketch_capture+"
 				}
 
@@ -748,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 390.0, 127.0, 17.0 ],
+					"patching_rect" : [ 10.0, 375.0, 127.0, 17.0 ],
 					"text" : "load texture2GLsketch"
 				}
 
@@ -767,7 +767,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 427.5, 125.0, 20.0 ],
+					"patching_rect" : [ 10.0, 412.5, 125.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.0, 188.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -786,7 +786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 431.5, 169.0, 38.0 ],
+					"patching_rect" : [ 213.0, 416.5, 169.0, 38.0 ],
 					"text" : "capture an image as \na texture then use it."
 				}
 
@@ -845,7 +845,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 540.0, 52.0, 19.0 ],
+					"patching_rect" : [ 11.0, 525.0, 52.0, 19.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -877,7 +877,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 430.0, 130.0, 17.0 ],
+					"patching_rect" : [ 9.0, 415.0, 130.0, 17.0 ],
 					"text" : "load GLsketch_capture"
 				}
 
@@ -893,7 +893,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 365.0, 428.0, 4.0 ],
+					"patching_rect" : [ 2.0, 354.0, 428.0, 4.0 ],
 					"varname" : "autohelp_top_panel[3]"
 				}
 

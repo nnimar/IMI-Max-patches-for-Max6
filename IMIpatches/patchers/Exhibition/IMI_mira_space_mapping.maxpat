@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -191,7 +191,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -518,7 +518,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -854,7 +854,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u895003109"
+					"varname" : "u360000961"
 				}
 
 			}
@@ -1126,11 +1126,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 537.0, 44.0, 935.0, 223.0 ],
+						"rect" : [ 675.0, 44.0, 935.0, 223.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1494,7 +1494,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 834.0, 25.0, 25.0, 25.0 ]
+									"patching_rect" : [ 835.0, 25.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -2064,7 +2064,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -2198,7 +2198,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -3497,17 +3497,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22" : [ "rslider[3]", "rslider", 0 ],
-			"obj-18" : [ "rslider[4]", "rslider", 0 ],
-			"obj-2" : [ "rslider[6]", "rslider", 0 ],
-			"obj-14" : [ "live.button[1]", "live.button", 0 ],
-			"obj-76" : [ "rslider[5]", "rslider", 0 ],
-			"obj-9" : [ "toggle", "toggle", 0 ],
 			"obj-77" : [ "rslider[1]", "rslider", 0 ],
-			"obj-57" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-2" : [ "rslider[6]", "rslider", 0 ],
+			"obj-9" : [ "toggle", "toggle", 0 ],
 			"obj-41" : [ "number", "number", 0 ],
 			"obj-31" : [ "rslider[2]", "rslider", 0 ],
-			"obj-15" : [ "live.button[4]", "live.button", 0 ]
+			"obj-15" : [ "live.button[4]", "live.button", 0 ],
+			"obj-22" : [ "rslider[3]", "rslider", 0 ],
+			"obj-18" : [ "rslider[4]", "rslider", 0 ],
+			"obj-57" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-14" : [ "live.button[1]", "live.button", 0 ],
+			"obj-76" : [ "rslider[5]", "rslider", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -104,7 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 208.0, 80.0, 34.0 ]
+					"patching_rect" : [ 10.0, 208.0, 68.0, 34.0 ]
 				}
 
 			}
@@ -122,7 +122,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -787,7 +787,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1086,8 +1086,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 160.0, 291.0, 197.0, 20.0 ],
-					"text" : "jit.gl.videoplane @scale 1.333 1. 1."
+					"patching_rect" : [ 160.0, 291.0, 203.0, 20.0 ],
+					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
 
 			}

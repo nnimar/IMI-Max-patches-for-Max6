@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -97,8 +97,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 462.0, 413.0, 22.0 ],
-					"text" : "Warning : ajh.wiiremote is NOT compatible with Mac OS 10.8"
+					"patching_rect" : [ 18.0, 458.0, 477.0, 22.0 ],
+					"text" : "Warning : ajh.wiiremote is NOT compatible with Mac OS 10.8 and over"
 				}
 
 			}

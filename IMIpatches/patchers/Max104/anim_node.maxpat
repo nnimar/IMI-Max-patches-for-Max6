@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -147,7 +147,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -876,7 +876,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 641.0, 415.5, 82.0, 24.0 ],
+					"patching_rect" : [ 638.0, 415.5, 82.0, 24.0 ],
 					"text" : "pivot (red)"
 				}
 
@@ -899,14 +899,14 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.0, 417.5, 191.0, 20.0 ],
+					"patching_rect" : [ 447.0, 417.5, 188.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.3 0.3 0.3"
 				}
 
@@ -952,7 +952,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 348.5, 146.0, 129.0, 24.0 ],
+					"patching_rect" : [ 357.5, 146.0, 129.0, 24.0 ],
 					"text" : "static node (yellow)"
 				}
 
@@ -967,7 +967,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 436.0, 117.0, 102.0, 24.0 ],
+					"patching_rect" : [ 454.0, 116.0, 102.0, 24.0 ],
 					"text" : "root node (all)"
 				}
 
@@ -1005,15 +1005,15 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 142.0, 118.0, 291.0, 20.0 ],
-					"text" : "jit.anim.node @position 0. 0. -3. @rotatexyz 0. 90. 0."
+					"patching_rect" : [ 142.0, 118.0, 305.0, 20.0 ],
+					"text" : "jit.anim.node @position 0. 0. -6. @rotatexyz 0. 90. 0."
 				}
 
 			}
@@ -1069,7 +1069,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"frozen_object_attributes" : 					{
 						"position" : [ 0.0, 1.0, 0.0 ]
@@ -1080,7 +1080,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 179.0, 417.5, 187.0, 20.0 ],
+					"patching_rect" : [ 179.0, 417.5, 196.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.25 1 0.25"
 				}
 
@@ -1088,14 +1088,14 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 162.0, 148.0, 185.0, 20.0 ],
+					"patching_rect" : [ 162.0, 148.0, 194.0, 20.0 ],
 					"text" : "jit.anim.node @scale 0.26 1 0.26"
 				}
 

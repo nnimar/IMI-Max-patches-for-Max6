@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 44.0, 549.0, 341.0 ],
+		"rect" : [ 1.0, 44.0, 549.0, 379.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -689,7 +689,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 83.844299, 191.0, 37.0 ],
+					"patching_rect" : [ 316.0, 83.844299, 191.0, 37.0 ],
 					"text" : "4 plane matrix - first plane is time, followed by position x,y,z"
 				}
 
@@ -701,7 +701,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 170.0, 59.63472, 25.0, 25.0 ]
+					"patching_rect" : [ 190.0, 59.63472, 25.0, 25.0 ]
 				}
 
 			}
@@ -714,7 +714,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 92.844299, 121.0, 20.0 ],
+					"patching_rect" : [ 190.0, 92.844299, 121.0, 20.0 ],
 					"text" : "jit.matrix 4 float32 10"
 				}
 
@@ -729,7 +729,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 136.0, 153.0, 47.0 ],
+					"patching_rect" : [ 190.0, 136.0, 153.0, 47.0 ],
 					"text" : "jit.expr @expr (norm[0]*5) cos(norm[0]*TWOPI) sin(norm[0]*TWOPI 0."
 				}
 
@@ -784,8 +784,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.0, 165.0, 92.0, 33.0 ],
-					"text" : "jit.gl.render @camera 0 0 4"
+					"patching_rect" : [ 9.0, 165.0, 110.0, 33.0 ],
+					"text" : "jit.gl.render @camera 0 0 3"
 				}
 
 			}
@@ -813,7 +813,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 195.0, 265.790405, 79.0, 20.0 ],
+					"patching_rect" : [ 215.0, 293.790405, 79.0, 20.0 ],
 					"text" : "jit.gl.material"
 				}
 
@@ -823,13 +823,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.0, 296.0, 145.0, 33.0 ],
-					"text" : "jit.gl.gridshape @shape torus @scale 0.2 0.2 0.2"
+					"patching_rect" : [ 190.0, 324.0, 90.0, 47.0 ],
+					"text" : "jit.gl.gridshape @shape torus @scale 0.1"
 				}
 
 			}
@@ -842,7 +842,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4.0, 285.0, 138.0, 20.0 ],
+					"patching_rect" : [ 9.0, 285.0, 138.0, 20.0 ],
 					"text" : "jit.gl.path @name glpath"
 				}
 
@@ -852,11 +852,12 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-5",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 170.0, 227.946106, 359.0, 22.0 ],
+					"patching_rect" : [ 190.0, 227.946106, 153.0, 53.0 ],
 					"text" : "jit.anim.path @drawpath glpath @interpmode spline"
 				}
 
@@ -871,7 +872,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 198.0, 81.0, 20.0 ],
+					"patching_rect" : [ 215.0, 198.0, 81.0, 20.0 ],
 					"text_width" : 56.0
 				}
 

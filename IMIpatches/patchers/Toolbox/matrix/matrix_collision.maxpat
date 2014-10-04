@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 2.0, 44.0, 598.0, 633.0 ],
@@ -31,7 +32,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -47,7 +48,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -63,6 +64,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -76,6 +78,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -89,6 +92,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -112,8 +116,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 683.0, 47.0, 143.0, 180.0 ],
@@ -280,22 +285,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 8.0, 32.0, 48.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 18.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p startup"
@@ -306,12 +310,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-3",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 585.0, 245.0, 34.0 ],
+					"patching_rect" : [ 256.0, 585.0, 245.0, 33.0 ],
 					"text" : "if collision area is bigger than this threshold value (> 0.01) then output 1, else 0"
 				}
 
@@ -320,6 +325,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -407,6 +413,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -429,8 +436,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 605.0, 44.0, 287.0, 176.0 ],
@@ -574,22 +582,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 8.0, 233.0, 128.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 18.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p output both shapes"
@@ -637,8 +644,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 607.0, 44.0, 393.0, 233.0 ],
@@ -664,6 +672,7 @@
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -768,6 +777,7 @@
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -823,22 +833,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 452.0, 276.0, 140.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 18.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p join_alpha_channels"
@@ -880,6 +889,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -938,6 +948,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1031,8 +1042,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 609.0, 446.0, 371.0, 338.0 ],
@@ -1058,6 +1070,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1109,6 +1122,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1452,28 +1466,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "imi.draw.maxpat",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 216.0, 190.0, 160.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 18.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p draw shape2"
@@ -1482,11 +1489,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderDefaultBkgnd.pct",
 					"bottomvalue" : 120,
 					"id" : "obj-30",
-					"imagemask" : 1,
-					"knobpict" : "SliderDefaultKnob.pct",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1511,8 +1515,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 608.0, 44.0, 372.0, 345.0 ],
@@ -1538,6 +1543,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"frgb" : 0.0,
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1589,6 +1595,7 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1932,28 +1939,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "imi.draw.maxpat",
-								"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 8.0, 190.0, 160.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"tags" : "",
-						"fontsize" : 18.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 18.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 18.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p draw shape1"
@@ -1962,11 +1962,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bkgndpict" : "SliderDefaultBkgnd.pct",
 					"bottomvalue" : 120,
 					"id" : "obj-32",
-					"imagemask" : 1,
-					"knobpict" : "SliderDefaultKnob.pct",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1985,7 +1982,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-33",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -2276,23 +2272,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "SliderDefaultBkgnd.pct",
-				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../patches/picts",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SliderDefaultKnob.pct",
-				"bootpath" : "/Applications/Max6/patches/picts",
-				"patcherrelativepath" : "../../../patches/picts",
-				"type" : "PICT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "imi.draw.maxpat",
-				"bootpath" : "/Applications/Max6/examples/IMIpatches/Toolbox/_imi_objects",
-				"patcherrelativepath" : "../Toolbox/_imi_objects",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}

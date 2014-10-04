@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -84,7 +84,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 466.0, 459.0, 58.0, 20.0 ],
+					"patching_rect" : [ 474.0, 459.0, 58.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 445.0, 100.0, 20.0 ],
 					"text" : "more"
@@ -116,7 +116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 459.0, 155.0, 20.0 ],
+					"patching_rect" : [ 311.0, 459.0, 155.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 119.0, 322.0, 100.0, 20.0 ],
 					"text" : "Sensor interface folder"
@@ -240,7 +240,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 167.0, 459.0, 128.0, 20.0 ],
+					"patching_rect" : [ 175.0, 459.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.0, 551.0, 100.0, 20.0 ],
 					"text" : "IMI_sensors_tools"
@@ -441,7 +441,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 164.0, 230.0, 22.0 ],
+					"patching_rect" : [ 259.0, 162.0, 230.0, 22.0 ],
 					"text" : "Arduino >> Max >> Arduino (any)"
 				}
 
@@ -589,8 +589,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 259.0, 141.0, 270.0, 22.0 ],
-					"text" : "Install ConfigurableFirmata on the Arduino"
+					"patching_rect" : [ 259.0, 139.0, 270.0, 22.0 ],
+					"text" : "Install StandardFirmata on the Arduino"
 				}
 
 			}
@@ -702,7 +702,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -861,7 +861,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.5, 438.0, 94.0, 19.0 ],
+					"patching_rect" : [ 302.5, 459.0, 94.0, 19.0 ],
 					"text" : "SSensors.scpt"
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.0, 440.0, 131.0, 20.0 ],
+					"patching_rect" : [ 324.0, 418.0, 131.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 261.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -60,8 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 441.5, 124.0, 18.0 ],
-					"text" : "analogArray2max.ino"
+					"patching_rect" : [ 324.0, 420.0, 130.0, 18.0 ],
+					"text" : "analog2max_Array.ino"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.0, 472.0, 130.0, 20.0 ],
+					"patching_rect" : [ 324.0, 473.0, 130.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 519.0, 581.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -102,11 +102,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.0, 390.0, 132.0, 20.0 ],
+					"patching_rect" : [ 324.0, 442.0, 131.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 527.0, 441.0, 79.0, 17.0 ],
 					"rounded" : 20.0,
-					"text" : "open button2max6",
+					"text" : "open digitalArray",
 					"texton" : "Stop"
 				}
 
@@ -121,8 +121,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 390.5, 119.0, 18.0 ],
-					"text" : "digitalArray2max.ino"
+					"patching_rect" : [ 324.0, 443.0, 125.0, 18.0 ],
+					"text" : "digital2max_Array.ino"
 				}
 
 			}
@@ -140,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 323.0, 415.0, 130.0, 20.0 ],
+					"patching_rect" : [ 324.0, 394.0, 130.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 299.0, 354.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -159,7 +159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 414.5, 102.0, 18.0 ],
+					"patching_rect" : [ 324.0, 393.5, 102.0, 18.0 ],
 					"text" : "analog2max6.ino"
 				}
 
@@ -173,7 +173,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.0, 439.5, 82.0, 20.0 ],
+					"patching_rect" : [ 324.0, 418.0, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -192,7 +192,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -323,7 +323,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 323.0, 474.0, 76.0, 20.0 ],
+					"patching_rect" : [ 324.0, 475.0, 76.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -351,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 474.0, 103.0, 19.0 ],
+					"patching_rect" : [ 324.0, 475.0, 103.0, 19.0 ],
 					"text" : "SSensorsA.scpt"
 				}
 
@@ -499,7 +499,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -572,7 +572,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1405,7 +1405,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1575,7 +1575,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1853,7 +1853,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1957,7 +1957,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,

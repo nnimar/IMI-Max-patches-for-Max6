@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -144,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 430.0, 64.0, 16.0 ],
+					"patching_rect" : [ 383.0, 395.5, 64.0, 16.0 ],
 					"text" : "jit.str.regexp"
 				}
 
@@ -213,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 428.0, 60.0, 16.0 ],
+					"patching_rect" : [ 383.0, 395.5, 60.0, 16.0 ],
 					"text" : "jit.gl.text2D"
 				}
 
@@ -228,8 +228,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 313.0, 430.0, 60.0, 16.0 ],
-					"text" : "jit.gl.text3D"
+					"patching_rect" : [ 404.0, 446.0, 60.0, 16.0 ],
+					"text" : "IMI_text3D"
 				}
 
 			}
@@ -368,7 +368,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.0, 429.0, 69.0, 18.0 ],
+					"patching_rect" : [ 572.0, 446.0, 69.0, 18.0 ],
 					"text" : "prepend load"
 				}
 
@@ -491,7 +491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 426.0, 69.0, 18.0 ],
+					"patching_rect" : [ 493.0, 450.0, 69.0, 18.0 ],
 					"text" : "prepend help"
 				}
 
@@ -835,7 +835,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-31", 0 ]
@@ -972,7 +972,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "textbasics.png",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Global/image",
-				"patcherrelativepath" : "../Global/image",
+				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Global/image",
 				"type" : "PNG ",
 				"implicit" : 1
 			}

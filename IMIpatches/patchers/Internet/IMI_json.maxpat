@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -40,11 +40,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 958.0, 192.0, 398.0, 313.0 ],
+						"rect" : [ 957.0, 241.0, 398.0, 313.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -73,7 +73,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 314.0, 142.0, 36.0, 18.0 ],
-									"presentation_rect" : [ 457.0, 150.0, 0.0, 0.0 ],
 									"text" : "7.03"
 								}
 
@@ -88,7 +87,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 219.0, 143.0, 93.0, 18.0 ],
-									"presentation_rect" : [ 312.0, 144.0, 0.0, 0.0 ],
 									"text" : "\"Kindle Edition\""
 								}
 
@@ -103,7 +101,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 216.0, 114.0, 133.0, 20.0 ],
-									"presentation_rect" : [ 312.0, 110.0, 0.0, 0.0 ],
 									"text" : "dict.unpack type: price:"
 								}
 
@@ -174,7 +171,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 113.0, 16.0, 71.0, 18.0 ],
-									"presentation_rect" : [ 113.0, 9.0, 0.0, 0.0 ],
 									"text" : "get Price[1]"
 								}
 
@@ -258,7 +254,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 225.0, 135.0, 18.0 ],
+									"patching_rect" : [ 11.0, 226.0, 135.0, 18.0 ],
 									"text" : "\"The Cuckoo's Calling\""
 								}
 
@@ -330,8 +326,62 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 11.0, 225.0, 81.0, 20.0 ],
+									"text" : "loadmess set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 188.0, 254.0, 81.0, 20.0 ],
+									"text" : "loadmess set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"hidden" : 1,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 62.0, 141.0, 81.0, 20.0 ],
+									"text" : "loadmess set"
+								}
+
+							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
@@ -356,6 +406,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-15", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -393,6 +452,42 @@
 									"hidden" : 0,
 									"midpoints" : [ 225.5, 138.0, 302.5, 138.0 ],
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -498,6 +593,7 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -505,7 +601,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 524.0, 168.0, 53.0, 24.0 ],
+					"patching_rect" : [ 524.0, 168.0, 56.0, 24.0 ],
 					"text" : "try..."
 				}
 
@@ -615,7 +711,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 661.0, 414.0, 77.0, 18.0 ]
+					"patching_rect" : [ 661.0, 414.0, 77.0, 18.0 ],
+					"text" : "price 16.65"
 				}
 
 			}
@@ -802,7 +899,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 719.0, 294.0, 132.0, 18.0 ]
+					"patching_rect" : [ 719.0, 294.0, 132.0, 18.0 ],
+					"text" : "dictionary u933002298"
 				}
 
 			}
@@ -1078,6 +1176,30 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 414.0, 81.0, 20.0 ],
 					"text" : "loadmess set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"border" : 0,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-52",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 584.5, 170.0, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 
 			}

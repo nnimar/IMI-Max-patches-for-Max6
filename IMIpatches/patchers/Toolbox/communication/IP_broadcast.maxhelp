@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 626.0, 511.0 ],
+		"rect" : [ 0.0, 44.0, 626.0, 511.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -102,7 +102,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-41",
-					"items" : "<empty>",
+					"items" : "192.168.0.6",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -125,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -354,8 +354,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.25, 179.0, 90.0, 18.0 ],
-					"text" : "2.219.74.106"
+					"patching_rect" : [ 151.25, 179.0, 101.0, 18.0 ],
+					"text" : "90.204.178.216"
 				}
 
 			}
@@ -373,7 +373,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -462,7 +462,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 7,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -943,7 +943,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.5, 690.0, 127.0, 18.0 ],
-									"text" : "2.219.74.106"
+									"text" : "90.204.178.216"
 								}
 
 							}

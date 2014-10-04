@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 8,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 5.0, 44.0, 368.0, 485.0 ],
+		"rect" : [ 0.0, 44.0, 368.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -36,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 295.0, 249.0, 50.0, 23.0 ]
+					"patching_rect" : [ 295.0, 249.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -45,7 +46,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -61,7 +62,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -86,8 +87,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 381.0, 44.0, 239.0, 503.0 ],
@@ -114,6 +116,7 @@
 									"bubble" : 1,
 									"fontname" : "Verdana",
 									"fontsize" : 11.0,
+									"frgb" : 0.0,
 									"id" : "obj-48",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -253,6 +256,7 @@
 									"bubble" : 1,
 									"fontname" : "Verdana",
 									"fontsize" : 11.0,
+									"frgb" : 0.0,
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -579,22 +583,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 7.5, 205.0, 234.0, 23.0 ],
+					"patching_rect" : [ 7.5, 205.0, 234.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
-						"description" : ""
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p bouncy"
@@ -606,6 +609,7 @@
 					"bubble" : 1,
 					"fontname" : "Verdana",
 					"fontsize" : 11.0,
+					"frgb" : 0.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -672,6 +676,7 @@
 					"bubble" : 1,
 					"fontname" : "Verdana",
 					"fontsize" : 11.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -705,7 +710,6 @@
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"id" : "obj-29",
-					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"mode" : 1,
 					"numinlets" : 1,

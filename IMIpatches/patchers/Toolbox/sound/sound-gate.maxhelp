@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -95,8 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 69.0, 145.0, 80.0, 13.0 ],
-					"presentation_rect" : [ 108.0, 113.0, 0.0, 0.0 ]
+					"patching_rect" : [ 69.0, 145.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -133,7 +132,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 67.0, 25.0, 25.0 ]
+					"patching_rect" : [ 15.0, 63.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -146,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 15.0, 105.0, 41.5, 20.0 ],
+					"patching_rect" : [ 15.0, 101.0, 41.5, 20.0 ],
 					"text" : "adc~"
 				}
 
@@ -226,7 +225,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "sound_gate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/sound",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/sound",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

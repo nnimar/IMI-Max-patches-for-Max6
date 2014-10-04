@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -52,7 +52,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 500.0, 31.0, 32.0, 19.0 ],
+					"patching_rect" : [ 500.0, 32.0, 32.0, 19.0 ],
 					"text" : "v003",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -161,11 +161,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 547.0, 44.0, 492.0, 349.0 ],
+						"rect" : [ 545.0, 44.0, 492.0, 349.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -187,14 +187,14 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
+									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"frgb" : 0.0,
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 9.0, 190.0, 22.0 ],
+									"patching_rect" : [ 9.0, 9.0, 205.0, 22.0 ],
 									"text" : "Capacitance from touch pins\n"
 								}
 
@@ -1149,7 +1149,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -1550,13 +1550,13 @@
 					"fontname" : "Andale Mono",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"linecount" : 14,
+					"linecount" : 7,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 230.0, 193.0, 195.0 ],
-					"text" : "/portname \"Bluetooth-Serial-1\" \"Bluetooth-Serial-2\" \"SparkFun-BT-COM0\" \"Bluetooth-PDA-Sync\" \"BTGPS74R-SPP-1\" \"FireFly-2573-SPP\" \"Bluetooth-Modem\" \"usbmodem1411\"\n/rate/output 298\n/rate/input 49\n/mediansize/received 41\n/baud 115200\n/port \"h\"",
+					"patching_rect" : [ 178.0, 230.0, 193.0, 101.0 ],
+					"text" : "/portname \"Bluetooth-Serial-1\"\n/rate/output 0\n/rate/input 0\n/mediansize/received\n/baud 115200\n/port \"h\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1811,7 +1811,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "FullPacket" ],
+					"outlettype" : [ "FullPacket", "FullPacket" ],
 					"patching_rect" : [ 9.5, 194.0, 361.0, 27.0 ],
 					"text" : "o.io.slipserial h 115200"
 				}
@@ -1877,7 +1877,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -2056,7 +2056,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -2626,7 +2626,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3415,31 +3415,31 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-29" : [ "a[3]", "a", 0 ],
+			"obj-1::obj-106" : [ "a[56]", "a", 0 ],
+			"obj-28" : [ "a[2]", "a", 0 ],
+			"obj-3" : [ "a[1]", "a", 0 ],
+			"obj-1::obj-105" : [ "a[57]", "a", 0 ],
+			"obj-1::obj-104" : [ "a[58]", "a", 0 ],
+			"obj-1::obj-103" : [ "a[59]", "a", 0 ],
+			"obj-1::obj-102" : [ "a[60]", "a", 0 ],
+			"obj-39" : [ "a[26]", "a", 0 ],
+			"obj-1::obj-101" : [ "a[61]", "a", 0 ],
+			"obj-40" : [ "a[27]", "a", 0 ],
+			"obj-41" : [ "a[28]", "a", 0 ],
 			"obj-42" : [ "a[29]", "a", 0 ],
 			"obj-1::obj-19" : [ "a[50]", "a", 0 ],
-			"obj-1::obj-101" : [ "a[61]", "a", 0 ],
 			"obj-1::obj-20" : [ "a[51]", "a", 0 ],
 			"obj-1::obj-21" : [ "a[52]", "a", 0 ],
 			"obj-1::obj-23" : [ "a[53]", "a", 0 ],
 			"obj-1::obj-24" : [ "a[54]", "a", 0 ],
-			"obj-1::obj-25" : [ "a[55]", "a", 0 ],
-			"obj-1::obj-103" : [ "a[59]", "a", 0 ],
-			"obj-1::obj-102" : [ "a[60]", "a", 0 ],
-			"obj-1::obj-104" : [ "a[58]", "a", 0 ],
-			"obj-3" : [ "a[1]", "a", 0 ],
-			"obj-1::obj-106" : [ "a[56]", "a", 0 ],
-			"obj-1::obj-105" : [ "a[57]", "a", 0 ],
-			"obj-29" : [ "a[3]", "a", 0 ],
-			"obj-28" : [ "a[2]", "a", 0 ],
-			"obj-39" : [ "a[26]", "a", 0 ],
-			"obj-40" : [ "a[27]", "a", 0 ],
-			"obj-41" : [ "a[28]", "a", 0 ]
+			"obj-1::obj-25" : [ "a[55]", "a", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "o.io.slipserial.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
-				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals_1.0-78/odot/abstractions/io",
+				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals_1.0-78/odot/abstractions/io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3452,8 +3452,8 @@
 			}
 , 			{
 				"name" : "o.io.serial.display.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
-				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals/odot/abstractions/io",
+				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/externals/CNMAT/CNMAT_Externals_1.0-78/odot/abstractions/io",
+				"patcherrelativepath" : "../../../externals/CNMAT/CNMAT_Externals_1.0-78/odot/abstractions/io",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3487,6 +3487,14 @@
 			}
 , 			{
 				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.validate.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.print.mxo",
 				"type" : "iLaX"
 			}
 , 			{

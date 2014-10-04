@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 100.0, 577.0, 395.0 ],
+		"rect" : [ 100.0, 100.0, 576.0, 375.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,220 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 87.5, 261.0, 111.0, 24.0 ],
+					"presentation_rect" : [ 84.5, 260.0, 0.0, 0.0 ],
+					"text" : "configure pullup"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 1,
+							"revision" : 8,
+							"architecture" : "x86"
+						}
+,
+						"rect" : [ 684.0, 101.0, 277.0, 199.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-6",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 9.0, 9.0, 261.0, 47.0 ],
+									"text" : "You can configure any pins to a pullup by \n1. setting pin to input (pinMode -> input)\n2. turn on pullup resistors (digitalWrite -> high)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 68.0, 124.0, 127.0, 20.0 ],
+									"presentation_rect" : [ 75.0, 66.0, 0.0, 0.0 ],
+									"text" : "read all digital"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 68.0, 98.0, 127.0, 20.0 ],
+									"presentation_rect" : [ 75.0, 41.0, 0.0, 0.0 ],
+									"text" : "digitalWrite (2, HIGH)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 68.0, 72.0, 119.0, 20.0 ],
+									"text" : "pinMode (2, INPUT)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-27",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 9.0, 125.0, 26.5, 18.0 ],
+									"text" : "r d"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-26",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 9.0, 99.0, 49.0, 18.0 ],
+									"text" : "w d 2 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 9.0, 73.0, 51.0, 18.0 ],
+									"text" : "p m 2 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-29",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 9.0, 152.0, 25.0, 25.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 26.5, 263.0, 53.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p pullup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
 					"border" : 1,
@@ -41,7 +255,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 481.0, 311.5, 91.0, 20.0 ],
+					"patching_rect" : [ 475.0, 288.5, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 365.0, 204.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -61,7 +275,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 367.0, 137.0, 24.0 ],
+					"patching_rect" : [ 246.0, 344.0, 137.0, 24.0 ],
 					"text" : "install on the Arduino"
 				}
 
@@ -80,7 +294,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 439.0, 340.5, 134.0, 20.0 ],
+					"patching_rect" : [ 433.0, 317.5, 134.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 241.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -103,7 +317,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 393.0, 368.5, 180.0, 20.0 ],
+					"patching_rect" : [ 387.0, 345.5, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 324.5, 79.0, 17.0 ],
 					"rounded" : 20.0,
@@ -122,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 368.5, 145.0, 18.0 ],
+					"patching_rect" : [ 392.0, 345.5, 145.0, 18.0 ],
 					"text" : "basic_communication.ino"
 				}
 
@@ -136,7 +350,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 368.5, 82.0, 20.0 ],
+					"patching_rect" : [ 390.0, 345.5, 82.0, 20.0 ],
 					"text" : "imi.docloader"
 				}
 
@@ -152,7 +366,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 312.0, 133.0, 49.0 ],
+					"patching_rect" : [ 435.0, 289.0, 133.0, 49.0 ],
 					"text" : ";\rmax launchbrowser http://playground.arduino.cc/Code/Messenger"
 				}
 
@@ -167,7 +381,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 132.0, 154.0, 24.0 ],
+					"patching_rect" : [ 87.5, 154.0, 154.0, 24.0 ],
 					"text" : "pinMode (13, OUTPUT)"
 				}
 
@@ -182,7 +396,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 193.0, 192.0, 24.0 ],
+					"patching_rect" : [ 323.0, 154.0, 192.0, 24.0 ],
 					"text" : "digitalWrite (13, LOW or HIGH)"
 				}
 
@@ -197,7 +411,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 269.0, 126.0, 24.0 ],
+					"patching_rect" : [ 220.5, 210.0, 126.0, 24.0 ],
 					"text" : "read all digital pins"
 				}
 
@@ -212,7 +426,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 233.0, 130.0, 24.0 ],
+					"patching_rect" : [ 54.5, 210.0, 130.0, 24.0 ],
 					"text" : "read all analog pins"
 				}
 
@@ -258,7 +472,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 270.0, 26.5, 18.0 ],
+					"patching_rect" : [ 191.5, 213.0, 26.5, 18.0 ],
 					"text" : "r d"
 				}
 
@@ -272,7 +486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 235.0, 25.5, 18.0 ],
+					"patching_rect" : [ 26.5, 213.0, 25.5, 18.0 ],
 					"text" : "r a"
 				}
 
@@ -285,7 +499,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 92.0, 170.0, 20.0, 20.0 ]
+					"patching_rect" : [ 257.0, 130.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -298,7 +512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 197.0, 63.0, 18.0 ],
+					"patching_rect" : [ 257.0, 157.0, 63.0, 18.0 ],
 					"text" : "w d 13 $1"
 				}
 
@@ -312,7 +526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 136.0, 57.0, 18.0 ],
+					"patching_rect" : [ 26.5, 157.0, 57.0, 18.0 ],
 					"text" : "p m 13 1"
 				}
 
@@ -327,7 +541,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 315.0, 131.0, 33.0 ],
+					"patching_rect" : [ 158.0, 293.0, 131.0, 33.0 ],
 					"text" : "argument 1: port.\nargument 2: baud rate"
 				}
 
@@ -342,7 +556,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 97.0, 81.0, 24.0 ],
+					"patching_rect" : [ 51.0, 96.0, 81.0, 24.0 ],
 					"text" : "select port"
 				}
 
@@ -356,8 +570,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 100.0, 41.0, 18.0 ],
-					"text" : "port c"
+					"patching_rect" : [ 5.0, 99.0, 41.0, 18.0 ],
+					"text" : "port h"
 				}
 
 			}
@@ -371,7 +585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 61.0, 131.0, 24.0 ],
+					"patching_rect" : [ 46.0, 63.0, 131.0, 24.0 ],
 					"text" : "print available ports"
 				}
 
@@ -385,7 +599,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 63.0, 34.0, 18.0 ],
+					"patching_rect" : [ 5.0, 65.0, 34.0, 18.0 ],
 					"text" : "print"
 				}
 
@@ -398,7 +612,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 367.0, 34.0, 20.0 ],
+					"patching_rect" : [ 5.0, 339.0, 34.0, 20.0 ],
 					"text" : "print"
 				}
 
@@ -412,7 +626,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 11.0, 322.0, 148.0, 22.0 ],
+					"patching_rect" : [ 5.0, 300.0, 148.0, 22.0 ],
 					"text" : "messenger c 115200"
 				}
 
@@ -428,7 +642,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 298.0, 122.0, 31.0 ],
+					"patching_rect" : [ 444.0, 275.0, 122.0, 31.0 ],
 					"text" : "load messenger+.maxpat"
 				}
 
@@ -443,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.0, 313.0, 53.0, 20.0 ],
+					"patching_rect" : [ 443.0, 290.0, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -487,6 +701,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 266.5, 189.0, 14.5, 189.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -514,6 +729,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 36.0, 240.0, 14.5, 240.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -523,6 +739,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 201.0, 240.0, 14.5, 240.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -568,6 +785,16 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 36.0, 292.0, 14.5, 292.0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -577,6 +804,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 36.0, 189.0, 14.5, 189.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 

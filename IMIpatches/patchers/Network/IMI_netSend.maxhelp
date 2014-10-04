@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -29,16 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"attr" : "host",
+					"bubble" : 1,
+					"bubblepoint" : 0.12,
+					"bubbleside" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 13.0,
+					"fontsize" : 11.595187,
+					"frgb" : 0.0,
 					"id" : "obj-4",
-					"maxclass" : "attrui",
+					"linecount" : 2,
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 334.241394, 111.0, 21.0 ],
-					"text_width" : 49.0
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 241.0, 111.0, 51.0 ],
+					"presentation_rect" : [ 395.0, 304.0, 0.0, 0.0 ],
+					"text" : "enter the receiver's IP address"
 				}
 
 			}
@@ -52,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 312.120697, 111.0, 21.0 ],
+					"patching_rect" : [ 14.0, 321.120697, 111.0, 21.0 ],
 					"text_width" : 48.0
 				}
 
@@ -67,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 289.0, 111.0, 21.0 ],
+					"patching_rect" : [ 14.0, 296.0, 111.0, 21.0 ],
 					"text_width" : 39.0
 				}
 
@@ -101,7 +105,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -523,7 +527,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -560,7 +564,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -943,7 +947,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 308.0, 349.0, 181.0, 17.0 ],
+					"patching_rect" : [ 308.0, 346.0, 181.0, 17.0 ],
 					"text" : "you can send messages here too"
 				}
 
@@ -1031,7 +1035,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -1259,7 +1263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 318.0, 106.0, 23.0 ],
+					"patching_rect" : [ 261.0, 438.0, 106.0, 23.0 ],
 					"text" : "network latency"
 				}
 
@@ -1297,7 +1301,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 363.5, 138.5, 363.5 ],
+					"midpoints" : [ 23.5, 363.5, 138.5, 363.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1366,7 +1370,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.5, 363.060364, 138.5, 363.060364 ],
+					"midpoints" : [ 23.5, 363.060364, 138.5, 363.060364 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1413,16 +1417,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 21.5, 364.120697, 138.5, 364.120697 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
